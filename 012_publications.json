@@ -1,0 +1,353 @@
+[
+  {
+    "cv": 57,
+    "citation": "Dominici et al. 2006 JAMA",
+    "mappings": [
+      "S1-01",
+      "S1-02",
+      "S1-03",
+      "S1-05",
+      "S1-06",
+      "S1-07"
+    ]
+  },
+  {
+    "cv": 61,
+    "citation": "Symons et al. 2006",
+    "mappings": [
+      "S1-05"
+    ]
+  },
+  {
+    "cv": 78,
+    "citation": "Peng et al. 2008 JAMA",
+    "mappings": [
+      "S1-01",
+      "S1-02",
+      "S1-09",
+      "S1-11"
+    ]
+  },
+  {
+    "cv": 89,
+    "citation": "Bell et al. 2009",
+    "mappings": [
+      "S1-02",
+      "S1-09",
+      "S1-10",
+      "S1-34"
+    ]
+  },
+  {
+    "cv": 92,
+    "citation": "Bell et al. 2009, Circulation",
+    "mappings": [
+      "S1-08",
+      "S1-33"
+    ]
+  },
+  {
+    "cv": 94,
+    "citation": "Bell et al. 2009",
+    "mappings": [
+      "S1-02",
+      "S1-09",
+      "S1-10",
+      "S1-34"
+    ]
+  },
+  {
+    "cv": 125,
+    "citation": "Barr et al. 2012",
+    "mappings": [
+      "S1-04"
+    ]
+  },
+  {
+    "cv": 132,
+    "citation": "Anderson et al. 2013, AJRCCM",
+    "mappings": [
+      "S1-02",
+      "S1-25"
+    ]
+  },
+  {
+    "cv": 134,
+    "citation": "Kioumourtzoglou et al. 2013",
+    "mappings": [
+      "S1-35"
+    ]
+  },
+  {
+    "cv": 136,
+    "citation": "Bell et al. 2014",
+    "mappings": [
+      "S1-34"
+    ]
+  },
+  {
+    "cv": 148,
+    "citation": "Zanobetti et al. 2014",
+    "mappings": [
+      "S1-14",
+      "S1-15"
+    ]
+  },
+  {
+    "cv": 153,
+    "citation": "Bobb (Obermeyer) et al. 2014, JAMA \"Cause-Specific Risk of Hospital Admission Related to Extreme Heat\"",
+    "mappings": [
+      "S1-24",
+      "S1-26"
+    ]
+  },
+  {
+    "cv": 171,
+    "citation": "Wang et al. 2016",
+    "mappings": [
+      "S1-24"
+    ]
+  },
+  {
+    "cv": 172,
+    "citation": "Bravo et al. 2016",
+    "mappings": [
+      "S1-01",
+      "S1-02"
+    ]
+  },
+  {
+    "cv": 173,
+    "citation": "Liu et al. 2016",
+    "mappings": [
+      "S1-27"
+    ]
+  },
+  {
+    "cv": 175,
+    "citation": "Liu et al. 2017",
+    "mappings": [
+      "S1-27"
+    ]
+  },
+  {
+    "cv": 177,
+    "citation": "Bobb et al. 2016, AJE \"Time-course of Cause-Specific Hospital Admissions during Snowstorms\"",
+    "mappings": [
+      "S1-28"
+    ]
+  },
+  {
+    "cv": 181,
+    "citation": "Berman et al. 2017, Lancet Planetary Health",
+    "mappings": [
+      "S1-29"
+    ]
+  },
+  {
+    "cv": 190,
+    "citation": "Hopp et al. 2018",
+    "mappings": [
+      "S1-24"
+    ]
+  },
+  {
+    "cv": 202,
+    "citation": "Rhee et al. 2019",
+    "mappings": [
+      "S1-12"
+    ]
+  },
+  {
+    "cv": 212,
+    "citation": "Lee et al. 2019",
+    "mappings": [
+      "S1-17"
+    ]
+  },
+  {
+    "cv": 220,
+    "citation": "Thomas et al. 2020/2022",
+    "mappings": [
+      "S1-13"
+    ]
+  },
+  {
+    "cv": 229,
+    "citation": "Rhee et al. 2020",
+    "mappings": [
+      "S1-12"
+    ]
+  },
+  {
+    "cv": 238,
+    "citation": "Yitshak-Sade et al. 2020",
+    "mappings": [
+      "S1-16"
+    ]
+  },
+  {
+    "cv": 240,
+    "citation": "Parks et al. 2021, Nature Communications",
+    "mappings": [
+      "S1-30"
+    ]
+  },
+  {
+    "cv": 242,
+    "citation": "Yan et al. 2021",
+    "mappings": [
+      "S1-13",
+      "S1-30"
+    ]
+  },
+  {
+    "cv": 244,
+    "citation": "Weinberger et al. 2021, AJE (Hurricane Sandy)",
+    "mappings": [
+      "S1-31"
+    ]
+  },
+  {
+    "cv": 245,
+    "citation": "Chen et al. 2021",
+    "mappings": [
+      "S1-01"
+    ]
+  },
+  {
+    "cv": 250,
+    "citation": "Carlsen et al. 2021",
+    "mappings": [
+      "S1-32"
+    ]
+  },
+  {
+    "cv": 252,
+    "citation": "Carlsen et al. 2021",
+    "mappings": [
+      "S1-32"
+    ]
+  },
+  {
+    "cv": 253,
+    "citation": "Chen et al. 2021",
+    "mappings": [
+      "S1-01"
+    ]
+  },
+  {
+    "cv": 268,
+    "citation": "Thomas et al. 2020/2022",
+    "mappings": [
+      "S1-13"
+    ]
+  },
+  {
+    "cv": 270,
+    "citation": "Qiu et al. 2022, Lancet Planetary Health",
+    "mappings": [
+      "S1-19"
+    ]
+  },
+  {
+    "cv": 271,
+    "citation": "Wei et al. 2022, AJRCCM",
+    "mappings": [
+      "S1-10"
+    ]
+  },
+  {
+    "cv": 281,
+    "citation": "Burrows et al. 2023",
+    "mappings": [
+      "S1-30"
+    ]
+  },
+  {
+    "cv": 282,
+    "citation": "Lee et al. 2023, EHP",
+    "mappings": [
+      "S1-18"
+    ]
+  },
+  {
+    "cv": 284,
+    "citation": "Schwartz et al. 2023",
+    "mappings": [
+      "S1-04"
+    ]
+  },
+  {
+    "cv": 293,
+    "citation": "Parks et al. 2023, Communications Medicine",
+    "mappings": [
+      "S1-20"
+    ]
+  },
+  {
+    "cv": 303,
+    "citation": "Feng et al. 2024, Nature Communications",
+    "mappings": [
+      "S1-36"
+    ]
+  },
+  {
+    "cv": 304,
+    "citation": "Sun et al. 2024 BMJ",
+    "mappings": [
+      "S1-01"
+    ]
+  },
+  {
+    "cv": 309,
+    "citation": "Feng et al. 2024, Nature Communications",
+    "mappings": [
+      "S1-36"
+    ]
+  },
+  {
+    "cv": 311,
+    "citation": "Qin et al. 2024",
+    "mappings": [
+      "S1-17"
+    ]
+  },
+  {
+    "cv": 320,
+    "citation": "Dong et al. 2025",
+    "mappings": [
+      "S1-17"
+    ]
+  },
+  {
+    "cv": 323,
+    "citation": "Yazdi et al. 2025",
+    "mappings": [
+      "S1-01",
+      "S1-37"
+    ]
+  },
+  {
+    "cv": 331,
+    "citation": "Willis et al. 2025",
+    "mappings": [
+      "S1-21"
+    ]
+  },
+  {
+    "cv": 339,
+    "citation": "Spoto et al. 2025",
+    "mappings": [
+      "S1-17"
+    ]
+  },
+  {
+    "cv": 341,
+    "citation": "Parks et al. 2026",
+    "mappings": [
+      "S1-22",
+      "S1-23"
+    ]
+  }
+]

@@ -1,0 +1,2728 @@
+{
+  "source": "Dominici_hospitalization_ICD_codes.md.pdf",
+  "title": "Causes of Hospitalization Linked to Short-Term Air Pollution / Weather Exposure",
+  "subtitle": "Based on Dr. Francesca Dominici's peer-reviewed publications (last 15 years, 2011–2026)",
+  "sections": {
+    "1": "From Dr. Dominici's Publications",
+    "2": "Additional ICD-9/ICD-10 Codes Associated with Short-Term Air Pollution or Weather (Broader Environmental Epidemiology Literature — Not Necessarily in the CV)"
+  },
+  "schema": {
+    "code_spec": "{type: 'code', code} | {type: 'range', start, end}; optional 'label' (parenthetical text in the source) and 'emphasis' (subset codes flagged with 'esp.').",
+    "parse_status": {
+      "parsed": "All codes in the cell were captured.",
+      "qualified": "Codes captured, but the cell qualifies them ('Multiple', 'Varies').",
+      "partial": "Some codes captured; the cell is open-ended ('etc.', 'site-specific ...').",
+      "unspecified": "No codes given in the cell.",
+      "reference": "Cell refers to another row.",
+      "none": "Cell is an em dash (—)."
+    },
+    "notation": "Codes and range dashes (–) kept exactly as printed; no normalization or expansion."
+  },
+  "document_notes": [
+    "Section 1 note: Several of these papers (e.g., #57, #78, #92, #89/#94, #136) report cardiovascular and respiratory hospital admissions as broad, pre-specified diagnostic categories (often built from CMS/Medicare claims) rather than single ICD codes — the ranges above reflect the standard groupings used in that literature (e.g., NMMAPS/Medicare cardiovascular and respiratory admission definitions).",
+    "ICD-9-CM vs. ICD-10-CM: U.S. claims data (Medicare/Medicaid) transitioned from ICD-9-CM to ICD-10-CM on October 1, 2015. Papers using data before this date use ICD-9; papers using more recent data use ICD-10 or a crosswalk.",
+    "\"Cardiovascular\" and \"respiratory\" admissions in air pollution epidemiology are frequently defined using standardized code groupings from the NMMAPS/Medicare literature (often built off the AHRQ Clinical Classifications Software or the ICD-9 ranges 390–459 and 460–519, respectively) rather than single diagnosis codes — this is the convention in most of Dr. Dominici's cardiorespiratory papers.",
+    "Where a paper's exact ICD code list was not published in the abstract/title, the codes shown reflect standard definitions used in equivalent published methods (e.g., Medicare claims-based hospitalization studies)."
+  ],
+  "mappings": [
+    {
+      "id": "S1-01",
+      "section": 1,
+      "row": 1,
+      "page": 2,
+      "outcome": "Cardiovascular disease (all-cause)",
+      "icd9cm": {
+        "raw": "390–459",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "390",
+            "end": "459"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "I00–I99",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "I00",
+            "end": "I99"
+          }
+        ]
+      },
+      "publications_raw": "Dominici et al. 2006 JAMA (#57); Peng et al. 2008 JAMA (#78); Bravo et al. 2016 (#172); Chen et al. 2021 (#245, #253); Sun et al. 2024 BMJ (#304); Yazdi et al. 2025 (#323)",
+      "publications": [
+        {
+          "citation": "Dominici et al. 2006 JAMA (#57)",
+          "cv_numbers": [
+            "57"
+          ]
+        },
+        {
+          "citation": "Peng et al. 2008 JAMA (#78)",
+          "cv_numbers": [
+            "78"
+          ]
+        },
+        {
+          "citation": "Bravo et al. 2016 (#172)",
+          "cv_numbers": [
+            "172"
+          ]
+        },
+        {
+          "citation": "Chen et al. 2021 (#245, #253)",
+          "cv_numbers": [
+            "245",
+            "253"
+          ]
+        },
+        {
+          "citation": "Sun et al. 2024 BMJ (#304)",
+          "cv_numbers": [
+            "304"
+          ]
+        },
+        {
+          "citation": "Yazdi et al. 2025 (#323)",
+          "cv_numbers": [
+            "323"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S1-02",
+      "section": 1,
+      "row": 2,
+      "page": 2,
+      "outcome": "Respiratory disease (all-cause)",
+      "icd9cm": {
+        "raw": "460–519",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "460",
+            "end": "519"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "J00–J99",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "J00",
+            "end": "J99"
+          }
+        ]
+      },
+      "publications_raw": "Dominici et al. 2006 JAMA (#57); Peng et al. 2008 JAMA (#78); Bell et al. 2009 (#89, #94); Bravo et al. 2016 (#172); Anderson et al. 2013 (#132)",
+      "publications": [
+        {
+          "citation": "Dominici et al. 2006 JAMA (#57)",
+          "cv_numbers": [
+            "57"
+          ]
+        },
+        {
+          "citation": "Peng et al. 2008 JAMA (#78)",
+          "cv_numbers": [
+            "78"
+          ]
+        },
+        {
+          "citation": "Bell et al. 2009 (#89, #94)",
+          "cv_numbers": [
+            "89",
+            "94"
+          ]
+        },
+        {
+          "citation": "Bravo et al. 2016 (#172)",
+          "cv_numbers": [
+            "172"
+          ]
+        },
+        {
+          "citation": "Anderson et al. 2013 (#132)",
+          "cv_numbers": [
+            "132"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S1-03",
+      "section": 1,
+      "row": 3,
+      "page": 2,
+      "outcome": "Ischemic heart disease",
+      "icd9cm": {
+        "raw": "410–414",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "410",
+            "end": "414"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "I20–I25",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "I20",
+            "end": "I25"
+          }
+        ]
+      },
+      "publications_raw": "Dominici et al. 2006 JAMA (#57)",
+      "publications": [
+        {
+          "citation": "Dominici et al. 2006 JAMA (#57)",
+          "cv_numbers": [
+            "57"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S1-04",
+      "section": 1,
+      "row": 4,
+      "page": 2,
+      "outcome": "Myocardial infarction (acute)",
+      "icd9cm": {
+        "raw": "410",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "code",
+            "code": "410"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "I21–I22",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "I21",
+            "end": "I22"
+          }
+        ]
+      },
+      "publications_raw": "Barr et al. 2012 (#125, smoking bans); Schwartz et al. 2023 (#284)",
+      "publications": [
+        {
+          "citation": "Barr et al. 2012 (#125, smoking bans)",
+          "cv_numbers": [
+            "125"
+          ]
+        },
+        {
+          "citation": "Schwartz et al. 2023 (#284)",
+          "cv_numbers": [
+            "284"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S1-05",
+      "section": 1,
+      "row": 5,
+      "page": 2,
+      "outcome": "Congestive heart failure",
+      "icd9cm": {
+        "raw": "428",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "code",
+            "code": "428"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "I50",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "code",
+            "code": "I50"
+          }
+        ]
+      },
+      "publications_raw": "Symons et al. 2006 (#61); Dominici et al. 2006 JAMA (#57)",
+      "publications": [
+        {
+          "citation": "Symons et al. 2006 (#61)",
+          "cv_numbers": [
+            "61"
+          ]
+        },
+        {
+          "citation": "Dominici et al. 2006 JAMA (#57)",
+          "cv_numbers": [
+            "57"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S1-06",
+      "section": 1,
+      "row": 6,
+      "page": 2,
+      "outcome": "Cardiac arrhythmia",
+      "icd9cm": {
+        "raw": "427",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "code",
+            "code": "427"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "I47–I49",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "I47",
+            "end": "I49"
+          }
+        ]
+      },
+      "publications_raw": "Dominici et al. 2006 JAMA (#57, cardiovascular admissions category)",
+      "publications": [
+        {
+          "citation": "Dominici et al. 2006 JAMA (#57, cardiovascular admissions category)",
+          "cv_numbers": [
+            "57"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S1-07",
+      "section": 1,
+      "row": 7,
+      "page": 2,
+      "outcome": "Cerebrovascular disease / stroke",
+      "icd9cm": {
+        "raw": "430–438",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "430",
+            "end": "438"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "I60–I69",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "I60",
+            "end": "I69"
+          }
+        ]
+      },
+      "publications_raw": "Dominici et al. 2006 JAMA (#57, cardiovascular category)",
+      "publications": [
+        {
+          "citation": "Dominici et al. 2006 JAMA (#57, cardiovascular category)",
+          "cv_numbers": [
+            "57"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S1-08",
+      "section": 1,
+      "row": 8,
+      "page": 2,
+      "outcome": "Carbon monoxide–associated cardiovascular admissions",
+      "icd9cm": {
+        "raw": "410–414, 427–428, 786.5 (chest pain)",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "410",
+            "end": "414"
+          },
+          {
+            "type": "range",
+            "start": "427",
+            "end": "428"
+          },
+          {
+            "type": "code",
+            "code": "786.5",
+            "label": "chest pain"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "I20–I25, I47–I50, R07.9",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "I20",
+            "end": "I25"
+          },
+          {
+            "type": "range",
+            "start": "I47",
+            "end": "I50"
+          },
+          {
+            "type": "code",
+            "code": "R07.9"
+          }
+        ]
+      },
+      "publications_raw": "Bell et al. 2009, Circulation (#92)",
+      "publications": [
+        {
+          "citation": "Bell et al. 2009, Circulation (#92)",
+          "cv_numbers": [
+            "92"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S1-09",
+      "section": 1,
+      "row": 9,
+      "page": 2,
+      "outcome": "Chronic obstructive pulmonary disease (COPD)",
+      "icd9cm": {
+        "raw": "490–492, 494–496",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "490",
+            "end": "492"
+          },
+          {
+            "type": "range",
+            "start": "494",
+            "end": "496"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "J40–J44",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "J40",
+            "end": "J44"
+          }
+        ]
+      },
+      "publications_raw": "Peng et al. 2008 JAMA (#78); Bell et al. 2009 (#89, #94)",
+      "publications": [
+        {
+          "citation": "Peng et al. 2008 JAMA (#78)",
+          "cv_numbers": [
+            "78"
+          ]
+        },
+        {
+          "citation": "Bell et al. 2009 (#89, #94)",
+          "cv_numbers": [
+            "89",
+            "94"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S1-10",
+      "section": 1,
+      "row": 10,
+      "page": 2,
+      "outcome": "Asthma",
+      "icd9cm": {
+        "raw": "493",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "code",
+            "code": "493"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "J45",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "code",
+            "code": "J45"
+          }
+        ]
+      },
+      "publications_raw": "Wei et al. 2022, AJRCCM (#271); Bell et al. 2009 (#89, #94)",
+      "publications": [
+        {
+          "citation": "Wei et al. 2022, AJRCCM (#271)",
+          "cv_numbers": [
+            "271"
+          ]
+        },
+        {
+          "citation": "Bell et al. 2009 (#89, #94)",
+          "cv_numbers": [
+            "89",
+            "94"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S1-11",
+      "section": 1,
+      "row": 11,
+      "page": 2,
+      "outcome": "Pneumonia / acute respiratory infection",
+      "icd9cm": {
+        "raw": "480–487",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "480",
+            "end": "487"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "J09–J18",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "J09",
+            "end": "J18"
+          }
+        ]
+      },
+      "publications_raw": "Peng et al. 2008 JAMA (#78, respiratory category)",
+      "publications": [
+        {
+          "citation": "Peng et al. 2008 JAMA (#78, respiratory category)",
+          "cv_numbers": [
+            "78"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S1-12",
+      "section": 1,
+      "row": 12,
+      "page": 3,
+      "outcome": "Acute respiratory distress syndrome (ARDS)",
+      "icd9cm": {
+        "raw": "518.82",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "code",
+            "code": "518.82"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "J80",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "code",
+            "code": "J80"
+          }
+        ]
+      },
+      "publications_raw": "Rhee et al. 2019 (#202); Rhee et al. 2020 (#229)",
+      "publications": [
+        {
+          "citation": "Rhee et al. 2019 (#202)",
+          "cv_numbers": [
+            "202"
+          ]
+        },
+        {
+          "citation": "Rhee et al. 2020 (#229)",
+          "cv_numbers": [
+            "229"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S1-13",
+      "section": 1,
+      "row": 13,
+      "page": 3,
+      "outcome": "Cardiorespiratory hospitalizations (combined CVD + respiratory)",
+      "icd9cm": {
+        "raw": "390–519",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "390",
+            "end": "519"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "I00–I99, J00–J99",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "I00",
+            "end": "I99"
+          },
+          {
+            "type": "range",
+            "start": "J00",
+            "end": "J99"
+          }
+        ]
+      },
+      "publications_raw": "Yan et al. 2021 (#242, tropical cyclones); Thomas et al. 2020/2022 (#220, #268)",
+      "publications": [
+        {
+          "citation": "Yan et al. 2021 (#242, tropical cyclones)",
+          "cv_numbers": [
+            "242"
+          ]
+        },
+        {
+          "citation": "Thomas et al. 2020/2022 (#220, #268)",
+          "cv_numbers": [
+            "220",
+            "268"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S1-14",
+      "section": 1,
+      "row": 14,
+      "page": 3,
+      "outcome": "Diabetes-related hospitalization/ exacerbation",
+      "icd9cm": {
+        "raw": "250",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "code",
+            "code": "250"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "E10–E14",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "E10",
+            "end": "E14"
+          }
+        ]
+      },
+      "publications_raw": "Zanobetti et al. 2014 (#148)",
+      "publications": [
+        {
+          "citation": "Zanobetti et al. 2014 (#148)",
+          "cv_numbers": [
+            "148"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S1-15",
+      "section": 1,
+      "row": 15,
+      "page": 3,
+      "outcome": "Neurological disorders (general)",
+      "icd9cm": {
+        "raw": "320–359",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "320",
+            "end": "359"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "G00–G99",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "G00",
+            "end": "G99"
+          }
+        ]
+      },
+      "publications_raw": "Zanobetti et al. 2014 (#148)",
+      "publications": [
+        {
+          "citation": "Zanobetti et al. 2014 (#148)",
+          "cv_numbers": [
+            "148"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S1-16",
+      "section": 1,
+      "row": 16,
+      "page": 3,
+      "outcome": "Chronic debilitating brain disorders",
+      "icd9cm": {
+        "raw": "290–294, 320–359",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "290",
+            "end": "294"
+          },
+          {
+            "type": "range",
+            "start": "320",
+            "end": "359"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "F01–F09, G00–G99",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "F01",
+            "end": "F09"
+          },
+          {
+            "type": "range",
+            "start": "G00",
+            "end": "G99"
+          }
+        ]
+      },
+      "publications_raw": "Yitshak-Sade et al. 2020 (#238)",
+      "publications": [
+        {
+          "citation": "Yitshak-Sade et al. 2020 (#238)",
+          "cv_numbers": [
+            "238"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S1-17",
+      "section": 1,
+      "row": 17,
+      "page": 3,
+      "outcome": "Dementia / Alzheimer's disease",
+      "icd9cm": {
+        "raw": "290.0, 331.0",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "code",
+            "code": "290.0"
+          },
+          {
+            "type": "code",
+            "code": "331.0"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "F01–F03, G30",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "F01",
+            "end": "F03"
+          },
+          {
+            "type": "code",
+            "code": "G30"
+          }
+        ]
+      },
+      "publications_raw": "Lee et al. 2019 (#212); Qin et al. 2024 (#311); Dong et al. 2025 (#320); Spoto et al. 2025 (#339)",
+      "publications": [
+        {
+          "citation": "Lee et al. 2019 (#212)",
+          "cv_numbers": [
+            "212"
+          ]
+        },
+        {
+          "citation": "Qin et al. 2024 (#311)",
+          "cv_numbers": [
+            "311"
+          ]
+        },
+        {
+          "citation": "Dong et al. 2025 (#320)",
+          "cv_numbers": [
+            "320"
+          ]
+        },
+        {
+          "citation": "Spoto et al. 2025 (#339)",
+          "cv_numbers": [
+            "339"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S1-18",
+      "section": 1,
+      "row": 18,
+      "page": 3,
+      "outcome": "Acute kidney injury / kidney disease",
+      "icd9cm": {
+        "raw": "584, 585",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "code",
+            "code": "584"
+          },
+          {
+            "type": "code",
+            "code": "585"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "N17, N18",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "code",
+            "code": "N17"
+          },
+          {
+            "type": "code",
+            "code": "N18"
+          }
+        ]
+      },
+      "publications_raw": "Lee et al. 2023, EHP (#282)",
+      "publications": [
+        {
+          "citation": "Lee et al. 2023, EHP (#282)",
+          "cv_numbers": [
+            "282"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S1-19",
+      "section": 1,
+      "row": 19,
+      "page": 3,
+      "outcome": "Psychiatric hospital admissions",
+      "icd9cm": {
+        "raw": "290–319",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "290",
+            "end": "319"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "F01–F99",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "F01",
+            "end": "F99"
+          }
+        ]
+      },
+      "publications_raw": "Qiu et al. 2022, Lancet Planetary Health (#270)",
+      "publications": [
+        {
+          "citation": "Qiu et al. 2022, Lancet Planetary Health (#270)",
+          "cv_numbers": [
+            "270"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S1-20",
+      "section": 1,
+      "row": 20,
+      "page": 3,
+      "outcome": "Alcohol- and substance-related disorders",
+      "icd9cm": {
+        "raw": "291, 303–305",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "code",
+            "code": "291"
+          },
+          {
+            "type": "range",
+            "start": "303",
+            "end": "305"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "F10–F19",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "F10",
+            "end": "F19"
+          }
+        ]
+      },
+      "publications_raw": "Parks et al. 2023, Communications Medicine (#293)",
+      "publications": [
+        {
+          "citation": "Parks et al. 2023, Communications Medicine (#293)",
+          "cv_numbers": [
+            "293"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S1-21",
+      "section": 1,
+      "row": 21,
+      "page": 3,
+      "outcome": "Psychiatric hospitalizations (boom–bust economic/oil-gas exposure context)",
+      "icd9cm": {
+        "raw": "290–319",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "290",
+            "end": "319"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "F01–F99",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "F01",
+            "end": "F99"
+          }
+        ]
+      },
+      "publications_raw": "Willis et al. 2025 (#331)",
+      "publications": [
+        {
+          "citation": "Willis et al. 2025 (#331)",
+          "cv_numbers": [
+            "331"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S1-22",
+      "section": 1,
+      "row": 22,
+      "page": 3,
+      "outcome": "Interpersonal violence–related visits (assault)",
+      "icd9cm": {
+        "raw": "E960–E969",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "E960",
+            "end": "E969"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "X92–Y09",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "X92",
+            "end": "Y09"
+          }
+        ]
+      },
+      "publications_raw": "Parks et al. 2026 (#341)",
+      "publications": [
+        {
+          "citation": "Parks et al. 2026 (#341)",
+          "cv_numbers": [
+            "341"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S1-23",
+      "section": 1,
+      "row": 23,
+      "page": 3,
+      "outcome": "Self-inflicted violence–related visits",
+      "icd9cm": {
+        "raw": "E950–E959",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "E950",
+            "end": "E959"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "X71–X83",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "X71",
+            "end": "X83"
+          }
+        ]
+      },
+      "publications_raw": "Parks et al. 2026 (#341)",
+      "publications": [
+        {
+          "citation": "Parks et al. 2026 (#341)",
+          "cv_numbers": [
+            "341"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S1-24",
+      "section": 1,
+      "row": 24,
+      "page": 3,
+      "outcome": "Heat stroke / heat-related illness",
+      "icd9cm": {
+        "raw": "992.0 (heat stroke), 992.0–992.9 (heat illness spectrum)",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "code",
+            "code": "992.0",
+            "label": "heat stroke"
+          },
+          {
+            "type": "range",
+            "start": "992.0",
+            "end": "992.9",
+            "label": "heat illness spectrum"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "T67.0XXA (heatstroke), T67.0–T67.9",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "code",
+            "code": "T67.0XXA",
+            "label": "heatstroke"
+          },
+          {
+            "type": "range",
+            "start": "T67.0",
+            "end": "T67.9"
+          }
+        ]
+      },
+      "publications_raw": "Wang et al. 2016 (#171); Bobb et al. 2014, JAMA (#153); Hopp et al. 2018 (#190)",
+      "publications": [
+        {
+          "citation": "Wang et al. 2016 (#171)",
+          "cv_numbers": [
+            "171"
+          ]
+        },
+        {
+          "citation": "Bobb et al. 2014, JAMA (#153)",
+          "cv_numbers": [
+            "153"
+          ]
+        },
+        {
+          "citation": "Hopp et al. 2018 (#190)",
+          "cv_numbers": [
+            "190"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S1-25",
+      "section": 1,
+      "row": 25,
+      "page": 4,
+      "outcome": "Heat-related respiratory hospitalization",
+      "icd9cm": {
+        "raw": "460–519",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "460",
+            "end": "519"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "J00–J99",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "J00",
+            "end": "J99"
+          }
+        ]
+      },
+      "publications_raw": "Anderson et al. 2013, AJRCCM (#132)",
+      "publications": [
+        {
+          "citation": "Anderson et al. 2013, AJRCCM (#132)",
+          "cv_numbers": [
+            "132"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S1-26",
+      "section": 1,
+      "row": 26,
+      "page": 4,
+      "outcome": "Cause-specific hospitalizations related to extreme heat (renal, respiratory, CVD, diabetes, etc., multi-cause)",
+      "icd9cm": {
+        "raw": "Multiple (250, 390–519, 584–586)",
+        "parse_status": "qualified",
+        "codes": [
+          {
+            "type": "code",
+            "code": "250"
+          },
+          {
+            "type": "range",
+            "start": "390",
+            "end": "519"
+          },
+          {
+            "type": "range",
+            "start": "584",
+            "end": "586"
+          }
+        ],
+        "note": "Cell reads 'Multiple (...)'; codes listed are examples of multiple cause groups."
+      },
+      "icd10cm": {
+        "raw": "Multiple (E10–E14, I00–I99, J00–J99, N17–N19)",
+        "parse_status": "qualified",
+        "codes": [
+          {
+            "type": "range",
+            "start": "E10",
+            "end": "E14"
+          },
+          {
+            "type": "range",
+            "start": "I00",
+            "end": "I99"
+          },
+          {
+            "type": "range",
+            "start": "J00",
+            "end": "J99"
+          },
+          {
+            "type": "range",
+            "start": "N17",
+            "end": "N19"
+          }
+        ],
+        "note": "Cell reads 'Multiple (...)'; codes listed are examples of multiple cause groups."
+      },
+      "publications_raw": "Bobb (Obermeyer) et al. 2014, JAMA \"Cause-Specific Risk of Hospital Admission Related to Extreme Heat\" (#153)",
+      "publications": [
+        {
+          "citation": "Bobb (Obermeyer) et al. 2014, JAMA \"Cause-Specific Risk of Hospital Admission Related to Extreme Heat\" (#153)",
+          "cv_numbers": [
+            "153"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S1-27",
+      "section": 1,
+      "row": 27,
+      "page": 4,
+      "outcome": "Wildfire smoke–associated hospital admissions (respiratory/ cardiovascular)",
+      "icd9cm": {
+        "raw": "460–519, 390–459",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "460",
+            "end": "519"
+          },
+          {
+            "type": "range",
+            "start": "390",
+            "end": "459"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "J00–J99, I00–I99",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "J00",
+            "end": "J99"
+          },
+          {
+            "type": "range",
+            "start": "I00",
+            "end": "I99"
+          }
+        ]
+      },
+      "publications_raw": "Liu et al. 2016 (#173); Liu et al. 2017 (#175)",
+      "publications": [
+        {
+          "citation": "Liu et al. 2016 (#173)",
+          "cv_numbers": [
+            "173"
+          ]
+        },
+        {
+          "citation": "Liu et al. 2017 (#175)",
+          "cv_numbers": [
+            "175"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S1-28",
+      "section": 1,
+      "row": 28,
+      "page": 4,
+      "outcome": "Snowstorm-associated, cause-specific hospital admissions",
+      "icd9cm": {
+        "raw": "Varies by cause (injury, cardiovascular, respiratory)",
+        "parse_status": "unspecified",
+        "codes": [],
+        "note": "No ICD-9 codes given; varies by cause (injury, cardiovascular, respiratory)."
+      },
+      "icd10cm": {
+        "raw": "Varies (S00–T88, I00–I99, J00–J99)",
+        "parse_status": "qualified",
+        "codes": [
+          {
+            "type": "range",
+            "start": "S00",
+            "end": "T88"
+          },
+          {
+            "type": "range",
+            "start": "I00",
+            "end": "I99"
+          },
+          {
+            "type": "range",
+            "start": "J00",
+            "end": "J99"
+          }
+        ],
+        "note": "Cell reads 'Varies (...)'; codes varied by cause."
+      },
+      "publications_raw": "Bobb et al. 2016, AJE \"Time-course of Cause-Specific Hospital Admissions during Snowstorms\" (#177)",
+      "publications": [
+        {
+          "citation": "Bobb et al. 2016, AJE \"Time-course of Cause-Specific Hospital Admissions during Snowstorms\" (#177)",
+          "cv_numbers": [
+            "177"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S1-29",
+      "section": 1,
+      "row": 29,
+      "page": 4,
+      "outcome": "Drought-associated hospital admissions/ mortality (older adults)",
+      "icd9cm": {
+        "raw": "Not cause-specific in abstract; general morbidity",
+        "parse_status": "unspecified",
+        "codes": [],
+        "note": "Not cause-specific in abstract; general morbidity."
+      },
+      "icd10cm": {
+        "raw": "—",
+        "parse_status": "none",
+        "codes": []
+      },
+      "publications_raw": "Berman et al. 2017, Lancet Planetary Health (#181)",
+      "publications": [
+        {
+          "citation": "Berman et al. 2017, Lancet Planetary Health (#181)",
+          "cv_numbers": [
+            "181"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S1-30",
+      "section": 1,
+      "row": 30,
+      "page": 4,
+      "outcome": "Tropical cyclone–associated hospitalization (older adults, general and cardiorespiratory)",
+      "icd9cm": {
+        "raw": "390–519",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "390",
+            "end": "519"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "I00–I99, J00–J99",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "I00",
+            "end": "I99"
+          },
+          {
+            "type": "range",
+            "start": "J00",
+            "end": "J99"
+          }
+        ]
+      },
+      "publications_raw": "Parks et al. 2021, Nature Communications (#240); Yan et al. 2021 (#242); Burrows et al. 2023 (#281)",
+      "publications": [
+        {
+          "citation": "Parks et al. 2021, Nature Communications (#240)",
+          "cv_numbers": [
+            "240"
+          ]
+        },
+        {
+          "citation": "Yan et al. 2021 (#242)",
+          "cv_numbers": [
+            "242"
+          ]
+        },
+        {
+          "citation": "Burrows et al. 2023 (#281)",
+          "cv_numbers": [
+            "281"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S1-31",
+      "section": 1,
+      "row": 31,
+      "page": 4,
+      "outcome": "Hurricane-associated ED visits (by age and cause)",
+      "icd9cm": {
+        "raw": "Multiple, cause-stratified",
+        "parse_status": "unspecified",
+        "codes": [],
+        "note": "Multiple, cause-stratified; no codes given."
+      },
+      "icd10cm": {
+        "raw": "Multiple",
+        "parse_status": "unspecified",
+        "codes": [],
+        "note": "Multiple; no codes given."
+      },
+      "publications_raw": "Weinberger et al. 2021, AJE (Hurricane Sandy) (#244)",
+      "publications": [
+        {
+          "citation": "Weinberger et al. 2021, AJE (Hurricane Sandy) (#244)",
+          "cv_numbers": [
+            "244"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S1-32",
+      "section": 1,
+      "row": 32,
+      "page": 4,
+      "outcome": "Volcanic SO2 plume–associated respiratory morbidity",
+      "icd9cm": {
+        "raw": "460–519 (esp. 493 asthma, 490–496 COPD)",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "460",
+            "end": "519",
+            "emphasis": [
+              {
+                "type": "code",
+                "code": "493",
+                "label": "asthma"
+              },
+              {
+                "type": "range",
+                "start": "490",
+                "end": "496",
+                "label": "COPD"
+              }
+            ]
+          }
+        ],
+        "note": "Emphasis codes are a subset of the main range."
+      },
+      "icd10cm": {
+        "raw": "J00–J99 (esp. J45, J40–J44)",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "J00",
+            "end": "J99",
+            "emphasis": [
+              {
+                "type": "code",
+                "code": "J45"
+              },
+              {
+                "type": "range",
+                "start": "J40",
+                "end": "J44"
+              }
+            ]
+          }
+        ],
+        "note": "Emphasis codes are a subset of the main range."
+      },
+      "publications_raw": "Carlsen et al. 2021 (#250, #252)",
+      "publications": [
+        {
+          "citation": "Carlsen et al. 2021 (#250, #252)",
+          "cv_numbers": [
+            "250",
+            "252"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S1-33",
+      "section": 1,
+      "row": 33,
+      "page": 4,
+      "outcome": "Emergency hospital admissions for CVD and ambient CO",
+      "icd9cm": {
+        "raw": "See CVD row above",
+        "parse_status": "reference",
+        "codes": [],
+        "note": "Refers to another row ('See CVD row above'); ambiguous whether the all-cause CVD row or the CO-associated CVD row."
+      },
+      "icd10cm": {
+        "raw": "See CVD row above",
+        "parse_status": "reference",
+        "codes": [],
+        "note": "Refers to another row ('See CVD row above'); ambiguous whether the all-cause CVD row or the CO-associated CVD row."
+      },
+      "publications_raw": "Bell et al. 2009, Circulation (#92)",
+      "publications": [
+        {
+          "citation": "Bell et al. 2009, Circulation (#92)",
+          "cv_numbers": [
+            "92"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S1-34",
+      "section": 1,
+      "row": 34,
+      "page": 4,
+      "outcome": "Hospital admissions and PM2.5 chemical composition (cardiorespiratory)",
+      "icd9cm": {
+        "raw": "390–519",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "390",
+            "end": "519"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "I00–I99, J00–J99",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "I00",
+            "end": "I99"
+          },
+          {
+            "type": "range",
+            "start": "J00",
+            "end": "J99"
+          }
+        ]
+      },
+      "publications_raw": "Bell et al. 2009 (#89, #94); Bell et al. 2014 (#136)",
+      "publications": [
+        {
+          "citation": "Bell et al. 2009 (#89, #94)",
+          "cv_numbers": [
+            "89",
+            "94"
+          ]
+        },
+        {
+          "citation": "Bell et al. 2014 (#136)",
+          "cv_numbers": [
+            "136"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S1-35",
+      "section": 1,
+      "row": 35,
+      "page": 4,
+      "outcome": "Emergency hospital admissions, primary organic particles (elderly, cardiorespiratory)",
+      "icd9cm": {
+        "raw": "390–519",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "390",
+            "end": "519"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "I00–I99, J00–J99",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "I00",
+            "end": "I99"
+          },
+          {
+            "type": "range",
+            "start": "J00",
+            "end": "J99"
+          }
+        ]
+      },
+      "publications_raw": "Kioumourtzoglou et al. 2013 (#134)",
+      "publications": [
+        {
+          "citation": "Kioumourtzoglou et al. 2013 (#134)",
+          "cv_numbers": [
+            "134"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S1-36",
+      "section": 1,
+      "row": 36,
+      "page": 5,
+      "outcome": "Non-respiratory infection hospital admissions (long-term PM2.5, included for completeness)",
+      "icd9cm": {
+        "raw": "001–139, 320–326, 590, etc. (infection-specific)",
+        "parse_status": "partial",
+        "codes": [
+          {
+            "type": "range",
+            "start": "001",
+            "end": "139"
+          },
+          {
+            "type": "range",
+            "start": "320",
+            "end": "326"
+          },
+          {
+            "type": "code",
+            "code": "590"
+          }
+        ],
+        "note": "List is open-ended ('etc.'); described as infection-specific."
+      },
+      "icd10cm": {
+        "raw": "A00–B99 and site-specific infection codes",
+        "parse_status": "partial",
+        "codes": [
+          {
+            "type": "range",
+            "start": "A00",
+            "end": "B99"
+          }
+        ],
+        "note": "Plus unspecified 'site-specific infection codes'."
+      },
+      "publications_raw": "Feng et al. 2024, Nature Communications (#303/#309)",
+      "publications": [
+        {
+          "citation": "Feng et al. 2024, Nature Communications (#303/#309)",
+          "cv_numbers": [
+            "303",
+            "309"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S1-37",
+      "section": 1,
+      "row": 37,
+      "page": 5,
+      "outcome": "Second cardiovascular event hospital admissions",
+      "icd9cm": {
+        "raw": "410–414, 428, 430–438",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "410",
+            "end": "414"
+          },
+          {
+            "type": "code",
+            "code": "428"
+          },
+          {
+            "type": "range",
+            "start": "430",
+            "end": "438"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "I20–I25, I50, I60–I69",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "I20",
+            "end": "I25"
+          },
+          {
+            "type": "code",
+            "code": "I50"
+          },
+          {
+            "type": "range",
+            "start": "I60",
+            "end": "I69"
+          }
+        ]
+      },
+      "publications_raw": "Yazdi et al. 2025 (#323)",
+      "publications": [
+        {
+          "citation": "Yazdi et al. 2025 (#323)",
+          "cv_numbers": [
+            "323"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "S2-01",
+      "section": 2,
+      "row": 1,
+      "page": 6,
+      "outcome": "Hypertensive crisis / hypertension",
+      "icd9cm": {
+        "raw": "401–405",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "401",
+            "end": "405"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "I10–I16",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "I10",
+            "end": "I16"
+          }
+        ]
+      },
+      "typical_exposure_raw": "Air pollution, heat",
+      "typical_exposure": [
+        "Air pollution",
+        "heat"
+      ]
+    },
+    {
+      "id": "S2-02",
+      "section": 2,
+      "row": 2,
+      "page": 6,
+      "outcome": "Atrial fibrillation (specific arrhythmia)",
+      "icd9cm": {
+        "raw": "427.31",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "code",
+            "code": "427.31"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "I48.0–I48.9",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "I48.0",
+            "end": "I48.9"
+          }
+        ]
+      },
+      "typical_exposure_raw": "Air pollution, temperature",
+      "typical_exposure": [
+        "Air pollution",
+        "temperature"
+      ]
+    },
+    {
+      "id": "S2-03",
+      "section": 2,
+      "row": 3,
+      "page": 6,
+      "outcome": "Cardiac arrest",
+      "icd9cm": {
+        "raw": "427.5",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "code",
+            "code": "427.5"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "I46.2, I46.8, I46.9",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "code",
+            "code": "I46.2"
+          },
+          {
+            "type": "code",
+            "code": "I46.8"
+          },
+          {
+            "type": "code",
+            "code": "I46.9"
+          }
+        ]
+      },
+      "typical_exposure_raw": "Ozone, PM2.5, extreme heat/cold",
+      "typical_exposure": [
+        "Ozone",
+        "PM2.5",
+        "extreme heat/cold"
+      ]
+    },
+    {
+      "id": "S2-04",
+      "section": 2,
+      "row": 4,
+      "page": 6,
+      "outcome": "Chronic bronchitis",
+      "icd9cm": {
+        "raw": "491",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "code",
+            "code": "491"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "J41–J42",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "J41",
+            "end": "J42"
+          }
+        ]
+      },
+      "typical_exposure_raw": "Air pollution",
+      "typical_exposure": [
+        "Air pollution"
+      ]
+    },
+    {
+      "id": "S2-05",
+      "section": 2,
+      "row": 5,
+      "page": 6,
+      "outcome": "Acute bronchitis",
+      "icd9cm": {
+        "raw": "466",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "code",
+            "code": "466"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "J20–J21",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "J20",
+            "end": "J21"
+          }
+        ]
+      },
+      "typical_exposure_raw": "Air pollution, cold weather",
+      "typical_exposure": [
+        "Air pollution",
+        "cold weather"
+      ]
+    },
+    {
+      "id": "S2-06",
+      "section": 2,
+      "row": 6,
+      "page": 6,
+      "outcome": "Upper respiratory tract infection",
+      "icd9cm": {
+        "raw": "460–465",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "460",
+            "end": "465"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "J00–J06",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "J00",
+            "end": "J06"
+          }
+        ]
+      },
+      "typical_exposure_raw": "Cold weather, air pollution",
+      "typical_exposure": [
+        "Cold weather",
+        "air pollution"
+      ]
+    },
+    {
+      "id": "S2-07",
+      "section": 2,
+      "row": 7,
+      "page": 6,
+      "outcome": "Otitis media",
+      "icd9cm": {
+        "raw": "381–382",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "381",
+            "end": "382"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "H65–H67",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "H65",
+            "end": "H67"
+          }
+        ]
+      },
+      "typical_exposure_raw": "Air pollution (pediatric)",
+      "typical_exposure": [
+        "Air pollution (pediatric)"
+      ]
+    },
+    {
+      "id": "S2-08",
+      "section": 2,
+      "row": 8,
+      "page": 6,
+      "outcome": "Conjunctivitis / eye irritation",
+      "icd9cm": {
+        "raw": "372.0",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "code",
+            "code": "372.0"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "H10",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "code",
+            "code": "H10"
+          }
+        ]
+      },
+      "typical_exposure_raw": "Ozone, particulate matter, wildfire smoke",
+      "typical_exposure": [
+        "Ozone",
+        "particulate matter",
+        "wildfire smoke"
+      ]
+    },
+    {
+      "id": "S2-09",
+      "section": 2,
+      "row": 9,
+      "page": 6,
+      "outcome": "Allergic rhinitis",
+      "icd9cm": {
+        "raw": "477",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "code",
+            "code": "477"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "J30",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "code",
+            "code": "J30"
+          }
+        ]
+      },
+      "typical_exposure_raw": "Pollen, air pollution interaction",
+      "typical_exposure": [
+        "Pollen",
+        "air pollution interaction"
+      ]
+    },
+    {
+      "id": "S2-10",
+      "section": 2,
+      "row": 10,
+      "page": 6,
+      "outcome": "Dehydration",
+      "icd9cm": {
+        "raw": "276.51",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "code",
+            "code": "276.51"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "E86.0",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "code",
+            "code": "E86.0"
+          }
+        ]
+      },
+      "typical_exposure_raw": "Extreme heat",
+      "typical_exposure": [
+        "Extreme heat"
+      ]
+    },
+    {
+      "id": "S2-11",
+      "section": 2,
+      "row": 11,
+      "page": 6,
+      "outcome": "Heat exhaustion / heat cramps",
+      "icd9cm": {
+        "raw": "992.3, 992.5–992.7",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "code",
+            "code": "992.3"
+          },
+          {
+            "type": "range",
+            "start": "992.5",
+            "end": "992.7"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "T67.3, T67.2, T67.6–T67.8",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "code",
+            "code": "T67.3"
+          },
+          {
+            "type": "code",
+            "code": "T67.2"
+          },
+          {
+            "type": "range",
+            "start": "T67.6",
+            "end": "T67.8"
+          }
+        ]
+      },
+      "typical_exposure_raw": "Extreme heat",
+      "typical_exposure": [
+        "Extreme heat"
+      ]
+    },
+    {
+      "id": "S2-12",
+      "section": 2,
+      "row": 12,
+      "page": 6,
+      "outcome": "Hypothermia",
+      "icd9cm": {
+        "raw": "991.6",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "code",
+            "code": "991.6"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "T68",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "code",
+            "code": "T68"
+          }
+        ]
+      },
+      "typical_exposure_raw": "Extreme cold",
+      "typical_exposure": [
+        "Extreme cold"
+      ]
+    },
+    {
+      "id": "S2-13",
+      "section": 2,
+      "row": 13,
+      "page": 6,
+      "outcome": "Frostbite",
+      "icd9cm": {
+        "raw": "991.0–991.3",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "991.0",
+            "end": "991.3"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "T33–T34",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "T33",
+            "end": "T34"
+          }
+        ]
+      },
+      "typical_exposure_raw": "Extreme cold",
+      "typical_exposure": [
+        "Extreme cold"
+      ]
+    },
+    {
+      "id": "S2-14",
+      "section": 2,
+      "row": 14,
+      "page": 6,
+      "outcome": "Cold exposure–related cardiovascular events",
+      "icd9cm": {
+        "raw": "410–414, 427–428",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "410",
+            "end": "414"
+          },
+          {
+            "type": "range",
+            "start": "427",
+            "end": "428"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "I20–I25, I47–I50",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "I20",
+            "end": "I25"
+          },
+          {
+            "type": "range",
+            "start": "I47",
+            "end": "I50"
+          }
+        ]
+      },
+      "typical_exposure_raw": "Cold weather",
+      "typical_exposure": [
+        "Cold weather"
+      ]
+    },
+    {
+      "id": "S2-15",
+      "section": 2,
+      "row": 15,
+      "page": 6,
+      "outcome": "Renal colic / kidney stones",
+      "icd9cm": {
+        "raw": "592",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "code",
+            "code": "592"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "N20",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "code",
+            "code": "N20"
+          }
+        ]
+      },
+      "typical_exposure_raw": "Extreme heat, dehydration",
+      "typical_exposure": [
+        "Extreme heat",
+        "dehydration"
+      ]
+    },
+    {
+      "id": "S2-16",
+      "section": 2,
+      "row": 16,
+      "page": 6,
+      "outcome": "Sepsis / urinary tract infection (heat-related renal stress)",
+      "icd9cm": {
+        "raw": "038, 599.0",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "code",
+            "code": "038"
+          },
+          {
+            "type": "code",
+            "code": "599.0"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "A41, N39.0",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "code",
+            "code": "A41"
+          },
+          {
+            "type": "code",
+            "code": "N39.0"
+          }
+        ]
+      },
+      "typical_exposure_raw": "Extreme heat",
+      "typical_exposure": [
+        "Extreme heat"
+      ]
+    },
+    {
+      "id": "S2-17",
+      "section": 2,
+      "row": 17,
+      "page": 6,
+      "outcome": "Rhabdomyolysis",
+      "icd9cm": {
+        "raw": "728.88",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "code",
+            "code": "728.88"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "M62.82",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "code",
+            "code": "M62.82"
+          }
+        ]
+      },
+      "typical_exposure_raw": "Extreme heat",
+      "typical_exposure": [
+        "Extreme heat"
+      ]
+    },
+    {
+      "id": "S2-18",
+      "section": 2,
+      "row": 18,
+      "page": 6,
+      "outcome": "Falls / weather-related injury (ice, snow)",
+      "icd9cm": {
+        "raw": "800–959 (injury codes), E880–E888",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "800",
+            "end": "959",
+            "label": "injury codes"
+          },
+          {
+            "type": "range",
+            "start": "E880",
+            "end": "E888"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "S00–T88, W00–W19",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "S00",
+            "end": "T88"
+          },
+          {
+            "type": "range",
+            "start": "W00",
+            "end": "W19"
+          }
+        ]
+      },
+      "typical_exposure_raw": "Snow/ice storms",
+      "typical_exposure": [
+        "Snow/ice storms"
+      ]
+    },
+    {
+      "id": "S2-19",
+      "section": 2,
+      "row": 19,
+      "page": 6,
+      "outcome": "Carbon monoxide poisoning",
+      "icd9cm": {
+        "raw": "986",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "code",
+            "code": "986"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "T58",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "code",
+            "code": "T58"
+          }
+        ]
+      },
+      "typical_exposure_raw": "Cold weather (heating equipment use), power outages",
+      "typical_exposure": [
+        "Cold weather (heating equipment use)",
+        "power outages"
+      ]
+    },
+    {
+      "id": "S2-20",
+      "section": 2,
+      "row": 20,
+      "page": 7,
+      "outcome": "Preterm birth / adverse birth outcomes",
+      "icd9cm": {
+        "raw": "644.2, 765",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "code",
+            "code": "644.2"
+          },
+          {
+            "type": "code",
+            "code": "765"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "O60, P07",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "code",
+            "code": "O60"
+          },
+          {
+            "type": "code",
+            "code": "P07"
+          }
+        ]
+      },
+      "typical_exposure_raw": "Air pollution (PM2.5, NO2), heat",
+      "typical_exposure": [
+        "Air pollution (PM2.5, NO2)",
+        "heat"
+      ]
+    },
+    {
+      "id": "S2-21",
+      "section": 2,
+      "row": 21,
+      "page": 7,
+      "outcome": "Low birth weight",
+      "icd9cm": {
+        "raw": "764",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "code",
+            "code": "764"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "P05",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "code",
+            "code": "P05"
+          }
+        ]
+      },
+      "typical_exposure_raw": "Air pollution",
+      "typical_exposure": [
+        "Air pollution"
+      ]
+    },
+    {
+      "id": "S2-22",
+      "section": 2,
+      "row": 22,
+      "page": 7,
+      "outcome": "Vector-borne disease hospitalizations (e.g., dengue, West Nile virus)",
+      "icd9cm": {
+        "raw": "061, 066.4",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "code",
+            "code": "061"
+          },
+          {
+            "type": "code",
+            "code": "066.4"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "A90–A91, A92.3",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "A90",
+            "end": "A91"
+          },
+          {
+            "type": "code",
+            "code": "A92.3"
+          }
+        ]
+      },
+      "typical_exposure_raw": "Temperature/climate variability",
+      "typical_exposure": [
+        "Temperature/climate variability"
+      ]
+    },
+    {
+      "id": "S2-23",
+      "section": 2,
+      "row": 23,
+      "page": 7,
+      "outcome": "Gastroenteritis / diarrheal disease",
+      "icd9cm": {
+        "raw": "558.9, 009",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "code",
+            "code": "558.9"
+          },
+          {
+            "type": "code",
+            "code": "009"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "A09, K52.9",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "code",
+            "code": "A09"
+          },
+          {
+            "type": "code",
+            "code": "K52.9"
+          }
+        ]
+      },
+      "typical_exposure_raw": "Extreme heat, flooding",
+      "typical_exposure": [
+        "Extreme heat",
+        "flooding"
+      ]
+    },
+    {
+      "id": "S2-24",
+      "section": 2,
+      "row": 24,
+      "page": 7,
+      "outcome": "Mental health crisis visits (general, beyond psychiatric admission category)",
+      "icd9cm": {
+        "raw": "300–316",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "300",
+            "end": "316"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "F40–F48, F90–F98",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "F40",
+            "end": "F48"
+          },
+          {
+            "type": "range",
+            "start": "F90",
+            "end": "F98"
+          }
+        ]
+      },
+      "typical_exposure_raw": "Heat, air pollution",
+      "typical_exposure": [
+        "Heat",
+        "air pollution"
+      ]
+    },
+    {
+      "id": "S2-25",
+      "section": 2,
+      "row": 25,
+      "page": 7,
+      "outcome": "Suicide attempt–related ED visits",
+      "icd9cm": {
+        "raw": "E950–E959",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "E950",
+            "end": "E959"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "X71–X83, T14.91",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "X71",
+            "end": "X83"
+          },
+          {
+            "type": "code",
+            "code": "T14.91"
+          }
+        ]
+      },
+      "typical_exposure_raw": "Heat",
+      "typical_exposure": [
+        "Heat"
+      ]
+    },
+    {
+      "id": "S2-26",
+      "section": 2,
+      "row": 26,
+      "page": 7,
+      "outcome": "Anxiety/mood disorder exacerbation",
+      "icd9cm": {
+        "raw": "296, 300",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "code",
+            "code": "296"
+          },
+          {
+            "type": "code",
+            "code": "300"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "F30–F39, F40–F41",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "range",
+            "start": "F30",
+            "end": "F39"
+          },
+          {
+            "type": "range",
+            "start": "F40",
+            "end": "F41"
+          }
+        ]
+      },
+      "typical_exposure_raw": "Air pollution, heat",
+      "typical_exposure": [
+        "Air pollution",
+        "heat"
+      ]
+    },
+    {
+      "id": "S2-27",
+      "section": 2,
+      "row": 27,
+      "page": 7,
+      "outcome": "Wildfire smoke–specific asthma/ COPD exacerbation",
+      "icd9cm": {
+        "raw": "493, 491–492, 496",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "code",
+            "code": "493"
+          },
+          {
+            "type": "range",
+            "start": "491",
+            "end": "492"
+          },
+          {
+            "type": "code",
+            "code": "496"
+          }
+        ]
+      },
+      "icd10cm": {
+        "raw": "J45, J41–J44",
+        "parse_status": "parsed",
+        "codes": [
+          {
+            "type": "code",
+            "code": "J45"
+          },
+          {
+            "type": "range",
+            "start": "J41",
+            "end": "J44"
+          }
+        ]
+      },
+      "typical_exposure_raw": "Wildfire PM2.5",
+      "typical_exposure": [
+        "Wildfire PM2.5"
+      ]
+    },
+    {
+      "id": "S2-28",
+      "section": 2,
+      "row": 28,
+      "page": 7,
+      "outcome": "All-cause emergency department visits (non-specific)",
+      "icd9cm": {
+        "raw": "—",
+        "parse_status": "none",
+        "codes": []
+      },
+      "icd10cm": {
+        "raw": "—",
+        "parse_status": "none",
+        "codes": []
+      },
+      "typical_exposure_raw": "Heat, air pollution (used as sensitivity outcome)",
+      "typical_exposure": [
+        "Heat",
+        "air pollution (used as sensitivity outcome)"
+      ]
+    }
+  ]
+}
