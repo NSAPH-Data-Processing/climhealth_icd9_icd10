@@ -160,6 +160,9 @@ def main():
             if not r["bib"]:
                 continue
             m = re.match(r"\s*@(\w+)\{([^,]*),", r["bib"])
+            if not m:
+                f.write(r["bib"] + "\n\n")
+                continue
             key = m.group(2) or "item"
             n = seen.get(key, 0)
             seen[key] = n + 1

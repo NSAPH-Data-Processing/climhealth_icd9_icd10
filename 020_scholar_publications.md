@@ -36,8 +36,8 @@ Built **independently of Step 1/1.2**: nothing from the PDF was used to fetch or
 | `duplicate_title` | 22 | 11 titles appear twice |
 
 592 records have no flags.
-3. **No date or topic filtering here.** For reference, 447 records are dated 2011–2026, which is the window the PDF claims to cover. Filtering is left for later steps, e.g. Step 2.2 (CMS Medicare outcomes).
+3. **No date or topic filtering here.** For reference, 447 records are dated 2011–2026, which is the window the PDF claims to cover. Filtering is left for later steps, e.g. Step 2.3 (CMS Medicare outcomes).
 
 ## Carry forward
-- Step 2.2 will need more than titles to judge whether a paper uses CMS Medicare outcomes. Options are abstracts (Scholar per-publication fetches, or PubMed/Crossref by title) or title keywords as a first pass.
+- Step 2.3 will need more than titles to judge whether a paper uses CMS Medicare outcomes. Options are abstracts (Scholar per-publication fetches, or PubMed/Crossref by title) or title keywords as a first pass.
 - Matching these records to the PDF's CV numbers (`#NN` in `012_publications.json`) is not possible directly. The CV numbering is not on Scholar, so matching would have to use author, year, and title.
