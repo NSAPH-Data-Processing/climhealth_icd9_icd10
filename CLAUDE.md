@@ -32,5 +32,8 @@ Independently from Step 1 mappings, pull out an actual publication list from Fra
 ### Step 2.1
 Create a script that pulls out citation .bib entries for each off the publications in the 020 json when possible. Null when not found.
 
+### Step 2.2
+Extract abstracts for as many of the publications as possible. Null when not found.
+
 ### Step 2.3
 If citation not Null, identify whether the Google Scholar publications uses CMS Medicare defined outcomes different than mortality and all-cause hospitalizations. If so, then outcome: True
