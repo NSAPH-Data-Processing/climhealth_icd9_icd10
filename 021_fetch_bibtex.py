@@ -5,8 +5,10 @@ only if it passes the match rule below, then fetch BibTeX for its DOI from Cross
 bib is null when no confident match is found.
 
 Match rule (see 021_bibtex.md):
-  title similarity >= MIN_SCORE  AND
-  (Dominici is an author  OR  (Scholar year known, |year diff| <= 1, title has >= 4 words))
+  Dominici is a Crossref author and title similarity >= MIN_SCORE (0.90),  OR
+  title similarity >= MIN_SCORE_NO_AUTHOR (0.95), Scholar year known, |year diff| <= 1,
+  and the title has >= 4 words.
+Titles that normalize to an empty string (e.g. non-Latin scripts) are never matched.
 
 Resumable: Crossref responses are cached in .cache/021_crossref.json.
 Requires the folder venv:  .venv/bin/python 021_fetch_bibtex.py
@@ -29,6 +31,7 @@ CACHE = ".cache/021_crossref.json"
 API = "https://api.crossref.org/works"
 ROWS = 5
 MIN_SCORE = 0.90
+MIN_SCORE_NO_AUTHOR = 0.95
 SKIP_TYPES = {"component", "peer-review", "grant", "dataset"}
 PAUSE = 1.0  # Crossref public pool: ~1 request/second
 
@@ -75,11 +78,13 @@ def year_of(item):
 def best_match(pub, items):
     target = norm(pub["title"])
     best = None
+    if not target:
+        return None
     for it in items:
         if it.get("type") in SKIP_TYPES:
             continue
-        score = max(difflib.SequenceMatcher(None, target, norm(t)).ratio()
-                    for t in candidates_titles(it))
+        score = max((difflib.SequenceMatcher(None, target, norm(t)).ratio()
+                     for t in candidates_titles(it) if norm(t)), default=0.0)
         dom = any((a.get("family") or "").lower() == "dominici" for a in it.get("author", []))
         cand = {"doi": it["DOI"], "crossref_title": candidates_titles(it)[-1],
                 "crossref_year": year_of(it), "crossref_type": it.get("type"),
@@ -97,7 +102,7 @@ def accept(pub, c):
     if c["dominici_in_authors"]:
         return True
     y, cy = pub["year"], c["crossref_year"]
-    return (y is not None and cy is not None and abs(y - cy) <= 1
+    return (c["score"] >= MIN_SCORE_NO_AUTHOR and y is not None and cy is not None and abs(y - cy) <= 1
             and len(pub["title"].split()) >= 4)
 
 
@@ -148,17 +153,27 @@ def main():
             print(f"{i}/{len(pubs)}", flush=True)
     save_cache()
 
+    # several Scholar records can resolve to the same DOI (duplicates, "Supplemental Material" entries)
+    by_doi = {}
+    for r in records:
+        if r["doi"]:
+            by_doi.setdefault(r["doi"], []).append(r["scholar_pub_id"])
+    for r in records:
+        r["same_doi_as"] = [x for x in by_doi.get(r["doi"], []) if x != r["scholar_pub_id"]]
+
     with open(OUT_JSON, "w", encoding="utf-8") as f:
         json.dump({"source": IN, "method": "Crossref title search + DOI BibTeX transform",
-                   "min_score": MIN_SCORE, "records": records}, f, ensure_ascii=False, indent=2)
+                   "min_score": MIN_SCORE,
+                   "min_score_no_author": MIN_SCORE_NO_AUTHOR, "records": records}, f, ensure_ascii=False, indent=2)
         f.write("\n")
 
     # .bib file: unique keys (Crossref keys like Dominici_2006 collide), Scholar id as a field
-    seen = {}
+    seen, seen_doi = {}, set()
     with open(OUT_BIB, "w", encoding="utf-8") as f:
         for r in records:
-            if not r["bib"]:
+            if not r["bib"] or r["doi"] in seen_doi:  # one entry per DOI
                 continue
+            seen_doi.add(r["doi"])
             m = re.match(r"\s*@(\w+)\{([^,]*),", r["bib"])
             key = m.group(2) or "item"
             n = seen.get(key, 0)
