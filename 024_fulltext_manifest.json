@@ -1,0 +1,1996 @@
+{
+  "source": "023_outcomes.json",
+  "scope": "uses_medicare True, outcome True, uncertain False; unique by DOI; conference abstracts dropped",
+  "n_in_scope": 90,
+  "n_dropped": 27,
+  "n_papers": 63,
+  "counts": {
+    "no_fulltext/None": 12,
+    "fulltext_no_supplements/pmc_aws": 23,
+    "fulltext/pmc_aws": 27,
+    "fulltext_no_supplements/openalex_oa_pdf": 1
+  },
+  "dropped": [
+    {
+      "doi": "10.1097/00001648-200611001-00157",
+      "year": 2006,
+      "title": "Chronic and Acute Exposure to Ambient Fine Particulate Matter and Other Air Pollutants: National Cohort Studies of Mortality and Morbidity",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:5ugPr518TE4C"
+      ],
+      "reason": "Epidemiology journal supplement abstract (ISEE meeting)"
+    },
+    {
+      "doi": "10.1097/01.ee9.0000606744.02910.23",
+      "year": 2019,
+      "title": "Assessing the short-term effect of PM2. 5 on cardiovascular hospitalizations in the Medicaid population: A case-crossover study",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:G1UMdFYMoxkC"
+      ],
+      "reason": "Environmental Epidemiology meeting abstract (ISEE supplement)"
+    },
+    {
+      "doi": "10.1097/01.ee9.0000609920.20979.4c",
+      "year": 2019,
+      "title": "Long-term effect of air pollution on hospital admissions among medicare participants using a doubly robust additive hazards model (drahm)",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:RuPIJ_LgqDgC"
+      ],
+      "reason": "Environmental Epidemiology meeting abstract (ISEE supplement)"
+    },
+    {
+      "doi": "10.1097/01.ee9.0000610872.60679.52",
+      "year": 2019,
+      "title": "Cause-specific emergency hospitalizations in New York City following Hurricane Sandy",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:mel-f30kHHgC"
+      ],
+      "reason": "Environmental Epidemiology meeting abstract (ISEE supplement)"
+    },
+    {
+      "doi": "10.1097/01.ee9.0000611088.17204.59",
+      "year": 2019,
+      "title": "Tropical cyclone exposure and risk of emergency Medicare hospital admissions for cardiorespiratory diseases in 175 United States counties, 1999-2010",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:s9ia6_kGH2AC"
+      ],
+      "reason": "Environmental Epidemiology meeting abstract (ISEE supplement)"
+    },
+    {
+      "doi": "10.1097/01.ee9.0000611200.02850.d6",
+      "year": 2019,
+      "title": "How Many Hospital admissions in Massachusetts Would Have Been Saved, Had the Particulate Air Pollution Level Been Lower?",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:8dzOF9BpDQoC"
+      ],
+      "reason": "Environmental Epidemiology meeting abstract (ISEE supplement)"
+    },
+    {
+      "doi": "10.1289/isee.2013.o-2-28-02",
+      "year": 2013,
+      "title": "Heat-related emergency hospitalizations for respiratory diseases in the Medicare population",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:VaXvl8Fpj5cC"
+      ],
+      "reason": "ISEE conference abstract (EHP abstract DOI)"
+    },
+    {
+      "doi": "10.1289/isee.2013.o-2-36-04",
+      "year": 2013,
+      "title": "The Impact of Source Contribution Uncertainty on the Effect of Source-Specific PM2. 5 on Cardiovascular Hospital Admissions",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:BW2nPTmhBn4C"
+      ],
+      "reason": "ISEE conference abstract (EHP abstract DOI)"
+    },
+    {
+      "doi": "10.1289/isee.2013.p-3-03-01",
+      "year": 2013,
+      "title": "A National analysis of the short term effect of PM2. 5 on hospitalizations and mortality in subjects with diabetes and the neurological impairment",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:cB__R-XWw9UC"
+      ],
+      "reason": "ISEE conference abstract (EHP abstract DOI)"
+    },
+    {
+      "doi": "10.1289/isee.2014.p1-189",
+      "year": 2016,
+      "title": "Long-term PM2.5 Exposure and Neurological Hospital Admissions in the Northeastern United States",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:5icHVeHT4IsC"
+      ],
+      "reason": "ISEE conference abstract (EHP abstract DOI)"
+    },
+    {
+      "doi": "10.1289/isee.2015.2015-558",
+      "year": 2015,
+      "title": "Effects Of Wildfire Smoke On Community Population Health In The Western Us",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:zGdJYJv2LkUC"
+      ],
+      "reason": "ISEE conference abstract (EHP abstract DOI)"
+    },
+    {
+      "doi": "10.1289/isee.2016.3304",
+      "year": 2016,
+      "title": "Does reducing PM2. 5 levels below the Annual National Ambient Air Quality Standards Causally Reduce Deaths and Hospitalizations?",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:W2uZP3ddy8sC"
+      ],
+      "reason": "ISEE conference abstract (EHP abstract DOI)"
+    },
+    {
+      "doi": "10.1289/isee.2017.2017-1032",
+      "year": 2017,
+      "title": "Cause-Specific Risk and Medical Cost Associated with Acute Exposure to PM2. 5 among Older Adults",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:FsLZdJ3BAzkC"
+      ],
+      "reason": "ISEE conference abstract (EHP abstract DOI)"
+    },
+    {
+      "doi": "10.1289/isee.2020.virtual.o-os-542",
+      "year": 2020,
+      "title": "The Causal Effect of PM2. 5 Exposure on Hospital Admissions Among Medicare Enrollees with Chronic Debilitating Brain Disorders: A National Study.",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:rLGzs9wiiwIC"
+      ],
+      "reason": "ISEE conference abstract (EHP abstract DOI)"
+    },
+    {
+      "doi": "10.1289/isee.2020.virtual.o-os-608",
+      "year": 2020,
+      "title": "Long-term Effects of Fine Particulate Matter on Neurological Disorders in the US Medicare Population: A Nationwide Analysis",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:R22Rs3tN8aoC"
+      ],
+      "reason": "ISEE conference abstract (EHP abstract DOI)"
+    },
+    {
+      "doi": "10.1289/isee.2020.virtual.o-os-654",
+      "year": 2020,
+      "title": "Coastal storms, hurricanes and multiple hospitalization outcomes in the United States",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:9shLKfS_uJEC"
+      ],
+      "reason": "ISEE conference abstract (EHP abstract DOI)"
+    },
+    {
+      "doi": "10.1289/isee.2021.o-lt-073",
+      "year": 2021,
+      "title": "Associations of Short-term Exposure to Air Pollution and Ambient Temperature Increase with Psychiatric Admissions in Elderly Adults",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:TGkaJS32XoUC"
+      ],
+      "reason": "ISEE conference abstract (EHP abstract DOI)"
+    },
+    {
+      "doi": "10.1289/isee.2021.o-to-007",
+      "year": 2021,
+      "title": "Heat alerts associated with higher rates of cause-specific hospital admissions but not lower mortality among older adults in the US",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:3A3nxV7CjKIC"
+      ],
+      "reason": "ISEE conference abstract (EHP abstract DOI)"
+    },
+    {
+      "doi": "10.1289/isee.2021.o-to-167",
+      "year": 2021,
+      "title": "Effects of long-term average temperature and temperature variability on cardiovascular disease hospitalizations in the US Medicare population",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:vnF2_uLGgtgC"
+      ],
+      "reason": "ISEE conference abstract (EHP abstract DOI)"
+    },
+    {
+      "doi": "10.1289/isee.2021.p-531",
+      "year": 2021,
+      "title": "Long-term Exposure to Air Pollution and Temperature and Hospital Admissions with Cardiovascular Disease in the United States",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:aDl3D7KC1E4C"
+      ],
+      "reason": "ISEE conference abstract (EHP abstract DOI)"
+    },
+    {
+      "doi": "10.1289/isee.2021.p-651",
+      "year": 2021,
+      "title": "Health Disparities Among Older Adults Following Tropical Cyclone Exposure in Florida, USA, 1999-2016",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:PuOEWVtPfzwC"
+      ],
+      "reason": "ISEE conference abstract (EHP abstract DOI)"
+    },
+    {
+      "doi": "10.1289/isee.2022.o-op-055",
+      "year": 2022,
+      "title": "Associations between long-term air pollution and kidney diseases in the US Medicare population",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:Nw_I7GeUguwC"
+      ],
+      "reason": "ISEE conference abstract (EHP abstract DOI)"
+    },
+    {
+      "doi": "10.1289/isee.2022.p-0270",
+      "year": 2022,
+      "title": "Associations of greenness, public parks, and blue space with cardiovascular and respiratory disease hospitalization in the US Medicare cohort",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:Tfl4UtY-dJUC"
+      ],
+      "reason": "ISEE conference abstract (EHP abstract DOI)"
+    },
+    {
+      "doi": "10.1289/isee.2022.p-0272",
+      "year": 2022,
+      "title": "Effects of greenness, public parks, and blue space on neurodegenerative disease hospitalizations in the US Medicare cohort",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:inmFHauC9wsC"
+      ],
+      "reason": "ISEE conference abstract (EHP abstract DOI)"
+    },
+    {
+      "doi": "10.1289/isee.2023.ep-148",
+      "year": 2023,
+      "title": "Long-term Exposure of Ambient PM2. 5, Particulate Constituents and Hospital Admissions from Non-respiratory Infection among Older Adults in the US",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:BPS1z4jHU5cC"
+      ],
+      "reason": "ISEE conference abstract (EHP abstract DOI)"
+    },
+    {
+      "doi": "10.1289/isee.2023.vo-025",
+      "year": 2023,
+      "title": "Incorporating Exposure Uncertainty in Estimating Causal Exposure-Response Relationships Between Long-term Exposure to PM2. 5 and Cardiovascular Disease",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:htyGaKyDgHMC"
+      ],
+      "reason": "ISEE conference abstract (EHP abstract DOI)"
+    },
+    {
+      "doi": "10.1289/isesisee.2018.o02.01.07",
+      "year": 2018,
+      "title": "Exploration on Explanations for Observed Long-Term Temporal Trend of the Short-Term Association between Fine Particulate Matter Concentration and Hospital Admissions in the US",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:CYCckWUYoCcC"
+      ],
+      "reason": "ISEE conference abstract (EHP abstract DOI)"
+    }
+  ],
+  "papers": [
+    {
+      "slug": "10_1001_jama_295_10_1127",
+      "doi": "10.1001/jama.295.10.1127",
+      "pmid": "16522832",
+      "pmcid": "PMC3543154",
+      "year": 2006,
+      "title": "Fine particulate air pollution and hospital admission for cardiovascular and respiratory diseases",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:d1gkVwhDpl0C"
+      ],
+      "outcome_names": [
+        "cerebrovascular",
+        "peripheral",
+        "ischemic heart disease",
+        "heart rhythm",
+        "heart failure",
+        "COPD",
+        "respiratory infection",
+        "injuries (control)"
+      ],
+      "status": "no_fulltext",
+      "source": null,
+      "source_url": null,
+      "fulltext_xml": null,
+      "fulltext_pdf": null,
+      "supplements": [],
+      "supplements_referenced": [],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1001_jama_299_18_2172",
+      "doi": "10.1001/jama.299.18.2172",
+      "pmid": "18477784",
+      "pmcid": "PMC3169813",
+      "year": 2008,
+      "title": "Coarse particulate matter air pollution and hospital admissions for cardiovascular and respiratory diseases among Medicare patients",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:KlAtU1dfN6UC"
+      ],
+      "outcome_names": [
+        "cardiovascular",
+        "respiratory"
+      ],
+      "status": "no_fulltext",
+      "source": null,
+      "source_url": null,
+      "fulltext_xml": null,
+      "fulltext_pdf": null,
+      "supplements": [],
+      "supplements_referenced": [],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1111_j_1467_9876_2008_00640_x",
+      "doi": "10.1111/j.1467-9876.2008.00640.x",
+      "pmid": null,
+      "pmcid": null,
+      "year": 2009,
+      "title": "A Bayesian hierarchical distributed lag model for estimating the time course of risk of hospitalization associated with particulate matter air pollution",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:fPk4N6BV_jEC",
+        "RSwElNMAAAAJ:tKAzc9rXhukC"
+      ],
+      "outcome_names": [
+        "ischaemic heart disease",
+        "COPD exacerbation"
+      ],
+      "status": "no_fulltext",
+      "source": null,
+      "source_url": null,
+      "fulltext_xml": null,
+      "fulltext_pdf": null,
+      "supplements": [],
+      "supplements_referenced": [],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1289_ehp_0800185",
+      "doi": "10.1289/ehp.0800185",
+      "pmid": "19590690",
+      "pmcid": "PMC2702413",
+      "year": 2009,
+      "title": "Emergency admissions for cardiovascular and respiratory diseases and the chemical composition of fine particle air pollution",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:aqlVkmm33-oC"
+      ],
+      "outcome_names": [
+        "cardiovascular",
+        "respiratory"
+      ],
+      "status": "fulltext_no_supplements",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1289_ehp_0800185/PMC2702413.1.xml",
+      "fulltext_pdf": "papers/10_1289_ehp_0800185/PMC2702413.1.pdf",
+      "supplements": [],
+      "supplements_referenced": [],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1161_circulationaha_109_851113",
+      "doi": "10.1161/circulationaha.109.851113",
+      "pmid": "19720933",
+      "pmcid": "PMC2777712",
+      "year": 2009,
+      "title": "Emergency hospital admissions for cardiovascular diseases and ambient levels of carbon monoxide: results for 126 United States urban counties, 1999–2005",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:isC4tDSrTZIC"
+      ],
+      "outcome_names": [
+        "cardiovascular disease"
+      ],
+      "status": "fulltext_no_supplements",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1161_circulationaha_109_851113/PMC2777712.1.xml",
+      "fulltext_pdf": null,
+      "supplements": [],
+      "supplements_referenced": [
+        "NIHMS139389-supplement-1.pdf"
+      ],
+      "supplements_missing": [
+        "NIHMS139389-supplement-1.pdf"
+      ]
+    },
+    {
+      "slug": "10_1093_biostatistics_kxr002",
+      "doi": "10.1093/biostatistics/kxr002",
+      "pmid": "21297159",
+      "pmcid": "PMC3202305",
+      "year": 2011,
+      "title": "Estimating the acute health effects of coarse particulate matter accounting for exposure measurement error",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:pyW8ca7W8N0C"
+      ],
+      "outcome_names": [
+        "cardiovascular"
+      ],
+      "status": "no_fulltext",
+      "source": null,
+      "source_url": null,
+      "fulltext_xml": null,
+      "fulltext_pdf": null,
+      "supplements": [],
+      "supplements_referenced": [],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1093_aje_kwr457",
+      "doi": "10.1093/aje/kwr457",
+      "pmid": "22510275",
+      "pmcid": "PMC3491972",
+      "year": 2012,
+      "title": "A meta-analysis and multisite time-series analysis of the differential toxicity of major fine particulate matter constituents",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:yB1At4FlUx8C"
+      ],
+      "outcome_names": [
+        "cardiovascular"
+      ],
+      "status": "no_fulltext",
+      "source": null,
+      "source_url": null,
+      "fulltext_xml": null,
+      "fulltext_pdf": null,
+      "supplements": [],
+      "supplements_referenced": [],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1093_aje_kws267",
+      "doi": "10.1093/aje/kws267",
+      "pmid": "22986145",
+      "pmcid": "PMC3530376",
+      "year": 2012,
+      "title": "Comprehensive smoking bans and acute myocardial infarction among Medicare enrollees in 387 US counties: 1999–2008",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:ILKRHgRFtOwC"
+      ],
+      "outcome_names": [
+        "acute myocardial infarction"
+      ],
+      "status": "no_fulltext",
+      "source": null,
+      "source_url": null,
+      "fulltext_xml": null,
+      "fulltext_pdf": null,
+      "supplements": [],
+      "supplements_referenced": [],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1161_circoutcomes_111_962456",
+      "doi": "10.1161/circoutcomes.111.962456",
+      "pmid": "22354937",
+      "pmcid": "PMC3310945",
+      "year": 2012,
+      "title": "Geographic disparities in the incidence and outcomes of hospitalized myocardial infarction: does a rising tide lift all boats?",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:z_wVstp3MssC"
+      ],
+      "outcome_names": [
+        "myocardial infarction"
+      ],
+      "status": "fulltext_no_supplements",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1161_circoutcomes_111_962456/PMC3310945.1.xml",
+      "fulltext_pdf": null,
+      "supplements": [],
+      "supplements_referenced": [
+        "NIHMS353706-supplement-1.pdf"
+      ],
+      "supplements_missing": [
+        "NIHMS353706-supplement-1.pdf"
+      ]
+    },
+    {
+      "slug": "10_1038_jes_2013_39",
+      "doi": "10.1038/jes.2013.39",
+      "pmid": "23942393",
+      "pmcid": "PMC3805672",
+      "year": 2013,
+      "title": "Comparing exposure metrics for the effects of fine particulate matter on emergency hospital admissions",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:TIZ-Mc8IlK0C"
+      ],
+      "outcome_names": [
+        "respiratory emergency admissions"
+      ],
+      "status": "fulltext_no_supplements",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1038_jes_2013_39/PMC3805672.1.xml",
+      "fulltext_pdf": null,
+      "supplements": [],
+      "supplements_referenced": [],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1136_bmj_f5561",
+      "doi": "10.1136/bmj.f5561",
+      "pmid": "24103538",
+      "pmcid": "PMC3805481",
+      "year": 2013,
+      "title": "Residential exposure to aircraft noise and hospital admissions for cardiovascular diseases: multi-airport retrospective study",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:LO7wyVUgiFcC",
+        "RSwElNMAAAAJ:OcBU2YAGkTUC"
+      ],
+      "outcome_names": [
+        "cardiovascular disease"
+      ],
+      "status": "fulltext",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1136_bmj_f5561/PMC3805481.2.xml",
+      "fulltext_pdf": null,
+      "supplements": [
+        "papers/10_1136_bmj_f5561/cora010496.ww1_default.pdf"
+      ],
+      "supplements_referenced": [
+        "cora010496.ww1_default.pdf"
+      ],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1186_1476_069x_12_68",
+      "doi": "10.1186/1476-069x-12-68",
+      "pmid": "23981468",
+      "pmcid": "PMC3765898",
+      "year": 2013,
+      "title": "The effect of primary organic particles on emergency hospital admissions among the elderly in 3 US cities",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:_FM0Bhl9EiAC"
+      ],
+      "outcome_names": [
+        "cardiovascular disease",
+        "ischemic heart disease",
+        "myocardial infarction",
+        "respiratory"
+      ],
+      "status": "fulltext",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1186_1476_069x_12_68/PMC3765898.1.xml",
+      "fulltext_pdf": "papers/10_1186_1476_069x_12_68/PMC3765898.1.pdf",
+      "supplements": [
+        "papers/10_1186_1476_069x_12_68/1476-069X-12-68-S1.pdf"
+      ],
+      "supplements_referenced": [
+        "1476-069X-12-68-S1.pdf"
+      ],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1186_1476_069x_13_38",
+      "doi": "10.1186/1476-069x-13-38",
+      "pmid": "24886318",
+      "pmcid": "PMC4064518",
+      "year": 2014,
+      "title": "A national case-crossover analysis of the short-term effect of PM2.5 on hospitalizations and mortality in subjects with diabetes and neurological disorders",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:4vMrXwiscB8C"
+      ],
+      "outcome_names": [
+        "diabetes",
+        "neurological disorders",
+        "Parkinson's disease"
+      ],
+      "status": "fulltext",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1186_1476_069x_13_38/PMC4064518.1.xml",
+      "fulltext_pdf": "papers/10_1186_1476_069x_13_38/PMC4064518.1.pdf",
+      "supplements": [
+        "papers/10_1186_1476_069x_13_38/1476-069X-13-38-S1.docx"
+      ],
+      "supplements_referenced": [
+        "1476-069X-13-38-S1.docx"
+      ],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1289_ehp_1306656",
+      "doi": "10.1289/ehp.1306656",
+      "pmid": "24213019",
+      "pmcid": "PMC3915260",
+      "year": 2014,
+      "title": "Associations of PM2.5 Constituents and Sources with Hospital Admissions: Analysis of Four Counties in Connecticut and Massachusetts (USA) for Persons ≥ 65 …",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:NXb4pA-qfm4C"
+      ],
+      "outcome_names": [
+        "cardiovascular",
+        "respiratory"
+      ],
+      "status": "fulltext",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1289_ehp_1306656/PMC3915260.1.xml",
+      "fulltext_pdf": "papers/10_1289_ehp_1306656/PMC3915260.1.pdf",
+      "supplements": [
+        "papers/10_1289_ehp_1306656/ehp.1306656.s001.508.pdf"
+      ],
+      "supplements_referenced": [
+        "ehp.1306656.s001.508.pdf"
+      ],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1001_jama_2014_15715",
+      "doi": "10.1001/jama.2014.15715",
+      "pmid": "25536257",
+      "pmcid": "PMC4319792",
+      "year": 2014,
+      "title": "Cause-specific risk of hospital admission related to extreme heat in older adults",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:OP4eGU-M3BUC"
+      ],
+      "outcome_names": [
+        "283 disease categories",
+        "fluid and electrolyte disorders",
+        "renal failure",
+        "urinary tract infection",
+        "septicemia",
+        "heat stroke"
+      ],
+      "status": "fulltext_no_supplements",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1001_jama_2014_15715/PMC4319792.1.xml",
+      "fulltext_pdf": null,
+      "supplements": [],
+      "supplements_referenced": [
+        "NIHMS657527-supplement-Hospitalizations_and_heat_waves_-_Supplemental_Material.pdf"
+      ],
+      "supplements_missing": [
+        "NIHMS657527-supplement-Hospitalizations_and_heat_waves_-_Supplemental_Material.pdf"
+      ]
+    },
+    {
+      "slug": "10_1002_cncr_28537",
+      "doi": "10.1002/cncr.28537",
+      "pmid": "24382787",
+      "pmcid": "PMC4019988",
+      "year": 2014,
+      "title": "National trends in pancreatic cancer outcomes and pattern of care among Medicare beneficiaries, 2000 through 2010",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:4hFrxpcac9AC"
+      ],
+      "outcome_names": [
+        "pancreatic cancer hospitalization"
+      ],
+      "status": "fulltext_no_supplements",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1002_cncr_28537/PMC4019988.1.xml",
+      "fulltext_pdf": null,
+      "supplements": [],
+      "supplements_referenced": [
+        "NIHMS578201-supplement-Supp_appendix_S1.doc"
+      ],
+      "supplements_missing": [
+        "NIHMS578201-supplement-Supp_appendix_S1.doc"
+      ]
+    },
+    {
+      "slug": "10_1038_jes_2014_7",
+      "doi": "10.1038/jes.2014.7",
+      "pmid": "24496220",
+      "pmcid": "PMC4063325",
+      "year": 2014,
+      "title": "The impact of source contribution uncertainty on the effects of source-specific PM2. 5 on hospital admissions: a case study in Boston, MA",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:DUooU5lO8OsC"
+      ],
+      "outcome_names": [
+        "emergency cardiovascular"
+      ],
+      "status": "fulltext",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1038_jes_2014_7/PMC4063325.1.xml",
+      "fulltext_pdf": "papers/10_1038_jes_2014_7/PMC4063325.1.pdf",
+      "supplements": [
+        "papers/10_1038_jes_2014_7/jes20147x1.pdf"
+      ],
+      "supplements_referenced": [
+        "jes20147x1.pdf"
+      ],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1111_biom_12254",
+      "doi": "10.1111/biom.12254",
+      "pmid": "25303336",
+      "pmcid": "PMC4394902",
+      "year": 2015,
+      "title": "Spatial variable selection methods for investigating acute health effects of fine particulate matter components",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:fFSKOagxvKUC"
+      ],
+      "outcome_names": [
+        "cardiovascular emergency room admissions"
+      ],
+      "status": "fulltext_no_supplements",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1111_biom_12254/PMC4394902.1.xml",
+      "fulltext_pdf": null,
+      "supplements": [],
+      "supplements_referenced": [
+        "NIHMS635368-supplement-1.pdf"
+      ],
+      "supplements_missing": [
+        "NIHMS635368-supplement-1.pdf"
+      ]
+    },
+    {
+      "slug": "scholar_RSwElNMAAAAJ_j7_hQOaDUrUC",
+      "doi": null,
+      "pmid": "27526497",
+      "pmcid": null,
+      "year": 2016,
+      "title": "Causal inference methods for estimating long-term health effects of air quality regulations",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:j7_hQOaDUrUC"
+      ],
+      "outcome_names": [
+        "respiratory"
+      ],
+      "status": "no_fulltext",
+      "source": null,
+      "source_url": null,
+      "fulltext_xml": null,
+      "fulltext_pdf": null,
+      "supplements": [],
+      "supplements_referenced": [],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1186_s12940_016_0167_3",
+      "doi": "10.1186/s12940-016-0167-3",
+      "pmid": "27503399",
+      "pmcid": "PMC4977899",
+      "year": 2016,
+      "title": "Heat stroke admissions during heat waves in 1,916 US counties for the period from 1999 to 2010 and their effect modifiers",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:7BrZ7Jt4UNcC",
+        "RSwElNMAAAAJ:HqhvjgTjE9cC"
+      ],
+      "outcome_names": [
+        "heat stroke"
+      ],
+      "status": "fulltext",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1186_s12940_016_0167_3/PMC4977899.1.xml",
+      "fulltext_pdf": "papers/10_1186_s12940_016_0167_3/PMC4977899.1.pdf",
+      "supplements": [
+        "papers/10_1186_s12940_016_0167_3/12940_2016_167_MOESM1_ESM.docx"
+      ],
+      "supplements_referenced": [
+        "12940_2016_167_MOESM1_ESM.docx"
+      ],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1289_ehp257",
+      "doi": "10.1289/ehp257",
+      "pmid": "27649448",
+      "pmcid": "PMC5381978",
+      "year": 2017,
+      "title": "Airborne fine particles and risk of hospital admissions for understudied populations: effects by urbanicity and short-term cumulative exposures in 708 US counties",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:WHdLCjDvYFkC"
+      ],
+      "outcome_names": [
+        "cardiovascular",
+        "respiratory"
+      ],
+      "status": "fulltext",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1289_ehp257/PMC5381978.1.xml",
+      "fulltext_pdf": "papers/10_1289_ehp257/PMC5381978.1.pdf",
+      "supplements": [
+        "papers/10_1289_ehp257/EHP257.s001.acco.pdf"
+      ],
+      "supplements_referenced": [
+        "EHP257.s001.acco.pdf"
+      ],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1016_s2542_5196_17_30136_5",
+      "doi": "10.1016/s2542-5196(17)30136-5",
+      "pmid": "29527596",
+      "pmcid": "PMC5841468",
+      "year": 2017,
+      "title": "Association of air particulate pollution with bone loss over time and bone fracture risk: analysis of data from two independent studies",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:FiDNX6EVdGUC"
+      ],
+      "outcome_names": [
+        "osteoporosis-related fracture"
+      ],
+      "status": "fulltext_no_supplements",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1016_s2542_5196_17_30136_5/PMC5841468.1.xml",
+      "fulltext_pdf": null,
+      "supplements": [],
+      "supplements_referenced": [
+        "NIHMS921603-supplement.docx"
+      ],
+      "supplements_missing": [
+        "NIHMS921603-supplement.docx"
+      ]
+    },
+    {
+      "slug": "10_1016_s2542_5196_17_30002_5",
+      "doi": "10.1016/s2542-5196(17)30002-5",
+      "pmid": "29057392",
+      "pmcid": "PMC5646697",
+      "year": 2017,
+      "title": "Drought and the risk of hospital admissions and mortality in older adults in western USA from 2000 to 2013: a retrospective study",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:Dem6FJhTUoYC"
+      ],
+      "outcome_names": [
+        "cardiovascular",
+        "respiratory"
+      ],
+      "status": "fulltext_no_supplements",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1016_s2542_5196_17_30002_5/PMC5646697.1.xml",
+      "fulltext_pdf": "papers/10_1016_s2542_5196_17_30002_5/PMC5646697.1.pdf",
+      "supplements": [],
+      "supplements_referenced": [],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1097_ede_0000000000000556",
+      "doi": "10.1097/ede.0000000000000556",
+      "pmid": "27648592",
+      "pmcid": "PMC5130603",
+      "year": 2017,
+      "title": "Wildfire-specific fine particulate matter and risk of hospital admissions in urban and rural counties",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:MhiOAD_qIWkC",
+        "RSwElNMAAAAJ:IHkkN1K1AlAC"
+      ],
+      "outcome_names": [
+        "cardiovascular",
+        "respiratory"
+      ],
+      "status": "fulltext_no_supplements",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1097_ede_0000000000000556/PMC5130603.1.xml",
+      "fulltext_pdf": null,
+      "supplements": [],
+      "supplements_referenced": [
+        "NIHMS823701-supplement-Supplemental.docx"
+      ],
+      "supplements_missing": [
+        "NIHMS823701-supplement-Supplemental.docx"
+      ]
+    },
+    {
+      "slug": "10_1097_ede_0000000000000777",
+      "doi": "10.1097/ede.0000000000000777",
+      "pmid": "29095246",
+      "pmcid": "PMC5792368",
+      "year": 2018,
+      "title": "Impact of National Ambient Air Quality Standards nonattainment designations on particulate pollution and health",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:HhcuHIWmDEUC"
+      ],
+      "outcome_names": [
+        "COPD",
+        "heart failure",
+        "ischemic heart disease",
+        "respiratory tract infections"
+      ],
+      "status": "fulltext_no_supplements",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1097_ede_0000000000000777/PMC5792368.1.xml",
+      "fulltext_pdf": null,
+      "supplements": [],
+      "supplements_referenced": [
+        "NIHMS916569-supplement-Supplemental_Digital_Content.pdf",
+        "NIHMS916569-supplement-eAppendix___tex_source_.tex"
+      ],
+      "supplements_missing": [
+        "NIHMS916569-supplement-Supplemental_Digital_Content.pdf",
+        "NIHMS916569-supplement-eAppendix___tex_source_.tex"
+      ]
+    },
+    {
+      "slug": "10_1016_j_ypmed_2018_02_001",
+      "doi": "10.1016/j.ypmed.2018.02.001",
+      "pmid": "29428173",
+      "pmcid": "PMC6040588",
+      "year": 2018,
+      "title": "Medical diagnoses of heat wave-related hospital admissions in older adults",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:kF1pexMAQbMC"
+      ],
+      "outcome_names": [
+        "50 heat-related diagnoses",
+        "heat stroke and sunstroke",
+        "fluid and electrolyte disorders",
+        "acute kidney failure"
+      ],
+      "status": "fulltext_no_supplements",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1016_j_ypmed_2018_02_001/PMC6040588.1.xml",
+      "fulltext_pdf": null,
+      "supplements": [],
+      "supplements_referenced": [
+        "NIHMS944332-supplement.docx"
+      ],
+      "supplements_missing": [
+        "NIHMS944332-supplement.docx"
+      ]
+    },
+    {
+      "slug": "10_1161_circheartfailure_118_005407",
+      "doi": "10.1161/circheartfailure.118.005407",
+      "pmid": "31170802",
+      "pmcid": "PMC6557425",
+      "year": 2019,
+      "title": "Epidemiology of cardiac amyloidosis–associated heart failure hospitalizations among fee-for-service medicare beneficiaries in the United States",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:-yGd096yOn8C"
+      ],
+      "outcome_names": [
+        "cardiac amyloidosis",
+        "heart failure / cardiomyopathy (ICD-9)"
+      ],
+      "status": "fulltext_no_supplements",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1161_circheartfailure_118_005407/PMC6557425.1.xml",
+      "fulltext_pdf": null,
+      "supplements": [],
+      "supplements_referenced": [
+        "NIHMS1528632-supplement-Supplemental_Material.pdf"
+      ],
+      "supplements_missing": [
+        "NIHMS1528632-supplement-Supplemental_Material.pdf"
+      ]
+    },
+    {
+      "slug": "10_1016_j_chest_2019_03_017",
+      "doi": "10.1016/j.chest.2019.03.017",
+      "pmid": "30926395",
+      "pmcid": "PMC6607425",
+      "year": 2019,
+      "title": "Impact of long-term exposures to ambient PM2. 5 and ozone on ARDS risk for older adults in the United States",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:D_tqNUsBuKoC"
+      ],
+      "outcome_names": [
+        "acute respiratory distress syndrome"
+      ],
+      "status": "no_fulltext",
+      "source": null,
+      "source_url": null,
+      "fulltext_xml": null,
+      "fulltext_pdf": null,
+      "supplements": [],
+      "supplements_referenced": [],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1016_j_envpol_2019_07_094",
+      "doi": "10.1016/j.envpol.2019.07.094",
+      "pmid": "31404729",
+      "pmcid": "PMC7995172",
+      "year": 2019,
+      "title": "Long-term effect of fine particulate matter on hospitalization with dementia",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:H_jBuBxbQIAC",
+        "RSwElNMAAAAJ:iKswqCX-FLkC"
+      ],
+      "outcome_names": [
+        "dementia",
+        "vascular dementia"
+      ],
+      "status": "fulltext_no_supplements",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1016_j_envpol_2019_07_094/PMC7995172.1.xml",
+      "fulltext_pdf": null,
+      "supplements": [],
+      "supplements_referenced": [],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1136_bmj_l6258",
+      "doi": "10.1136/bmj.l6258",
+      "pmid": "31776122",
+      "pmcid": "PMC6880251",
+      "year": 2019,
+      "title": "Short term exposure to fine particulate matter and hospital admission risks and costs in the Medicare population: time stratified, case crossover study",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:LGlY6t8CeOMC"
+      ],
+      "outcome_names": [
+        "214 disease groups",
+        "septicemia",
+        "fluid and electrolyte disorders",
+        "acute and unspecified renal failure",
+        "cardiovascular",
+        "respiratory"
+      ],
+      "status": "fulltext",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1136_bmj_l6258/PMC6880251.1.xml",
+      "fulltext_pdf": null,
+      "supplements": [
+        "papers/10_1136_bmj_l6258/weiy048424.ww.pdf"
+      ],
+      "supplements_referenced": [
+        "weiy048424.ww.pdf"
+      ],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1080_01621459_2020_1722134",
+      "doi": "10.1080/01621459.2020.1722134",
+      "pmid": null,
+      "pmcid": null,
+      "year": 2020,
+      "title": "Estimating the effects of fine particulate matter on 432 cardiovascular diseases using multi-outcome regression with tree-structured shrinkage",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:37UQlXuwjP4C"
+      ],
+      "outcome_names": [
+        "432 cardiovascular diseases (ICD-9)"
+      ],
+      "status": "no_fulltext",
+      "source": null,
+      "source_url": null,
+      "fulltext_xml": null,
+      "fulltext_pdf": null,
+      "supplements": [],
+      "supplements_referenced": [],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1016_s2542_5196_20_30227_8",
+      "doi": "10.1016/s2542-5196(20)30227-8",
+      "pmid": "33091388",
+      "pmcid": "PMC7720425",
+      "year": 2020,
+      "title": "Long-term effects of PM2· 5 on neurological disorders in the American Medicare population: a longitudinal cohort study",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:nPTYJWkExTIC"
+      ],
+      "outcome_names": [
+        "Parkinson's disease",
+        "Alzheimer's disease and related dementias"
+      ],
+      "status": "fulltext",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1016_s2542_5196_20_30227_8/PMC7720425.1.xml",
+      "fulltext_pdf": "papers/10_1016_s2542_5196_20_30227_8/PMC7720425.1.pdf",
+      "supplements": [
+        "papers/10_1016_s2542_5196_20_30227_8/NIHMS1647889-supplement-Supplemental_material.pdf"
+      ],
+      "supplements_referenced": [
+        "NIHMS1647889-supplement-Supplemental_material.pdf"
+      ],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1097_ede_0000000000001195",
+      "doi": "10.1097/ede.0000000000001195",
+      "pmid": "32483064",
+      "pmcid": "PMC7744113",
+      "year": 2020,
+      "title": "Risk of acute respiratory distress syndrome among older adults living near construction and manufacturing sites",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:wLxue7F8ec0C"
+      ],
+      "outcome_names": [
+        "acute respiratory distress syndrome"
+      ],
+      "status": "fulltext_no_supplements",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1097_ede_0000000000001195/PMC7744113.1.xml",
+      "fulltext_pdf": null,
+      "supplements": [],
+      "supplements_referenced": [
+        "NIHMS1650996-supplement-supplemental_material.docx"
+      ],
+      "supplements_missing": [
+        "NIHMS1650996-supplement-supplemental_material.docx"
+      ]
+    },
+    {
+      "slug": "10_1016_j_envint_2021_106715",
+      "doi": "10.1016/j.envint.2021.106715",
+      "pmid": "34218186",
+      "pmcid": "PMC8380672",
+      "year": 2021,
+      "title": "Air pollution and cardiovascular disease hospitalization–Are associations modified by greenness, temperature and humidity?",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:U0iAMwwPxtsC"
+      ],
+      "outcome_names": [
+        "cardiovascular disease",
+        "coronary heart disease",
+        "cerebrovascular disease"
+      ],
+      "status": "fulltext",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1016_j_envint_2021_106715/PMC8380672.1.xml",
+      "fulltext_pdf": "papers/10_1016_j_envint_2021_106715/PMC8380672.1.pdf",
+      "supplements": [
+        "papers/10_1016_j_envint_2021_106715/NIHMS1720989-supplement-1.pdf",
+        "papers/10_1016_j_envint_2021_106715/NIHMS1720989-supplement-2.docx"
+      ],
+      "supplements_referenced": [
+        "NIHMS1720989-supplement-1.pdf",
+        "NIHMS1720989-supplement-2.docx"
+      ],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1080_01621459_2020_1803883",
+      "doi": "10.1080/01621459.2020.1803883",
+      "pmid": "33424062",
+      "pmcid": "PMC7788006",
+      "year": 2021,
+      "title": "Evaluation of the health impacts of the 1990 clean air act amendments using causal inference and machine learning",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:oynPyU19kbsC"
+      ],
+      "outcome_names": [
+        "cardiovascular hospitalizations",
+        "dementia-related hospitalizations"
+      ],
+      "status": "fulltext_no_supplements",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1080_01621459_2020_1803883/PMC7788006.1.xml",
+      "fulltext_pdf": null,
+      "supplements": [],
+      "supplements_referenced": [
+        "NIHMS1632056-supplement-Sup1.ds_store",
+        "NIHMS1632056-supplement-Sup10.md",
+        "NIHMS1632056-supplement-Sup11.md",
+        "NIHMS1632056-supplement-Sup12.r",
+        "NIHMS1632056-supplement-Sup13.r",
+        "NIHMS1632056-supplement-Sup14.r",
+        "NIHMS1632056-supplement-Sup15.r",
+        "NIHMS1632056-supplement-Sup16.r",
+        "NIHMS1632056-supplement-Sup17.r",
+        "NIHMS1632056-supplement-Sup18.r",
+        "NIHMS1632056-supplement-Sup19.r",
+        "NIHMS1632056-supplement-Sup2.ds_store",
+        "NIHMS1632056-supplement-Sup20.r",
+        "NIHMS1632056-supplement-Sup21.r",
+        "NIHMS1632056-supplement-Sup22.r",
+        "NIHMS1632056-supplement-Sup23.pdf",
+        "NIHMS1632056-supplement-Sup24.r",
+        "NIHMS1632056-supplement-Sup25.r",
+        "NIHMS1632056-supplement-Sup26.pdf",
+        "NIHMS1632056-supplement-Sup27.r",
+        "NIHMS1632056-supplement-Sup28.txt",
+        "NIHMS1632056-supplement-Sup29.pdf",
+        "NIHMS1632056-supplement-Sup3.ds_store",
+        "NIHMS1632056-supplement-Sup4.ds_store",
+        "NIHMS1632056-supplement-Sup5.ds_store",
+        "NIHMS1632056-supplement-Sup6.ds_store",
+        "NIHMS1632056-supplement-Sup7.rhistory",
+        "NIHMS1632056-supplement-Sup8.rhistory",
+        "NIHMS1632056-supplement-Sup9.rhistory"
+      ],
+      "supplements_missing": [
+        "NIHMS1632056-supplement-Sup1.ds_store",
+        "NIHMS1632056-supplement-Sup10.md",
+        "NIHMS1632056-supplement-Sup11.md",
+        "NIHMS1632056-supplement-Sup12.r",
+        "NIHMS1632056-supplement-Sup13.r",
+        "NIHMS1632056-supplement-Sup14.r",
+        "NIHMS1632056-supplement-Sup15.r",
+        "NIHMS1632056-supplement-Sup16.r",
+        "NIHMS1632056-supplement-Sup17.r",
+        "NIHMS1632056-supplement-Sup18.r",
+        "NIHMS1632056-supplement-Sup19.r",
+        "NIHMS1632056-supplement-Sup2.ds_store",
+        "NIHMS1632056-supplement-Sup20.r",
+        "NIHMS1632056-supplement-Sup21.r",
+        "NIHMS1632056-supplement-Sup22.r",
+        "NIHMS1632056-supplement-Sup23.pdf",
+        "NIHMS1632056-supplement-Sup24.r",
+        "NIHMS1632056-supplement-Sup25.r",
+        "NIHMS1632056-supplement-Sup26.pdf",
+        "NIHMS1632056-supplement-Sup27.r",
+        "NIHMS1632056-supplement-Sup28.txt",
+        "NIHMS1632056-supplement-Sup29.pdf",
+        "NIHMS1632056-supplement-Sup3.ds_store",
+        "NIHMS1632056-supplement-Sup4.ds_store",
+        "NIHMS1632056-supplement-Sup5.ds_store",
+        "NIHMS1632056-supplement-Sup6.ds_store",
+        "NIHMS1632056-supplement-Sup7.rhistory",
+        "NIHMS1632056-supplement-Sup8.rhistory",
+        "NIHMS1632056-supplement-Sup9.rhistory"
+      ]
+    },
+    {
+      "slug": "10_1016_j_envint_2021_106834",
+      "doi": "10.1016/j.envint.2021.106834",
+      "pmid": "34461376",
+      "pmcid": "PMC11549953",
+      "year": 2021,
+      "title": "Heat warnings, mortality, and hospital admissions among older adults in the United States",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:0sTkTiv_uMkC"
+      ],
+      "outcome_names": [
+        "fluid and electrolyte disorders",
+        "heat stroke"
+      ],
+      "status": "fulltext",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1016_j_envint_2021_106834/PMC11549953.1.xml",
+      "fulltext_pdf": "papers/10_1016_j_envint_2021_106834/PMC11549953.1.pdf",
+      "supplements": [
+        "papers/10_1016_j_envint_2021_106834/NIHMS2031435-supplement-supplement.docx"
+      ],
+      "supplements_referenced": [
+        "NIHMS2031435-supplement-supplement.docx"
+      ],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1161_circulationaha_120_050252",
+      "doi": "10.1161/circulationaha.120.050252",
+      "pmid": "33611922",
+      "pmcid": "PMC8055197",
+      "year": 2021,
+      "title": "Long-term association of air pollution and hospital admissions among medicare participants using a doubly robust additive model",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:oTdOBqtIf_kC"
+      ],
+      "outcome_names": [
+        "myocardial infarction",
+        "ischemic stroke",
+        "atrial fibrillation and flutter",
+        "pneumonia"
+      ],
+      "status": "fulltext_no_supplements",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1161_circulationaha_120_050252/PMC8055197.1.xml",
+      "fulltext_pdf": "papers/10_1161_circulationaha_120_050252/PMC8055197.1.pdf",
+      "supplements": [],
+      "supplements_referenced": [],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1097_ede_0000000000001265",
+      "doi": "10.1097/ede.0000000000001265",
+      "pmid": "33009251",
+      "pmcid": "PMC7896354",
+      "year": 2021,
+      "title": "Nationwide study of short-term exposure to fine particulate matter and cardiovascular hospitalizations among Medicaid enrollees",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:4Yq6kJLCcecC"
+      ],
+      "outcome_names": [
+        "cardiovascular disease"
+      ],
+      "status": "fulltext_no_supplements",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1097_ede_0000000000001265/PMC7896354.1.xml",
+      "fulltext_pdf": null,
+      "supplements": [],
+      "supplements_referenced": [
+        "NIHMS1662172-supplement-Supplemental_Digital_Content.pdf"
+      ],
+      "supplements_missing": [
+        "NIHMS1662172-supplement-Supplemental_Digital_Content.pdf"
+      ]
+    },
+    {
+      "slug": "10_1016_j_scitotenv_2020_142524",
+      "doi": "10.1016/j.scitotenv.2020.142524",
+      "pmid": "33065503",
+      "pmcid": "PMC7749824",
+      "year": 2021,
+      "title": "PM2. 5 and hospital admissions among Medicare enrollees with chronic debilitating brain disorders",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:R-LXmdHK_14C"
+      ],
+      "outcome_names": [
+        "pneumonia",
+        "urinary tract infection",
+        "cause-specific admissions"
+      ],
+      "status": "fulltext_no_supplements",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1016_j_scitotenv_2020_142524/PMC7749824.1.xml",
+      "fulltext_pdf": null,
+      "supplements": [],
+      "supplements_referenced": [
+        "NIHMS1634916-supplement-1.pdf",
+        "NIHMS1634916-supplement-2.docx"
+      ],
+      "supplements_missing": [
+        "NIHMS1634916-supplement-1.pdf",
+        "NIHMS1634916-supplement-2.docx"
+      ]
+    },
+    {
+      "slug": "10_1016_j_envint_2021_106737",
+      "doi": "10.1016/j.envint.2021.106737",
+      "pmid": "34218185",
+      "pmcid": "PMC8380720",
+      "year": 2021,
+      "title": "Temporal changes in associations between high temperature and hospitalizations by greenspace: analysis in the Medicare population in 40 US northeast counties",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:Vno172sVVMwC"
+      ],
+      "outcome_names": [
+        "cardiovascular causes",
+        "heat stroke"
+      ],
+      "status": "fulltext_no_supplements",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1016_j_envint_2021_106737/PMC8380720.1.xml",
+      "fulltext_pdf": null,
+      "supplements": [],
+      "supplements_referenced": [
+        "NIHMS1722949-supplement-1.docx"
+      ],
+      "supplements_missing": [
+        "NIHMS1722949-supplement-1.docx"
+      ]
+    },
+    {
+      "slug": "10_1016_s2542_5196_21_00168_6",
+      "doi": "10.1016/s2542-5196(21)00168-6",
+      "pmid": "34390671",
+      "pmcid": null,
+      "year": 2021,
+      "title": "Temporal variation in association between short-term exposure to fine particulate matter and hospitalisations in older adults in the USA: a long-term time-series analysis of …",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:g8uWPOAv7ggC"
+      ],
+      "outcome_names": [
+        "circulatory",
+        "respiratory"
+      ],
+      "status": "no_fulltext",
+      "source": null,
+      "source_url": null,
+      "fulltext_xml": null,
+      "fulltext_pdf": null,
+      "supplements": [],
+      "supplements_referenced": [],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1038_s41467_021_21777_1",
+      "doi": "10.1038/s41467-021-21777-1",
+      "pmid": "33750775",
+      "pmcid": "PMC7943804",
+      "year": 2021,
+      "title": "Tropical cyclone exposure is associated with increased hospitalization rates in older adults",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:x21FZCSn4ZoC"
+      ],
+      "outcome_names": [
+        "13 cause groups",
+        "respiratory diseases",
+        "infectious and parasitic diseases",
+        "injuries"
+      ],
+      "status": "fulltext",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1038_s41467_021_21777_1/PMC7943804.1.xml",
+      "fulltext_pdf": "papers/10_1038_s41467_021_21777_1/PMC7943804.1.pdf",
+      "supplements": [
+        "papers/10_1038_s41467_021_21777_1/41467_2021_21777_MOESM1_ESM.pdf",
+        "papers/10_1038_s41467_021_21777_1/41467_2021_21777_MOESM2_ESM.pdf"
+      ],
+      "supplements_referenced": [
+        "41467_2021_21777_MOESM1_ESM.pdf",
+        "41467_2021_21777_MOESM2_ESM.pdf"
+      ],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1097_ede_0000000000001337",
+      "doi": "10.1097/ede.0000000000001337",
+      "pmid": "33591048",
+      "pmcid": "PMC8887827",
+      "year": 2021,
+      "title": "Tropical cyclone exposures and risks of emergency Medicare hospital admission for cardiorespiratory diseases in 175 urban United States counties, 1999–2010",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:ndLnGcHYRF0C"
+      ],
+      "outcome_names": [
+        "cardiovascular",
+        "respiratory"
+      ],
+      "status": "fulltext_no_supplements",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1097_ede_0000000000001337/PMC8887827.1.xml",
+      "fulltext_pdf": null,
+      "supplements": [],
+      "supplements_referenced": [
+        "NIHMS1667651-supplement-Supplemental_Digital_Content.pdf"
+      ],
+      "supplements_missing": [
+        "NIHMS1667651-supplement-Supplemental_Digital_Content.pdf"
+      ]
+    },
+    {
+      "slug": "10_1097_ede_0000000000001456",
+      "doi": "10.1097/ede.0000000000001456",
+      "pmid": "35104259",
+      "pmcid": "PMC8852365",
+      "year": 2022,
+      "title": "A Bayesian multi-outcome analysis of fine particulate matter and cardiorespiratory hospitalizations",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:WzTVkKNmPSkC"
+      ],
+      "outcome_names": [
+        "57 cardiovascular discharge diagnoses",
+        "32 respiratory discharge diagnoses"
+      ],
+      "status": "fulltext_no_supplements",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1097_ede_0000000000001456/PMC8852365.1.xml",
+      "fulltext_pdf": null,
+      "supplements": [],
+      "supplements_referenced": [
+        "NIHMS1763059-supplement-eAppendix_1.pdf",
+        "NIHMS1763059-supplement-eAppendix_2.pdf",
+        "NIHMS1763059-supplement-eAppendix_3.pdf"
+      ],
+      "supplements_missing": [
+        "NIHMS1763059-supplement-eAppendix_1.pdf",
+        "NIHMS1763059-supplement-eAppendix_2.pdf",
+        "NIHMS1763059-supplement-eAppendix_3.pdf"
+      ]
+    },
+    {
+      "slug": "10_1136_bmjmed_2021_000009",
+      "doi": "10.1136/bmjmed-2021-000009",
+      "pmid": "36936557",
+      "pmcid": "PMC10012859",
+      "year": 2022,
+      "title": "Associations between long term air pollution exposure and first hospital admission for kidney and total urinary system diseases in the US Medicare population: nationwide …",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:sbeIDTyQOFgC"
+      ],
+      "outcome_names": [
+        "kidney and urinary system disease",
+        "chronic kidney disease"
+      ],
+      "status": "fulltext",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1136_bmjmed_2021_000009/PMC10012859.1.xml",
+      "fulltext_pdf": "papers/10_1136_bmjmed_2021_000009/PMC10012859.1.pdf",
+      "supplements": [
+        "papers/10_1136_bmjmed_2021_000009/bmjmed-2021-000009supp001.pdf"
+      ],
+      "supplements_referenced": [
+        "bmjmed-2021-000009supp001.pdf"
+      ],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1001_jamanetworkopen_2022_47664",
+      "doi": "10.1001/jamanetworkopen.2022.47664",
+      "pmid": "36538329",
+      "pmcid": "PMC9856892",
+      "year": 2022,
+      "title": "Associations of greenness, parks, and blue space with neurodegenerative disease hospitalizations among older US adults",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:8uzoZH4hB9AC"
+      ],
+      "outcome_names": [
+        "Alzheimer disease and related dementias",
+        "Parkinson disease"
+      ],
+      "status": "fulltext",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1001_jamanetworkopen_2022_47664/PMC9856892.1.xml",
+      "fulltext_pdf": null,
+      "supplements": [
+        "papers/10_1001_jamanetworkopen_2022_47664/jamanetwopen-e2247664-s001.pdf",
+        "papers/10_1001_jamanetworkopen_2022_47664/jamanetwopen-e2247664-s002.pdf"
+      ],
+      "supplements_referenced": [
+        "jamanetwopen-e2247664-s001.pdf",
+        "jamanetwopen-e2247664-s002.pdf"
+      ],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1016_j_envpol_2022_120046",
+      "doi": "10.1016/j.envpol.2022.120046",
+      "pmid": "36049575",
+      "pmcid": "PMC10236532",
+      "year": 2022,
+      "title": "Associations of parks, greenness, and blue space with cardiovascular and respiratory disease hospitalization in the US Medicare cohort",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:rqnDXT1GswoC"
+      ],
+      "outcome_names": [
+        "cardiovascular disease",
+        "respiratory disease"
+      ],
+      "status": "fulltext",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1016_j_envpol_2022_120046/PMC10236532.1.xml",
+      "fulltext_pdf": "papers/10_1016_j_envpol_2022_120046/PMC10236532.1.pdf",
+      "supplements": [
+        "papers/10_1016_j_envpol_2022_120046/NIHMS1899781-supplement-supplement.docx"
+      ],
+      "supplements_referenced": [
+        "NIHMS1899781-supplement-supplement.docx"
+      ],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1016_s2542_5196_22_00017_1",
+      "doi": "10.1016/s2542-5196(22)00017-1",
+      "pmid": "35397221",
+      "pmcid": "PMC9044858",
+      "year": 2022,
+      "title": "Associations of short-term exposure to air pollution and increased ambient temperature with psychiatric hospital admissions in older adults in the USA: a case–crossover study",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:X4-KO54GjGYC"
+      ],
+      "outcome_names": [
+        "depression",
+        "schizophrenia",
+        "bipolar disorder"
+      ],
+      "status": "fulltext",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1016_s2542_5196_22_00017_1/PMC9044858.1.xml",
+      "fulltext_pdf": "papers/10_1016_s2542_5196_22_00017_1/PMC9044858.1.pdf",
+      "supplements": [
+        "papers/10_1016_s2542_5196_22_00017_1/NIHMS1796470-supplement-1.pdf"
+      ],
+      "supplements_referenced": [
+        "NIHMS1796470-supplement-1.pdf"
+      ],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1016_j_scitotenv_2022_156855",
+      "doi": "10.1016/j.scitotenv.2022.156855",
+      "pmid": "35750164",
+      "pmcid": "PMC10007814",
+      "year": 2022,
+      "title": "The effect of long-term exposure to air pollution and seasonal temperature on hospital admissions with cardiovascular and respiratory disease in the United States: a difference …",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:qsWQJNntlusC"
+      ],
+      "outcome_names": [
+        "cardiovascular disease",
+        "myocardial infarction",
+        "ischemic stroke",
+        "respiratory diseases"
+      ],
+      "status": "fulltext_no_supplements",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1016_j_scitotenv_2022_156855/PMC10007814.1.xml",
+      "fulltext_pdf": null,
+      "supplements": [],
+      "supplements_referenced": [
+        "NIHMS1849786-supplement-supplement.docx"
+      ],
+      "supplements_missing": [
+        "NIHMS1849786-supplement-supplement.docx"
+      ]
+    },
+    {
+      "slug": "10_1289_ehp10729",
+      "doi": "10.1289/ehp10729",
+      "pmid": "37036790",
+      "pmcid": "PMC10084931",
+      "year": 2023,
+      "title": "Air pollution and acute kidney injury in the US Medicare population: a longitudinal cohort study",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:oYLFIHfuHKwC"
+      ],
+      "outcome_names": [
+        "acute kidney injury"
+      ],
+      "status": "fulltext",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1289_ehp10729/PMC10084931.1.xml",
+      "fulltext_pdf": "papers/10_1289_ehp10729/PMC10084931.1.pdf",
+      "supplements": [
+        "papers/10_1289_ehp10729/ehp10729.s001.acco.pdf",
+        "papers/10_1289_ehp10729/ehp10729.smcontents.508.pdf"
+      ],
+      "supplements_referenced": [
+        "ehp10729.s001.acco.pdf",
+        "ehp10729.smcontents.508.pdf"
+      ],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1016_j_envint_2023_107844",
+      "doi": "10.1016/j.envint.2023.107844",
+      "pmid": "36841189",
+      "pmcid": null,
+      "year": 2023,
+      "title": "Associations between greenness and kidney disease in Massachusetts: The US Medicare longitudinal cohort study",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:cSdaV2aYdYsC"
+      ],
+      "outcome_names": [
+        "total kidney disease",
+        "chronic kidney disease",
+        "acute kidney injury"
+      ],
+      "status": "no_fulltext",
+      "source": null,
+      "source_url": null,
+      "fulltext_xml": null,
+      "fulltext_pdf": null,
+      "supplements": [],
+      "supplements_referenced": [],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1097_ee9_0000000000000261",
+      "doi": "10.1097/ee9.0000000000000261",
+      "pmid": "37545812",
+      "pmcid": "PMC10402938",
+      "year": 2023,
+      "title": "Does choice of outdoor heat metric affect heat-related epidemiologic analyses in the US Medicare population?",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:kO05sadLmrgC",
+        "RSwElNMAAAAJ:N6_Y7JlWxwsC"
+      ],
+      "outcome_names": [
+        "heat-related hospitalizations"
+      ],
+      "status": "fulltext",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1097_ee9_0000000000000261/PMC10402938.1.xml",
+      "fulltext_pdf": "papers/10_1097_ee9_0000000000000261/PMC10402938.1.pdf",
+      "supplements": [
+        "papers/10_1097_ee9_0000000000000261/ee9-7-e261-s001.pdf"
+      ],
+      "supplements_referenced": [],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1016_j_envres_2022_114684",
+      "doi": "10.1016/j.envres.2022.114684",
+      "pmid": "36334826",
+      "pmcid": "PMC10236856",
+      "year": 2023,
+      "title": "Effects of long-term average temperature on cardiovascular disease hospitalizations in an American elderly population",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:Vztgr1qGG8IC"
+      ],
+      "outcome_names": [
+        "cardiovascular disease"
+      ],
+      "status": "fulltext",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1016_j_envres_2022_114684/PMC10236856.1.xml",
+      "fulltext_pdf": "papers/10_1016_j_envres_2022_114684/PMC10236856.1.pdf",
+      "supplements": [
+        "papers/10_1016_j_envres_2022_114684/NIHMS1899787-supplement-supplement.docx"
+      ],
+      "supplements_referenced": [
+        "NIHMS1899787-supplement-supplement.docx"
+      ],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1016_j_envres_2023_116203",
+      "doi": "10.1016/j.envres.2023.116203",
+      "pmid": "37271440",
+      "pmcid": "PMC10527724",
+      "year": 2023,
+      "title": "Effects of low-level air pollution exposures on hospital admission for myocardial infarction using multiple causal models",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:zzCxg_vo7cAC"
+      ],
+      "outcome_names": [
+        "myocardial infarction"
+      ],
+      "status": "fulltext",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1016_j_envres_2023_116203/PMC10527724.1.xml",
+      "fulltext_pdf": "papers/10_1016_j_envres_2023_116203/PMC10527724.1.pdf",
+      "supplements": [
+        "papers/10_1016_j_envres_2023_116203/NIHMS1912183-supplement-1.docx"
+      ],
+      "supplements_referenced": [
+        "NIHMS1912183-supplement-1.docx"
+      ],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1038_s41467_023_37675_7",
+      "doi": "10.1038/s41467-023-37675-7",
+      "pmid": "37076480",
+      "pmcid": "PMC10115860",
+      "year": 2023,
+      "title": "Health disparities among older adults following tropical cyclone exposure in Florida",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:ojlX30-wUrgC"
+      ],
+      "outcome_names": [
+        "respiratory disease",
+        "cardiovascular disease"
+      ],
+      "status": "fulltext",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1038_s41467_023_37675_7/PMC10115860.1.xml",
+      "fulltext_pdf": "papers/10_1038_s41467_023_37675_7/PMC10115860.1.pdf",
+      "supplements": [
+        "papers/10_1038_s41467_023_37675_7/41467_2023_37675_MOESM1_ESM.pdf",
+        "papers/10_1038_s41467_023_37675_7/41467_2023_37675_MOESM2_ESM.pdf",
+        "papers/10_1038_s41467_023_37675_7/41467_2023_37675_MOESM3_ESM.xlsx"
+      ],
+      "supplements_referenced": [
+        "41467_2023_37675_MOESM1_ESM.pdf",
+        "41467_2023_37675_MOESM2_ESM.pdf"
+      ],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1016_j_envint_2023_108182",
+      "doi": "10.1016/j.envint.2023.108182",
+      "pmid": "37683506",
+      "pmcid": "PMC10545022",
+      "year": 2023,
+      "title": "Long-term exposure to summer specific humidity and cardiovascular disease hospitalizations in the US Medicare population",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:KI9T_ytC6pkC"
+      ],
+      "outcome_names": [
+        "cardiovascular disease",
+        "coronary heart disease",
+        "cerebrovascular disease"
+      ],
+      "status": "fulltext",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1016_j_envint_2023_108182/PMC10545022.1.xml",
+      "fulltext_pdf": "papers/10_1016_j_envint_2023_108182/PMC10545022.1.pdf",
+      "supplements": [
+        "papers/10_1016_j_envint_2023_108182/NIHMS1931532-supplement-1.docx"
+      ],
+      "supplements_referenced": [
+        "NIHMS1931532-supplement-1.docx"
+      ],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1136_bmj_2023_076939",
+      "doi": "10.1136/bmj-2023-076939",
+      "pmid": "38383041",
+      "pmcid": "PMC10879983",
+      "year": 2024,
+      "title": "Exposure-response associations between chronic exposure to fine particulate matter and risks of hospital admission for major cardiovascular diseases: population based cohort study",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:vD2iS2Kej30C"
+      ],
+      "outcome_names": [
+        "ischemic heart disease",
+        "cerebrovascular disease",
+        "heart failure",
+        "cardiomyopathy",
+        "arrhythmia",
+        "valvular heart disease",
+        "thoracic and abdominal aortic aneurysms",
+        "composite CVD"
+      ],
+      "status": "fulltext",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1136_bmj_2023_076939/PMC10879983.1.xml",
+      "fulltext_pdf": null,
+      "supplements": [
+        "papers/10_1136_bmj_2023_076939/weiy076939.ww.pdf"
+      ],
+      "supplements_referenced": [
+        "weiy076939.ww.pdf"
+      ],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1038_s41467_024_45776_0",
+      "doi": "10.1038/s41467-024-45776-0",
+      "pmid": "38374182",
+      "pmcid": "PMC10876532",
+      "year": 2024,
+      "title": "Long-term exposure to ambient PM2. 5, particulate constituents and hospital admissions from non-respiratory infection",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:8p8iYwVyaVcC"
+      ],
+      "outcome_names": [
+        "non-respiratory infection"
+      ],
+      "status": "fulltext",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1038_s41467_024_45776_0/PMC10876532.1.xml",
+      "fulltext_pdf": "papers/10_1038_s41467_024_45776_0/PMC10876532.1.pdf",
+      "supplements": [
+        "papers/10_1038_s41467_024_45776_0/41467_2024_45776_MOESM1_ESM.pdf",
+        "papers/10_1038_s41467_024_45776_0/41467_2024_45776_MOESM2_ESM.pdf",
+        "papers/10_1038_s41467_024_45776_0/41467_2024_45776_MOESM3_ESM.pdf",
+        "papers/10_1038_s41467_024_45776_0/41467_2024_45776_MOESM4_ESM.zip",
+        "papers/10_1038_s41467_024_45776_0/41467_2024_45776_MOESM5_ESM.pdf",
+        "papers/10_1038_s41467_024_45776_0/41467_2024_45776_MOESM6_ESM.zip"
+      ],
+      "supplements_referenced": [
+        "41467_2024_45776_MOESM1_ESM.pdf",
+        "41467_2024_45776_MOESM2_ESM.pdf",
+        "41467_2024_45776_MOESM3_ESM.pdf",
+        "41467_2024_45776_MOESM4_ESM.zip",
+        "41467_2024_45776_MOESM5_ESM.pdf",
+        "41467_2024_45776_MOESM6_ESM.zip"
+      ],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1093_aje_kwae133",
+      "doi": "10.1093/aje/kwae133",
+      "pmid": "38907309",
+      "pmcid": "PMC11735961",
+      "year": 2025,
+      "title": "Comparing traditional and causal inference methodologies for evaluating impacts of long-term air pollution exposure on hospitalization with Alzheimer disease and related dementias",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:DGzKIA18-3YC"
+      ],
+      "outcome_names": [
+        "first hospitalization with ADRD"
+      ],
+      "status": "no_fulltext",
+      "source": null,
+      "source_url": null,
+      "fulltext_xml": null,
+      "fulltext_pdf": null,
+      "supplements": [],
+      "supplements_referenced": [],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1016_j_envint_2025_109617",
+      "doi": "10.1016/j.envint.2025.109617",
+      "pmid": "40578117",
+      "pmcid": "PMC12810584",
+      "year": 2025,
+      "title": "Effects of intermediate and long-term exposure to ambient air pollution and temperature on hospital admissions with second cardiovascular events among medicare beneficiaries",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:s2G-WRnXBicC"
+      ],
+      "outcome_names": [
+        "second admission with myocardial infarction",
+        "second admission with ischemic stroke"
+      ],
+      "status": "fulltext",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1016_j_envint_2025_109617/PMC12810584.1.xml",
+      "fulltext_pdf": "papers/10_1016_j_envint_2025_109617/PMC12810584.1.pdf",
+      "supplements": [
+        "papers/10_1016_j_envint_2025_109617/NIHMS2122515-supplement-MMC3.docx"
+      ],
+      "supplements_referenced": [
+        "NIHMS2122515-supplement-MMC3.docx"
+      ],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1016_j_envres_2025_122779",
+      "doi": "10.1016/j.envres.2025.122779",
+      "pmid": "40915486",
+      "pmcid": "PMC12746473",
+      "year": 2025,
+      "title": "Long-term exposure to PM2. 5 components and cardiovascular admissions in medicare patients",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:hB2aVRuWZNwC"
+      ],
+      "outcome_names": [
+        "cardiovascular disease",
+        "myocardial infarction",
+        "ischemic stroke",
+        "atrial fibrillation",
+        "heart failure"
+      ],
+      "status": "fulltext",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1016_j_envres_2025_122779/PMC12746473.1.xml",
+      "fulltext_pdf": "papers/10_1016_j_envres_2025_122779/PMC12746473.1.pdf",
+      "supplements": [
+        "papers/10_1016_j_envres_2025_122779/NIHMS2123746-supplement-1.xlsx"
+      ],
+      "supplements_referenced": [
+        "NIHMS2123746-supplement-1.xlsx"
+      ],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1609_aaai_v39i27_35009",
+      "doi": "10.1609/aaai.v39i27.35009",
+      "pmid": null,
+      "pmcid": null,
+      "year": 2025,
+      "title": "Optimizing heat alert issuance with reinforcement learning",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:x2hKVfJWtf0C"
+      ],
+      "outcome_names": [
+        "heat-related hospitalizations"
+      ],
+      "status": "fulltext_no_supplements",
+      "source": "openalex_oa_pdf",
+      "source_url": "https://ojs.aaai.org/index.php/AAAI/article/download/35009/37164",
+      "fulltext_xml": null,
+      "fulltext_pdf": "papers/10_1609_aaai_v39i27_35009/fulltext.pdf",
+      "supplements": [],
+      "supplements_referenced": [],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1002_alz_70945",
+      "doi": "10.1002/alz.70945",
+      "pmid": "41292499",
+      "pmcid": "PMC12648117",
+      "year": 2025,
+      "title": "Quantifying diagnostic signal decay in dementia: a national study of Medicare hospitalization data",
+      "scholar_pub_ids": [
+        "RSwElNMAAAAJ:-38epGy1wY0C"
+      ],
+      "outcome_names": [
+        "dementia diagnosis codes (ICD-10, 5 categories)"
+      ],
+      "status": "fulltext",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1002_alz_70945/PMC12648117.1.xml",
+      "fulltext_pdf": "papers/10_1002_alz_70945/PMC12648117.1.pdf",
+      "supplements": [
+        "papers/10_1002_alz_70945/ALZ-21-e70945-s001.pdf",
+        "papers/10_1002_alz_70945/ALZ-21-e70945-s002.pdf"
+      ],
+      "supplements_referenced": [
+        "ALZ-21-e70945-s001.pdf",
+        "ALZ-21-e70945-s002.pdf"
+      ],
+      "supplements_missing": []
+    }
+  ]
+}

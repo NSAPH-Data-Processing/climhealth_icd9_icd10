@@ -41,3 +41,36 @@ CMS Medicare data (`uses_medicare`) and whether it uses CMS Medicare defined out
 than mortality and all-cause hospitalizations (`outcome: True`). Record the outcome names, a short
 evidence quote, and `uncertain: True` when the abstract is not enough to decide. Publications
 without a usable abstract get `outcome: null`.
+
+### Step 2.4
+Fetch the full text and supplements of the papers whose ICD codes we will check.
+- Scope: unique papers (by DOI) from Step 2.3 with `uses_medicare: True`, `outcome: True` and
+  `uncertain: False`. Drop conference abstracts (e.g. ISEE abstracts `10.1289/isee*`,
+  Environmental Epidemiology meeting abstracts `10.1097/01.ee9*`, journal supplement abstracts);
+  list what was dropped and why.
+- Sources, automated only: Europe PMC / PMC full text (JATS XML) and supplementary files, then
+  open-access PDFs located through OpenAlex. No Unpaywall (it requires an email) and no manual
+  downloads.
+- Store full texts and supplements in a git-ignored `papers/` folder (copyrighted material is not
+  committed). Commit only a manifest: one record per paper with ids (DOI, PMID, PMCID), the
+  full-text source and format, the list of supplement files, and a status (`fulltext`,
+  `fulltext_no_supplements`, `no_fulltext`). Papers without an accessible full text stay in the
+  manifest with `no_fulltext`.
+
+### Step 2.5
+For each paper fetched in Step 2.4, using the full text and supplements:
+- Filter the papers that use MedPAR (inpatient admissions) and/or fee-for-service claims; record
+  the data source and a quote supporting it.
+- For each `outcome name` (taken from the paper's methods, mapped back to the Step 2.3
+  `outcome_names`), identify whether the paper lists the ICD codes (ICD-9 and/or ICD-10) used to
+  tag the inpatient hospitalizations. Record:
+  - `codes_status`: `explicit_codes` (codes listed), `classification_ref` (a named grouping such
+    as CCS or CCW categories, without codes), `cites_prior_paper` (definition taken from a cited
+    paper), `not_listed`.
+  - the codes as written, the ICD version(s), and the diagnosis position when stated (principal
+    vs. any).
+  - `evidence`: the file, the location (page number for PDFs; section, table/figure number, or
+    supplement number/table), and a short quote.
+- Papers that scan many disease groups at once (outcome-wide studies, e.g. 214 CCS groups):
+  decision pending — either record the classification system and where its codes are listed, or
+  extract every group.
