@@ -58,7 +58,16 @@ Fetch the full text and supplements of the papers whose ICD codes we will check.
   manifest with `no_fulltext`.
 
 ### Step 2.5
-For each paper fetched in Step 2.4, using the full text and supplements:
+Prepare a short, prioritized shortlist of documents for the user to try to download manually
+(e.g. through a library account). Candidates are the Step 2.4 gaps: papers with `no_fulltext`
+and papers whose referenced supplements could not be fetched (`supplements_missing`). Rank them
+by how much they matter for the ICD check (e.g. cited in the Step 1 PDF, the available text
+points to the missing supplement for the code list, outcomes not covered by other fetched
+papers), and keep the list short. For each item give: rank, the exact document to get (paper or
+named supplement file), a link (DOI / PMC page), why it matters, and the `papers/<slug>/` folder
+to save it in. Downloaded files will be registered in the Step 2.4 manifest.
+
+### Step 2.6
 - Filter the papers that use MedPAR (inpatient admissions) and/or fee-for-service claims; record
   the data source and a quote supporting it.
 - For each `outcome name` (taken from the paper's methods, mapped back to the Step 2.3
@@ -72,5 +81,4 @@ For each paper fetched in Step 2.4, using the full text and supplements:
   - `evidence`: the file, the location (page number for PDFs; section, table/figure number, or
     supplement number/table), and a short quote.
 - Papers that scan many disease groups at once (outcome-wide studies, e.g. 214 CCS groups):
-  decision pending — either record the classification system and where its codes are listed, or
-  extract every group.
+  extract every group, and populate the same json entries.
