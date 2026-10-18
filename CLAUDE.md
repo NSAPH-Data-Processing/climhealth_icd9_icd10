@@ -36,4 +36,8 @@ Create a script that pulls out citation .bib entries for each off the publicatio
 Extract abstracts for as many of the publications as possible. Null when not found.
 
 ### Step 2.3
-If citation not Null, identify whether the Google Scholar publications uses CMS Medicare defined outcomes different than mortality and all-cause hospitalizations. If so, then outcome: True
+For each publication with a non-null, unflagged abstract (Step 2.2), identify whether it uses
+CMS Medicare data (`uses_medicare`) and whether it uses CMS Medicare defined outcomes different
+than mortality and all-cause hospitalizations (`outcome: True`). Record the outcome names, a short
+evidence quote, and `uncertain: True` when the abstract is not enough to decide. Publications
+without a usable abstract get `outcome: null`.

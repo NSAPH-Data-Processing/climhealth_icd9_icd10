@@ -1,0 +1,2787 @@
+{
+ "labeled_by": "Claude (claude-opus-5-5), reading title + abstract, 2026-10-17",
+ "labels": [
+  {
+   "key": "10.64898/2026.09.29.26364336",
+   "title": "Delayed Coal Plant Retirements in the Era of Data Centers Carry a Measurable Mortality Cost",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "mortality among Medicare beneficiaries",
+   "note": ""
+  },
+  {
+   "key": "10.1093/aje/kwag073",
+   "title": "Estimate an Exposure Response Function with Negative Controls: A Bayesian Nonparametric Approach",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "cardiovascular hospitalization"
+   ],
+   "cohort_names": [],
+   "uncertain": true,
+   "evidence_phrase": "cardiovascular hospitalization rates among the elderly",
+   "note": "Medicare not named; 'elderly in the continental US' implies Medicare"
+  },
+  {
+   "key": "10.1038/s44458-025-00001-x",
+   "title": "Higher temperatures are associated with increased interpersonal and self-inflicted violence-related Medicaid hospital visits in the United States",
+   "uses_medicare": false,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "Medicaid claims",
+   "note": "Medicaid (CMS) data, not Medicare; violence-related hospital visits"
+  },
+  {
+   "key": "10.1021/ehp.6c00147",
+   "title": "PM2. 5 and 30-Day Readmission in Medicare Beneficiaries with Alzheimer’s Disease and Related Dementias: Effect Modification by Neighborhood Green and Blue Space",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [
+    "ADRD index admission"
+   ],
+   "uncertain": false,
+   "evidence_phrase": "30-day all-cause readmission",
+   "note": "all-cause readmission in an ICD-defined ADRD cohort"
+  },
+  {
+   "key": "10.1097/ee9.0000000000000440",
+   "title": "Combined and synergistic effects of heat and fine particulate matter on hospitalization among patients with Alzheimer’s disease and related dementias",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [
+    "ADRD"
+   ],
+   "uncertain": false,
+   "evidence_phrase": "all-cause hospitalization among an ADRD cohort",
+   "note": "all-cause hospitalization in an ICD-defined ADRD cohort"
+  },
+  {
+   "key": "10.1093/aje/kwae133",
+   "title": "Comparing traditional and causal inference methodologies for evaluating impacts of long-term air pollution exposure on hospitalization with Alzheimer disease and related dementias",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "first hospitalization with ADRD"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "first hospitalization with an ADRD diagnosis",
+   "note": ""
+  },
+  {
+   "key": "10.1016/j.envint.2025.109617",
+   "title": "Effects of intermediate and long-term exposure to ambient air pollution and temperature on hospital admissions with second cardiovascular events among medicare beneficiaries",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "second admission with myocardial infarction",
+    "second admission with ischemic stroke"
+   ],
+   "cohort_names": [
+    "first MI or ischemic stroke admission"
+   ],
+   "uncertain": false,
+   "evidence_phrase": "second admissions with myocardial infarction",
+   "note": ""
+  },
+  {
+   "key": "10.1088/2752-5309/ae01ce",
+   "title": "Impact of boom-and-bust economies from oil and gas development on psychiatric hospitalizations among Medicaid beneficiaries",
+   "uses_medicare": false,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "Medicaid claims data",
+   "note": "Medicaid (CMS) data, not Medicare; psychiatric hospitalizations"
+  },
+  {
+   "key": "10.1016/j.envres.2025.122779",
+   "title": "Long-term exposure to PM2. 5 components and cardiovascular admissions in medicare patients",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "cardiovascular disease",
+    "myocardial infarction",
+    "ischemic stroke",
+    "atrial fibrillation",
+    "heart failure"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "Our outcomes included hospital admissions with CVDs",
+   "note": ""
+  },
+  {
+   "key": "10.1093/jrsssa/qnaf004",
+   "title": "Methods for estimating the exposure–response curve to inform the new safety standards for fine particulate matter",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "all-cause mortality using data from over 68 million Medicare",
+   "note": ""
+  },
+  {
+   "key": "10.1609/aaai.v39i27.35009",
+   "title": "Optimizing heat alert issuance with reinforcement learning",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "heat-related hospitalizations"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "heat-related hospitalizations",
+   "note": ""
+  },
+  {
+   "key": "10.1002/alz.70945",
+   "title": "Quantifying diagnostic signal decay in dementia: a national study of Medicare hospitalization data",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "dementia diagnosis codes (ICD-10, 5 categories)"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "dementia codes were grouped",
+   "note": "coding-quality study of dementia ICD-10 codes in Medicare Part A claims"
+  },
+  {
+   "key": "10.1289/ehp14677",
+   "title": "Seasonal Average Temperature Differences and CVD Incidence: Results from the US-Based Nurses’ Health Study, Nurses’ Health Study II, and the Health Professional Follow-Up Study",
+   "uses_medicare": false,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "Nurses' Health Study",
+   "note": "NHS/HPFS cohorts"
+  },
+  {
+   "key": "10.1136/bmjmed-2023-000771",
+   "title": "All cause and cause specific mortality associated with transition to daylight saving time in US: nationwide, time series, observational study",
+   "uses_medicare": false,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "National Center for Health Statistics",
+   "note": "NCHS mortality"
+  },
+  {
+   "key": "10.1093/biostatistics/kxad002",
+   "title": "Assessing the causal effects of a stochastic intervention in time series data: are heat alerts effective in preventing deaths and hospitalizations?",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": true,
+   "evidence_phrase": "deaths and hospitalizations among Medicare enrollees",
+   "note": "hospitalization outcome not specified in abstract"
+  },
+  {
+   "key": "10.1093/biomtc/ujae025",
+   "title": "Confounder-dependent Bayesian mixture model: Characterizing heterogeneity of causal effects in air pollution epidemiology",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "claims data from Medicare enrollees in Texas",
+   "note": ""
+  },
+  {
+   "key": "10.1136/bmj-2023-076939",
+   "title": "Exposure-response associations between chronic exposure to fine particulate matter and risks of hospital admission for major cardiovascular diseases: population based cohort study",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "ischemic heart disease",
+    "cerebrovascular disease",
+    "heart failure",
+    "cardiomyopathy",
+    "arrhythmia",
+    "valvular heart disease",
+    "thoracic and abdominal aortic aneurysms",
+    "composite CVD"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "first hospital admission during follow-up for ischemic heart disease",
+   "note": ""
+  },
+  {
+   "key": "10.1038/s41467-024-45776-0",
+   "title": "Long-term exposure to ambient PM2. 5, particulate constituents and hospital admissions from non-respiratory infection",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "non-respiratory infection"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "hospital admissions from non-respiratory infections",
+   "note": ""
+  },
+  {
+   "key": "10.1080/01621459.2022.2144737",
+   "title": "Matching on generalized propensity scores with continuous exposures",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "all-cause mortality among 68.5 million Medicare enrollees",
+   "note": ""
+  },
+  {
+   "key": "10.1136/bmj-2023-076322",
+   "title": "Short term exposure to low level ambient fine particulate matter and natural cause, cardiovascular, and respiratory morbidity among US adults with health insurance: case time …",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "natural causes",
+    "cardiovascular disease",
+    "respiratory disease",
+    "ED visits"
+   ],
+   "cohort_names": [],
+   "uncertain": true,
+   "evidence_phrase": "commercial and Medicare Advantage beneficiaries",
+   "note": "commercial + Medicare Advantage claims database (not CMS fee-for-service)"
+  },
+  {
+   "key": "10.1289/isee.2023.op-179",
+   "title": "Absolute risk of PM2. 5-attributable mortality differs by racial identity, income, and age",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "Medicare data from 73 million persons",
+   "note": ""
+  },
+  {
+   "key": "10.1289/ehp10729",
+   "title": "Air pollution and acute kidney injury in the US Medicare population: a longitudinal cohort study",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "acute kidney injury"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "first hospital admission for AKI",
+   "note": ""
+  },
+  {
+   "key": "10.1056/nejmsa2300523",
+   "title": "Air pollution and mortality at the intersection of race and social class",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "623 million person-years of Medicare data",
+   "note": ""
+  },
+  {
+   "key": "10.1016/j.envint.2023.107844",
+   "title": "Associations between greenness and kidney disease in Massachusetts: The US Medicare longitudinal cohort study",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "total kidney disease",
+    "chronic kidney disease",
+    "acute kidney injury"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "first hospital admission for total kidney disease",
+   "note": ""
+  },
+  {
+   "key": "10.1097/ee9.0000000000000261",
+   "title": "Does choice of outdoor heat metric affect heat-related epidemiologic analyses in the US Medicare population?",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "heat-related hospitalizations"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "heat-related hospitalizations among Medicare beneficiaries",
+   "note": "also all-cause mortality"
+  },
+  {
+   "key": "10.1016/j.envres.2022.114684",
+   "title": "Effects of long-term average temperature on cardiovascular disease hospitalizations in an American elderly population",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "cardiovascular disease"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "first CVD hospitalization",
+   "note": ""
+  },
+  {
+   "key": "10.1016/j.envres.2023.116203",
+   "title": "Effects of low-level air pollution exposures on hospital admission for myocardial infarction using multiple causal models",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "myocardial infarction"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "admissions for myocardial infarction in the US Medicare population",
+   "note": ""
+  },
+  {
+   "key": "10.1038/s41467-023-37675-7",
+   "title": "Health disparities among older adults following tropical cyclone exposure in Florida",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "respiratory disease",
+    "cardiovascular disease"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "Medicare hospitalizations for respiratory (RD) and cardiovascular disease",
+   "note": ""
+  },
+  {
+   "key": "10.1289/isee.2023.vo-025",
+   "title": "Incorporating Exposure Uncertainty in Estimating Causal Exposure-Response Relationships Between Long-term Exposure to PM2. 5 and Cardiovascular Disease",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "ischemic heart disease",
+    "cerebrovascular disease",
+    "heart failure",
+    "cardiomyopathy",
+    "arrhythmia",
+    "valvular heart disease",
+    "thoracic and abdominal aortic aneurysm"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "risk of hospitalization with major cardiovascular diseases",
+   "note": ""
+  },
+  {
+   "key": "10.1289/ehp12141",
+   "title": "Long-Term Exposure to Low-Level formula PM2. 5 and Mortality: Investigation of Heterogeneity by Harmonizing Analyses in Large Cohort Studies in Canada, United States, and Europe",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "Medicare, 2000-2016",
+   "note": ""
+  },
+  {
+   "key": "10.1289/isee.2023.ep-148",
+   "title": "Long-term Exposure of Ambient PM2. 5, Particulate Constituents and Hospital Admissions from Non-respiratory Infection among Older Adults in the US",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "non-respiratory infection"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "hospital admission of Medicare participants from non-respiratory infections",
+   "note": ""
+  },
+  {
+   "key": "10.1016/j.envint.2023.108182",
+   "title": "Long-term exposure to summer specific humidity and cardiovascular disease hospitalizations in the US Medicare population",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "cardiovascular disease",
+    "coronary heart disease",
+    "cerebrovascular disease"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "first CVD, CHD, and CBV hospitalization",
+   "note": ""
+  },
+  {
+   "key": "10.1126/science.adf4915",
+   "title": "Mortality risk from United States coal electricity generation",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "individual-level Medicare death records",
+   "note": ""
+  },
+  {
+   "key": "10.1289/isee.2023.op-175",
+   "title": "Propagation of annual PM2. 5 concentration uncertainty into the association with mortality in the United States",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "Medicare death rates",
+   "note": ""
+  },
+  {
+   "key": "10.1289/ehp11588",
+   "title": "Seasonal temperature variability and mortality in the Medicare population",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "Medicare cohort from 2000 to 2016",
+   "note": ""
+  },
+  {
+   "key": "10.1289/isee.2023.pk-014",
+   "title": "Temperature and violence-related Medicaid hospital visits in the United States",
+   "uses_medicare": false,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "leveraging Medicaid claims",
+   "note": "Medicaid (CMS) data, not Medicare"
+  },
+  {
+   "key": "10.1097/ede.0000000000001456",
+   "title": "A Bayesian multi-outcome analysis of fine particulate matter and cardiorespiratory hospitalizations",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "57 cardiovascular discharge diagnoses",
+    "32 respiratory discharge diagnoses"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "57 cardiovascular and 32 respiratory discharge diagnoses",
+   "note": ""
+  },
+  {
+   "key": "10.1164/rccm.202107-1596oc",
+   "title": "Air pollutants and asthma hospitalization in the Medicaid population",
+   "uses_medicare": false,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "national Medicaid beneficiaries",
+   "note": "Medicaid (CMS) data, not Medicare; asthma hospitalization"
+  },
+  {
+   "key": "RSwElNMAAAAJ:X5YyAB84Iw4C",
+   "title": "Assessing adverse health effects of long-term exposure to low levels of ambient air pollution: implementation of causal inference methods",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": true,
+   "evidence_phrase": "claims data from Medicare and Medicaid beneficiaries",
+   "note": "HEI final report; reported results are mortality, other outcomes not named"
+  },
+  {
+   "key": "10.1001/jama.2022.1682",
+   "title": "Association of tropical cyclones with county-level mortality in the US",
+   "uses_medicare": false,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "National Center for Health Statistics",
+   "note": "NCHS mortality"
+  },
+  {
+   "key": "10.1136/bmjmed-2021-000009",
+   "title": "Associations between long term air pollution exposure and first hospital admission for kidney and total urinary system diseases in the US Medicare population: nationwide …",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "kidney and urinary system disease",
+    "chronic kidney disease"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "First hospital admission with diagnosis codes for total kidney and urinary system disease",
+   "note": ""
+  },
+  {
+   "key": "10.1289/isee.2022.o-op-055",
+   "title": "Associations between long-term air pollution and kidney diseases in the US Medicare population",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "total kidney disease",
+    "chronic kidney disease"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "first admission with diagnosis codes related to the total kidney disease or CKD",
+   "note": ""
+  },
+  {
+   "key": "10.1001/jamanetworkopen.2022.47664",
+   "title": "Associations of greenness, parks, and blue space with neurodegenerative disease hospitalizations among older US adults",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "Alzheimer disease and related dementias",
+    "Parkinson disease"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "first hospitalizations with a primary or secondary discharge diagnosis of ADRD or PD",
+   "note": ""
+  },
+  {
+   "key": "10.1289/isee.2022.p-0270",
+   "title": "Associations of greenness, public parks, and blue space with cardiovascular and respiratory disease hospitalization in the US Medicare cohort",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "cardiovascular disease",
+    "respiratory disease"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "first CVD and RSD hospitalization",
+   "note": ""
+  },
+  {
+   "key": "10.1016/j.envpol.2022.120046",
+   "title": "Associations of parks, greenness, and blue space with cardiovascular and respiratory disease hospitalization in the US Medicare cohort",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "cardiovascular disease",
+    "respiratory disease"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "first CVD and RSD hospitalization",
+   "note": ""
+  },
+  {
+   "key": "10.1016/s2542-5196(22)00017-1",
+   "title": "Associations of short-term exposure to air pollution and increased ambient temperature with psychiatric hospital admissions in older adults in the USA: a case–crossover study",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "depression",
+    "schizophrenia",
+    "bipolar disorder"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "acute hospital admissions for depression, schizophrenia, and bipolar disorder",
+   "note": ""
+  },
+  {
+   "key": "10.1289/isee.2022.p-0272",
+   "title": "Effects of greenness, public parks, and blue space on neurodegenerative disease hospitalizations in the US Medicare cohort",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "Alzheimer's disease and related dementias",
+    "Parkinson's disease"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "first ADRD or PD hospitalizations",
+   "note": ""
+  },
+  {
+   "key": "10.1289/isee.2021.o-lt-108",
+   "title": "Exposure to unconventional oil and gas development and all-cause mortality in Medicare beneficiaries",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "15,198,496 Medicare beneficiaries",
+   "note": ""
+  },
+  {
+   "key": "10.1214/21-aoas1558",
+   "title": "Measuring performance for end-of-life care",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [
+    "pancreatic cancer"
+   ],
+   "uncertain": false,
+   "evidence_phrase": "data from CMS",
+   "note": "readmission and mortality in a pancreatic cancer cohort"
+  },
+  {
+   "key": "10.1289/isee.2022.p-0559",
+   "title": "Seasonal Temperature Variability and Mortality across the United States",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "US Medicare cohort (age 65+)",
+   "note": ""
+  },
+  {
+   "key": "10.1016/j.scitotenv.2022.156855",
+   "title": "The effect of long-term exposure to air pollution and seasonal temperature on hospital admissions with cardiovascular and respiratory disease in the United States: a difference …",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "cardiovascular disease",
+    "myocardial infarction",
+    "ischemic stroke",
+    "respiratory diseases"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "hospital admissions for cardiovascular disease (CVD), myocardial infarction (MI), ischemic stroke, and respiratory diseases",
+   "note": ""
+  },
+  {
+   "key": "10.1097/ede.0000000000001354",
+   "title": "A direct estimate of the impact of PM2. 5, NO2, and O3 exposure on life expectancy using propensity scores",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "all participants in Medicare",
+   "note": ""
+  },
+  {
+   "key": "10.1016/j.envres.2020.110649",
+   "title": "A national difference in differences analysis of the effect of PM2. 5 on annual death rates",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "U.S. Medicare population",
+   "note": ""
+  },
+  {
+   "key": "10.1289/isee.2020.virtual.p-0648",
+   "title": "A self-controlled approach to survival analysis, with application to air pollution and mortality",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "Medicare cohort between 2000 and 2015",
+   "note": ""
+  },
+  {
+   "key": "10.1289/isee.2021.p-104",
+   "title": "Acute exposures to air pollutants and asthma hospitalization in the Medicaid population",
+   "uses_medicare": false,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "enrolled in Medicaid",
+   "note": "Medicaid (CMS) data, not Medicare; asthma hospitalization"
+  },
+  {
+   "key": "10.1016/j.envint.2021.106715",
+   "title": "Air pollution and cardiovascular disease hospitalization–Are associations modified by greenness, temperature and humidity?",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "cardiovascular disease",
+    "coronary heart disease",
+    "cerebrovascular disease"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "first cardiovascular disease (CVD), coronary heart disease (CHD) and cerebrovascular disease (CBV) hospitalization",
+   "note": ""
+  },
+  {
+   "key": "10.1136/bmj-2021-065653",
+   "title": "Ambient heat and risks of emergency department visits among adults in the United States: time stratified case crossover study",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "heat related illness",
+    "renal disease",
+    "cardiovascular disease",
+    "respiratory disease",
+    "mental disorders",
+    "ED visits"
+   ],
+   "cohort_names": [],
+   "uncertain": true,
+   "evidence_phrase": "commercial and Medicare Advantage beneficiaries",
+   "note": "commercial + Medicare Advantage claims database (not CMS fee-for-service)"
+  },
+  {
+   "key": "10.1093/aje/kwab127",
+   "title": "Association between Hurricane Sandy and emergency department visits in New York City by age and cause",
+   "uses_medicare": false,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "residents of New York City",
+   "note": "NYC ED data, not Medicare"
+  },
+  {
+   "key": "10.1289/isee.2021.o-lt-073",
+   "title": "Associations of Short-term Exposure to Air Pollution and Ambient Temperature Increase with Psychiatric Admissions in Elderly Adults",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "depression",
+    "schizophrenia",
+    "bipolar disorder"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "primary diagnosis of depression",
+   "note": ""
+  },
+  {
+   "key": "10.1289/isee.2021.o-sy-108",
+   "title": "Causal Inference and Machine Learning approaches to discover de novo sub-populations with heterogeneous air pollution health effects",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "Medicare data to study the heterogeneous effects",
+   "note": ""
+  },
+  {
+   "key": "10.1080/01621459.2020.1870476",
+   "title": "Discovering heterogeneous exposure effects using randomization inference in air pollution studies",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "1,612,414 Medicare beneficiaries",
+   "note": ""
+  },
+  {
+   "key": "10.1289/isee.2021.o-to-167",
+   "title": "Effects of long-term average temperature and temperature variability on cardiovascular disease hospitalizations in the US Medicare population",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "cardiovascular disease",
+    "coronary heart disease",
+    "cerebrovascular disease"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "first CVD, coronary heart disease (CHD) or cerebrovascular disease (CBV) hospitalization",
+   "note": ""
+  },
+  {
+   "key": "10.1289/isee.2021.p-530",
+   "title": "Emulating causal dose-response relations between air pollutants and mortality in elders",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "Medicare cohort ≥ 65 years",
+   "note": ""
+  },
+  {
+   "key": "10.1186/s12940-021-00742-x",
+   "title": "Emulating causal dose-response relations between air pollutants and mortality in the Medicare population",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "national Medicare cohort",
+   "note": ""
+  },
+  {
+   "key": "10.1080/01621459.2020.1803883",
+   "title": "Evaluation of the health impacts of the 1990 clean air act amendments using causal inference and machine learning",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "cardiovascular hospitalizations",
+    "dementia-related hospitalizations"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "cardiovascular and dementia-related hospitalizations",
+   "note": ""
+  },
+  {
+   "key": "10.1289/isee.2021.p-651",
+   "title": "Health Disparities Among Older Adults Following Tropical Cyclone Exposure in Florida, USA, 1999-2016",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "respiratory illnesses",
+    "cardiovascular disease",
+    "5 other broad causes"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "respiratory illnesses and cardiovascular disease (CVD), as well as 5 other broad causes",
+   "note": ""
+  },
+  {
+   "key": "10.1289/isee.2021.o-to-007",
+   "title": "Heat alerts associated with higher rates of cause-specific hospital admissions but not lower mortality among older adults in the US",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "fluid and electrolyte disorders",
+    "heat stroke"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "fluid and electrolyte disorders",
+   "note": ""
+  },
+  {
+   "key": "10.1016/j.envint.2021.106834",
+   "title": "Heat warnings, mortality, and hospital admissions among older adults in the United States",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "fluid and electrolyte disorders",
+    "heat stroke"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "fluid and electrolyte disorders",
+   "note": ""
+  },
+  {
+   "key": "10.1289/isee.2021.p-531",
+   "title": "Long-term Exposure to Air Pollution and Temperature and Hospital Admissions with Cardiovascular Disease in the United States",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "cardiovascular disease"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "Hospital admissions with CVD were identified using ICD-9 and ICD-10 codes",
+   "note": ""
+  },
+  {
+   "key": "10.1289/isee.2021.o-to-019",
+   "title": "Long-term Exposure to Fine Particulate Matter is Causally Linked to Mortality Among the Elderly",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "68.5 million Medicare enrollees",
+   "note": ""
+  },
+  {
+   "key": "10.1097/ede.0000000000001348",
+   "title": "Long-term Exposure to PM2. 5 and Mortality for the Older Population: Effect Modification by Residential Greenness",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "all Medicare beneficiaries in North Carolina",
+   "note": ""
+  },
+  {
+   "key": "10.1161/circulationaha.120.050252",
+   "title": "Long-term association of air pollution and hospital admissions among medicare participants using a doubly robust additive model",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "myocardial infarction",
+    "ischemic stroke",
+    "atrial fibrillation and flutter",
+    "pneumonia"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "myocardial infarction, ischemic stroke, atrial fibrillation and flutter, and pneumonia",
+   "note": ""
+  },
+  {
+   "key": "10.1016/s2542-5196(21)00204-7",
+   "title": "Long-term effect of exposure to lower concentrations of air pollution on mortality among US Medicare participants and vulnerable subgroups: a doubly-robust approach",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "all-cause mortality among Medicare enrolees",
+   "note": ""
+  },
+  {
+   "key": "10.1097/ede.0000000000001265",
+   "title": "Nationwide study of short-term exposure to fine particulate matter and cardiovascular hospitalizations among Medicaid enrollees",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "cardiovascular disease"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "non-Medicaid-eligible Medicare enrollees",
+   "note": "primarily Medicaid; Medicare used as comparison group"
+  },
+  {
+   "key": "10.1016/j.scitotenv.2020.142524",
+   "title": "PM2. 5 and hospital admissions among Medicare enrollees with chronic debilitating brain disorders",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "pneumonia",
+    "urinary tract infection",
+    "cause-specific admissions"
+   ],
+   "cohort_names": [
+    "Parkinson's disease",
+    "Alzheimer's disease and other dementia"
+   ],
+   "uncertain": false,
+   "evidence_phrase": "prevalent cause-specific admissions",
+   "note": "also all-cause admissions"
+  },
+  {
+   "key": "10.1016/j.envint.2021.106737",
+   "title": "Temporal changes in associations between high temperature and hospitalizations by greenspace: analysis in the Medicare population in 40 US northeast counties",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "cardiovascular causes",
+    "heat stroke"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "cardiovascular causes (CVD) and heat stroke (HS)",
+   "note": ""
+  },
+  {
+   "key": "10.1016/s2542-5196(21)00168-6",
+   "title": "Temporal variation in association between short-term exposure to fine particulate matter and hospitalisations in older adults in the USA: a long-term time-series analysis of …",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "circulatory",
+    "respiratory"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "daily circulatory and respiratory hospitalisation rates of Medicare beneficiaries",
+   "note": ""
+  },
+  {
+   "key": "10.1289/isee.2021.p-536",
+   "title": "The impact of air pollution on mortality risk in the older adults with Alzheimer's disease and related dementias (ADRD)",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [
+    "ADRD hospitalization"
+   ],
+   "uncertain": false,
+   "evidence_phrase": "had an ADRD code during a hospital stay",
+   "note": "mortality in an ICD-defined ADRD cohort"
+  },
+  {
+   "key": "10.1038/s41467-021-21777-1",
+   "title": "Tropical cyclone exposure is associated with increased hospitalization rates in older adults",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "13 cause groups",
+    "respiratory diseases",
+    "infectious and parasitic diseases",
+    "injuries"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "hospitalizations for 13 mutually-exclusive, clinically-meaningful causes",
+   "note": ""
+  },
+  {
+   "key": "10.1097/ede.0000000000001337",
+   "title": "Tropical cyclone exposures and risks of emergency Medicare hospital admission for cardiorespiratory diseases in 175 urban United States counties, 1999–2010",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "cardiovascular",
+    "respiratory"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "Cardiovascular hospitalizations decreased",
+   "note": ""
+  },
+  {
+   "key": "10.1289/isee.2020.virtual.p-0387",
+   "title": "Association between heat warnings and mortality among older adults in the United States",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "all-cause mortality counts among Medicare beneficiaries",
+   "note": ""
+  },
+  {
+   "key": "10.1093/aje/kwaa098",
+   "title": "Causal effects of air pollution on mortality rate in Massachusetts",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "all-cause mortality on an additive scale among Medicare beneficiaries",
+   "note": ""
+  },
+  {
+   "key": "10.1289/isee.2020.virtual.o-os-654",
+   "title": "Coastal storms, hurricanes and multiple hospitalization outcomes in the United States",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "congestive heart failure",
+    "acute myocardial infarction",
+    "pneumonia",
+    "COPD and bronchiectasis",
+    "respiratory failure"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "congestive heart failure",
+   "note": ""
+  },
+  {
+   "key": "10.1080/01621459.2020.1722134",
+   "title": "Estimating the effects of fine particulate matter on 432 cardiovascular diseases using multi-outcome regression with tree-structured shrinkage",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "432 cardiovascular diseases (ICD-9)"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "hospitalization for 432 distinct CVDs defined by the International Classification of Diseases, Revision 9",
+   "note": ""
+  },
+  {
+   "key": "10.1126/sciadv.aba5692",
+   "title": "Evaluating the impact of long-term exposure to fine particulate matter on mortality among the elderly",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "68.5 million Medicare enrollees",
+   "note": ""
+  },
+  {
+   "key": "10.1289/isee.2020.virtual.p-0983",
+   "title": "Impacts of Long-term Exposure to Fine Particulate Matter on Mortality Among the Elderly",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "68.5 million Medicare enrollees",
+   "note": ""
+  },
+  {
+   "key": "10.1289/isee.2020.virtual.o-os-608",
+   "title": "Long-term Effects of Fine Particulate Matter on Neurological Disorders in the US Medicare Population: A Nationwide Analysis",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "Parkinson's disease",
+    "Alzheimer's disease and related dementias"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "first PD and AD/ADRD hospitalization",
+   "note": ""
+  },
+  {
+   "key": "10.1016/s2542-5196(20)30227-8",
+   "title": "Long-term effects of PM2· 5 on neurological disorders in the American Medicare population: a longitudinal cohort study",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "Parkinson's disease",
+    "Alzheimer's disease and related dementias"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "first hospital admission for Parkinson's disease or Alzheimer's disease",
+   "note": ""
+  },
+  {
+   "key": "10.1289/isee.2020.virtual.p-0961",
+   "title": "Long-term exposure to PM2. 5 and risk of mortality for older population in North Carolina and Michigan",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "all Medicare beneficiaries in NC and MI",
+   "note": ""
+  },
+  {
+   "key": "10.1001/jama.2020.1021",
+   "title": "Mortality and hospitalizations for dually enrolled and nondually enrolled Medicare beneficiaries aged 65 years or older, 2004 to 2017",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "all-cause hospitalization rates",
+   "note": "all-cause mortality and all-cause hospitalization only"
+  },
+  {
+   "key": "10.1097/ede.0000000000001195",
+   "title": "Risk of acute respiratory distress syndrome among older adults living near construction and manufacturing sites",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "acute respiratory distress syndrome"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "hospital admission rates for ARDS",
+   "note": ""
+  },
+  {
+   "key": "10.1289/isee.2020.virtual.o-sy-128",
+   "title": "The 2019 Getty Fire and healthcare visits among vulnerable older adults in Southern California",
+   "uses_medicare": false,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "Kaiser Permanente Southern California",
+   "note": "KPSC members, not Medicare"
+  },
+  {
+   "key": "10.1289/isee.2020.virtual.o-os-542",
+   "title": "The Causal Effect of PM2. 5 Exposure on Hospital Admissions Among Medicare Enrollees with Chronic Debilitating Brain Disorders: A National Study.",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "pneumonia",
+    "urinary tract infection",
+    "cause-specific admissions"
+   ],
+   "cohort_names": [
+    "Parkinson's disease",
+    "dementia"
+   ],
+   "uncertain": false,
+   "evidence_phrase": "pneumonia and urinary tract infection",
+   "note": "also all-cause admissions"
+  },
+  {
+   "key": "10.1289/isee.2020.virtual.p-0185",
+   "title": "The Long-term Effect of Exposure to Air Pollutants on Mortality among Medicare Participants: A National Study Using an Additive Hazards Model",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "Medicare denominator file",
+   "note": ""
+  },
+  {
+   "key": "10.1289/isee.2020.virtual.p-1154",
+   "title": "The effects of heat wave warning system on mortality in urban and rural populations in South Korea through 2001-2016",
+   "uses_medicare": false,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "South Korea",
+   "note": "Korean mortality data"
+  },
+  {
+   "key": "10.1097/01.ee9.0000609944.59096.24",
+   "title": "Air pollution and mortality in the US using Medicare and Medicaid populations",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "data from Medicare beneficiaries",
+   "note": ""
+  },
+  {
+   "key": "RSwElNMAAAAJ:ZqLB7dQ1iF4C",
+   "title": "Assessing Adverse Health Effects of Long-Term Exposure to Low Levels of Ambient Air Pollution",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": true,
+   "evidence_phrase": "Medicare claims data",
+   "note": "HEI phase 1 report; 'hospitalization' not specified"
+  },
+  {
+   "key": "RSwElNMAAAAJ:jtI9f0ekYq0C",
+   "title": "Assessing adverse health effects of long-term exposure to low levels of ambient air pollution: phase 1",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": true,
+   "evidence_phrase": "Medicare claims data",
+   "note": "HEI phase 1 report; 'hospitalization' not specified"
+  },
+  {
+   "key": "10.1097/01.ee9.0000606744.02910.23",
+   "title": "Assessing the short-term effect of PM2. 5 on cardiovascular hospitalizations in the Medicaid population: A case-crossover study",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "cardiovascular disease"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "association in the Medicare",
+   "note": "primarily Medicaid; Medicare used as comparison"
+  },
+  {
+   "key": "10.1097/01.ee9.0000610872.60679.52",
+   "title": "Cause-specific emergency hospitalizations in New York City following Hurricane Sandy",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "respiratory",
+    "cardiovascular",
+    "cerebrovascular",
+    "renal",
+    "injury and poisoning"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "five broad categories of emergency hospitalizations",
+   "note": ""
+  },
+  {
+   "key": "10.1016/j.envint.2019.05.059",
+   "title": "County-level radon exposure and all-cause mortality risk among Medicare beneficiaries",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "all-cause mortality, and explored",
+   "note": ""
+  },
+  {
+   "key": "10.1097/01.ee9.0000609132.52259.56",
+   "title": "Efficacy of heat wave warning system in reducing mortality risk of heat waves in South Korea, Utilizing difference-in-difference and propensity score weighting approaches",
+   "uses_medicare": false,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "S. Korea",
+   "note": "Korean mortality data"
+  },
+  {
+   "key": "10.1161/circheartfailure.118.005407",
+   "title": "Epidemiology of cardiac amyloidosis–associated heart failure hospitalizations among fee-for-service medicare beneficiaries in the United States",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "cardiac amyloidosis",
+    "heart failure / cardiomyopathy (ICD-9)"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "International Classification of Diseases, Ninth Revision code for amyloidosis",
+   "note": ""
+  },
+  {
+   "key": "10.1097/01.ee9.0000611200.02850.d6",
+   "title": "How Many Hospital admissions in Massachusetts Would Have Been Saved, Had the Particulate Air Pollution Level Been Lower?",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "respiratory",
+    "cardiovascular disease",
+    "myocardial infarction",
+    "ischemic heart disease",
+    "ischemic stroke",
+    "congestive heart failure",
+    "COPD"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "respiratory and cardiovascular admissions of Medicare beneficiaries",
+   "note": ""
+  },
+  {
+   "key": "10.1016/j.chest.2019.03.017",
+   "title": "Impact of long-term exposures to ambient PM2. 5 and ozone on ARDS risk for older adults in the United States",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "acute respiratory distress syndrome"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "hospital admissions with ARDS among US Medicare beneficiaries",
+   "note": ""
+  },
+  {
+   "key": "10.1097/01.ee9.0000609920.20979.4c",
+   "title": "Long-term effect of air pollution on hospital admissions among medicare participants using a doubly robust additive hazards model (drahm)",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "stroke",
+    "myocardial infarction",
+    "lung cancer",
+    "heart failure",
+    "pneumonia",
+    "COPD"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "hospital admissions for stroke, myocardial infarction (MI), lung cancer, heart failure, pneumonia",
+   "note": ""
+  },
+  {
+   "key": "10.1016/j.envpol.2019.07.094",
+   "title": "Long-term effect of fine particulate matter on hospitalization with dementia",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "dementia",
+    "vascular dementia"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "hospitalizations with dementia",
+   "note": ""
+  },
+  {
+   "key": "10.1097/mlr.0000000000001207",
+   "title": "Relative effects of the hospital readmissions reduction program on hospitals that serve poorer patients",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [
+    "acute myocardial infarction",
+    "congestive heart failure",
+    "pneumonia"
+   ],
+   "uncertain": false,
+   "evidence_phrase": "principal discharge diagnosis of acute myocardial infarction",
+   "note": "HRRP readmission measure in ICD-defined index cohorts"
+  },
+  {
+   "key": "10.1097/01.ee9.0000611140.62946.fa",
+   "title": "Residential radon exposure and all-cause mortality risk among Medicare beneficiaries",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "all Medicare beneficiaries in the Mid-Atlantic",
+   "note": ""
+  },
+  {
+   "key": "10.1136/bmj.l6258",
+   "title": "Short term exposure to fine particulate matter and hospital admission risks and costs in the Medicare population: time stratified, case crossover study",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "214 disease groups",
+    "septicemia",
+    "fluid and electrolyte disorders",
+    "acute and unspecified renal failure",
+    "cardiovascular",
+    "respiratory"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "214 mutually exclusive disease groups",
+   "note": ""
+  },
+  {
+   "key": "10.1080/10962247.2019.1596994",
+   "title": "Synthesis of Harvard Environmental Protection Agency (EPA) Center studies on traffic-related particulate pollution and cardiovascular outcomes in the Greater Boston Area",
+   "uses_medicare": false,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "Greater Boston Area",
+   "note": "review of Boston cohort studies"
+  },
+  {
+   "key": "10.1097/01.ee9.0000611088.17204.59",
+   "title": "Tropical cyclone exposure and risk of emergency Medicare hospital admissions for cardiorespiratory diseases in 175 United States counties, 1999-2010",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "cardiovascular",
+    "respiratory"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "emergency cardiorespiratory hospital admissions",
+   "note": ""
+  },
+  {
+   "key": "10.1289/isesisee.2018.o02.03.20",
+   "title": "A Marginal Estimate of PM2. 5 Effects on Mortality Using Propensity Scores and Exposure Randomization by Moving",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "Medicare cohort aged 65 and older",
+   "note": ""
+  },
+  {
+   "key": "10.1161/str.49.suppl_1.wp163",
+   "title": "Abstract WP163: Green Space and 30-Day Readmissions Following Ischemic Stroke in Medicare",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [
+    "ischemic stroke"
+   ],
+   "uncertain": false,
+   "evidence_phrase": "principal discharge diagnosis of ischemic stroke",
+   "note": "all-cause readmission after ischemic stroke"
+  },
+  {
+   "key": "10.1001/jamanetworkopen.2018.3038",
+   "title": "Assessment of between-hospital variation in readmission and mortality after cancer surgical procedures",
+   "uses_medicare": false,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "California Office of Statewide Health Planning and Development",
+   "note": "California cancer registry + OSHPD discharge data; CMS mentioned only as context"
+  },
+  {
+   "key": "10.1289/ehp3130",
+   "title": "Estimating the effects of PM2. 5 on life expectancy using causal modeling methods",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "16,965,154 Medicare beneficiaries",
+   "note": ""
+  },
+  {
+   "key": "10.1289/isesisee.2018.o02.01.07",
+   "title": "Exploration on Explanations for Observed Long-Term Temporal Trend of the Short-Term Association between Fine Particulate Matter Concentration and Hospital Admissions in the US",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "respiratory",
+    "cardiovascular"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "respiratory hospital admissions",
+   "note": ""
+  },
+  {
+   "key": "10.1097/ede.0000000000000777",
+   "title": "Impact of National Ambient Air Quality Standards nonattainment designations on particulate pollution and health",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "COPD",
+    "heart failure",
+    "ischemic heart disease",
+    "respiratory tract infections"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "chronic obstructive pulmonary disorder, heart failure, ischemic heart disease, and respiratory tract infections",
+   "note": "also all-cause mortality"
+  },
+  {
+   "key": "10.1016/j.ypmed.2018.02.001",
+   "title": "Medical diagnoses of heat wave-related hospital admissions in older adults",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "50 heat-related diagnoses",
+    "heat stroke and sunstroke",
+    "fluid and electrolyte disorders",
+    "acute kidney failure"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "We considered 50 outcomes",
+   "note": ""
+  },
+  {
+   "key": "10.1289/isesisee.2018.p03.0230",
+   "title": "National Weather Service heat alerts and emergency hospital admissions among the elderly in 97 US counties",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "for any cause exclusive of external injuries",
+   "note": "all-cause (non-injury) emergency admissions"
+  },
+  {
+   "key": "10.1289/isee.2017.2017-265",
+   "title": "A nationwide case-crossover study on air pollution and mortality in the medicare population",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "all Medicare participants",
+   "note": ""
+  },
+  {
+   "key": "10.1289/ehp257",
+   "title": "Airborne fine particles and risk of hospital admissions for understudied populations: effects by urbanicity and short-term cumulative exposures in 708 US counties",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "cardiovascular",
+    "respiratory"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "cardiovascular- and respiratory-related hospitalization rates",
+   "note": ""
+  },
+  {
+   "key": "10.1016/s2542-5196(17)30136-5",
+   "title": "Association of air particulate pollution with bone loss over time and bone fracture risk: analysis of data from two independent studies",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "osteoporosis-related fracture"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "osteoporosis-related fracture hospital admissions",
+   "note": ""
+  },
+  {
+   "key": "10.1001/jama.2017.17923",
+   "title": "Association of short-term exposure to air pollution with mortality in older adults",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "All-cause mortality in the entire Medicare population",
+   "note": ""
+  },
+  {
+   "key": "10.1289/isee.2017.2017-1032",
+   "title": "Cause-Specific Risk and Medical Cost Associated with Acute Exposure to PM2. 5 among Older Adults",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "283 ICD-9 categories"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "We grouped the principal discharge ICD-9 code to 283 categories",
+   "note": ""
+  },
+  {
+   "key": "10.1007/s11060-016-2294-7",
+   "title": "Comparative effectiveness of radiotherapy with vs. without temozolomide in older patients with glioblastoma",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [
+    "glioblastoma"
+   ],
+   "uncertain": false,
+   "evidence_phrase": "SEER-Medicare",
+   "note": "overall survival in SEER-Medicare glioblastoma cohort"
+  },
+  {
+   "key": "10.1289/isee.2017.2017-385",
+   "title": "Doubly Robust Exposure-Response Curve Estimation using Penalized Spline: Application to Long-term PM2. 5 and Probability of Death in a Year",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "13 million Medicare beneficiaries",
+   "note": ""
+  },
+  {
+   "key": "10.1016/s2542-5196(17)30002-5",
+   "title": "Drought and the risk of hospital admissions and mortality in older adults in western USA from 2000 to 2013: a retrospective study",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "cardiovascular",
+    "respiratory"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "daily rates of cardiovascular admissions, respiratory admissions",
+   "note": ""
+  },
+  {
+   "key": "10.1093/biostatistics/kxx003",
+   "title": "Guided Bayesian imputation to adjust for confounding when combining heterogeneous data sources in comparative effectiveness research",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [
+    "brain tumor"
+   ],
+   "uncertain": false,
+   "evidence_phrase": "SEER-Medicare",
+   "note": "survival after surgical resection"
+  },
+  {
+   "key": "10.1111/biom.12622",
+   "title": "Model averaged double robust estimation",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [
+    "glioblastoma"
+   ],
+   "uncertain": false,
+   "evidence_phrase": "Medicare enrollees who were diagnosed with glioblastoma",
+   "note": "one-year survival"
+  },
+  {
+   "key": "10.1093/biostatistics/kxx014",
+   "title": "Propensity scores with misclassified treatment assignment: a likelihood-based adjustment",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [
+    "brain tumors"
+   ],
+   "uncertain": false,
+   "evidence_phrase": "ICD9 billing codes from Medicare Part A",
+   "note": "1-year mortality; treatment identified by ICD-9 procedure codes"
+  },
+  {
+   "key": "10.7326/m16-0185",
+   "title": "Readmission rates after passage of the hospital readmissions reduction program: a pre–post analysis",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [
+    "acute myocardial infarction",
+    "congestive heart failure",
+    "pneumonia"
+   ],
+   "uncertain": false,
+   "evidence_phrase": "30-day readmission rates after hospitalization for AMI",
+   "note": "HRRP readmission measure in ICD-defined index cohorts"
+  },
+  {
+   "key": "10.1093/aje/kwx141",
+   "title": "Who among the elderly is most vulnerable to exposure to and health risks of fine particulate matter from wildfire smoke?",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "respiratory"
+   ],
+   "cohort_names": [],
+   "uncertain": true,
+   "evidence_phrase": "hospital admissions for respiratory causes",
+   "note": "Medicare not named; >65 hospitalizations in western US (same group's Medicare wildfire studies)"
+  },
+  {
+   "key": "10.1097/ede.0000000000000556",
+   "title": "Wildfire-specific fine particulate matter and risk of hospital admissions in urban and rural counties",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "cardiovascular",
+    "respiratory"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "cardiovascular and respiratory hospital admissions associated with smoke waves for Medicare enrollees",
+   "note": ""
+  },
+  {
+   "key": "10.1289/isee.2016.4040",
+   "title": "A National Cohort Study of Effects of PM2. 5 and Ozone at Low Concentrations on Mortality in the Continental United States",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "all Medicare beneficiaries",
+   "note": ""
+  },
+  {
+   "key": "10.1289/isee.2016.4081",
+   "title": "Causal inference for Evaluating National or Regional Air Quality Interventions",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": true,
+   "evidence_phrase": "Medicare mortality and hospitalization outcomes",
+   "note": "hospitalization outcome not specified in abstract"
+  },
+  {
+   "key": "RSwElNMAAAAJ:j7_hQOaDUrUC",
+   "title": "Causal inference methods for estimating long-term health effects of air quality regulations",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "respiratory"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "respiratory-related hospitalization rates",
+   "note": ""
+  },
+  {
+   "key": "10.1289/isee.2016.3304",
+   "title": "Does reducing PM2. 5 levels below the Annual National Ambient Air Quality Standards Causally Reduce Deaths and Hospitalizations?",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "circulatory diseases",
+    "respiratory diseases"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "hospitalization for circulatory diseases",
+   "note": "MCBS-linked Medicare cohort"
+  },
+  {
+   "key": "10.1289/isee.2016.3089",
+   "title": "Future health effects due to wildfire smoke under climate change in the western US",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "respiratory"
+   ],
+   "cohort_names": [],
+   "uncertain": true,
+   "evidence_phrase": "respiratory hospital admissions for persons >65 years",
+   "note": "projection using Medicare-based estimates; Medicare not named"
+  },
+  {
+   "key": "10.1088/1748-9326/11/12/124018",
+   "title": "Future respiratory hospital admissions from wildfire smoke under climate change in the Western US",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "respiratory"
+   ],
+   "cohort_names": [],
+   "uncertain": true,
+   "evidence_phrase": "respiratory hospital admissions for persons ≥65 years",
+   "note": "projection using Medicare-based estimates; Medicare not named"
+  },
+  {
+   "key": "10.1186/s12940-016-0167-3",
+   "title": "Heat stroke admissions during heat waves in 1,916 US counties for the period from 1999 to 2010 and their effect modifiers",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "heat stroke"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "heat stroke admissions",
+   "note": ""
+  },
+  {
+   "key": "10.1080/01621459.2016.1164052",
+   "title": "Hierarchical models for semicompeting risks data with application to quality of end-of-life care for pancreatic cancer",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [
+    "pancreatic cancer"
+   ],
+   "uncertain": false,
+   "evidence_phrase": "readmission among Medicare beneficiaries diagnosed with pancreatic cancer",
+   "note": ""
+  },
+  {
+   "key": "10.1161/circoutcomes.9.suppl_2.4",
+   "title": "Impact of Financial Penalties in Medicare’s Hospital Readmissions Reduction Program",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [
+    "myocardial infarction",
+    "heart failure",
+    "pneumonia"
+   ],
+   "uncertain": false,
+   "evidence_phrase": "readmission rates for myocardial infarction",
+   "note": "HRRP readmission measure in ICD-defined index cohorts"
+  },
+  {
+   "key": "10.1289/isee.2014.p1-189",
+   "title": "Long-term PM2.5 Exposure and Neurological Hospital Admissions in the Northeastern United States",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "dementia",
+    "Alzheimer's disease",
+    "Parkinson's disease"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "first hospital admission for dementia",
+   "note": ""
+  },
+  {
+   "key": "10.1097/ede.0000000000000422",
+   "title": "PM2. 5 and mortality in 207 US cities: modification by temperature and city characteristics",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "35 million Medicare enrollees",
+   "note": ""
+  },
+  {
+   "key": "10.1111/biom.12315",
+   "title": "Accounting for uncertainty in confounder and effect modifier selection when estimating average causal effects in generalized linear models",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [
+    "malignant brain tumor"
+   ],
+   "uncertain": false,
+   "evidence_phrase": "hospital readmissions within 30 days",
+   "note": "readmission after brain tumor diagnosis"
+  },
+  {
+   "key": "10.1289/ehp.1307549",
+   "title": "Associations between long-term exposure to chemical constituents of fine particulate matter (PM2. 5) and mortality in Medicare enrollees in the eastern United States",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "12.5 million Medicare enrollees",
+   "note": ""
+  },
+  {
+   "key": "10.1111/rssc.12078",
+   "title": "Bayesian semiparametric analysis of semicompeting risks data: investigating hospital readmission after a pancreatic cancer diagnosis",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [
+    "pancreatic cancer"
+   ],
+   "uncertain": false,
+   "evidence_phrase": "obtained from Medicare Part A",
+   "note": "readmission after pancreatic cancer diagnosis"
+  },
+  {
+   "key": "10.1289/isee.2015.2015-558",
+   "title": "Effects Of Wildfire Smoke On Community Population Health In The Western Us",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "respiratory",
+    "cardiovascular"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "respiratory and cardiovascular admissions",
+   "note": ""
+  },
+  {
+   "key": "10.1214/14-ba922",
+   "title": "Generalized quantile treatment effect: A flexible Bayesian approach using quantile ratio smoothing",
+   "uses_medicare": false,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": true,
+   "evidence_phrase": "National Medicare Expenditure Survey",
+   "note": "1987 NMES is an AHRQ survey, not CMS Medicare claims; outcome is cost"
+  },
+  {
+   "key": "10.1289/isee.2015.2015-1175",
+   "title": "Long-Term Exposure To PM2. 5 And Mortality In 207 Us Cities: Modification By Population Characteristics",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "35 million Medicare enrollees",
+   "note": ""
+  },
+  {
+   "key": "10.1097/ede.0000000000000269",
+   "title": "PM2. 5 and survival among older adults: effect modification by particulate composition",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "Medicare enrollees in 81 US cities",
+   "note": ""
+  },
+  {
+   "key": "10.1161/circoutcomes.8.suppl_2.371",
+   "title": "Proportion of Readmissions to Non-Index Hospitals is Associated with All-Cause Risk-Adjusted Readmission Rate for Medicare Patients with AMI and CHF",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [
+    "acute myocardial infarction",
+    "congestive heart failure"
+   ],
+   "uncertain": false,
+   "evidence_phrase": "all-cause 30-day readmissions",
+   "note": "HRRP readmission measure in ICD-defined index cohorts"
+  },
+  {
+   "key": "10.1111/biom.12254",
+   "title": "Spatial variable selection methods for investigating acute health effects of fine particulate matter components",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "cardiovascular emergency room admissions"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "cardiovascular emergency room admissions among Medicare patients",
+   "note": ""
+  },
+  {
+   "key": "10.1186/1476-069x-13-38",
+   "title": "A national case-crossover analysis of the short-term effect of PM2.5 on hospitalizations and mortality in subjects with diabetes and neurological disorders",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "diabetes",
+    "neurological disorders",
+    "Parkinson's disease"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "hospitalizations for diabetes or neurological disorders",
+   "note": "also all-cause mortality"
+  },
+  {
+   "key": "10.1093/neuonc/nou237.8",
+   "title": "AT-08: RADIOTHERAPY WITH VS WITHOUT TEMOZOLOMIDE IN OLDER PATIENTS WITH GLIOBLASTOMA",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [
+    "glioblastoma"
+   ],
+   "uncertain": false,
+   "evidence_phrase": "Medicare beneficiaries aged ≥65 years with glioblastoma",
+   "note": "overall survival"
+  },
+  {
+   "key": "10.1001/jama.2014.14950",
+   "title": "Association between the Medicare hospice benefit and health care utilization and costs for patients with poor-prognosis cancer",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [
+    "poor-prognosis cancer"
+   ],
+   "uncertain": false,
+   "evidence_phrase": "20% sample of Medicare fee-for-service beneficiaries",
+   "note": "end-of-life utilization and costs"
+  },
+  {
+   "key": "10.1289/ehp.1306656",
+   "title": "Associations of PM2.5 Constituents and Sources with Hospital Admissions: Analysis of Four Counties in Connecticut and Massachusetts (USA) for Persons ≥ 65 …",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "cardiovascular",
+    "respiratory"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "cardiovascular and respiratory hospitalizations for the Medicare population",
+   "note": ""
+  },
+  {
+   "key": "10.1001/jama.2014.15715",
+   "title": "Cause-specific risk of hospital admission related to extreme heat in older adults",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "283 disease categories",
+    "fluid and electrolyte disorders",
+    "renal failure",
+    "urinary tract infection",
+    "septicemia",
+    "heat stroke"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "grouped into 283 disease categories",
+   "note": ""
+  },
+  {
+   "key": "10.1093/neuonc/nou060",
+   "title": "Hospitalization burden and survival among older glioblastoma patients",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [
+    "glioblastoma"
+   ],
+   "uncertain": false,
+   "evidence_phrase": "SEER-Medicare linked data",
+   "note": "hospitalization burden (all-cause days) and survival"
+  },
+  {
+   "key": "10.1289/isee.2014.p3-724",
+   "title": "Long-Term PM2. 5 Exposure and Mortality in 209 US Cities and Effect Modification by Temperature",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "Medicare enrollees >64 years in 209 US cities",
+   "note": ""
+  },
+  {
+   "key": "10.1002/cncr.28537",
+   "title": "National trends in pancreatic cancer outcomes and pattern of care among Medicare beneficiaries, 2000 through 2010",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "pancreatic cancer hospitalization"
+   ],
+   "cohort_names": [
+    "pancreatic cancer"
+   ],
+   "uncertain": false,
+   "evidence_phrase": "hospitalized for the management of pancreatic cancer",
+   "note": "also 1-year mortality and all-cause rehospitalization"
+  },
+  {
+   "key": "10.1038/jes.2014.7",
+   "title": "The impact of source contribution uncertainty on the effects of source-specific PM2. 5 on hospital admissions: a case study in Boston, MA",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "emergency cardiovascular"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "emergency CVD hospital admissions among Medicare enrollees",
+   "note": ""
+  },
+  {
+   "key": "10.1080/01621459.2013.869498",
+   "title": "Uncertainty in propensity score estimation: Bayesian methods for variable selection and model-averaged causal effects",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [
+    "brain tumors"
+   ],
+   "uncertain": true,
+   "evidence_phrase": "2,606 Medicare beneficiaries",
+   "note": "outcome not specified in abstract"
+  },
+  {
+   "key": "10.1093/aje/kwu115",
+   "title": "Who is more affected by ozone pollution? A systematic review and meta-analysis",
+   "uses_medicare": false,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "systematically reviewed",
+   "note": "systematic review"
+  },
+  {
+   "key": "10.1289/isee.2013.p-3-03-01",
+   "title": "A National analysis of the short term effect of PM2. 5 on hospitalizations and mortality in subjects with diabetes and the neurological impairment",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "diabetes",
+    "Alzheimer's disease",
+    "Parkinson's disease",
+    "dementia"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "hospitalizations in subjects for neurological disorders and diabetes",
+   "note": "also all-cause mortality"
+  },
+  {
+   "key": "10.1038/jes.2013.39",
+   "title": "Comparing exposure metrics for the effects of fine particulate matter on emergency hospital admissions",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "respiratory emergency admissions"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "emergency hospital admissions for respiratory cases for the Medicare population",
+   "note": ""
+  },
+  {
+   "key": "10.1289/isee.2013.o-3-10-01",
+   "title": "Evidence on Vulnerability and Susceptibility to Health Effects Associated with Short-Term Exposure to Particulate Matter: Systematic Review and Meta Analysis",
+   "uses_medicare": false,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "systematic review",
+   "note": "systematic review"
+  },
+  {
+   "key": "10.1093/aje/kwt090",
+   "title": "Evidence on vulnerability and susceptibility to health risks associated with short-term exposure to particulate matter: a systematic review and meta-analysis",
+   "uses_medicare": false,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "meta-analysis",
+   "note": "systematic review"
+  },
+  {
+   "key": "10.1289/isee.2013.o-2-28-02",
+   "title": "Heat-related emergency hospitalizations for respiratory diseases in the Medicare population",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "respiratory (ICD-9 464–466, 480–487, 490–492)"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "ICD-9 464–466, 480–487, 490–492",
+   "note": ""
+  },
+  {
+   "key": "10.1111/j.1541-0420.2012.01830.x",
+   "title": "Model feedback in Bayesian propensity score estimation",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [
+    "stroke"
+   ],
+   "uncertain": true,
+   "evidence_phrase": "123,286 Medicare beneficiaries hospitlized for stroke",
+   "note": "outcome not specified in abstract"
+  },
+  {
+   "key": "10.1136/bmj.f5561",
+   "title": "Residential exposure to aircraft noise and hospital admissions for cardiovascular diseases: multi-airport retrospective study",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "cardiovascular disease"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "hospitalization admission rate for cardiovascular disease",
+   "note": ""
+  },
+  {
+   "key": "10.1289/isee.2013.o-2-36-04",
+   "title": "The Impact of Source Contribution Uncertainty on the Effect of Source-Specific PM2. 5 on Cardiovascular Hospital Admissions",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "emergency cardiovascular"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "emergency CVD hospital admissions among Medicare enrollees",
+   "note": ""
+  },
+  {
+   "key": "10.1186/1476-069x-12-68",
+   "title": "The effect of primary organic particles on emergency hospital admissions among the elderly in 3 US cities",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "cardiovascular disease",
+    "ischemic heart disease",
+    "myocardial infarction",
+    "respiratory"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "ischemic heart disease and myocardial infarction",
+   "note": ""
+  },
+  {
+   "key": "10.1093/aje/kwr457",
+   "title": "A meta-analysis and multisite time-series analysis of the differential toxicity of major fine particulate matter constituents",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "cardiovascular"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "cardiovascular hospital admissions",
+   "note": ""
+  },
+  {
+   "key": "10.1093/aje/kws267",
+   "title": "Comprehensive smoking bans and acute myocardial infarction among Medicare enrollees in 387 US counties: 1999–2008",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "acute myocardial infarction"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "AMI admission rates",
+   "note": ""
+  },
+  {
+   "key": "10.1093/biostatistics/kxr052",
+   "title": "Estimating causal effects of air quality regulations using principal stratification for spatially correlated multivariate intermediate outcomes",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": true,
+   "evidence_phrase": "7 million Medicare enrollees",
+   "note": "health outcome not specified in abstract"
+  },
+  {
+   "key": "10.1161/circoutcomes.111.962456",
+   "title": "Geographic disparities in the incidence and outcomes of hospitalized myocardial infarction: does a rising tide lift all boats?",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "myocardial infarction"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "incidence rates of MI",
+   "note": "also MI-associated mortality"
+  },
+  {
+   "key": "10.1016/j.surg.2011.12.001",
+   "title": "Variations in surgical outcomes associated with hospital compliance with safety practices",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "postoperative complications",
+    "failure to rescue"
+   ],
+   "cohort_names": [
+    "high-risk surgical procedures"
+   ],
+   "uncertain": true,
+   "evidence_phrase": "risk-adjusted odds of complications",
+   "note": "complications likely defined by diagnosis codes; also mortality"
+  },
+  {
+   "key": "10.1289/isee.2011.02006",
+   "title": "AN APPROACH TO MULTI-POLLUTANT ACCOUNTABILITY RESEARCH USING PRINCIPAL STRATIFICATION",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "Medicare mortality",
+   "note": ""
+  },
+  {
+   "key": "10.1198/jasa.2011.ap09392",
+   "title": "An approach to the estimation of chronic air pollution effects using spatio-temporal information",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "Medicare Cohort Air Pollution Study",
+   "note": ""
+  },
+  {
+   "key": "10.1093/biostatistics/kxr002",
+   "title": "Estimating the acute health effects of coarse particulate matter accounting for exposure measurement error",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "cardiovascular"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "same-day admission for cardiovascular diseases",
+   "note": ""
+  },
+  {
+   "key": "10.1214/09-aoas325",
+   "title": "A smoothing approach for masking spatial data",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "4 million Medicare enrollees",
+   "note": ""
+  },
+  {
+   "key": "10.1111/j.1467-9876.2009.00691.x",
+   "title": "Racial disparities in risks of mortality in a sample of the US Medicare population",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "4 million Medicare enrollees",
+   "note": ""
+  },
+  {
+   "key": "10.1111/j.1467-9876.2008.00640.x",
+   "title": "A Bayesian hierarchical distributed lag model for estimating the time course of risk of hospitalization associated with particulate matter air pollution",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "ischaemic heart disease",
+    "COPD exacerbation"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "hospitalizations for both ischaemic heart disease",
+   "note": ""
+  },
+  {
+   "key": "10.1097/ede.0b013e3181aba749",
+   "title": "Adverse health effects of particulate air pollution: modification by air conditioning",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "cardiovascular",
+    "respiratory"
+   ],
+   "cohort_names": [],
+   "uncertain": true,
+   "evidence_phrase": "cardiovascular or respiratory hospitalizations",
+   "note": "Medicare not named; 65+ US hospitalizations (NMMAPS/MCAPS)"
+  },
+  {
+   "key": "10.1289/ehp.0800185",
+   "title": "Emergency admissions for cardiovascular and respiratory diseases and the chemical composition of fine particle air pollution",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "cardiovascular",
+    "respiratory"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "hospital admission for cardiovascular disease (CVD) and respiratory disease",
+   "note": ""
+  },
+  {
+   "key": "10.1161/circulationaha.109.851113",
+   "title": "Emergency hospital admissions for cardiovascular diseases and ambient levels of carbon monoxide: results for 126 United States urban counties, 1999–2005",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "cardiovascular disease"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "risk of CVD hospitalization",
+   "note": ""
+  },
+  {
+   "key": "10.1164/rccm.200808-1240oc",
+   "title": "Hospital admissions and chemical composition of fine particle air pollution",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "cardiovascular",
+    "respiratory"
+   ],
+   "cohort_names": [],
+   "uncertain": true,
+   "evidence_phrase": "cardiovascular and respiratory hospitalizations for persons 65 years or older",
+   "note": "Medicare not named; 65+ US county hospitalization RRs"
+  },
+  {
+   "key": "10.1097/01.ede.0000362264.03060.89",
+   "title": "Hospital admissions and chemical composition of fine particulate matter (PM2. 5) for 106 US counties",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "cardiovascular",
+    "respiratory"
+   ],
+   "cohort_names": [],
+   "uncertain": true,
+   "evidence_phrase": "cardiovascular and respiratory hospitalizations for those >65 years",
+   "note": "Medicare not named; 65+ US county hospitalization RRs"
+  },
+  {
+   "key": "10.1289/ehp.11345",
+   "title": "Acute effects of ambient particulate matter on mortality in Europe and North America: results from the APHENA study",
+   "uses_medicare": false,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "APHENA",
+   "note": "multi-country mortality time series"
+  },
+  {
+   "key": "10.1001/jama.299.18.2172",
+   "title": "Coarse particulate matter air pollution and hospital admissions for cardiovascular and respiratory diseases among Medicare patients",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "cardiovascular",
+    "respiratory"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "primary diagnoses of cardiovascular or respiratory disease",
+   "note": ""
+  },
+  {
+   "key": "10.1097/ede.0b013e3181632c09",
+   "title": "Fine particulate matter and mortality: a comparison of the six cities and American Cancer Society cohorts with a medicare cohort",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "mortality data for cohorts of Medicare participants",
+   "note": ""
+  },
+  {
+   "key": "10.1214/07-aoas156",
+   "title": "Gamma shape mixtures for heavy-tailed distributions",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [
+    "smoking attributable diseases"
+   ],
+   "uncertain": true,
+   "evidence_phrase": "Medical Current Beneficiary Survey",
+   "note": "MCBS hospitalization costs"
+  },
+  {
+   "key": "10.1289/ehp.11449",
+   "title": "Mortality in the Medicare population and chronic exposure to fine particulate air pollution in urban centers (2000–2005)",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "Medicare Cohort Air Pollution Study",
+   "note": ""
+  },
+  {
+   "key": "10.1093/aje/kwn252",
+   "title": "Seasonal and regional short-term effects of fine particles on hospital admissions in 202 US counties, 1999–2005",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "cardiovascular",
+    "respiratory"
+   ],
+   "cohort_names": [],
+   "uncertain": true,
+   "evidence_phrase": "cardiovascular and respiratory hospitalizations among the elderly",
+   "note": "Medicare not named; 202 US counties, elderly"
+  },
+  {
+   "key": "10.1097/00001648-200611001-00157",
+   "title": "Chronic and Acute Exposure to Ambient Fine Particulate Matter and Other Air Pollutants: National Cohort Studies of Mortality and Morbidity",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "cerebrovascular",
+    "peripheral",
+    "ischemic heart disease",
+    "heart rhythm",
+    "heart failure",
+    "COPD",
+    "respiratory infection",
+    "injuries (control)"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "primary diagnosis of cerebrovascular, peripheral, and ischemic heart diseases",
+   "note": ""
+  },
+  {
+   "key": "10.1001/jama.295.10.1127",
+   "title": "Fine particulate air pollution and hospital admission for cardiovascular and respiratory diseases",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "cerebrovascular",
+    "peripheral",
+    "ischemic heart disease",
+    "heart rhythm",
+    "heart failure",
+    "COPD",
+    "respiratory infection",
+    "injuries (control)"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "primary diagnosis of cerebrovascular, peripheral, and ischemic heart diseases",
+   "note": ""
+  },
+  {
+   "key": "10.1097/01.ede.0000165817.40152.85",
+   "title": "A meta-analysis of time-series studies of ozone and mortality with comparison to the national morbidity, mortality, and air pollution study",
+   "uses_medicare": false,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "meta-analysis",
+   "note": "meta-analysis + NMMAPS mortality"
+  },
+  {
+   "key": "10.1097/00001648-200509000-00075",
+   "title": "Meta-analysis of ozone and mortality",
+   "uses_medicare": false,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "meta-analysis",
+   "note": "meta-analysis of mortality"
+  },
+  {
+   "key": "10.1080/15287390590936076",
+   "title": "Multisite time-series studies versus cohort studies: methods, findings, and policy implications",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "National Medicare Cohort Study",
+   "note": "methods review"
+  },
+  {
+   "key": "10.1093/biomet/92.3.543",
+   "title": "Smooth quantile ratio estimation",
+   "uses_medicare": false,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": true,
+   "evidence_phrase": "National Medicare Expenditure Survey",
+   "note": "1987 NMES is an AHRQ survey, not CMS Medicare claims; outcome is cost"
+  },
+  {
+   "key": "10.1093/biostatistics/kxi031",
+   "title": "Smooth quantile ratio estimation with regression: estimating medical expenditures for smoking-attributable diseases",
+   "uses_medicare": false,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": true,
+   "evidence_phrase": "National Medicare Expenditure Survey",
+   "note": "1987 NMES is an AHRQ survey, not CMS Medicare claims; outcome is cost"
+  },
+  {
+   "key": "10.1097/01.ede.0000147117.88386.fe",
+   "title": "Temperature and mortality among the elderly in the United States: a comparison of epidemiologic methods",
+   "uses_medicare": false,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "Division of Vital Statistics",
+   "note": "vital statistics mortality"
+  },
+  {
+   "key": "10.1097/00001648-200407000-00097",
+   "title": "Chronic and acute exposure to particulate matter and other air pollutantsa cohort study of morbidity and mortality in Medicare enrollees",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": true,
+   "evidence_phrase": "participants in the United States Medicare program",
+   "note": "study protocol; morbidity outcomes not specified"
+  },
+  {
+   "key": "10.1001/archinte.162.10.1123",
+   "title": "Asthma in older patients: factors associated with hospitalization",
+   "uses_medicare": false,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "15 managed care organizations",
+   "note": "managed care cohort survey"
+  },
+  {
+   "key": "10.1016/j.jacc.2020.03.056",
+   "title": "Lowering air pollution levels in massachusetts may prevent cardiovascular hospital admissions",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "cardiovascular"
+   ],
+   "cohort_names": [],
+   "uncertain": true,
+   "evidence_phrase": "cardiovascular hospital admissions",
+   "note": "Medicare not named; data source inferred from the group's matching Medicare study design (Massachusetts CVD admissions)",
+   "override_keyword_rule": true
+  },
+  {
+   "key": "10.1016/s0735-1097(19)31337-3",
+   "title": "Relative effects of the hospital readmissions reduction program for congestive heart failure on hospitals that serve poorer patients",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [
+    "congestive heart failure"
+   ],
+   "uncertain": true,
+   "evidence_phrase": "hospital readmissions reduction program",
+   "note": "HRRP (Medicare) readmission measure; Medicare not named",
+   "override_keyword_rule": true
+  },
+  {
+   "key": "10.1289/isee.2014.p1-152",
+   "title": "PM2. 5 and Hospital Admissions, Effects by Urbanicity and Short-Term Cumulative Exposures: Analysis Using Ambient Monitoring Data and Regional Air Quality Modeling",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "cardiovascular",
+    "respiratory"
+   ],
+   "cohort_names": [],
+   "uncertain": true,
+   "evidence_phrase": "cardiovascular and respiratory hospital admissions",
+   "note": "Medicare not named; data source inferred from the group's matching Medicare study design (708 eastern counties, 2002-2006)",
+   "override_keyword_rule": true
+  },
+  {
+   "key": "10.1111/rssc.12006",
+   "title": "Reduced hierarchical models with application to estimating health effects of simultaneous exposure to multiple pollutants",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "cardiovascular"
+   ],
+   "cohort_names": [],
+   "uncertain": true,
+   "evidence_phrase": "cardiovascular hospital admissions",
+   "note": "Medicare not named; data source inferred from the group's matching Medicare study design (51 US counties, 1999-2005)",
+   "override_keyword_rule": true
+  },
+  {
+   "key": "10.1111/j.1541-0420.2011.01731.x",
+   "title": "Bayesian effect estimation accounting for adjustment uncertainty",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "emergency cardiovascular"
+   ],
+   "cohort_names": [],
+   "uncertain": true,
+   "evidence_phrase": "emergency admissions for cardiovascular diseases",
+   "note": "Medicare not named; data source inferred from the group's matching Medicare study design (Nassau NY, 1999-2005)",
+   "override_keyword_rule": true
+  },
+  {
+   "key": "10.1097/01.ede.0000276853.53888.69",
+   "title": "The Effect of PM2. 5 on Hospital Admissions Rates by Season and Region",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "ischemic heart disease",
+    "heart failure",
+    "cerebrovascular disease",
+    "peripheral vascular",
+    "respiratory infection",
+    "cardiovascular",
+    "respiratory"
+   ],
+   "cohort_names": [],
+   "uncertain": true,
+   "evidence_phrase": "heart failure, cerebrovascular disease, peripheral vascular",
+   "note": "Medicare not named; data source inferred from the group's matching Medicare study design (203 counties, 1999-2002)",
+   "override_keyword_rule": true
+  },
+  {
+   "key": "10.1093/biostatistics/5.3.341",
+   "title": "Hierarchical bivariate time series models: a combined analysis of the effects of particulate matter on morbidity and mortality",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "cardiovascular"
+   ],
+   "cohort_names": [],
+   "uncertain": true,
+   "evidence_phrase": "hospital admissions for cardiovascular diseases",
+   "note": "Medicare not named; data source inferred from the group's matching Medicare study design (NMMAPS morbidity, 10 cities 1986-1993)",
+   "override_keyword_rule": true
+  }
+ ]
+}
