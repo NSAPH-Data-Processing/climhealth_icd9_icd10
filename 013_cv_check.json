@@ -1,0 +1,1863 @@
+{
+ "sources": [
+  "010_icd_mappings.json",
+  "013_cv_articles.json",
+  "024_fulltext_manifest.json"
+ ],
+ "checks": [
+  {
+   "row": "S1-01",
+   "row_outcome": "Cardiovascular disease (all-cause)",
+   "cv": "57",
+   "step1_citation": "Dominici et al. 2006 JAMA (#57)",
+   "cv_entry": {
+    "first_author": "Dominici",
+    "year": 2006,
+    "title": "Fine Particulates Air Pollution and Hospital Admission for Cardiovascular and Respiratory Diseases",
+    "journal_etc": "Journal of the American Medical Association, 295:1127–1135. PMID: 16522832; PMCID: PMC3543154; doi:10.1001/jama.295.10.1",
+    "doi": "10.1001/jama.295.10.1127",
+    "page": 13
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": true,
+   "topic": "ok",
+   "topic_note": "PM2.5 and CVD/respiratory admissions (MCAPS 2006)",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": "10_1001_jama_295_10_1127",
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-01",
+   "row_outcome": "Cardiovascular disease (all-cause)",
+   "cv": "78",
+   "step1_citation": "Peng et al. 2008 JAMA (#78)",
+   "cv_entry": {
+    "first_author": "Peng",
+    "year": 2008,
+    "title": "Coarse Particulate Matter Air Pollution and Hospital Admissions for Cardiovascular and Respiratory Diseases Among Medicare Patients",
+    "journal_etc": "Journal of the American Medical Association, 299:2172– 2179. PMID: 18477784; PMCID: PMC3169813; doi:10.1001/jama.299.18.",
+    "doi": "10.1001/jama.299.18.2172",
+    "page": 14
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": true,
+   "topic": "ok",
+   "topic_note": "Coarse PM and CVD/respiratory admissions",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": "10_1001_jama_299_18_2172",
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-01",
+   "row_outcome": "Cardiovascular disease (all-cause)",
+   "cv": "172",
+   "step1_citation": "Bravo et al. 2016 (#172)",
+   "cv_entry": {
+    "first_author": "Bravo",
+    "year": 2016,
+    "title": "Airborne Fine Particles and Risk of Hospital Admissions for Cardiovascular and Respiratory Diseases: Effects by Urbanicity and Short-Term Cumulative Exposures",
+    "journal_etc": "Environmental Health Perspectives, 125(4):594– 601. doi:10.1289/EHP257.",
+    "doi": "10.1289/ehp257",
+    "page": 22
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": null,
+   "topic": "ok",
+   "topic_note": "PM2.5 and CVD/respiratory admissions by urbanicity",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": "10_1289_ehp257",
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-01",
+   "row_outcome": "Cardiovascular disease (all-cause)",
+   "cv": "245",
+   "step1_citation": "Chen et al. 2021 (#245, #253)",
+   "cv_entry": {
+    "first_author": "Chen",
+    "year": 2021,
+    "title": "Temporal Variation in Association between Short-Term Exposure to Fine Particulate Matter and Hospitalizations in Older Adults in the USA: A Long-Term Time-Series Analysis of the US Medicare Dataset",
+    "journal_etc": "Lancet Planetary Health, 5(8):e534–e541. PMID: 34390671; doi:10.1016/S2542- 5196(21)00168-6.",
+    "doi": "10.1016/s2542-5196(21)00168-6",
+    "page": 29
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": null,
+   "topic": "ok",
+   "topic_note": "Temporal variation of PM2.5-hospitalization associations (CVD, respiratory)",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": "10_1016_s2542_5196_21_00168_6",
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-01",
+   "row_outcome": "Cardiovascular disease (all-cause)",
+   "cv": "253",
+   "step1_citation": "Chen et al. 2021 (#245, #253)",
+   "cv_entry": {
+    "first_author": "Chen",
+    "year": 2021,
+    "title": "Do Temporal Trends of Associations between Short-Term Exposure to Fine Particulate Matter (PM2.5) and Risk of Hospitalizations Differ by Sub-Populations and Urbanicity? Environmental Research, 206:112271",
+    "journal_etc": "PMID: 34710436; PMCID: PMC8810624; doi:10.1016/j.envres.2021.112271. 29",
+    "doi": "10.1016/j.envres.2021.112271",
+    "page": 29
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": null,
+   "topic": "ok",
+   "topic_note": "Temporal trends of PM2.5-hospitalization associations by subpopulation",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": null,
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-01",
+   "row_outcome": "Cardiovascular disease (all-cause)",
+   "cv": "304",
+   "step1_citation": "Sun et al. 2024 BMJ (#304)",
+   "cv_entry": {
+    "first_author": "Sun",
+    "year": 2024,
+    "title": "Short-Term Exposure to Low Level Ambient Fine Particulate Matter and Natural Cause, Cardiovascular and Respiratory Morbidity among US Adults with Health Insurance: Case Time Series Study",
+    "journal_etc": "BMJ, 384:e076322. PMID: 38383039; PMCID: PMC10879982; doi:10.1136/bmj-2023-076322.",
+    "doi": "10.1136/bmj-2023-076322",
+    "page": 35
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": true,
+   "topic": "ok",
+   "topic_note": "PM2.5 and natural-cause, CVD and respiratory morbidity (commercial + Medicare Advantage insured, not Medicare FFS)",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": null,
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-01",
+   "row_outcome": "Cardiovascular disease (all-cause)",
+   "cv": "323",
+   "step1_citation": "Yazdi et al. 2025 (#323)",
+   "cv_entry": {
+    "first_author": "Danesh",
+    "year": 2025,
+    "title": "Effects of intermediate and long term exposure to ambient air pollution and temperature on hospital admissions with second cardiovascular events among Medicare beneficiaries",
+    "journal_etc": "Environment International, 202:109617. doi:10.1016/j.envint.2025.109617.",
+    "doi": "10.1016/j.envint.2025.109617",
+    "page": 37
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": null,
+   "topic": "mismatch",
+   "topic_note": "#323 is the second-events paper (MI, ischemic stroke only); the all-CVD (390-459) Danesh Yazdi 2025 paper is #332",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": "10_1016_j_envint_2025_109617",
+   "flags": [
+    "topic_mismatch"
+   ],
+   "verdict": "mismatch"
+  },
+  {
+   "row": "S1-02",
+   "row_outcome": "Respiratory disease (all-cause)",
+   "cv": "57",
+   "step1_citation": "Dominici et al. 2006 JAMA (#57)",
+   "cv_entry": {
+    "first_author": "Dominici",
+    "year": 2006,
+    "title": "Fine Particulates Air Pollution and Hospital Admission for Cardiovascular and Respiratory Diseases",
+    "journal_etc": "Journal of the American Medical Association, 295:1127–1135. PMID: 16522832; PMCID: PMC3543154; doi:10.1001/jama.295.10.1",
+    "doi": "10.1001/jama.295.10.1127",
+    "page": 13
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": true,
+   "topic": "ok",
+   "topic_note": "PM2.5 and CVD/respiratory admissions (MCAPS 2006)",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": "10_1001_jama_295_10_1127",
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-02",
+   "row_outcome": "Respiratory disease (all-cause)",
+   "cv": "78",
+   "step1_citation": "Peng et al. 2008 JAMA (#78)",
+   "cv_entry": {
+    "first_author": "Peng",
+    "year": 2008,
+    "title": "Coarse Particulate Matter Air Pollution and Hospital Admissions for Cardiovascular and Respiratory Diseases Among Medicare Patients",
+    "journal_etc": "Journal of the American Medical Association, 299:2172– 2179. PMID: 18477784; PMCID: PMC3169813; doi:10.1001/jama.299.18.",
+    "doi": "10.1001/jama.299.18.2172",
+    "page": 14
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": true,
+   "topic": "ok",
+   "topic_note": "Coarse PM and CVD/respiratory admissions",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": "10_1001_jama_299_18_2172",
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-02",
+   "row_outcome": "Respiratory disease (all-cause)",
+   "cv": "89",
+   "step1_citation": "Bell et al. 2009 (#89, #94)",
+   "cv_entry": {
+    "first_author": "Bell",
+    "year": 2009,
+    "title": "Hospital Admissions and Chemical Composition of Fine Particle Air Pollution",
+    "journal_etc": "American Journal of Respiratory and Critical Care Medicine, 179:1–6. PMID: 19299499; PMCID: PMC2695497; doi:10.1164/rccm",
+    "doi": "10.1164/rccm.200808-1240oc",
+    "page": 15
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": null,
+   "topic": "ok",
+   "topic_note": "PM2.5 chemical composition and CVD/respiratory admissions",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": null,
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-02",
+   "row_outcome": "Respiratory disease (all-cause)",
+   "cv": "94",
+   "step1_citation": "Bell et al. 2009 (#89, #94)",
+   "cv_entry": {
+    "first_author": "Peng",
+    "year": 2009,
+    "title": "Emergency Admissions for Cardiovascular and Respiratory Diseases and the Chemical Composition of Fine Particle Air Pollution",
+    "journal_etc": "Environmental Health Perspectives, 117(6):957–963.",
+    "doi": null,
+    "page": 15
+   },
+   "author_ok": false,
+   "year_ok": true,
+   "journal_ok": null,
+   "topic": "ok",
+   "topic_note": "PM2.5 composition and CVD/respiratory admissions; first author is Peng (Bell is 2nd)",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": null,
+   "flags": [
+    "author_ok"
+   ],
+   "verdict": "ok_with_note"
+  },
+  {
+   "row": "S1-02",
+   "row_outcome": "Respiratory disease (all-cause)",
+   "cv": "172",
+   "step1_citation": "Bravo et al. 2016 (#172)",
+   "cv_entry": {
+    "first_author": "Bravo",
+    "year": 2016,
+    "title": "Airborne Fine Particles and Risk of Hospital Admissions for Cardiovascular and Respiratory Diseases: Effects by Urbanicity and Short-Term Cumulative Exposures",
+    "journal_etc": "Environmental Health Perspectives, 125(4):594– 601. doi:10.1289/EHP257.",
+    "doi": "10.1289/ehp257",
+    "page": 22
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": null,
+   "topic": "ok",
+   "topic_note": "PM2.5 and CVD/respiratory admissions by urbanicity",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": "10_1289_ehp257",
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-02",
+   "row_outcome": "Respiratory disease (all-cause)",
+   "cv": "132",
+   "step1_citation": "Anderson et al. 2013 (#132)",
+   "cv_entry": {
+    "first_author": "Anderson",
+    "year": 2013,
+    "title": "Heat Related Respiratory Hospitalizations and Costs in the Medicare Population",
+    "journal_etc": "American Journal of Respiratory and Critical Care Medicine, 187(10):1098–1103. PMID: 23491405; PMCID: PMC3734617; doi:10",
+    "doi": "10.1164/rccm.201211-1969oc",
+    "page": 19
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": null,
+   "topic": "ok",
+   "topic_note": "Heat-related respiratory hospitalizations",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": null,
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-03",
+   "row_outcome": "Ischemic heart disease",
+   "cv": "57",
+   "step1_citation": "Dominici et al. 2006 JAMA (#57)",
+   "cv_entry": {
+    "first_author": "Dominici",
+    "year": 2006,
+    "title": "Fine Particulates Air Pollution and Hospital Admission for Cardiovascular and Respiratory Diseases",
+    "journal_etc": "Journal of the American Medical Association, 295:1127–1135. PMID: 16522832; PMCID: PMC3543154; doi:10.1001/jama.295.10.1",
+    "doi": "10.1001/jama.295.10.1127",
+    "page": 13
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": true,
+   "topic": "ok",
+   "topic_note": "PM2.5 and CVD/respiratory admissions (MCAPS 2006)",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": "10_1001_jama_295_10_1127",
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-04",
+   "row_outcome": "Myocardial infarction (acute)",
+   "cv": "125",
+   "step1_citation": "Barr et al. 2012 (#125, smoking bans)",
+   "cv_entry": {
+    "first_author": "Barr",
+    "year": 2012,
+    "title": "Comprehensive Smoking Bans and Acute Myocardial Infarction among Medicare Patients in 387 U.S",
+    "journal_etc": "Counties: 1999 to 2008. American Journal of Epidemiology, 176(7):642–648. PMID: 22986145; PMCID: PMC3530376; doi:10.1093",
+    "doi": "10.1093/aje/kws267",
+    "page": 18
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": null,
+   "topic": "ok",
+   "topic_note": "Smoking bans and acute MI",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": "10_1093_aje_kws267",
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-04",
+   "row_outcome": "Myocardial infarction (acute)",
+   "cv": "284",
+   "step1_citation": "Schwartz et al. 2023 (#284)",
+   "cv_entry": {
+    "first_author": "Schwartz",
+    "year": 2023,
+    "title": "Effects of Low-Level Air Pollution Exposures on Hospital Admission for Myocardial Infarction using Multiple Causal Models",
+    "journal_etc": "Environmental Research, 232:116203. PMID: 37271440; PMCID: PMC10527724; doi:10.1016/j.envres.2023.116203.",
+    "doi": "10.1016/j.envres.2023.116203",
+    "page": 33
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": null,
+   "topic": "ok",
+   "topic_note": "Low-level air pollution and MI admissions",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": "10_1016_j_envres_2023_116203",
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-05",
+   "row_outcome": "Congestive heart failure",
+   "cv": "61",
+   "step1_citation": "Symons et al. 2006 (#61)",
+   "cv_entry": {
+    "first_author": "Symons",
+    "year": 2006,
+    "title": "A Case-Crossover Study of Fine Particulate Matter Air Pollution and Congestive Heart Failure Hospitalization",
+    "journal_etc": "American Journal of Epidemiology, 164:421–433.",
+    "doi": null,
+    "page": 13
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": null,
+   "topic": "ok",
+   "topic_note": "PM2.5 and congestive heart failure hospitalization",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": null,
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-05",
+   "row_outcome": "Congestive heart failure",
+   "cv": "57",
+   "step1_citation": "Dominici et al. 2006 JAMA (#57)",
+   "cv_entry": {
+    "first_author": "Dominici",
+    "year": 2006,
+    "title": "Fine Particulates Air Pollution and Hospital Admission for Cardiovascular and Respiratory Diseases",
+    "journal_etc": "Journal of the American Medical Association, 295:1127–1135. PMID: 16522832; PMCID: PMC3543154; doi:10.1001/jama.295.10.1",
+    "doi": "10.1001/jama.295.10.1127",
+    "page": 13
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": true,
+   "topic": "ok",
+   "topic_note": "PM2.5 and CVD/respiratory admissions (MCAPS 2006)",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": "10_1001_jama_295_10_1127",
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-06",
+   "row_outcome": "Cardiac arrhythmia",
+   "cv": "57",
+   "step1_citation": "Dominici et al. 2006 JAMA (#57, cardiovascular admissions category)",
+   "cv_entry": {
+    "first_author": "Dominici",
+    "year": 2006,
+    "title": "Fine Particulates Air Pollution and Hospital Admission for Cardiovascular and Respiratory Diseases",
+    "journal_etc": "Journal of the American Medical Association, 295:1127–1135. PMID: 16522832; PMCID: PMC3543154; doi:10.1001/jama.295.10.1",
+    "doi": "10.1001/jama.295.10.1127",
+    "page": 13
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": true,
+   "topic": "ok",
+   "topic_note": "PM2.5 and CVD/respiratory admissions (MCAPS 2006)",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": "10_1001_jama_295_10_1127",
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-07",
+   "row_outcome": "Cerebrovascular disease / stroke",
+   "cv": "57",
+   "step1_citation": "Dominici et al. 2006 JAMA (#57, cardiovascular category)",
+   "cv_entry": {
+    "first_author": "Dominici",
+    "year": 2006,
+    "title": "Fine Particulates Air Pollution and Hospital Admission for Cardiovascular and Respiratory Diseases",
+    "journal_etc": "Journal of the American Medical Association, 295:1127–1135. PMID: 16522832; PMCID: PMC3543154; doi:10.1001/jama.295.10.1",
+    "doi": "10.1001/jama.295.10.1127",
+    "page": 13
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": true,
+   "topic": "ok",
+   "topic_note": "PM2.5 and CVD/respiratory admissions (MCAPS 2006)",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": "10_1001_jama_295_10_1127",
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-08",
+   "row_outcome": "Carbon monoxide–associated cardiovascular admissions",
+   "cv": "92",
+   "step1_citation": "Bell et al. 2009, Circulation (#92)",
+   "cv_entry": {
+    "first_author": "Bell",
+    "year": 2009,
+    "title": "Emergency Hospital Admissions for Cardiovascular Diseases and Ambient Levels of Carbon Monoxide: Results for 126 U.S",
+    "journal_etc": "Urban Counties, 1999–2005. Circulation, 120:949–955. PMID: 19720933; PMCID: PMC2777712; doi:10.1161/CIRCULATIONAHA.109.8",
+    "doi": "10.1161/circulationaha.109.851113",
+    "page": 15
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": true,
+   "topic": "ok",
+   "topic_note": "CO and emergency CVD admissions",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": "10_1161_circulationaha_109_851113",
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-09",
+   "row_outcome": "Chronic obstructive pulmonary disease (COPD)",
+   "cv": "78",
+   "step1_citation": "Peng et al. 2008 JAMA (#78)",
+   "cv_entry": {
+    "first_author": "Peng",
+    "year": 2008,
+    "title": "Coarse Particulate Matter Air Pollution and Hospital Admissions for Cardiovascular and Respiratory Diseases Among Medicare Patients",
+    "journal_etc": "Journal of the American Medical Association, 299:2172– 2179. PMID: 18477784; PMCID: PMC3169813; doi:10.1001/jama.299.18.",
+    "doi": "10.1001/jama.299.18.2172",
+    "page": 14
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": true,
+   "topic": "ok",
+   "topic_note": "Coarse PM and CVD/respiratory admissions",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": "10_1001_jama_299_18_2172",
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-09",
+   "row_outcome": "Chronic obstructive pulmonary disease (COPD)",
+   "cv": "89",
+   "step1_citation": "Bell et al. 2009 (#89, #94)",
+   "cv_entry": {
+    "first_author": "Bell",
+    "year": 2009,
+    "title": "Hospital Admissions and Chemical Composition of Fine Particle Air Pollution",
+    "journal_etc": "American Journal of Respiratory and Critical Care Medicine, 179:1–6. PMID: 19299499; PMCID: PMC2695497; doi:10.1164/rccm",
+    "doi": "10.1164/rccm.200808-1240oc",
+    "page": 15
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": null,
+   "topic": "ok",
+   "topic_note": "PM2.5 chemical composition and CVD/respiratory admissions",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": null,
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-09",
+   "row_outcome": "Chronic obstructive pulmonary disease (COPD)",
+   "cv": "94",
+   "step1_citation": "Bell et al. 2009 (#89, #94)",
+   "cv_entry": {
+    "first_author": "Peng",
+    "year": 2009,
+    "title": "Emergency Admissions for Cardiovascular and Respiratory Diseases and the Chemical Composition of Fine Particle Air Pollution",
+    "journal_etc": "Environmental Health Perspectives, 117(6):957–963.",
+    "doi": null,
+    "page": 15
+   },
+   "author_ok": false,
+   "year_ok": true,
+   "journal_ok": null,
+   "topic": "ok",
+   "topic_note": "PM2.5 composition and CVD/respiratory admissions; first author is Peng (Bell is 2nd)",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": null,
+   "flags": [
+    "author_ok"
+   ],
+   "verdict": "ok_with_note"
+  },
+  {
+   "row": "S1-10",
+   "row_outcome": "Asthma",
+   "cv": "271",
+   "step1_citation": "Wei et al. 2022, AJRCCM (#271)",
+   "cv_entry": {
+    "first_author": "Wei",
+    "year": 2022,
+    "title": "Air Pollutants and Asthma Hospitalization in the Medicaid Population",
+    "journal_etc": "American Journal of Respiratory and Critical Care Medicine, 205(9):1075– 1083. PMID: 35073244; PMCID: PMC9851478; doi:10",
+    "doi": "10.1164/rccm.202107-1596oc",
+    "page": 31
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": true,
+   "topic": "ok",
+   "topic_note": "Air pollutants and asthma hospitalization (Medicaid population)",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": null,
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-10",
+   "row_outcome": "Asthma",
+   "cv": "89",
+   "step1_citation": "Bell et al. 2009 (#89, #94)",
+   "cv_entry": {
+    "first_author": "Bell",
+    "year": 2009,
+    "title": "Hospital Admissions and Chemical Composition of Fine Particle Air Pollution",
+    "journal_etc": "American Journal of Respiratory and Critical Care Medicine, 179:1–6. PMID: 19299499; PMCID: PMC2695497; doi:10.1164/rccm",
+    "doi": "10.1164/rccm.200808-1240oc",
+    "page": 15
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": null,
+   "topic": "ok",
+   "topic_note": "PM2.5 chemical composition and CVD/respiratory admissions",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": null,
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-10",
+   "row_outcome": "Asthma",
+   "cv": "94",
+   "step1_citation": "Bell et al. 2009 (#89, #94)",
+   "cv_entry": {
+    "first_author": "Peng",
+    "year": 2009,
+    "title": "Emergency Admissions for Cardiovascular and Respiratory Diseases and the Chemical Composition of Fine Particle Air Pollution",
+    "journal_etc": "Environmental Health Perspectives, 117(6):957–963.",
+    "doi": null,
+    "page": 15
+   },
+   "author_ok": false,
+   "year_ok": true,
+   "journal_ok": null,
+   "topic": "ok",
+   "topic_note": "PM2.5 composition and CVD/respiratory admissions; first author is Peng (Bell is 2nd)",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": null,
+   "flags": [
+    "author_ok"
+   ],
+   "verdict": "ok_with_note"
+  },
+  {
+   "row": "S1-11",
+   "row_outcome": "Pneumonia / acute respiratory infection",
+   "cv": "78",
+   "step1_citation": "Peng et al. 2008 JAMA (#78, respiratory category)",
+   "cv_entry": {
+    "first_author": "Peng",
+    "year": 2008,
+    "title": "Coarse Particulate Matter Air Pollution and Hospital Admissions for Cardiovascular and Respiratory Diseases Among Medicare Patients",
+    "journal_etc": "Journal of the American Medical Association, 299:2172– 2179. PMID: 18477784; PMCID: PMC3169813; doi:10.1001/jama.299.18.",
+    "doi": "10.1001/jama.299.18.2172",
+    "page": 14
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": true,
+   "topic": "ok",
+   "topic_note": "Coarse PM and CVD/respiratory admissions",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": "10_1001_jama_299_18_2172",
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-12",
+   "row_outcome": "Acute respiratory distress syndrome (ARDS)",
+   "cv": "202",
+   "step1_citation": "Rhee et al. 2019 (#202)",
+   "cv_entry": {
+    "first_author": "Rhee",
+    "year": 2019,
+    "title": "Impact of Long-Term Exposures to Ambient PM2.5 and Ozone on Acute Respiratory Distress Syndrome (ARDS) Risk for Older Adults in the United States",
+    "journal_etc": "Chest, 156(1):71–79. PMID: 30926395; PMCID: PMC6607425; doi:10.1016/j.chest.2019.03.017.",
+    "doi": "10.1016/j.chest.2019.03.017",
+    "page": 25
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": null,
+   "topic": "ok",
+   "topic_note": "PM2.5/ozone and ARDS",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": "10_1016_j_chest_2019_03_017",
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-12",
+   "row_outcome": "Acute respiratory distress syndrome (ARDS)",
+   "cv": "229",
+   "step1_citation": "Rhee et al. 2020 (#229)",
+   "cv_entry": {
+    "first_author": "Rhee",
+    "year": 2020,
+    "title": "Risk of Acute Respiratory Distress Syndrome Among Older Adults Living Near Construction and Manufacturing Sites",
+    "journal_etc": "Epidemiology, 31(4):468–477. PMID: 32483064; PMCID: PMC7744113; doi:10.1097/EDE.0000000000001195.",
+    "doi": "10.1097/ede.0000000000001195",
+    "page": 27
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": null,
+   "topic": "ok",
+   "topic_note": "Construction/manufacturing sites and ARDS",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": "10_1097_ede_0000000000001195",
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-13",
+   "row_outcome": "Cardiorespiratory hospitalizations (combined CVD + respiratory)",
+   "cv": "242",
+   "step1_citation": "Yan et al. 2021 (#242, tropical cyclones)",
+   "cv_entry": {
+    "first_author": "Yan",
+    "year": 2021,
+    "title": "Tropical Cyclone Exposures and Risks of Emergency Medicare Hospital Admission for Cardiorespiratory Diseases in 175 Urban United States Counties, 1999–2010",
+    "journal_etc": "Epidemiology, 32(3):315–326. PMID: 33591048; PMCID: PMC8887827; doi:10.1097/EDE.0000000000001337.",
+    "doi": "10.1097/ede.0000000000001337",
+    "page": 28
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": null,
+   "topic": "ok",
+   "topic_note": "Tropical cyclones and cardiorespiratory admissions",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": "10_1097_ede_0000000000001337",
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-13",
+   "row_outcome": "Cardiorespiratory hospitalizations (combined CVD + respiratory)",
+   "cv": "220",
+   "step1_citation": "Thomas et al. 2020/2022 (#220, #268)",
+   "cv_entry": {
+    "first_author": "Thomas",
+    "year": 2020,
+    "title": "Estimating the Effects of Fine Particulate Matter on 432 Cardiovascular Diseases Using Multi-Outcome Regression With Tree- Structured Shrinkage",
+    "journal_etc": "Journal of the American Statistical Association, 115(532):1689–1699. PMID: 35104259; PMCID: PMC8852365; doi:10.1097/EDE.",
+    "doi": "10.1097/ede.0000000000001456",
+    "page": 26
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": null,
+   "topic": "ok",
+   "topic_note": "PM2.5 and 432 cardiovascular diseases",
+   "cv_duplicates": [
+    "268"
+   ],
+   "cv_id_issue": "DOI 10.1097/EDE.0000000000001456 and PMID 35104259 are those of #268 (Thomas 2022, Epidemiology); the JASA 2020 article is doi:10.1080/01621459.2020.1722134",
+   "step24_slug_by_doi": null,
+   "flags": [
+    "cv_duplicate",
+    "cv_id_issue"
+   ],
+   "verdict": "ok_with_note"
+  },
+  {
+   "row": "S1-13",
+   "row_outcome": "Cardiorespiratory hospitalizations (combined CVD + respiratory)",
+   "cv": "268",
+   "step1_citation": "Thomas et al. 2020/2022 (#220, #268)",
+   "cv_entry": {
+    "first_author": "Thomas",
+    "year": 2022,
+    "title": "A Bayesian Multi-Outcome Analysis of Fine Particulate Matter and Cardiorespiratory Hospitalizations",
+    "journal_etc": "Epidemiology, 33(2):176–184. PMID: 35104259; PMCID: PMC8852365; doi:10.1097/EDE.0000000000001456.",
+    "doi": "10.1097/ede.0000000000001456",
+    "page": 31
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": null,
+   "topic": "ok",
+   "topic_note": "Bayesian multi-outcome analysis of cardiorespiratory hospitalizations",
+   "cv_duplicates": [
+    "220"
+   ],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": "10_1097_ede_0000000000001456",
+   "flags": [
+    "cv_duplicate"
+   ],
+   "verdict": "ok_with_note"
+  },
+  {
+   "row": "S1-14",
+   "row_outcome": "Diabetes-related hospitalization/ exacerbation",
+   "cv": "148",
+   "step1_citation": "Zanobetti et al. 2014 (#148)",
+   "cv_entry": {
+    "first_author": "Zanobetti",
+    "year": 2014,
+    "title": "A National Case-Crossover Analysis of the Short-Term Effect of PM2.5 on Hospitalizations and Mortality in Subjects with Diabetes and Neurological Disorders",
+    "journal_etc": "Environmental Health, 13(1):38. PMID: 24886318; PMCID: PMC4064518; doi:10.1186/1476-069X-13-38.",
+    "doi": "10.1186/1476-069x-13-38",
+    "page": 20
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": null,
+   "topic": "ok",
+   "topic_note": "PM2.5, diabetes and neurological disorders",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": "10_1186_1476_069x_13_38",
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-15",
+   "row_outcome": "Neurological disorders (general)",
+   "cv": "148",
+   "step1_citation": "Zanobetti et al. 2014 (#148)",
+   "cv_entry": {
+    "first_author": "Zanobetti",
+    "year": 2014,
+    "title": "A National Case-Crossover Analysis of the Short-Term Effect of PM2.5 on Hospitalizations and Mortality in Subjects with Diabetes and Neurological Disorders",
+    "journal_etc": "Environmental Health, 13(1):38. PMID: 24886318; PMCID: PMC4064518; doi:10.1186/1476-069X-13-38.",
+    "doi": "10.1186/1476-069x-13-38",
+    "page": 20
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": null,
+   "topic": "ok",
+   "topic_note": "PM2.5, diabetes and neurological disorders",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": "10_1186_1476_069x_13_38",
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-16",
+   "row_outcome": "Chronic debilitating brain disorders",
+   "cv": "238",
+   "step1_citation": "Yitshak-Sade et al. 2020 (#238)",
+   "cv_entry": {
+    "first_author": "Yitshak-Sade",
+    "year": 2020,
+    "title": "PM2.5 and Hospital Admissions Among Medicare Enrollees with Chronic Debilitating Brain Disorders",
+    "journal_etc": "Science of the Total Environment, 755(2):142524. PMID: 33065503; PMCID: PMC7749824; doi:10.1016/j.scitotenv.2020.142524.",
+    "doi": "10.1016/j.scitotenv.2020.142524",
+    "page": 28
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": null,
+   "topic": "ok",
+   "topic_note": "PM2.5 and admissions in chronic debilitating brain disorders",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": "10_1016_j_scitotenv_2020_142524",
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-17",
+   "row_outcome": "Dementia / Alzheimer's disease",
+   "cv": "212",
+   "step1_citation": "Lee et al. 2019 (#212)",
+   "cv_entry": {
+    "first_author": "Lee",
+    "year": 2019,
+    "title": "Long-Term Effect of Fine Particulate Matter on Hospitalization with Dementia",
+    "journal_etc": "Environmental Pollution, 254(A):112926. PMID: 31404729; PMCID: PMC7995172; doi:10.1016/j.envpol.2019.07.094.",
+    "doi": "10.1016/j.envpol.2019.07.094",
+    "page": 26
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": null,
+   "topic": "ok",
+   "topic_note": "PM2.5 and hospitalization with dementia",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": "10_1016_j_envpol_2019_07_094",
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-17",
+   "row_outcome": "Dementia / Alzheimer's disease",
+   "cv": "311",
+   "step1_citation": "Qin et al. 2024 (#311)",
+   "cv_entry": {
+    "first_author": "Qin",
+    "year": 2024,
+    "title": "Comparing Traditional and Causal Inference Methodologies for Evaluating Impacts of Long-Term Air Pollution Exposure on Hospitalization with Alzheimer’s Disease and Related Dementias",
+    "journal_etc": "American Journal of Epidemiology, kwae133. PMID: 38907309; doi:10.1093/aje/kwae133.",
+    "doi": "10.1093/aje/kwae133",
+    "page": 35
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": null,
+   "topic": "ok",
+   "topic_note": "Methods comparison with first ADRD hospitalization as outcome",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": "10_1093_aje_kwae133",
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-17",
+   "row_outcome": "Dementia / Alzheimer's disease",
+   "cv": "320",
+   "step1_citation": "Dong et al. 2025 (#320)",
+   "cv_entry": {
+    "first_author": "Dong",
+    "year": 2025,
+    "title": "The impacts of air pollution on mortality and hospital readmission among Medicare beneficiaries with Alzheimer’s disease and Alzheimer’s diseaserelated dementias: a national retrospective cohort study in the USA",
+    "journal_etc": "Lancet Planetary Health, 9(2):e114–e123. PMID: 39986315; PMCID: PMC11970897; doi:10.1016/S2542-5196(25)00001-4.",
+    "doi": "10.1016/s2542-5196(25)00001-4",
+    "page": 36
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": null,
+   "topic": "partial",
+   "topic_note": "ADRD defines the cohort; outcomes are mortality and readmission",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": null,
+   "flags": [
+    "topic_partial"
+   ],
+   "verdict": "ok_with_note"
+  },
+  {
+   "row": "S1-17",
+   "row_outcome": "Dementia / Alzheimer's disease",
+   "cv": "339",
+   "step1_citation": "Spoto et al. 2025 (#339)",
+   "cv_entry": {
+    "first_author": "Spoto",
+    "year": 2025,
+    "title": "Combined and synergistic effects of heat and fine particulate matter on hospitalization among patients with Alzheimer’s disease and related dementias",
+    "journal_etc": "Environ Epidemiol. 9(6):e440. doi:10.1097/EE9.0000000000000440.",
+    "doi": "10.1097/ee9.0000000000000440",
+    "page": 38
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": null,
+   "topic": "partial",
+   "topic_note": "Heat and PM2.5 and hospitalization among ADRD patients: ADRD defines the cohort, not the outcome",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": null,
+   "flags": [
+    "topic_partial"
+   ],
+   "verdict": "ok_with_note"
+  },
+  {
+   "row": "S1-18",
+   "row_outcome": "Acute kidney injury / kidney disease",
+   "cv": "282",
+   "step1_citation": "Lee et al. 2023, EHP (#282)",
+   "cv_entry": {
+    "first_author": "Lee",
+    "year": 2023,
+    "title": "Air Pollution and Acute Kidney Injury in the U.S",
+    "journal_etc": "Medicare Population: A Longitudinal Cohort Study. Environmental Health Perspectives, 131(4):47008. PMID: 37036790; PMCID",
+    "doi": "10.1289/ehp10729",
+    "page": 32
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": true,
+   "topic": "partial",
+   "topic_note": "AKI only; the row's 585/N18 (CKD) comes from Lee 2022 BMJ Medicine, not cited",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": "10_1289_ehp10729",
+   "flags": [
+    "topic_partial"
+   ],
+   "verdict": "ok_with_note"
+  },
+  {
+   "row": "S1-19",
+   "row_outcome": "Psychiatric hospital admissions",
+   "cv": "270",
+   "step1_citation": "Qiu et al. 2022, Lancet Planetary Health (#270)",
+   "cv_entry": {
+    "first_author": "Qiu",
+    "year": 2022,
+    "title": "Associations of Short-Term Exposure to Air Pollution and Increased Ambient Temperature with Psychiatric Hospital Admissions in Older Adults in the USA: A Case-Crossover Study",
+    "journal_etc": "Lancet Planetary Health, 6(4):e331–e341. PMID: 35397221; PMCID: PMC9044858; doi:10.1016/S2542-5196(22)00017-1.",
+    "doi": "10.1016/s2542-5196(22)00017-1",
+    "page": 31
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": true,
+   "topic": "ok",
+   "topic_note": "Air pollution, temperature and psychiatric admissions",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": "10_1016_s2542_5196_22_00017_1",
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-20",
+   "row_outcome": "Alcohol- and substance-related disorders",
+   "cv": "293",
+   "step1_citation": "Parks et al. 2023, Communications Medicine (#293)",
+   "cv_entry": {
+    "first_author": "Parks",
+    "year": 2023,
+    "title": "The Association between Temperature and Alcohol- and Substance-Related Disorder 33 Hospital Visits in New York State",
+    "journal_etc": "Communications Medicine, 3(1):118. PMID: 37752306; PMCID: PMC10522658; doi:10.1038/s43856-023-00346-1.",
+    "doi": "10.1038/s43856-023-00346-1",
+    "page": 33
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": true,
+   "topic": "ok",
+   "topic_note": "Temperature and alcohol/substance-related disorders",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": null,
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-21",
+   "row_outcome": "Psychiatric hospitalizations (boom–bust economic/oil-gas exposure context)",
+   "cv": "331",
+   "step1_citation": "Willis et al. 2025 (#331)",
+   "cv_entry": {
+    "first_author": "Willis",
+    "year": 2025,
+    "title": "Impact of boomand-bust economies from oil and gas development on psychiatric hospitalizations among Medicaid beneficiaries",
+    "journal_etc": "Environ Res Health. 2025 Sep 17;3(3):035008. doi:10.1088/2752-5309/ae01ce.",
+    "doi": "10.1088/2752-5309/ae01ce",
+    "page": 37
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": null,
+   "topic": "ok",
+   "topic_note": "Oil/gas boom-bust and psychiatric hospitalizations",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": null,
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-22",
+   "row_outcome": "Interpersonal violence–related visits (assault)",
+   "cv": "341",
+   "step1_citation": "Parks et al. 2026 (#341)",
+   "cv_entry": {
+    "first_author": "Parks",
+    "year": 2026,
+    "title": "Higher temperatures are associated with increased interpersonal and self-inflicted violence-related Medicaid hospital visits in the United States",
+    "journal_etc": "Communications Sustainability 1:4. doi:10.1038/s44458-025-00001-x.",
+    "doi": "10.1038/s44458-025-00001-x",
+    "page": 38
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": null,
+   "topic": "ok",
+   "topic_note": "Temperature and interpersonal / self-directed violence",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": null,
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-23",
+   "row_outcome": "Self-inflicted violence–related visits",
+   "cv": "341",
+   "step1_citation": "Parks et al. 2026 (#341)",
+   "cv_entry": {
+    "first_author": "Parks",
+    "year": 2026,
+    "title": "Higher temperatures are associated with increased interpersonal and self-inflicted violence-related Medicaid hospital visits in the United States",
+    "journal_etc": "Communications Sustainability 1:4. doi:10.1038/s44458-025-00001-x.",
+    "doi": "10.1038/s44458-025-00001-x",
+    "page": 38
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": null,
+   "topic": "ok",
+   "topic_note": "Temperature and interpersonal / self-directed violence",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": null,
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-24",
+   "row_outcome": "Heat stroke / heat-related illness",
+   "cv": "171",
+   "step1_citation": "Wang et al. 2016 (#171)",
+   "cv_entry": {
+    "first_author": "Wang",
+    "year": 2016,
+    "title": "Heat Stroke Admissions during Heat Waves in 1,916 US Counties, 1999–2010 and Their Effect Modifiers",
+    "journal_etc": "Environmental Health, 15(1):83. PMID: 27503399; PMCID: PMC4977899; doi:10.1186/s12940-016-0167-3.",
+    "doi": "10.1186/s12940-016-0167-3",
+    "page": 22
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": null,
+   "topic": "ok",
+   "topic_note": "Heat stroke admissions during heat waves",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": "10_1186_s12940_016_0167_3",
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-24",
+   "row_outcome": "Heat stroke / heat-related illness",
+   "cv": "153",
+   "step1_citation": "Bobb et al. 2014, JAMA (#153)",
+   "cv_entry": {
+    "first_author": "Bobb",
+    "year": 2014,
+    "title": "Cause-Specific Risk of Hospital Admission Related to Extreme Heat in Older Adults",
+    "journal_etc": "Journal of the American Medical Association, 312(24):2659–2667. PMID: 25536257; PMCID: PMC4319792; doi:10.1001/jama.2014",
+    "doi": "10.1001/jama.2014.15715",
+    "page": 20
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": true,
+   "topic": "ok",
+   "topic_note": "Cause-specific admissions and extreme heat",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": "10_1001_jama_2014_15715",
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-24",
+   "row_outcome": "Heat stroke / heat-related illness",
+   "cv": "190",
+   "step1_citation": "Hopp et al. 2018 (#190)",
+   "cv_entry": {
+    "first_author": "Hopp",
+    "year": 2018,
+    "title": "Medical Diagnoses of Heat Wave-Related Hospital Admissions in Older Adults",
+    "journal_etc": "Preventive Medicine, 110:81–88. PMID: 29428173; PMCID: PMC6040588; doi:10.1016/j.ypmed.2018.02.001.",
+    "doi": "10.1016/j.ypmed.2018.02.001",
+    "page": 24
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": null,
+   "topic": "ok",
+   "topic_note": "Diagnoses of heat-wave admissions",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": "10_1016_j_ypmed_2018_02_001",
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-25",
+   "row_outcome": "Heat-related respiratory hospitalization",
+   "cv": "132",
+   "step1_citation": "Anderson et al. 2013, AJRCCM (#132)",
+   "cv_entry": {
+    "first_author": "Anderson",
+    "year": 2013,
+    "title": "Heat Related Respiratory Hospitalizations and Costs in the Medicare Population",
+    "journal_etc": "American Journal of Respiratory and Critical Care Medicine, 187(10):1098–1103. PMID: 23491405; PMCID: PMC3734617; doi:10",
+    "doi": "10.1164/rccm.201211-1969oc",
+    "page": 19
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": true,
+   "topic": "ok",
+   "topic_note": "Heat-related respiratory hospitalizations",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": null,
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-26",
+   "row_outcome": "Cause-specific hospitalizations related to extreme heat (renal, respiratory, CVD, diabetes, etc., multi-cause)",
+   "cv": "153",
+   "step1_citation": "Bobb (Obermeyer) et al. 2014, JAMA \"Cause-Specific Risk of Hospital Admission Related to Extreme Heat\" (#153)",
+   "cv_entry": {
+    "first_author": "Bobb",
+    "year": 2014,
+    "title": "Cause-Specific Risk of Hospital Admission Related to Extreme Heat in Older Adults",
+    "journal_etc": "Journal of the American Medical Association, 312(24):2659–2667. PMID: 25536257; PMCID: PMC4319792; doi:10.1001/jama.2014",
+    "doi": "10.1001/jama.2014.15715",
+    "page": 20
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": true,
+   "topic": "ok",
+   "topic_note": "Cause-specific admissions and extreme heat",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": "10_1001_jama_2014_15715",
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-27",
+   "row_outcome": "Wildfire smoke–associated hospital admissions (respiratory/ cardiovascular)",
+   "cv": "173",
+   "step1_citation": "Liu et al. 2016 (#173)",
+   "cv_entry": {
+    "first_author": "Liu",
+    "year": 2016,
+    "title": "Wildfire-Specific Fine Particulate Matter and Risk of Hospital Admissions in Urban and Rural Counties",
+    "journal_etc": "Epidemiology, 28(1):77–85. PMID: 27648592; PMCID: PMC5130603; doi:10.1097/EDE.0000000000000556.",
+    "doi": "10.1097/ede.0000000000000556",
+    "page": 22
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": null,
+   "topic": "ok",
+   "topic_note": "Wildfire PM2.5 and admissions (Epidemiology, CV year 2016, vol. 28 2017)",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": "10_1097_ede_0000000000000556",
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-27",
+   "row_outcome": "Wildfire smoke–associated hospital admissions (respiratory/ cardiovascular)",
+   "cv": "175",
+   "step1_citation": "Liu et al. 2017 (#175)",
+   "cv_entry": {
+    "first_author": "Liu",
+    "year": 2017,
+    "title": "Who Among the Elderly is Most Vulnerable to Exposure and Health Impacts of PM2.5 from Wildfire Smoke? American Journal of Epidemiology, 186(6):730–735",
+    "journal_etc": "PMID: 28525551; PMCID: PMC5860049; doi:10.1093/aje/kwx141.",
+    "doi": "10.1093/aje/kwx141",
+    "page": 22
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": null,
+   "topic": "ok",
+   "topic_note": "Wildfire PM2.5: who among the elderly is most vulnerable",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": null,
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-28",
+   "row_outcome": "Snowstorm-associated, cause-specific hospital admissions",
+   "cv": "177",
+   "step1_citation": "Bobb et al. 2016, AJE \"Time-course of Cause-Specific Hospital Admissions during Snowstorms\" (#177)",
+   "cv_entry": {
+    "first_author": "Bobb",
+    "year": 2016,
+    "title": "Time-course of Cause-Specific Hospital Admissions during Snowstorms: An Analysis of Electronic Medical Records from Major Hospitals in Boston",
+    "journal_etc": "American Journal of Epidemiology, 185(4):283–294. PMID: 28137774; PMCID: PMC5860478; doi:10.1093/aje/kww219.",
+    "doi": "10.1093/aje/kww219",
+    "page": 23
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": true,
+   "topic": "ok",
+   "topic_note": "Snowstorms and cause-specific admissions",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": null,
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-29",
+   "row_outcome": "Drought-associated hospital admissions/ mortality (older adults)",
+   "cv": "181",
+   "step1_citation": "Berman et al. 2017, Lancet Planetary Health (#181)",
+   "cv_entry": {
+    "first_author": "Berman",
+    "year": 2017,
+    "title": "Drought and the Risk of Hospital Admissions and Mortality in Older Adults in Western USA from 2000 to 2013: A Retrospective Study",
+    "journal_etc": "Lancet Planetary Health, 1(1):e17–e25. PMID: 29057392; PMCID: PMC5646697; doi:10.1016/S2542-5196(17)30002-5.",
+    "doi": "10.1016/s2542-5196(17)30002-5",
+    "page": 23
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": true,
+   "topic": "ok",
+   "topic_note": "Drought and admissions/mortality",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": "10_1016_s2542_5196_17_30002_5",
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-30",
+   "row_outcome": "Tropical cyclone–associated hospitalization (older adults, general and cardiorespiratory)",
+   "cv": "240",
+   "step1_citation": "Parks et al. 2021, Nature Communications (#240)",
+   "cv_entry": {
+    "first_author": "Parks",
+    "year": 2021,
+    "title": "Tropical Cyclone Exposure is Associated with Increased Hospitalization Rates in Older Adults",
+    "journal_etc": "Nature Communications, 12(1):1545. PMID: 33750775; PMCID: PMC7943804; doi:10.1038/s41467-021-21777-1.",
+    "doi": "10.1038/s41467-021-21777-1",
+    "page": 28
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": true,
+   "topic": "ok",
+   "topic_note": "Tropical cyclones and cause-specific hospitalizations",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": "10_1038_s41467_021_21777_1",
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-30",
+   "row_outcome": "Tropical cyclone–associated hospitalization (older adults, general and cardiorespiratory)",
+   "cv": "242",
+   "step1_citation": "Yan et al. 2021 (#242)",
+   "cv_entry": {
+    "first_author": "Yan",
+    "year": 2021,
+    "title": "Tropical Cyclone Exposures and Risks of Emergency Medicare Hospital Admission for Cardiorespiratory Diseases in 175 Urban United States Counties, 1999–2010",
+    "journal_etc": "Epidemiology, 32(3):315–326. PMID: 33591048; PMCID: PMC8887827; doi:10.1097/EDE.0000000000001337.",
+    "doi": "10.1097/ede.0000000000001337",
+    "page": 28
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": null,
+   "topic": "ok",
+   "topic_note": "Tropical cyclones and cardiorespiratory admissions",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": "10_1097_ede_0000000000001337",
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-30",
+   "row_outcome": "Tropical cyclone–associated hospitalization (older adults, general and cardiorespiratory)",
+   "cv": "281",
+   "step1_citation": "Burrows et al. 2023 (#281)",
+   "cv_entry": {
+    "first_author": "Burrows",
+    "year": 2023,
+    "title": "Health Disparities Among Older Adults Following Tropical Cyclone Exposure in Florida, USA, 1999–2016",
+    "journal_etc": "Nature Communications, 14:2221. PMID: 37076480; PMCID: PMC10115860; doi:10.1038/s41467-023-37675-7.",
+    "doi": "10.1038/s41467-023-37675-7",
+    "page": 32
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": null,
+   "topic": "ok",
+   "topic_note": "Tropical cyclones and CVD/respiratory hospitalization in Florida",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": "10_1038_s41467_023_37675_7",
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-31",
+   "row_outcome": "Hurricane-associated ED visits (by age and cause)",
+   "cv": "244",
+   "step1_citation": "Weinberger et al. 2021, AJE (Hurricane Sandy) (#244)",
+   "cv_entry": {
+    "first_author": "Weinberger",
+    "year": 2021,
+    "title": "Association Between Hurricane Sandy and Emergency Department Visits In New York City By Age and Cause",
+    "journal_etc": "American Journal of Epidemiology, 190(10):2138–2147. PMID: 33910231; PMCID: PMC8576377; doi:10.1093/aje/kwab127.",
+    "doi": "10.1093/aje/kwab127",
+    "page": 29
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": true,
+   "topic": "ok",
+   "topic_note": "Hurricane Sandy and ED visits by age and cause",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": null,
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-32",
+   "row_outcome": "Volcanic SO2 plume–associated respiratory morbidity",
+   "cv": "250",
+   "step1_citation": "Carlsen et al. 2021 (#250, #252)",
+   "cv_entry": {
+    "first_author": "Carlsen",
+    "year": 2021,
+    "title": "Severe Volcanic SO2 Exposure and Respiratory Morbidity in the Icelandic Population - A Register Study",
+    "journal_etc": "Environmental Health, 20(1):23. PMID: 33639965; PMCID: PMC7916308; doi:10.1186/s12940-021-00698-y.",
+    "doi": "10.1186/s12940-021-00698-y",
+    "page": 29
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": null,
+   "topic": "ok",
+   "topic_note": "Volcanic SO2 and respiratory morbidity",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": null,
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-32",
+   "row_outcome": "Volcanic SO2 plume–associated respiratory morbidity",
+   "cv": "252",
+   "step1_citation": "Carlsen et al. 2021 (#250, #252)",
+   "cv_entry": {
+    "first_author": "Carlsen",
+    "year": 2021,
+    "title": "Increased Respiratory Morbidity Associated with Exposure to a Mature Volcanic Plume from a Large Icelandic Fissure Eruption",
+    "journal_etc": "Nature Communications, 12(1):2161. PMID: 33846312; PMCID: PMC8042009; doi:10.1038/s41467-021-22432-5.",
+    "doi": "10.1038/s41467-021-22432-5",
+    "page": 29
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": null,
+   "topic": "ok",
+   "topic_note": "Volcanic plume and respiratory morbidity",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": null,
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-33",
+   "row_outcome": "Emergency hospital admissions for CVD and ambient CO",
+   "cv": "92",
+   "step1_citation": "Bell et al. 2009, Circulation (#92)",
+   "cv_entry": {
+    "first_author": "Bell",
+    "year": 2009,
+    "title": "Emergency Hospital Admissions for Cardiovascular Diseases and Ambient Levels of Carbon Monoxide: Results for 126 U.S",
+    "journal_etc": "Urban Counties, 1999–2005. Circulation, 120:949–955. PMID: 19720933; PMCID: PMC2777712; doi:10.1161/CIRCULATIONAHA.109.8",
+    "doi": "10.1161/circulationaha.109.851113",
+    "page": 15
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": true,
+   "topic": "ok",
+   "topic_note": "CO and emergency CVD admissions",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": "10_1161_circulationaha_109_851113",
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-34",
+   "row_outcome": "Hospital admissions and PM2.5 chemical composition (cardiorespiratory)",
+   "cv": "89",
+   "step1_citation": "Bell et al. 2009 (#89, #94)",
+   "cv_entry": {
+    "first_author": "Bell",
+    "year": 2009,
+    "title": "Hospital Admissions and Chemical Composition of Fine Particle Air Pollution",
+    "journal_etc": "American Journal of Respiratory and Critical Care Medicine, 179:1–6. PMID: 19299499; PMCID: PMC2695497; doi:10.1164/rccm",
+    "doi": "10.1164/rccm.200808-1240oc",
+    "page": 15
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": null,
+   "topic": "ok",
+   "topic_note": "PM2.5 chemical composition and CVD/respiratory admissions",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": null,
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-34",
+   "row_outcome": "Hospital admissions and PM2.5 chemical composition (cardiorespiratory)",
+   "cv": "94",
+   "step1_citation": "Bell et al. 2009 (#89, #94)",
+   "cv_entry": {
+    "first_author": "Peng",
+    "year": 2009,
+    "title": "Emergency Admissions for Cardiovascular and Respiratory Diseases and the Chemical Composition of Fine Particle Air Pollution",
+    "journal_etc": "Environmental Health Perspectives, 117(6):957–963.",
+    "doi": null,
+    "page": 15
+   },
+   "author_ok": false,
+   "year_ok": true,
+   "journal_ok": null,
+   "topic": "ok",
+   "topic_note": "PM2.5 composition and CVD/respiratory admissions; first author is Peng (Bell is 2nd)",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": null,
+   "flags": [
+    "author_ok"
+   ],
+   "verdict": "ok_with_note"
+  },
+  {
+   "row": "S1-34",
+   "row_outcome": "Hospital admissions and PM2.5 chemical composition (cardiorespiratory)",
+   "cv": "136",
+   "step1_citation": "Bell et al. 2014 (#136)",
+   "cv_entry": {
+    "first_author": "Bell",
+    "year": 2014,
+    "title": "Association of PM2.5 Constituents and Sources with Hospital Admissions: Analysis of Four Counties in Connecticut and Massachusetts (USA) for Persons 65 Years of Age and Older",
+    "journal_etc": "Environmental Health Perspectives, 122(2):138–144. PMID: 24213019; PMCID: PMC3915260; doi:10.1289/ehp.1306656.",
+    "doi": "10.1289/ehp.1306656",
+    "page": 19
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": null,
+   "topic": "ok",
+   "topic_note": "PM2.5 constituents/sources and admissions",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": "10_1289_ehp_1306656",
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-35",
+   "row_outcome": "Emergency hospital admissions, primary organic particles (elderly, cardiorespiratory)",
+   "cv": "134",
+   "step1_citation": "Kioumourtzoglou et al. 2013 (#134)",
+   "cv_entry": {
+    "first_author": "Kioumourtzoglou",
+    "year": 2013,
+    "title": "The Effect of Primary Organic Particles on Emergency Hospital Admissions among the Elderly in 3 US Cities",
+    "journal_etc": "Environmental Health, 12(1):68. PMID: 23981468; PMCID: PMC3765898; doi:10.1186/1476-069X-12-68.",
+    "doi": "10.1186/1476-069x-12-68",
+    "page": 19
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": null,
+   "topic": "ok",
+   "topic_note": "Primary organic particles and emergency admissions",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": "10_1186_1476_069x_12_68",
+   "flags": [],
+   "verdict": "ok"
+  },
+  {
+   "row": "S1-36",
+   "row_outcome": "Non-respiratory infection hospital admissions (long-term PM2.5, included for completeness)",
+   "cv": "303",
+   "step1_citation": "Feng et al. 2024, Nature Communications (#303/#309)",
+   "cv_entry": {
+    "first_author": "Feng",
+    "year": 2024,
+    "title": "Long-term Exposure of Ambient PM2.5, Particulate Constituents and Hospital Admissions from Non-respiratory Infection",
+    "journal_etc": "Nature Communications, 15:1518. PMID: 38374182; PMCID: PMC10876532; doi:10.1038/s41467-024-45776-0.",
+    "doi": "10.1038/s41467-024-45776-0",
+    "page": 35
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": true,
+   "topic": "ok",
+   "topic_note": "PM2.5 constituents and non-respiratory infection admissions",
+   "cv_duplicates": [
+    "309"
+   ],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": "10_1038_s41467_024_45776_0",
+   "flags": [
+    "cv_duplicate"
+   ],
+   "verdict": "ok_with_note"
+  },
+  {
+   "row": "S1-36",
+   "row_outcome": "Non-respiratory infection hospital admissions (long-term PM2.5, included for completeness)",
+   "cv": "309",
+   "step1_citation": "Feng et al. 2024, Nature Communications (#303/#309)",
+   "cv_entry": {
+    "first_author": "Feng",
+    "year": 2024,
+    "title": "Long-Term Exposure to Ambient PM2.5, Particulate Constituents and Hospital Admissions from Non-Respiratory Infection",
+    "journal_etc": "Nature Communications, 15(1):1518. PMID: 38374182; PMCID: PMC10876532; doi:10.1038/s41467-024-45776-0.",
+    "doi": "10.1038/s41467-024-45776-0",
+    "page": 35
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": true,
+   "topic": "ok",
+   "topic_note": "Same article as #303 (duplicate CV entry)",
+   "cv_duplicates": [
+    "303"
+   ],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": "10_1038_s41467_024_45776_0",
+   "flags": [
+    "cv_duplicate"
+   ],
+   "verdict": "ok_with_note"
+  },
+  {
+   "row": "S1-37",
+   "row_outcome": "Second cardiovascular event hospital admissions",
+   "cv": "323",
+   "step1_citation": "Yazdi et al. 2025 (#323)",
+   "cv_entry": {
+    "first_author": "Danesh",
+    "year": 2025,
+    "title": "Effects of intermediate and long term exposure to ambient air pollution and temperature on hospital admissions with second cardiovascular events among Medicare beneficiaries",
+    "journal_etc": "Environment International, 202:109617. doi:10.1016/j.envint.2025.109617.",
+    "doi": "10.1016/j.envint.2025.109617",
+    "page": 37
+   },
+   "author_ok": true,
+   "year_ok": true,
+   "journal_ok": null,
+   "topic": "ok",
+   "topic_note": "Second MI / ischemic stroke admissions",
+   "cv_duplicates": [],
+   "cv_id_issue": null,
+   "step24_slug_by_doi": "10_1016_j_envint_2025_109617",
+   "flags": [],
+   "verdict": "ok"
+  }
+ ],
+ "cv_duplicate_dois_all": [
+  {
+   "doi": "10.1016/j.envint.2021.106861",
+   "cv_numbers": [
+    "137",
+    "158",
+    "256"
+   ]
+  },
+  {
+   "doi": "10.1097/ede.0000000000001354",
+   "cv_numbers": [
+    "138",
+    "159",
+    "257"
+   ]
+  },
+  {
+   "doi": "10.1016/j.envint.2021.106834",
+   "cv_numbers": [
+    "139",
+    "258"
+   ]
+  },
+  {
+   "doi": "10.1038/s41598-021-02776-0",
+   "cv_numbers": [
+    "140",
+    "259"
+   ]
+  },
+  {
+   "doi": "10.1016/j.envint.2021.106737",
+   "cv_numbers": [
+    "141",
+    "260"
+   ]
+  },
+  {
+   "doi": "10.1186/s12940-021-00742-x",
+   "cv_numbers": [
+    "142",
+    "261"
+   ]
+  },
+  {
+   "doi": "10.1080/01621459.2022.2144737",
+   "cv_numbers": [
+    "143",
+    "262"
+   ]
+  },
+  {
+   "doi": "10.1016/j.envres.2021.112369",
+   "cv_numbers": [
+    "144",
+    "263"
+   ]
+  },
+  {
+   "doi": "10.1038/s41586-021-04190-y",
+   "cv_numbers": [
+    "145",
+    "264"
+   ]
+  },
+  {
+   "doi": "10.1136/bmj-2021-065653",
+   "cv_numbers": [
+    "156",
+    "254"
+   ]
+  },
+  {
+   "doi": "10.1097/ede.0000000000001348",
+   "cv_numbers": [
+    "157",
+    "255"
+   ]
+  },
+  {
+   "doi": "10.1001/jama.2018.7351",
+   "cv_numbers": [
+    "192",
+    "196"
+   ]
+  },
+  {
+   "doi": "10.1214/18-ba1131",
+   "cv_numbers": [
+    "193",
+    "197"
+   ]
+  },
+  {
+   "doi": "10.1214/18-aoas1206",
+   "cv_numbers": [
+    "194",
+    "198"
+   ]
+  },
+  {
+   "doi": "10.1001/jamanetworkopen.2018.3038",
+   "cv_numbers": [
+    "195",
+    "199"
+   ]
+  },
+  {
+   "doi": "10.1002/sim.8392",
+   "cv_numbers": [
+    "214",
+    "219"
+   ]
+  },
+  {
+   "doi": "10.1097/ede.0000000000001456",
+   "cv_numbers": [
+    "220",
+    "268"
+   ]
+  },
+  {
+   "doi": "10.1001/jama.2020.1021",
+   "cv_numbers": [
+    "223",
+    "234"
+   ]
+  },
+  {
+   "doi": "10.1016/j.envres.2020.110649",
+   "cv_numbers": [
+    "237",
+    "310"
+   ]
+  },
+  {
+   "doi": "10.1038/s41467-024-45776-0",
+   "cv_numbers": [
+    "303",
+    "309"
+   ]
+  },
+  {
+   "doi": "10.1016/j.lanplh.2025.101293",
+   "cv_numbers": [
+    "327",
+    "328"
+   ]
+  },
+  {
+   "doi": "10.1126/science.adu4132",
+   "cv_numbers": [
+    "330",
+    "333"
+   ]
+  },
+  {
+   "doi": "10.1038/s44387-026-00108-z",
+   "cv_numbers": [
+    "345",
+    "348"
+   ]
+  }
+ ]
+}

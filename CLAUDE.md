@@ -26,6 +26,9 @@ Parse Dominici_hospitalization_ICD_codes.md.pdf to extract the inventory of icd 
 ### Step 1.2
 Parse only the publication list in a super simple json.
 
+### Step 1.3
+Check whether the Dominici_CV_updated_10132026.pdf numbered papers match the CV numbers in the document. 
+
 ### Step 2
 Independently from Step 1 mappings, pull out an actual publication list from Francesca Dominici Google Scholar.
 
@@ -82,3 +85,10 @@ to save it in. Downloaded files will be registered in the Step 2.4 manifest.
     supplement number/table), and a short quote.
 - Papers that scan many disease groups at once (outcome-wide studies, e.g. 214 CCS groups):
   extract every group, and populate the same json entries.
+
+### Step 2.7
+Build one check table with one row per Step 1 mapping. Show the Step 1 ICD-9/ICD-10 codes next to
+the codes found (Step 2.6) in the papers that row cites, with a per-paper and a per-row verdict
+(match / match_category / differs / not_comparable / no_evidence). The CV number → paper
+crosswalk and the row → outcome choices are made by hand. Uncited papers with the same outcome
+may be shown as context, but they do not change the verdict. Deliver a CSV for review.

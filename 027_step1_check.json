@@ -1,0 +1,4352 @@
+{
+ "sources": [
+  "010_icd_mappings.json",
+  "012_publications.json",
+  "026_icd_codes.json",
+  "027_crosswalk.json"
+ ],
+ "rows": [
+  {
+   "id": "S1-01",
+   "section": 1,
+   "outcome": "Cardiovascular disease (all-cause)",
+   "step1_icd9": "390–459",
+   "step1_icd10": "I00–I99",
+   "publications": "Dominici et al. 2006 JAMA (#57); Peng et al. 2008 JAMA (#78); Bravo et al. 2016 (#172); Chen et al. 2021 (#245, #253); Sun et al. 2024 BMJ (#304); Yazdi et al. 2025 (#323)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "supported",
+   "papers": [
+    {
+     "verdict": "no_evidence",
+     "reason": "no full text (Step 2.5 shortlist)",
+     "cv": "57",
+     "paper": "Dominici 2006 JAMA",
+     "slug": "10_1001_jama_295_10_1127",
+     "outcomes": null
+    },
+    {
+     "verdict": "no_evidence",
+     "reason": "no full text (Step 2.5 shortlist)",
+     "cv": "78",
+     "paper": "Peng 2008 JAMA",
+     "slug": "10_1001_jama_299_18_2172",
+     "outcomes": null
+    },
+    {
+     "verdict": "match",
+     "icd9": {
+      "verdict": "match"
+     },
+     "icd10": {
+      "verdict": "not_comparable"
+     },
+     "codes": {
+      "icd9": [
+       "390 to 459"
+      ],
+      "icd10": [],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "principal"
+      ],
+      "evidence": [
+       "PMC5381978.1.pdf, page 2"
+      ]
+     },
+     "cv": "172",
+     "paper": "Bravo 2017 EHP",
+     "slug": "10_1289_ehp257",
+     "outcomes": [
+      "cardiovascular"
+     ]
+    },
+    {
+     "verdict": "no_evidence",
+     "reason": "no full text (Step 2.5 shortlist)",
+     "cv": "245",
+     "paper": "Chen 2021 Lancet Planet Health",
+     "slug": "10_1016_s2542_5196_21_00168_6",
+     "outcomes": null
+    },
+    {
+     "cv": "253",
+     "paper": "Chen et al. 2021",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "CV #253 is Chen 2021 Environ Res (temporal trends by subpopulation), not in the Step 2.3 data"
+    },
+    {
+     "cv": "304",
+     "paper": "Sun et al. 2024 BMJ",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "Sun 2024 BMJ (commercial + Medicare Advantage claims) is not in the Step 2.4 set (Step 2.3: uncertain); Wei 2024 BMJ is shown as context"
+    },
+    {
+     "verdict": "not_applicable",
+     "reason": "paper has no outcome matching this row",
+     "cv": "323",
+     "paper": "Danesh Yazdi 2025 Environ Int (second events)",
+     "slug": "10_1016_j_envint_2025_109617",
+     "outcomes": null
+    }
+   ],
+   "context": [
+    {
+     "verdict": "match",
+     "icd9": {
+      "verdict": "match"
+     },
+     "icd10": {
+      "verdict": "match"
+     },
+     "codes": {
+      "icd9": [
+       "390– 459"
+      ],
+      "icd10": [
+       "I00-I99"
+      ],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "principal"
+      ],
+      "evidence": [
+       "PMC8380672.1.pdf, page 3"
+      ]
+     },
+     "paper": "Klompmaker 2021 Environ Int",
+     "slug": "10_1016_j_envint_2021_106715",
+     "outcomes": [
+      "cardiovascular disease (CVD)"
+     ]
+    },
+    {
+     "verdict": "differs",
+     "icd9": {
+      "verdict": "differs",
+      "missing": [
+       "399-400",
+       "406-409",
+       "418-419",
+       "439",
+       "449-450"
+      ],
+      "extra": [],
+      "overlap": true
+     },
+     "icd10": {
+      "verdict": "not_comparable"
+     },
+     "codes": {
+      "icd9": [
+       "390–398",
+       "401–405",
+       "410–414",
+       "415–417",
+       "420–429",
+       "430–438",
+       "440–448",
+       "451–459"
+      ],
+      "icd10": [],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "principal"
+      ],
+      "evidence": [
+       "PMC5646697.1.pdf, page 3"
+      ]
+     },
+     "paper": "Berman 2017 Lancet Planet Health",
+     "slug": "10_1016_s2542_5196_17_30002_5",
+     "outcomes": [
+      "cardiovascular admissions"
+     ]
+    },
+    {
+     "verdict": "match",
+     "icd9": {
+      "verdict": "match"
+     },
+     "icd10": {
+      "verdict": "match"
+     },
+     "codes": {
+      "icd9": [
+       "390–459"
+      ],
+      "icd10": [
+       "codes beginning with \"I\""
+      ],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "principal"
+      ],
+      "evidence": [
+       "PMC12746473.1.pdf, page 5"
+      ]
+     },
+     "paper": "Danesh Yazdi 2025 Environ Res (PM2.5 components)",
+     "slug": "10_1016_j_envres_2025_122779",
+     "outcomes": [
+      "cardiovascular diseases (first admission)"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1-02",
+   "section": 1,
+   "outcome": "Respiratory disease (all-cause)",
+   "step1_icd9": "460–519",
+   "step1_icd10": "J00–J99",
+   "publications": "Dominici et al. 2006 JAMA (#57); Peng et al. 2008 JAMA (#78); Bell et al. 2009 (#89, #94); Bravo et al. 2016 (#172); Anderson et al. 2013 (#132)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "differs",
+   "papers": [
+    {
+     "verdict": "no_evidence",
+     "reason": "no full text (Step 2.5 shortlist)",
+     "cv": "57",
+     "paper": "Dominici 2006 JAMA",
+     "slug": "10_1001_jama_295_10_1127",
+     "outcomes": null
+    },
+    {
+     "verdict": "no_evidence",
+     "reason": "no full text (Step 2.5 shortlist)",
+     "cv": "78",
+     "paper": "Peng 2008 JAMA",
+     "slug": "10_1001_jama_299_18_2172",
+     "outcomes": null
+    },
+    {
+     "cv": "89",
+     "paper": "Bell et al. 2009",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "Bell 2009 AJRCCM (chemical composition) is not in the Step 2.4 set (Step 2.3: uncertain)"
+    },
+    {
+     "verdict": "differs",
+     "icd9": {
+      "verdict": "differs",
+      "missing": [
+       "460-463",
+       "467-479",
+       "488-489",
+       "493-519"
+      ],
+      "extra": [],
+      "overlap": true
+     },
+     "icd10": {
+      "verdict": "not_comparable"
+     },
+     "codes": {
+      "icd9": [
+       "490–492",
+       "464–466",
+       "480–487"
+      ],
+      "icd10": [],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "principal"
+      ],
+      "evidence": [
+       "PMC2702413.1.pdf, page 2"
+      ]
+     },
+     "cv": "94",
+     "paper": "Peng 2009 EHP",
+     "slug": "10_1289_ehp_0800185",
+     "outcomes": [
+      "respiratory diseases"
+     ]
+    },
+    {
+     "verdict": "differs",
+     "icd9": {
+      "verdict": "differs",
+      "missing": [
+       "460-463",
+       "467-479",
+       "488-489",
+       "493-519"
+      ],
+      "extra": [],
+      "overlap": true
+     },
+     "icd10": {
+      "verdict": "not_comparable"
+     },
+     "codes": {
+      "icd9": [
+       "490 to 492",
+       "464 to 466",
+       "480 to 487"
+      ],
+      "icd10": [],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "principal"
+      ],
+      "evidence": [
+       "PMC5381978.1.pdf, page 2"
+      ]
+     },
+     "cv": "172",
+     "paper": "Bravo 2017 EHP",
+     "slug": "10_1289_ehp257",
+     "outcomes": [
+      "respiratory (COPD and respiratory tract infections)"
+     ]
+    },
+    {
+     "cv": "132",
+     "paper": "Anderson et al. 2013, AJRCCM",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "Anderson 2013 AJRCCM is not in the Step 2.4 set"
+    }
+   ],
+   "context": [
+    {
+     "verdict": "match",
+     "icd9": {
+      "verdict": "match"
+     },
+     "icd10": {
+      "verdict": "match"
+     },
+     "codes": {
+      "icd9": [
+       "460–519"
+      ],
+      "icd10": [
+       "J00-J99"
+      ],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "principal"
+      ],
+      "evidence": [
+       "PMC10236532.1.pdf, page 4"
+      ]
+     },
+     "paper": "Klompmaker 2023 Environ Pollut",
+     "slug": "10_1016_j_envpol_2022_120046",
+     "outcomes": [
+      "respiratory disease (RSD)"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1-03",
+   "section": 1,
+   "outcome": "Ischemic heart disease",
+   "step1_icd9": "410–414",
+   "step1_icd10": "I20–I25",
+   "publications": "Dominici et al. 2006 JAMA (#57)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "no_evidence",
+   "papers": [
+    {
+     "verdict": "no_evidence",
+     "reason": "no full text (Step 2.5 shortlist)",
+     "cv": "57",
+     "paper": "Dominici 2006 JAMA",
+     "slug": "10_1001_jama_295_10_1127",
+     "outcomes": null
+    }
+   ],
+   "context": [
+    {
+     "verdict": "match",
+     "icd9": {
+      "verdict": "match"
+     },
+     "icd10": {
+      "verdict": "match"
+     },
+     "codes": {
+      "icd9": [
+       "410–414"
+      ],
+      "icd10": [
+       "I20-I25"
+      ],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "principal"
+      ],
+      "evidence": [
+       "PMC8380672.1.pdf, page 3"
+      ]
+     },
+     "paper": "Klompmaker 2021 Environ Int",
+     "slug": "10_1016_j_envint_2021_106715",
+     "outcomes": [
+      "coronary heart disease (CHD)"
+     ]
+    },
+    {
+     "verdict": "match",
+     "icd9": {
+      "verdict": "match"
+     },
+     "icd10": {
+      "verdict": "match"
+     },
+     "codes": {
+      "icd9": [
+       "410.x",
+       "411.x",
+       "412.x",
+       "413.x",
+       "414.x"
+      ],
+      "icd10": [
+       "I20.x",
+       "I21.x",
+       "I22.x",
+       "I23.x",
+       "I24.x",
+       "I25.x"
+      ],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "principal"
+      ],
+      "evidence": [
+       "weiy076939.ww.pdf, page 3"
+      ]
+     },
+     "paper": "Wei 2024 BMJ",
+     "slug": "10_1136_bmj_2023_076939",
+     "outcomes": [
+      "ischemic heart disease"
+     ]
+    },
+    {
+     "verdict": "differs",
+     "icd9": {
+      "verdict": "differs",
+      "missing": [],
+      "extra": [
+       "429"
+      ],
+      "overlap": true
+     },
+     "icd10": {
+      "verdict": "not_comparable"
+     },
+     "codes": {
+      "icd9": [
+       "410–414",
+       "429"
+      ],
+      "icd10": [],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "principal"
+      ],
+      "evidence": [
+       "PMC2777712.1.xml, section: Methods"
+      ]
+     },
+     "paper": "Bell 2009 Circulation",
+     "slug": "10_1161_circulationaha_109_851113",
+     "outcomes": [
+      "ischemic heart disease"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1-04",
+   "section": 1,
+   "outcome": "Myocardial infarction (acute)",
+   "step1_icd9": "410",
+   "step1_icd10": "I21–I22",
+   "publications": "Barr et al. 2012 (#125, smoking bans); Schwartz et al. 2023 (#284)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "differs",
+   "papers": [
+    {
+     "verdict": "no_evidence",
+     "reason": "no full text (Step 2.5 shortlist)",
+     "cv": "125",
+     "paper": "Barr 2012 AJE",
+     "slug": "10_1093_aje_kws267",
+     "outcomes": null
+    },
+    {
+     "verdict": "differs",
+     "icd9": {
+      "verdict": "match"
+     },
+     "icd10": {
+      "verdict": "differs",
+      "missing": [
+       "I22"
+      ],
+      "extra": [],
+      "overlap": true
+     },
+     "codes": {
+      "icd9": [
+       "410.×0",
+       "410.×1"
+      ],
+      "icd10": [
+       "I21"
+      ],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "principal"
+      ],
+      "evidence": [
+       "PMC10527724.1.pdf, page 4"
+      ]
+     },
+     "cv": "284",
+     "paper": "Schwartz 2023 Environ Res",
+     "slug": "10_1016_j_envres_2023_116203",
+     "outcomes": [
+      "myocardial infarction admissions"
+     ]
+    }
+   ],
+   "context": [
+    {
+     "verdict": "differs",
+     "icd9": {
+      "verdict": "match"
+     },
+     "icd10": {
+      "verdict": "differs",
+      "missing": [
+       "I22"
+      ],
+      "extra": [],
+      "overlap": true
+     },
+     "codes": {
+      "icd9": [
+       "410.X0",
+       "410.X1"
+      ],
+      "icd10": [
+       "I21"
+      ],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "principal"
+      ],
+      "evidence": [
+       "PMC8055197.1.pdf, page 3"
+      ]
+     },
+     "paper": "Danesh Yazdi 2021 Circulation",
+     "slug": "10_1161_circulationaha_120_050252",
+     "outcomes": [
+      "myocardial infarction"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1-05",
+   "section": 1,
+   "outcome": "Congestive heart failure",
+   "step1_icd9": "428",
+   "step1_icd10": "I50",
+   "publications": "Symons et al. 2006 (#61); Dominici et al. 2006 JAMA (#57)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "no_evidence",
+   "papers": [
+    {
+     "cv": "61",
+     "paper": "Symons et al. 2006",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "Symons 2006 is not in the Step 2.3/2.4 set (no Medicare outcome paper found)"
+    },
+    {
+     "verdict": "no_evidence",
+     "reason": "no full text (Step 2.5 shortlist)",
+     "cv": "57",
+     "paper": "Dominici 2006 JAMA",
+     "slug": "10_1001_jama_295_10_1127",
+     "outcomes": null
+    }
+   ],
+   "context": [
+    {
+     "verdict": "match",
+     "icd9": {
+      "verdict": "match"
+     },
+     "icd10": {
+      "verdict": "match"
+     },
+     "codes": {
+      "icd9": [
+       "428"
+      ],
+      "icd10": [
+       "I50"
+      ],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "principal"
+      ],
+      "evidence": [
+       "PMC12746473.1.pdf, page 5"
+      ]
+     },
+     "paper": "Danesh Yazdi 2025 Environ Res (PM2.5 components)",
+     "slug": "10_1016_j_envres_2025_122779",
+     "outcomes": [
+      "heart failure"
+     ]
+    },
+    {
+     "verdict": "differs",
+     "icd9": {
+      "verdict": "differs",
+      "missing": [],
+      "extra": [
+       "398",
+       "402",
+       "404"
+      ],
+      "overlap": true
+     },
+     "icd10": {
+      "verdict": "match"
+     },
+     "codes": {
+      "icd9": [
+       "398.91",
+       "402.01",
+       "402.11",
+       "402.91",
+       "404.01",
+       "404.03",
+       "404.11",
+       "404.13",
+       "404.91",
+       "404.93",
+       "428.x"
+      ],
+      "icd10": [
+       "I50.x"
+      ],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "principal"
+      ],
+      "evidence": [
+       "weiy076939.ww.pdf, page 3"
+      ]
+     },
+     "paper": "Wei 2024 BMJ",
+     "slug": "10_1136_bmj_2023_076939",
+     "outcomes": [
+      "heart failure"
+     ]
+    },
+    {
+     "verdict": "match",
+     "icd9": {
+      "verdict": "match"
+     },
+     "icd10": {
+      "verdict": "not_comparable"
+     },
+     "codes": {
+      "icd9": [
+       "428"
+      ],
+      "icd10": [],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "principal"
+      ],
+      "evidence": [
+       "PMC2777712.1.xml, section: Methods"
+      ]
+     },
+     "paper": "Bell 2009 Circulation",
+     "slug": "10_1161_circulationaha_109_851113",
+     "outcomes": [
+      "heart failure"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1-06",
+   "section": 1,
+   "outcome": "Cardiac arrhythmia",
+   "step1_icd9": "427",
+   "step1_icd10": "I47–I49",
+   "publications": "Dominici et al. 2006 JAMA (#57, cardiovascular admissions category)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "no_evidence",
+   "papers": [
+    {
+     "verdict": "no_evidence",
+     "reason": "no full text (Step 2.5 shortlist)",
+     "cv": "57",
+     "paper": "Dominici 2006 JAMA",
+     "slug": "10_1001_jama_295_10_1127",
+     "outcomes": null
+    }
+   ],
+   "context": [
+    {
+     "verdict": "differs",
+     "icd9": {
+      "verdict": "differs",
+      "missing": [],
+      "extra": [
+       "426",
+       "785"
+      ],
+      "overlap": true
+     },
+     "icd10": {
+      "verdict": "differs",
+      "missing": [],
+      "extra": [
+       "I44-I45",
+       "R00",
+       "R94",
+       "T82",
+       "Z45",
+       "Z95"
+      ],
+      "overlap": true
+     },
+     "codes": {
+      "icd9": [
+       "426.x",
+       "427.x",
+       "785.0"
+      ],
+      "icd10": [
+       "I44.x",
+       "I45.x",
+       "I47.x",
+       "I48.x",
+       "I49.x",
+       "R00.0",
+       "R00.1",
+       "R00.8",
+       "R94.31",
+       "T82.1",
+       "T82.11",
+       "T82.110",
+       "T82.111",
+       "T82.118",
+       "T82.119",
+       "Z45.0",
+       "Z45.01",
+       "Z45.010",
+       "Z45.018",
+       "Z45.02",
+       "Z45.09",
+       "Z95.0"
+      ],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "principal"
+      ],
+      "evidence": [
+       "weiy076939.ww.pdf, page 3"
+      ]
+     },
+     "paper": "Wei 2024 BMJ",
+     "slug": "10_1136_bmj_2023_076939",
+     "outcomes": [
+      "arrhythmia"
+     ]
+    },
+    {
+     "verdict": "differs",
+     "icd9": {
+      "verdict": "differs",
+      "missing": [],
+      "extra": [
+       "426"
+      ],
+      "overlap": true
+     },
+     "icd10": {
+      "verdict": "not_comparable"
+     },
+     "codes": {
+      "icd9": [
+       "426–427"
+      ],
+      "icd10": [],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "principal"
+      ],
+      "evidence": [
+       "PMC2777712.1.xml, section: Methods"
+      ]
+     },
+     "paper": "Bell 2009 Circulation",
+     "slug": "10_1161_circulationaha_109_851113",
+     "outcomes": [
+      "heart rhythm disturbances"
+     ]
+    },
+    {
+     "verdict": "differs",
+     "icd9": {
+      "verdict": "match_category",
+      "step1_exact": [],
+      "paper_exact": [
+       "427.3"
+      ]
+     },
+     "icd10": {
+      "verdict": "differs",
+      "missing": [
+       "I47",
+       "I49"
+      ],
+      "extra": [],
+      "overlap": true
+     },
+     "codes": {
+      "icd9": [
+       "427.3"
+      ],
+      "icd10": [
+       "I48"
+      ],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "principal"
+      ],
+      "evidence": [
+       "PMC8055197.1.pdf, page 3"
+      ]
+     },
+     "paper": "Danesh Yazdi 2021 Circulation",
+     "slug": "10_1161_circulationaha_120_050252",
+     "outcomes": [
+      "atrial fibrillation and flutter"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1-07",
+   "section": 1,
+   "outcome": "Cerebrovascular disease / stroke",
+   "step1_icd9": "430–438",
+   "step1_icd10": "I60–I69",
+   "publications": "Dominici et al. 2006 JAMA (#57, cardiovascular category)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "no_evidence",
+   "papers": [
+    {
+     "verdict": "no_evidence",
+     "reason": "no full text (Step 2.5 shortlist)",
+     "cv": "57",
+     "paper": "Dominici 2006 JAMA",
+     "slug": "10_1001_jama_295_10_1127",
+     "outcomes": null
+    }
+   ],
+   "context": [
+    {
+     "verdict": "match",
+     "icd9": {
+      "verdict": "match"
+     },
+     "icd10": {
+      "verdict": "match"
+     },
+     "codes": {
+      "icd9": [
+       "430–438"
+      ],
+      "icd10": [
+       "I60-I69"
+      ],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "principal"
+      ],
+      "evidence": [
+       "PMC8380672.1.pdf, page 3"
+      ]
+     },
+     "paper": "Klompmaker 2021 Environ Int",
+     "slug": "10_1016_j_envint_2021_106715",
+     "outcomes": [
+      "cerebrovascular disease (CBV)"
+     ]
+    },
+    {
+     "verdict": "match",
+     "icd9": {
+      "verdict": "match"
+     },
+     "icd10": {
+      "verdict": "match"
+     },
+     "codes": {
+      "icd9": [
+       "430.x",
+       "431.x",
+       "432.x",
+       "433.x",
+       "434.x",
+       "435.x",
+       "436.x",
+       "437.x",
+       "438.x"
+      ],
+      "icd10": [
+       "I60.x",
+       "I61.x",
+       "I62.x",
+       "I63.x",
+       "I64.x",
+       "I65.x",
+       "I66.x",
+       "I67.x",
+       "I68.x",
+       "I69.x"
+      ],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "principal"
+      ],
+      "evidence": [
+       "weiy076939.ww.pdf, page 3"
+      ]
+     },
+     "paper": "Wei 2024 BMJ",
+     "slug": "10_1136_bmj_2023_076939",
+     "outcomes": [
+      "cerebrovascular disease"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1-08",
+   "section": 1,
+   "outcome": "Carbon monoxide–associated cardiovascular admissions",
+   "step1_icd9": "410–414, 427–428, 786.5 (chest pain)",
+   "step1_icd10": "I20–I25, I47–I50, R07.9",
+   "publications": "Bell et al. 2009, Circulation (#92)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "differs",
+   "papers": [
+    {
+     "verdict": "differs",
+     "icd9": {
+      "verdict": "differs",
+      "missing": [
+       "786"
+      ],
+      "extra": [
+       "426",
+       "429-438",
+       "440-448"
+      ],
+      "overlap": true
+     },
+     "icd10": {
+      "verdict": "not_comparable"
+     },
+     "codes": {
+      "icd9": [
+       "428",
+       "426–427",
+       "430–438",
+       "410–414",
+       "429",
+       "440–448"
+      ],
+      "icd10": [],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "principal"
+      ],
+      "evidence": [
+       "PMC2777712.1.xml, section: Methods"
+      ]
+     },
+     "cv": "92",
+     "paper": "Bell 2009 Circulation",
+     "slug": "10_1161_circulationaha_109_851113",
+     "outcomes": [
+      "total CVD (sum of the five causes)"
+     ]
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-09",
+   "section": 1,
+   "outcome": "Chronic obstructive pulmonary disease (COPD)",
+   "step1_icd9": "490–492, 494–496",
+   "step1_icd10": "J40–J44",
+   "publications": "Peng et al. 2008 JAMA (#78); Bell et al. 2009 (#89, #94)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "no_evidence",
+   "papers": [
+    {
+     "verdict": "no_evidence",
+     "reason": "no full text (Step 2.5 shortlist)",
+     "cv": "78",
+     "paper": "Peng 2008 JAMA",
+     "slug": "10_1001_jama_299_18_2172",
+     "outcomes": null
+    },
+    {
+     "cv": "89",
+     "paper": "Bell et al. 2009",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "Bell 2009 AJRCCM (chemical composition) is not in the Step 2.4 set (Step 2.3: uncertain)"
+    },
+    {
+     "verdict": "not_applicable",
+     "reason": "paper has no outcome matching this row",
+     "cv": "94",
+     "paper": "Peng 2009 EHP",
+     "slug": "10_1289_ehp_0800185",
+     "outcomes": null
+    }
+   ],
+   "context": [
+    {
+     "verdict": "match",
+     "icd9": {
+      "verdict": "match"
+     },
+     "icd10": {
+      "verdict": "not_comparable"
+     },
+     "codes": {
+      "icd9": [
+       "490–492",
+       "494–496"
+      ],
+      "icd10": [],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "principal"
+      ],
+      "evidence": [
+       "PMC3765898.1.pdf, page 2"
+      ]
+     },
+     "paper": "Kioumourtzoglou 2013 Environ Health",
+     "slug": "10_1186_1476_069x_12_68",
+     "outcomes": [
+      "chronic obstructive pulmonary disease"
+     ]
+    },
+    {
+     "verdict": "differs",
+     "icd9": {
+      "verdict": "differs",
+      "missing": [
+       "494-496"
+      ],
+      "extra": [],
+      "overlap": true
+     },
+     "icd10": {
+      "verdict": "not_comparable"
+     },
+     "codes": {
+      "icd9": [
+       "490.xx to 492.xx"
+      ],
+      "icd10": [],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "principal"
+      ],
+      "evidence": [
+       "PMC5792368.1.xml, section: METHODS > Nonattainment Designations and Effects of Interest"
+      ]
+     },
+     "paper": "Zigler 2018 Epidemiology",
+     "slug": "10_1097_ede_0000000000000777",
+     "outcomes": [
+      "chronic obstructive pulmonary disease"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1-10",
+   "section": 1,
+   "outcome": "Asthma",
+   "step1_icd9": "493",
+   "step1_icd10": "J45",
+   "publications": "Wei et al. 2022, AJRCCM (#271); Bell et al. 2009 (#89, #94)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "no_evidence",
+   "papers": [
+    {
+     "cv": "271",
+     "paper": "Wei et al. 2022, AJRCCM",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "Wei 2022 AJRCCM (asthma) is not in the Step 2.4 set"
+    },
+    {
+     "cv": "89",
+     "paper": "Bell et al. 2009",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "Bell 2009 AJRCCM (chemical composition) is not in the Step 2.4 set (Step 2.3: uncertain)"
+    },
+    {
+     "verdict": "not_applicable",
+     "reason": "paper has no outcome matching this row",
+     "cv": "94",
+     "paper": "Peng 2009 EHP",
+     "slug": "10_1289_ehp_0800185",
+     "outcomes": null
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-11",
+   "section": 1,
+   "outcome": "Pneumonia / acute respiratory infection",
+   "step1_icd9": "480–487",
+   "step1_icd10": "J09–J18",
+   "publications": "Peng et al. 2008 JAMA (#78, respiratory category)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "no_evidence",
+   "papers": [
+    {
+     "verdict": "no_evidence",
+     "reason": "no full text (Step 2.5 shortlist)",
+     "cv": "78",
+     "paper": "Peng 2008 JAMA",
+     "slug": "10_1001_jama_299_18_2172",
+     "outcomes": null
+    }
+   ],
+   "context": [
+    {
+     "verdict": "match",
+     "icd9": {
+      "verdict": "match"
+     },
+     "icd10": {
+      "verdict": "not_comparable"
+     },
+     "codes": {
+      "icd9": [
+       "480–487"
+      ],
+      "icd10": [],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "principal"
+      ],
+      "evidence": [
+       "PMC3765898.1.pdf, page 2"
+      ]
+     },
+     "paper": "Kioumourtzoglou 2013 Environ Health",
+     "slug": "10_1186_1476_069x_12_68",
+     "outcomes": [
+      "pneumonia"
+     ]
+    },
+    {
+     "verdict": "differs",
+     "icd9": {
+      "verdict": "differs",
+      "missing": [],
+      "extra": [
+       "003",
+       "011",
+       "055",
+       "073",
+       "115",
+       "488",
+       "516-517",
+       "997"
+      ],
+      "overlap": true
+     },
+     "icd10": {
+      "verdict": "differs",
+      "missing": [
+       "J16"
+      ],
+      "extra": [
+       "A01-A02",
+       "A20-A22",
+       "A37",
+       "A42-A43",
+       "A48",
+       "A54",
+       "A69",
+       "B01",
+       "B05-B06",
+       "B25",
+       "B37-B39",
+       "B44",
+       "B58-B59",
+       "B77",
+       "J84-J85",
+       "J95"
+      ],
+      "overlap": true
+     },
+     "codes": {
+      "icd9": [
+       "003.22",
+       "011.6",
+       "055.1",
+       "073.0",
+       "115.05",
+       "115.15",
+       "115.95",
+       "480",
+       "481",
+       "482",
+       "483",
+       "484",
+       "485",
+       "486",
+       "487.0",
+       "488.01",
+       "488.11",
+       "488.81",
+       "516.3",
+       "517.1",
+       "997.32"
+      ],
+      "icd10": [
+       "A01.03",
+       "A02.22",
+       "A20.2",
+       "A21.2",
+       "A22.1",
+       "A37.X1",
+       "A42.0",
+       "A43.0",
+       "A48.1",
+       "A54.84",
+       "A69.8",
+       "B01.2",
+       "B05.2",
+       "B06.81",
+       "B25.0",
+       "B37.1",
+       "B38.0",
+       "B39.0",
+       "B44.0",
+       "B44.1",
+       "B58.3",
+       "B59",
+       "B77.81",
+       "J15",
+       "J09.X1",
+       "J10.0",
+       "J11.0",
+       "J12",
+       "J13",
+       "J14",
+       "J17",
+       "J18",
+       "J84.2",
+       "J85.1",
+       "J95.851"
+      ],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "principal"
+      ],
+      "evidence": [
+       "PMC8055197.1.pdf, page 3"
+      ]
+     },
+     "paper": "Danesh Yazdi 2021 Circulation",
+     "slug": "10_1161_circulationaha_120_050252",
+     "outcomes": [
+      "pneumonia"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1-12",
+   "section": 1,
+   "outcome": "Acute respiratory distress syndrome (ARDS)",
+   "step1_icd9": "518.82",
+   "step1_icd10": "J80",
+   "publications": "Rhee et al. 2019 (#202); Rhee et al. 2020 (#229)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "match_category",
+   "papers": [
+    {
+     "verdict": "no_evidence",
+     "reason": "no full text (Step 2.5 shortlist)",
+     "cv": "202",
+     "paper": "Rhee 2019 Chest",
+     "slug": "10_1016_j_chest_2019_03_017",
+     "outcomes": null
+    },
+    {
+     "verdict": "match_category",
+     "icd9": {
+      "verdict": "match_category",
+      "step1_exact": [
+       "518.82"
+      ],
+      "paper_exact": [
+       "518.51",
+       "518.52",
+       "518.53",
+       "518.82"
+      ]
+     },
+     "icd10": {
+      "verdict": "not_comparable"
+     },
+     "codes": {
+      "icd9": [
+       "518.51",
+       "518.52",
+       "518.53",
+       "518.82"
+      ],
+      "icd10": [],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "principal_or_secondary"
+      ],
+      "evidence": [
+       "PMC7744113.1.xml, section: METHODS > Health Outcome"
+      ]
+     },
+     "cv": "229",
+     "paper": "Rhee 2020 Epidemiology",
+     "slug": "10_1097_ede_0000000000001195",
+     "outcomes": [
+      "acute respiratory distress syndrome"
+     ]
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-13",
+   "section": 1,
+   "outcome": "Cardiorespiratory hospitalizations (combined CVD + respiratory)",
+   "step1_icd9": "390–519",
+   "step1_icd10": "I00–I99, J00–J99",
+   "publications": "Yan et al. 2021 (#242, tropical cyclones); Thomas et al. 2020/2022 (#220, #268)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "differs",
+   "papers": [
+    {
+     "verdict": "differs",
+     "icd9": {
+      "verdict": "differs",
+      "missing": [
+       "460-463",
+       "467-479",
+       "488-489",
+       "494-519"
+      ],
+      "extra": [],
+      "overlap": true
+     },
+     "icd10": {
+      "verdict": "not_comparable"
+     },
+     "codes": {
+      "icd9": [
+       "390–459",
+       "464–466",
+       "480–487",
+       "490–493"
+      ],
+      "icd10": [],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       null
+      ],
+      "evidence": [
+       "PMC8887827.1.xml, section: METHODS > Study population",
+       "PMC8887827.1.xml, section: METHODS > Study population"
+      ]
+     },
+     "cv": "242",
+     "paper": "Yan 2021 Epidemiology",
+     "slug": "10_1097_ede_0000000000001337",
+     "outcomes": [
+      "cardiovascular disease hospitalizations",
+      "respiratory disease hospitalizations"
+     ]
+    },
+    {
+     "verdict": "no_evidence",
+     "reason": "no full text (Step 2.5 shortlist)",
+     "cv": "220/268",
+     "paper": "Thomas 2020 JASA",
+     "slug": "10_1080_01621459_2020_1722134",
+     "outcomes": null
+    },
+    {
+     "verdict": "not_comparable",
+     "reason": "classification_ref",
+     "codes": {
+      "icd9": [],
+      "icd10": [],
+      "status": [
+       "classification_ref"
+      ],
+      "position": [
+       "principal"
+      ],
+      "evidence": [
+       "PMC8852365.1.xml, section: Methods > Outcomes",
+       "PMC8852365.1.xml, section: Methods > Outcomes"
+      ]
+     },
+     "cv": "220/268",
+     "paper": "Thomas 2022 Epidemiology",
+     "slug": "10_1097_ede_0000000000001456",
+     "outcomes": [
+      "57 cardiovascular discharge diagnoses (multi-level CCS codes starting with 7)",
+      "32 respiratory discharge diagnoses (multi-level CCS codes starting with 8)"
+     ]
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-14",
+   "section": 1,
+   "outcome": "Diabetes-related hospitalization/ exacerbation",
+   "step1_icd9": "250",
+   "step1_icd10": "E10–E14",
+   "publications": "Zanobetti et al. 2014 (#148)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "supported",
+   "papers": [
+    {
+     "verdict": "match",
+     "icd9": {
+      "verdict": "match"
+     },
+     "icd10": {
+      "verdict": "not_comparable"
+     },
+     "codes": {
+      "icd9": [
+       "250"
+      ],
+      "icd10": [],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "principal"
+      ],
+      "evidence": [
+       "PMC4064518.1.pdf, page 3"
+      ]
+     },
+     "cv": "148",
+     "paper": "Zanobetti 2014 Environ Health",
+     "slug": "10_1186_1476_069x_13_38",
+     "outcomes": [
+      "diabetes"
+     ]
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-15",
+   "section": 1,
+   "outcome": "Neurological disorders (general)",
+   "step1_icd9": "320–359",
+   "step1_icd10": "G00–G99",
+   "publications": "Zanobetti et al. 2014 (#148)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "differs",
+   "papers": [
+    {
+     "verdict": "differs",
+     "icd9": {
+      "verdict": "differs",
+      "missing": [
+       "320-330",
+       "333-339",
+       "341-359"
+      ],
+      "extra": [
+       "290"
+      ],
+      "overlap": true
+     },
+     "icd10": {
+      "verdict": "not_comparable"
+     },
+     "codes": {
+      "icd9": [
+       "290",
+       "331.0",
+       "332",
+       "340"
+      ],
+      "icd10": [],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "principal"
+      ],
+      "evidence": [
+       "PMC4064518.1.pdf, page 3",
+       "PMC4064518.1.pdf, page 3",
+       "PMC4064518.1.pdf, page 3",
+       "PMC4064518.1.pdf, page 3"
+      ]
+     },
+     "cv": "148",
+     "paper": "Zanobetti 2014 Environ Health",
+     "slug": "10_1186_1476_069x_13_38",
+     "outcomes": [
+      "dementia",
+      "Alzheimer's disease",
+      "Parkinson's disease",
+      "multiple sclerosis"
+     ]
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-16",
+   "section": 1,
+   "outcome": "Chronic debilitating brain disorders",
+   "step1_icd9": "290–294, 320–359",
+   "step1_icd10": "F01–F09, G00–G99",
+   "publications": "Yitshak-Sade et al. 2020 (#238)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "differs",
+   "papers": [
+    {
+     "verdict": "differs",
+     "icd9": {
+      "verdict": "differs",
+      "missing": [
+       "291-294",
+       "320-330",
+       "333-359"
+      ],
+      "extra": [],
+      "overlap": true
+     },
+     "icd10": {
+      "verdict": "not_comparable"
+     },
+     "codes": {
+      "icd9": [
+       "332",
+       "3310",
+       "290"
+      ],
+      "icd10": [],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "principal_or_secondary"
+      ],
+      "evidence": [
+       "PMC7749824.1.xml, section: MATERIALS AND METHODS > Outcomes"
+      ]
+     },
+     "cv": "238",
+     "paper": "Yitshak-Sade 2021 Sci Total Environ",
+     "slug": "10_1016_j_scitotenv_2020_142524",
+     "outcomes": [
+      "all-cause admissions in the chronic debilitating brain disorder (CDBD) cohort: Parkinson's disease, Alzheimer's disease, other dementia"
+     ]
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-17",
+   "section": 1,
+   "outcome": "Dementia / Alzheimer's disease",
+   "step1_icd9": "290.0, 331.0",
+   "step1_icd10": "F01–F03, G30",
+   "publications": "Lee et al. 2019 (#212); Qin et al. 2024 (#311); Dong et al. 2025 (#320); Spoto et al. 2025 (#339)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "differs",
+   "papers": [
+    {
+     "verdict": "differs",
+     "icd9": {
+      "verdict": "differs",
+      "missing": [],
+      "extra": [
+       "291",
+       "294"
+      ],
+      "overlap": true
+     },
+     "icd10": {
+      "verdict": "not_comparable"
+     },
+     "codes": {
+      "icd9": [
+       "290.0",
+       "290.20",
+       "290.21",
+       "290.3",
+       "290.40",
+       "290.41",
+       "290.42",
+       "290.43",
+       "291.2",
+       "294.0",
+       "294.1",
+       "294.10",
+       "294.11",
+       "331.0",
+       "331.1",
+       "331.11",
+       "331.19",
+       "331.2",
+       "331.7",
+       "331.82"
+      ],
+      "icd10": [],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "any"
+      ],
+      "evidence": [
+       "PMC7995172.1.xml, section: Method > Data > Medicare data"
+      ]
+     },
+     "cv": "212",
+     "paper": "Lee 2019 Environ Pollut",
+     "slug": "10_1016_j_envpol_2019_07_094",
+     "outcomes": [
+      "first hospitalization with dementia"
+     ]
+    },
+    {
+     "verdict": "no_evidence",
+     "reason": "no full text (Step 2.5 shortlist)",
+     "cv": "311",
+     "paper": "Qin 2025 AJE",
+     "slug": "10_1093_aje_kwae133",
+     "outcomes": null
+    },
+    {
+     "cv": "320",
+     "paper": "Dong et al. 2025",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "Dong 2025 Lancet Planet Health (ADRD cohort; mortality and readmission) is not in the Step 2.3 data"
+    },
+    {
+     "cv": "339",
+     "paper": "Spoto et al. 2025",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "CV #339 is Spoto 2025 Environ Epidemiol (heat and PM2.5 in ADRD patients), not in Step 2.4 (Step 2.3: outcome False)"
+    }
+   ],
+   "context": [
+    {
+     "verdict": "differs",
+     "icd9": {
+      "verdict": "differs",
+      "missing": [],
+      "extra": [
+       "294",
+       "797"
+      ],
+      "overlap": true
+     },
+     "icd10": {
+      "verdict": "differs",
+      "missing": [],
+      "extra": [
+       "F04-F06",
+       "G13",
+       "G31",
+       "G94",
+       "R41",
+       "R54"
+      ],
+      "overlap": true
+     },
+     "codes": {
+      "icd9": [
+       "331.0",
+       "331.11",
+       "331.19",
+       "331.2",
+       "331.7",
+       "290.0",
+       "290.10",
+       "290.11",
+       "290.12",
+       "290.13",
+       "290.20",
+       "290.21",
+       "290.3",
+       "290.40",
+       "290.41",
+       "290.42",
+       "290.43",
+       "294.0",
+       "294.10",
+       "294.11",
+       "294.20",
+       "294.21",
+       "294.8",
+       "797"
+      ],
+      "icd10": [
+       "F01.50",
+       "F01.51",
+       "F02.80",
+       "F02.81",
+       "F03.90",
+       "F03.91",
+       "F04",
+       "F05",
+       "F06.1",
+       "F06.8",
+       "G13.8",
+       "G30.0",
+       "G30.1",
+       "G30.8",
+       "G30.9",
+       "G31.01",
+       "G31.09",
+       "G31.1",
+       "G31.2",
+       "G94",
+       "R41.81",
+       "R54"
+      ],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "principal_or_secondary"
+      ],
+      "evidence": [
+       "jamanetwopen-e2247664-s001.pdf, page 2"
+      ]
+     },
+     "paper": "Klompmaker 2023 JAMA Netw Open",
+     "slug": "10_1001_jamanetworkopen_2022_47664",
+     "outcomes": [
+      "first hospitalization with ADRD"
+     ]
+    },
+    {
+     "verdict": "differs",
+     "icd9": {
+      "verdict": "match_category",
+      "step1_exact": [
+       "290.0",
+       "331.0"
+      ],
+      "paper_exact": [
+       "331.0"
+      ]
+     },
+     "icd10": {
+      "verdict": "differs",
+      "missing": [
+       "F01-F03"
+      ],
+      "extra": [
+       "F05"
+      ],
+      "overlap": true
+     },
+     "codes": {
+      "icd9": [
+       "331·0",
+       "290"
+      ],
+      "icd10": [
+       "G30·9",
+       "F05"
+      ],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "principal_or_secondary"
+      ],
+      "evidence": [
+       "PMC7720425.1.pdf, page 3"
+      ]
+     },
+     "paper": "Shi 2020 Lancet Planet Health",
+     "slug": "10_1016_s2542_5196_20_30227_8",
+     "outcomes": [
+      "first hospital admission for Alzheimer's disease and related dementias"
+     ]
+    },
+    {
+     "verdict": "differs",
+     "icd9": {
+      "verdict": "not_comparable"
+     },
+     "icd10": {
+      "verdict": "differs",
+      "missing": [],
+      "extra": [
+       "G31"
+      ],
+      "overlap": true
+     },
+     "codes": {
+      "icd9": [],
+      "icd10": [
+       "G300",
+       "G301",
+       "G308",
+       "G309",
+       "G3183",
+       "G3185",
+       "F0280",
+       "F0281",
+       "F0390",
+       "F0391",
+       "G3109",
+       "G311",
+       "G3189",
+       "G319",
+       "G3101",
+       "F0150",
+       "F0151"
+      ],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "any"
+      ],
+      "evidence": [
+       "ALZ-21-e70945-s002.pdf, page 4",
+       "ALZ-21-e70945-s002.pdf, page 4",
+       "ALZ-21-e70945-s002.pdf, page 4",
+       "ALZ-21-e70945-s002.pdf, page 4",
+       "ALZ-21-e70945-s002.pdf, page 4"
+      ]
+     },
+     "paper": "Spoto 2025 Alzheimers Dement",
+     "slug": "10_1002_alz_70945",
+     "outcomes": [
+      "Alzheimer's disease",
+      "neurocognitive disorder",
+      "non-specific dementia",
+      "Pick's disease",
+      "vascular dementia"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1-18",
+   "section": 1,
+   "outcome": "Acute kidney injury / kidney disease",
+   "step1_icd9": "584, 585",
+   "step1_icd10": "N17, N18",
+   "publications": "Lee et al. 2023, EHP (#282)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "differs",
+   "papers": [
+    {
+     "verdict": "differs",
+     "icd9": {
+      "verdict": "differs",
+      "missing": [
+       "585"
+      ],
+      "extra": [],
+      "overlap": true
+     },
+     "icd10": {
+      "verdict": "differs",
+      "missing": [
+       "N18"
+      ],
+      "extra": [],
+      "overlap": true
+     },
+     "codes": {
+      "icd9": [
+       "584"
+      ],
+      "icd10": [
+       "N17"
+      ],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "any"
+      ],
+      "evidence": [
+       "PMC10084931.1.pdf, page 2"
+      ]
+     },
+     "cv": "282",
+     "paper": "Lee 2023 EHP",
+     "slug": "10_1289_ehp10729",
+     "outcomes": [
+      "first hospital admission with acute kidney injury"
+     ]
+    }
+   ],
+   "context": [
+    {
+     "verdict": "differs",
+     "icd9": {
+      "verdict": "differs",
+      "missing": [
+       "584"
+      ],
+      "extra": [],
+      "overlap": true
+     },
+     "icd10": {
+      "verdict": "differs",
+      "missing": [
+       "N17"
+      ],
+      "extra": [],
+      "overlap": true
+     },
+     "codes": {
+      "icd9": [
+       "585"
+      ],
+      "icd10": [
+       "N18"
+      ],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "principal_or_secondary"
+      ],
+      "evidence": [
+       "PMC10012859.1.pdf, page 2"
+      ]
+     },
+     "paper": "Lee 2022 BMJ Medicine",
+     "slug": "10_1136_bmjmed_2021_000009",
+     "outcomes": [
+      "chronic kidney disease"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1-19",
+   "section": 1,
+   "outcome": "Psychiatric hospital admissions",
+   "step1_icd9": "290–319",
+   "step1_icd10": "F01–F99",
+   "publications": "Qiu et al. 2022, Lancet Planetary Health (#270)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "differs",
+   "papers": [
+    {
+     "verdict": "differs",
+     "icd9": {
+      "verdict": "differs",
+      "missing": [
+       "290-294",
+       "297-299",
+       "302-308",
+       "310",
+       "312-319"
+      ],
+      "extra": [],
+      "overlap": true
+     },
+     "icd10": {
+      "verdict": "differs",
+      "missing": [
+       "F01-F19",
+       "F21-F24",
+       "F26-F29",
+       "F35-F38",
+       "F40-F42",
+       "F44-F99"
+      ],
+      "extra": [],
+      "overlap": true
+     },
+     "codes": {
+      "icd9": [
+       "296.2x",
+       "296.3x",
+       "300.4x",
+       "309.0x",
+       "309.1x",
+       "311.xx",
+       "295.xx",
+       "296.0x",
+       "296.40",
+       "296.4x",
+       "296.5x",
+       "296.6x",
+       "296.7x",
+       "296.89",
+       "301.13",
+       "296.80"
+      ],
+      "icd10": [
+       "F32.xx",
+       "F33.xx",
+       "F34.1x",
+       "F39.xx",
+       "F43.21",
+       "F20.xx",
+       "F25.0x",
+       "F25.1x",
+       "F30.xx",
+       "F31.xx",
+       "F34.0x"
+      ],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "principal"
+      ],
+      "evidence": [
+       "PMC9044858.1.pdf, page 4",
+       "PMC9044858.1.pdf, page 4",
+       "PMC9044858.1.pdf, page 4"
+      ]
+     },
+     "cv": "270",
+     "paper": "Qiu 2022 Lancet Planet Health",
+     "slug": "10_1016_s2542_5196_22_00017_1",
+     "outcomes": [
+      "depression",
+      "schizophrenia",
+      "bipolar disorder"
+     ]
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-20",
+   "section": 1,
+   "outcome": "Alcohol- and substance-related disorders",
+   "step1_icd9": "291, 303–305",
+   "step1_icd10": "F10–F19",
+   "publications": "Parks et al. 2023, Communications Medicine (#293)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "no_evidence",
+   "papers": [
+    {
+     "cv": "293",
+     "paper": "Parks et al. 2023, Communications Medicine",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "Parks 2023 Commun Med is not in the Step 2.4 set"
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-21",
+   "section": 1,
+   "outcome": "Psychiatric hospitalizations (boom–bust economic/oil-gas exposure context)",
+   "step1_icd9": "290–319",
+   "step1_icd10": "F01–F99",
+   "publications": "Willis et al. 2025 (#331)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "no_evidence",
+   "papers": [
+    {
+     "cv": "331",
+     "paper": "Willis et al. 2025",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "Willis 2025 is not in the Step 2.4 set"
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-22",
+   "section": 1,
+   "outcome": "Interpersonal violence–related visits (assault)",
+   "step1_icd9": "E960–E969",
+   "step1_icd10": "X92–Y09",
+   "publications": "Parks et al. 2026 (#341)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "no_evidence",
+   "papers": [
+    {
+     "cv": "341",
+     "paper": "Parks et al. 2026",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "Parks 2026 is not in the Step 2.4 set"
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-23",
+   "section": 1,
+   "outcome": "Self-inflicted violence–related visits",
+   "step1_icd9": "E950–E959",
+   "step1_icd10": "X71–X83",
+   "publications": "Parks et al. 2026 (#341)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "no_evidence",
+   "papers": [
+    {
+     "cv": "341",
+     "paper": "Parks et al. 2026",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "Parks 2026 is not in the Step 2.4 set"
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-24",
+   "section": 1,
+   "outcome": "Heat stroke / heat-related illness",
+   "step1_icd9": "992.0 (heat stroke), 992.0–992.9 (heat illness spectrum)",
+   "step1_icd10": "T67.0XXA (heatstroke), T67.0–T67.9",
+   "publications": "Wang et al. 2016 (#171); Bobb et al. 2014, JAMA (#153); Hopp et al. 2018 (#190)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "match_category",
+   "papers": [
+    {
+     "verdict": "match_category",
+     "icd9": {
+      "verdict": "match_category",
+      "step1_exact": [
+       "992.0",
+       "992.9"
+      ],
+      "paper_exact": [
+       "992.0"
+      ]
+     },
+     "icd10": {
+      "verdict": "not_comparable"
+     },
+     "codes": {
+      "icd9": [
+       "992.0"
+      ],
+      "icd10": [],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "principal"
+      ],
+      "evidence": [
+       "PMC4977899.1.pdf, page 2"
+      ]
+     },
+     "cv": "171",
+     "paper": "Wang 2016 Environ Health",
+     "slug": "10_1186_s12940_016_0167_3",
+     "outcomes": [
+      "heat stroke and sunstroke"
+     ]
+    },
+    {
+     "verdict": "not_comparable",
+     "reason": "classification_ref",
+     "codes": {
+      "icd9": [],
+      "icd10": [],
+      "status": [
+       "classification_ref"
+      ],
+      "position": [
+       "principal"
+      ],
+      "evidence": [
+       "PMC4319792.1.xml, section: Discussion"
+      ]
+     },
+     "cv": "153",
+     "paper": "Bobb 2014 JAMA",
+     "slug": "10_1001_jama_2014_15715",
+     "outcomes": [
+      "heat stroke (CCS group 244)"
+     ]
+    },
+    {
+     "verdict": "no_evidence",
+     "reason": "in_unfetched_supplement",
+     "codes": {
+      "icd9": [],
+      "icd10": [],
+      "status": [
+       "in_unfetched_supplement"
+      ],
+      "position": [
+       "principal"
+      ],
+      "evidence": [
+       "PMC6040588.1.xml, section: RESULTS"
+      ]
+     },
+     "cv": "190",
+     "paper": "Hopp 2018 Prev Med",
+     "slug": "10_1016_j_ypmed_2018_02_001",
+     "outcomes": [
+      "heat stroke and sunstroke"
+     ]
+    }
+   ],
+   "context": [
+    {
+     "verdict": "not_comparable",
+     "reason": "classification_ref",
+     "codes": {
+      "icd9": [],
+      "icd10": [],
+      "status": [
+       "classification_ref"
+      ],
+      "position": [
+       "principal"
+      ],
+      "evidence": [
+       "PMC11549953.1.pdf, page 3"
+      ]
+     },
+     "paper": "Weinberger 2021 Environ Int",
+     "slug": "10_1016_j_envint_2021_106834",
+     "outcomes": [
+      "heat stroke and other external causes (CCS 244)"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1-25",
+   "section": 1,
+   "outcome": "Heat-related respiratory hospitalization",
+   "step1_icd9": "460–519",
+   "step1_icd10": "J00–J99",
+   "publications": "Anderson et al. 2013, AJRCCM (#132)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "no_evidence",
+   "papers": [
+    {
+     "cv": "132",
+     "paper": "Anderson et al. 2013, AJRCCM",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "Anderson 2013 AJRCCM is not in the Step 2.4 set"
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-26",
+   "section": 1,
+   "outcome": "Cause-specific hospitalizations related to extreme heat (renal, respiratory, CVD, diabetes, etc., multi-cause)",
+   "step1_icd9": "Multiple (250, 390–519, 584–586)",
+   "step1_icd10": "Multiple (E10–E14, I00–I99, J00–J99, N17–N19)",
+   "publications": "Bobb (Obermeyer) et al. 2014, JAMA \"Cause-Specific Risk of Hospital Admission Related to Extreme Heat\" (#153)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "not_comparable",
+   "papers": [
+    {
+     "verdict": "not_comparable",
+     "reason": "classification_ref",
+     "codes": {
+      "icd9": [],
+      "icd10": [],
+      "status": [
+       "classification_ref"
+      ],
+      "position": [
+       "principal"
+      ],
+      "evidence": [
+       "PMC4319792.1.xml, section: Methods > Study Population"
+      ]
+     },
+     "cv": "153",
+     "paper": "Bobb 2014 JAMA",
+     "slug": "10_1001_jama_2014_15715",
+     "outcomes": [
+      "283 disease categories (CCS), 214 analyzed"
+     ]
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-27",
+   "section": 1,
+   "outcome": "Wildfire smoke–associated hospital admissions (respiratory/ cardiovascular)",
+   "step1_icd9": "460–519, 390–459",
+   "step1_icd10": "J00–J99, I00–I99",
+   "publications": "Liu et al. 2016 (#173); Liu et al. 2017 (#175)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "no_evidence",
+   "papers": [
+    {
+     "verdict": "no_evidence",
+     "reason": "in_unfetched_supplement",
+     "codes": {
+      "icd9": [],
+      "icd10": [],
+      "status": [
+       "in_unfetched_supplement"
+      ],
+      "position": [
+       null
+      ],
+      "evidence": [
+       "PMC5130603.1.xml, section: Methods > Hospital admissions data",
+       "PMC5130603.1.xml, section: Methods > Hospital admissions data"
+      ]
+     },
+     "cv": "173",
+     "paper": "Liu 2017 Epidemiology",
+     "slug": "10_1097_ede_0000000000000556",
+     "outcomes": [
+      "emergency cardiovascular admissions",
+      "emergency respiratory admissions"
+     ]
+    },
+    {
+     "cv": "175",
+     "paper": "Liu et al. 2017",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "CV #175 is Liu 2017 AJE (wildfire vulnerability), not in the Step 2.4 set (Step 2.3: uncertain)"
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-28",
+   "section": 1,
+   "outcome": "Snowstorm-associated, cause-specific hospital admissions",
+   "step1_icd9": "Varies by cause (injury, cardiovascular, respiratory)",
+   "step1_icd10": "Varies (S00–T88, I00–I99, J00–J99)",
+   "publications": "Bobb et al. 2016, AJE \"Time-course of Cause-Specific Hospital Admissions during Snowstorms\" (#177)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "no_evidence",
+   "papers": [
+    {
+     "cv": "177",
+     "paper": "Bobb et al. 2016, AJE \"Time-course of Cause-Specific Hospital Admissions during Snowstorms\"",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "Bobb 2016 AJE (snowstorms) is not in the Step 2.4 set"
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-29",
+   "section": 1,
+   "outcome": "Drought-associated hospital admissions/ mortality (older adults)",
+   "step1_icd9": "Not cause-specific in abstract; general morbidity",
+   "step1_icd10": "—",
+   "publications": "Berman et al. 2017, Lancet Planetary Health (#181)",
+   "compared_with": null,
+   "step1_unspecified": true,
+   "row_verdict": "not_comparable",
+   "papers": [
+    {
+     "verdict": "not_comparable",
+     "reason": "Step 1 gives no codes",
+     "codes": {
+      "icd9": [
+       "390–398",
+       "401–405",
+       "410–414",
+       "415–417",
+       "420–429",
+       "430–438",
+       "440–448",
+       "451–459",
+       "464–466",
+       "480–487",
+       "490–492"
+      ],
+      "icd10": [],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "principal"
+      ],
+      "evidence": [
+       "PMC5646697.1.pdf, page 3",
+       "PMC5646697.1.pdf, page 3"
+      ]
+     },
+     "cv": "181",
+     "paper": "Berman 2017 Lancet Planet Health",
+     "slug": "10_1016_s2542_5196_17_30002_5",
+     "outcomes": [
+      "cardiovascular admissions",
+      "respiratory admissions"
+     ]
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-30",
+   "section": 1,
+   "outcome": "Tropical cyclone–associated hospitalization (older adults, general and cardiorespiratory)",
+   "step1_icd9": "390–519",
+   "step1_icd10": "I00–I99, J00–J99",
+   "publications": "Parks et al. 2021, Nature Communications (#240); Yan et al. 2021 (#242); Burrows et al. 2023 (#281)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "differs",
+   "papers": [
+    {
+     "verdict": "differs",
+     "icd9": {
+      "verdict": "differs",
+      "missing": [
+       "390",
+       "399",
+       "406-409",
+       "418-419",
+       "439",
+       "449-450",
+       "467-469",
+       "479",
+       "489",
+       "497-499",
+       "509"
+      ],
+      "extra": [
+       "003",
+       "020-022",
+       "031-032",
+       "034",
+       "036",
+       "039",
+       "052",
+       "055",
+       "073-074",
+       "083",
+       "112",
+       "114-115",
+       "130",
+       "136",
+       "330",
+       "346",
+       "557",
+       "782",
+       "784-786",
+       "793-794",
+       "796",
+       "799",
+       "930",
+       "V12",
+       "V15",
+       "V41-V46",
+       "V53",
+       "V55",
+       "V71"
+      ],
+      "overlap": true
+     },
+     "icd10": {
+      "verdict": "not_comparable"
+     },
+     "codes": {
+      "icd9": [
+       "3940",
+       "3941",
+       "3942",
+       "3949",
+       "3950",
+       "3951",
+       "3952",
+       "3959",
+       "3960",
+       "3961",
+       "3962",
+       "3963",
+       "3968",
+       "3969",
+       "3970",
+       "3971",
+       "3979",
+       "4240",
+       "4241",
+       "4242",
+       "4243",
+       "42490",
+       "42491",
+       "42499",
+       "7852",
+       "7853",
+       "V422",
+       "V433",
+       "03282",
+       "03640",
+       "03641",
+       "03642",
+       "03643",
+       "07420",
+       "07421",
+       "07422",
+       "07423",
+       "11281",
+       "11503",
+       "11504",
+       "11513",
+       "11514",
+       "11593",
+       "11594",
+       "1303",
+       "3910",
+       "3911",
+       "3912",
+       "3918",
+       "3919",
+       "3920",
+       "393",
+       "3980",
+       "39890",
+       "39899",
+       "4200",
+       "42090",
+       "42091",
+       "42099",
+       "4210",
+       "4211",
+       "4219",
+       "4220",
+       "42290",
+       "42291",
+       "42292",
+       "42293",
+       "42299",
+       "4230",
+       "4231",
+       "4232",
+       "4233",
+       "4238",
+       "4239",
+       "4250",
+       "4251",
+       "42511",
+       "42518",
+       "4252",
+       "4253",
+       "4254",
+       "4257",
+       "4258",
+       "4259",
+       "4290",
+       "4011",
+       "4019",
+       "4010",
+       "40200",
+       "40201",
+       "40210",
+       "40211",
+       "40290",
+       "40291",
+       "4030",
+       "40300",
+       "40301",
+       "4031",
+       "40310",
+       "40311",
+       "4039",
+       "40390",
+       "40391",
+       "4040",
+       "40400",
+       "40401",
+       "40402",
+       "40403",
+       "4041",
+       "40410",
+       "40411",
+       "40412",
+       "40413",
+       "4049",
+       "40490",
+       "40491",
+       "40492",
+       "40493",
+       "40501",
+       "40509",
+       "40511",
+       "40519",
+       "40591",
+       "40599",
+       "4372",
+       "4100",
+       "41000",
+       "41001",
+       "41002",
+       "4101",
+       "41010",
+       "41011",
+       "41012",
+       "4102",
+       "41020",
+       "41021",
+       "41022",
+       "4103",
+       "41030",
+       "41031",
+       "41032",
+       "4104",
+       "41040",
+       "41041",
+       "41042",
+       "4105",
+       "41050",
+       "41051",
+       "41052",
+       "4106",
+       "41060",
+       "41061",
+       "41062",
+       "4107",
+       "41070",
+       "41071",
+       "41072",
+       "4108",
+       "41080",
+       "41081",
+       "41082",
+       "4109",
+       "41090",
+       "41091",
+       "41092",
+       "4110",
+       "4111",
+       "4118",
+       "41181",
+       "41189",
+       "412",
+       "4130",
+       "4131",
+       "4139",
+       "4140",
+       "41400",
+       "41401",
+       "41406",
+       "4142",
+       "4143",
+       "4144",
+       "4148",
+       "4149",
+       "V4581",
+       "V4582",
+       "78650",
+       "78651",
+       "78659",
+       "4150",
+       "4151",
+       "41512",
+       "41513",
+       "41519",
+       "4160",
+       "4161",
+       "4162",
+       "4168",
+       "4169",
+       "4170",
+       "4171",
+       "4178",
+       "4179",
+       "41410",
+       "41411",
+       "41412",
+       "41419",
+       "4291",
+       "4292",
+       "4293",
+       "4295",
+       "4296",
+       "42971",
+       "42979",
+       "42981",
+       "42982",
+       "42983",
+       "42989",
+       "4299",
+       "4260",
+       "42610",
+       "42611",
+       "42612",
+       "42613",
+       "4262",
+       "4263",
+       "4264",
+       "42650",
+       "42651",
+       "42652",
+       "42653",
+       "42654",
+       "4266",
+       "4267",
+       "42681",
+       "42682",
+       "42689",
+       "4269",
+       "V450",
+       "V4500",
+       "V4501",
+       "V4502",
+       "V4509",
+       "V533",
+       "V5331",
+       "V5332",
+       "V5339",
+       "4270",
+       "4271",
+       "4272",
+       "42731",
+       "42732",
+       "42760",
+       "42761",
+       "42769",
+       "42781",
+       "42789",
+       "4279",
+       "7850",
+       "7851",
+       "42741",
+       "42742",
+       "4275",
+       "39891",
+       "4280",
+       "4281",
+       "42820",
+       "42821",
+       "42822",
+       "42823",
+       "42830",
+       "42831",
+       "42832",
+       "42833",
+       "42840",
+       "42841",
+       "42842",
+       "42843",
+       "4289",
+       "4660",
+       "34661",
+       "34662",
+       "34663",
+       "430",
+       "431",
+       "4320",
+       "4321",
+       "4329",
+       "43301",
+       "43311",
+       "43321",
+       "43331",
+       "43381",
+       "43391",
+       "4340",
+       "43400",
+       "43401",
+       "4341",
+       "43410",
+       "43411",
+       "4349",
+       "43490",
+       "43491",
+       "436",
+       "330",
+       "43300",
+       "4331",
+       "43310",
+       "4332",
+       "43320",
+       "4333",
+       "43330",
+       "4338",
+       "43380",
+       "4339",
+       "43390",
+       "4370",
+       "4371",
+       "4373",
+       "4374",
+       "4375",
+       "4376",
+       "4377",
+       "4378",
+       "4379",
+       "4350",
+       "4351",
+       "4352",
+       "4353",
+       "4358",
+       "4359",
+       "438",
+       "4380",
+       "43810",
+       "43811",
+       "43812",
+       "43813",
+       "43814",
+       "43819",
+       "43820",
+       "43821",
+       "43822",
+       "43830",
+       "43831",
+       "43832",
+       "43840",
+       "43841",
+       "43842",
+       "43850",
+       "43851",
+       "43852",
+       "43853",
+       "4386",
+       "4387",
+       "43881",
+       "43882",
+       "43883",
+       "43884",
+       "43885",
+       "43889",
+       "4389",
+       "400",
+       "4401",
+       "4402",
+       "44020",
+       "44021",
+       "44022",
+       "44023",
+       "44029",
+       "4404",
+       "4408",
+       "4409",
+       "4439",
+       "5570",
+       "5571",
+       "5579",
+       "4410",
+       "44100",
+       "44101",
+       "44102",
+       "44103",
+       "4411",
+       "4412",
+       "4413",
+       "4414",
+       "4415",
+       "4416",
+       "4417",
+       "4419",
+       "4420",
+       "4421",
+       "4422",
+       "4423",
+       "44281",
+       "44282",
+       "44283",
+       "4440",
+       "44401",
+       "44409",
+       "4441",
+       "44421",
+       "44422",
+       "44481",
+       "44489",
+       "4449",
+       "44501",
+       "44502",
+       "44581",
+       "44589",
+       "4430",
+       "4431",
+       "44381",
+       "44382",
+       "44389",
+       "4460",
+       "4461",
+       "4462",
+       "44620",
+       "44621",
+       "44629",
+       "4463",
+       "4464",
+       "4465",
+       "4466",
+       "4467",
+       "4470",
+       "4471",
+       "4472",
+       "4473",
+       "4474",
+       "4475",
+       "4476",
+       "4478",
+       "4479",
+       "4480",
+       "4481",
+       "4489",
+       "4580",
+       "4581",
+       "4588",
+       "4589",
+       "4590",
+       "45989",
+       "4599",
+       "7859",
+       "79430",
+       "79431",
+       "79439",
+       "7962",
+       "V125",
+       "V1250",
+       "V1253",
+       "V1254",
+       "V1259",
+       "V151",
+       "V421",
+       "V432",
+       "V4321",
+       "V4322",
+       "V434",
+       "V717",
+       "4510",
+       "45111",
+       "45119",
+       "4512",
+       "45181",
+       "45182",
+       "45183",
+       "45184",
+       "45189",
+       "4519",
+       "452",
+       "4530",
+       "4531",
+       "4532",
+       "4533",
+       "45340",
+       "45341",
+       "45342",
+       "45350",
+       "45351",
+       "45352",
+       "4536",
+       "45371",
+       "45372",
+       "45373",
+       "45374",
+       "45375",
+       "45376",
+       "45377",
+       "45379",
+       "4538",
+       "45381",
+       "45382",
+       "45383",
+       "45384",
+       "45385",
+       "45386",
+       "45387",
+       "45389",
+       "4539",
+       "V1251",
+       "V1252",
+       "V1255",
+       "4540",
+       "4541",
+       "4542",
+       "4548",
+       "4549",
+       "4550",
+       "4551",
+       "4552",
+       "4553",
+       "4554",
+       "4555",
+       "4556",
+       "4557",
+       "4558",
+       "4559",
+       "4563",
+       "4564",
+       "4565",
+       "4566",
+       "4568",
+       "4570",
+       "4571",
+       "4572",
+       "4578",
+       "4579",
+       "4591",
+       "45910",
+       "45911",
+       "45912",
+       "45913",
+       "45919",
+       "4592",
+       "45930",
+       "45931",
+       "45932",
+       "45933",
+       "45939",
+       "45981",
+       "00322",
+       "0203",
+       "0204",
+       "0205",
+       "0212",
+       "0221",
+       "0310",
+       "0391",
+       "0521",
+       "0551",
+       "0730",
+       "0830",
+       "1124",
+       "1140",
+       "1144",
+       "1145",
+       "11505",
+       "11515",
+       "11595",
+       "1304",
+       "1363",
+       "4800",
+       "4801",
+       "4802",
+       "4803",
+       "4808",
+       "4809",
+       "481",
+       "4820",
+       "4821",
+       "4822",
+       "4823",
+       "48230",
+       "48231",
+       "48232",
+       "48239",
+       "4824",
+       "48240",
+       "48241",
+       "48242",
+       "48249",
+       "4828",
+       "48281",
+       "48282",
+       "48283",
+       "48284",
+       "48289",
+       "4829",
+       "483",
+       "4830",
+       "4831",
+       "4838",
+       "4841",
+       "4843",
+       "4845",
+       "4846",
+       "4847",
+       "4848",
+       "485",
+       "486",
+       "5130",
+       "5171",
+       "4870",
+       "4871",
+       "4878",
+       "488",
+       "4880",
+       "48801",
+       "48802",
+       "48809",
+       "4881",
+       "48811",
+       "48812",
+       "48819",
+       "48881",
+       "48882",
+       "48889",
+       "463",
+       "4740",
+       "47400",
+       "47401",
+       "47402",
+       "47410",
+       "47411",
+       "47412",
+       "4742",
+       "4748",
+       "4749",
+       "475",
+       "4660",
+       "4661",
+       "46611",
+       "46619",
+       "0320",
+       "0321",
+       "0322",
+       "0323",
+       "0340",
+       "460",
+       "4610",
+       "4611",
+       "4612",
+       "4613",
+       "4618",
+       "4619",
+       "462",
+       "4640",
+       "46400",
+       "46401",
+       "46410",
+       "46411",
+       "46420",
+       "46421",
+       "46430",
+       "46431",
+       "4644",
+       "46450",
+       "46451",
+       "4650",
+       "4658",
+       "4659",
+       "4730",
+       "4731",
+       "4732",
+       "4733",
+       "4738",
+       "4739",
+       "78491",
+       "490",
+       "4910",
+       "4911",
+       "4912",
+       "49120",
+       "49121",
+       "49122",
+       "4918",
+       "4919",
+       "4920",
+       "4928",
+       "494",
+       "4940",
+       "4941",
+       "496",
+       "9300",
+       "49301",
+       "49302",
+       "49310",
+       "49311",
+       "49312",
+       "49320",
+       "49321",
+       "49322",
+       "49381",
+       "49382",
+       "49390",
+       "49391",
+       "49392",
+       "5070",
+       "5100",
+       "5109",
+       "5110",
+       "5111",
+       "5118",
+       "51189",
+       "5119",
+       "5120",
+       "5128",
+       "51281",
+       "51282",
+       "51283",
+       "51284",
+       "51289",
+       "5180",
+       "5181",
+       "5182",
+       "5173",
+       "5185",
+       "51851",
+       "51852",
+       "51853",
+       "51881",
+       "51882",
+       "51883",
+       "51884",
+       "7991",
+       "V461",
+       "V4611",
+       "V4612",
+       "V4613",
+       "V4614",
+       "V462",
+       "4950",
+       "4951",
+       "4952",
+       "4953",
+       "4954",
+       "4955",
+       "4956",
+       "4957",
+       "4958",
+       "4959",
+       "500",
+       "501",
+       "502",
+       "503",
+       "504",
+       "505",
+       "5060",
+       "5061",
+       "5062",
+       "5063",
+       "5064",
+       "5069",
+       "5071",
+       "5078",
+       "5080",
+       "5081",
+       "5082",
+       "5088",
+       "5089",
+       "5131",
+       "514",
+       "515",
+       "5160",
+       "5161",
+       "5162",
+       "5163",
+       "51630",
+       "51631",
+       "51632",
+       "51633",
+       "51634",
+       "51635",
+       "51636",
+       "51637",
+       "5164",
+       "5165",
+       "51661",
+       "51662",
+       "51663",
+       "51664",
+       "51669",
+       "5168",
+       "5169",
+       "5172",
+       "5178",
+       "5183",
+       "5184",
+       "51889",
+       "5194",
+       "5198",
+       "5199",
+       "7825",
+       "78600",
+       "78601",
+       "78602",
+       "78603",
+       "78604",
+       "78605",
+       "78606",
+       "78607",
+       "78609",
+       "7862",
+       "7863",
+       "78630",
+       "78631",
+       "78639",
+       "7864",
+       "78652",
+       "7866",
+       "7867",
+       "7868",
+       "7869",
+       "7931",
+       "79311",
+       "79319",
+       "7942",
+       "V126",
+       "V1260",
+       "V1261",
+       "V1269",
+       "V426",
+       "470",
+       "4710",
+       "4711",
+       "4718",
+       "4719",
+       "4720",
+       "4721",
+       "4722",
+       "4760",
+       "4761",
+       "4770",
+       "4772",
+       "4778",
+       "4779",
+       "4780",
+       "4781",
+       "47811",
+       "47819",
+       "47820",
+       "47821",
+       "47822",
+       "47824",
+       "47825",
+       "47826",
+       "47829",
+       "47830",
+       "47831",
+       "47832",
+       "47833",
+       "47834",
+       "4784",
+       "4785",
+       "4786",
+       "47870",
+       "47871",
+       "47874",
+       "47875",
+       "47879",
+       "4788",
+       "4789",
+       "5191",
+       "51911",
+       "51919",
+       "5192",
+       "5193",
+       "7841",
+       "78440",
+       "78441",
+       "78442",
+       "78443",
+       "78444",
+       "78449",
+       "7847",
+       "7848",
+       "7849",
+       "78499",
+       "7861",
+       "V414",
+       "V440",
+       "V550"
+      ],
+      "icd10": [],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "principal"
+      ],
+      "evidence": [
+       "41467_2021_21777_MOESM1_ESM.pdf, Supplementary Table 2, pages 18-21",
+       "41467_2021_21777_MOESM1_ESM.pdf, Supplementary Table 2, pages 22-23"
+      ]
+     },
+     "cv": "240",
+     "paper": "Parks 2021 Nat Commun",
+     "slug": "10_1038_s41467_021_21777_1",
+     "outcomes": [
+      "Cardiovascular diseases",
+      "Respiratory diseases"
+     ]
+    },
+    {
+     "verdict": "differs",
+     "icd9": {
+      "verdict": "differs",
+      "missing": [
+       "460-463",
+       "467-479",
+       "488-489",
+       "494-519"
+      ],
+      "extra": [],
+      "overlap": true
+     },
+     "icd10": {
+      "verdict": "not_comparable"
+     },
+     "codes": {
+      "icd9": [
+       "390–459",
+       "464–466",
+       "480–487",
+       "490–493"
+      ],
+      "icd10": [],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       null
+      ],
+      "evidence": [
+       "PMC8887827.1.xml, section: METHODS > Study population",
+       "PMC8887827.1.xml, section: METHODS > Study population"
+      ]
+     },
+     "cv": "242",
+     "paper": "Yan 2021 Epidemiology",
+     "slug": "10_1097_ede_0000000000001337",
+     "outcomes": [
+      "cardiovascular disease hospitalizations",
+      "respiratory disease hospitalizations"
+     ]
+    },
+    {
+     "verdict": "differs",
+     "icd9": {
+      "verdict": "differs",
+      "missing": [
+       "460-463",
+       "467-479",
+       "488-489",
+       "494-519"
+      ],
+      "extra": [],
+      "overlap": true
+     },
+     "icd10": {
+      "verdict": "differs",
+      "missing": [
+       "J00-J05",
+       "J07-J17",
+       "J19",
+       "J21-J39",
+       "J45-J46",
+       "J48-J66",
+       "J68-J99"
+      ],
+      "extra": [],
+      "overlap": true
+     },
+     "codes": {
+      "icd9": [
+       "390–459",
+       "464–466",
+       "480–487",
+       "490–493"
+      ],
+      "icd10": [
+       "I00–I99",
+       "J06.9",
+       "J20.9",
+       "J18.9",
+       "J43.9",
+       "J40",
+       "J41.0",
+       "J41.1",
+       "J41.8",
+       "J42",
+       "J44.0",
+       "J44.1",
+       "J44.9",
+       "J47.1",
+       "J47.9",
+       "J67.0-J67.9"
+      ],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       null
+      ],
+      "evidence": [
+       "PMC10115860.1.pdf, page 9",
+       "PMC10115860.1.xml, section: Methods > Hospitalization records"
+      ]
+     },
+     "cv": "281",
+     "paper": "Burrows 2023 Nat Commun",
+     "slug": "10_1038_s41467_023_37675_7",
+     "outcomes": [
+      "cardiovascular disease",
+      "respiratory disease"
+     ]
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-31",
+   "section": 1,
+   "outcome": "Hurricane-associated ED visits (by age and cause)",
+   "step1_icd9": "Multiple, cause-stratified",
+   "step1_icd10": "Multiple",
+   "publications": "Weinberger et al. 2021, AJE (Hurricane Sandy) (#244)",
+   "compared_with": null,
+   "step1_unspecified": true,
+   "row_verdict": "no_evidence",
+   "papers": [
+    {
+     "cv": "244",
+     "paper": "Weinberger et al. 2021, AJE (Hurricane Sandy)",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "Weinberger 2021 AJE (Hurricane Sandy ED visits) is not in the Step 2.4 set"
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-32",
+   "section": 1,
+   "outcome": "Volcanic SO2 plume–associated respiratory morbidity",
+   "step1_icd9": "460–519 (esp. 493 asthma, 490–496 COPD)",
+   "step1_icd10": "J00–J99 (esp. J45, J40–J44)",
+   "publications": "Carlsen et al. 2021 (#250, #252)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "no_evidence",
+   "papers": [
+    {
+     "cv": "250",
+     "paper": "Carlsen et al. 2021",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "Carlsen 2021 is not in the Step 2.4 set"
+    },
+    {
+     "cv": "252",
+     "paper": "Carlsen et al. 2021",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "Carlsen 2021 is not in the Step 2.4 set"
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-33",
+   "section": 1,
+   "outcome": "Emergency hospital admissions for CVD and ambient CO",
+   "step1_icd9": "See CVD row above",
+   "step1_icd10": "See CVD row above",
+   "publications": "Bell et al. 2009, Circulation (#92)",
+   "compared_with": "S1-01",
+   "step1_unspecified": false,
+   "row_verdict": "differs",
+   "papers": [
+    {
+     "verdict": "differs",
+     "icd9": {
+      "verdict": "differs",
+      "missing": [
+       "390-409",
+       "415-425",
+       "439",
+       "449-459"
+      ],
+      "extra": [],
+      "overlap": true
+     },
+     "icd10": {
+      "verdict": "not_comparable"
+     },
+     "codes": {
+      "icd9": [
+       "428",
+       "426–427",
+       "430–438",
+       "410–414",
+       "429",
+       "440–448"
+      ],
+      "icd10": [],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "principal"
+      ],
+      "evidence": [
+       "PMC2777712.1.xml, section: Methods"
+      ]
+     },
+     "cv": "92",
+     "paper": "Bell 2009 Circulation",
+     "slug": "10_1161_circulationaha_109_851113",
+     "outcomes": [
+      "total CVD (sum of the five causes)"
+     ]
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-34",
+   "section": 1,
+   "outcome": "Hospital admissions and PM2.5 chemical composition (cardiorespiratory)",
+   "step1_icd9": "390–519",
+   "step1_icd10": "I00–I99, J00–J99",
+   "publications": "Bell et al. 2009 (#89, #94); Bell et al. 2014 (#136)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "differs",
+   "papers": [
+    {
+     "cv": "89",
+     "paper": "Bell et al. 2009",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "Bell 2009 AJRCCM (chemical composition) is not in the Step 2.4 set (Step 2.3: uncertain)"
+    },
+    {
+     "verdict": "differs",
+     "icd9": {
+      "verdict": "differs",
+      "missing": [
+       "390-409",
+       "415-425",
+       "439",
+       "449-463",
+       "467-479",
+       "488-489",
+       "493-519"
+      ],
+      "extra": [],
+      "overlap": true
+     },
+     "icd10": {
+      "verdict": "not_comparable"
+     },
+     "codes": {
+      "icd9": [
+       "428",
+       "426–427",
+       "430–438",
+       "410–414",
+       "429",
+       "440–448",
+       "490–492",
+       "464–466",
+       "480–487"
+      ],
+      "icd10": [],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "principal"
+      ],
+      "evidence": [
+       "PMC2702413.1.pdf, page 2",
+       "PMC2702413.1.pdf, page 2"
+      ]
+     },
+     "cv": "94",
+     "paper": "Peng 2009 EHP",
+     "slug": "10_1289_ehp_0800185",
+     "outcomes": [
+      "cardiovascular disease (CVD)",
+      "respiratory diseases"
+     ]
+    },
+    {
+     "verdict": "differs",
+     "icd9": {
+      "verdict": "differs",
+      "missing": [
+       "390-409",
+       "415-425",
+       "439",
+       "449-463",
+       "467-479",
+       "488-489",
+       "493-519"
+      ],
+      "extra": [],
+      "overlap": true
+     },
+     "icd10": {
+      "verdict": "not_comparable"
+     },
+     "codes": {
+      "icd9": [
+       "428",
+       "426–427",
+       "430–438",
+       "410–414",
+       "429",
+       "440–448",
+       "490–492",
+       "464–466",
+       "480–487"
+      ],
+      "icd10": [],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "principal"
+      ],
+      "evidence": [
+       "PMC3915260.1.pdf, page 2",
+       "PMC3915260.1.pdf, page 2"
+      ]
+     },
+     "cv": "136",
+     "paper": "Bell 2014 EHP",
+     "slug": "10_1289_ehp_1306656",
+     "outcomes": [
+      "cardiovascular disease",
+      "respiratory disease"
+     ]
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-35",
+   "section": 1,
+   "outcome": "Emergency hospital admissions, primary organic particles (elderly, cardiorespiratory)",
+   "step1_icd9": "390–519",
+   "step1_icd10": "I00–I99, J00–J99",
+   "publications": "Kioumourtzoglou et al. 2013 (#134)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "differs",
+   "papers": [
+    {
+     "verdict": "differs",
+     "icd9": {
+      "verdict": "differs",
+      "missing": [
+       "430-459"
+      ],
+      "extra": [],
+      "overlap": true
+     },
+     "icd10": {
+      "verdict": "not_comparable"
+     },
+     "codes": {
+      "icd9": [
+       "390–429",
+       "460–519"
+      ],
+      "icd10": [],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "principal"
+      ],
+      "evidence": [
+       "PMC3765898.1.pdf, page 2",
+       "PMC3765898.1.pdf, page 2"
+      ]
+     },
+     "cv": "134",
+     "paper": "Kioumourtzoglou 2013 Environ Health",
+     "slug": "10_1186_1476_069x_12_68",
+     "outcomes": [
+      "all CVD conditions",
+      "all respiratory outcomes"
+     ]
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-36",
+   "section": 1,
+   "outcome": "Non-respiratory infection hospital admissions (long-term PM2.5, included for completeness)",
+   "step1_icd9": "001–139, 320–326, 590, etc. (infection-specific)",
+   "step1_icd10": "A00–B99 and site-specific infection codes",
+   "publications": "Feng et al. 2024, Nature Communications (#303/#309)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "not_comparable",
+   "papers": [
+    {
+     "verdict": "not_comparable",
+     "reason": "classification_ref",
+     "codes": {
+      "icd9": [],
+      "icd10": [],
+      "status": [
+       "classification_ref"
+      ],
+      "position": [
+       "principal"
+      ],
+      "evidence": [
+       "PMC10876532.1.pdf, page 6"
+      ]
+     },
+     "cv": "303/309",
+     "paper": "Feng 2024 Nat Commun",
+     "slug": "10_1038_s41467_024_45776_0",
+     "outcomes": [
+      "non-respiratory infections (total)"
+     ]
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-37",
+   "section": 1,
+   "outcome": "Second cardiovascular event hospital admissions",
+   "step1_icd9": "410–414, 428, 430–438",
+   "step1_icd10": "I20–I25, I50, I60–I69",
+   "publications": "Yazdi et al. 2025 (#323)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "differs",
+   "papers": [
+    {
+     "verdict": "differs",
+     "icd9": {
+      "verdict": "differs",
+      "missing": [
+       "411-414",
+       "428",
+       "430-432",
+       "435",
+       "437-438"
+      ],
+      "extra": [],
+      "overlap": true
+     },
+     "icd10": {
+      "verdict": "differs",
+      "missing": [
+       "I20",
+       "I22-I25",
+       "I50",
+       "I60-I69"
+      ],
+      "extra": [
+       "I16"
+      ],
+      "overlap": true
+     },
+     "codes": {
+      "icd9": [
+       "410.X0",
+       "410.X1",
+       "433.X1",
+       "434.X1",
+       "436"
+      ],
+      "icd10": [
+       "I21",
+       "I163"
+      ],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "principal"
+      ],
+      "evidence": [
+       "PMC12810584.1.pdf, page 4",
+       "PMC12810584.1.pdf, page 4"
+      ]
+     },
+     "cv": "323",
+     "paper": "Danesh Yazdi 2025 Environ Int (second events)",
+     "slug": "10_1016_j_envint_2025_109617",
+     "outcomes": [
+      "second admission with myocardial infarction",
+      "second admission with ischemic stroke"
+     ]
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S2-01",
+   "section": 2,
+   "outcome": "Hypertensive crisis / hypertension",
+   "step1_icd9": "401–405",
+   "step1_icd10": "I10–I16",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-02",
+   "section": 2,
+   "outcome": "Atrial fibrillation (specific arrhythmia)",
+   "step1_icd9": "427.31",
+   "step1_icd10": "I48.0–I48.9",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-03",
+   "section": 2,
+   "outcome": "Cardiac arrest",
+   "step1_icd9": "427.5",
+   "step1_icd10": "I46.2, I46.8, I46.9",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-04",
+   "section": 2,
+   "outcome": "Chronic bronchitis",
+   "step1_icd9": "491",
+   "step1_icd10": "J41–J42",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-05",
+   "section": 2,
+   "outcome": "Acute bronchitis",
+   "step1_icd9": "466",
+   "step1_icd10": "J20–J21",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-06",
+   "section": 2,
+   "outcome": "Upper respiratory tract infection",
+   "step1_icd9": "460–465",
+   "step1_icd10": "J00–J06",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-07",
+   "section": 2,
+   "outcome": "Otitis media",
+   "step1_icd9": "381–382",
+   "step1_icd10": "H65–H67",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-08",
+   "section": 2,
+   "outcome": "Conjunctivitis / eye irritation",
+   "step1_icd9": "372.0",
+   "step1_icd10": "H10",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-09",
+   "section": 2,
+   "outcome": "Allergic rhinitis",
+   "step1_icd9": "477",
+   "step1_icd10": "J30",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-10",
+   "section": 2,
+   "outcome": "Dehydration",
+   "step1_icd9": "276.51",
+   "step1_icd10": "E86.0",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-11",
+   "section": 2,
+   "outcome": "Heat exhaustion / heat cramps",
+   "step1_icd9": "992.3, 992.5–992.7",
+   "step1_icd10": "T67.3, T67.2, T67.6–T67.8",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-12",
+   "section": 2,
+   "outcome": "Hypothermia",
+   "step1_icd9": "991.6",
+   "step1_icd10": "T68",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-13",
+   "section": 2,
+   "outcome": "Frostbite",
+   "step1_icd9": "991.0–991.3",
+   "step1_icd10": "T33–T34",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-14",
+   "section": 2,
+   "outcome": "Cold exposure–related cardiovascular events",
+   "step1_icd9": "410–414, 427–428",
+   "step1_icd10": "I20–I25, I47–I50",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-15",
+   "section": 2,
+   "outcome": "Renal colic / kidney stones",
+   "step1_icd9": "592",
+   "step1_icd10": "N20",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-16",
+   "section": 2,
+   "outcome": "Sepsis / urinary tract infection (heat-related renal stress)",
+   "step1_icd9": "038, 599.0",
+   "step1_icd10": "A41, N39.0",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-17",
+   "section": 2,
+   "outcome": "Rhabdomyolysis",
+   "step1_icd9": "728.88",
+   "step1_icd10": "M62.82",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-18",
+   "section": 2,
+   "outcome": "Falls / weather-related injury (ice, snow)",
+   "step1_icd9": "800–959 (injury codes), E880–E888",
+   "step1_icd10": "S00–T88, W00–W19",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-19",
+   "section": 2,
+   "outcome": "Carbon monoxide poisoning",
+   "step1_icd9": "986",
+   "step1_icd10": "T58",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-20",
+   "section": 2,
+   "outcome": "Preterm birth / adverse birth outcomes",
+   "step1_icd9": "644.2, 765",
+   "step1_icd10": "O60, P07",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-21",
+   "section": 2,
+   "outcome": "Low birth weight",
+   "step1_icd9": "764",
+   "step1_icd10": "P05",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-22",
+   "section": 2,
+   "outcome": "Vector-borne disease hospitalizations (e.g., dengue, West Nile virus)",
+   "step1_icd9": "061, 066.4",
+   "step1_icd10": "A90–A91, A92.3",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-23",
+   "section": 2,
+   "outcome": "Gastroenteritis / diarrheal disease",
+   "step1_icd9": "558.9, 009",
+   "step1_icd10": "A09, K52.9",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-24",
+   "section": 2,
+   "outcome": "Mental health crisis visits (general, beyond psychiatric admission category)",
+   "step1_icd9": "300–316",
+   "step1_icd10": "F40–F48, F90–F98",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-25",
+   "section": 2,
+   "outcome": "Suicide attempt–related ED visits",
+   "step1_icd9": "E950–E959",
+   "step1_icd10": "X71–X83, T14.91",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-26",
+   "section": 2,
+   "outcome": "Anxiety/mood disorder exacerbation",
+   "step1_icd9": "296, 300",
+   "step1_icd10": "F30–F39, F40–F41",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-27",
+   "section": 2,
+   "outcome": "Wildfire smoke–specific asthma/ COPD exacerbation",
+   "step1_icd9": "493, 491–492, 496",
+   "step1_icd10": "J45, J41–J44",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-28",
+   "section": 2,
+   "outcome": "All-cause emergency department visits (non-specific)",
+   "step1_icd9": "—",
+   "step1_icd10": "—",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  }
+ ]
+}

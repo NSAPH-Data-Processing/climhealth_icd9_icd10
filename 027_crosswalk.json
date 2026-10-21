@@ -1,0 +1,652 @@
+{
+ "description": "Step 2.7 hand crosswalk. 'cv': Step 1 CV number -> Step 2.4 slugs (author + year + topic match), or [] with a reason. 'rows': for each Step 1 Section 1 row, the 026 outcome names compared for each cited CV ('cited'), and optional uncited papers with the same outcome shown as context only ('context', not used in the verdict). 'compare_to' lets a row whose Step 1 codes say 'See CVD row above' use another row's codes. CV numbers follow the CV itself (Step 1.3, 013_cv_check.json).",
+ "labels": {
+  "10_1001_jama_295_10_1127": "Dominici 2006 JAMA",
+  "10_1001_jama_299_18_2172": "Peng 2008 JAMA",
+  "10_1093_aje_kws267": "Barr 2012 AJE",
+  "10_1289_ehp_0800185": "Peng 2009 EHP",
+  "10_1161_circulationaha_109_851113": "Bell 2009 Circulation",
+  "10_1186_1476_069x_12_68": "Kioumourtzoglou 2013 Environ Health",
+  "10_1289_ehp_1306656": "Bell 2014 EHP",
+  "10_1186_1476_069x_13_38": "Zanobetti 2014 Environ Health",
+  "10_1001_jama_2014_15715": "Bobb 2014 JAMA",
+  "10_1186_s12940_016_0167_3": "Wang 2016 Environ Health",
+  "10_1289_ehp257": "Bravo 2017 EHP",
+  "10_1097_ede_0000000000000556": "Liu 2017 Epidemiology",
+  "10_1016_s2542_5196_17_30002_5": "Berman 2017 Lancet Planet Health",
+  "10_1016_j_ypmed_2018_02_001": "Hopp 2018 Prev Med",
+  "10_1016_j_chest_2019_03_017": "Rhee 2019 Chest",
+  "10_1097_ede_0000000000001195": "Rhee 2020 Epidemiology",
+  "10_1016_j_envpol_2019_07_094": "Lee 2019 Environ Pollut",
+  "10_1080_01621459_2020_1722134": "Thomas 2020 JASA",
+  "10_1097_ede_0000000000001456": "Thomas 2022 Epidemiology",
+  "10_1016_j_scitotenv_2020_142524": "Yitshak-Sade 2021 Sci Total Environ",
+  "10_1038_s41467_021_21777_1": "Parks 2021 Nat Commun",
+  "10_1097_ede_0000000000001337": "Yan 2021 Epidemiology",
+  "10_1016_s2542_5196_21_00168_6": "Chen 2021 Lancet Planet Health",
+  "10_1016_s2542_5196_22_00017_1": "Qiu 2022 Lancet Planet Health",
+  "10_1038_s41467_023_37675_7": "Burrows 2023 Nat Commun",
+  "10_1289_ehp10729": "Lee 2023 EHP",
+  "10_1016_j_envres_2023_116203": "Schwartz 2023 Environ Res",
+  "10_1038_s41467_024_45776_0": "Feng 2024 Nat Commun",
+  "10_1093_aje_kwae133": "Qin 2025 AJE",
+  "10_1016_j_envint_2025_109617": "Danesh Yazdi 2025 Environ Int (second events)",
+  "10_1016_j_envres_2025_122779": "Danesh Yazdi 2025 Environ Res (PM2.5 components)",
+  "10_1002_alz_70945": "Spoto 2025 Alzheimers Dement",
+  "10_1016_j_envint_2021_106715": "Klompmaker 2021 Environ Int",
+  "10_1136_bmj_2023_076939": "Wei 2024 BMJ",
+  "10_1161_circulationaha_120_050252": "Danesh Yazdi 2021 Circulation",
+  "10_1097_ede_0000000000000777": "Zigler 2018 Epidemiology",
+  "10_1136_bmjmed_2021_000009": "Lee 2022 BMJ Medicine",
+  "10_1001_jamanetworkopen_2022_47664": "Klompmaker 2023 JAMA Netw Open",
+  "10_1016_s2542_5196_20_30227_8": "Shi 2020 Lancet Planet Health",
+  "10_1016_j_envint_2021_106834": "Weinberger 2021 Environ Int",
+  "10_1016_j_envpol_2022_120046": "Klompmaker 2023 Environ Pollut"
+ },
+ "cv": {
+  "57": {
+   "slugs": [
+    "10_1001_jama_295_10_1127"
+   ]
+  },
+  "61": {
+   "slugs": [],
+   "reason": "Symons 2006 is not in the Step 2.3/2.4 set (no Medicare outcome paper found)"
+  },
+  "78": {
+   "slugs": [
+    "10_1001_jama_299_18_2172"
+   ]
+  },
+  "89": {
+   "slugs": [],
+   "reason": "Bell 2009 AJRCCM (chemical composition) is not in the Step 2.4 set (Step 2.3: uncertain)"
+  },
+  "92": {
+   "slugs": [
+    "10_1161_circulationaha_109_851113"
+   ]
+  },
+  "94": {
+   "slugs": [
+    "10_1289_ehp_0800185"
+   ],
+   "note": "CV #94 is Peng 2009 EHP (Step 1 says 'Bell et al. 2009'; Bell is 2nd author), see Step 1.3"
+  },
+  "125": {
+   "slugs": [
+    "10_1093_aje_kws267"
+   ]
+  },
+  "132": {
+   "slugs": [],
+   "reason": "Anderson 2013 AJRCCM is not in the Step 2.4 set"
+  },
+  "134": {
+   "slugs": [
+    "10_1186_1476_069x_12_68"
+   ]
+  },
+  "136": {
+   "slugs": [
+    "10_1289_ehp_1306656"
+   ]
+  },
+  "148": {
+   "slugs": [
+    "10_1186_1476_069x_13_38"
+   ]
+  },
+  "153": {
+   "slugs": [
+    "10_1001_jama_2014_15715"
+   ]
+  },
+  "171": {
+   "slugs": [
+    "10_1186_s12940_016_0167_3"
+   ]
+  },
+  "172": {
+   "slugs": [
+    "10_1289_ehp257"
+   ],
+   "note": "Bravo et al., published in EHP 2017 (online 2016)"
+  },
+  "173": {
+   "slugs": [
+    "10_1097_ede_0000000000000556"
+   ],
+   "note": "CV #173: Liu 2016, Epidemiology 28(1) (wildfire PM2.5)"
+  },
+  "175": {
+   "slugs": [],
+   "reason": "CV #175 is Liu 2017 AJE (wildfire vulnerability), not in the Step 2.4 set (Step 2.3: uncertain)"
+  },
+  "177": {
+   "slugs": [],
+   "reason": "Bobb 2016 AJE (snowstorms) is not in the Step 2.4 set"
+  },
+  "181": {
+   "slugs": [
+    "10_1016_s2542_5196_17_30002_5"
+   ]
+  },
+  "190": {
+   "slugs": [
+    "10_1016_j_ypmed_2018_02_001"
+   ]
+  },
+  "202": {
+   "slugs": [
+    "10_1016_j_chest_2019_03_017"
+   ]
+  },
+  "212": {
+   "slugs": [
+    "10_1016_j_envpol_2019_07_094"
+   ]
+  },
+  "220": {
+   "slugs": [
+    "10_1080_01621459_2020_1722134",
+    "10_1097_ede_0000000000001456"
+   ],
+   "note": "Step 1 cites 'Thomas et al. 2020/2022 (#220, #268)'"
+  },
+  "229": {
+   "slugs": [
+    "10_1097_ede_0000000000001195"
+   ]
+  },
+  "238": {
+   "slugs": [
+    "10_1016_j_scitotenv_2020_142524"
+   ]
+  },
+  "240": {
+   "slugs": [
+    "10_1038_s41467_021_21777_1"
+   ]
+  },
+  "242": {
+   "slugs": [
+    "10_1097_ede_0000000000001337"
+   ]
+  },
+  "244": {
+   "slugs": [],
+   "reason": "Weinberger 2021 AJE (Hurricane Sandy ED visits) is not in the Step 2.4 set"
+  },
+  "245": {
+   "slugs": [
+    "10_1016_s2542_5196_21_00168_6"
+   ]
+  },
+  "250": {
+   "slugs": [],
+   "reason": "Carlsen 2021 is not in the Step 2.4 set"
+  },
+  "252": {
+   "slugs": [],
+   "reason": "Carlsen 2021 is not in the Step 2.4 set"
+  },
+  "253": {
+   "slugs": [],
+   "reason": "CV #253 is Chen 2021 Environ Res (temporal trends by subpopulation), not in the Step 2.3 data"
+  },
+  "268": {
+   "slugs": [
+    "10_1080_01621459_2020_1722134",
+    "10_1097_ede_0000000000001456"
+   ],
+   "note": "Step 1 cites 'Thomas et al. 2020/2022 (#220, #268)'"
+  },
+  "270": {
+   "slugs": [
+    "10_1016_s2542_5196_22_00017_1"
+   ]
+  },
+  "271": {
+   "slugs": [],
+   "reason": "Wei 2022 AJRCCM (asthma) is not in the Step 2.4 set"
+  },
+  "281": {
+   "slugs": [
+    "10_1038_s41467_023_37675_7"
+   ]
+  },
+  "282": {
+   "slugs": [
+    "10_1289_ehp10729"
+   ]
+  },
+  "284": {
+   "slugs": [
+    "10_1016_j_envres_2023_116203"
+   ]
+  },
+  "293": {
+   "slugs": [],
+   "reason": "Parks 2023 Commun Med is not in the Step 2.4 set"
+  },
+  "303": {
+   "slugs": [
+    "10_1038_s41467_024_45776_0"
+   ]
+  },
+  "304": {
+   "slugs": [],
+   "reason": "Sun 2024 BMJ (commercial + Medicare Advantage claims) is not in the Step 2.4 set (Step 2.3: uncertain); Wei 2024 BMJ is shown as context"
+  },
+  "309": {
+   "slugs": [
+    "10_1038_s41467_024_45776_0"
+   ]
+  },
+  "311": {
+   "slugs": [
+    "10_1093_aje_kwae133"
+   ]
+  },
+  "320": {
+   "slugs": [],
+   "reason": "Dong 2025 Lancet Planet Health (ADRD cohort; mortality and readmission) is not in the Step 2.3 data"
+  },
+  "323": {
+   "slugs": [
+    "10_1016_j_envint_2025_109617"
+   ],
+   "note": "CV #323 is the second-events paper; Step 1.3 flags its citation in S1-01 (the all-CVD paper is CV #332)"
+  },
+  "331": {
+   "slugs": [],
+   "reason": "Willis 2025 is not in the Step 2.4 set"
+  },
+  "339": {
+   "slugs": [],
+   "reason": "CV #339 is Spoto 2025 Environ Epidemiol (heat and PM2.5 in ADRD patients), not in Step 2.4 (Step 2.3: outcome False)"
+  },
+  "341": {
+   "slugs": [],
+   "reason": "Parks 2026 is not in the Step 2.4 set"
+  }
+ },
+ "rows": {
+  "S1-01": {
+   "cited": {
+    "172": {
+     "10_1289_ehp257": [
+      "cardiovascular"
+     ]
+    }
+   },
+   "context": {
+    "10_1016_j_envint_2021_106715": [
+     "cardiovascular disease (CVD)"
+    ],
+    "10_1016_s2542_5196_17_30002_5": [
+     "cardiovascular admissions"
+    ],
+    "10_1016_j_envres_2025_122779": [
+     "cardiovascular diseases (first admission)"
+    ]
+   }
+  },
+  "S1-02": {
+   "cited": {
+    "172": {
+     "10_1289_ehp257": [
+      "respiratory (COPD and respiratory tract infections)"
+     ]
+    },
+    "94": {
+     "10_1289_ehp_0800185": [
+      "respiratory diseases"
+     ]
+    }
+   },
+   "context": {
+    "10_1016_j_envpol_2022_120046": [
+     "respiratory disease (RSD)"
+    ]
+   }
+  },
+  "S1-03": {
+   "cited": {},
+   "context": {
+    "10_1016_j_envint_2021_106715": [
+     "coronary heart disease (CHD)"
+    ],
+    "10_1136_bmj_2023_076939": [
+     "ischemic heart disease"
+    ],
+    "10_1161_circulationaha_109_851113": [
+     "ischemic heart disease"
+    ]
+   }
+  },
+  "S1-04": {
+   "cited": {
+    "284": {
+     "10_1016_j_envres_2023_116203": [
+      "myocardial infarction admissions"
+     ]
+    }
+   },
+   "context": {
+    "10_1161_circulationaha_120_050252": [
+     "myocardial infarction"
+    ]
+   }
+  },
+  "S1-05": {
+   "cited": {},
+   "context": {
+    "10_1016_j_envres_2025_122779": [
+     "heart failure"
+    ],
+    "10_1136_bmj_2023_076939": [
+     "heart failure"
+    ],
+    "10_1161_circulationaha_109_851113": [
+     "heart failure"
+    ]
+   }
+  },
+  "S1-06": {
+   "cited": {},
+   "context": {
+    "10_1136_bmj_2023_076939": [
+     "arrhythmia"
+    ],
+    "10_1161_circulationaha_109_851113": [
+     "heart rhythm disturbances"
+    ],
+    "10_1161_circulationaha_120_050252": [
+     "atrial fibrillation and flutter"
+    ]
+   }
+  },
+  "S1-07": {
+   "cited": {},
+   "context": {
+    "10_1016_j_envint_2021_106715": [
+     "cerebrovascular disease (CBV)"
+    ],
+    "10_1136_bmj_2023_076939": [
+     "cerebrovascular disease"
+    ]
+   }
+  },
+  "S1-08": {
+   "cited": {
+    "92": {
+     "10_1161_circulationaha_109_851113": [
+      "total CVD (sum of the five causes)"
+     ]
+    }
+   }
+  },
+  "S1-09": {
+   "cited": {},
+   "context": {
+    "10_1186_1476_069x_12_68": [
+     "chronic obstructive pulmonary disease"
+    ],
+    "10_1097_ede_0000000000000777": [
+     "chronic obstructive pulmonary disease"
+    ]
+   }
+  },
+  "S1-10": {
+   "cited": {},
+   "context": {}
+  },
+  "S1-11": {
+   "cited": {},
+   "context": {
+    "10_1186_1476_069x_12_68": [
+     "pneumonia"
+    ],
+    "10_1161_circulationaha_120_050252": [
+     "pneumonia"
+    ]
+   }
+  },
+  "S1-12": {
+   "cited": {
+    "229": {
+     "10_1097_ede_0000000000001195": [
+      "acute respiratory distress syndrome"
+     ]
+    }
+   }
+  },
+  "S1-13": {
+   "cited": {
+    "242": {
+     "10_1097_ede_0000000000001337": [
+      "cardiovascular disease hospitalizations",
+      "respiratory disease hospitalizations"
+     ]
+    },
+    "220": {
+     "10_1097_ede_0000000000001456": [
+      "57 cardiovascular discharge diagnoses (multi-level CCS codes starting with 7)",
+      "32 respiratory discharge diagnoses (multi-level CCS codes starting with 8)"
+     ]
+    }
+   }
+  },
+  "S1-14": {
+   "cited": {
+    "148": {
+     "10_1186_1476_069x_13_38": [
+      "diabetes"
+     ]
+    }
+   }
+  },
+  "S1-15": {
+   "cited": {
+    "148": {
+     "10_1186_1476_069x_13_38": [
+      "dementia",
+      "Alzheimer's disease",
+      "Parkinson's disease",
+      "multiple sclerosis"
+     ]
+    }
+   }
+  },
+  "S1-16": {
+   "cited": {
+    "238": {
+     "10_1016_j_scitotenv_2020_142524": [
+      "all-cause admissions in the chronic debilitating brain disorder (CDBD) cohort: Parkinson's disease, Alzheimer's disease, other dementia"
+     ]
+    }
+   }
+  },
+  "S1-17": {
+   "cited": {
+    "212": {
+     "10_1016_j_envpol_2019_07_094": [
+      "first hospitalization with dementia"
+     ]
+    }
+   },
+   "context": {
+    "10_1001_jamanetworkopen_2022_47664": [
+     "first hospitalization with ADRD"
+    ],
+    "10_1016_s2542_5196_20_30227_8": [
+     "first hospital admission for Alzheimer's disease and related dementias"
+    ],
+    "10_1002_alz_70945": [
+     "Alzheimer's disease",
+     "neurocognitive disorder",
+     "non-specific dementia",
+     "Pick's disease",
+     "vascular dementia"
+    ]
+   }
+  },
+  "S1-18": {
+   "cited": {
+    "282": {
+     "10_1289_ehp10729": [
+      "first hospital admission with acute kidney injury"
+     ]
+    }
+   },
+   "context": {
+    "10_1136_bmjmed_2021_000009": [
+     "chronic kidney disease"
+    ]
+   }
+  },
+  "S1-19": {
+   "cited": {
+    "270": {
+     "10_1016_s2542_5196_22_00017_1": [
+      "depression",
+      "schizophrenia",
+      "bipolar disorder"
+     ]
+    }
+   }
+  },
+  "S1-24": {
+   "cited": {
+    "171": {
+     "10_1186_s12940_016_0167_3": [
+      "heat stroke and sunstroke"
+     ]
+    },
+    "153": {
+     "10_1001_jama_2014_15715": [
+      "heat stroke (CCS group 244)"
+     ]
+    },
+    "190": {
+     "10_1016_j_ypmed_2018_02_001": [
+      "heat stroke and sunstroke"
+     ]
+    }
+   },
+   "context": {
+    "10_1016_j_envint_2021_106834": [
+     "heat stroke and other external causes (CCS 244)"
+    ]
+   }
+  },
+  "S1-26": {
+   "cited": {
+    "153": {
+     "10_1001_jama_2014_15715": [
+      "283 disease categories (CCS), 214 analyzed"
+     ]
+    }
+   }
+  },
+  "S1-27": {
+   "cited": {
+    "173": {
+     "10_1097_ede_0000000000000556": [
+      "emergency cardiovascular admissions",
+      "emergency respiratory admissions"
+     ]
+    }
+   }
+  },
+  "S1-29": {
+   "cited": {
+    "181": {
+     "10_1016_s2542_5196_17_30002_5": [
+      "cardiovascular admissions",
+      "respiratory admissions"
+     ]
+    }
+   }
+  },
+  "S1-30": {
+   "cited": {
+    "240": {
+     "10_1038_s41467_021_21777_1": [
+      "Cardiovascular diseases",
+      "Respiratory diseases"
+     ]
+    },
+    "242": {
+     "10_1097_ede_0000000000001337": [
+      "cardiovascular disease hospitalizations",
+      "respiratory disease hospitalizations"
+     ]
+    },
+    "281": {
+     "10_1038_s41467_023_37675_7": [
+      "cardiovascular disease",
+      "respiratory disease"
+     ]
+    }
+   }
+  },
+  "S1-33": {
+   "compare_to": "S1-01",
+   "cited": {
+    "92": {
+     "10_1161_circulationaha_109_851113": [
+      "total CVD (sum of the five causes)"
+     ]
+    }
+   }
+  },
+  "S1-34": {
+   "cited": {
+    "136": {
+     "10_1289_ehp_1306656": [
+      "cardiovascular disease",
+      "respiratory disease"
+     ]
+    },
+    "94": {
+     "10_1289_ehp_0800185": [
+      "cardiovascular disease (CVD)",
+      "respiratory diseases"
+     ]
+    }
+   }
+  },
+  "S1-35": {
+   "cited": {
+    "134": {
+     "10_1186_1476_069x_12_68": [
+      "all CVD conditions",
+      "all respiratory outcomes"
+     ]
+    }
+   }
+  },
+  "S1-36": {
+   "cited": {
+    "303": {
+     "10_1038_s41467_024_45776_0": [
+      "non-respiratory infections (total)"
+     ]
+    }
+   }
+  },
+  "S1-37": {
+   "cited": {
+    "323": {
+     "10_1016_j_envint_2025_109617": [
+      "second admission with myocardial infarction",
+      "second admission with ischemic stroke"
+     ]
+    }
+   }
+  }
+ }
+}
