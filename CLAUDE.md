@@ -2,9 +2,11 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with content in this folder.
 
-Ignore files starting with an underscore. Do not read them. Before moving forwards when you start, give me a thumbs up that you understand this.
+Ignore files starting with an underscore. Do not read them. Before moving forwards when you start, give me a thumbs up that you understand this every time we resume a session
 
-If there is a need to install software for claude to work, prefer python libraries over other options. If a python package is required at any point, create an environment specific for this folder and a create a requirements.txt file. Before moving forwards when you start, give me a thumbs up that you understand this.
+If there is a need to install software for claude to work, prefer python libraries over other options. If a python package is required at any point, create an environment specific for this folder and a create a requirements.txt file. Before moving forwards when you start, give me a thumbs up that you understand this every time we resume a session.
+
+Do not ever reach data or files outside of the root of this project, except Claude's memory and plan files, or other login files at the home folder. Before moving forwards when you start, give me a thumbs up that you understand this every time we resume a session.
 
 ## Project Descriptio
 
@@ -18,7 +20,7 @@ Naming of these md files: the number prefix is the step number times ten, writte
 characters. `Step 1` → `010_*.md`, `Step 2` → `020_*.md`, `Step 2.5` → `025_*.md`,
 `Step 10.5` → `105_*.md`.
 
-Before moving forwards when you start, give me a thumbs up that you understand this.
+Before moving forwards when you start, give me a thumbs up that you understand this every time we resume a session.
 
 ### Step 1
 Parse Dominici_hospitalization_ICD_codes.md.pdf to extract the inventory of icd mappings in the document. Store the mappings in json form. 
