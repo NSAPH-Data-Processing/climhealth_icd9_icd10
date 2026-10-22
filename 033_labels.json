@@ -1,0 +1,446 @@
+{
+ "labeled_by": "Claude (claude-opus-5-5), reading title + abstract, 2026-10-22; labels with reused_from_step23 are copied from 023_labels.json (same DOI)",
+ "labels": [
+  {
+   "key": "10.1038/s44458-025-00001-x",
+   "title": "Higher temperatures are associated with increased interpersonal and self-inflicted violence-related Medicaid hospital visits in the United States",
+   "uses_medicare": false,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "Medicaid claims",
+   "note": "Medicaid (CMS) data, not Medicare; violence-related hospital visits",
+   "reused_from_step23": true
+  },
+  {
+   "key": "10.1021/ehp.6c00147",
+   "title": "PM2. 5 and 30-Day Readmission in Medicare Beneficiaries with Alzheimer’s Disease and Related Dementias: Effect Modification by Neighborhood Green and Blue Space",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [
+    "ADRD index admission"
+   ],
+   "uncertain": false,
+   "evidence_phrase": "30-day all-cause readmission",
+   "note": "all-cause readmission in an ICD-defined ADRD cohort",
+   "reused_from_step23": true
+  },
+  {
+   "key": "10.1097/ee9.0000000000000440",
+   "title": "Combined and synergistic effects of heat and fine particulate matter on hospitalization among patients with Alzheimer’s disease and related dementias",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [
+    "ADRD"
+   ],
+   "uncertain": false,
+   "evidence_phrase": "all-cause hospitalization among an ADRD cohort",
+   "note": "all-cause hospitalization in an ICD-defined ADRD cohort",
+   "reused_from_step23": true
+  },
+  {
+   "key": "10.1093/aje/kwae133",
+   "title": "Comparing traditional and causal inference methodologies for evaluating impacts of long-term air pollution exposure on hospitalization with Alzheimer disease and related dementias",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "first hospitalization with ADRD"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "first hospitalization with an ADRD diagnosis",
+   "note": "",
+   "reused_from_step23": true
+  },
+  {
+   "key": "10.1088/2752-5309/ae01ce",
+   "title": "Impact of boom-and-bust economies from oil and gas development on psychiatric hospitalizations among Medicaid beneficiaries",
+   "uses_medicare": false,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "Medicaid claims data",
+   "note": "Medicaid (CMS) data, not Medicare; psychiatric hospitalizations",
+   "reused_from_step23": true
+  },
+  {
+   "key": "10.1093/biostatistics/kxad002",
+   "title": "Assessing the causal effects of a stochastic intervention in time series data: are heat alerts effective in preventing deaths and hospitalizations?",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": true,
+   "evidence_phrase": "deaths and hospitalizations among Medicare enrollees",
+   "note": "hospitalization outcome not specified in abstract",
+   "reused_from_step23": true
+  },
+  {
+   "key": "10.1289/isee.2023.op-179",
+   "title": "Absolute risk of PM2. 5-attributable mortality differs by racial identity, income, and age",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "Medicare data from 73 million persons",
+   "note": "",
+   "reused_from_step23": true
+  },
+  {
+   "key": "10.1056/nejmsa2300523",
+   "title": "Air pollution and mortality at the intersection of race and social class",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "623 million person-years of Medicare data",
+   "note": "",
+   "reused_from_step23": true
+  },
+  {
+   "key": "10.1289/ehp10729",
+   "title": "Air pollution and acute kidney injury in the US Medicare population: a longitudinal cohort study",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "acute kidney injury"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "first hospital admission for AKI",
+   "note": "",
+   "reused_from_step23": true
+  },
+  {
+   "key": "10.1016/j.envint.2023.107844",
+   "title": "Associations between greenness and kidney disease in Massachusetts: The US Medicare longitudinal cohort study",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "total kidney disease",
+    "chronic kidney disease",
+    "acute kidney injury"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "first hospital admission for total kidney disease",
+   "note": "",
+   "reused_from_step23": true
+  },
+  {
+   "key": "10.1097/ee9.0000000000000261",
+   "title": "Does choice of outdoor heat metric affect heat-related epidemiologic analyses in the US Medicare population?",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "heat-related hospitalizations"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "heat-related hospitalizations among Medicare beneficiaries",
+   "note": "also all-cause mortality",
+   "reused_from_step23": true
+  },
+  {
+   "key": "10.1289/ehp12141",
+   "title": "Long-Term Exposure to Low-Level formula PM2. 5 and Mortality: Investigation of Heterogeneity by Harmonizing Analyses in Large Cohort Studies in Canada, United States, and Europe",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "Medicare, 2000-2016",
+   "note": "",
+   "reused_from_step23": true
+  },
+  {
+   "key": "10.1097/ede.0000000000001456",
+   "title": "A Bayesian multi-outcome analysis of fine particulate matter and cardiorespiratory hospitalizations",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "57 cardiovascular discharge diagnoses",
+    "32 respiratory discharge diagnoses"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "57 cardiovascular and 32 respiratory discharge diagnoses",
+   "note": "",
+   "reused_from_step23": true
+  },
+  {
+   "key": "10.1136/bmjmed-2021-000009",
+   "title": "Associations between long term air pollution exposure and first hospital admission for kidney and total urinary system diseases in the US Medicare population: nationwide …",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "kidney and urinary system disease",
+    "chronic kidney disease"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "First hospital admission with diagnosis codes for total kidney and urinary system disease",
+   "note": "",
+   "reused_from_step23": true
+  },
+  {
+   "key": "10.1080/01621459.2022.2144737",
+   "title": "Matching on generalized propensity scores with continuous exposures",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "all-cause mortality among 68.5 million Medicare enrollees",
+   "note": "",
+   "reused_from_step23": true
+  },
+  {
+   "key": "10.1016/j.envint.2021.106834",
+   "title": "Heat warnings, mortality, and hospital admissions among older adults in the United States",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "fluid and electrolyte disorders",
+    "heat stroke"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "fluid and electrolyte disorders",
+   "note": "",
+   "reused_from_step23": true
+  },
+  {
+   "key": "10.1097/ede.0000000000001265",
+   "title": "Nationwide study of short-term exposure to fine particulate matter and cardiovascular hospitalizations among Medicaid enrollees",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "cardiovascular disease"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "non-Medicaid-eligible Medicare enrollees",
+   "note": "primarily Medicaid; Medicare used as comparison group",
+   "reused_from_step23": true
+  },
+  {
+   "key": "10.1126/sciadv.aba5692",
+   "title": "Evaluating the impact of long-term exposure to fine particulate matter on mortality among the elderly",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "68.5 million Medicare enrollees",
+   "note": "",
+   "reused_from_step23": true
+  },
+  {
+   "key": "10.1016/s2542-5196(20)30227-8",
+   "title": "Long-term effects of PM2· 5 on neurological disorders in the American Medicare population: a longitudinal cohort study",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "Parkinson's disease",
+    "Alzheimer's disease and related dementias"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "first hospital admission for Parkinson's disease or Alzheimer's disease",
+   "note": "",
+   "reused_from_step23": true
+  },
+  {
+   "key": "10.1093/biostatistics/kxx014",
+   "title": "Propensity scores with misclassified treatment assignment: a likelihood-based adjustment",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [
+    "brain tumors"
+   ],
+   "uncertain": false,
+   "evidence_phrase": "ICD9 billing codes from Medicare Part A",
+   "note": "1-year mortality; treatment identified by ICD-9 procedure codes",
+   "reused_from_step23": true
+  },
+  {
+   "key": "10.1038/s41370-026-00882-7",
+   "title": "Extreme heat and hospitalization with Parkinson’s disease among older adults",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "hospitalization with Parkinson's disease"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "Medicare fee-for-service beneficiaries within the contiguous U.S. hospitalized",
+   "note": ""
+  },
+  {
+   "key": "10.1093/aje/kwag087",
+   "title": "Hospitalization risk with and without dementia by region and race in the United States",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "hospitalization with ADRD",
+    "hospitalization without ADRD"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "hospitalizations with and without ADRD diagnoses among Black and White Medicare Fee-for-Service beneficiaries",
+   "note": ""
+  },
+  {
+   "key": "10.1097/ee9.0000000000000519",
+   "title": "Long-term cumulative associations of annual air pollution exposure and hospitalization with Parkinson’s Disease",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "first hospitalization with Parkinson's disease"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "first hospitalization claim with diagnosis codes indicating PD",
+   "note": ""
+  },
+  {
+   "key": "10.1097/ee9.0000000000000395",
+   "title": "Extreme heat and hospital admissions in older adults: A small-area analysis in the Greater Boston metropolitan area",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "heat-related hospitalizations"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "risks of heat-related hospitalizations in each small area of the Greater Boston Metropolitan Area using Medicare data",
+   "note": ""
+  },
+  {
+   "key": "10.1001/jamainternmed.2024.7719",
+   "title": "Extreme heat and hospitalization among older persons with Alzheimer disease and related dementias",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "first hospitalization with ADRD"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "each beneficiary's first hospitalization with an ADRD diagnosis code",
+   "note": ""
+  },
+  {
+   "key": "zQEnP70AAAAJ:kzcrU_BdoSEC",
+   "title": "Robust Statistical Approaches to Understanding the Causal Effect of Air Pollution Mixtures",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": true,
+   "evidence_phrase": "health effects of air pollution in the Medicare cohort in the United States",
+   "note": "HEI report; outcomes of the Medicare case study not named in the abstract"
+  },
+  {
+   "key": "10.1016/j.envint.2024.108739",
+   "title": "Associations of street-view greenspace with Parkinson’s disease hospitalizations in an open cohort of elderly US Medicare beneficiaries",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "first PD-involved hospitalization"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "first PD-involved hospitalization",
+   "note": ""
+  },
+  {
+   "key": "10.1038/s41531-024-00815-x",
+   "title": "The effect of air pollution on hospitalizations with Parkinson’s disease among medicare beneficiaries nationwide",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "first hospitalization with Parkinson's disease"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "rate of first hospitalization with a PD-related diagnosis (hospitalization with PD) among Medicare Fee-for-Service beneficiaries",
+   "note": ""
+  },
+  {
+   "key": "10.1080/01621459.2026.2743983",
+   "title": "A spatial interference approach to account for mobility in air pollution studies with multivariate continuous treatments",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "health effects of ambient air pollution on mortality among Medicare enrollees",
+   "note": ""
+  },
+  {
+   "key": "10.1016/j.envint.2022.107694",
+   "title": "Time-lagged relationships between a decade of air pollution exposure and first hospitalization with Alzheimer's disease and related dementias",
+   "uses_medicare": true,
+   "outcome": true,
+   "outcome_names": [
+    "first hospitalization with ADRD"
+   ],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "odds of first hospitalization with ADRD",
+   "note": ""
+  },
+  {
+   "key": "zQEnP70AAAAJ:NhqRSupF_l8C",
+   "title": "Assessing adverse health effects of long-term exposure to low levels of ambient air pollution: implementation of causal inference methods",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": true,
+   "evidence_phrase": "applied these methods to claims data from Medicare and Medicaid beneficiaries",
+   "note": "HEI final report; main results are mortality; 'various health outcomes' not named"
+  },
+  {
+   "key": "10.1007/s13253-022-00508-z",
+   "title": "Estimating a Causal Exposure Response Function with a Continuous Error-Prone Exposure: A Study of Fine Particulate Matter and All-Cause Mortality",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "effects of PM 2.5 on all-cause mortality among Medicare enrollees in New England",
+   "note": ""
+  },
+  {
+   "key": "zQEnP70AAAAJ:mVmsd5A6BfQC",
+   "title": "Assessing adverse health effects of long-term exposure to low levels of ambient air pollution: phase 1",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": true,
+   "evidence_phrase": "Medicare claims data",
+   "note": "HEI phase 1 report; 'risks of hospitalization and death' without named causes"
+  },
+  {
+   "key": "10.2139/ssrn.6514013",
+   "title": "Urban-Rural Disparities in Long-Term Effects of PM2. 5 on Mortality: The Impacts of Chemical Composition and Population Characteristics",
+   "uses_medicare": true,
+   "outcome": false,
+   "outcome_names": [],
+   "cohort_names": [],
+   "uncertain": false,
+   "evidence_phrase": "associations between PM2.5 and its components and all-cause mortality",
+   "note": ""
+  }
+ ]
+}
