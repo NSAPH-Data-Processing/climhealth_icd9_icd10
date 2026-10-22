@@ -16,7 +16,7 @@ Same comparison and verdicts as Step 2.7 (`027_step1_check.md`). The difference 
 Run: `.venv/bin/python 037_build_check.py` → `037_step1_check.json`, **`037_step1_check.csv`**.
 
 ## Results (37 Section 1 rows)
-**Braun's papers are cited for only 4 Step 1 rows.** 35 rows are `no_evidence` from Braun's set alone. Step 1 was built from Dominici's papers, so this is expected.
+**Braun's papers are cited for only 3 Step 1 rows.** 35 rows are `no_evidence` from Braun's set alone. Step 1 was built from Dominici's papers, so this is expected.
 
 | Row | Cited Braun paper | Verdict |
 |---|---|---|

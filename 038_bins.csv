@@ -1,0 +1,28 @@
+id,group,bin,status,parks_only,icd10_available,n_papers,note,sources
+R1,Respiratory,Asthma exacerbations,not_found,False,False,0,No outcome in Braun's Step 3.6 papers.,
+R2,Respiratory,COPD exacerbations,not_found,False,False,0,No outcome in Braun's Step 3.6 papers.,
+R3,Respiratory,Bronchiectasis,not_found,False,False,0,No outcome in Braun's Step 3.6 papers.,
+R4,Respiratory,Pneumonia and some other respiratory infections,not_found,False,False,0,No outcome in Braun's Step 3.6 papers.,
+R5,Respiratory,"Respiratory failure, insufficiency, or arrest",not_found,False,False,0,No outcome in Braun's Step 3.6 papers.,
+R6,Respiratory,Upper respiratory infections,not_found,False,False,0,No outcome in Braun's Step 3.6 papers.,
+C1,Cardiovascular and blood-vessel conditions,Heart attack (acute myocardial infarction),explicit,False,False,1,,"deSouza 2021 Epidemiology [exact, explicit_codes] ICD-9 410.9"
+C2,Cardiovascular and blood-vessel conditions,Ischemic heart disease and coronary atherosclerosis,explicit,False,False,1,,"deSouza 2021 Epidemiology [exact, explicit_codes] ICD-9 410–414"
+C3,Cardiovascular and blood-vessel conditions,Heart failure,explicit,False,False,2,,"deSouza 2021 Epidemiology [exact, explicit_codes] ICD-9 428 || Thomas 2022 Epidemiology [exact, classification_ref] AHRQ multi-level CCS 7.2.11"
+C4,Cardiovascular and blood-vessel conditions,Abnormal heart rhythms (arrhythmias/dysrhythmias),not_found,False,False,0,No outcome in Braun's Step 3.6 papers.,
+C5,Cardiovascular and blood-vessel conditions,Cardiac arrest,not_found,False,False,0,No outcome in Braun's Step 3.6 papers.,
+C6,Cardiovascular and blood-vessel conditions,Hypertensive heart disease,not_found,False,False,0,No outcome in Braun's Step 3.6 papers.,
+C7,Cardiovascular and blood-vessel conditions,"Stroke, including ischemic and hemorrhagic stroke",explicit_partial,False,False,2,,"deSouza 2021 Epidemiology [narrower, explicit_codes] ICD-9 434.91 || Thomas 2022 Epidemiology [narrower, classification_ref] AHRQ multi-level CCS 7.3.1.1"
+C8,Cardiovascular and blood-vessel conditions,"Blood clots: phlebitis, thrombophlebitis, and thromboembolism",not_found,False,False,0,No outcome in Braun's Step 3.6 papers.,
+C9,Cardiovascular and blood-vessel conditions,Retinal artery occlusion,not_found,False,False,0,No outcome in Braun's Step 3.6 papers.,
+N1,Neurological and mental health,Parkinson's disease,explicit,False,True,5,,"Shi 2020 Lancet Planet Health [exact, explicit_codes] ICD-9 332 | ICD-10 G20, G21·11, G21·19, G21·8 || Klompmaker 2024 Environ Int [exact, explicit_codes] ICD-9 332.0, 332.1 | ICD-10 G20, G21.11, G21.19, G21.8 || Wang 2024 npj Parkinsons Dis [exact, explicit_codes] ICD-9 332 | ICD-10 G20 || Dinehart 2026 J Expo Sci Environ Epidemiol [exact, explicit_codes] ICD-9 332.0 | ICD-10 G20 || Delaney 2026 Environ Epidemiol [exact, explicit_codes] ICD-9 332/332.0 | ICD-10 G20"
+N2,Neurological and mental health,"Dementia, including Alzheimer's disease",explicit,False,True,3,,"Shi 2020 Lancet Planet Health [exact, explicit_codes] ICD-9 331·0, 290 | ICD-10 G30·9, F05 || Mork 2023 Environ Int [exact, explicit_codes] ICD-9 331.0, 331.11, 331.19, 331.2, 331.7, 290.0, 290.10, 290.11, 290.12, 290.13, ... (24 codes) | ICD-10 F01.50, F01.51, F02.80, F02.81, F03.90, F03.91, F04, F05, F06.1, F06.8, G13.8, G30.0 ... || Qin 2025 AJE [exact, in_unfetched_supplement] CMS Chronic Conditions Data Warehouse (CCW) ADRD algorithm"
+N3,Neurological and mental health,Depression-related hospital visits or admissions,not_found,False,False,0,No outcome in Braun's Step 3.6 papers.,
+N4,Neurological and mental health,Stroke and other cerebrovascular conditions,classification,False,False,1,,"Thomas 2022 Epidemiology [narrower, classification_ref] AHRQ multi-level CCS 7.3.4"
+K1,"Kidney, metabolic, and fluid-balance conditions",Acute or unspecified kidney failure,explicit,False,True,2,,"Lee 2023 EHP [exact, explicit_codes] ICD-9 584 | ICD-10 N17 || Weinberger 2021 Environ Int [exact, classification_ref] AHRQ CCS 157"
+K2,"Kidney, metabolic, and fluid-balance conditions",Fluid and electrolyte disorders,explicit_partial,False,True,2,,"Weinberger 2021 Environ Int [exact, classification_ref] AHRQ CCS 55 || Jung 2025 Environ Epidemiol [narrower, explicit_codes] ICD-9 276.51 | ICD-10 E86.0"
+K3,"Kidney, metabolic, and fluid-balance conditions",Diabetes with complications,classification,False,False,1,,"Weinberger 2021 Environ Int [exact, classification_ref] AHRQ CCS 50"
+I1,Infections and other reported admission categories,Sepsis/septicemia,classification,False,False,1,,"Weinberger 2021 Environ Int [exact, classification_ref] AHRQ CCS 2"
+I2,Infections and other reported admission categories,Urinary tract infections,classification,False,False,1,,"Weinberger 2021 Environ Int [exact, classification_ref] AHRQ CCS 159"
+I3,Infections and other reported admission categories,Skin and soft-tissue infections,not_found,False,False,0,No outcome in Braun's Step 3.6 papers.,
+I4,Infections and other reported admission categories,Pneumocystis pneumonia,not_found,False,False,0,No outcome in Braun's Step 3.6 papers.,
+I5,Infections and other reported admission categories,Intestinal obstruction,not_found,False,False,0,No outcome in Braun's Step 3.6 papers.,

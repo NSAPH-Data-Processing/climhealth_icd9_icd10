@@ -1,0 +1,305 @@
+{
+ "description": "Step 3.8 hand map: the Step 2.8 reference bins -> Step 3.6 outcome entries (036_icd_codes.json, Braun's papers). Same scope rules as 028_bins.json.",
+ "labels": {},
+ "bins": [
+  {
+   "id": "R1",
+   "group": "Respiratory",
+   "name": "Asthma exacerbations",
+   "sources": [],
+   "note": "No outcome in Braun's Step 3.6 papers."
+  },
+  {
+   "id": "R2",
+   "group": "Respiratory",
+   "name": "COPD exacerbations",
+   "sources": [],
+   "note": "No outcome in Braun's Step 3.6 papers."
+  },
+  {
+   "id": "R3",
+   "group": "Respiratory",
+   "name": "Bronchiectasis",
+   "sources": [],
+   "note": "No outcome in Braun's Step 3.6 papers."
+  },
+  {
+   "id": "R4",
+   "group": "Respiratory",
+   "name": "Pneumonia and some other respiratory infections",
+   "sources": [],
+   "note": "No outcome in Braun's Step 3.6 papers."
+  },
+  {
+   "id": "R5",
+   "group": "Respiratory",
+   "name": "Respiratory failure, insufficiency, or arrest",
+   "sources": [],
+   "note": "No outcome in Braun's Step 3.6 papers."
+  },
+  {
+   "id": "R6",
+   "group": "Respiratory",
+   "name": "Upper respiratory infections",
+   "sources": [],
+   "note": "No outcome in Braun's Step 3.6 papers."
+  },
+  {
+   "id": "C1",
+   "group": "Cardiovascular and blood-vessel conditions",
+   "name": "Heart attack (acute myocardial infarction)",
+   "sources": [
+    [
+     "10_1097_ede_0000000000001265",
+     "acute myocardial infarction",
+     "exact"
+    ]
+   ]
+  },
+  {
+   "id": "C2",
+   "group": "Cardiovascular and blood-vessel conditions",
+   "name": "Ischemic heart disease and coronary atherosclerosis",
+   "sources": [
+    [
+     "10_1097_ede_0000000000001265",
+     "ischemic heart disease",
+     "exact"
+    ]
+   ]
+  },
+  {
+   "id": "C3",
+   "group": "Cardiovascular and blood-vessel conditions",
+   "name": "Heart failure",
+   "sources": [
+    [
+     "10_1097_ede_0000000000001265",
+     "congestive heart failure",
+     "exact"
+    ],
+    [
+     "10_1097_ede_0000000000001456",
+     "heart failure and congestive heart failure (CCS 7.2.11; 3 outcomes)",
+     "exact"
+    ]
+   ]
+  },
+  {
+   "id": "C4",
+   "group": "Cardiovascular and blood-vessel conditions",
+   "name": "Abnormal heart rhythms (arrhythmias/dysrhythmias)",
+   "sources": [],
+   "note": "No outcome in Braun's Step 3.6 papers."
+  },
+  {
+   "id": "C5",
+   "group": "Cardiovascular and blood-vessel conditions",
+   "name": "Cardiac arrest",
+   "sources": [],
+   "note": "No outcome in Braun's Step 3.6 papers."
+  },
+  {
+   "id": "C6",
+   "group": "Cardiovascular and blood-vessel conditions",
+   "name": "Hypertensive heart disease",
+   "sources": [],
+   "note": "No outcome in Braun's Step 3.6 papers."
+  },
+  {
+   "id": "C7",
+   "group": "Cardiovascular and blood-vessel conditions",
+   "name": "Stroke, including ischemic and hemorrhagic stroke",
+   "sources": [
+    [
+     "10_1097_ede_0000000000001265",
+     "ischemic stroke",
+     "narrower"
+    ],
+    [
+     "10_1097_ede_0000000000001456",
+     "intracranial hemorrhage (CCS 7.3.1.1)",
+     "narrower"
+    ]
+   ]
+  },
+  {
+   "id": "C8",
+   "group": "Cardiovascular and blood-vessel conditions",
+   "name": "Blood clots: phlebitis, thrombophlebitis, and thromboembolism",
+   "sources": [],
+   "note": "No outcome in Braun's Step 3.6 papers."
+  },
+  {
+   "id": "C9",
+   "group": "Cardiovascular and blood-vessel conditions",
+   "name": "Retinal artery occlusion",
+   "sources": [],
+   "note": "No outcome in Braun's Step 3.6 papers."
+  },
+  {
+   "id": "N1",
+   "group": "Neurological and mental health",
+   "name": "Parkinson's disease",
+   "sources": [
+    [
+     "10_1016_s2542_5196_20_30227_8",
+     "first hospital admission for Parkinson's disease",
+     "exact"
+    ],
+    [
+     "10_1016_j_envint_2024_108739",
+     "first PD-involved hospitalization",
+     "exact"
+    ],
+    [
+     "10_1038_s41531_024_00815_x",
+     "first hospitalization with Parkinson's disease",
+     "exact"
+    ],
+    [
+     "10_1038_s41370_026_00882_7",
+     "first hospitalization with Parkinson's disease (warm season)",
+     "exact"
+    ],
+    [
+     "10_1097_ee9_0000000000000519",
+     "first hospitalization with Parkinson's disease",
+     "exact"
+    ]
+   ]
+  },
+  {
+   "id": "N2",
+   "group": "Neurological and mental health",
+   "name": "Dementia, including Alzheimer's disease",
+   "sources": [
+    [
+     "10_1016_s2542_5196_20_30227_8",
+     "first hospital admission for Alzheimer's disease and related dementias",
+     "exact"
+    ],
+    [
+     "10_1016_j_envint_2022_107694",
+     "first hospitalization with ADRD",
+     "exact"
+    ],
+    [
+     "10_1093_aje_kwae133",
+     "first hospitalization with ADRD",
+     "exact"
+    ]
+   ]
+  },
+  {
+   "id": "N3",
+   "group": "Neurological and mental health",
+   "name": "Depression-related hospital visits or admissions",
+   "sources": [],
+   "note": "No outcome in Braun's Step 3.6 papers."
+  },
+  {
+   "id": "N4",
+   "group": "Neurological and mental health",
+   "name": "Stroke and other cerebrovascular conditions",
+   "sources": [
+    [
+     "10_1097_ede_0000000000001456",
+     "transient cerebral ischemia (CCS 7.3.4)",
+     "narrower"
+    ]
+   ]
+  },
+  {
+   "id": "K1",
+   "group": "Kidney, metabolic, and fluid-balance conditions",
+   "name": "Acute or unspecified kidney failure",
+   "sources": [
+    [
+     "10_1289_ehp10729",
+     "first hospital admission with acute kidney injury",
+     "exact"
+    ],
+    [
+     "10_1016_j_envint_2021_106834",
+     "renal failure (acute/unspecified) (CCS 157)",
+     "exact"
+    ]
+   ]
+  },
+  {
+   "id": "K2",
+   "group": "Kidney, metabolic, and fluid-balance conditions",
+   "name": "Fluid and electrolyte disorders",
+   "sources": [
+    [
+     "10_1016_j_envint_2021_106834",
+     "fluid and electrolyte disorders (CCS 55)",
+     "exact"
+    ],
+    [
+     "10_1097_ee9_0000000000000395",
+     "dehydration",
+     "narrower"
+    ]
+   ]
+  },
+  {
+   "id": "K3",
+   "group": "Kidney, metabolic, and fluid-balance conditions",
+   "name": "Diabetes with complications",
+   "sources": [
+    [
+     "10_1016_j_envint_2021_106834",
+     "diabetes mellitus with complications (CCS 50)",
+     "exact"
+    ]
+   ]
+  },
+  {
+   "id": "I1",
+   "group": "Infections and other reported admission categories",
+   "name": "Sepsis/septicemia",
+   "sources": [
+    [
+     "10_1016_j_envint_2021_106834",
+     "septicemia (except in labor) (CCS 2)",
+     "exact"
+    ]
+   ]
+  },
+  {
+   "id": "I2",
+   "group": "Infections and other reported admission categories",
+   "name": "Urinary tract infections",
+   "sources": [
+    [
+     "10_1016_j_envint_2021_106834",
+     "urinary tract infections (CCS 159)",
+     "exact"
+    ]
+   ]
+  },
+  {
+   "id": "I3",
+   "group": "Infections and other reported admission categories",
+   "name": "Skin and soft-tissue infections",
+   "sources": [],
+   "note": "No outcome in Braun's Step 3.6 papers."
+  },
+  {
+   "id": "I4",
+   "group": "Infections and other reported admission categories",
+   "name": "Pneumocystis pneumonia",
+   "sources": [],
+   "note": "No outcome in Braun's Step 3.6 papers."
+  },
+  {
+   "id": "I5",
+   "group": "Infections and other reported admission categories",
+   "name": "Intestinal obstruction",
+   "sources": [],
+   "note": "No outcome in Braun's Step 3.6 papers."
+  }
+ ]
+}
