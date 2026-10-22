@@ -1,0 +1,98 @@
+{
+  "source": "034_fulltext_manifest.json",
+  "shortlist_size": 5,
+  "n_gaps": 5,
+  "items": [
+    {
+      "rank": 1,
+      "shortlist": true,
+      "gap": "no_fulltext",
+      "year": 2025,
+      "title": "Extreme heat and hospitalization among older persons with Alzheimer disease and related dementias",
+      "doi": "10.1001/jamainternmed.2024.7719",
+      "pmid": "39899291",
+      "pmcid": "PMC11791774",
+      "step1_cv": [],
+      "document": "Article PDF, plus Supplement 1 (eMethods: ADRD codes)",
+      "links": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11791774/",
+        "https://doi.org/10.1001/jamainternmed.2024.7719"
+      ],
+      "why": "Heat and first hospitalization with ADRD (Medicare FFS 2000-2018): the ADRD code list (ICD-9 and ICD-10 years) fills the dementia bin for a heat exposure. Has a PMC page (PMC11791774) that the script could not fetch.",
+      "save_to": "papers/10_1001_jamainternmed_2024_7719/"
+    },
+    {
+      "rank": 2,
+      "shortlist": true,
+      "gap": "no_fulltext",
+      "year": 2026,
+      "title": "Hospitalization risk with and without dementia by region and race in the United States",
+      "doi": "10.1093/aje/kwag087",
+      "pmid": "42017264",
+      "pmcid": null,
+      "step1_cv": [],
+      "document": "Article PDF, plus supplementary material (ADRD definition)",
+      "links": [
+        "https://doi.org/10.1093/aje/kwag087"
+      ],
+      "why": "ADRD and non-ADRD hospitalizations 2000-2018 (spans the ICD-10 switch): another ADRD code list.",
+      "save_to": "papers/10_1093_aje_kwag087/"
+    },
+    {
+      "rank": 3,
+      "shortlist": true,
+      "gap": "supplements_missing",
+      "year": 2022,
+      "title": "A Bayesian multi-outcome analysis of fine particulate matter and cardiorespiratory hospitalizations",
+      "doi": "10.1097/ede.0000000000001456",
+      "pmid": "35104259",
+      "pmcid": "PMC8852365",
+      "step1_cv": [
+        220,
+        268
+      ],
+      "document": "Supplements: NIHMS1763059-supplement-eAppendix_1..3.pdf",
+      "links": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8852365/",
+        "https://doi.org/10.1097/ede.0000000000001456"
+      ],
+      "why": "Already Step 2.5 rank 11: eAppendix 1 lists the 57 cardiovascular and 32 respiratory CCS leaves (Step 1 S1-13).",
+      "save_to": "papers/10_1097_ede_0000000000001456/"
+    },
+    {
+      "rank": 4,
+      "shortlist": true,
+      "gap": "supplements_missing",
+      "year": 2021,
+      "title": "Nationwide study of short-term exposure to fine particulate matter and cardiovascular hospitalizations among Medicaid enrollees",
+      "doi": "10.1097/ede.0000000000001265",
+      "pmid": "33009251",
+      "pmcid": "PMC7896354",
+      "step1_cv": [],
+      "document": "Supplement: NIHMS1662172-supplement-Supplemental_Digital_Content.pdf",
+      "links": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7896354/",
+        "https://doi.org/10.1097/ede.0000000000001265"
+      ],
+      "why": "Already Step 2.5 rank 20 (low): the main text lists the codes.",
+      "save_to": "papers/10_1097_ede_0000000000001265/"
+    },
+    {
+      "rank": 5,
+      "shortlist": true,
+      "gap": "no_fulltext",
+      "year": 2023,
+      "title": "Associations between greenness and kidney disease in Massachusetts: The US Medicare longitudinal cohort study",
+      "doi": "10.1016/j.envint.2023.107844",
+      "pmid": "36841189",
+      "pmcid": null,
+      "step1_cv": [],
+      "document": "Article PDF",
+      "links": [
+        "https://doi.org/10.1016/j.envint.2023.107844"
+      ],
+      "why": "Already Step 2.5 rank 26 (low): greenness and kidney disease in Massachusetts; not cited in Step 1.",
+      "save_to": "papers/10_1016_j_envint_2023_107844/"
+    }
+  ]
+}
