@@ -1,0 +1,713 @@
+{
+ "description": "Step 3.6 hand labels, same format as 026_labels.json. Papers shared with Step 2.6 reuse its labels (reused_from_step26: true); the others were read by Claude from papers/<slug>/text/ on 2026-10-22.",
+ "papers": {
+  "10_1016_s2542_5196_20_30227_8": {
+   "source": "Medicare Part A / MedPAR inpatient claims (FFS)",
+   "medpar_ffs": "stated",
+   "ev": [
+    "PMC7720425.1.pdf",
+    "We obtained the Medicare inpatient hospital claims from the Medicare Provider and Analysis Review files"
+   ],
+   "outcomes": [
+    {
+     "name": "first hospital admission for Parkinson's disease",
+     "step23": "Parkinson's disease",
+     "codes_status": "explicit_codes",
+     "icd9": [
+      "332"
+     ],
+     "icd10": [
+      "G20",
+      "G21·11",
+      "G21·19",
+      "G21·8"
+     ],
+     "position": "principal_or_secondary",
+     "ev": [
+      "PMC7720425.1.pdf",
+      "Parkinson’s disease (ICD-9: 332; ICD-10: G20, G21·11, G21·19, and G21·8)"
+     ],
+     "position_ev": [
+      "PMC7720425.1.pdf",
+      "admissions as principal or secondary diagnoses during the study period (appendix p 3)"
+     ],
+     "note": "The appendix (p 3) says ICD-9 codes 'beginning with 332'."
+    },
+    {
+     "name": "first hospital admission for Alzheimer's disease and related dementias",
+     "step23": "Alzheimer's disease and related dementias",
+     "codes_status": "explicit_codes",
+     "icd9": [
+      "331·0",
+      "290"
+     ],
+     "icd10": [
+      "G30·9",
+      "F05"
+     ],
+     "position": "principal_or_secondary",
+     "ev": [
+      "PMC7720425.1.pdf",
+      "Alzheimer’s disease and related dementias (ICD-9: 331·0, 290; ICD-10: G30·9, and F05)"
+     ],
+     "note": "The appendix (p 3) says codes 'beginning with 331·0' (AD) and 'beginning with 290' (dementia)."
+    },
+    {
+     "name": "circulatory system disease as primary code (sensitivity exclusion)",
+     "step23": null,
+     "role": "sensitivity",
+     "codes_status": "explicit_codes",
+     "icd9": [
+      "390–459"
+     ],
+     "icd10": [
+      "I00–I99"
+     ],
+     "position": "principal",
+     "ev": [
+      "PMC7720425.1.pdf",
+      "circulatory system disease [ICD-9: 390–459; ICD-10: I00–I99]"
+     ]
+    }
+   ],
+   "reused_from_step26": true
+  },
+  "10_1016_j_envint_2021_106834": {
+   "source": "CMS enrollment and inpatient claims (FFS)",
+   "medpar_ffs": "stated",
+   "ev": [
+    "PMC11549953.1.pdf",
+    "We obtained enrollment and inpatient claims data on Medicare beneficiaries aged 65 and older from the Centers for Medicare and Medicaid Services"
+   ],
+   "outcomes": [
+    {
+     "name": "septicemia (except in labor) (CCS 2)",
+     "step23": null,
+     "codes_status": "classification_ref",
+     "classification": "AHRQ CCS 2",
+     "position": "principal",
+     "ev": [
+      "PMC11549953.1.pdf",
+      "septicemia (except in labor) (CCS 2)"
+     ],
+     "position_ev": [
+      "PMC11549953.1.pdf",
+      "which are defined by groups of International Classification of Diseases (ICD) principal discharge diagnosis codes identified using the Clinical Classifications Software (CCS) algorithm"
+     ]
+    },
+    {
+     "name": "diabetes mellitus with complications (CCS 50)",
+     "step23": null,
+     "codes_status": "classification_ref",
+     "classification": "AHRQ CCS 50",
+     "position": "principal",
+     "ev": [
+      "PMC11549953.1.pdf",
+      "diabetes mellitus with complications (CCS 50)"
+     ]
+    },
+    {
+     "name": "fluid and electrolyte disorders (CCS 55)",
+     "step23": "fluid and electrolyte disorders",
+     "codes_status": "classification_ref",
+     "classification": "AHRQ CCS 55",
+     "position": "principal",
+     "ev": [
+      "PMC11549953.1.pdf",
+      "fluid and electrolyte disorders (CCS 55)"
+     ]
+    },
+    {
+     "name": "peripheral vascular disease (CCS 114)",
+     "step23": null,
+     "codes_status": "classification_ref",
+     "classification": "AHRQ CCS 114",
+     "position": "principal",
+     "ev": [
+      "PMC11549953.1.pdf",
+      "peripheral vascular disease (CCS 114)"
+     ]
+    },
+    {
+     "name": "renal failure (acute/unspecified) (CCS 157)",
+     "step23": null,
+     "codes_status": "classification_ref",
+     "classification": "AHRQ CCS 157",
+     "position": "principal",
+     "ev": [
+      "PMC11549953.1.pdf",
+      "renal failure (acute/unspecified) (CCS 157)"
+     ]
+    },
+    {
+     "name": "urinary tract infections (CCS 159)",
+     "step23": null,
+     "codes_status": "classification_ref",
+     "classification": "AHRQ CCS 159",
+     "position": "principal",
+     "ev": [
+      "PMC11549953.1.pdf",
+      "urinary tract infections (CCS 159)"
+     ]
+    },
+    {
+     "name": "heat stroke and other external causes (CCS 244)",
+     "step23": "heat stroke",
+     "codes_status": "classification_ref",
+     "classification": "AHRQ CCS 244",
+     "position": "principal",
+     "ev": [
+      "PMC11549953.1.pdf",
+      "stroke and other external causes (CCS 244)"
+     ]
+    }
+   ],
+   "reused_from_step26": true
+  },
+  "10_1097_ede_0000000000001265": {
+   "source": "CMS FFS Medicaid and FFS Medicare enrollees (hospitalizations)",
+   "medpar_ffs": "stated",
+   "ev": [
+    "PMC7896354.1.xml",
+    "all fee-for-service (FFS) full-benefit Medicaid enrollees of all ages (low-income and disabled Americans) and all FFS Medicare enrollees (aged 65 years and older)"
+   ],
+   "outcomes": [
+    {
+     "name": "CVD-related hospitalizations (first)",
+     "step23": "cardiovascular disease",
+     "codes_status": "explicit_codes",
+     "icd9": [
+      "390 to 495"
+     ],
+     "position": "principal",
+     "ev": [
+      "PMC7896354.1.xml",
+      "We defined CVD-related hospitalizations as events with a primary diagnosis (the condition chiefly responsible for the individual’s hospitalization) corresponding to an International Classification of Diseases, 9th Revision (ICD-9) codes from 390 to 495"
+     ],
+     "note": "Printed as 390 to 495 (the usual CVD range is 390–459; possibly a typo). Definitions apply to the Medicaid and Medicare cohorts."
+    },
+    {
+     "name": "ischemic heart disease",
+     "step23": "cardiovascular disease",
+     "codes_status": "explicit_codes",
+     "icd9": [
+      "410–414"
+     ],
+     "position": "principal",
+     "ev": [
+      "PMC7896354.1.xml",
+      "ischemic heart disease (IHD; ICD-9 codes: 410–414)"
+     ]
+    },
+    {
+     "name": "congestive heart failure",
+     "step23": "cardiovascular disease",
+     "codes_status": "explicit_codes",
+     "icd9": [
+      "428"
+     ],
+     "position": "principal",
+     "ev": [
+      "PMC7896354.1.xml",
+      "congestive heart failure (CHF; ICD-9 code: 428)"
+     ]
+    },
+    {
+     "name": "acute myocardial infarction",
+     "step23": "cardiovascular disease",
+     "codes_status": "explicit_codes",
+     "icd9": [
+      "410.9"
+     ],
+     "position": "principal",
+     "ev": [
+      "PMC7896354.1.xml",
+      "acute myocardial infarction (AMI; ICD-9 code: 410.9)"
+     ]
+    },
+    {
+     "name": "ischemic stroke",
+     "step23": "cardiovascular disease",
+     "codes_status": "explicit_codes",
+     "icd9": [
+      "434.91"
+     ],
+     "position": "principal",
+     "ev": [
+      "PMC7896354.1.xml",
+      "ischemic stroke (ICD-9 code: 434.91)"
+     ]
+    }
+   ],
+   "reused_from_step26": true
+  },
+  "10_1097_ede_0000000000001456": {
+   "source": "MEDPAR file (FFS), urgent and emergent hospitalizations",
+   "medpar_ffs": "stated",
+   "ev": [
+    "PMC8852365.1.xml",
+    "from the Medicare Provider Analysis and Review (MEDPAR) file"
+   ],
+   "outcome_wide": "57 cardiovascular and 32 respiratory multi-level CCS leaves; the leaves are listed in eAppendix 1 / eFigures 1-2 (not fetched), so only groups named in the text and Tables 2-3 are listed",
+   "outcomes": [
+    {
+     "name": "57 cardiovascular discharge diagnoses (multi-level CCS codes starting with 7)",
+     "step23": "57 cardiovascular discharge diagnoses",
+     "codes_status": "classification_ref",
+     "classification": "AHRQ multi-level CCS, chapter 7",
+     "position": "principal",
+     "ev": [
+      "PMC8852365.1.xml",
+      "cardiovascular hospitalizations (CCS codes starting with 7)"
+     ],
+     "position_ev": [
+      "PMC8852365.1.xml",
+      "mapped from International Classification of Diseases, Revision 9 (ICD9) codes for primary discharge diagnoses"
+     ]
+    },
+    {
+     "name": "32 respiratory discharge diagnoses (multi-level CCS codes starting with 8)",
+     "step23": "32 respiratory discharge diagnoses",
+     "codes_status": "classification_ref",
+     "classification": "AHRQ multi-level CCS, chapter 8",
+     "position": "principal",
+     "ev": [
+      "PMC8852365.1.xml",
+      "respiratory hospitalizations (CCS codes starting with 8)"
+     ]
+    },
+    {
+     "name": "intracranial hemorrhage (CCS 7.3.1.1)",
+     "step23": "57 cardiovascular discharge diagnoses",
+     "codes_status": "classification_ref",
+     "classification": "AHRQ multi-level CCS 7.3.1.1",
+     "position": "principal",
+     "ev": [
+      "PMC8852365.1.xml",
+      "Intracranial hemorrhage (7.3.1.1)"
+     ]
+    },
+    {
+     "name": "other aneurysm (CCS 7.4.2.2)",
+     "step23": "57 cardiovascular discharge diagnoses",
+     "codes_status": "classification_ref",
+     "classification": "AHRQ multi-level CCS 7.4.2.2",
+     "position": "principal",
+     "ev": [
+      "PMC8852365.1.xml",
+      "Other aneurysm (7.4.2.2)"
+     ]
+    },
+    {
+     "name": "transient cerebral ischemia (CCS 7.3.4)",
+     "step23": "57 cardiovascular discharge diagnoses",
+     "codes_status": "classification_ref",
+     "classification": "AHRQ multi-level CCS 7.3.4",
+     "position": "principal",
+     "ev": [
+      "PMC8852365.1.xml",
+      "Transient cerebral ischemia (7.3.4)"
+     ]
+    },
+    {
+     "name": "heart failure and congestive heart failure (CCS 7.2.11; 3 outcomes)",
+     "step23": "57 cardiovascular discharge diagnoses",
+     "codes_status": "classification_ref",
+     "classification": "AHRQ multi-level CCS 7.2.11",
+     "position": "principal",
+     "ev": [
+      "PMC8852365.1.xml",
+      "Heart failure and congestive heart failure (7.2.11)"
+     ]
+    },
+    {
+     "name": "influenza (CCS 8.1.2)",
+     "step23": "32 respiratory discharge diagnoses",
+     "codes_status": "classification_ref",
+     "classification": "AHRQ multi-level CCS 8.1.2",
+     "position": "principal",
+     "ev": [
+      "PMC8852365.1.xml",
+      "Influenza (8.1.2)"
+     ]
+    }
+   ],
+   "reused_from_step26": true
+  },
+  "10_1136_bmjmed_2021_000009": {
+   "source": "MedPAR inpatient claims, Medicare Part A FFS",
+   "medpar_ffs": "stated",
+   "ev": [
+    "PMC10012859.1.pdf",
+    "We used the Medicare inpatient hospital claims from the Medicare Provider and Analysis Review files that contain one record per hospital admission"
+   ],
+   "outcomes": [
+    {
+     "name": "diseases of the kidney and the urinary system",
+     "step23": "kidney and urinary system disease",
+     "codes_status": "explicit_codes",
+     "icd9": [
+      "580-599"
+     ],
+     "icd10": [
+      "N00-N39"
+     ],
+     "position": "principal_or_secondary",
+     "ev": [
+      "PMC10012859.1.pdf",
+      "We used international classification of diseases (ICD) codes to identify diseases of the kidney and the urinary system (ICD-9: 580-599; ICD-10: N00-N39) and CKD (ICD-9: 585; ICD-10: N18) as the primary or secondary diagnosis"
+     ]
+    },
+    {
+     "name": "chronic kidney disease",
+     "step23": "chronic kidney disease",
+     "codes_status": "explicit_codes",
+     "icd9": [
+      "585"
+     ],
+     "icd10": [
+      "N18"
+     ],
+     "position": "principal_or_secondary",
+     "ev": [
+      "PMC10012859.1.pdf",
+      "CKD (ICD-9: 585; ICD-10: N18)"
+     ]
+    }
+   ],
+   "reused_from_step26": true
+  },
+  "10_1289_ehp10729": {
+   "source": "MedPAR inpatient claims, Medicare Part A FFS",
+   "medpar_ffs": "stated",
+   "ev": [
+    "PMC10084931.1.pdf",
+    "The Medicare inpatient hospital claims were obtained from the Medicare Provider and Analysis Review (MedPAR) files"
+   ],
+   "outcomes": [
+    {
+     "name": "first hospital admission with acute kidney injury",
+     "step23": "acute kidney injury",
+     "codes_status": "explicit_codes",
+     "icd9": [
+      "584"
+     ],
+     "icd10": [
+      "N17"
+     ],
+     "position": "any",
+     "ev": [
+      "PMC10084931.1.pdf",
+      "namely, ICD-9 code 584; ICD10 code N17 to address any inpatient hospital admissions with any AKI onsets"
+     ],
+     "position_ev": [
+      "PMC10084931.1.pdf",
+      "We used the first 10 diagnosis fields to define the primary (the first diagnosis field) and secondary (as the diseases from the 2nd to the 10th diagnosis fields) diagnosis codes for AKI"
+     ],
+     "note": "Primary or secondary (diagnosis fields 1-10). Stratifiers also defined by codes: prior CKD (585/N18); primary disease of AKI admission: circulatory 390–458/I00–I99, IHD 410–414/I20–I25, HF 428/I50, AMI 410/I21, cerebrovascular 430–438/I60–I69, pneumonia 480–486/J12–J18, diabetes 250/E08–E14, UTI 599.0/N39.0."
+    }
+   ],
+   "reused_from_step26": true
+  },
+  "10_1097_ee9_0000000000000261": {
+   "source": "Medicare FFS hospitalizations (county daily counts)",
+   "medpar_ffs": "stated",
+   "ev": [
+    "PMC10402938.1.pdf",
+    "as well as daily, county-level, cause-specific hospitalizations among Medicare fee-for-service (FFS) beneficiaries over the same period"
+   ],
+   "outcomes": [
+    {
+     "name": "heat-related hospitalizations (CCS 55, 157, 159, 2, 244, 114, 50)",
+     "step23": "heat-related hospitalizations",
+     "codes_status": "classification_ref",
+     "classification": "AHRQ CCS 55, 157, 159, 2, 244, 114, 50",
+     "position": null,
+     "ev": [
+      "PMC10402938.1.pdf",
+      "with Clinical Classifications Software (CCS) codes of 55 (fluid and electrolyte disorders), 157 (acute and unspecified renal failure), 159 (urinary tract infections), 2 (septicemia), 244 (heat and other injuries and conditions owing to external causes), 114 (peripheral and visceral atherosclerosis), and 50 (diabetes mellitus with complications)"
+     ],
+     "cites": "Weinberger et al. 2021 (ref 25) for the choice of CCS groups"
+    }
+   ],
+   "reused_from_step26": true
+  },
+  "10_1016_j_envint_2022_107694": {
+   "source": "MedPAR Part A inpatient events (FFS)",
+   "medpar_ffs": "stated",
+   "ev": [
+    "PMC9885762.1.pdf",
+    "For each individual we extracted all associated hospital inpatient events recorded in Medicare Part A MedPAR files"
+   ],
+   "outcomes": [
+    {
+     "name": "first hospitalization with ADRD",
+     "step23": "first hospitalization with ADRD",
+     "codes_status": "explicit_codes",
+     "classification": "CMS Chronic Conditions Data Warehouse (CCW) ADRD algorithm",
+     "icd9": [
+      "331.0",
+      "331.11",
+      "331.19",
+      "331.2",
+      "331.7",
+      "290.0",
+      "290.10",
+      "290.11",
+      "290.12",
+      "290.13",
+      "290.20",
+      "290.21",
+      "290.3",
+      "290.40",
+      "290.41",
+      "290.42",
+      "290.43",
+      "294.0",
+      "294.10",
+      "294.11",
+      "294.20",
+      "294.21",
+      "294.8",
+      "797"
+     ],
+     "icd10": [
+      "F01.50",
+      "F01.51",
+      "F02.80",
+      "F02.81",
+      "F03.90",
+      "F03.91",
+      "F04",
+      "F05",
+      "F06.1",
+      "F06.8",
+      "G13.8",
+      "G30.0",
+      "G30.1",
+      "G30.8",
+      "G30.9",
+      "G31.01",
+      "G31.09",
+      "G31.1",
+      "G31.2",
+      "G94",
+      "R41.81",
+      "R54"
+     ],
+     "position": "any",
+     "ev": [
+      "NIHMS1866476-supplement-1.docx",
+      "Table S1: ICD codes for classifying hospitalizations with ADRD"
+     ],
+     "position_ev": [
+      "PMC9885762.1.pdf",
+      "first 10 billing codes for each hospital admission where codes follow the International Classification of Disease"
+     ],
+     "note": "ICD-9 used 2000-2015 and ICD-10 for 2015-2016 (supplement). Same code list as Klompmaker 2023 JAMA Netw Open."
+    }
+   ]
+  },
+  "10_1016_j_envint_2024_108739": {
+   "source": "Medicare FFS beneficiaries' hospitalizations",
+   "medpar_ffs": "stated",
+   "ev": [
+    "PMC11199351.319.pdf",
+    "We created an open cohort including all fee-for-service (FFS) Medicare beneficiaries 65 + years living in ZIP codes in CBSAs"
+   ],
+   "outcomes": [
+    {
+     "name": "first PD-involved hospitalization",
+     "step23": "first PD-involved hospitalization",
+     "codes_status": "explicit_codes",
+     "icd9": [
+      "332.0",
+      "332.1"
+     ],
+     "icd10": [
+      "G20",
+      "G21.11",
+      "G21.19",
+      "G21.8"
+     ],
+     "position": "any",
+     "ev": [
+      "PMC11199351.319.pdf",
+      "ICD-9): 332.0 332.1; ICD-10: G20, G21.11, G21.19, and G21.8"
+     ],
+     "position_ev": [
+      "PMC11199351.319.pdf",
+      "Our outcome of interest was first hospital admission with any discharge diagnosis code of PD"
+     ]
+    }
+   ]
+  },
+  "10_1038_s41531_024_00815_x": {
+   "source": "MedPAR (Medicare Part A), FFS",
+   "medpar_ffs": "stated",
+   "ev": [
+    "PMC11502743.1.pdf",
+    "the Medicare Provider and Analysis Review (MedPAR ﬁle) for Medicare Part A"
+   ],
+   "outcomes": [
+    {
+     "name": "first hospitalization with Parkinson's disease",
+     "step23": "first hospitalization with Parkinson's disease",
+     "codes_status": "explicit_codes",
+     "icd9": [
+      "332"
+     ],
+     "icd10": [
+      "G20"
+     ],
+     "position": "any",
+     "ev": [
+      "PMC11502743.1.pdf",
+      "PD diagnosis was determined based on International Classiﬁcation of Diseases codes (ICD-9 332; ICD-10 G20) from the ﬁrst ten claim billing codes"
+     ]
+    }
+   ]
+  },
+  "10_1093_aje_kwae133": {
+   "source": "MedPAR (Medicare Part A), FFS",
+   "medpar_ffs": "stated",
+   "ev": [
+    "fulltext.pdf",
+    "Claims for inpatient hospitalizations were obtained from the Medicare Provider and Analysis Review file for Medicare Part A"
+   ],
+   "outcomes": [
+    {
+     "name": "first hospitalization with ADRD",
+     "step23": "first hospitalization with ADRD",
+     "codes_status": "in_unfetched_supplement",
+     "classification": "CMS Chronic Conditions Data Warehouse (CCW) ADRD algorithm",
+     "position": "any",
+     "ev": [
+      "fulltext.pdf",
+      "The codes used are listed in Supplementary Materials Appendix S1"
+     ],
+     "position_ev": [
+      "fulltext.pdf",
+      "We follow Shi et al8 in defining the outcome as a hospitalization that was recorded with an accompanying diagnosis code for ADRD"
+     ],
+     "note": "Open-access PDF without its supplement (Appendix S1 not fetched)."
+    }
+   ]
+  },
+  "10_1097_ee9_0000000000000395": {
+   "source": "MedPAR Part A inpatient billing records and Medicare Beneficiary Summary File (FFS)",
+   "medpar_ffs": "stated",
+   "ev": [
+    "PMC12058651.1.pdf",
+    "from US Centers for Medicare and Medicaid Services MedPAR Part A inpatient billing records and Medicare Beneficiary Summary File with enrollment records"
+   ],
+   "outcomes": [
+    {
+     "name": "heat-related illness",
+     "step23": "heat-related hospitalizations",
+     "codes_status": "explicit_codes",
+     "icd9": [
+      "992.0-992.9"
+     ],
+     "icd10": [
+      "T67.3-67.5"
+     ],
+     "position": "principal_or_secondary",
+     "ev": [
+      "PMC12058651.1.pdf",
+      "heat-related illness (ICD-9-CM: 992.0-992.9; ICD-10-CM: T67.3-67.5)"
+     ],
+     "position_ev": [
+      "PMC12058651.1.pdf",
+      "Hospitalizations with heat-related illness were identified based on the International Classification of Disease"
+     ],
+     "note": "ICD-10 printed as 'T67.3-67.5' (i.e. T67.3-T67.5); narrower than ICD-9 992.0-992.9, which maps to T67.0-T67.9."
+    },
+    {
+     "name": "exposure to excessive natural heat",
+     "step23": "heat-related hospitalizations",
+     "codes_status": "explicit_codes",
+     "icd9": [
+      "E900"
+     ],
+     "icd10": [
+      "X30"
+     ],
+     "position": "principal_or_secondary",
+     "ev": [
+      "PMC12058651.1.pdf",
+      "exposure to excessive natural heat (ICD-9-CM: E900; ICD-10-CM: X30)"
+     ]
+    },
+    {
+     "name": "dehydration",
+     "step23": "heat-related hospitalizations",
+     "codes_status": "explicit_codes",
+     "icd9": [
+      "276.51"
+     ],
+     "icd10": [
+      "E86.0"
+     ],
+     "position": "principal_or_secondary",
+     "ev": [
+      "PMC12058651.1.pdf",
+      "dehydration (ICD-9-CM: 276.51; ICD-10-CM: E86.0)"
+     ]
+    }
+   ]
+  },
+  "10_1038_s41370_026_00882_7": {
+   "source": "Medicare FFS beneficiaries' hospitalization claims",
+   "medpar_ffs": "stated",
+   "ev": [
+    "PMC13335889.2.pdf",
+    "The study population was drawn from a cohort of Medicare fee-for-service (FFS) beneﬁciaries aged 65+"
+   ],
+   "outcomes": [
+    {
+     "name": "first hospitalization with Parkinson's disease (warm season)",
+     "step23": "hospitalization with Parkinson's disease",
+     "codes_status": "explicit_codes",
+     "icd9": [
+      "332.0"
+     ],
+     "icd10": [
+      "G20"
+     ],
+     "position": "any",
+     "ev": [
+      "PMC13335889.2.pdf",
+      "if its resulting claim included a PD-related ICD-9 (332.0) or ICD-10 (G20) code within the ﬁrst ten billing diagnosis codes"
+     ]
+    }
+   ]
+  },
+  "10_1097_ee9_0000000000000519": {
+   "source": "Medicare FFS beneficiaries' hospitalization claims",
+   "medpar_ffs": "stated",
+   "ev": [
+    "PMC13461014.1.pdf",
+    "We analyzed data from 10,366,083 Medicare fee-for-service beneficiaries"
+   ],
+   "outcomes": [
+    {
+     "name": "first hospitalization with Parkinson's disease",
+     "step23": "first hospitalization with Parkinson's disease",
+     "codes_status": "explicit_codes",
+     "icd9": [
+      "332/332.0"
+     ],
+     "icd10": [
+      "G20"
+     ],
+     "position": "any",
+     "ev": [
+      "PMC13461014.1.pdf",
+      "first hospitalization claim including a PD-related International Classification of Diseases (ICD)-9 (332/332.0) or ICD-10 (G20) code within the first ten billing diagnosis code inputs"
+     ]
+    }
+   ]
+  }
+ }
+}
