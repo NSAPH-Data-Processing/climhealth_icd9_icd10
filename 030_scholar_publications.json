@@ -1,0 +1,1148 @@
+{
+  "source": "https://scholar.google.com/citations?user=zQEnP70AAAAJ",
+  "retrieved": "2026-10-22",
+  "author": "Danielle Braun",
+  "affiliation": "Harvard T.H. Chan School of Public Health, Dana-Farber Cancer Institute",
+  "total_citations": 6370,
+  "h_index": 33,
+  "n_publications": 140,
+  "flag_definitions": {
+    "no_year": "Scholar gives no publication year.",
+    "no_venue": "Scholar gives no venue/citation string.",
+    "duplicate_title": "Same title (case-insensitive) appears more than once in the profile.",
+    "suspect_title": "Title has < 4 words or looks like a non-article artifact (e.g. 'Europe PMC free article', 'Publish Ahead of Print', workshop listings)."
+  },
+  "publications": [
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:j8SEvjWlNXcC",
+      "title": "Age-Specific Ovarian Cancer Risk Among Individuals With Pathogenic Variants in PALB2",
+      "year": 2026,
+      "venue": "JCO Precision Oncology 10 (8), e2600167, 2026",
+      "num_citations": 0,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:2KloaMYe4IUC",
+      "title": "Age-specific risks of leukemia in Li Fraumeni syndrome in children, adolescents, young adults, and adults.",
+      "year": 2026,
+      "venue": "Journal of Clinical Oncology 44 (16_suppl), e22653-e22653, 2026",
+      "num_citations": 0,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:evX43VCCuoAC",
+      "title": "Benchmarking reliability and calibration of LLMs for multi-cancer early detection test communication",
+      "year": 2026,
+      "venue": "JAMIA open 9 (3), ooag093, 2026",
+      "num_citations": 0,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:_Ybze24A_UAC",
+      "title": "Data needs for accelerating research at the intersection of climate stressors and health: an online survey",
+      "year": 2026,
+      "venue": "Environmental Research: Health 4 (1), 015007, 2026",
+      "num_citations": 1,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:W5xh706n7nkC",
+      "title": "Evaluating a Mendelian Risk Prediction Model That Aggregates Across Genes and Cancers",
+      "year": 2026,
+      "venue": "Genetic Epidemiology 50 (3), e70038, 2026",
+      "num_citations": 0,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:tzM49s52ZIMC",
+      "title": "Evidence of Smoke-Related PM 2.5 on Menstrual Cycle Health: A Prospective, Observational Study Using Multi-Country Data From a Mobile Health App",
+      "year": 2026,
+      "venue": "Observational Study Using Multi-Country Data From a Mobile Health App (May …, 2026",
+      "num_citations": 0,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:tKAzc9rXhukC",
+      "title": "Extreme heat and hospitalization with Parkinson’s disease among older adults",
+      "year": 2026,
+      "venue": "Journal of Exposure Science & Environmental Epidemiology, 1-9, 2026",
+      "num_citations": 3,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:35r97b3x0nAC",
+      "title": "Familial Risk Stratification Across Cancer Syndromes Using Fam3PRO",
+      "year": 2026,
+      "venue": "Genetics in Medicine, 102665, 2026",
+      "num_citations": 0,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:JQOojiI6XY0C",
+      "title": "Genetic testing for all breast cancer patients: the GET FACTS randomized clinical trial",
+      "year": 2026,
+      "venue": "JAMA Network Open 9 (1), e2551553, 2026",
+      "num_citations": 2,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:UHK10RUVsp4C",
+      "title": "Higher temperatures are associated with increased interpersonal and self-inflicted violence-related Medicaid hospital visits in the United States",
+      "year": 2026,
+      "venue": "Communications Sustainability 1 (1), 4, 2026",
+      "num_citations": 2,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:ZfRJV9d4-WMC",
+      "title": "Hospitalization risk with and without dementia by region and race in the United States",
+      "year": 2026,
+      "venue": "American Journal of Epidemiology 195 (7), 1839-1849, 2026",
+      "num_citations": 0,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:Fu2w8maKXqMC",
+      "title": "Interpretable Active Learning for Pedigree Data Deduplication in Cancer Genetics",
+      "year": 2026,
+      "venue": "JCO Clinical Cancer Informatics 10 (1), e2500252, 2026",
+      "num_citations": 0,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:-_dYPAW6P2MC",
+      "title": "Long-term cumulative associations of annual air pollution exposure and hospitalization with Parkinson’s Disease",
+      "year": 2026,
+      "venue": "Environmental Epidemiology 10 (4), e519, 2026",
+      "num_citations": 0,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:uLbwQdceFCQC",
+      "title": "Long-term impact of fine particulate matter on mortality is exacerbated when wildfire events occur",
+      "year": 2026,
+      "venue": "American Journal of Epidemiology 195 (6), 1782-1785, 2026",
+      "num_citations": 4,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:fEOibwPWpKIC",
+      "title": "PM2. 5 and 30-Day Readmission in Medicare Beneficiaries with Alzheimer’s Disease and Related Dementias: Effect Modification by Neighborhood Green and Blue Space",
+      "year": 2026,
+      "venue": "Environmental Health Perspectives, 2026",
+      "num_citations": 0,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:N5tVd3kTz84C",
+      "title": "Web-Based User Interface for Fam3PRO: A Multigene, Multicancer Risk Prediction Model for Families With Cancer History",
+      "year": 2026,
+      "venue": "JCO Clinical Cancer Informatics 10 (1), e2500332, 2026",
+      "num_citations": 1,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:eq2jaN3J8jMC",
+      "title": "A Clinical Decision Support Tool to Predict Contralateral Breast Cancer Risk for Women with Primary Breast Cancer",
+      "year": 2025,
+      "venue": "Medical Research Archives 13 (7), 2025",
+      "num_citations": 1,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:fQNAKQ3IYiAC",
+      "title": "Adjusting for Ascertainment Bias in Meta‐Analysis of Penetrance for Cancer Risk",
+      "year": 2025,
+      "venue": "Statistics in Medicine 44 (3-4), e10323, 2025",
+      "num_citations": 2,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:tkaPQYYpVKoC",
+      "title": "BreakLoops: A New Feature for the Multi-Gene, Multi-Cancer Family History-Based Model, Fam3Pro",
+      "year": 2025,
+      "venue": "arXiv preprint arXiv:2505.01466, 2025",
+      "num_citations": 0,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:Y5dfb0dijaUC",
+      "title": "Coexposure to extreme heat, wildfire burn zones, and wildfire smoke in the Western US from 2006 to 2020",
+      "year": 2025,
+      "venue": "Science Advances 11 (18), eadq6453, 2025",
+      "num_citations": 17,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:1yQoGdGgb4wC",
+      "title": "Combined and synergistic effects of heat and fine particulate matter on hospitalization among patients with Alzheimer’s disease and related dementias",
+      "year": 2025,
+      "venue": "Environmental Epidemiology 9 (6), e440, 2025",
+      "num_citations": 3,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:kRWSkSYxWN8C",
+      "title": "Comparing traditional and causal inference methodologies for evaluating impacts of long-term air pollution exposure on hospitalization with Alzheimer disease and related dementias",
+      "year": 2025,
+      "venue": "American Journal of Epidemiology 194 (1), 64-72, 2025",
+      "num_citations": 9,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:ZuybSZzF8UAC",
+      "title": "Estimating the Effects of Heatwaves on Health: A Causal Inference Framework",
+      "year": 2025,
+      "venue": "arXiv preprint arXiv:2511.11433, 2025",
+      "num_citations": 3,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:_B80troHkn4C",
+      "title": "Extreme heat and hospital admissions in older adults: A small-area analysis in the Greater Boston metropolitan area",
+      "year": 2025,
+      "venue": "Environmental Epidemiology 9 (3), e395, 2025",
+      "num_citations": 8,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:olpn-zPbct0C",
+      "title": "Extreme heat and hospitalization among older persons with Alzheimer disease and related dementias",
+      "year": 2025,
+      "venue": "JAMA Internal Medicine 185 (4), 412-421, 2025",
+      "num_citations": 35,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:5awf1xo2G04C",
+      "title": "Impact of boom-and-bust economies from oil and gas development on psychiatric hospitalizations among Medicaid beneficiaries",
+      "year": 2025,
+      "venue": "Environmental Research: Health 3 (3), 035008, 2025",
+      "num_citations": 7,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:eMMeJKvmdy0C",
+      "title": "Impact of the American Society of Breast Surgeons’ guidelines on genetic testing and contralateral prophylactic mastectomy rates",
+      "year": 2025,
+      "venue": "Annals of surgical oncology 32 (6), 3965-3974, 2025",
+      "num_citations": 7,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:WqliGbK-hY8C",
+      "title": "Improving FAIR Compliance for High-Dimensional Data via Automated Metadata Extraction",
+      "year": 2025,
+      "venue": "2025 IEEE International Conference on eScience (eScience), 445-451, 2025",
+      "num_citations": 1,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:SdhP9T11ey4C",
+      "title": "Quantifying effects of solar power adoption on CO2 emissions reduction",
+      "year": 2025,
+      "venue": "Science Advances 11 (31), eadq5660, 2025",
+      "num_citations": 9,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:kzcrU_BdoSEC",
+      "title": "Robust Statistical Approaches to Understanding the Causal Effect of Air Pollution Mixtures",
+      "year": 2025,
+      "venue": "Research Reports: Health Effects Institute 2025, 234, 2025",
+      "num_citations": 1,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:PELIpwtuRlgC",
+      "title": "The effect of air pollution exposure on menstrual cycle health using self-reported data from a mobile health app: a prospective, observational study",
+      "year": 2025,
+      "venue": "The Lancet Planetary Health 9 (5), e364-e373, 2025",
+      "num_citations": 14,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:Mojj43d5GZwC",
+      "title": "The impacts of air pollution on mortality and hospital readmission among Medicare beneficiaries with Alzheimer's disease and Alzheimer's disease-related dementias: a national …",
+      "year": 2025,
+      "venue": "The Lancet Planetary Health 9 (2), e114-e123, 2025",
+      "num_citations": 17,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:9vf0nzSNQJEC",
+      "title": "The penetrance R package for estimation of age specific risk in family-based studies",
+      "year": 2025,
+      "venue": "Bioinformatics Advances 5 (1), vbaf154, 2025",
+      "num_citations": 1,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:eflP2zaiRacC",
+      "title": "Treatment effect heterogeneity and importance measures for multivariate continuous treatments",
+      "year": 2025,
+      "venue": "The Annals of Applied Statistics 19 (3), 1847-1867, 2025",
+      "num_citations": 13,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:hkOj_22Ku90C",
+      "title": "Two and a half decades of United States wildfire burn zone disaster data, 2000-2025",
+      "year": 2025,
+      "venue": "Scientific Data 12 (1), 1948, 2025",
+      "num_citations": 4,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:PR6Y55bgFSsC",
+      "title": "Variant‐Specific Mendelian Risk Prediction Model",
+      "year": 2025,
+      "venue": "Statistics in Medicine 44 (28-30), e70342, 2025",
+      "num_citations": 0,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:NaGl4SEjCO4C",
+      "title": "Assessing the causal effects of a stochastic intervention in time series data: are heat alerts effective in preventing deaths and hospitalizations?",
+      "year": 2024,
+      "venue": "Biostatistics 25 (1), 57-79, 2024",
+      "num_citations": 21,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:1qzjygNMrQYC",
+      "title": "Association between mental health disorders and extreme heat among Medicaid adolescents",
+      "year": 2024,
+      "venue": "ISEE Conference Abstracts 2024 (1), 2024",
+      "num_citations": 0,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:q3oQSFYPqjQC",
+      "title": "Associations of street-view greenspace with Parkinson’s disease hospitalizations in an open cohort of elderly US Medicare beneficiaries",
+      "year": 2024,
+      "venue": "Environment International 188, 108739, 2024",
+      "num_citations": 23,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:p2g8aNsByqUC",
+      "title": "Bayesian meta-analysis of penetrance for cancer risk",
+      "year": 2024,
+      "venue": "Biometrics 80 (2), ujae038, 2024",
+      "num_citations": 7,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:5ugPr518TE4C",
+      "title": "Critically examining research funding patterns for climate change and human health",
+      "year": 2024,
+      "venue": "npj Climate Action 3 (1), 64, 2024",
+      "num_citations": 16,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:eJXPG6dFmWUC",
+      "title": "GPCERF-An R package for implementing Gaussian processes for estimating causal exposure response curves",
+      "year": 2024,
+      "venue": "Journal of Open Source Software 9 (95), 5465, 2024",
+      "num_citations": 0,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:Tiz5es2fbqcC",
+      "title": "Measuring long-term exposure to wildfire PM2.5 in California: Time-varying inequities in environmental burden",
+      "year": 2024,
+      "venue": "Proceedings of the National Academy of Sciences 121 (8), e2306729121, 2024",
+      "num_citations": 102,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:738O_yMBCRsC",
+      "title": "Meta‐analysis of breast cancer risk for individuals with palb2 pathogenic variants",
+      "year": 2024,
+      "venue": "Genetic Epidemiology 48 (8), 448-454, 2024",
+      "num_citations": 15,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:ye4kPcJQO24C",
+      "title": "Multifactorial Zip Code-Year Dataset: Socio-Economic, Demographic, and Environmental Variables in the Contiguous United States (2000-2016)",
+      "year": 2024,
+      "venue": "Harvard Dataverse dataset, 45, 2024",
+      "num_citations": 1,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:mvPsJ3kp5DgC",
+      "title": "Rejoinder to the discussion on “Bayesian meta-analysis of penetrance for cancer risk”",
+      "year": 2024,
+      "venue": "Biometrics 80 (2), ujae040, 2024",
+      "num_citations": 1,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:V3AGJWp-ZtQC",
+      "title": "Street-view green space impacts on Alzheimer’s disease hospitalization risk in the US Medicare population",
+      "year": 2024,
+      "venue": "ISEE Conference Abstracts 2024 (1), 2024",
+      "num_citations": 0,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:bnK-pcrLprsC",
+      "title": "The effect of air pollution on hospitalizations with Parkinson’s disease among medicare beneficiaries nationwide",
+      "year": 2024,
+      "venue": "npj Parkinson's Disease 10 (1), 196, 2024",
+      "num_citations": 7,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:P5F9QuxV20EC",
+      "title": "A Literature Review of the Effects of Air Pollution on COVID-19 Health Outcomes Worldwide: Statistical Challenges and Data Visualization",
+      "year": 2023,
+      "venue": "Annual Review of Public Health 44, 1-20, 2023",
+      "num_citations": 47,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:WbkHhVStYXYC",
+      "title": "A spatial interference approach to account for mobility in air pollution studies with multivariate continuous treatments",
+      "year": 2023,
+      "venue": "arXiv preprint arXiv:2305.14194, 2023",
+      "num_citations": 7,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:8AbLer7MMksC",
+      "title": "Absolute risk of PM2. 5-attributable mortality differs by racial identity, income, and age",
+      "year": 2023,
+      "venue": "ISEE Conference Abstracts 2023 (1), 2023",
+      "num_citations": 0,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:uWQEDVKXjbEC",
+      "title": "Air Pollution and Mortality at the Intersection of Race and Social Class",
+      "year": 2023,
+      "venue": "New England Journal of Medicine 388 (15), 1396-1404, 2023",
+      "num_citations": 185,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:XiSMed-E-HIC",
+      "title": "Air pollution and acute kidney injury in the US medicare population: a longitudinal cohort study",
+      "year": 2023,
+      "venue": "Environmental Health Perspectives 131 (4), 047008, 2023",
+      "num_citations": 58,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:UxriW0iASnsC",
+      "title": "Associations between greenness and kidney disease in Massachusetts: The US Medicare longitudinal cohort study",
+      "year": 2023,
+      "venue": "Environment International 173, 107844, 2023",
+      "num_citations": 14,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:tS2w5q8j5-wC",
+      "title": "CausalGPS: An R Package for Causal Inference With Continuous Exposures",
+      "year": 2023,
+      "venue": "arXiv preprint arXiv:2310.00561, 2023",
+      "num_citations": 9,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:u9iWguZQMMsC",
+      "title": "Clinical implications of conflicting variant interpretations in the cancer genetics clinic",
+      "year": 2023,
+      "venue": "Genetics in Medicine 25 (7), 100837, 2023",
+      "num_citations": 12,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:abG-DnoFyZgC",
+      "title": "Combining aggregate and individual-level data to estimate individual-level associations between air pollution and COVID-19 mortality in the United States",
+      "year": 2023,
+      "venue": "PLOS Global Public Health 3 (8), e0002178, 2023",
+      "num_citations": 5,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:RHpTSmoSYBkC",
+      "title": "Combining breast cancer risk prediction models",
+      "year": 2023,
+      "venue": "Cancers 15 (4), 1090, 2023",
+      "num_citations": 24,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:1sJd4Hv_s6UC",
+      "title": "Correction to: Estimating a Causal Exposure Response Function with a Continuous Error-Prone Exposure: A Study of Fine Particulate Matter and All-Cause Mortality",
+      "year": 2023,
+      "venue": "Journal of Agricultural, Biological and Environmental Statistics 28 (1), 42-42, 2023",
+      "num_citations": 2,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:K3LRdlH-MEoC",
+      "title": "Does choice of outdoor heat metric affect heat-related epidemiologic analyses in the US Medicare population?",
+      "year": 2023,
+      "venue": "Environmental Epidemiology 7 (4), e261, 2023",
+      "num_citations": 30,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:b0M2c_1WBrUC",
+      "title": "Evaluation of model-based PM2. 5 estimates for exposure assessment during wildfire smoke episodes in the western US",
+      "year": 2023,
+      "venue": "Environmental science & technology 57 (5), 2031, 2023",
+      "num_citations": 25,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:LjlpjdlvIbIC",
+      "title": "Five-year dataset depicting electric power generation and CO2 emissions within the US electricity sector, spanning from July 2018 to June 2023",
+      "year": 2023,
+      "venue": "Harvard Dataverse dataset, 294, 2023",
+      "num_citations": 0,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:D03iK_w7-QYC",
+      "title": "Investigating Use of Low-Cost Sensors to Increase Accuracy and Equity of Real-Time Air Quality Information",
+      "year": 2023,
+      "venue": "Environmental Science & Technology 57 (3), 1391-1402, 2023",
+      "num_citations": 48,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:B3FOqHPlNUQC",
+      "title": "Long-Term Exposure to Low-Level  and Mortality: Investigation of Heterogeneity by Harmonizing Analyses in Large Cohort Studies in Canada, United States …",
+      "year": 2023,
+      "venue": "Environmental Health Perspectives 131 (12), 127003, 2023",
+      "num_citations": 41,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:nb7KW1ujOQ8C",
+      "title": "MyLynch: A Patient-Facing Clinical Decision Support Tool for Genetically-Guided Personalized Medicine in Lynch Syndrome",
+      "year": 2023,
+      "venue": "Cancers 15 (2), 391, 2023",
+      "num_citations": 8,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:t6usbXjVLHcC",
+      "title": "Partial identification and unmeasured confounding with multiple treatments and multiple outcomes",
+      "year": 2023,
+      "venue": "arXiv preprint arXiv:2311.12252, 2023",
+      "num_citations": 5,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:pqnbT2bcN3wC",
+      "title": "SNIP: An adaptation of sorted neighborhood methods for deduplicating pedigree data",
+      "year": 2023,
+      "venue": "The Annals of Applied Statistics 17 (3), 2619-2638, 2023",
+      "num_citations": 2,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:5Ul4iDaHHb8C",
+      "title": "The impact of multiple marginalization on the association between acute exposure to hot summer temperature and reduced childhood cognitive performance",
+      "year": 2023,
+      "venue": "ISEE Conference Abstracts 2023 (1), 2023",
+      "num_citations": 0,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:geHnlv5EZngC",
+      "title": "The impacts of fine particulate matter components and trace elements on rates of dementia hospitalization",
+      "year": 2023,
+      "venue": "ISEE Conference Abstracts 2023 (1), 2023",
+      "num_citations": 0,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:CHSYGLWDkRkC",
+      "title": "Time-lagged relationships between a decade of air pollution exposure and first hospitalization with Alzheimer's disease and related dementias",
+      "year": 2023,
+      "venue": "Environment International 171, 107694, 2023",
+      "num_citations": 41,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:VL0QpB8kHFEC",
+      "title": "Wildfire Smoke PM2. 5 Per Zipcode",
+      "year": 2023,
+      "venue": "Harvard Dataverse dataset, 201, 2023",
+      "num_citations": 1,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:cFHS6HbyZ2cC",
+      "title": "A Bayesian multi-outcome analysis of fine particulate matter and cardiorespiratory hospitalizations",
+      "year": 2022,
+      "venue": "Epidemiology (Cambridge, Mass.) 33 (2), 176, 2022",
+      "num_citations": 4,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:_xSYboBqXhAC",
+      "title": "A validation of models for prediction of pathogenic variants in mismatch repair genes",
+      "year": 2022,
+      "venue": "Genetics in Medicine 24 (10), 2155-2166, 2022",
+      "num_citations": 10,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:NhqRSupF_l8C",
+      "title": "Assessing adverse health effects of long-term exposure to low levels of ambient air pollution: implementation of causal inference methods",
+      "year": 2022,
+      "venue": "Research Reports: Health Effects Institute 2022, 211, 2022",
+      "num_citations": 115,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:a0OBvERweLwC",
+      "title": "Associations between long term air pollution exposure and first hospital admission for kidney and total urinary system diseases in the US Medicare population: nationwide …",
+      "year": 2022,
+      "venue": "BMJ medicine 1 (1), e000009, 2022",
+      "num_citations": 42,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:rO6llkc54NcC",
+      "title": "Estimating a Causal Exposure Response Function with a Continuous Error-Prone Exposure: A Study of Fine Particulate Matter and All-Cause Mortality",
+      "year": 2022,
+      "venue": "Journal of Agricultural, Biological and Environmental Statistics, 1-22, 2022",
+      "num_citations": 35,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:f2IySw72cVMC",
+      "title": "Evaluation of Lynch syndrome risk models in a multicenter diverse population.",
+      "year": 2022,
+      "venue": "Journal of Clinical Oncology 40 (16_suppl), 10597-10597, 2022",
+      "num_citations": 1,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:RYcK_YlVTxYC",
+      "title": "Familial pancreatic cancer: who should be considered for genetic testing?",
+      "year": 2022,
+      "venue": "Irish Journal of Medical Science (1971-) 191 (2), 641-650, 2022",
+      "num_citations": 3,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:5nxA0vEk-isC",
+      "title": "Matching on generalized propensity scores with continuous exposures",
+      "year": 2022,
+      "venue": "Journal of the American Statistical Association, 1-28, 2022",
+      "num_citations": 129,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:zA6iFVUQeVQC",
+      "title": "Penetrance of male breast cancer susceptibility genes: a systematic review",
+      "year": 2022,
+      "venue": "Breast Cancer Research and Treatment 191 (1), 31-38, 2022",
+      "num_citations": 34,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:ldfaerwXgEUC",
+      "title": "Prediction of hereditary cancers using neural networks",
+      "year": 2022,
+      "venue": "The annals of applied statistics 16 (1), 495, 2022",
+      "num_citations": 8,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:pyW8ca7W8N0C",
+      "title": "Statistical methods for Mendelian models with multiple genes and cancers",
+      "year": 2022,
+      "venue": "Genetic Epidemiology 46 (7), 395-414, 2022",
+      "num_citations": 5,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:blknAaTinKkC",
+      "title": "A likelihood‐based approach to assessing frequency of pathogenicity among variants of unknown significance in susceptibility genes",
+      "year": 2021,
+      "venue": "Statistics in Medicine 40 (3), 593-606, 2021",
+      "num_citations": 3,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:ns9cj8rnVeAC",
+      "title": "Abstract OT-20-01: Genetic testing for all breast cancer patients (get facts)",
+      "year": 2021,
+      "venue": "Cancer Research 81 (4_Supplement), OT-20-01-OT-20-01, 2021",
+      "num_citations": 0,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:35N4QoGY0k4C",
+      "title": "Bayesian Modeling for Exposure Response Curve via Gaussian Processes: Causal Effects of Exposure to Air Pollution on Health Outcomes",
+      "year": 2021,
+      "venue": "arXiv preprint arXiv:2105.03454, 2021",
+      "num_citations": 18,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:u_35RYKgDlwC",
+      "title": "Counterfactual time series analysis of short-term change in air pollution following the COVID-19 state of emergency in the United States",
+      "year": 2021,
+      "venue": "Scientific Reports 11 (1), 1-13, 2021",
+      "num_citations": 32,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:4JMBOYKVnBMC",
+      "title": "Disease spectrum of breast cancer susceptibility genes",
+      "year": 2021,
+      "venue": "Frontiers in oncology 11, 663419, 2021",
+      "num_citations": 19,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:lSLTfruPkqcC",
+      "title": "Disease spectrum of gastric cancer susceptibility genes",
+      "year": 2021,
+      "venue": "Medical Oncology 38 (5), 1-10, 2021",
+      "num_citations": 15,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:vV6vV6tmYwMC",
+      "title": "Extending models via gradient boosting: An application to Mendelian models",
+      "year": 2021,
+      "venue": "The Annals of Applied Statistics 15 (3), 1126-1146, 2021",
+      "num_citations": 2,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:3s1wT3WcHBgC",
+      "title": "Heat warnings, mortality, and hospital admissions among older adults in the United States",
+      "year": 2021,
+      "venue": "Environment International 157, 106834, 2021",
+      "num_citations": 87,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:g5m5HwL7SMYC",
+      "title": "Multi-syndrome, multi-gene risk modeling for individuals with a family history of cancer with the novel R package PanelPRO",
+      "year": 2021,
+      "venue": "Elife 10, e68699, 2021",
+      "num_citations": 22,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:bEWYMUwI8FkC",
+      "title": "Nationwide study of short-term exposure to fine particulate matter and cardiovascular hospitalizations among Medicaid enrollees",
+      "year": 2021,
+      "venue": "Epidemiology (Cambridge, Mass.) 32 (1), 6, 2021",
+      "num_citations": 37,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:J_g5lzvAfSwC",
+      "title": "Non-medullary thyroid cancer susceptibility genes: evidence and disease spectrum",
+      "year": 2021,
+      "venue": "Annals of Surgical Oncology 28 (11), 6590-6600, 2021",
+      "num_citations": 16,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:EUQCXRtRnyEC",
+      "title": "Package ‘CausalGPS’",
+      "year": 2021,
+      "venue": null,
+      "num_citations": 0,
+      "flags": [
+        "no_venue",
+        "suspect_title"
+      ]
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:M05iB0D1s5AC",
+      "title": "Search Behavior Regarding Cancer Susceptibility Genes Using a Clinical Decision Support Tool for Gene-Specific Penetrance: Content Analysis",
+      "year": 2021,
+      "venue": "JMIR cancer 7 (3), e28527, 2021",
+      "num_citations": 5,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:TFP_iSt0sucC",
+      "title": "Statistical approaches for meta‐analysis of genetic mutation prevalence",
+      "year": 2021,
+      "venue": "Genetic Epidemiology 45 (2), 154-170, 2021",
+      "num_citations": 2,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:fPk4N6BV_jEC",
+      "title": "Validation of breast cancer risk models by race/ethnicity, family history and molecular subtypes",
+      "year": 2021,
+      "venue": "Cancers 14 (1), 45, 2021",
+      "num_citations": 31,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:k_IJM867U9cC",
+      "title": "Variation in cancer risk among families with genetic susceptibility",
+      "year": 2021,
+      "venue": "Genetic epidemiology 45 (2), 209-221, 2021",
+      "num_citations": 8,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:dhFuZR0502QC",
+      "title": "A pedigree-based prediction model identifies carriers of deleterious de novo mutations in families with Li-Fraumeni syndrome",
+      "year": 2020,
+      "venue": "Genome research 30 (8), 1170-1180, 2020",
+      "num_citations": 9,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:hMod-77fHWUC",
+      "title": "Air pollution and COVID-19 mortality in the United States: Strengths and limitations of an ecological regression analysis",
+      "year": 2020,
+      "venue": "Science advances 6 (45), eabd4049, 2020",
+      "num_citations": 2711,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:hFOr9nPyWt4C",
+      "title": "Cancer risk and overall survival in APC I1307K carriers.",
+      "year": 2020,
+      "venue": "Journal of Clinical Oncology 38 (15_suppl), 1592-1592, 2020",
+      "num_citations": 1,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:M3ejUd6NZC8C",
+      "title": "Clinical factors associated with gastric cancer in individuals with Lynch syndrome",
+      "year": 2020,
+      "venue": "Clinical Gastroenterology and Hepatology 18 (4), 830-837. e1, 2020",
+      "num_citations": 69,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:R3hNpaxXUhUC",
+      "title": "Evaluating the impact of long-term exposure to fine particulate matter on mortality among the elderly",
+      "year": 2020,
+      "venue": "Science Advances 6 (29), eaba5692, 2020",
+      "num_citations": 302,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:hC7cP41nSMkC",
+      "title": "Legacy Genetic Testing Results for Cancer Susceptibility: How Common are Conflicting Classifications in a Large Variant Dataset from Multiple Practices?",
+      "year": 2020,
+      "venue": "Annals of surgical oncology 27 (7), 2212-2220, 2020",
+      "num_citations": 3,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:maZDTaKrznsC",
+      "title": "Long-term effects of PM2· 5 on neurological disorders in the American Medicare population: a longitudinal cohort study",
+      "year": 2020,
+      "venue": "The Lancet Planetary Health 4 (12), e557-e565, 2020",
+      "num_citations": 383,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:L8Ckcad2t8MC",
+      "title": "Penetrance of Breast and Ovarian Cancer in Women Who Carry a BRCA1/2 Mutation and Do Not Use Risk-Reducing Salpingo-Oophorectomy: An Updated Meta …",
+      "year": 2020,
+      "venue": "JNCI cancer spectrum 4 (4), pkaa029, 2020",
+      "num_citations": 130,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:qUcmZB5y_30C",
+      "title": "Penetrance of colorectal cancer among mismatch repair gene mutation carriers: a meta-analysis",
+      "year": 2020,
+      "venue": "JNCI cancer spectrum 4 (5), pkaa027, 2020",
+      "num_citations": 50,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:aqlVkmm33-oC",
+      "title": "Performance of Breast Cancer Risk-Assessment Models in a Large Mammography Cohort",
+      "year": 2020,
+      "venue": "JNCI: Journal of the National Cancer Institute 112 (5), 489-497, 2020",
+      "num_citations": 135,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:HDshCWvjkbEC",
+      "title": "Practical implementation of frailty models in Mendelian risk prediction",
+      "year": 2020,
+      "venue": "Genetic Epidemiology 44 (6), 564-578, 2020",
+      "num_citations": 3,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:Wp0gIr-vW9MC",
+      "title": "Ask2Me VarHarmonizer: A Python-Based Tool to Harmonize Variants from Cancer Genetic Testing Reports and Map them to the ClinVar Database",
+      "year": 2019,
+      "venue": "arXiv preprint arXiv:1911.08408, 2019",
+      "num_citations": 5,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:mVmsd5A6BfQC",
+      "title": "Assessing adverse health effects of long-term exposure to low levels of ambient air pollution: phase 1",
+      "year": 2019,
+      "venue": "Research Reports: Health Effects Institute 2019, 200, 2019",
+      "num_citations": 74,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:WF5omc3nYNoC",
+      "title": "Causal inference in the context of an error prone exposure: air pollution and mortality",
+      "year": 2019,
+      "venue": "The annals of applied statistics 13 (1), 520, 2019",
+      "num_citations": 55,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:4TOpqqG69KYC",
+      "title": "Data Science in Environmental Health Research",
+      "year": 2019,
+      "venue": "Current Epidemiology Reports 6 (3), 291-299, 2019",
+      "num_citations": 22,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:_kc_bZDykSQC",
+      "title": "Incidental atypical hyperplasia/LCIS in mammoplasty specimens and subsequent risk of breast cancer.",
+      "year": 2019,
+      "venue": "Journal of Clinical Oncology 37 (15_suppl), 1561-1561, 2019",
+      "num_citations": 1,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:YOwf2qJgpHMC",
+      "title": "Low levels of air pollution and health: effect estimates, methodological challenges, and future directions",
+      "year": 2019,
+      "venue": "Current environmental health reports 6 (3), 105-115, 2019",
+      "num_citations": 142,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:0EnyYjriUFMC",
+      "title": "Pathologic findings in reduction mammoplasty specimens: a surrogate for the population prevalence of breast cancer and high-risk lesions",
+      "year": 2019,
+      "venue": "Breast Cancer Research and Treatment 173 (1), 201-207, 2019",
+      "num_citations": 34,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:ULOm3_A8WrAC",
+      "title": "Using machine learning and natural language processing to review and classify the medical literature on cancer susceptibility genes",
+      "year": 2019,
+      "venue": "JCO clinical cancer informatics 1, 1-9, 2019",
+      "num_citations": 63,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:qxL8FJ1GzNcC",
+      "title": "Validation of a Semiautomated Natural Language Processing–Based Procedure for Meta-Analysis of Cancer Susceptibility Gene Penetrance",
+      "year": 2019,
+      "venue": "JCO clinical cancer informatics 3, 1-9, 2019",
+      "num_citations": 35,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:roLk4NBRz8UC",
+      "title": "A clinical decision support tool to predict cancer risk for commonly tested cancer-related germline mutations",
+      "year": 2018,
+      "venue": "Journal of genetic counseling 27 (5), 1187-1199, 2018",
+      "num_citations": 60,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:eQOLeE2rZwMC",
+      "title": "Abstract SY32-01: Knowledge management and decision support for commonly tested susceptibility mutations",
+      "year": 2018,
+      "venue": "Cancer Research 78 (13_Supplement), SY32-01-SY32-01, 2018",
+      "num_citations": 0,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:ufrVoPGSRksC",
+      "title": "Airpred: A Flexible R Package Implementing Methods for Predicting Air Pollution",
+      "year": 2018,
+      "venue": "2018 IEEE 5th International Conference on Data Science and Advanced …, 2018",
+      "num_citations": 5,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:Y0pCki6q_DkC",
+      "title": "Efficient computation of the joint probability of multiple inherited risk alleles from pedigree data",
+      "year": 2018,
+      "venue": "Genetic Epidemiology 42 (6), 528-538, 2018",
+      "num_citations": 11,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:W7OEmFMy1HYC",
+      "title": "Nonparametric Adjustment for Measurement Error in Time-to-Event Data: Application to Risk Prediction Models",
+      "year": 2018,
+      "venue": "Journal of the American Statistical Association 113 (521), 14-25, 2018",
+      "num_citations": 10,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:YsMSGLbcyi4C",
+      "title": "Authors' response to comments.",
+      "year": 2017,
+      "venue": "Statistics in medicine 36 (28), 4511-4513, 2017",
+      "num_citations": 0,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:Tyk-4Ss8FVUC",
+      "title": "Breast cancer risk models: a comprehensive overview of existing models, validation, and clinical applications",
+      "year": 2017,
+      "venue": "Breast cancer research and treatment 164 (2), 263-284, 2017",
+      "num_citations": 237,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:UeHWp8X0CEIC",
+      "title": "Propensity scores with misclassified treatment assignment: a likelihood-based adjustment",
+      "year": 2017,
+      "venue": "Biostatistics 18 (4), 695-710, 2017",
+      "num_citations": 38,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:bFI3QPDXJZMC",
+      "title": "Risk assessment with newer statistical metrics Authors' response",
+      "year": 2017,
+      "venue": "STATISTICS IN MEDICINE 36 (28), 4511-4513, 2017",
+      "num_citations": 0,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:IjCSPb-OGe4C",
+      "title": "Simpson's paradox in the integrated discrimination improvement",
+      "year": 2017,
+      "venue": "Statistics in medicine 36 (28), 4468-4481, 2017",
+      "num_citations": 21,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:2osOgNQ5qMEC",
+      "title": "A cautionary note on the effect of treatment misclassification on the average treatment effect",
+      "year": 2016,
+      "venue": "bepress, 2016",
+      "num_citations": 1,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:9yKSN-GCB0IC",
+      "title": "Challenges in the use of administrative data for heart failure services research",
+      "year": 2016,
+      "venue": "Journal of cardiac failure 22 (1), 61-63, 2016",
+      "num_citations": 7,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:u-x6o8ySG0sC",
+      "title": "Using validation data to adjust the inverse probability weighting estimator for misclassified treatment",
+      "year": 2016,
+      "venue": "Using Validation Data to Adjust the Inverse Probability Weighting Estimator …, 2016",
+      "num_citations": 13,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:kNdYIx-mwKoC",
+      "title": "Acknowledgement of reviewers 2014",
+      "year": 2015,
+      "venue": "Breast Cancer Res Treat 149, 315-319, 2015",
+      "num_citations": 0,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:hqOjcs7Dif8C",
+      "title": "Extending mendelian risk prediction models to handle misreported family history",
+      "year": 2014,
+      "venue": "Harvard University Biostatistics Working Paper Series, 2014",
+      "num_citations": 6,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:Se3iqnhoufwC",
+      "title": "Misreported family histories and underestimation of risk.",
+      "year": 2014,
+      "venue": "Journal of clinical oncology: official journal of the American Society of …, 2014",
+      "num_citations": 4,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:d1gkVwhDpl0C",
+      "title": "Statistical Methods to Adjust for Measurement Error in Risk Prediction Models and Observational Studies",
+      "year": 2014,
+      "venue": "Harvard University, 2014",
+      "num_citations": 0,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:KlAtU1dfN6UC",
+      "title": "Differential efficacy of three cycles of CMF followed by tamoxifen in patients with ER-positive and ER-negative tumors: long-term follow up on IBCSG Trial IX",
+      "year": 2011,
+      "venue": "Annals of oncology 22 (9), 1981-1987, 2011",
+      "num_citations": 70,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:3fE2CSJIrl8C",
+      "title": "Long-term results of International Breast Cancer Study Group Trial VIII: adjuvant chemotherapy plus goserelin compared with either therapy alone for premenopausal patients with …",
+      "year": 2011,
+      "venue": "Annals of oncology 22 (10), 2216-2226, 2011",
+      "num_citations": 55,
+      "flags": []
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:_Re3VWB3Y0AC",
+      "title": "Development of a Clinical Decision Support Tool for Cancer Risk Assessment for Trans and Gender-Diverse Patients",
+      "year": null,
+      "venue": null,
+      "num_citations": 0,
+      "flags": [
+        "no_year",
+        "no_venue"
+      ]
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:8k81kl-MbHgC",
+      "title": "Sensitivity of the Association of Long-term PM2. 5 and Mortality to Modeling Choices",
+      "year": null,
+      "venue": null,
+      "num_citations": 0,
+      "flags": [
+        "no_year",
+        "no_venue"
+      ]
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:NJ774b8OgUMC",
+      "title": "Urban-Rural Disparities in Long-Term Effects of PM2. 5 on Mortality: The Impacts of Chemical Composition and Population Characteristics",
+      "year": null,
+      "venue": "Available at SSRN 6514013, 0",
+      "num_citations": 0,
+      "flags": [
+        "no_year"
+      ]
+    }
+  ]
+}
