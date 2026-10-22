@@ -34,7 +34,7 @@ EPMC = "https://www.ebi.ac.uk/europepmc/webservices/rest"
 S3 = "https://pmc-oa-opendata.s3.amazonaws.com"
 OPENALEX = "https://api.openalex.org/works"
 PAUSE = 0.5
-IMAGE_EXT = {".jpg", ".jpeg", ".gif", ".png", ".tif", ".tiff", ".bmp", ".svg"}
+IMAGE_EXT = {".jpg", ".jpeg", ".gif", ".png", ".tif", ".tiff", ".bmp", ".svg", ".webp"}
 
 # Conference abstracts (no full paper exists): (DOI regex, reason)
 CONFERENCE = [
@@ -167,7 +167,7 @@ def from_epmc(pmcid, d, suppl_only=False):
         save(zdone, b"")
     for n in sorted(os.listdir(d)):
         path = os.path.join(d, n)
-        if n.startswith(".") or n.endswith(".xml") and n.startswith(pmcid + "."):
+        if n.startswith(".") or os.path.isdir(path) or n.endswith(".xml") and n.startswith(pmcid + "."):
             continue
         files["supplements"].append(path)
     return files if (files["xml"] or suppl_only) else None

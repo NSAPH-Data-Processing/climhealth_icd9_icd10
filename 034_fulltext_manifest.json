@@ -1,0 +1,451 @@
+{
+  "source": "033_outcomes.json",
+  "scope": "uses_medicare True, outcome True, uncertain False; unique by DOI; conference abstracts dropped",
+  "n_in_scope": 17,
+  "n_dropped": 0,
+  "n_papers": 17,
+  "counts": {
+    "fulltext/pmc_aws": 11,
+    "fulltext_no_supplements/pmc_aws": 2,
+    "no_fulltext/None": 3,
+    "fulltext_no_supplements/openalex_oa_pdf": 1
+  },
+  "dropped": [],
+  "papers": [
+    {
+      "slug": "10_1016_s2542_5196_20_30227_8",
+      "doi": "10.1016/s2542-5196(20)30227-8",
+      "pmid": "33091388",
+      "pmcid": "PMC7720425",
+      "year": 2020,
+      "title": "Long-term effects of PM2· 5 on neurological disorders in the American Medicare population: a longitudinal cohort study",
+      "scholar_pub_ids": [
+        "zQEnP70AAAAJ:maZDTaKrznsC"
+      ],
+      "outcome_names": [
+        "Parkinson's disease",
+        "Alzheimer's disease and related dementias"
+      ],
+      "status": "fulltext",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1016_s2542_5196_20_30227_8/PMC7720425.1.xml",
+      "fulltext_pdf": "papers/10_1016_s2542_5196_20_30227_8/PMC7720425.1.pdf",
+      "supplements": [
+        "papers/10_1016_s2542_5196_20_30227_8/NIHMS1647889-supplement-Supplemental_material.pdf"
+      ],
+      "supplements_referenced": [
+        "NIHMS1647889-supplement-Supplemental_material.pdf"
+      ],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1016_j_envint_2021_106834",
+      "doi": "10.1016/j.envint.2021.106834",
+      "pmid": "34461376",
+      "pmcid": "PMC11549953",
+      "year": 2021,
+      "title": "Heat warnings, mortality, and hospital admissions among older adults in the United States",
+      "scholar_pub_ids": [
+        "zQEnP70AAAAJ:3s1wT3WcHBgC"
+      ],
+      "outcome_names": [
+        "fluid and electrolyte disorders",
+        "heat stroke"
+      ],
+      "status": "fulltext",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1016_j_envint_2021_106834/PMC11549953.1.xml",
+      "fulltext_pdf": "papers/10_1016_j_envint_2021_106834/PMC11549953.1.pdf",
+      "supplements": [
+        "papers/10_1016_j_envint_2021_106834/NIHMS2031435-supplement-supplement.docx"
+      ],
+      "supplements_referenced": [
+        "NIHMS2031435-supplement-supplement.docx"
+      ],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1097_ede_0000000000001265",
+      "doi": "10.1097/ede.0000000000001265",
+      "pmid": "33009251",
+      "pmcid": "PMC7896354",
+      "year": 2021,
+      "title": "Nationwide study of short-term exposure to fine particulate matter and cardiovascular hospitalizations among Medicaid enrollees",
+      "scholar_pub_ids": [
+        "zQEnP70AAAAJ:bEWYMUwI8FkC"
+      ],
+      "outcome_names": [
+        "cardiovascular disease"
+      ],
+      "status": "fulltext_no_supplements",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1097_ede_0000000000001265/PMC7896354.1.xml",
+      "fulltext_pdf": null,
+      "supplements": [],
+      "supplements_referenced": [
+        "NIHMS1662172-supplement-Supplemental_Digital_Content.pdf"
+      ],
+      "supplements_missing": [
+        "NIHMS1662172-supplement-Supplemental_Digital_Content.pdf"
+      ]
+    },
+    {
+      "slug": "10_1097_ede_0000000000001456",
+      "doi": "10.1097/ede.0000000000001456",
+      "pmid": "35104259",
+      "pmcid": "PMC8852365",
+      "year": 2022,
+      "title": "A Bayesian multi-outcome analysis of fine particulate matter and cardiorespiratory hospitalizations",
+      "scholar_pub_ids": [
+        "zQEnP70AAAAJ:cFHS6HbyZ2cC"
+      ],
+      "outcome_names": [
+        "57 cardiovascular discharge diagnoses",
+        "32 respiratory discharge diagnoses"
+      ],
+      "status": "fulltext_no_supplements",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1097_ede_0000000000001456/PMC8852365.1.xml",
+      "fulltext_pdf": null,
+      "supplements": [],
+      "supplements_referenced": [
+        "NIHMS1763059-supplement-eAppendix_1.pdf",
+        "NIHMS1763059-supplement-eAppendix_2.pdf",
+        "NIHMS1763059-supplement-eAppendix_3.pdf"
+      ],
+      "supplements_missing": [
+        "NIHMS1763059-supplement-eAppendix_1.pdf",
+        "NIHMS1763059-supplement-eAppendix_2.pdf",
+        "NIHMS1763059-supplement-eAppendix_3.pdf"
+      ]
+    },
+    {
+      "slug": "10_1136_bmjmed_2021_000009",
+      "doi": "10.1136/bmjmed-2021-000009",
+      "pmid": "36936557",
+      "pmcid": "PMC10012859",
+      "year": 2022,
+      "title": "Associations between long term air pollution exposure and first hospital admission for kidney and total urinary system diseases in the US Medicare population: nationwide …",
+      "scholar_pub_ids": [
+        "zQEnP70AAAAJ:a0OBvERweLwC"
+      ],
+      "outcome_names": [
+        "kidney and urinary system disease",
+        "chronic kidney disease"
+      ],
+      "status": "fulltext",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1136_bmjmed_2021_000009/PMC10012859.1.xml",
+      "fulltext_pdf": "papers/10_1136_bmjmed_2021_000009/PMC10012859.1.pdf",
+      "supplements": [
+        "papers/10_1136_bmjmed_2021_000009/bmjmed-2021-000009supp001.pdf"
+      ],
+      "supplements_referenced": [
+        "bmjmed-2021-000009supp001.pdf"
+      ],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1289_ehp10729",
+      "doi": "10.1289/ehp10729",
+      "pmid": "37036790",
+      "pmcid": "PMC10084931",
+      "year": 2023,
+      "title": "Air pollution and acute kidney injury in the US medicare population: a longitudinal cohort study",
+      "scholar_pub_ids": [
+        "zQEnP70AAAAJ:XiSMed-E-HIC"
+      ],
+      "outcome_names": [
+        "acute kidney injury"
+      ],
+      "status": "fulltext",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1289_ehp10729/PMC10084931.1.xml",
+      "fulltext_pdf": "papers/10_1289_ehp10729/PMC10084931.1.pdf",
+      "supplements": [
+        "papers/10_1289_ehp10729/ehp10729.s001.acco.pdf",
+        "papers/10_1289_ehp10729/ehp10729.smcontents.508.pdf"
+      ],
+      "supplements_referenced": [
+        "ehp10729.s001.acco.pdf",
+        "ehp10729.smcontents.508.pdf"
+      ],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1016_j_envint_2023_107844",
+      "doi": "10.1016/j.envint.2023.107844",
+      "pmid": "36841189",
+      "pmcid": null,
+      "year": 2023,
+      "title": "Associations between greenness and kidney disease in Massachusetts: The US Medicare longitudinal cohort study",
+      "scholar_pub_ids": [
+        "zQEnP70AAAAJ:UxriW0iASnsC"
+      ],
+      "outcome_names": [
+        "total kidney disease",
+        "chronic kidney disease",
+        "acute kidney injury"
+      ],
+      "status": "no_fulltext",
+      "source": null,
+      "source_url": null,
+      "fulltext_xml": null,
+      "fulltext_pdf": null,
+      "supplements": [],
+      "supplements_referenced": [],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1097_ee9_0000000000000261",
+      "doi": "10.1097/ee9.0000000000000261",
+      "pmid": "37545812",
+      "pmcid": "PMC10402938",
+      "year": 2023,
+      "title": "Does choice of outdoor heat metric affect heat-related epidemiologic analyses in the US Medicare population?",
+      "scholar_pub_ids": [
+        "zQEnP70AAAAJ:K3LRdlH-MEoC"
+      ],
+      "outcome_names": [
+        "heat-related hospitalizations"
+      ],
+      "status": "fulltext",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1097_ee9_0000000000000261/PMC10402938.1.xml",
+      "fulltext_pdf": "papers/10_1097_ee9_0000000000000261/PMC10402938.1.pdf",
+      "supplements": [
+        "papers/10_1097_ee9_0000000000000261/ee9-7-e261-s001.pdf"
+      ],
+      "supplements_referenced": [],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1016_j_envint_2022_107694",
+      "doi": "10.1016/j.envint.2022.107694",
+      "pmid": "36521347",
+      "pmcid": "PMC9885762",
+      "year": 2023,
+      "title": "Time-lagged relationships between a decade of air pollution exposure and first hospitalization with Alzheimer's disease and related dementias",
+      "scholar_pub_ids": [
+        "zQEnP70AAAAJ:CHSYGLWDkRkC"
+      ],
+      "outcome_names": [
+        "first hospitalization with ADRD"
+      ],
+      "status": "fulltext",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1016_j_envint_2022_107694/PMC9885762.1.xml",
+      "fulltext_pdf": "papers/10_1016_j_envint_2022_107694/PMC9885762.1.pdf",
+      "supplements": [
+        "papers/10_1016_j_envint_2022_107694/NIHMS1866476-supplement-1.docx"
+      ],
+      "supplements_referenced": [
+        "NIHMS1866476-supplement-1.docx"
+      ],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1016_j_envint_2024_108739",
+      "doi": "10.1016/j.envint.2024.108739",
+      "pmid": "38754245",
+      "pmcid": "PMC11199351",
+      "year": 2024,
+      "title": "Associations of street-view greenspace with Parkinson’s disease hospitalizations in an open cohort of elderly US Medicare beneficiaries",
+      "scholar_pub_ids": [
+        "zQEnP70AAAAJ:q3oQSFYPqjQC"
+      ],
+      "outcome_names": [
+        "first PD-involved hospitalization"
+      ],
+      "status": "fulltext",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1016_j_envint_2024_108739/PMC11199351.319.xml",
+      "fulltext_pdf": "papers/10_1016_j_envint_2024_108739/PMC11199351.319.pdf",
+      "supplements": [
+        "papers/10_1016_j_envint_2024_108739/NIHMS1999946-supplement-1.docx"
+      ],
+      "supplements_referenced": [
+        "NIHMS1999946-supplement-1.docx"
+      ],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1038_s41531_024_00815_x",
+      "doi": "10.1038/s41531-024-00815-x",
+      "pmid": "39448632",
+      "pmcid": "PMC11502743",
+      "year": 2024,
+      "title": "The effect of air pollution on hospitalizations with Parkinson’s disease among medicare beneficiaries nationwide",
+      "scholar_pub_ids": [
+        "zQEnP70AAAAJ:bnK-pcrLprsC"
+      ],
+      "outcome_names": [
+        "first hospitalization with Parkinson's disease"
+      ],
+      "status": "fulltext",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1038_s41531_024_00815_x/PMC11502743.1.xml",
+      "fulltext_pdf": "papers/10_1038_s41531_024_00815_x/PMC11502743.1.pdf",
+      "supplements": [
+        "papers/10_1038_s41531_024_00815_x/41531_2024_815_MOESM1_ESM.pdf"
+      ],
+      "supplements_referenced": [
+        "41531_2024_815_MOESM1_ESM.pdf"
+      ],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1093_aje_kwae133",
+      "doi": "10.1093/aje/kwae133",
+      "pmid": "38907309",
+      "pmcid": "PMC11735961",
+      "year": 2025,
+      "title": "Comparing traditional and causal inference methodologies for evaluating impacts of long-term air pollution exposure on hospitalization with Alzheimer disease and related dementias",
+      "scholar_pub_ids": [
+        "zQEnP70AAAAJ:kRWSkSYxWN8C"
+      ],
+      "outcome_names": [
+        "first hospitalization with ADRD"
+      ],
+      "status": "fulltext_no_supplements",
+      "source": "openalex_oa_pdf",
+      "source_url": null,
+      "fulltext_xml": null,
+      "fulltext_pdf": "papers/10_1093_aje_kwae133/fulltext.pdf",
+      "supplements": [],
+      "supplements_referenced": [],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1097_ee9_0000000000000395",
+      "doi": "10.1097/ee9.0000000000000395",
+      "pmid": "40342591",
+      "pmcid": "PMC12058651",
+      "year": 2025,
+      "title": "Extreme heat and hospital admissions in older adults: A small-area analysis in the Greater Boston metropolitan area",
+      "scholar_pub_ids": [
+        "zQEnP70AAAAJ:_B80troHkn4C"
+      ],
+      "outcome_names": [
+        "heat-related hospitalizations"
+      ],
+      "status": "fulltext",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1097_ee9_0000000000000395/PMC12058651.1.xml",
+      "fulltext_pdf": "papers/10_1097_ee9_0000000000000395/PMC12058651.1.pdf",
+      "supplements": [
+        "papers/10_1097_ee9_0000000000000395/ee9-9-e395-s001.docx"
+      ],
+      "supplements_referenced": [
+        "ee9-9-e395-s001.docx"
+      ],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1001_jamainternmed_2024_7719",
+      "doi": "10.1001/jamainternmed.2024.7719",
+      "pmid": "39899291",
+      "pmcid": "PMC11791774",
+      "year": 2025,
+      "title": "Extreme heat and hospitalization among older persons with Alzheimer disease and related dementias",
+      "scholar_pub_ids": [
+        "zQEnP70AAAAJ:olpn-zPbct0C"
+      ],
+      "outcome_names": [
+        "first hospitalization with ADRD"
+      ],
+      "status": "no_fulltext",
+      "source": null,
+      "source_url": null,
+      "fulltext_xml": null,
+      "fulltext_pdf": null,
+      "supplements": [],
+      "supplements_referenced": [],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1038_s41370_026_00882_7",
+      "doi": "10.1038/s41370-026-00882-7",
+      "pmid": "41974975",
+      "pmcid": "PMC13335889",
+      "year": 2026,
+      "title": "Extreme heat and hospitalization with Parkinson’s disease among older adults",
+      "scholar_pub_ids": [
+        "zQEnP70AAAAJ:tKAzc9rXhukC"
+      ],
+      "outcome_names": [
+        "hospitalization with Parkinson's disease"
+      ],
+      "status": "fulltext",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1038_s41370_026_00882_7/PMC13335889.2.xml",
+      "fulltext_pdf": "papers/10_1038_s41370_026_00882_7/PMC13335889.2.pdf",
+      "supplements": [
+        "papers/10_1038_s41370_026_00882_7/41370_2026_882_MOESM1_ESM.docx"
+      ],
+      "supplements_referenced": [],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1093_aje_kwag087",
+      "doi": "10.1093/aje/kwag087",
+      "pmid": "42017264",
+      "pmcid": null,
+      "year": 2026,
+      "title": "Hospitalization risk with and without dementia by region and race in the United States",
+      "scholar_pub_ids": [
+        "zQEnP70AAAAJ:ZfRJV9d4-WMC"
+      ],
+      "outcome_names": [
+        "hospitalization with ADRD",
+        "hospitalization without ADRD"
+      ],
+      "status": "no_fulltext",
+      "source": null,
+      "source_url": null,
+      "fulltext_xml": null,
+      "fulltext_pdf": null,
+      "supplements": [],
+      "supplements_referenced": [],
+      "supplements_missing": []
+    },
+    {
+      "slug": "10_1097_ee9_0000000000000519",
+      "doi": "10.1097/ee9.0000000000000519",
+      "pmid": "42583532",
+      "pmcid": "PMC13461014",
+      "year": 2026,
+      "title": "Long-term cumulative associations of annual air pollution exposure and hospitalization with Parkinson’s Disease",
+      "scholar_pub_ids": [
+        "zQEnP70AAAAJ:-_dYPAW6P2MC"
+      ],
+      "outcome_names": [
+        "first hospitalization with Parkinson's disease"
+      ],
+      "status": "fulltext",
+      "source": "pmc_aws",
+      "source_url": null,
+      "fulltext_xml": "papers/10_1097_ee9_0000000000000519/PMC13461014.1.xml",
+      "fulltext_pdf": "papers/10_1097_ee9_0000000000000519/PMC13461014.1.pdf",
+      "supplements": [
+        "papers/10_1097_ee9_0000000000000519/ee9-10-e519-s001.pdf"
+      ],
+      "supplements_referenced": [
+        "ee9-10-e519-s001.pdf"
+      ],
+      "supplements_missing": []
+    }
+  ]
+}
