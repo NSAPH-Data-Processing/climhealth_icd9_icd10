@@ -1,0 +1,4034 @@
+{
+ "sources": [
+  "028_bins.json",
+  "026_icd_codes.json"
+ ],
+ "bins": [
+  {
+   "id": "R1",
+   "group": "Respiratory",
+   "name": "Asthma exacerbations",
+   "status": "explicit",
+   "parks_only": false,
+   "n_papers": 3,
+   "icd10_available": false,
+   "note": "No asthma-only outcome besides the Parks CCS group. Step 1 cites Wei 2022 AJRCCM (asthma, Medicaid), which is not in the Step 2.4 set.",
+   "sources": [
+    {
+     "slug": "10_1038_s41467_021_21777_1",
+     "paper": "Parks 2021 Nat Commun",
+     "outcome_name": "Asthma",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": "AHRQ CCS level 3 group 128 (level 1 cause 8)",
+     "filter": null,
+     "icd9": [
+      "9300",
+      "49301",
+      "49302",
+      "49310",
+      "49311",
+      "49312",
+      "49320",
+      "49321",
+      "49322",
+      "49381",
+      "49382",
+      "49390",
+      "49391",
+      "49392"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "41467_2021_21777_MOESM1_ESM.pdf",
+      "location": "Supplementary Table 2, page 22",
+      "quote": "Supplementary Table 2. ICD-9-CM codes per CCS Levels 1 and 3 used in analyses"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1097_ede_0000000000001337",
+     "paper": "Yan 2021 Epidemiology",
+     "outcome_name": "respiratory disease hospitalizations",
+     "scope": "broader",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": [
+      "493"
+     ],
+     "icd9": [
+      "490–493"
+     ],
+     "icd10": [],
+     "diagnosis_position": null,
+     "evidence": {
+      "file": "PMC8887827.1.xml",
+      "location": "section: METHODS > Study population",
+      "quote": "Respiratory disease hospitalizations were based on the combined number of hospitalizations with ICD-9 codes 464–466, 480–487, and 490–493"
+     },
+     "level": "explicit_partial"
+    },
+    {
+     "slug": "10_1038_s41467_023_37675_7",
+     "paper": "Burrows 2023 Nat Commun",
+     "outcome_name": "respiratory disease",
+     "scope": "broader",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": [
+      "493"
+     ],
+     "icd9": [
+      "490–493"
+     ],
+     "icd10": [],
+     "diagnosis_position": null,
+     "evidence": {
+      "file": "PMC10115860.1.xml",
+      "location": "section: Methods > Hospitalization records",
+      "quote": "respiratory disease ([RD]: ICD-9, 464–466, 480–487, and 490–493; ICD-10, J06.9; J20.9; J18.9; J43.9; J40; J41.0; J41.1; J41.8; J42; J44.0; J44.1; J44.9; J47.1; J47.9; J67.0-J67.9)"
+     },
+     "level": "explicit_partial"
+    }
+   ]
+  },
+  {
+   "id": "R2",
+   "group": "Respiratory",
+   "name": "COPD exacerbations",
+   "status": "explicit",
+   "parks_only": false,
+   "n_papers": 4,
+   "icd10_available": false,
+   "note": null,
+   "sources": [
+    {
+     "slug": "10_1186_1476_069x_12_68",
+     "paper": "Kioumourtzoglou 2013 Environ Health",
+     "outcome_name": "chronic obstructive pulmonary disease",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "490–492",
+      "494–496"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC3765898.1.pdf",
+      "location": "page 2",
+      "quote": "chronic obstructive pulmonary disease (COPD; codes 490–492, 494–496)"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1097_ede_0000000000000777",
+     "paper": "Zigler 2018 Epidemiology",
+     "outcome_name": "chronic obstructive pulmonary disease",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "490.xx to 492.xx"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC5792368.1.xml",
+      "location": "section: METHODS > Nonattainment Designations and Effects of Interest",
+      "quote": "chronic obstructive pulmonary disease (COPD, ICD9-CM 490.xx to 492.xx)"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1038_s41467_021_21777_1",
+     "paper": "Parks 2021 Nat Commun",
+     "outcome_name": "COPD",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": "AHRQ CCS level 3 group 127 (level 1 cause 8)",
+     "filter": null,
+     "icd9": [
+      "490",
+      "4910",
+      "4911",
+      "4912",
+      "49120",
+      "49121",
+      "49122",
+      "4918",
+      "4919",
+      "4920",
+      "4928",
+      "494",
+      "4940",
+      "4941",
+      "496"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "41467_2021_21777_MOESM1_ESM.pdf",
+      "location": "Supplementary Table 2, page 22",
+      "quote": "Supplementary Table 2. ICD-9-CM codes per CCS Levels 1 and 3 used in analyses"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1136_bmj_l6258",
+     "paper": "Wei 2019 BMJ",
+     "outcome_name": "chronic obstructive pulmonary disease and bronchiectasis (CCS 127)",
+     "scope": "exact",
+     "codes_status": "classification_ref",
+     "classification": "AHRQ CCS 127",
+     "filter": null,
+     "icd9": [],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC6880251.1.xml",
+      "location": "section: Results",
+      "quote": "chronic obstructive pulmonary disease and bronchiectasis (CCS code 127)"
+     },
+     "level": "classification"
+    }
+   ]
+  },
+  {
+   "id": "R3",
+   "group": "Respiratory",
+   "name": "Bronchiectasis",
+   "status": "explicit_partial",
+   "parks_only": false,
+   "n_papers": 3,
+   "icd10_available": false,
+   "note": "Only inside the CCS 127 group (COPD and bronchiectasis); no bronchiectasis-only outcome.",
+   "sources": [
+    {
+     "slug": "10_1038_s41467_021_21777_1",
+     "paper": "Parks 2021 Nat Commun",
+     "outcome_name": "COPD",
+     "scope": "broader",
+     "codes_status": "explicit_codes",
+     "classification": "AHRQ CCS level 3 group 127 (level 1 cause 8)",
+     "filter": [
+      "494"
+     ],
+     "icd9": [
+      "494",
+      "4940",
+      "4941"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "41467_2021_21777_MOESM1_ESM.pdf",
+      "location": "Supplementary Table 2, page 22",
+      "quote": "Supplementary Table 2. ICD-9-CM codes per CCS Levels 1 and 3 used in analyses"
+     },
+     "level": "explicit_partial"
+    },
+    {
+     "slug": "10_1136_bmj_l6258",
+     "paper": "Wei 2019 BMJ",
+     "outcome_name": "chronic obstructive pulmonary disease and bronchiectasis (CCS 127)",
+     "scope": "broader",
+     "codes_status": "classification_ref",
+     "classification": "AHRQ CCS 127",
+     "filter": null,
+     "icd9": [],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC6880251.1.xml",
+      "location": "section: Results",
+      "quote": "chronic obstructive pulmonary disease and bronchiectasis (CCS code 127)"
+     },
+     "level": "classification"
+    },
+    {
+     "slug": "10_1186_1476_069x_12_68",
+     "paper": "Kioumourtzoglou 2013 Environ Health",
+     "outcome_name": "chronic obstructive pulmonary disease",
+     "scope": "broader",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": [
+      "494"
+     ],
+     "icd9": [
+      "494–496"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC3765898.1.pdf",
+      "location": "page 2",
+      "quote": "chronic obstructive pulmonary disease (COPD; codes 490–492, 494–496)"
+     },
+     "level": "explicit_partial"
+    }
+   ]
+  },
+  {
+   "id": "R4",
+   "group": "Respiratory",
+   "name": "Pneumonia and some other respiratory infections",
+   "status": "explicit",
+   "parks_only": false,
+   "n_papers": 6,
+   "icd10_available": true,
+   "note": null,
+   "sources": [
+    {
+     "slug": "10_1186_1476_069x_12_68",
+     "paper": "Kioumourtzoglou 2013 Environ Health",
+     "outcome_name": "pneumonia",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "480–487"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC3765898.1.pdf",
+      "location": "page 2",
+      "quote": "pneumonia (codes 480–487)"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1161_circulationaha_120_050252",
+     "paper": "Danesh Yazdi 2021 Circulation",
+     "outcome_name": "pneumonia",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "003.22",
+      "011.6",
+      "055.1",
+      "073.0",
+      "115.05",
+      "115.15",
+      "115.95",
+      "480",
+      "481",
+      "482",
+      "483",
+      "484",
+      "485",
+      "486",
+      "487.0",
+      "488.01",
+      "488.11",
+      "488.81",
+      "516.3",
+      "517.1",
+      "997.32"
+     ],
+     "icd10": [
+      "A01.03",
+      "A02.22",
+      "A20.2",
+      "A21.2",
+      "A22.1",
+      "A37.X1",
+      "A42.0",
+      "A43.0",
+      "A48.1",
+      "A54.84",
+      "A69.8",
+      "B01.2",
+      "B05.2",
+      "B06.81",
+      "B25.0",
+      "B37.1",
+      "B38.0",
+      "B39.0",
+      "B44.0",
+      "B44.1",
+      "B58.3",
+      "B59",
+      "B77.81",
+      "J15",
+      "J09.X1",
+      "J10.0",
+      "J11.0",
+      "J12",
+      "J13",
+      "J14",
+      "J17",
+      "J18",
+      "J84.2",
+      "J85.1",
+      "J95.851"
+     ],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC8055197.1.pdf",
+      "location": "page 3",
+      "quote": "Primary discharge codes for pneumonia were defined as ICD-9 codes 003.22, 011.6, 055.1, 073.0, 115.05, 115.15, 115.95, 480, 481, 482, 483, 484, 485, 486, 487.0, 488.01, 488.11, 488.81, 516.3, 517.1, and 997.32"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1097_ede_0000000000000777",
+     "paper": "Zigler 2018 Epidemiology",
+     "outcome_name": "respiratory tract infection",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "464.xx to 466.xx",
+      "480.xx to 487.xx"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC5792368.1.xml",
+      "location": "section: METHODS > Nonattainment Designations and Effects of Interest",
+      "quote": "respiratory tract infection (ICD9-CM 464.xx to 466.xx and 480.xx to 487.xx)"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1038_s41467_021_21777_1",
+     "paper": "Parks 2021 Nat Commun",
+     "outcome_name": "Pneumonia",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": "AHRQ CCS level 3 group 122 (level 1 cause 8)",
+     "filter": null,
+     "icd9": [
+      "00322",
+      "0203",
+      "0204",
+      "0205",
+      "0212",
+      "0221",
+      "0310",
+      "0391",
+      "0521",
+      "0551",
+      "0730",
+      "0830",
+      "1124",
+      "1140",
+      "1144",
+      "1145",
+      "11505",
+      "11515",
+      "11595",
+      "1304",
+      "1363",
+      "4800",
+      "4801",
+      "4802",
+      "4803",
+      "4808",
+      "4809",
+      "481",
+      "4820",
+      "4821",
+      "4822",
+      "4823",
+      "48230",
+      "48231",
+      "48232",
+      "48239",
+      "4824",
+      "48240",
+      "48241",
+      "48242",
+      "48249",
+      "4828",
+      "48281",
+      "48282",
+      "48283",
+      "48284",
+      "48289",
+      "4829",
+      "483",
+      "4830",
+      "4831",
+      "4838",
+      "4841",
+      "4843",
+      "4845",
+      "4846",
+      "4847",
+      "4848",
+      "485",
+      "486",
+      "5130",
+      "5171"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "41467_2021_21777_MOESM1_ESM.pdf",
+      "location": "Supplementary Table 2, page 22",
+      "quote": "Supplementary Table 2. ICD-9-CM codes per CCS Levels 1 and 3 used in analyses"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1038_s41467_021_21777_1",
+     "paper": "Parks 2021 Nat Commun",
+     "outcome_name": "Influenza",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": "AHRQ CCS level 3 group 123 (level 1 cause 8)",
+     "filter": null,
+     "icd9": [
+      "4870",
+      "4871",
+      "4878",
+      "488",
+      "4880",
+      "48801",
+      "48802",
+      "48809",
+      "4881",
+      "48811",
+      "48812",
+      "48819",
+      "48881",
+      "48882",
+      "48889"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "41467_2021_21777_MOESM1_ESM.pdf",
+      "location": "Supplementary Table 2, page 22",
+      "quote": "Supplementary Table 2. ICD-9-CM codes per CCS Levels 1 and 3 used in analyses"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1136_bmj_l6258",
+     "paper": "Wei 2019 BMJ",
+     "outcome_name": "pneumonia (CCS 122)",
+     "scope": "exact",
+     "codes_status": "classification_ref",
+     "classification": "AHRQ CCS 122",
+     "filter": null,
+     "icd9": [],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC6880251.1.xml",
+      "location": "section: Results",
+      "quote": "pneumonia (CCS code 122)"
+     },
+     "level": "classification"
+    },
+    {
+     "slug": "10_1136_bmj_l6258",
+     "paper": "Wei 2019 BMJ",
+     "outcome_name": "influenza (CCS 123)",
+     "scope": "exact",
+     "codes_status": "classification_ref",
+     "classification": "AHRQ CCS 123",
+     "filter": null,
+     "icd9": [],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC6880251.1.xml",
+      "location": "section: Results",
+      "quote": "influenza (CCS code 123)"
+     },
+     "level": "classification"
+    },
+    {
+     "slug": "10_1016_j_scitotenv_2020_142524",
+     "paper": "Yitshak-Sade 2021 Sci Total Environ",
+     "outcome_name": "pneumonia, organism unspecified",
+     "scope": "narrower",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "486"
+     ],
+     "icd10": [],
+     "diagnosis_position": null,
+     "evidence": {
+      "file": "PMC7749824.1.xml",
+      "location": "section: MATERIALS AND METHODS > Outcomes",
+      "quote": "pneumonia, organism unspecified (ICD 9: 486)"
+     },
+     "level": "explicit_partial"
+    }
+   ]
+  },
+  {
+   "id": "R5",
+   "group": "Respiratory",
+   "name": "Respiratory failure, insufficiency, or arrest",
+   "status": "explicit",
+   "parks_only": false,
+   "n_papers": 3,
+   "icd10_available": false,
+   "note": null,
+   "sources": [
+    {
+     "slug": "10_1038_s41467_021_21777_1",
+     "paper": "Parks 2021 Nat Commun",
+     "outcome_name": "Respiratory failure",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": "AHRQ CCS level 3 group 131 (level 1 cause 8)",
+     "filter": null,
+     "icd9": [
+      "5173",
+      "5185",
+      "51851",
+      "51852",
+      "51853",
+      "51881",
+      "51882",
+      "51883",
+      "51884",
+      "7991",
+      "V461",
+      "V4611",
+      "V4612",
+      "V4613",
+      "V4614",
+      "V462"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "41467_2021_21777_MOESM1_ESM.pdf",
+      "location": "Supplementary Table 2, page 22",
+      "quote": "Supplementary Table 2. ICD-9-CM codes per CCS Levels 1 and 3 used in analyses"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1136_bmj_l6258",
+     "paper": "Wei 2019 BMJ",
+     "outcome_name": "respiratory failures, insufficiency, or arrest (CCS 131)",
+     "scope": "exact",
+     "codes_status": "classification_ref",
+     "classification": "AHRQ CCS 131",
+     "filter": null,
+     "icd9": [],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC6880251.1.xml",
+      "location": "section: Results",
+      "quote": "respiratory failures, insufficiency, or arrest (CCS code 131)"
+     },
+     "level": "classification"
+    },
+    {
+     "slug": "10_1097_ede_0000000000001195",
+     "paper": "Rhee 2020 Epidemiology",
+     "outcome_name": "acute respiratory distress syndrome",
+     "scope": "narrower",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "518.51",
+      "518.52",
+      "518.53",
+      "518.82"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal_or_secondary",
+     "evidence": {
+      "file": "PMC7744113.1.xml",
+      "location": "section: METHODS > Health Outcome",
+      "quote": "We used ICD-9-CM codes 518.51, 518.52, 518.53, and 518.82 as ARDS criteria"
+     },
+     "level": "explicit_partial"
+    }
+   ]
+  },
+  {
+   "id": "R6",
+   "group": "Respiratory",
+   "name": "Upper respiratory infections",
+   "status": "explicit",
+   "parks_only": true,
+   "n_papers": 1,
+   "icd10_available": false,
+   "note": "Only the Parks CCS groups 126 (other upper respiratory infections) and 125 (acute bronchitis, which is a lower-airway infection in ICD).",
+   "sources": [
+    {
+     "slug": "10_1038_s41467_021_21777_1",
+     "paper": "Parks 2021 Nat Commun",
+     "outcome_name": "Other upper respiratory infections",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": "AHRQ CCS level 3 group 126 (level 1 cause 8)",
+     "filter": null,
+     "icd9": [
+      "0320",
+      "0321",
+      "0322",
+      "0323",
+      "0340",
+      "460",
+      "4610",
+      "4611",
+      "4612",
+      "4613",
+      "4618",
+      "4619",
+      "462",
+      "4640",
+      "46400",
+      "46401",
+      "46410",
+      "46411",
+      "46420",
+      "46421",
+      "46430",
+      "46431",
+      "4644",
+      "46450",
+      "46451",
+      "4650",
+      "4658",
+      "4659",
+      "4730",
+      "4731",
+      "4732",
+      "4733",
+      "4738",
+      "4739",
+      "78491"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "41467_2021_21777_MOESM1_ESM.pdf",
+      "location": "Supplementary Table 2, page 22",
+      "quote": "Supplementary Table 2. ICD-9-CM codes per CCS Levels 1 and 3 used in analyses"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1038_s41467_021_21777_1",
+     "paper": "Parks 2021 Nat Commun",
+     "outcome_name": "Acute bronchitis",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": "AHRQ CCS level 3 group 125 (level 1 cause 8)",
+     "filter": null,
+     "icd9": [
+      "4660",
+      "4661",
+      "46611",
+      "46619"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "41467_2021_21777_MOESM1_ESM.pdf",
+      "location": "Supplementary Table 2, page 22",
+      "quote": "Supplementary Table 2. ICD-9-CM codes per CCS Levels 1 and 3 used in analyses"
+     },
+     "level": "explicit"
+    }
+   ]
+  },
+  {
+   "id": "C1",
+   "group": "Cardiovascular and blood-vessel conditions",
+   "name": "Heart attack (acute myocardial infarction)",
+   "status": "explicit",
+   "parks_only": false,
+   "n_papers": 10,
+   "icd10_available": true,
+   "note": null,
+   "sources": [
+    {
+     "slug": "10_1161_circoutcomes_111_962456",
+     "paper": "Yeh 2012 Circ Cardiovasc Qual Outcomes",
+     "outcome_name": "first hospitalized myocardial infarction each year",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "410.xx, except 410.x2"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC3310945.1.xml",
+      "location": "section: Methods > Study sample",
+      "quote": "with a primary discharge diagnosis of MI based on International Classification of Diseases, Ninth Revision, Clinical Modification (ICD-9-CM) codes 410.xx, except 410.x2"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1186_1476_069x_12_68",
+     "paper": "Kioumourtzoglou 2013 Environ Health",
+     "outcome_name": "myocardial infarction",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "410"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC3765898.1.pdf",
+      "location": "page 2",
+      "quote": "myocardial infarction (MI; code 410)"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1161_circulationaha_120_050252",
+     "paper": "Danesh Yazdi 2021 Circulation",
+     "outcome_name": "myocardial infarction",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "410.X0",
+      "410.X1"
+     ],
+     "icd10": [
+      "I21"
+     ],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC8055197.1.pdf",
+      "location": "page 3",
+      "quote": "Primary discharge codes for myocardial infarction were defined as ICD-9 codes 410.X0 and 410.X1 and ICD-10 code I21"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1097_ede_0000000000001265",
+     "paper": "deSouza 2021 Epidemiology",
+     "outcome_name": "acute myocardial infarction",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "410.9"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC7896354.1.xml",
+      "location": "section: Methods > Outcome Assessment",
+      "quote": "acute myocardial infarction (AMI; ICD-9 code: 410.9)"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1016_j_scitotenv_2022_156855",
+     "paper": "Danesh Yazdi 2022 Sci Total Environ",
+     "outcome_name": "myocardial infarction",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "410.X0",
+      "410.X1"
+     ],
+     "icd10": [
+      "I21"
+     ],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC10007814.1.xml",
+      "location": "section: Materials and Methods > Outcome Definition",
+      "quote": "Myocardial infarction was defined as ICD-9 codes 410.X0 and 410.X1 and ICD 10-code: I21"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1016_j_envres_2023_116203",
+     "paper": "Schwartz 2023 Environ Res",
+     "outcome_name": "myocardial infarction admissions",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "410.×0",
+      "410.×1"
+     ],
+     "icd10": [
+      "I21"
+     ],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC10527724.1.pdf",
+      "location": "page 4",
+      "quote": "Myocardial infarction admissions were defined as those having ICD-9 codes 410.×0 and 410.×1 and ICD-10 code I21 as the primary discharge code"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1016_j_envint_2025_109617",
+     "paper": "Danesh Yazdi 2025 Environ Int (second events)",
+     "outcome_name": "second admission with myocardial infarction",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "410.X0",
+      "410.X1"
+     ],
+     "icd10": [
+      "I21"
+     ],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC12810584.1.pdf",
+      "location": "page 4",
+      "quote": "We defined myocardial infarction as a primary discharge ICD-9 codes 410.X0, 410.X1 and ICD-10 code I21"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1016_j_envres_2025_122779",
+     "paper": "Danesh Yazdi 2025 Environ Res (PM2.5 components)",
+     "outcome_name": "myocardial infarction",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "410. X0",
+      "410.X1"
+     ],
+     "icd10": [
+      "I21"
+     ],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC12746473.1.pdf",
+      "location": "page 5",
+      "quote": "MI was defined as ICD-9 codes 410. X0, 410.X1 and ICD-10 code I21"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1038_s41467_021_21777_1",
+     "paper": "Parks 2021 Nat Commun",
+     "outcome_name": "Acute myocardial infarction",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": "AHRQ CCS level 3 group 100 (level 1 cause 7)",
+     "filter": null,
+     "icd9": [
+      "4100",
+      "41000",
+      "41001",
+      "41002",
+      "4101",
+      "41010",
+      "41011",
+      "41012",
+      "4102",
+      "41020",
+      "41021",
+      "41022",
+      "4103",
+      "41030",
+      "41031",
+      "41032",
+      "4104",
+      "41040",
+      "41041",
+      "41042",
+      "4105",
+      "41050",
+      "41051",
+      "41052",
+      "4106",
+      "41060",
+      "41061",
+      "41062",
+      "4107",
+      "41070",
+      "41071",
+      "41072",
+      "4108",
+      "41080",
+      "41081",
+      "41082",
+      "4109",
+      "41090",
+      "41091",
+      "41092"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "41467_2021_21777_MOESM1_ESM.pdf",
+      "location": "Supplementary Table 2, page 19",
+      "quote": "Supplementary Table 2. ICD-9-CM codes per CCS Levels 1 and 3 used in analyses"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1136_bmj_l6258",
+     "paper": "Wei 2019 BMJ",
+     "outcome_name": "acute myocardial infarction (CCS 100)",
+     "scope": "exact",
+     "codes_status": "classification_ref",
+     "classification": "AHRQ CCS 100",
+     "filter": null,
+     "icd9": [],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC6880251.1.xml",
+      "location": "section: Results",
+      "quote": "acute myocardial infarction (CCS code 100)"
+     },
+     "level": "classification"
+    }
+   ]
+  },
+  {
+   "id": "C2",
+   "group": "Cardiovascular and blood-vessel conditions",
+   "name": "Ischemic heart disease and coronary atherosclerosis",
+   "status": "explicit",
+   "parks_only": false,
+   "n_papers": 11,
+   "icd10_available": true,
+   "note": null,
+   "sources": [
+    {
+     "slug": "10_1161_circulationaha_109_851113",
+     "paper": "Bell 2009 Circulation",
+     "outcome_name": "ischemic heart disease",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "410–414",
+      "429"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC2777712.1.xml",
+      "location": "section: Methods",
+      "quote": "ischemic heart disease (ICD-9 410–414, 429"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1136_bmj_f5561",
+     "paper": "Correia 2013 BMJ",
+     "outcome_name": "ischemic heart disease",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "410 to 414",
+      "429"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC3805481.2.xml",
+      "location": "section: Methods",
+      "quote": "ischemic heart disease (410 to 414, 429)"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1186_1476_069x_12_68",
+     "paper": "Kioumourtzoglou 2013 Environ Health",
+     "outcome_name": "ischemic heart disease",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "410–414"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC3765898.1.pdf",
+      "location": "page 2",
+      "quote": "ischemic heart disease (IHD; codes 410–414)"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1097_ede_0000000000000777",
+     "paper": "Zigler 2018 Epidemiology",
+     "outcome_name": "ischemic heart disease",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "410.xx–414.xx",
+      "429.xx"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC5792368.1.xml",
+      "location": "section: METHODS > Nonattainment Designations and Effects of Interest",
+      "quote": "ischemic heart disease (IHD, ICD9-CM codes 410.xx–414.xx or 429.xx)"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1097_ede_0000000000001265",
+     "paper": "deSouza 2021 Epidemiology",
+     "outcome_name": "ischemic heart disease",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "410–414"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC7896354.1.xml",
+      "location": "section: Methods > Outcome Assessment",
+      "quote": "ischemic heart disease (IHD; ICD-9 codes: 410–414)"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1016_j_envint_2021_106715",
+     "paper": "Klompmaker 2021 Environ Int",
+     "outcome_name": "coronary heart disease (CHD)",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "410–414"
+     ],
+     "icd10": [
+      "I20-I25"
+     ],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC8380672.1.pdf",
+      "location": "page 3",
+      "quote": "coronary heart disease (ICD-9 code: 410–414, ICD-10 codes: I20-I25)"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1016_j_envres_2022_114684",
+     "paper": "Klompmaker 2023 Environ Res",
+     "outcome_name": "coronary heart disease (CHD; secondary outcome)",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "410– 414"
+     ],
+     "icd10": [
+      "I20–I25"
+     ],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC10236856.1.pdf",
+      "location": "page 3",
+      "quote": "coronary heart disease (ICD-9 code: 410– 414, ICD-10 codes: I20–I25)"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1016_j_envint_2023_108182",
+     "paper": "Klompmaker 2023 Environ Int",
+     "outcome_name": "coronary heart disease (CHD)",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "410–414"
+     ],
+     "icd10": [
+      "I20-I25"
+     ],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC10545022.1.pdf",
+      "location": "page 4",
+      "quote": "coronary heart disease (ICD-9 code: 410–414, ICD-10 codes: I20-I25)"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1136_bmj_2023_076939",
+     "paper": "Wei 2024 BMJ",
+     "outcome_name": "ischemic heart disease",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "410.x",
+      "411.x",
+      "412.x",
+      "413.x",
+      "414.x"
+     ],
+     "icd10": [
+      "I20.x",
+      "I21.x",
+      "I22.x",
+      "I23.x",
+      "I24.x",
+      "I25.x"
+     ],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "weiy076939.ww.pdf",
+      "location": "page 3",
+      "quote": "ICD-9 410.x, 411.x, 412.x, 413.x, 414.x"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1038_s41467_021_21777_1",
+     "paper": "Parks 2021 Nat Commun",
+     "outcome_name": "Coronary atherosclerosis",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": "AHRQ CCS level 3 group 101 (level 1 cause 7)",
+     "filter": null,
+     "icd9": [
+      "4110",
+      "4111",
+      "4118",
+      "41181",
+      "41189",
+      "412",
+      "4130",
+      "4131",
+      "4139",
+      "4140",
+      "41400",
+      "41401",
+      "41406",
+      "4142",
+      "4143",
+      "4144",
+      "4148",
+      "4149",
+      "V4581",
+      "V4582"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "41467_2021_21777_MOESM1_ESM.pdf",
+      "location": "Supplementary Table 2, page 19",
+      "quote": "Supplementary Table 2. ICD-9-CM codes per CCS Levels 1 and 3 used in analyses"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1136_bmj_l6258",
+     "paper": "Wei 2019 BMJ",
+     "outcome_name": "coronary atherosclerosis and other heart disease (CCS 101)",
+     "scope": "exact",
+     "codes_status": "classification_ref",
+     "classification": "AHRQ CCS 101",
+     "filter": null,
+     "icd9": [],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC6880251.1.xml",
+      "location": "section: Results",
+      "quote": "coronary atherosclerosis and other heart disease (CCS code 101)"
+     },
+     "level": "classification"
+    }
+   ]
+  },
+  {
+   "id": "C3",
+   "group": "Cardiovascular and blood-vessel conditions",
+   "name": "Heart failure",
+   "status": "explicit",
+   "parks_only": false,
+   "n_papers": 11,
+   "icd10_available": true,
+   "note": null,
+   "sources": [
+    {
+     "slug": "10_1161_circulationaha_109_851113",
+     "paper": "Bell 2009 Circulation",
+     "outcome_name": "heart failure",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "428"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC2777712.1.xml",
+      "location": "section: Methods",
+      "quote": "Cause-specific CVD hospitalizations were considered based on primary diagnosis for International Classification of Disease Codes, 9th Revision (ICD-9): heart failure (ICD-9 428)"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1136_bmj_f5561",
+     "paper": "Correia 2013 BMJ",
+     "outcome_name": "heart failure",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "428"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC3805481.2.xml",
+      "location": "section: Methods",
+      "quote": "for primary diagnosis: heart failure (ICD-9 428)"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1186_1476_069x_12_68",
+     "paper": "Kioumourtzoglou 2013 Environ Health",
+     "outcome_name": "congestive heart failure",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "428"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC3765898.1.pdf",
+      "location": "page 2",
+      "quote": "congestive heart failure (CHF; code 428)"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1097_ede_0000000000000777",
+     "paper": "Zigler 2018 Epidemiology",
+     "outcome_name": "heart failure",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "428.xx"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC5792368.1.xml",
+      "location": "section: METHODS > Nonattainment Designations and Effects of Interest",
+      "quote": "heart failure (ICD9-CM codes 428.xx)"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1097_ede_0000000000001265",
+     "paper": "deSouza 2021 Epidemiology",
+     "outcome_name": "congestive heart failure",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "428"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC7896354.1.xml",
+      "location": "section: Methods > Outcome Assessment",
+      "quote": "congestive heart failure (CHF; ICD-9 code: 428)"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1136_bmj_2023_076939",
+     "paper": "Wei 2024 BMJ",
+     "outcome_name": "heart failure",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "398.91",
+      "402.01",
+      "402.11",
+      "402.91",
+      "404.01",
+      "404.03",
+      "404.11",
+      "404.13",
+      "404.91",
+      "404.93",
+      "428.x"
+     ],
+     "icd10": [
+      "I50.x"
+     ],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "weiy076939.ww.pdf",
+      "location": "page 3",
+      "quote": "398.91, 402.01, 402.11, 402.91, 404.01, 404.03, 404.11, 404.13, 404.91, 404.93, 428.x"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1016_j_envres_2025_122779",
+     "paper": "Danesh Yazdi 2025 Environ Res (PM2.5 components)",
+     "outcome_name": "heart failure",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "428"
+     ],
+     "icd10": [
+      "I50"
+     ],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC12746473.1.pdf",
+      "location": "page 5",
+      "quote": "Heart failure was defined as ICD-9 code 428 and ICD-10 code I50"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1038_s41467_021_21777_1",
+     "paper": "Parks 2021 Nat Commun",
+     "outcome_name": "Congestive heart failure",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": "AHRQ CCS level 3 group 108 (level 1 cause 7)",
+     "filter": null,
+     "icd9": [
+      "39891",
+      "4280",
+      "4281",
+      "42820",
+      "42821",
+      "42822",
+      "42823",
+      "42830",
+      "42831",
+      "42832",
+      "42833",
+      "42840",
+      "42841",
+      "42842",
+      "42843",
+      "4289"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "41467_2021_21777_MOESM1_ESM.pdf",
+      "location": "Supplementary Table 2, page 20",
+      "quote": "Supplementary Table 2. ICD-9-CM codes per CCS Levels 1 and 3 used in analyses"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1136_bmj_l6258",
+     "paper": "Wei 2019 BMJ",
+     "outcome_name": "non-hypertensive congestive heart failure (CCS 108)",
+     "scope": "exact",
+     "codes_status": "classification_ref",
+     "classification": "AHRQ CCS 108",
+     "filter": null,
+     "icd9": [],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC6880251.1.xml",
+      "location": "section: Results",
+      "quote": "non-hypertensive congestive heart failure (CCS code 108)"
+     },
+     "level": "classification"
+    },
+    {
+     "slug": "10_1001_jama_2014_15715",
+     "paper": "Bobb 2014 JAMA",
+     "outcome_name": "congestive heart failure",
+     "scope": "exact",
+     "codes_status": "classification_ref",
+     "classification": "AHRQ CCS (number not given)",
+     "filter": null,
+     "icd9": [],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC4319792.1.xml",
+      "location": "abstract",
+      "quote": "but risk of hospitalization for congestive heart failure was lower"
+     },
+     "level": "classification"
+    },
+    {
+     "slug": "10_1097_ede_0000000000001456",
+     "paper": "Thomas 2022 Epidemiology",
+     "outcome_name": "heart failure and congestive heart failure (CCS 7.2.11; 3 outcomes)",
+     "scope": "exact",
+     "codes_status": "classification_ref",
+     "classification": "AHRQ multi-level CCS 7.2.11",
+     "filter": null,
+     "icd9": [],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC8852365.1.xml",
+      "location": "table: Table 2",
+      "quote": "Heart failure and congestive heart failure (7.2.11)"
+     },
+     "level": "classification"
+    }
+   ]
+  },
+  {
+   "id": "C4",
+   "group": "Cardiovascular and blood-vessel conditions",
+   "name": "Abnormal heart rhythms (arrhythmias/dysrhythmias)",
+   "status": "explicit",
+   "parks_only": false,
+   "n_papers": 8,
+   "icd10_available": true,
+   "note": null,
+   "sources": [
+    {
+     "slug": "10_1161_circulationaha_109_851113",
+     "paper": "Bell 2009 Circulation",
+     "outcome_name": "heart rhythm disturbances",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "426–427"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC2777712.1.xml",
+      "location": "section: Methods",
+      "quote": "heart rhythm disturbances (ICD-9 426–427)"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1136_bmj_f5561",
+     "paper": "Correia 2013 BMJ",
+     "outcome_name": "heart rhythm disturbances",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "426 to 427"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC3805481.2.xml",
+      "location": "section: Methods",
+      "quote": "heart rhythm disturbances (426 to 427)"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1097_ede_0000000000000777",
+     "paper": "Zigler 2018 Epidemiology",
+     "outcome_name": "heart rhythm disorders",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "426.xx-427.xx"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC5792368.1.xml",
+      "location": "section: METHODS > Nonattainment Designations and Effects of Interest",
+      "quote": "heart rhythm disorders (ICD9-CM codes 426.xx-427.xx)"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1136_bmj_2023_076939",
+     "paper": "Wei 2024 BMJ",
+     "outcome_name": "arrhythmia",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "426.x",
+      "427.x",
+      "785.0"
+     ],
+     "icd10": [
+      "I44.x",
+      "I45.x",
+      "I47.x",
+      "I48.x",
+      "I49.x",
+      "R00.0",
+      "R00.1",
+      "R00.8",
+      "R94.31",
+      "T82.1",
+      "T82.11",
+      "T82.110",
+      "T82.111",
+      "T82.118",
+      "T82.119",
+      "Z45.0",
+      "Z45.01",
+      "Z45.010",
+      "Z45.018",
+      "Z45.02",
+      "Z45.09",
+      "Z95.0"
+     ],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "weiy076939.ww.pdf",
+      "location": "page 3",
+      "quote": "T82.111, T82.118, T82.119, Z45.0, Z45.01, Z45.010, Z45.018, Z45.02, Z45.09, Z95.0"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1038_s41467_021_21777_1",
+     "paper": "Parks 2021 Nat Commun",
+     "outcome_name": "Cardiac dysrhythmias",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": "AHRQ CCS level 3 group 106 (level 1 cause 7)",
+     "filter": null,
+     "icd9": [
+      "4270",
+      "4271",
+      "4272",
+      "42731",
+      "42732",
+      "42760",
+      "42761",
+      "42769",
+      "42781",
+      "42789",
+      "4279",
+      "7850",
+      "7851"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "41467_2021_21777_MOESM1_ESM.pdf",
+      "location": "Supplementary Table 2, page 19",
+      "quote": "Supplementary Table 2. ICD-9-CM codes per CCS Levels 1 and 3 used in analyses"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1038_s41467_021_21777_1",
+     "paper": "Parks 2021 Nat Commun",
+     "outcome_name": "Conduction disorders",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": "AHRQ CCS level 3 group 105 (level 1 cause 7)",
+     "filter": null,
+     "icd9": [
+      "4260",
+      "42610",
+      "42611",
+      "42612",
+      "42613",
+      "4262",
+      "4263",
+      "4264",
+      "42650",
+      "42651",
+      "42652",
+      "42653",
+      "42654",
+      "4266",
+      "4267",
+      "42681",
+      "42682",
+      "42689",
+      "4269",
+      "V450",
+      "V4500",
+      "V4501",
+      "V4502",
+      "V4509",
+      "V533",
+      "V5331",
+      "V5332",
+      "V5339"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "41467_2021_21777_MOESM1_ESM.pdf",
+      "location": "Supplementary Table 2, page 19",
+      "quote": "Supplementary Table 2. ICD-9-CM codes per CCS Levels 1 and 3 used in analyses"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1136_bmj_l6258",
+     "paper": "Wei 2019 BMJ",
+     "outcome_name": "cardiac dysrhythmias (CCS 106)",
+     "scope": "exact",
+     "codes_status": "classification_ref",
+     "classification": "AHRQ CCS 106",
+     "filter": null,
+     "icd9": [],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC6880251.1.xml",
+      "location": "section: Results",
+      "quote": "cardiac dysrhythmias (CCS code 106)"
+     },
+     "level": "classification"
+    },
+    {
+     "slug": "10_1161_circulationaha_120_050252",
+     "paper": "Danesh Yazdi 2021 Circulation",
+     "outcome_name": "atrial fibrillation and flutter",
+     "scope": "narrower",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "427.3"
+     ],
+     "icd10": [
+      "I48"
+     ],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC8055197.1.pdf",
+      "location": "page 3",
+      "quote": "Primary discharge codes for atrial fibrillation and flutter were defined as ICD-9 code 427.3 and ICD-10 code I48"
+     },
+     "level": "explicit_partial"
+    },
+    {
+     "slug": "10_1016_j_envres_2025_122779",
+     "paper": "Danesh Yazdi 2025 Environ Res (PM2.5 components)",
+     "outcome_name": "atrial fibrillation and flutter",
+     "scope": "narrower",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "427.3"
+     ],
+     "icd10": [
+      "I48"
+     ],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC12746473.1.pdf",
+      "location": "page 5",
+      "quote": "Atrial fibrillation and flutter were defined as ICD-9 code 427.3 and ICD-10 code I48"
+     },
+     "level": "explicit_partial"
+    }
+   ]
+  },
+  {
+   "id": "C5",
+   "group": "Cardiovascular and blood-vessel conditions",
+   "name": "Cardiac arrest",
+   "status": "explicit",
+   "parks_only": true,
+   "n_papers": 1,
+   "icd10_available": false,
+   "note": "Only the Parks CCS 107 group, which Parks printed in gray (not analyzed on its own).",
+   "sources": [
+    {
+     "slug": "10_1038_s41467_021_21777_1",
+     "paper": "Parks 2021 Nat Commun",
+     "outcome_name": "Cardiac arrest and ventricular fibrillation",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": "AHRQ CCS level 3 group 107 (level 1 cause 7)",
+     "filter": null,
+     "icd9": [
+      "42741",
+      "42742",
+      "4275"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "41467_2021_21777_MOESM1_ESM.pdf",
+      "location": "Supplementary Table 2, page 20",
+      "quote": "Supplementary Table 2. ICD-9-CM codes per CCS Levels 1 and 3 used in analyses"
+     },
+     "level": "explicit"
+    }
+   ]
+  },
+  {
+   "id": "C6",
+   "group": "Cardiovascular and blood-vessel conditions",
+   "name": "Hypertensive heart disease",
+   "status": "explicit_partial",
+   "parks_only": false,
+   "n_papers": 2,
+   "icd10_available": true,
+   "note": "No hypertensive-heart-disease outcome. ICD-9 402/404 sit in Parks CCS 99; Wei 2024 counts 402.x1/404.x hypertensive heart (and kidney) disease with heart failure inside its heart failure definition.",
+   "sources": [
+    {
+     "slug": "10_1038_s41467_021_21777_1",
+     "paper": "Parks 2021 Nat Commun",
+     "outcome_name": "Hypertension with complications and secondary hypertension",
+     "scope": "broader",
+     "codes_status": "explicit_codes",
+     "classification": "AHRQ CCS level 3 group 99 (level 1 cause 7)",
+     "filter": [
+      "402",
+      "404"
+     ],
+     "icd9": [
+      "40200",
+      "40201",
+      "40210",
+      "40211",
+      "40290",
+      "40291",
+      "4040",
+      "40400",
+      "40401",
+      "40402",
+      "40403",
+      "4041",
+      "40410",
+      "40411",
+      "40412",
+      "40413",
+      "4049",
+      "40490",
+      "40491",
+      "40492",
+      "40493"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "41467_2021_21777_MOESM1_ESM.pdf",
+      "location": "Supplementary Table 2, page 19",
+      "quote": "Supplementary Table 2. ICD-9-CM codes per CCS Levels 1 and 3 used in analyses"
+     },
+     "level": "explicit_partial"
+    },
+    {
+     "slug": "10_1136_bmj_2023_076939",
+     "paper": "Wei 2024 BMJ",
+     "outcome_name": "heart failure",
+     "scope": "narrower",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "398.91",
+      "402.01",
+      "402.11",
+      "402.91",
+      "404.01",
+      "404.03",
+      "404.11",
+      "404.13",
+      "404.91",
+      "404.93",
+      "428.x"
+     ],
+     "icd10": [
+      "I50.x"
+     ],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "weiy076939.ww.pdf",
+      "location": "page 3",
+      "quote": "398.91, 402.01, 402.11, 402.91, 404.01, 404.03, 404.11, 404.13, 404.91, 404.93, 428.x"
+     },
+     "level": "explicit_partial"
+    }
+   ]
+  },
+  {
+   "id": "C7",
+   "group": "Cardiovascular and blood-vessel conditions",
+   "name": "Stroke, including ischemic and hemorrhagic stroke",
+   "status": "explicit",
+   "parks_only": false,
+   "n_papers": 7,
+   "icd10_available": true,
+   "note": "Ischemic and hemorrhagic stroke appear separately; only Parks CCS 109 combines them. Broader 'cerebrovascular' outcomes are under N4.",
+   "sources": [
+    {
+     "slug": "10_1161_circulationaha_120_050252",
+     "paper": "Danesh Yazdi 2021 Circulation",
+     "outcome_name": "ischemic stroke",
+     "scope": "narrower",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "433.X1",
+      "434.X1",
+      "436"
+     ],
+     "icd10": [
+      "I63"
+     ],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC8055197.1.pdf",
+      "location": "page 3",
+      "quote": "Primary discharge codes for ischemic stroke were defined as ICD-9 codes 433.X1, 434.X1, and 436, and ICD-10 code I63"
+     },
+     "level": "explicit_partial"
+    },
+    {
+     "slug": "10_1016_j_scitotenv_2022_156855",
+     "paper": "Danesh Yazdi 2022 Sci Total Environ",
+     "outcome_name": "ischemic stroke",
+     "scope": "narrower",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "433.X1",
+      "434.X1",
+      "436"
+     ],
+     "icd10": [
+      "I63"
+     ],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC10007814.1.xml",
+      "location": "section: Materials and Methods > Outcome Definition",
+      "quote": "Ischemic stroke was defined as ICD-9 codes: 433.X1, 434.X1, 436, and ICD-10 code: I63"
+     },
+     "level": "explicit_partial"
+    },
+    {
+     "slug": "10_1097_ede_0000000000001265",
+     "paper": "deSouza 2021 Epidemiology",
+     "outcome_name": "ischemic stroke",
+     "scope": "narrower",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "434.91"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC7896354.1.xml",
+      "location": "section: Methods > Outcome Assessment",
+      "quote": "ischemic stroke (ICD-9 code: 434.91)"
+     },
+     "level": "explicit_partial"
+    },
+    {
+     "slug": "10_1016_j_envint_2025_109617",
+     "paper": "Danesh Yazdi 2025 Environ Int (second events)",
+     "outcome_name": "second admission with ischemic stroke",
+     "scope": "narrower",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "433.X1",
+      "434.X1",
+      "436"
+     ],
+     "icd10": [
+      "I163"
+     ],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC12810584.1.pdf",
+      "location": "page 4",
+      "quote": "We defined ischemic stroke as primary ICD-9 codes 433.X1, 434.X1, 436 and ICD-10 code I163"
+     },
+     "level": "explicit_partial"
+    },
+    {
+     "slug": "10_1016_j_envres_2025_122779",
+     "paper": "Danesh Yazdi 2025 Environ Res (PM2.5 components)",
+     "outcome_name": "ischemic stroke",
+     "scope": "narrower",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "433.X1",
+      "434.X1",
+      "436"
+     ],
+     "icd10": [
+      "I163"
+     ],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC12746473.1.pdf",
+      "location": "page 5",
+      "quote": "Ischemic stroke was defined as ICD-9 codes 433.X1, 434.X1, 436 and ICD-10 code I163"
+     },
+     "level": "explicit_partial"
+    },
+    {
+     "slug": "10_1097_ede_0000000000001456",
+     "paper": "Thomas 2022 Epidemiology",
+     "outcome_name": "intracranial hemorrhage (CCS 7.3.1.1)",
+     "scope": "narrower",
+     "codes_status": "classification_ref",
+     "classification": "AHRQ multi-level CCS 7.3.1.1",
+     "filter": null,
+     "icd9": [],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC8852365.1.xml",
+      "location": "table: Table 2",
+      "quote": "Intracranial hemorrhage (7.3.1.1)"
+     },
+     "level": "classification"
+    },
+    {
+     "slug": "10_1038_s41467_021_21777_1",
+     "paper": "Parks 2021 Nat Commun",
+     "outcome_name": "Stroke",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": "AHRQ CCS level 3 group 109 (level 1 cause 7)",
+     "filter": null,
+     "icd9": [
+      "4660",
+      "34661",
+      "34662",
+      "34663",
+      "430",
+      "431",
+      "4320",
+      "4321",
+      "4329",
+      "43301",
+      "43311",
+      "43321",
+      "43331",
+      "43381",
+      "43391",
+      "4340",
+      "43400",
+      "43401",
+      "4341",
+      "43410",
+      "43411",
+      "4349",
+      "43490",
+      "43491",
+      "436"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "41467_2021_21777_MOESM1_ESM.pdf",
+      "location": "Supplementary Table 2, page 20",
+      "quote": "Supplementary Table 2. ICD-9-CM codes per CCS Levels 1 and 3 used in analyses"
+     },
+     "level": "explicit"
+    }
+   ]
+  },
+  {
+   "id": "C8",
+   "group": "Cardiovascular and blood-vessel conditions",
+   "name": "Blood clots: phlebitis, thrombophlebitis, and thromboembolism",
+   "status": "explicit",
+   "parks_only": true,
+   "n_papers": 2,
+   "icd10_available": false,
+   "note": null,
+   "sources": [
+    {
+     "slug": "10_1038_s41467_021_21777_1",
+     "paper": "Parks 2021 Nat Commun",
+     "outcome_name": "Phlebitis, thrombophlebitis and thromboembolism",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": "AHRQ CCS level 3 group 118 (level 1 cause 7)",
+     "filter": null,
+     "icd9": [
+      "4510",
+      "45111",
+      "45119",
+      "4512",
+      "45181",
+      "45182",
+      "45183",
+      "45184",
+      "45189",
+      "4519",
+      "452",
+      "4530",
+      "4531",
+      "4532",
+      "4533",
+      "45340",
+      "45341",
+      "45342",
+      "45350",
+      "45351",
+      "45352",
+      "4536",
+      "45371",
+      "45372",
+      "45373",
+      "45374",
+      "45375",
+      "45376",
+      "45377",
+      "45379",
+      "4538",
+      "45381",
+      "45382",
+      "45383",
+      "45384",
+      "45385",
+      "45386",
+      "45387",
+      "45389",
+      "4539",
+      "V1251",
+      "V1252",
+      "V1255"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "41467_2021_21777_MOESM1_ESM.pdf",
+      "location": "Supplementary Table 2, page 21",
+      "quote": "Supplementary Table 2. ICD-9-CM codes per CCS Levels 1 and 3 used in analyses"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1136_bmj_l6258",
+     "paper": "Wei 2019 BMJ",
+     "outcome_name": "phlebitis, thrombophlebitis, and thromboembolism (CCS 118)",
+     "scope": "exact",
+     "codes_status": "classification_ref",
+     "classification": "AHRQ CCS 118",
+     "filter": null,
+     "icd9": [],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC6880251.1.xml",
+      "location": "section: Results",
+      "quote": "phlebitis, thrombophlebitis, and thromboembolism (CCS code 118)"
+     },
+     "level": "classification"
+    },
+    {
+     "slug": "10_1038_s41467_021_21777_1",
+     "paper": "Parks 2021 Nat Commun",
+     "outcome_name": "Aortic and peripheral arterial embolism or thrombosis",
+     "scope": "narrower",
+     "codes_status": "explicit_codes",
+     "classification": "AHRQ CCS level 3 group 116 (level 1 cause 7)",
+     "filter": null,
+     "icd9": [
+      "4440",
+      "44401",
+      "44409",
+      "4441",
+      "44421",
+      "44422",
+      "44481",
+      "44489",
+      "4449",
+      "44501",
+      "44502",
+      "44581",
+      "44589"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "41467_2021_21777_MOESM1_ESM.pdf",
+      "location": "Supplementary Table 2, page 21",
+      "quote": "Supplementary Table 2. ICD-9-CM codes per CCS Levels 1 and 3 used in analyses"
+     },
+     "level": "explicit_partial"
+    }
+   ]
+  },
+  {
+   "id": "C9",
+   "group": "Cardiovascular and blood-vessel conditions",
+   "name": "Retinal artery occlusion",
+   "status": "explicit_partial",
+   "parks_only": true,
+   "n_papers": 1,
+   "icd10_available": false,
+   "note": "Only inside Parks CCS 87 (gray: not analyzed on its own); no paper in the set studies retinal artery occlusion.",
+   "sources": [
+    {
+     "slug": "10_1038_s41467_021_21777_1",
+     "paper": "Parks 2021 Nat Commun",
+     "outcome_name": "Retinal detachments, defects, vascular occlusion and retinopathy",
+     "scope": "broader",
+     "codes_status": "explicit_codes",
+     "classification": "AHRQ CCS level 3 group 87 (level 1 cause 6)",
+     "filter": [
+      "3623"
+     ],
+     "icd9": [
+      "36230",
+      "36231",
+      "36232",
+      "36233",
+      "36234",
+      "36235",
+      "36236",
+      "36237"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "41467_2021_21777_MOESM1_ESM.pdf",
+      "location": "Supplementary Table 2, page 15",
+      "quote": "Supplementary Table 2. ICD-9-CM codes per CCS Levels 1 and 3 used in analyses"
+     },
+     "level": "explicit_partial"
+    }
+   ]
+  },
+  {
+   "id": "N1",
+   "group": "Neurological and mental health",
+   "name": "Parkinson's disease",
+   "status": "explicit",
+   "parks_only": false,
+   "n_papers": 5,
+   "icd10_available": true,
+   "note": null,
+   "sources": [
+    {
+     "slug": "10_1186_1476_069x_13_38",
+     "paper": "Zanobetti 2014 Environ Health",
+     "outcome_name": "Parkinson's disease",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "332"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC4064518.1.pdf",
+      "location": "page 3",
+      "quote": "Parkinson's disease (ICD-9: 332)"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1016_s2542_5196_20_30227_8",
+     "paper": "Shi 2020 Lancet Planet Health",
+     "outcome_name": "first hospital admission for Parkinson's disease",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "332"
+     ],
+     "icd10": [
+      "G20",
+      "G21·11",
+      "G21·19",
+      "G21·8"
+     ],
+     "diagnosis_position": "principal_or_secondary",
+     "evidence": {
+      "file": "PMC7720425.1.pdf",
+      "location": "page 3",
+      "quote": "Parkinson’s disease (ICD-9: 332; ICD-10: G20, G21·11, G21·19, and G21·8)"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1001_jamanetworkopen_2022_47664",
+     "paper": "Klompmaker 2023 JAMA Netw Open",
+     "outcome_name": "first hospitalization with Parkinson disease",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "332.0",
+      "332.1"
+     ],
+     "icd10": [
+      "G20",
+      "G21.11",
+      "G21.19",
+      "G21.8"
+     ],
+     "diagnosis_position": "principal_or_secondary",
+     "evidence": {
+      "file": "jamanetwopen-e2247664-s001.pdf",
+      "location": "page 2",
+      "quote": "PD hospitalization: ICD-9: 332.0 332.1, ICD-10: G20, G21.11, G21.19, and G21.8"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1136_bmj_l6258",
+     "paper": "Wei 2019 BMJ",
+     "outcome_name": "Parkinson's disease (CCS 79)",
+     "scope": "exact",
+     "codes_status": "classification_ref",
+     "classification": "AHRQ CCS 79",
+     "filter": null,
+     "icd9": [],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC6880251.1.xml",
+      "location": "section: Results",
+      "quote": "Parkinson’s disease (CCS code 79)"
+     },
+     "level": "classification"
+    },
+    {
+     "slug": "10_1038_s41467_021_21777_1",
+     "paper": "Parks 2021 Nat Commun",
+     "outcome_name": "Parkinson's disease",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": "AHRQ CCS level 3 group 79 (level 1 cause 6)",
+     "filter": null,
+     "icd9": [
+      "3320"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "41467_2021_21777_MOESM1_ESM.pdf",
+      "location": "Supplementary Table 2, page 14",
+      "quote": "Supplementary Table 2. ICD-9-CM codes per CCS Levels 1 and 3 used in analyses"
+     },
+     "level": "explicit"
+    }
+   ]
+  },
+  {
+   "id": "N2",
+   "group": "Neurological and mental health",
+   "name": "Dementia, including Alzheimer's disease",
+   "status": "explicit",
+   "parks_only": false,
+   "n_papers": 7,
+   "icd10_available": true,
+   "note": null,
+   "sources": [
+    {
+     "slug": "10_1186_1476_069x_13_38",
+     "paper": "Zanobetti 2014 Environ Health",
+     "outcome_name": "dementia",
+     "scope": "narrower",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "290"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC4064518.1.pdf",
+      "location": "page 3",
+      "quote": "dementia (ICD-9: 290)"
+     },
+     "level": "explicit_partial"
+    },
+    {
+     "slug": "10_1186_1476_069x_13_38",
+     "paper": "Zanobetti 2014 Environ Health",
+     "outcome_name": "Alzheimer's disease",
+     "scope": "narrower",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "331.0"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC4064518.1.pdf",
+      "location": "page 3",
+      "quote": "Alzheimer's disease (ICD-9: 331.0)"
+     },
+     "level": "explicit_partial"
+    },
+    {
+     "slug": "10_1016_j_envpol_2019_07_094",
+     "paper": "Lee 2019 Environ Pollut",
+     "outcome_name": "first hospitalization with dementia",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": "CMS Chronic Conditions Data Warehouse (CCW) list",
+     "filter": null,
+     "icd9": [
+      "290.0",
+      "290.20",
+      "290.21",
+      "290.3",
+      "290.40",
+      "290.41",
+      "290.42",
+      "290.43",
+      "291.2",
+      "294.0",
+      "294.1",
+      "294.10",
+      "294.11",
+      "331.0",
+      "331.1",
+      "331.11",
+      "331.19",
+      "331.2",
+      "331.7",
+      "331.82"
+     ],
+     "icd10": [],
+     "diagnosis_position": "any",
+     "evidence": {
+      "file": "PMC7995172.1.xml",
+      "location": "section: Method > Data > Medicare data",
+      "quote": "The included ICD-9 CM codes were as follows: 290.0, 290.20, 290.21, 290.3, 290.40, 290.41, 290.42, 290.43, 291.2, 294.0, 294.1, 294.10, 294.11, 331.0, 331.1, 331.11, 331.19, 331.2, 331.7, and 331.82"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1016_s2542_5196_20_30227_8",
+     "paper": "Shi 2020 Lancet Planet Health",
+     "outcome_name": "first hospital admission for Alzheimer's disease and related dementias",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "331·0",
+      "290"
+     ],
+     "icd10": [
+      "G30·9",
+      "F05"
+     ],
+     "diagnosis_position": "principal_or_secondary",
+     "evidence": {
+      "file": "PMC7720425.1.pdf",
+      "location": "page 3",
+      "quote": "Alzheimer’s disease and related dementias (ICD-9: 331·0, 290; ICD-10: G30·9, and F05)"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1001_jamanetworkopen_2022_47664",
+     "paper": "Klompmaker 2023 JAMA Netw Open",
+     "outcome_name": "first hospitalization with ADRD",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": "CMS Chronic Conditions Data Warehouse (CCW) codes",
+     "filter": null,
+     "icd9": [
+      "331.0",
+      "331.11",
+      "331.19",
+      "331.2",
+      "331.7",
+      "290.0",
+      "290.10",
+      "290.11",
+      "290.12",
+      "290.13",
+      "290.20",
+      "290.21",
+      "290.3",
+      "290.40",
+      "290.41",
+      "290.42",
+      "290.43",
+      "294.0",
+      "294.10",
+      "294.11",
+      "294.20",
+      "294.21",
+      "294.8",
+      "797"
+     ],
+     "icd10": [
+      "F01.50",
+      "F01.51",
+      "F02.80",
+      "F02.81",
+      "F03.90",
+      "F03.91",
+      "F04",
+      "F05",
+      "F06.1",
+      "F06.8",
+      "G13.8",
+      "G30.0",
+      "G30.1",
+      "G30.8",
+      "G30.9",
+      "G31.01",
+      "G31.09",
+      "G31.1",
+      "G31.2",
+      "G94",
+      "R41.81",
+      "R54"
+     ],
+     "diagnosis_position": "principal_or_secondary",
+     "evidence": {
+      "file": "jamanetwopen-e2247664-s001.pdf",
+      "location": "page 2",
+      "quote": "ADRD hospitalization ICD-9: 331.0, 331.11, 331.19, 331.2, 331.7, 290.0, 290.10, 290.11, 290.12, 290.13, 290.20, 290.21, 290.3, 290.40, 290.41, 290.42, 290.43, 294.0, 294.10, 294.11, 294.20, 294.21, 294.8 and 797"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1002_alz_70945",
+     "paper": "Spoto 2025 Alzheimers Dement",
+     "outcome_name": "Alzheimer's disease",
+     "scope": "narrower",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [],
+     "icd10": [
+      "G300",
+      "G301",
+      "G308",
+      "G309"
+     ],
+     "diagnosis_position": "any",
+     "evidence": {
+      "file": "ALZ-21-e70945-s002.pdf",
+      "location": "page 4",
+      "quote": "eTable 1: Codes for dementia-qualifying hospitalization identification and corresponding diagnostic categories"
+     },
+     "level": "explicit_partial"
+    },
+    {
+     "slug": "10_1002_alz_70945",
+     "paper": "Spoto 2025 Alzheimers Dement",
+     "outcome_name": "non-specific dementia",
+     "scope": "narrower",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [],
+     "icd10": [
+      "F0280",
+      "F0281",
+      "F0390",
+      "F0391",
+      "G3109",
+      "G311",
+      "G3189",
+      "G319"
+     ],
+     "diagnosis_position": "any",
+     "evidence": {
+      "file": "ALZ-21-e70945-s002.pdf",
+      "location": "page 4",
+      "quote": "eTable 1: Codes for dementia-qualifying hospitalization identification and corresponding diagnostic categories"
+     },
+     "level": "explicit_partial"
+    },
+    {
+     "slug": "10_1002_alz_70945",
+     "paper": "Spoto 2025 Alzheimers Dement",
+     "outcome_name": "vascular dementia",
+     "scope": "narrower",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [],
+     "icd10": [
+      "F0150",
+      "F0151"
+     ],
+     "diagnosis_position": "any",
+     "evidence": {
+      "file": "ALZ-21-e70945-s002.pdf",
+      "location": "page 4",
+      "quote": "eTable 1: Codes for dementia-qualifying hospitalization identification and corresponding diagnostic categories"
+     },
+     "level": "explicit_partial"
+    },
+    {
+     "slug": "10_1002_alz_70945",
+     "paper": "Spoto 2025 Alzheimers Dement",
+     "outcome_name": "Pick's disease",
+     "scope": "narrower",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [],
+     "icd10": [
+      "G3101"
+     ],
+     "diagnosis_position": "any",
+     "evidence": {
+      "file": "ALZ-21-e70945-s002.pdf",
+      "location": "page 4",
+      "quote": "eTable 1: Codes for dementia-qualifying hospitalization identification and corresponding diagnostic categories"
+     },
+     "level": "explicit_partial"
+    },
+    {
+     "slug": "10_1002_alz_70945",
+     "paper": "Spoto 2025 Alzheimers Dement",
+     "outcome_name": "neurocognitive disorder",
+     "scope": "narrower",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [],
+     "icd10": [
+      "G3183",
+      "G3185"
+     ],
+     "diagnosis_position": "any",
+     "evidence": {
+      "file": "ALZ-21-e70945-s002.pdf",
+      "location": "page 4",
+      "quote": "eTable 1: Codes for dementia-qualifying hospitalization identification and corresponding diagnostic categories"
+     },
+     "level": "explicit_partial"
+    },
+    {
+     "slug": "10_1038_s41467_021_21777_1",
+     "paper": "Parks 2021 Nat Commun",
+     "outcome_name": "Delirium and dementia",
+     "scope": "broader",
+     "codes_status": "explicit_codes",
+     "classification": "AHRQ CCS level 3 group 653 (level 1 cause 5)",
+     "filter": null,
+     "icd9": [
+      "2900",
+      "29010",
+      "29011",
+      "29012",
+      "29013",
+      "29020",
+      "29021",
+      "2903",
+      "29040",
+      "29041",
+      "29042",
+      "29043",
+      "2908",
+      "2909",
+      "2930",
+      "2931",
+      "2940",
+      "2941",
+      "29410",
+      "29411",
+      "29420",
+      "29421",
+      "2948",
+      "2949",
+      "3100",
+      "3102",
+      "3108",
+      "31081",
+      "31089",
+      "3109",
+      "3310",
+      "3311",
+      "33111",
+      "33119",
+      "3312",
+      "33182",
+      "797"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "41467_2021_21777_MOESM1_ESM.pdf",
+      "location": "Supplementary Table 2, page 12",
+      "quote": "Supplementary Table 2. ICD-9-CM codes per CCS Levels 1 and 3 used in analyses"
+     },
+     "level": "explicit_partial"
+    },
+    {
+     "slug": "10_1080_01621459_2020_1803883",
+     "paper": "Nethery 2021 JASA",
+     "outcome_name": "dementia-related hospitalizations",
+     "scope": "exact",
+     "codes_status": "in_unfetched_supplement",
+     "classification": null,
+     "filter": null,
+     "icd9": [],
+     "icd10": [],
+     "diagnosis_position": null,
+     "evidence": {
+      "file": "PMC7788006.1.xml",
+      "location": "section: Data",
+      "quote": "including the ICD-9 codes used to classify hospitalizations, see Section 2"
+     },
+     "level": "no_codes"
+    }
+   ]
+  },
+  {
+   "id": "N3",
+   "group": "Neurological and mental health",
+   "name": "Depression-related hospital visits or admissions",
+   "status": "explicit",
+   "parks_only": false,
+   "n_papers": 2,
+   "icd10_available": true,
+   "note": null,
+   "sources": [
+    {
+     "slug": "10_1016_s2542_5196_22_00017_1",
+     "paper": "Qiu 2022 Lancet Planet Health",
+     "outcome_name": "depression",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "296.2x",
+      "296.3x",
+      "300.4x",
+      "309.0x",
+      "309.1x",
+      "311.xx"
+     ],
+     "icd10": [
+      "F32.xx",
+      "F33.xx",
+      "F34.1x",
+      "F39.xx",
+      "F43.21"
+     ],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC9044858.1.pdf",
+      "location": "page 4",
+      "quote": "depression (296.2x, 296.3x, 300.4x, 309.0x, 309.1x, 311.xx, F32.xx, F33.xx, F34.1x, F39.xx, and F43.21)"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1038_s41467_021_21777_1",
+     "paper": "Parks 2021 Nat Commun",
+     "outcome_name": "Mood disorders",
+     "scope": "broader",
+     "codes_status": "explicit_codes",
+     "classification": "AHRQ CCS level 3 group 657 (level 1 cause 5)",
+     "filter": null,
+     "icd9": [
+      "29383",
+      "29600",
+      "29601",
+      "29602",
+      "29603",
+      "29604",
+      "29605",
+      "29606",
+      "29610",
+      "29611",
+      "29612",
+      "29613",
+      "29614",
+      "29615",
+      "29616",
+      "29620",
+      "29621",
+      "29622",
+      "29623",
+      "29624",
+      "29625",
+      "29626",
+      "29630",
+      "29631",
+      "29632",
+      "29633",
+      "29634",
+      "29635",
+      "29636",
+      "29640",
+      "29641",
+      "29642",
+      "29643",
+      "29644",
+      "29645",
+      "29646",
+      "29650",
+      "29651",
+      "29652",
+      "29653",
+      "29654",
+      "29655",
+      "29656",
+      "29660",
+      "29661",
+      "29662",
+      "29663",
+      "29664",
+      "29665",
+      "29666",
+      "2967",
+      "29680",
+      "29681",
+      "29682",
+      "29689",
+      "29690",
+      "29699",
+      "3004",
+      "311"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "41467_2021_21777_MOESM1_ESM.pdf",
+      "location": "Supplementary Table 2, page 13",
+      "quote": "Supplementary Table 2. ICD-9-CM codes per CCS Levels 1 and 3 used in analyses"
+     },
+     "level": "explicit_partial"
+    }
+   ]
+  },
+  {
+   "id": "N4",
+   "group": "Neurological and mental health",
+   "name": "Stroke and other cerebrovascular conditions",
+   "status": "explicit",
+   "parks_only": false,
+   "n_papers": 9,
+   "icd10_available": true,
+   "note": null,
+   "sources": [
+    {
+     "slug": "10_1161_circulationaha_109_851113",
+     "paper": "Bell 2009 Circulation",
+     "outcome_name": "cerebrovascular events",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "430–438"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC2777712.1.xml",
+      "location": "section: Methods",
+      "quote": "cerebrovascular events (ICD-9 430–438)"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1136_bmj_f5561",
+     "paper": "Correia 2013 BMJ",
+     "outcome_name": "cerebrovascular events",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "430 to 438"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC3805481.2.xml",
+      "location": "section: Methods",
+      "quote": "cerebrovascular events (430 to 438)"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1097_ede_0000000000000777",
+     "paper": "Zigler 2018 Epidemiology",
+     "outcome_name": "cardiovascular stroke",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "430.xx-438.xx"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC5792368.1.xml",
+      "location": "section: METHODS > Nonattainment Designations and Effects of Interest",
+      "quote": "cardiovascular stroke (CV stroke, ICD9-CM codes 430.xx-438.xx)"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1016_j_envint_2021_106715",
+     "paper": "Klompmaker 2021 Environ Int",
+     "outcome_name": "cerebrovascular disease (CBV)",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "430–438"
+     ],
+     "icd10": [
+      "I60-I69"
+     ],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC8380672.1.pdf",
+      "location": "page 3",
+      "quote": "cerebrovascular disease (ICD-9 codes: 430–438, ICD-10 codes: I60-I69)"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1016_j_envres_2022_114684",
+     "paper": "Klompmaker 2023 Environ Res",
+     "outcome_name": "cerebrovascular disease (CBV; secondary outcome)",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "430–438"
+     ],
+     "icd10": [
+      "I60–I69"
+     ],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC10236856.1.pdf",
+      "location": "page 3",
+      "quote": "cerebrovascular disease (ICD-9 codes: 430–438, ICD-10 codes: I60–I69)"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1016_j_envint_2023_108182",
+     "paper": "Klompmaker 2023 Environ Int",
+     "outcome_name": "cerebrovascular disease (CBV)",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "430–438"
+     ],
+     "icd10": [
+      "I60-I69"
+     ],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC10545022.1.pdf",
+      "location": "page 4",
+      "quote": "cerebrovascular disease (ICD-9 codes: 430–438, ICD-10 codes: I60-I69)"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1136_bmj_2023_076939",
+     "paper": "Wei 2024 BMJ",
+     "outcome_name": "cerebrovascular disease",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "430.x",
+      "431.x",
+      "432.x",
+      "433.x",
+      "434.x",
+      "435.x",
+      "436.x",
+      "437.x",
+      "438.x"
+     ],
+     "icd10": [
+      "I60.x",
+      "I61.x",
+      "I62.x",
+      "I63.x",
+      "I64.x",
+      "I65.x",
+      "I66.x",
+      "I67.x",
+      "I68.x",
+      "I69.x"
+     ],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "weiy076939.ww.pdf",
+      "location": "page 3",
+      "quote": "Supplementary Table S1. ICD codes used for the identification of CVD subtypes"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1038_s41467_021_21777_1",
+     "paper": "Parks 2021 Nat Commun",
+     "outcome_name": "Stroke",
+     "scope": "narrower",
+     "codes_status": "explicit_codes",
+     "classification": "AHRQ CCS level 3 group 109 (level 1 cause 7)",
+     "filter": null,
+     "icd9": [
+      "4660",
+      "34661",
+      "34662",
+      "34663",
+      "430",
+      "431",
+      "4320",
+      "4321",
+      "4329",
+      "43301",
+      "43311",
+      "43321",
+      "43331",
+      "43381",
+      "43391",
+      "4340",
+      "43400",
+      "43401",
+      "4341",
+      "43410",
+      "43411",
+      "4349",
+      "43490",
+      "43491",
+      "436"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "41467_2021_21777_MOESM1_ESM.pdf",
+      "location": "Supplementary Table 2, page 20",
+      "quote": "Supplementary Table 2. ICD-9-CM codes per CCS Levels 1 and 3 used in analyses"
+     },
+     "level": "explicit_partial"
+    },
+    {
+     "slug": "10_1038_s41467_021_21777_1",
+     "paper": "Parks 2021 Nat Commun",
+     "outcome_name": "Transient cerebral ischemia",
+     "scope": "narrower",
+     "codes_status": "explicit_codes",
+     "classification": "AHRQ CCS level 3 group 112 (level 1 cause 7)",
+     "filter": null,
+     "icd9": [
+      "4350",
+      "4351",
+      "4352",
+      "4353",
+      "4358",
+      "4359"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "41467_2021_21777_MOESM1_ESM.pdf",
+      "location": "Supplementary Table 2, page 20",
+      "quote": "Supplementary Table 2. ICD-9-CM codes per CCS Levels 1 and 3 used in analyses"
+     },
+     "level": "explicit_partial"
+    },
+    {
+     "slug": "10_1038_s41467_021_21777_1",
+     "paper": "Parks 2021 Nat Commun",
+     "outcome_name": "Other and ill-defined cerebrovascular disease",
+     "scope": "narrower",
+     "codes_status": "explicit_codes",
+     "classification": "AHRQ CCS level 3 group 111 (level 1 cause 7)",
+     "filter": null,
+     "icd9": [
+      "4370",
+      "4371",
+      "4373",
+      "4374",
+      "4375",
+      "4376",
+      "4377",
+      "4378",
+      "4379"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "41467_2021_21777_MOESM1_ESM.pdf",
+      "location": "Supplementary Table 2, page 20",
+      "quote": "Supplementary Table 2. ICD-9-CM codes per CCS Levels 1 and 3 used in analyses"
+     },
+     "level": "explicit_partial"
+    },
+    {
+     "slug": "10_1097_ede_0000000000001456",
+     "paper": "Thomas 2022 Epidemiology",
+     "outcome_name": "transient cerebral ischemia (CCS 7.3.4)",
+     "scope": "narrower",
+     "codes_status": "classification_ref",
+     "classification": "AHRQ multi-level CCS 7.3.4",
+     "filter": null,
+     "icd9": [],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC8852365.1.xml",
+      "location": "table: Table 2",
+      "quote": "Transient cerebral ischemia (7.3.4)"
+     },
+     "level": "classification"
+    }
+   ]
+  },
+  {
+   "id": "K1",
+   "group": "Kidney, metabolic, and fluid-balance conditions",
+   "name": "Acute or unspecified kidney failure",
+   "status": "explicit",
+   "parks_only": false,
+   "n_papers": 6,
+   "icd10_available": true,
+   "note": null,
+   "sources": [
+    {
+     "slug": "10_1289_ehp10729",
+     "paper": "Lee 2023 EHP",
+     "outcome_name": "first hospital admission with acute kidney injury",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "584"
+     ],
+     "icd10": [
+      "N17"
+     ],
+     "diagnosis_position": "any",
+     "evidence": {
+      "file": "PMC10084931.1.pdf",
+      "location": "page 2",
+      "quote": "namely, ICD-9 code 584; ICD10 code N17 to address any inpatient hospital admissions with any AKI onsets"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1038_s41467_021_21777_1",
+     "paper": "Parks 2021 Nat Commun",
+     "outcome_name": "Renal failure (acute/unspecified)",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": "AHRQ CCS level 3 group 157 (level 1 cause 10)",
+     "filter": null,
+     "icd9": [
+      "5845",
+      "5846",
+      "5847",
+      "5848",
+      "5849",
+      "586"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "41467_2021_21777_MOESM1_ESM.pdf",
+      "location": "Supplementary Table 2, page 26",
+      "quote": "Supplementary Table 2. ICD-9-CM codes per CCS Levels 1 and 3 used in analyses"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1136_bmj_l6258",
+     "paper": "Wei 2019 BMJ",
+     "outcome_name": "acute and unspecified renal failure (CCS 157)",
+     "scope": "exact",
+     "codes_status": "classification_ref",
+     "classification": "AHRQ CCS 157",
+     "filter": null,
+     "icd9": [],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC6880251.1.xml",
+      "location": "section: Results",
+      "quote": "acute and unspecified renal failure (CCS code 157)"
+     },
+     "level": "classification"
+    },
+    {
+     "slug": "10_1016_j_envint_2021_106834",
+     "paper": "Weinberger 2021 Environ Int",
+     "outcome_name": "renal failure (acute/unspecified) (CCS 157)",
+     "scope": "exact",
+     "codes_status": "classification_ref",
+     "classification": "AHRQ CCS 157",
+     "filter": null,
+     "icd9": [],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC11549953.1.pdf",
+      "location": "page 3",
+      "quote": "renal failure (acute/unspecified) (CCS 157)"
+     },
+     "level": "classification"
+    },
+    {
+     "slug": "10_1001_jama_2014_15715",
+     "paper": "Bobb 2014 JAMA",
+     "outcome_name": "renal failure",
+     "scope": "exact",
+     "codes_status": "classification_ref",
+     "classification": "AHRQ CCS (number not given)",
+     "filter": null,
+     "icd9": [],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC4319792.1.xml",
+      "location": "abstract",
+      "quote": "Risks of hospitalization for fluid and electrolyte disorders, renal failure, urinary tract infection, septicemia, and heat stroke were statistically significantly higher"
+     },
+     "level": "classification"
+    },
+    {
+     "slug": "10_1016_j_ypmed_2018_02_001",
+     "paper": "Hopp 2018 Prev Med",
+     "outcome_name": "acute kidney failure",
+     "scope": "exact",
+     "codes_status": "in_unfetched_supplement",
+     "classification": null,
+     "filter": null,
+     "icd9": [],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC6040588.1.xml",
+      "location": "section: DISCUSSION",
+      "quote": "including 3 heat-related illnesses, 4 fluid and electrolyte disorders, 2 diagnoses for septicemia, acute kidney failure, and urinary tract infection"
+     },
+     "level": "no_codes"
+    }
+   ]
+  },
+  {
+   "id": "K2",
+   "group": "Kidney, metabolic, and fluid-balance conditions",
+   "name": "Fluid and electrolyte disorders",
+   "status": "explicit",
+   "parks_only": true,
+   "n_papers": 5,
+   "icd10_available": false,
+   "note": null,
+   "sources": [
+    {
+     "slug": "10_1038_s41467_021_21777_1",
+     "paper": "Parks 2021 Nat Commun",
+     "outcome_name": "Fluid and electrolyte disorders",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": "AHRQ CCS level 3 group 55 (level 1 cause 3)",
+     "filter": null,
+     "icd9": [
+      "2760",
+      "2761",
+      "2762",
+      "2763",
+      "2764",
+      "2765",
+      "27650",
+      "27651",
+      "27652",
+      "2766",
+      "27669",
+      "2767",
+      "2768",
+      "2769",
+      "9951"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "41467_2021_21777_MOESM1_ESM.pdf",
+      "location": "Supplementary Table 2, page 11",
+      "quote": "Supplementary Table 2. ICD-9-CM codes per CCS Levels 1 and 3 used in analyses"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1136_bmj_l6258",
+     "paper": "Wei 2019 BMJ",
+     "outcome_name": "fluid and electrolyte disorders (CCS 55)",
+     "scope": "exact",
+     "codes_status": "classification_ref",
+     "classification": "AHRQ CCS 55",
+     "filter": null,
+     "icd9": [],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC6880251.1.xml",
+      "location": "section: Results",
+      "quote": "fluid and electrolyte disorders (CCS code 55)"
+     },
+     "level": "classification"
+    },
+    {
+     "slug": "10_1016_j_envint_2021_106834",
+     "paper": "Weinberger 2021 Environ Int",
+     "outcome_name": "fluid and electrolyte disorders (CCS 55)",
+     "scope": "exact",
+     "codes_status": "classification_ref",
+     "classification": "AHRQ CCS 55",
+     "filter": null,
+     "icd9": [],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC11549953.1.pdf",
+      "location": "page 3",
+      "quote": "fluid and electrolyte disorders (CCS 55)"
+     },
+     "level": "classification"
+    },
+    {
+     "slug": "10_1001_jama_2014_15715",
+     "paper": "Bobb 2014 JAMA",
+     "outcome_name": "fluid and electrolyte disorders",
+     "scope": "exact",
+     "codes_status": "classification_ref",
+     "classification": "AHRQ CCS (number not given)",
+     "filter": null,
+     "icd9": [],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC4319792.1.xml",
+      "location": "section: Results > Risk of Hospitalization on Heat Wave Days vs Non–Heat Wave Days",
+      "quote": "we examined the ICD-9 discharge codes for this disease group and found that 47.5% and 24.3% of the admissions were discharged for dehydration and hyposmolality and/or hyponatremia"
+     },
+     "level": "classification"
+    },
+    {
+     "slug": "10_1016_j_ypmed_2018_02_001",
+     "paper": "Hopp 2018 Prev Med",
+     "outcome_name": "fluid and electrolyte disorders (4 diagnoses)",
+     "scope": "narrower",
+     "codes_status": "in_unfetched_supplement",
+     "classification": null,
+     "filter": null,
+     "icd9": [],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC6040588.1.xml",
+      "location": "section: DISCUSSION",
+      "quote": "including 3 heat-related illnesses, 4 fluid and electrolyte disorders, 2 diagnoses for septicemia, acute kidney failure, and urinary tract infection"
+     },
+     "level": "no_codes"
+    }
+   ]
+  },
+  {
+   "id": "K3",
+   "group": "Kidney, metabolic, and fluid-balance conditions",
+   "name": "Diabetes with complications",
+   "status": "explicit",
+   "parks_only": false,
+   "n_papers": 4,
+   "icd10_available": false,
+   "note": null,
+   "sources": [
+    {
+     "slug": "10_1038_s41467_021_21777_1",
+     "paper": "Parks 2021 Nat Commun",
+     "outcome_name": "Diabetes mellitus with complications",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": "AHRQ CCS level 3 group 50 (level 1 cause 3)",
+     "filter": null,
+     "icd9": [
+      "24901",
+      "24910",
+      "24911",
+      "24920",
+      "24921",
+      "24930",
+      "24931",
+      "24940",
+      "24941",
+      "24950",
+      "24951",
+      "24960",
+      "24961",
+      "24970",
+      "24971",
+      "24980",
+      "24981",
+      "24990",
+      "24991",
+      "25002",
+      "25003",
+      "25010",
+      "25011",
+      "25012",
+      "25013",
+      "25020",
+      "25021",
+      "25022",
+      "25023",
+      "25030",
+      "25031",
+      "25032",
+      "25033",
+      "25040",
+      "25041",
+      "25042",
+      "25043",
+      "25050",
+      "25051",
+      "25052",
+      "25053",
+      "25060",
+      "25061",
+      "25062",
+      "25063",
+      "25070",
+      "25071",
+      "25072",
+      "25073",
+      "25080",
+      "25081",
+      "25082",
+      "25083",
+      "25090",
+      "25091",
+      "25092",
+      "25093"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "41467_2021_21777_MOESM1_ESM.pdf",
+      "location": "Supplementary Table 2, page 10",
+      "quote": "Supplementary Table 2. ICD-9-CM codes per CCS Levels 1 and 3 used in analyses"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1136_bmj_l6258",
+     "paper": "Wei 2019 BMJ",
+     "outcome_name": "diabetes mellitus with complications (CCS 50)",
+     "scope": "exact",
+     "codes_status": "classification_ref",
+     "classification": "AHRQ CCS 50",
+     "filter": null,
+     "icd9": [],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC6880251.1.xml",
+      "location": "section: Results",
+      "quote": "diabetes mellitus with complications (CCS code 50)"
+     },
+     "level": "classification"
+    },
+    {
+     "slug": "10_1016_j_envint_2021_106834",
+     "paper": "Weinberger 2021 Environ Int",
+     "outcome_name": "diabetes mellitus with complications (CCS 50)",
+     "scope": "exact",
+     "codes_status": "classification_ref",
+     "classification": "AHRQ CCS 50",
+     "filter": null,
+     "icd9": [],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC11549953.1.pdf",
+      "location": "page 3",
+      "quote": "diabetes mellitus with complications (CCS 50)"
+     },
+     "level": "classification"
+    },
+    {
+     "slug": "10_1186_1476_069x_13_38",
+     "paper": "Zanobetti 2014 Environ Health",
+     "outcome_name": "diabetes",
+     "scope": "broader",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "250"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC4064518.1.pdf",
+      "location": "page 3",
+      "quote": "The medical conditions that we examined were: diabetes (ICD-9: 250)"
+     },
+     "level": "explicit_partial"
+    }
+   ]
+  },
+  {
+   "id": "I1",
+   "group": "Infections and other reported admission categories",
+   "name": "Sepsis/septicemia",
+   "status": "explicit",
+   "parks_only": true,
+   "n_papers": 5,
+   "icd10_available": false,
+   "note": null,
+   "sources": [
+    {
+     "slug": "10_1038_s41467_021_21777_1",
+     "paper": "Parks 2021 Nat Commun",
+     "outcome_name": "Septicemia except in labor",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": "AHRQ CCS level 3 group 2 (level 1 cause 1)",
+     "filter": null,
+     "icd9": [
+      "0031",
+      "0202",
+      "0223",
+      "0362",
+      "0380",
+      "0381",
+      "03810",
+      "03811",
+      "03812",
+      "03819",
+      "0382",
+      "0383",
+      "03840",
+      "03841",
+      "03842",
+      "03843",
+      "03844",
+      "03849",
+      "0388",
+      "0389",
+      "0545",
+      "449",
+      "77181",
+      "7907",
+      "99591",
+      "99592"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "41467_2021_21777_MOESM1_ESM.pdf",
+      "location": "Supplementary Table 2, page 4",
+      "quote": "Supplementary Table 2. ICD-9-CM codes per CCS Levels 1 and 3 used in analyses"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1136_bmj_l6258",
+     "paper": "Wei 2019 BMJ",
+     "outcome_name": "septicemia (CCS 2)",
+     "scope": "exact",
+     "codes_status": "classification_ref",
+     "classification": "AHRQ CCS 2",
+     "filter": null,
+     "icd9": [],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC6880251.1.xml",
+      "location": "section: Results",
+      "quote": "septicemia (CCS code 2)"
+     },
+     "level": "classification"
+    },
+    {
+     "slug": "10_1016_j_envint_2021_106834",
+     "paper": "Weinberger 2021 Environ Int",
+     "outcome_name": "septicemia (except in labor) (CCS 2)",
+     "scope": "exact",
+     "codes_status": "classification_ref",
+     "classification": "AHRQ CCS 2",
+     "filter": null,
+     "icd9": [],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC11549953.1.pdf",
+      "location": "page 3",
+      "quote": "septicemia (except in labor) (CCS 2)"
+     },
+     "level": "classification"
+    },
+    {
+     "slug": "10_1001_jama_2014_15715",
+     "paper": "Bobb 2014 JAMA",
+     "outcome_name": "septicemia",
+     "scope": "exact",
+     "codes_status": "classification_ref",
+     "classification": "AHRQ CCS (number not given)",
+     "filter": null,
+     "icd9": [],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC4319792.1.xml",
+      "location": "abstract",
+      "quote": "Risks of hospitalization for fluid and electrolyte disorders, renal failure, urinary tract infection, septicemia, and heat stroke were statistically significantly higher"
+     },
+     "level": "classification"
+    },
+    {
+     "slug": "10_1038_s41467_024_45776_0",
+     "paper": "Feng 2024 Nat Commun",
+     "outcome_name": "septicemia",
+     "scope": "exact",
+     "codes_status": "classification_ref",
+     "classification": "CCS 2; CCSR INF002",
+     "filter": null,
+     "icd9": [],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC10876532.1.pdf",
+      "location": "page 6",
+      "quote": "septicemia was deﬁned as diagnosis code being within group 2"
+     },
+     "level": "classification"
+    }
+   ]
+  },
+  {
+   "id": "I2",
+   "group": "Infections and other reported admission categories",
+   "name": "Urinary tract infections",
+   "status": "explicit",
+   "parks_only": false,
+   "n_papers": 6,
+   "icd10_available": false,
+   "note": "Yitshak-Sade 2021 prints UTI as ICD-9 559 (likely 599.0).",
+   "sources": [
+    {
+     "slug": "10_1038_s41467_021_21777_1",
+     "paper": "Parks 2021 Nat Commun",
+     "outcome_name": "Urinary tract infections",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": "AHRQ CCS level 3 group 159 (level 1 cause 10)",
+     "filter": null,
+     "icd9": [
+      "03284",
+      "59000",
+      "59001",
+      "59010",
+      "59011",
+      "5902",
+      "5903",
+      "59080",
+      "59081",
+      "5909",
+      "5950",
+      "5951",
+      "5952",
+      "5953",
+      "5954",
+      "59581",
+      "59582",
+      "59589",
+      "5959",
+      "5970",
+      "59780",
+      "59781",
+      "59789",
+      "59800",
+      "59801",
+      "5990"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "41467_2021_21777_MOESM1_ESM.pdf",
+      "location": "Supplementary Table 2, page 26",
+      "quote": "Supplementary Table 2. ICD-9-CM codes per CCS Levels 1 and 3 used in analyses"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1136_bmj_l6258",
+     "paper": "Wei 2019 BMJ",
+     "outcome_name": "urinary tract infections (CCS 159)",
+     "scope": "exact",
+     "codes_status": "classification_ref",
+     "classification": "AHRQ CCS 159",
+     "filter": null,
+     "icd9": [],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC6880251.1.xml",
+      "location": "section: Results",
+      "quote": "urinary tract infections (CCS code 159)"
+     },
+     "level": "classification"
+    },
+    {
+     "slug": "10_1016_j_envint_2021_106834",
+     "paper": "Weinberger 2021 Environ Int",
+     "outcome_name": "urinary tract infections (CCS 159)",
+     "scope": "exact",
+     "codes_status": "classification_ref",
+     "classification": "AHRQ CCS 159",
+     "filter": null,
+     "icd9": [],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC11549953.1.pdf",
+      "location": "page 3",
+      "quote": "urinary tract infections (CCS 159)"
+     },
+     "level": "classification"
+    },
+    {
+     "slug": "10_1001_jama_2014_15715",
+     "paper": "Bobb 2014 JAMA",
+     "outcome_name": "urinary tract infection",
+     "scope": "exact",
+     "codes_status": "classification_ref",
+     "classification": "AHRQ CCS (number not given)",
+     "filter": null,
+     "icd9": [],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC4319792.1.xml",
+      "location": "abstract",
+      "quote": "Risks of hospitalization for fluid and electrolyte disorders, renal failure, urinary tract infection, septicemia, and heat stroke were statistically significantly higher"
+     },
+     "level": "classification"
+    },
+    {
+     "slug": "10_1038_s41467_024_45776_0",
+     "paper": "Feng 2024 Nat Commun",
+     "outcome_name": "urinary tract infections",
+     "scope": "exact",
+     "codes_status": "classification_ref",
+     "classification": "CCS 159; CCSR GEN001",
+     "filter": null,
+     "icd9": [],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC10876532.1.pdf",
+      "location": "page 6",
+      "quote": "urinary tract infection was deﬁned as diagnosis code being within group 159"
+     },
+     "level": "classification"
+    },
+    {
+     "slug": "10_1016_j_scitotenv_2020_142524",
+     "paper": "Yitshak-Sade 2021 Sci Total Environ",
+     "outcome_name": "urinary tract infection",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": null,
+     "filter": null,
+     "icd9": [
+      "559"
+     ],
+     "icd10": [],
+     "diagnosis_position": null,
+     "evidence": {
+      "file": "PMC7749824.1.xml",
+      "location": "section: MATERIALS AND METHODS > Outcomes",
+      "quote": "urinary tract infection–UTI (ICD 9: 559)"
+     },
+     "level": "explicit"
+    }
+   ]
+  },
+  {
+   "id": "I3",
+   "group": "Infections and other reported admission categories",
+   "name": "Skin and soft-tissue infections",
+   "status": "explicit",
+   "parks_only": true,
+   "n_papers": 3,
+   "icd10_available": false,
+   "note": null,
+   "sources": [
+    {
+     "slug": "10_1038_s41467_021_21777_1",
+     "paper": "Parks 2021 Nat Commun",
+     "outcome_name": "Skin infections",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": "AHRQ CCS level 3 group 197 (level 1 cause 12)",
+     "filter": null,
+     "icd9": [
+      "0201",
+      "0210",
+      "0220",
+      "0311",
+      "03285",
+      "035",
+      "0390",
+      "6800",
+      "6801",
+      "6802",
+      "6803",
+      "6804",
+      "6805",
+      "6806",
+      "6807",
+      "6808",
+      "6809",
+      "68100",
+      "68101",
+      "68102",
+      "68110",
+      "68111",
+      "6819",
+      "6820",
+      "6821",
+      "6822",
+      "6823",
+      "6824",
+      "6825",
+      "6826",
+      "6827",
+      "6828",
+      "6829",
+      "684",
+      "6850",
+      "6851",
+      "6860",
+      "68600",
+      "68601",
+      "68609",
+      "6861",
+      "6868",
+      "6869"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "41467_2021_21777_MOESM1_ESM.pdf",
+      "location": "Supplementary Table 2, page 28",
+      "quote": "Supplementary Table 2. ICD-9-CM codes per CCS Levels 1 and 3 used in analyses"
+     },
+     "level": "explicit"
+    },
+    {
+     "slug": "10_1136_bmj_l6258",
+     "paper": "Wei 2019 BMJ",
+     "outcome_name": "skin and subcutaneous tissue infections (CCS 197)",
+     "scope": "exact",
+     "codes_status": "classification_ref",
+     "classification": "AHRQ CCS 197",
+     "filter": null,
+     "icd9": [],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC6880251.1.xml",
+      "location": "section: Results",
+      "quote": "skin and subcutaneous tissue infections (CCS code 197)"
+     },
+     "level": "classification"
+    },
+    {
+     "slug": "10_1038_s41467_024_45776_0",
+     "paper": "Feng 2024 Nat Commun",
+     "outcome_name": "non-respiratory infections (total)",
+     "scope": "broader",
+     "codes_status": "classification_ref",
+     "classification": "ICD-9: CCS groups 2–9, 76–78, 90, 135, 159, 197, 201, 248; ICD-10: CCSR INF002-004, INF006-011, MUS001-002, MUS027, NVS001-NVS003, GEN001, SKN001, DIG001, excluding RSP002-006",
+     "filter": null,
+     "icd9": [],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "PMC10876532.1.pdf",
+      "location": "page 6",
+      "quote": "nonrespiratory infection was deﬁned as diagnosis code being within one of group 2–9, 76–78, 90, 135, 159, 197, 201 and 248 of CCS scheme"
+     },
+     "level": "classification"
+    }
+   ]
+  },
+  {
+   "id": "I4",
+   "group": "Infections and other reported admission categories",
+   "name": "Pneumocystis pneumonia",
+   "status": "explicit_partial",
+   "parks_only": true,
+   "n_papers": 1,
+   "icd10_available": false,
+   "note": "Not an outcome in any Step 2 paper or abstract. ICD-9 136.3 is inside CCS 122 (Pneumonia) in the Parks table.",
+   "sources": [
+    {
+     "slug": "10_1038_s41467_021_21777_1",
+     "paper": "Parks 2021 Nat Commun",
+     "outcome_name": "Pneumonia",
+     "scope": "broader",
+     "codes_status": "explicit_codes",
+     "classification": "AHRQ CCS level 3 group 122 (level 1 cause 8)",
+     "filter": [
+      "1363"
+     ],
+     "icd9": [
+      "1363"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "41467_2021_21777_MOESM1_ESM.pdf",
+      "location": "Supplementary Table 2, page 22",
+      "quote": "Supplementary Table 2. ICD-9-CM codes per CCS Levels 1 and 3 used in analyses"
+     },
+     "level": "explicit_partial"
+    }
+   ]
+  },
+  {
+   "id": "I5",
+   "group": "Infections and other reported admission categories",
+   "name": "Intestinal obstruction",
+   "status": "explicit",
+   "parks_only": true,
+   "n_papers": 1,
+   "icd10_available": false,
+   "note": "Only the Parks CCS 145 group (bowel obstruction).",
+   "sources": [
+    {
+     "slug": "10_1038_s41467_021_21777_1",
+     "paper": "Parks 2021 Nat Commun",
+     "outcome_name": "Bowel obstruction",
+     "scope": "exact",
+     "codes_status": "explicit_codes",
+     "classification": "AHRQ CCS level 3 group 145 (level 1 cause 9)",
+     "filter": null,
+     "icd9": [
+      "5600",
+      "5601",
+      "5602",
+      "56030",
+      "56031",
+      "56032",
+      "56039",
+      "56081",
+      "56089",
+      "5609"
+     ],
+     "icd10": [],
+     "diagnosis_position": "principal",
+     "evidence": {
+      "file": "41467_2021_21777_MOESM1_ESM.pdf",
+      "location": "Supplementary Table 2, page 24",
+      "quote": "Supplementary Table 2. ICD-9-CM codes per CCS Levels 1 and 3 used in analyses"
+     },
+     "level": "explicit"
+    }
+   ]
+  }
+ ]
+}

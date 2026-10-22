@@ -12,6 +12,8 @@ Do not ever reach data or files outside of the root of this project, except Clau
 
 I need to perform an extensive check of  icd9 and icd 10 mappings. Each mapping is assigned to an outcome. The set of mappings was created using public health papers from Francesca Dominici's research group. 
 
+Ultimately we should have a list of outcomes associated with pollution and heat, and for each a validated list of icd9-10. 
+
 ## Steps
 
 We will work step by step. Write an md for each step that, update your context to reflect content/decisions we establish in those md.
@@ -94,3 +96,51 @@ the codes found (Step 2.6) in the papers that row cites, with a per-paper and a 
 (match / match_category / differs / not_comparable / no_evidence). The CV number → paper
 crosswalk and the row → outcome choices are made by hand. Uncited papers with the same outcome
 may be shown as context, but they do not change the verdict. Deliver a CSV for review.
+
+### Step 2.8 "Bin" definition check
+We want to identify relevant outcome categories or bins from the publications. Use the list below as reference, check if we can populate all of these outcomes from the publications in step 2. 
+
+```
+# Respiratory
+
+* Asthma exacerbations
+* COPD exacerbations
+* Bronchiectasis
+* Pneumonia and some other respiratory infections
+* Respiratory failure, insufficiency, or arrest
+* Upper respiratory infections
+
+# Cardiovascular and blood-vessel conditions
+
+* Heart attack (acute myocardial infarction)
+* Ischemic heart disease and coronary atherosclerosis
+* Heart failure
+* Abnormal heart rhythms (arrhythmias/dysrhythmias)
+* Cardiac arrest
+* Hypertensive heart disease
+* Stroke, including ischemic and hemorrhagic stroke
+* Blood clots and related conditions, including phlebitis, thrombophlebitis, and thromboembolism
+* Retinal artery occlusion, a blockage of blood flow to the eye
+
+# Neurological and mental health
+* Parkinson’s disease
+* Dementia, including Alzheimer’s disease
+* Depression-related hospital visits or admissions in some studies
+* Stroke and other cerebrovascular conditions
+
+# Kidney, metabolic, and fluid-balance conditions
+* Acute or unspecified kidney failure
+* Fluid and electrolyte disorders
+* Diabetes with complications
+
+# Infections and other reported admission categories
+
+* Sepsis/septicemia
+* Urinary tract infections
+* Skin and soft-tissue infections
+* Pneumocystis pneumonia in some people with HIV or other underlying conditions
+* Intestinal obstruction
+``` 
+
+### Step 3
+Repeat all the steps in 2 but for Danielle Braun's Google scholar. Try to produce the same files that are gerenerated in step 2, except the name of output files should be numbered like 03x_xxxx.xx. 
