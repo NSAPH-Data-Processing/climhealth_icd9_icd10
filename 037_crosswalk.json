@@ -1,0 +1,288 @@
+{
+ "description": "Step 3.7 crosswalk, derived from 027_crosswalk.json restricted to papers in Braun's Step 3.4 set, plus Braun-only papers as context (S1-15 Parkinson's, S1-17 ADRD, S1-24 heat) and CV #311 (Qin 2025, now with full text) as a cited paper for S1-17.",
+ "labels": {
+  "10_1097_ede_0000000000001456": "Thomas 2022 Epidemiology",
+  "10_1289_ehp10729": "Lee 2023 EHP",
+  "10_1093_aje_kwae133": "Qin 2025 AJE",
+  "10_1136_bmjmed_2021_000009": "Lee 2022 BMJ Medicine",
+  "10_1016_s2542_5196_20_30227_8": "Shi 2020 Lancet Planet Health",
+  "10_1016_j_envint_2021_106834": "Weinberger 2021 Environ Int",
+  "10_1016_j_envint_2022_107694": "Mork 2023 Environ Int",
+  "10_1016_j_envint_2024_108739": "Klompmaker 2024 Environ Int",
+  "10_1038_s41531_024_00815_x": "Wang 2024 npj Parkinsons Dis",
+  "10_1038_s41370_026_00882_7": "Dinehart 2026 J Expo Sci Environ Epidemiol",
+  "10_1097_ee9_0000000000000519": "Delaney 2026 Environ Epidemiol",
+  "10_1097_ee9_0000000000000395": "Jung 2025 Environ Epidemiol",
+  "10_1016_j_envint_2023_107844": "Greenness and kidney 2023 Environ Int",
+  "10_1001_jamainternmed_2024_7719": "Heat and ADRD 2025 JAMA Intern Med",
+  "10_1093_aje_kwag087": "ADRD by region and race 2026 AJE",
+  "10_1097_ede_0000000000001265": "deSouza 2021 Epidemiology",
+  "10_1097_ee9_0000000000000261": "Spangler 2023 Environ Epidemiol"
+ },
+ "cv": {
+  "57": {
+   "slugs": [],
+   "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+  },
+  "61": {
+   "slugs": [],
+   "reason": "not in Braun's Step 3.4 set"
+  },
+  "78": {
+   "slugs": [],
+   "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+  },
+  "89": {
+   "slugs": [],
+   "reason": "not in Braun's Step 3.4 set"
+  },
+  "92": {
+   "slugs": [],
+   "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+  },
+  "94": {
+   "slugs": [],
+   "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+  },
+  "125": {
+   "slugs": [],
+   "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+  },
+  "132": {
+   "slugs": [],
+   "reason": "not in Braun's Step 3.4 set"
+  },
+  "134": {
+   "slugs": [],
+   "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+  },
+  "136": {
+   "slugs": [],
+   "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+  },
+  "148": {
+   "slugs": [],
+   "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+  },
+  "153": {
+   "slugs": [],
+   "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+  },
+  "171": {
+   "slugs": [],
+   "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+  },
+  "172": {
+   "slugs": [],
+   "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+  },
+  "173": {
+   "slugs": [],
+   "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+  },
+  "175": {
+   "slugs": [],
+   "reason": "not in Braun's Step 3.4 set"
+  },
+  "177": {
+   "slugs": [],
+   "reason": "not in Braun's Step 3.4 set"
+  },
+  "181": {
+   "slugs": [],
+   "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+  },
+  "190": {
+   "slugs": [],
+   "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+  },
+  "202": {
+   "slugs": [],
+   "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+  },
+  "212": {
+   "slugs": [],
+   "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+  },
+  "220": {
+   "slugs": [
+    "10_1097_ede_0000000000001456"
+   ]
+  },
+  "229": {
+   "slugs": [],
+   "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+  },
+  "238": {
+   "slugs": [],
+   "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+  },
+  "240": {
+   "slugs": [],
+   "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+  },
+  "242": {
+   "slugs": [],
+   "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+  },
+  "244": {
+   "slugs": [],
+   "reason": "not in Braun's Step 3.4 set"
+  },
+  "245": {
+   "slugs": [],
+   "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+  },
+  "250": {
+   "slugs": [],
+   "reason": "not in Braun's Step 3.4 set"
+  },
+  "252": {
+   "slugs": [],
+   "reason": "not in Braun's Step 3.4 set"
+  },
+  "253": {
+   "slugs": [],
+   "reason": "not in Braun's Step 3.4 set"
+  },
+  "268": {
+   "slugs": [
+    "10_1097_ede_0000000000001456"
+   ]
+  },
+  "270": {
+   "slugs": [],
+   "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+  },
+  "271": {
+   "slugs": [],
+   "reason": "not in Braun's Step 3.4 set"
+  },
+  "281": {
+   "slugs": [],
+   "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+  },
+  "282": {
+   "slugs": [
+    "10_1289_ehp10729"
+   ]
+  },
+  "284": {
+   "slugs": [],
+   "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+  },
+  "293": {
+   "slugs": [],
+   "reason": "not in Braun's Step 3.4 set"
+  },
+  "303": {
+   "slugs": [],
+   "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+  },
+  "304": {
+   "slugs": [],
+   "reason": "not in Braun's Step 3.4 set"
+  },
+  "309": {
+   "slugs": [],
+   "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+  },
+  "311": {
+   "slugs": [
+    "10_1093_aje_kwae133"
+   ]
+  },
+  "320": {
+   "slugs": [],
+   "reason": "not in Braun's Step 3.4 set"
+  },
+  "323": {
+   "slugs": [],
+   "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+  },
+  "331": {
+   "slugs": [],
+   "reason": "not in Braun's Step 3.4 set"
+  },
+  "339": {
+   "slugs": [],
+   "reason": "not in Braun's Step 3.4 set"
+  },
+  "341": {
+   "slugs": [],
+   "reason": "not in Braun's Step 3.4 set"
+  }
+ },
+ "rows": {
+  "S1-13": {
+   "cited": {
+    "220": {
+     "10_1097_ede_0000000000001456": [
+      "57 cardiovascular discharge diagnoses (multi-level CCS codes starting with 7)",
+      "32 respiratory discharge diagnoses (multi-level CCS codes starting with 8)"
+     ]
+    }
+   }
+  },
+  "S1-17": {
+   "context": {
+    "10_1016_s2542_5196_20_30227_8": [
+     "first hospital admission for Alzheimer's disease and related dementias"
+    ],
+    "10_1016_j_envint_2022_107694": [
+     "first hospitalization with ADRD"
+    ]
+   },
+   "cited": {
+    "311": {
+     "10_1093_aje_kwae133": [
+      "first hospitalization with ADRD"
+     ]
+    }
+   }
+  },
+  "S1-18": {
+   "cited": {
+    "282": {
+     "10_1289_ehp10729": [
+      "first hospital admission with acute kidney injury"
+     ]
+    }
+   },
+   "context": {
+    "10_1136_bmjmed_2021_000009": [
+     "chronic kidney disease"
+    ]
+   }
+  },
+  "S1-24": {
+   "context": {
+    "10_1016_j_envint_2021_106834": [
+     "heat stroke and other external causes (CCS 244)"
+    ],
+    "10_1097_ee9_0000000000000395": [
+     "heat-related illness"
+    ]
+   }
+  },
+  "S1-15": {
+   "context": {
+    "10_1016_j_envint_2024_108739": [
+     "first PD-involved hospitalization"
+    ],
+    "10_1038_s41531_024_00815_x": [
+     "first hospitalization with Parkinson's disease"
+    ],
+    "10_1038_s41370_026_00882_7": [
+     "first hospitalization with Parkinson's disease (warm season)"
+    ],
+    "10_1097_ee9_0000000000000519": [
+     "first hospitalization with Parkinson's disease"
+    ],
+    "10_1016_s2542_5196_20_30227_8": [
+     "first hospital admission for Parkinson's disease"
+    ]
+   }
+  }
+ }
+}

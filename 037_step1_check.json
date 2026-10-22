@@ -1,0 +1,1867 @@
+{
+ "sources": [
+  "010_icd_mappings.json",
+  "012_publications.json",
+  "036_icd_codes.json",
+  "037_crosswalk.json"
+ ],
+ "rows": [
+  {
+   "id": "S1-01",
+   "section": 1,
+   "outcome": "Cardiovascular disease (all-cause)",
+   "step1_icd9": "390–459",
+   "step1_icd10": "I00–I99",
+   "publications": "Dominici et al. 2006 JAMA (#57); Peng et al. 2008 JAMA (#78); Bravo et al. 2016 (#172); Chen et al. 2021 (#245, #253); Sun et al. 2024 BMJ (#304); Yazdi et al. 2025 (#323)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "no_evidence",
+   "papers": [
+    {
+     "cv": "57",
+     "paper": "Dominici et al. 2006 JAMA",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+    },
+    {
+     "cv": "78",
+     "paper": "Peng et al. 2008 JAMA",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+    },
+    {
+     "cv": "172",
+     "paper": "Bravo et al. 2016",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+    },
+    {
+     "cv": "245",
+     "paper": "Chen et al. 2021",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+    },
+    {
+     "cv": "253",
+     "paper": "Chen et al. 2021",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set"
+    },
+    {
+     "cv": "304",
+     "paper": "Sun et al. 2024 BMJ",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set"
+    },
+    {
+     "cv": "323",
+     "paper": "Yazdi et al. 2025",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-02",
+   "section": 1,
+   "outcome": "Respiratory disease (all-cause)",
+   "step1_icd9": "460–519",
+   "step1_icd10": "J00–J99",
+   "publications": "Dominici et al. 2006 JAMA (#57); Peng et al. 2008 JAMA (#78); Bell et al. 2009 (#89, #94); Bravo et al. 2016 (#172); Anderson et al. 2013 (#132)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "no_evidence",
+   "papers": [
+    {
+     "cv": "57",
+     "paper": "Dominici et al. 2006 JAMA",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+    },
+    {
+     "cv": "78",
+     "paper": "Peng et al. 2008 JAMA",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+    },
+    {
+     "cv": "89",
+     "paper": "Bell et al. 2009",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set"
+    },
+    {
+     "cv": "94",
+     "paper": "Bell et al. 2009",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+    },
+    {
+     "cv": "172",
+     "paper": "Bravo et al. 2016",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+    },
+    {
+     "cv": "132",
+     "paper": "Anderson et al. 2013, AJRCCM",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set"
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-03",
+   "section": 1,
+   "outcome": "Ischemic heart disease",
+   "step1_icd9": "410–414",
+   "step1_icd10": "I20–I25",
+   "publications": "Dominici et al. 2006 JAMA (#57)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "no_evidence",
+   "papers": [
+    {
+     "cv": "57",
+     "paper": "Dominici et al. 2006 JAMA",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-04",
+   "section": 1,
+   "outcome": "Myocardial infarction (acute)",
+   "step1_icd9": "410",
+   "step1_icd10": "I21–I22",
+   "publications": "Barr et al. 2012 (#125, smoking bans); Schwartz et al. 2023 (#284)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "no_evidence",
+   "papers": [
+    {
+     "cv": "125",
+     "paper": "Barr et al. 2012",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+    },
+    {
+     "cv": "284",
+     "paper": "Schwartz et al. 2023",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-05",
+   "section": 1,
+   "outcome": "Congestive heart failure",
+   "step1_icd9": "428",
+   "step1_icd10": "I50",
+   "publications": "Symons et al. 2006 (#61); Dominici et al. 2006 JAMA (#57)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "no_evidence",
+   "papers": [
+    {
+     "cv": "61",
+     "paper": "Symons et al. 2006",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set"
+    },
+    {
+     "cv": "57",
+     "paper": "Dominici et al. 2006 JAMA",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-06",
+   "section": 1,
+   "outcome": "Cardiac arrhythmia",
+   "step1_icd9": "427",
+   "step1_icd10": "I47–I49",
+   "publications": "Dominici et al. 2006 JAMA (#57, cardiovascular admissions category)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "no_evidence",
+   "papers": [
+    {
+     "cv": "57",
+     "paper": "Dominici et al. 2006 JAMA",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-07",
+   "section": 1,
+   "outcome": "Cerebrovascular disease / stroke",
+   "step1_icd9": "430–438",
+   "step1_icd10": "I60–I69",
+   "publications": "Dominici et al. 2006 JAMA (#57, cardiovascular category)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "no_evidence",
+   "papers": [
+    {
+     "cv": "57",
+     "paper": "Dominici et al. 2006 JAMA",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-08",
+   "section": 1,
+   "outcome": "Carbon monoxide–associated cardiovascular admissions",
+   "step1_icd9": "410–414, 427–428, 786.5 (chest pain)",
+   "step1_icd10": "I20–I25, I47–I50, R07.9",
+   "publications": "Bell et al. 2009, Circulation (#92)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "no_evidence",
+   "papers": [
+    {
+     "cv": "92",
+     "paper": "Bell et al. 2009, Circulation",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-09",
+   "section": 1,
+   "outcome": "Chronic obstructive pulmonary disease (COPD)",
+   "step1_icd9": "490–492, 494–496",
+   "step1_icd10": "J40–J44",
+   "publications": "Peng et al. 2008 JAMA (#78); Bell et al. 2009 (#89, #94)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "no_evidence",
+   "papers": [
+    {
+     "cv": "78",
+     "paper": "Peng et al. 2008 JAMA",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+    },
+    {
+     "cv": "89",
+     "paper": "Bell et al. 2009",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set"
+    },
+    {
+     "cv": "94",
+     "paper": "Bell et al. 2009",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-10",
+   "section": 1,
+   "outcome": "Asthma",
+   "step1_icd9": "493",
+   "step1_icd10": "J45",
+   "publications": "Wei et al. 2022, AJRCCM (#271); Bell et al. 2009 (#89, #94)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "no_evidence",
+   "papers": [
+    {
+     "cv": "271",
+     "paper": "Wei et al. 2022, AJRCCM",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set"
+    },
+    {
+     "cv": "89",
+     "paper": "Bell et al. 2009",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set"
+    },
+    {
+     "cv": "94",
+     "paper": "Bell et al. 2009",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-11",
+   "section": 1,
+   "outcome": "Pneumonia / acute respiratory infection",
+   "step1_icd9": "480–487",
+   "step1_icd10": "J09–J18",
+   "publications": "Peng et al. 2008 JAMA (#78, respiratory category)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "no_evidence",
+   "papers": [
+    {
+     "cv": "78",
+     "paper": "Peng et al. 2008 JAMA",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-12",
+   "section": 1,
+   "outcome": "Acute respiratory distress syndrome (ARDS)",
+   "step1_icd9": "518.82",
+   "step1_icd10": "J80",
+   "publications": "Rhee et al. 2019 (#202); Rhee et al. 2020 (#229)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "no_evidence",
+   "papers": [
+    {
+     "cv": "202",
+     "paper": "Rhee et al. 2019",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+    },
+    {
+     "cv": "229",
+     "paper": "Rhee et al. 2020",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-13",
+   "section": 1,
+   "outcome": "Cardiorespiratory hospitalizations (combined CVD + respiratory)",
+   "step1_icd9": "390–519",
+   "step1_icd10": "I00–I99, J00–J99",
+   "publications": "Yan et al. 2021 (#242, tropical cyclones); Thomas et al. 2020/2022 (#220, #268)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "not_comparable",
+   "papers": [
+    {
+     "cv": "242",
+     "paper": "Yan et al. 2021",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+    },
+    {
+     "verdict": "not_comparable",
+     "reason": "classification_ref",
+     "codes": {
+      "icd9": [],
+      "icd10": [],
+      "status": [
+       "classification_ref"
+      ],
+      "position": [
+       "principal"
+      ],
+      "evidence": [
+       "PMC8852365.1.xml, section: Methods > Outcomes",
+       "PMC8852365.1.xml, section: Methods > Outcomes"
+      ]
+     },
+     "cv": "220/268",
+     "paper": "Thomas 2022 Epidemiology",
+     "slug": "10_1097_ede_0000000000001456",
+     "outcomes": [
+      "57 cardiovascular discharge diagnoses (multi-level CCS codes starting with 7)",
+      "32 respiratory discharge diagnoses (multi-level CCS codes starting with 8)"
+     ]
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-14",
+   "section": 1,
+   "outcome": "Diabetes-related hospitalization/ exacerbation",
+   "step1_icd9": "250",
+   "step1_icd10": "E10–E14",
+   "publications": "Zanobetti et al. 2014 (#148)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "no_evidence",
+   "papers": [
+    {
+     "cv": "148",
+     "paper": "Zanobetti et al. 2014",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-15",
+   "section": 1,
+   "outcome": "Neurological disorders (general)",
+   "step1_icd9": "320–359",
+   "step1_icd10": "G00–G99",
+   "publications": "Zanobetti et al. 2014 (#148)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "no_evidence",
+   "papers": [
+    {
+     "cv": "148",
+     "paper": "Zanobetti et al. 2014",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+    }
+   ],
+   "context": [
+    {
+     "verdict": "differs",
+     "icd9": {
+      "verdict": "differs",
+      "missing": [
+       "320-331",
+       "333-359"
+      ],
+      "extra": [],
+      "overlap": true
+     },
+     "icd10": {
+      "verdict": "differs",
+      "missing": [
+       "G00-G19",
+       "G22-G99"
+      ],
+      "extra": [],
+      "overlap": true
+     },
+     "codes": {
+      "icd9": [
+       "332.0",
+       "332.1"
+      ],
+      "icd10": [
+       "G20",
+       "G21.11",
+       "G21.19",
+       "G21.8"
+      ],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "any"
+      ],
+      "evidence": [
+       "PMC11199351.319.pdf, page 4"
+      ]
+     },
+     "paper": "Klompmaker 2024 Environ Int",
+     "slug": "10_1016_j_envint_2024_108739",
+     "outcomes": [
+      "first PD-involved hospitalization"
+     ]
+    },
+    {
+     "verdict": "differs",
+     "icd9": {
+      "verdict": "differs",
+      "missing": [
+       "320-331",
+       "333-359"
+      ],
+      "extra": [],
+      "overlap": true
+     },
+     "icd10": {
+      "verdict": "differs",
+      "missing": [
+       "G00-G19",
+       "G21-G99"
+      ],
+      "extra": [],
+      "overlap": true
+     },
+     "codes": {
+      "icd9": [
+       "332"
+      ],
+      "icd10": [
+       "G20"
+      ],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "any"
+      ],
+      "evidence": [
+       "PMC11502743.1.pdf, page 5"
+      ]
+     },
+     "paper": "Wang 2024 npj Parkinsons Dis",
+     "slug": "10_1038_s41531_024_00815_x",
+     "outcomes": [
+      "first hospitalization with Parkinson's disease"
+     ]
+    },
+    {
+     "verdict": "differs",
+     "icd9": {
+      "verdict": "differs",
+      "missing": [
+       "320-331",
+       "333-359"
+      ],
+      "extra": [],
+      "overlap": true
+     },
+     "icd10": {
+      "verdict": "differs",
+      "missing": [
+       "G00-G19",
+       "G21-G99"
+      ],
+      "extra": [],
+      "overlap": true
+     },
+     "codes": {
+      "icd9": [
+       "332.0"
+      ],
+      "icd10": [
+       "G20"
+      ],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "any"
+      ],
+      "evidence": [
+       "PMC13335889.2.pdf, page 2"
+      ]
+     },
+     "paper": "Dinehart 2026 J Expo Sci Environ Epidemiol",
+     "slug": "10_1038_s41370_026_00882_7",
+     "outcomes": [
+      "first hospitalization with Parkinson's disease (warm season)"
+     ]
+    },
+    {
+     "verdict": "differs",
+     "icd9": {
+      "verdict": "not_comparable",
+      "unparsed_paper_codes": [
+       "332/332.0"
+      ]
+     },
+     "icd10": {
+      "verdict": "differs",
+      "missing": [
+       "G00-G19",
+       "G21-G99"
+      ],
+      "extra": [],
+      "overlap": true
+     },
+     "codes": {
+      "icd9": [
+       "332/332.0"
+      ],
+      "icd10": [
+       "G20"
+      ],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "any"
+      ],
+      "evidence": [
+       "PMC13461014.1.pdf, page 2"
+      ]
+     },
+     "paper": "Delaney 2026 Environ Epidemiol",
+     "slug": "10_1097_ee9_0000000000000519",
+     "outcomes": [
+      "first hospitalization with Parkinson's disease"
+     ]
+    },
+    {
+     "verdict": "differs",
+     "icd9": {
+      "verdict": "differs",
+      "missing": [
+       "320-331",
+       "333-359"
+      ],
+      "extra": [],
+      "overlap": true
+     },
+     "icd10": {
+      "verdict": "differs",
+      "missing": [
+       "G00-G19",
+       "G22-G99"
+      ],
+      "extra": [],
+      "overlap": true
+     },
+     "codes": {
+      "icd9": [
+       "332"
+      ],
+      "icd10": [
+       "G20",
+       "G21·11",
+       "G21·19",
+       "G21·8"
+      ],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "principal_or_secondary"
+      ],
+      "evidence": [
+       "PMC7720425.1.pdf, page 3"
+      ]
+     },
+     "paper": "Shi 2020 Lancet Planet Health",
+     "slug": "10_1016_s2542_5196_20_30227_8",
+     "outcomes": [
+      "first hospital admission for Parkinson's disease"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1-16",
+   "section": 1,
+   "outcome": "Chronic debilitating brain disorders",
+   "step1_icd9": "290–294, 320–359",
+   "step1_icd10": "F01–F09, G00–G99",
+   "publications": "Yitshak-Sade et al. 2020 (#238)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "no_evidence",
+   "papers": [
+    {
+     "cv": "238",
+     "paper": "Yitshak-Sade et al. 2020",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-17",
+   "section": 1,
+   "outcome": "Dementia / Alzheimer's disease",
+   "step1_icd9": "290.0, 331.0",
+   "step1_icd10": "F01–F03, G30",
+   "publications": "Lee et al. 2019 (#212); Qin et al. 2024 (#311); Dong et al. 2025 (#320); Spoto et al. 2025 (#339)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "no_evidence",
+   "papers": [
+    {
+     "cv": "212",
+     "paper": "Lee et al. 2019",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+    },
+    {
+     "verdict": "no_evidence",
+     "reason": "in_unfetched_supplement",
+     "codes": {
+      "icd9": [],
+      "icd10": [],
+      "status": [
+       "in_unfetched_supplement"
+      ],
+      "position": [
+       "any"
+      ],
+      "evidence": [
+       "fulltext.pdf, page 2"
+      ]
+     },
+     "cv": "311",
+     "paper": "Qin 2025 AJE",
+     "slug": "10_1093_aje_kwae133",
+     "outcomes": [
+      "first hospitalization with ADRD"
+     ]
+    },
+    {
+     "cv": "320",
+     "paper": "Dong et al. 2025",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set"
+    },
+    {
+     "cv": "339",
+     "paper": "Spoto et al. 2025",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set"
+    }
+   ],
+   "context": [
+    {
+     "verdict": "differs",
+     "icd9": {
+      "verdict": "match_category",
+      "step1_exact": [
+       "290.0",
+       "331.0"
+      ],
+      "paper_exact": [
+       "331.0"
+      ]
+     },
+     "icd10": {
+      "verdict": "differs",
+      "missing": [
+       "F01-F03"
+      ],
+      "extra": [
+       "F05"
+      ],
+      "overlap": true
+     },
+     "codes": {
+      "icd9": [
+       "331·0",
+       "290"
+      ],
+      "icd10": [
+       "G30·9",
+       "F05"
+      ],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "principal_or_secondary"
+      ],
+      "evidence": [
+       "PMC7720425.1.pdf, page 3"
+      ]
+     },
+     "paper": "Shi 2020 Lancet Planet Health",
+     "slug": "10_1016_s2542_5196_20_30227_8",
+     "outcomes": [
+      "first hospital admission for Alzheimer's disease and related dementias"
+     ]
+    },
+    {
+     "verdict": "differs",
+     "icd9": {
+      "verdict": "differs",
+      "missing": [],
+      "extra": [
+       "294",
+       "797"
+      ],
+      "overlap": true
+     },
+     "icd10": {
+      "verdict": "differs",
+      "missing": [],
+      "extra": [
+       "F04-F06",
+       "G13",
+       "G31",
+       "G94",
+       "R41",
+       "R54"
+      ],
+      "overlap": true
+     },
+     "codes": {
+      "icd9": [
+       "331.0",
+       "331.11",
+       "331.19",
+       "331.2",
+       "331.7",
+       "290.0",
+       "290.10",
+       "290.11",
+       "290.12",
+       "290.13",
+       "290.20",
+       "290.21",
+       "290.3",
+       "290.40",
+       "290.41",
+       "290.42",
+       "290.43",
+       "294.0",
+       "294.10",
+       "294.11",
+       "294.20",
+       "294.21",
+       "294.8",
+       "797"
+      ],
+      "icd10": [
+       "F01.50",
+       "F01.51",
+       "F02.80",
+       "F02.81",
+       "F03.90",
+       "F03.91",
+       "F04",
+       "F05",
+       "F06.1",
+       "F06.8",
+       "G13.8",
+       "G30.0",
+       "G30.1",
+       "G30.8",
+       "G30.9",
+       "G31.01",
+       "G31.09",
+       "G31.1",
+       "G31.2",
+       "G94",
+       "R41.81",
+       "R54"
+      ],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "any"
+      ],
+      "evidence": [
+       "NIHMS1866476-supplement-1.docx, text"
+      ]
+     },
+     "paper": "Mork 2023 Environ Int",
+     "slug": "10_1016_j_envint_2022_107694",
+     "outcomes": [
+      "first hospitalization with ADRD"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1-18",
+   "section": 1,
+   "outcome": "Acute kidney injury / kidney disease",
+   "step1_icd9": "584, 585",
+   "step1_icd10": "N17, N18",
+   "publications": "Lee et al. 2023, EHP (#282)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "differs",
+   "papers": [
+    {
+     "verdict": "differs",
+     "icd9": {
+      "verdict": "differs",
+      "missing": [
+       "585"
+      ],
+      "extra": [],
+      "overlap": true
+     },
+     "icd10": {
+      "verdict": "differs",
+      "missing": [
+       "N18"
+      ],
+      "extra": [],
+      "overlap": true
+     },
+     "codes": {
+      "icd9": [
+       "584"
+      ],
+      "icd10": [
+       "N17"
+      ],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "any"
+      ],
+      "evidence": [
+       "PMC10084931.1.pdf, page 2"
+      ]
+     },
+     "cv": "282",
+     "paper": "Lee 2023 EHP",
+     "slug": "10_1289_ehp10729",
+     "outcomes": [
+      "first hospital admission with acute kidney injury"
+     ]
+    }
+   ],
+   "context": [
+    {
+     "verdict": "differs",
+     "icd9": {
+      "verdict": "differs",
+      "missing": [
+       "584"
+      ],
+      "extra": [],
+      "overlap": true
+     },
+     "icd10": {
+      "verdict": "differs",
+      "missing": [
+       "N17"
+      ],
+      "extra": [],
+      "overlap": true
+     },
+     "codes": {
+      "icd9": [
+       "585"
+      ],
+      "icd10": [
+       "N18"
+      ],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "principal_or_secondary"
+      ],
+      "evidence": [
+       "PMC10012859.1.pdf, page 2"
+      ]
+     },
+     "paper": "Lee 2022 BMJ Medicine",
+     "slug": "10_1136_bmjmed_2021_000009",
+     "outcomes": [
+      "chronic kidney disease"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1-19",
+   "section": 1,
+   "outcome": "Psychiatric hospital admissions",
+   "step1_icd9": "290–319",
+   "step1_icd10": "F01–F99",
+   "publications": "Qiu et al. 2022, Lancet Planetary Health (#270)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "no_evidence",
+   "papers": [
+    {
+     "cv": "270",
+     "paper": "Qiu et al. 2022, Lancet Planetary Health",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-20",
+   "section": 1,
+   "outcome": "Alcohol- and substance-related disorders",
+   "step1_icd9": "291, 303–305",
+   "step1_icd10": "F10–F19",
+   "publications": "Parks et al. 2023, Communications Medicine (#293)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "no_evidence",
+   "papers": [
+    {
+     "cv": "293",
+     "paper": "Parks et al. 2023, Communications Medicine",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set"
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-21",
+   "section": 1,
+   "outcome": "Psychiatric hospitalizations (boom–bust economic/oil-gas exposure context)",
+   "step1_icd9": "290–319",
+   "step1_icd10": "F01–F99",
+   "publications": "Willis et al. 2025 (#331)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "no_evidence",
+   "papers": [
+    {
+     "cv": "331",
+     "paper": "Willis et al. 2025",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set"
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-22",
+   "section": 1,
+   "outcome": "Interpersonal violence–related visits (assault)",
+   "step1_icd9": "E960–E969",
+   "step1_icd10": "X92–Y09",
+   "publications": "Parks et al. 2026 (#341)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "no_evidence",
+   "papers": [
+    {
+     "cv": "341",
+     "paper": "Parks et al. 2026",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set"
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-23",
+   "section": 1,
+   "outcome": "Self-inflicted violence–related visits",
+   "step1_icd9": "E950–E959",
+   "step1_icd10": "X71–X83",
+   "publications": "Parks et al. 2026 (#341)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "no_evidence",
+   "papers": [
+    {
+     "cv": "341",
+     "paper": "Parks et al. 2026",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set"
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-24",
+   "section": 1,
+   "outcome": "Heat stroke / heat-related illness",
+   "step1_icd9": "992.0 (heat stroke), 992.0–992.9 (heat illness spectrum)",
+   "step1_icd10": "T67.0XXA (heatstroke), T67.0–T67.9",
+   "publications": "Wang et al. 2016 (#171); Bobb et al. 2014, JAMA (#153); Hopp et al. 2018 (#190)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "no_evidence",
+   "papers": [
+    {
+     "cv": "171",
+     "paper": "Wang et al. 2016",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+    },
+    {
+     "cv": "153",
+     "paper": "Bobb (Obermeyer) et al. 2014, JAMA \"Cause-Specific Risk of Hospital Admission Related to Extreme Heat\"",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+    },
+    {
+     "cv": "190",
+     "paper": "Hopp et al. 2018",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+    }
+   ],
+   "context": [
+    {
+     "verdict": "not_comparable",
+     "reason": "classification_ref",
+     "codes": {
+      "icd9": [],
+      "icd10": [],
+      "status": [
+       "classification_ref"
+      ],
+      "position": [
+       "principal"
+      ],
+      "evidence": [
+       "PMC11549953.1.pdf, page 3"
+      ]
+     },
+     "paper": "Weinberger 2021 Environ Int",
+     "slug": "10_1016_j_envint_2021_106834",
+     "outcomes": [
+      "heat stroke and other external causes (CCS 244)"
+     ]
+    },
+    {
+     "verdict": "match",
+     "icd9": {
+      "verdict": "match"
+     },
+     "icd10": {
+      "verdict": "not_comparable",
+      "unparsed_paper_codes": [
+       "T67.3-67.5"
+      ]
+     },
+     "codes": {
+      "icd9": [
+       "992.0-992.9"
+      ],
+      "icd10": [
+       "T67.3-67.5"
+      ],
+      "status": [
+       "explicit_codes"
+      ],
+      "position": [
+       "principal_or_secondary"
+      ],
+      "evidence": [
+       "PMC12058651.1.pdf, page 3"
+      ]
+     },
+     "paper": "Jung 2025 Environ Epidemiol",
+     "slug": "10_1097_ee9_0000000000000395",
+     "outcomes": [
+      "heat-related illness"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "S1-25",
+   "section": 1,
+   "outcome": "Heat-related respiratory hospitalization",
+   "step1_icd9": "460–519",
+   "step1_icd10": "J00–J99",
+   "publications": "Anderson et al. 2013, AJRCCM (#132)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "no_evidence",
+   "papers": [
+    {
+     "cv": "132",
+     "paper": "Anderson et al. 2013, AJRCCM",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set"
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-26",
+   "section": 1,
+   "outcome": "Cause-specific hospitalizations related to extreme heat (renal, respiratory, CVD, diabetes, etc., multi-cause)",
+   "step1_icd9": "Multiple (250, 390–519, 584–586)",
+   "step1_icd10": "Multiple (E10–E14, I00–I99, J00–J99, N17–N19)",
+   "publications": "Bobb (Obermeyer) et al. 2014, JAMA \"Cause-Specific Risk of Hospital Admission Related to Extreme Heat\" (#153)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "no_evidence",
+   "papers": [
+    {
+     "cv": "153",
+     "paper": "Bobb (Obermeyer) et al. 2014, JAMA \"Cause-Specific Risk of Hospital Admission Related to Extreme Heat\"",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-27",
+   "section": 1,
+   "outcome": "Wildfire smoke–associated hospital admissions (respiratory/ cardiovascular)",
+   "step1_icd9": "460–519, 390–459",
+   "step1_icd10": "J00–J99, I00–I99",
+   "publications": "Liu et al. 2016 (#173); Liu et al. 2017 (#175)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "no_evidence",
+   "papers": [
+    {
+     "cv": "173",
+     "paper": "Liu et al. 2016",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+    },
+    {
+     "cv": "175",
+     "paper": "Liu et al. 2017",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set"
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-28",
+   "section": 1,
+   "outcome": "Snowstorm-associated, cause-specific hospital admissions",
+   "step1_icd9": "Varies by cause (injury, cardiovascular, respiratory)",
+   "step1_icd10": "Varies (S00–T88, I00–I99, J00–J99)",
+   "publications": "Bobb et al. 2016, AJE \"Time-course of Cause-Specific Hospital Admissions during Snowstorms\" (#177)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "no_evidence",
+   "papers": [
+    {
+     "cv": "177",
+     "paper": "Bobb et al. 2016, AJE \"Time-course of Cause-Specific Hospital Admissions during Snowstorms\"",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set"
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-29",
+   "section": 1,
+   "outcome": "Drought-associated hospital admissions/ mortality (older adults)",
+   "step1_icd9": "Not cause-specific in abstract; general morbidity",
+   "step1_icd10": "—",
+   "publications": "Berman et al. 2017, Lancet Planetary Health (#181)",
+   "compared_with": null,
+   "step1_unspecified": true,
+   "row_verdict": "no_evidence",
+   "papers": [
+    {
+     "cv": "181",
+     "paper": "Berman et al. 2017, Lancet Planetary Health",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-30",
+   "section": 1,
+   "outcome": "Tropical cyclone–associated hospitalization (older adults, general and cardiorespiratory)",
+   "step1_icd9": "390–519",
+   "step1_icd10": "I00–I99, J00–J99",
+   "publications": "Parks et al. 2021, Nature Communications (#240); Yan et al. 2021 (#242); Burrows et al. 2023 (#281)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "no_evidence",
+   "papers": [
+    {
+     "cv": "240",
+     "paper": "Parks et al. 2021, Nature Communications",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+    },
+    {
+     "cv": "242",
+     "paper": "Yan et al. 2021",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+    },
+    {
+     "cv": "281",
+     "paper": "Burrows et al. 2023",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-31",
+   "section": 1,
+   "outcome": "Hurricane-associated ED visits (by age and cause)",
+   "step1_icd9": "Multiple, cause-stratified",
+   "step1_icd10": "Multiple",
+   "publications": "Weinberger et al. 2021, AJE (Hurricane Sandy) (#244)",
+   "compared_with": null,
+   "step1_unspecified": true,
+   "row_verdict": "no_evidence",
+   "papers": [
+    {
+     "cv": "244",
+     "paper": "Weinberger et al. 2021, AJE (Hurricane Sandy)",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set"
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-32",
+   "section": 1,
+   "outcome": "Volcanic SO2 plume–associated respiratory morbidity",
+   "step1_icd9": "460–519 (esp. 493 asthma, 490–496 COPD)",
+   "step1_icd10": "J00–J99 (esp. J45, J40–J44)",
+   "publications": "Carlsen et al. 2021 (#250, #252)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "no_evidence",
+   "papers": [
+    {
+     "cv": "250",
+     "paper": "Carlsen et al. 2021",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set"
+    },
+    {
+     "cv": "252",
+     "paper": "Carlsen et al. 2021",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set"
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-33",
+   "section": 1,
+   "outcome": "Emergency hospital admissions for CVD and ambient CO",
+   "step1_icd9": "See CVD row above",
+   "step1_icd10": "See CVD row above",
+   "publications": "Bell et al. 2009, Circulation (#92)",
+   "compared_with": null,
+   "step1_unspecified": true,
+   "row_verdict": "no_evidence",
+   "papers": [
+    {
+     "cv": "92",
+     "paper": "Bell et al. 2009, Circulation",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-34",
+   "section": 1,
+   "outcome": "Hospital admissions and PM2.5 chemical composition (cardiorespiratory)",
+   "step1_icd9": "390–519",
+   "step1_icd10": "I00–I99, J00–J99",
+   "publications": "Bell et al. 2009 (#89, #94); Bell et al. 2014 (#136)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "no_evidence",
+   "papers": [
+    {
+     "cv": "89",
+     "paper": "Bell et al. 2009",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set"
+    },
+    {
+     "cv": "94",
+     "paper": "Bell et al. 2009",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+    },
+    {
+     "cv": "136",
+     "paper": "Bell et al. 2014",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-35",
+   "section": 1,
+   "outcome": "Emergency hospital admissions, primary organic particles (elderly, cardiorespiratory)",
+   "step1_icd9": "390–519",
+   "step1_icd10": "I00–I99, J00–J99",
+   "publications": "Kioumourtzoglou et al. 2013 (#134)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "no_evidence",
+   "papers": [
+    {
+     "cv": "134",
+     "paper": "Kioumourtzoglou et al. 2013",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-36",
+   "section": 1,
+   "outcome": "Non-respiratory infection hospital admissions (long-term PM2.5, included for completeness)",
+   "step1_icd9": "001–139, 320–326, 590, etc. (infection-specific)",
+   "step1_icd10": "A00–B99 and site-specific infection codes",
+   "publications": "Feng et al. 2024, Nature Communications (#303/#309)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "no_evidence",
+   "papers": [
+    {
+     "cv": "303",
+     "paper": "Feng et al. 2024, Nature Communications",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+    },
+    {
+     "cv": "309",
+     "paper": "Feng et al. 2024, Nature Communications",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S1-37",
+   "section": 1,
+   "outcome": "Second cardiovascular event hospital admissions",
+   "step1_icd9": "410–414, 428, 430–438",
+   "step1_icd10": "I20–I25, I50, I60–I69",
+   "publications": "Yazdi et al. 2025 (#323)",
+   "compared_with": null,
+   "step1_unspecified": false,
+   "row_verdict": "no_evidence",
+   "papers": [
+    {
+     "cv": "323",
+     "paper": "Yazdi et al. 2025",
+     "slug": null,
+     "verdict": "no_evidence",
+     "reason": "not in Braun's Step 3.4 set (Dominici Step 2.4 paper)"
+    }
+   ],
+   "context": []
+  },
+  {
+   "id": "S2-01",
+   "section": 2,
+   "outcome": "Hypertensive crisis / hypertension",
+   "step1_icd9": "401–405",
+   "step1_icd10": "I10–I16",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-02",
+   "section": 2,
+   "outcome": "Atrial fibrillation (specific arrhythmia)",
+   "step1_icd9": "427.31",
+   "step1_icd10": "I48.0–I48.9",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-03",
+   "section": 2,
+   "outcome": "Cardiac arrest",
+   "step1_icd9": "427.5",
+   "step1_icd10": "I46.2, I46.8, I46.9",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-04",
+   "section": 2,
+   "outcome": "Chronic bronchitis",
+   "step1_icd9": "491",
+   "step1_icd10": "J41–J42",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-05",
+   "section": 2,
+   "outcome": "Acute bronchitis",
+   "step1_icd9": "466",
+   "step1_icd10": "J20–J21",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-06",
+   "section": 2,
+   "outcome": "Upper respiratory tract infection",
+   "step1_icd9": "460–465",
+   "step1_icd10": "J00–J06",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-07",
+   "section": 2,
+   "outcome": "Otitis media",
+   "step1_icd9": "381–382",
+   "step1_icd10": "H65–H67",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-08",
+   "section": 2,
+   "outcome": "Conjunctivitis / eye irritation",
+   "step1_icd9": "372.0",
+   "step1_icd10": "H10",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-09",
+   "section": 2,
+   "outcome": "Allergic rhinitis",
+   "step1_icd9": "477",
+   "step1_icd10": "J30",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-10",
+   "section": 2,
+   "outcome": "Dehydration",
+   "step1_icd9": "276.51",
+   "step1_icd10": "E86.0",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-11",
+   "section": 2,
+   "outcome": "Heat exhaustion / heat cramps",
+   "step1_icd9": "992.3, 992.5–992.7",
+   "step1_icd10": "T67.3, T67.2, T67.6–T67.8",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-12",
+   "section": 2,
+   "outcome": "Hypothermia",
+   "step1_icd9": "991.6",
+   "step1_icd10": "T68",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-13",
+   "section": 2,
+   "outcome": "Frostbite",
+   "step1_icd9": "991.0–991.3",
+   "step1_icd10": "T33–T34",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-14",
+   "section": 2,
+   "outcome": "Cold exposure–related cardiovascular events",
+   "step1_icd9": "410–414, 427–428",
+   "step1_icd10": "I20–I25, I47–I50",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-15",
+   "section": 2,
+   "outcome": "Renal colic / kidney stones",
+   "step1_icd9": "592",
+   "step1_icd10": "N20",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-16",
+   "section": 2,
+   "outcome": "Sepsis / urinary tract infection (heat-related renal stress)",
+   "step1_icd9": "038, 599.0",
+   "step1_icd10": "A41, N39.0",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-17",
+   "section": 2,
+   "outcome": "Rhabdomyolysis",
+   "step1_icd9": "728.88",
+   "step1_icd10": "M62.82",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-18",
+   "section": 2,
+   "outcome": "Falls / weather-related injury (ice, snow)",
+   "step1_icd9": "800–959 (injury codes), E880–E888",
+   "step1_icd10": "S00–T88, W00–W19",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-19",
+   "section": 2,
+   "outcome": "Carbon monoxide poisoning",
+   "step1_icd9": "986",
+   "step1_icd10": "T58",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-20",
+   "section": 2,
+   "outcome": "Preterm birth / adverse birth outcomes",
+   "step1_icd9": "644.2, 765",
+   "step1_icd10": "O60, P07",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-21",
+   "section": 2,
+   "outcome": "Low birth weight",
+   "step1_icd9": "764",
+   "step1_icd10": "P05",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-22",
+   "section": 2,
+   "outcome": "Vector-borne disease hospitalizations (e.g., dengue, West Nile virus)",
+   "step1_icd9": "061, 066.4",
+   "step1_icd10": "A90–A91, A92.3",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-23",
+   "section": 2,
+   "outcome": "Gastroenteritis / diarrheal disease",
+   "step1_icd9": "558.9, 009",
+   "step1_icd10": "A09, K52.9",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-24",
+   "section": 2,
+   "outcome": "Mental health crisis visits (general, beyond psychiatric admission category)",
+   "step1_icd9": "300–316",
+   "step1_icd10": "F40–F48, F90–F98",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-25",
+   "section": 2,
+   "outcome": "Suicide attempt–related ED visits",
+   "step1_icd9": "E950–E959",
+   "step1_icd10": "X71–X83, T14.91",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-26",
+   "section": 2,
+   "outcome": "Anxiety/mood disorder exacerbation",
+   "step1_icd9": "296, 300",
+   "step1_icd10": "F30–F39, F40–F41",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-27",
+   "section": 2,
+   "outcome": "Wildfire smoke–specific asthma/ COPD exacerbation",
+   "step1_icd9": "493, 491–492, 496",
+   "step1_icd10": "J45, J41–J44",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  },
+  {
+   "id": "S2-28",
+   "section": 2,
+   "outcome": "All-cause emergency department visits (non-specific)",
+   "step1_icd9": "—",
+   "step1_icd10": "—",
+   "publications": null,
+   "row_verdict": "not_checked",
+   "note": "Section 2: broader literature, not Dominici papers",
+   "papers": [],
+   "context": []
+  }
+ ]
+}
