@@ -1,0 +1,2240 @@
+{
+  "source": "030_scholar_publications.json",
+  "method": "Crossref title search + DOI BibTeX transform",
+  "min_score": 0.9,
+  "records": [
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:j8SEvjWlNXcC",
+      "title": "Age-Specific Ovarian Cancer Risk Among Individuals With Pathogenic Variants in PALB2",
+      "year": 2026,
+      "status": "no_confident_match",
+      "doi": null,
+      "match": {
+        "doi": "10.1002/gepi.22561",
+        "crossref_title": "Meta‐analysis of breast cancer risk for individuals with PALB2 pathogenic variants",
+        "crossref_year": 2024,
+        "crossref_type": "journal-article",
+        "score": 0.653,
+        "braun_in_authors": true
+      },
+      "bib": null
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:2KloaMYe4IUC",
+      "title": "Age-specific risks of leukemia in Li Fraumeni syndrome in children, adolescents, young adults, and adults.",
+      "year": 2026,
+      "status": "found",
+      "doi": "10.1200/jco.2026.44.16_suppl.e22653",
+      "match": {
+        "doi": "10.1200/jco.2026.44.16_suppl.e22653",
+        "crossref_title": "Age-specific risks of leukemia in Li Fraumeni syndrome in children, adolescents, young adults, and adults.",
+        "crossref_year": 2026,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Lee_2026, title={Age-specific risks of leukemia in Li Fraumeni syndrome in children, adolescents, young adults, and adults.}, volume={44}, ISSN={1527-7755}, url={http://dx.doi.org/10.1200/jco.2026.44.16_suppl.e22653}, DOI={10.1200/jco.2026.44.16_suppl.e22653}, number={16_suppl}, journal={Journal of Clinical Oncology}, publisher={American Society of Clinical Oncology (ASCO)}, author={Lee, Rachel Vania and Bonner, Joseph and Braun, Danielle and Lindsey, Sidney S. and Nehoray, Bita and Schwartz Levine, Alison and Peng, Bo and Rosito, Maria Sol and Amos, Christopher I. and Garber, Judy Ellen and Gruber, Stephen B. and }, year={2026}, month=June }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:evX43VCCuoAC",
+      "title": "Benchmarking reliability and calibration of LLMs for multi-cancer early detection test communication",
+      "year": 2026,
+      "status": "found",
+      "doi": "10.1093/jamiaopen/ooag093",
+      "match": {
+        "doi": "10.1093/jamiaopen/ooag093",
+        "crossref_title": "Benchmarking reliability and calibration of LLMs for multi-cancer early detection test communication",
+        "crossref_year": 2026,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Takabatake_2026, title={Benchmarking reliability and calibration of LLMs for multi-cancer early detection test communication}, volume={9}, ISSN={2574-2531}, url={http://dx.doi.org/10.1093/jamiaopen/ooag093}, DOI={10.1093/jamiaopen/ooag093}, number={3}, journal={JAMIA Open}, publisher={Oxford University Press (OUP)}, author={Takabatake, Koki and Rosito, Maria Sol and Braun, Danielle and Marinac, Catherine and Oâ€™Donnell, Elizabeth and Parmigiani, Giovanni}, year={2026}, month=May }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:_Ybze24A_UAC",
+      "title": "Data needs for accelerating research at the intersection of climate stressors and health: an online survey",
+      "year": 2026,
+      "status": "found",
+      "doi": "10.1088/2752-5309/ae44c0",
+      "match": {
+        "doi": "10.1088/2752-5309/ae44c0",
+        "crossref_title": "Data needs for accelerating research at the intersection of climate stressors and health: an online survey",
+        "crossref_year": 2026,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Gause_2026, title={Data needs for accelerating research at the intersection of climate stressors and health: an online survey}, volume={4}, ISSN={2752-5309}, url={http://dx.doi.org/10.1088/2752-5309/ae44c0}, DOI={10.1088/2752-5309/ae44c0}, number={1}, journal={Environmental Research: Health}, publisher={IOP Publishing}, author={Gause, Emma L and Spangler, Keith R and Clifford, Heather and Hoenig, Michaela and Cetron, Joshua S and Popp, Zachary and Audirac, Michelle and Goldman, Julie and Nori-Sarma, Amruta and Dominici, Francesca and Wellenius, Gregory A and Braun, Danielle and Lane, Kevin}, year={2026}, month=Feb, pages={015007} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:W5xh706n7nkC",
+      "title": "Evaluating a Mendelian Risk Prediction Model That Aggregates Across Genes and Cancers",
+      "year": 2026,
+      "status": "found",
+      "doi": "10.1002/gepi.70038",
+      "match": {
+        "doi": "10.1002/gepi.70038",
+        "crossref_title": "Evaluating a Mendelian Risk Prediction Model That Aggregates Across Genes and Cancers",
+        "crossref_year": 2026,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Liang_2026, title={Evaluating a Mendelian Risk Prediction Model That Aggregates Across Genes and Cancers}, volume={50}, ISSN={1098-2272}, url={http://dx.doi.org/10.1002/gepi.70038}, DOI={10.1002/gepi.70038}, number={3}, journal={Genetic Epidemiology}, publisher={Wiley}, author={Liang, Jane W. and Idos, Gregory E. and Hong, Christine and Shannon, Kristen M. and Bear, Lauren M. and Pichardo, Jennifer Morales and Guan, Zoe and McCarthy, Anne Marie and Ford, James M. and Kurian, Allison W. and Gruber, Stephen B. and Braun, Danielle and Parmigiani, Giovanni}, year={2026}, month=Mar }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:tzM49s52ZIMC",
+      "title": "Evidence of Smoke-Related PM 2.5 on Menstrual Cycle Health: A Prospective, Observational Study Using Multi-Country Data From a Mobile Health App",
+      "year": 2026,
+      "status": "found",
+      "doi": "10.2139/ssrn.6745159",
+      "match": {
+        "doi": "10.2139/ssrn.6745159",
+        "crossref_title": "Evidence of Smoke-Related PM 2.5 on Menstrual Cycle Health: A Prospective, Observational Study Using Multi-Country Data From a Mobile Health App",
+        "crossref_year": 2026,
+        "crossref_type": "posted-content",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{DeSouza_2026, title={Evidence of Smoke-Related PM 2.5 on Menstrual Cycle Health: A Prospective, Observational Study Using Multi-Country Data From a Mobile Health App}, url={http://dx.doi.org/10.2139/ssrn.6745159}, DOI={10.2139/ssrn.6745159}, publisher={Elsevier BV}, author={DeSouza, Priyanka and Considine, Ellen  M. and Shea, Amanda and Duarte, FÃ¡bio and Ratti, Carlo and Huguelet, Patricia and Sammel, Mary and Haskell-Craig, Zoe and Braun, Danielle and Nethery, Rachel and Josey, Kevin}, year={2026} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:tKAzc9rXhukC",
+      "title": "Extreme heat and hospitalization with Parkinson’s disease among older adults",
+      "year": 2026,
+      "status": "found",
+      "doi": "10.1038/s41370-026-00882-7",
+      "match": {
+        "doi": "10.1038/s41370-026-00882-7",
+        "crossref_title": "Extreme heat and hospitalization with Parkinson’s disease among older adults",
+        "crossref_year": 2026,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Dinehart_2026, title={Extreme heat and hospitalization with Parkinson’s disease among older adults}, volume={36}, ISSN={1559-064X}, url={http://dx.doi.org/10.1038/s41370-026-00882-7}, DOI={10.1038/s41370-026-00882-7}, number={5}, journal={Journal of Exposure Science &amp; Environmental Epidemiology}, publisher={Springer Science and Business Media LLC}, author={Dinehart, Claire and Delaney, Scott W. and Mock, Lauren and Racette, Brad A. and Miller, Gary W. and Kioumourtzoglou, Marianthi-Anna and Braun, Danielle and Zanobetti, Antonella and Mork, Daniel}, year={2026}, month=Apr, pages={974–982} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:35r97b3x0nAC",
+      "title": "Familial Risk Stratification Across Cancer Syndromes Using Fam3PRO",
+      "year": 2026,
+      "status": "found",
+      "doi": "10.1016/j.gim.2026.102665",
+      "match": {
+        "doi": "10.1016/j.gim.2026.102665",
+        "crossref_title": "Familial risk stratification across cancer syndromes using Fam3PRO",
+        "crossref_year": 2026,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Liang_2026, title={Familial risk stratification across cancer syndromes using Fam3PRO}, ISSN={1098-3600}, url={http://dx.doi.org/10.1016/j.gim.2026.102665}, DOI={10.1016/j.gim.2026.102665}, journal={Genetics in Medicine}, publisher={Elsevier BV}, author={Liang, Jane W. and Idos, Gregory E. and Hong, Christine and Shannon, Kristen M. and Bear, Lauren M. and Bonner, Joseph D. and Lindsey, Sidney and Morales Pichardo, Jennifer and Guan, Zoe and McCarthy, Anne Marie and Gruber, Stephen B. and Braun, Danielle and Parmigiani, Giovanni}, year={2026}, month=July, pages={102665} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:JQOojiI6XY0C",
+      "title": "Genetic testing for all breast cancer patients: the GET FACTS randomized clinical trial",
+      "year": 2026,
+      "status": "found",
+      "doi": "10.1001/jamanetworkopen.2025.51553",
+      "match": {
+        "doi": "10.1001/jamanetworkopen.2025.51553",
+        "crossref_title": "Genetic Testing for All Breast Cancer Patients: The GET FACTS Randomized Clinical Trial",
+        "crossref_year": 2026,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Weiss_2026, title={Genetic Testing for All Breast Cancer Patients: The GET FACTS Randomized Clinical Trial}, volume={9}, ISSN={2574-3805}, url={http://dx.doi.org/10.1001/jamanetworkopen.2025.51553}, DOI={10.1001/jamanetworkopen.2025.51553}, number={1}, journal={JAMA Network Open}, publisher={American Medical Association (AMA)}, author={Weiss, Anna and Braun, Danielle and Stopfer, Jill and Zhao, Jintong and McGrath, Monica and Bradshaw, Kaitlyn R. and Rosito, Maria Sol and Davis, Dillon and Garber, Judy E. and King, Tari A.}, year={2026}, month=Jan, pages={e2551553} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:UHK10RUVsp4C",
+      "title": "Higher temperatures are associated with increased interpersonal and self-inflicted violence-related Medicaid hospital visits in the United States",
+      "year": 2026,
+      "status": "found",
+      "doi": "10.1038/s44458-025-00001-x",
+      "match": {
+        "doi": "10.1038/s44458-025-00001-x",
+        "crossref_title": "Higher temperatures are associated with increased interpersonal and self-inflicted violence-related Medicaid hospital visits in the United States",
+        "crossref_year": 2026,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Parks_2026, title={Higher temperatures are associated with increased interpersonal and self-inflicted violence-related Medicaid hospital visits in the United States}, volume={1}, ISSN={3059-4308}, url={http://dx.doi.org/10.1038/s44458-025-00001-x}, DOI={10.1038/s44458-025-00001-x}, number={1}, journal={Communications Sustainability}, publisher={Springer Science and Business Media LLC}, author={Parks, Robbie M. and Flynn, Lauren and Gu, Zifan and Braun, Danielle and Cerna-Turoff, Ilan and Tuholske, Cascade and Dominici, Francesca and Lindert, Jutta and Kioumourtzoglou, Marianthi-Anna}, year={2026}, month=Jan }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:ZfRJV9d4-WMC",
+      "title": "Hospitalization risk with and without dementia by region and race in the United States",
+      "year": 2026,
+      "status": "found",
+      "doi": "10.1093/aje/kwag087",
+      "match": {
+        "doi": "10.1093/aje/kwag087",
+        "crossref_title": "Hospitalization risk with and without dementia by region and race in the United States",
+        "crossref_year": 2026,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Mock_2026, title={Hospitalization risk with and without dementia by region and race in the United States}, volume={195}, ISSN={1476-6256}, url={http://dx.doi.org/10.1093/aje/kwag087}, DOI={10.1093/aje/kwag087}, number={7}, journal={American Journal of Epidemiology}, publisher={Oxford University Press (OUP)}, author={Mock, Lauren and Mork, Daniel and Audirac, Michelle and Braun, Danielle and Zanobetti, Antonella and Delaney, Scott W}, year={2026}, month=Apr, pages={1839â€“1849} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:Fu2w8maKXqMC",
+      "title": "Interpretable Active Learning for Pedigree Data Deduplication in Cancer Genetics",
+      "year": 2026,
+      "status": "found",
+      "doi": "10.1200/cci-25-00252",
+      "match": {
+        "doi": "10.1200/cci-25-00252",
+        "crossref_title": "Interpretable Active Learning for Pedigree Data Deduplication in Cancer Genetics",
+        "crossref_year": 2026,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Rosito_2026, title={Interpretable Active Learning for Pedigree Data Deduplication in Cancer Genetics}, volume={10}, ISSN={2473-4276}, url={http://dx.doi.org/10.1200/cci-25-00252}, DOI={10.1200/cci-25-00252}, number={1}, journal={JCO Clinical Cancer Informatics}, publisher={American Society of Clinical Oncology (ASCO)}, author={Rosito, Maria S. and Cervantes, Aleck E. and Hong, Christine and Bonner, Joseph D. and Nehoray, Bita and Schwartz Levine, Alison and Rosenberg, Danna and Anez-Bruzual, Isabel and Parmigiani, Giovanni and Amos, Christopher I. and Garber, Judy E. and Gruber, Stephen B. and Braun, Danielle}, year={2026}, month=Jan }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:-_dYPAW6P2MC",
+      "title": "Long-term cumulative associations of annual air pollution exposure and hospitalization with Parkinson’s Disease",
+      "year": 2026,
+      "status": "found",
+      "doi": "10.1097/ee9.0000000000000519",
+      "match": {
+        "doi": "10.1097/ee9.0000000000000519",
+        "crossref_title": "Long-term cumulative associations of annual air pollution exposure and hospitalization with Parkinson’s Disease",
+        "crossref_year": 2026,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Delaney_2026, title={Long-term cumulative associations of annual air pollution exposure and hospitalization with Parkinsonâ€™s Disease}, volume={10}, ISSN={2474-7882}, url={http://dx.doi.org/10.1097/ee9.0000000000000519}, DOI={10.1097/ee9.0000000000000519}, number={4}, journal={Environmental Epidemiology}, publisher={Ovid Technologies (Wolters Kluwer Health)}, author={Delaney, Scott W. and Mock, Lauren and Wang, Veronica A. and Racette, Brad A. and Miller, Gary W. and Kioumourtzoglou, Marianthi-Anna and Zanobetti, Antonella and Braun, Danielle and Mork, Daniel}, year={2026}, month=Aug, pages={e519} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:uLbwQdceFCQC",
+      "title": "Long-term impact of fine particulate matter on mortality is exacerbated when wildfire events occur",
+      "year": 2026,
+      "status": "found",
+      "doi": "10.1093/aje/kwaf278",
+      "match": {
+        "doi": "10.1093/aje/kwaf278",
+        "crossref_title": "Long-term impact of fine particulate matter on mortality is exacerbated when wildfire events occur",
+        "crossref_year": 2026,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Spoto_2025, title={Long-term impact of fine particulate matter on mortality is exacerbated when wildfire events occur}, volume={195}, ISSN={1476-6256}, url={http://dx.doi.org/10.1093/aje/kwaf278}, DOI={10.1093/aje/kwaf278}, number={6}, journal={American Journal of Epidemiology}, publisher={Oxford University Press (OUP)}, author={Spoto, Federica and Dominici, Francesca and Benmarhnia, Tarik and Braun, Danielle and Casey, Joan A}, year={2025}, month=Dec, pages={1782â€“1785} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:fEOibwPWpKIC",
+      "title": "PM2. 5 and 30-Day Readmission in Medicare Beneficiaries with Alzheimer’s Disease and Related Dementias: Effect Modification by Neighborhood Green and Blue Space",
+      "year": 2026,
+      "status": "found",
+      "doi": "10.1021/ehp.6c00147",
+      "match": {
+        "doi": "10.1021/ehp.6c00147",
+        "crossref_title": "PM2.5 and 30-Day Readmission in Medicare\nBeneficiaries with Alzheimer’s Disease and Related Dementias:\nEffect Modification by Neighborhood Green and Blue Space",
+        "crossref_year": 2026,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Byun_2026, title={PM2.5 and 30-Day Readmission in Medicare\nBeneficiaries with Alzheimer’s Disease and Related Dementias:\nEffect Modification by Neighborhood Green and Blue Space}, volume={134}, ISSN={1552-9924}, url={http://dx.doi.org/10.1021/ehp.6c00147}, DOI={10.1021/ehp.6c00147}, number={6}, journal={Environmental Health Perspectives}, publisher={American Chemical Society (ACS)}, author={Byun, Garam and Delaney, Scott W. and Mork, Daniel and Kaur, Mahima and Choi, Yongsoo and Zanobetti, Antonella and Lee, Jenny Jyoung and Benmarhnia, Tarik and James, Peter and Dominici, Francesca and Gill, Thomas M. and Braun, Danielle and Bell, Michelle L.}, year={2026}, month=Aug, pages={707–714} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:N5tVd3kTz84C",
+      "title": "Web-Based User Interface for Fam3PRO: A Multigene, Multicancer Risk Prediction Model for Families With Cancer History",
+      "year": 2026,
+      "status": "found",
+      "doi": "10.1200/cci-25-00332",
+      "match": {
+        "doi": "10.1200/cci-25-00332",
+        "crossref_title": "Web-Based User Interface for Fam3PRO: A Multigene, Multicancer Risk Prediction Model for Families With Cancer History",
+        "crossref_year": 2026,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Chen_2026, title={Web-Based User Interface for Fam3PRO: A Multigene, Multicancer Risk Prediction Model for Families With Cancer History}, volume={10}, ISSN={2473-4276}, url={http://dx.doi.org/10.1200/cci-25-00332}, DOI={10.1200/cci-25-00332}, number={1}, journal={JCO Clinical Cancer Informatics}, publisher={American Society of Clinical Oncology (ASCO)}, author={Chen, Xueying and Ke, Jianfeng and Flynn, Lauren and Parmigiani, Giovanni and Braun, Danielle}, year={2026}, month=Jan }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:eq2jaN3J8jMC",
+      "title": "A Clinical Decision Support Tool to Predict Contralateral Breast Cancer Risk for Women with Primary Breast Cancer",
+      "year": 2025,
+      "status": "found",
+      "doi": "10.18103/mra.v13i7.6814",
+      "match": {
+        "doi": "10.18103/mra.v13i7.6814",
+        "crossref_title": "A Clinical Decision Support Tool to Predict Contralateral Breast Cancer Risk for Women with Primary Breast Cancer",
+        "crossref_year": 2025,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Braun_2025, title={A Clinical Decision Support Tool to Predict Contralateral Breast Cancer Risk for Women with Primary Breast Cancer}, volume={13}, ISSN={2375-1916}, url={http://dx.doi.org/10.18103/mra.v13i7.6814}, DOI={10.18103/mra.v13i7.6814}, number={7}, journal={Medical Research Archives}, publisher={Knowledge Enterprise Journals}, author={Braun, Danielle and Huang, Theodore and Stopfer, Jill and Garber, Judy and Weiss, Anna}, year={2025}, month=July }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:fQNAKQ3IYiAC",
+      "title": "Adjusting for Ascertainment Bias in Meta‐Analysis of Penetrance for Cancer Risk",
+      "year": 2025,
+      "status": "found",
+      "doi": "10.1002/sim.10323",
+      "match": {
+        "doi": "10.1002/sim.10323",
+        "crossref_title": "Adjusting for Ascertainment Bias in Meta‐Analysis of Penetrance for Cancer Risk",
+        "crossref_year": 2025,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Ruberu_2025, title={Adjusting for Ascertainment Bias in Metaâ€�Analysis of Penetrance for Cancer Risk}, volume={44}, ISSN={1097-0258}, url={http://dx.doi.org/10.1002/sim.10323}, DOI={10.1002/sim.10323}, number={3-4}, journal={Statistics in Medicine}, publisher={Wiley}, author={Ruberu, Thanthirige Lakshika M. and Braun, Danielle and Parmigiani, Giovanni and Biswas, Swati}, year={2025}, month=Jan }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:tkaPQYYpVKoC",
+      "title": "BreakLoops: A New Feature for the Multi-Gene, Multi-Cancer Family History-Based Model, Fam3Pro",
+      "year": 2025,
+      "status": "found",
+      "doi": "10.7554/elife.107490",
+      "match": {
+        "doi": "10.7554/elife.107490",
+        "crossref_title": "BreakLoops: A New Feature for the Multi-Gene, Multi-Cancer Family History-Based Model, Fam3Pro",
+        "crossref_year": 2025,
+        "crossref_type": "posted-content",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Kubista_2025, title={BreakLoops: A New Feature for the Multi-Gene, Multi-Cancer Family History-Based Model, Fam3Pro}, url={http://dx.doi.org/10.7554/elife.107490}, DOI={10.7554/elife.107490}, publisher={eLife Sciences Publications, Ltd}, author={Kubista, Nicolas and Hernandez-Cancela, Ryan and Ke, Jianfeng and Berquet, Romain and Lee, Gavin and Parmigiani, Giovanni and Braun, Danielle}, year={2025}, month=Oct }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:Y5dfb0dijaUC",
+      "title": "Coexposure to extreme heat, wildfire burn zones, and wildfire smoke in the Western US from 2006 to 2020",
+      "year": 2025,
+      "status": "found",
+      "doi": "10.1126/sciadv.adq6453",
+      "match": {
+        "doi": "10.1126/sciadv.adq6453",
+        "crossref_title": "Coexposure to extreme heat, wildfire burn zones, and wildfire smoke in the Western US from 2006 to 2020",
+        "crossref_year": 2025,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Hu_2025, title={Coexposure to extreme heat, wildfire burn zones, and wildfire smoke in the Western US from 2006 to 2020}, volume={11}, ISSN={2375-2548}, url={http://dx.doi.org/10.1126/sciadv.adq6453}, DOI={10.1126/sciadv.adq6453}, number={18}, journal={Science Advances}, publisher={American Association for the Advancement of Science (AAAS)}, author={Hu, Jie K. and Trišović, Ana and Bakshi, Ankita and Braun, Danielle and Dominici, Francesca and Casey, Joan A.}, year={2025}, month=May }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:1yQoGdGgb4wC",
+      "title": "Combined and synergistic effects of heat and fine particulate matter on hospitalization among patients with Alzheimer’s disease and related dementias",
+      "year": 2025,
+      "status": "found",
+      "doi": "10.1097/ee9.0000000000000440",
+      "match": {
+        "doi": "10.1097/ee9.0000000000000440",
+        "crossref_title": "Combined and synergistic effects of heat and fine particulate matter on hospitalization among patients with Alzheimer’s disease and related dementias",
+        "crossref_year": 2025,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Spoto_2025, title={Combined and synergistic effects of heat and fine particulate matter on hospitalization among patients with Alzheimerâ€™s disease and related dementias}, volume={9}, ISSN={2474-7882}, url={http://dx.doi.org/10.1097/ee9.0000000000000440}, DOI={10.1097/ee9.0000000000000440}, number={6}, journal={Environmental Epidemiology}, publisher={Ovid Technologies (Wolters Kluwer Health)}, author={Spoto, Federica and Zanobetti, Antonella and Delaney, Scott W. and Gill, Thomas M. and Bell, Michelle L. and Dominici, Francesca and Braun, Danielle and Mork, Daniel}, year={2025}, month=Nov, pages={e440} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:kRWSkSYxWN8C",
+      "title": "Comparing traditional and causal inference methodologies for evaluating impacts of long-term air pollution exposure on hospitalization with Alzheimer disease and related dementias",
+      "year": 2025,
+      "status": "found",
+      "doi": "10.1093/aje/kwae133",
+      "match": {
+        "doi": "10.1093/aje/kwae133",
+        "crossref_title": "Comparing traditional and causal inference methodologies for evaluating impacts of long-term air pollution exposure on hospitalization with Alzheimer disease and related dementias",
+        "crossref_year": 2025,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Qin_2024, title={Comparing traditional and causal inference methodologies for evaluating impacts of long-term air pollution exposure on hospitalization with Alzheimer disease and related dementias}, volume={194}, ISSN={1476-6256}, url={http://dx.doi.org/10.1093/aje/kwae133}, DOI={10.1093/aje/kwae133}, number={1}, journal={American Journal of Epidemiology}, publisher={Oxford University Press (OUP)}, author={Qin, Michelle Miao and Khoshnevis, Naeem and Dominici, Francesca and Braun, Danielle and Zanobetti, Antonella and Mork, Daniel}, year={2024}, month=June, pages={64â€“72} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:ZuybSZzF8UAC",
+      "title": "Estimating the Effects of Heatwaves on Health: A Causal Inference Framework",
+      "year": 2025,
+      "status": "no_confident_match",
+      "doi": null,
+      "match": {
+        "doi": "10.64898/2026.10.13.26365467",
+        "crossref_title": "Estimating excess mortality during heat waves using a causal inference framework and non-randomized time series",
+        "crossref_year": 2026,
+        "crossref_type": "posted-content",
+        "score": 0.588,
+        "braun_in_authors": false
+      },
+      "bib": null
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:_B80troHkn4C",
+      "title": "Extreme heat and hospital admissions in older adults: A small-area analysis in the Greater Boston metropolitan area",
+      "year": 2025,
+      "status": "found",
+      "doi": "10.1097/ee9.0000000000000395",
+      "match": {
+        "doi": "10.1097/ee9.0000000000000395",
+        "crossref_title": "Extreme heat and hospital admissions in older adults: A small-area analysis in the Greater Boston metropolitan area",
+        "crossref_year": 2025,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Jung_2025, title={Extreme heat and hospital admissions in older adults: A small-area analysis in the Greater Boston metropolitan area}, volume={9}, ISSN={2474-7882}, url={http://dx.doi.org/10.1097/ee9.0000000000000395}, DOI={10.1097/ee9.0000000000000395}, number={3}, journal={Environmental Epidemiology}, publisher={Ovid Technologies (Wolters Kluwer Health)}, author={Jung, Youn Soo and Choma, Ernani and Delaney, Scott and Mork, Daniel and Audirac, Michelle and Braun, Danielle and Kessler, William and Coull, Brent and Nadeau, Kari and Zanobetti, Antonella}, year={2025}, month=May, pages={e395} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:olpn-zPbct0C",
+      "title": "Extreme heat and hospitalization among older persons with Alzheimer disease and related dementias",
+      "year": 2025,
+      "status": "found",
+      "doi": "10.1001/jamainternmed.2024.7719",
+      "match": {
+        "doi": "10.1001/jamainternmed.2024.7719",
+        "crossref_title": "Extreme Heat and Hospitalization Among Older Persons With Alzheimer Disease and Related Dementias",
+        "crossref_year": 2025,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Delaney_2025, title={Extreme Heat and Hospitalization Among Older Persons With Alzheimer Disease and Related Dementias}, volume={185}, ISSN={2168-6106}, url={http://dx.doi.org/10.1001/jamainternmed.2024.7719}, DOI={10.1001/jamainternmed.2024.7719}, number={4}, journal={JAMA Internal Medicine}, publisher={American Medical Association (AMA)}, author={Delaney, Scott W. and Stegmuller, Angela and Mork, Daniel and Mock, Lauren and Bell, Michelle L. and Gill, Thomas M. and Braun, Danielle and Zanobetti, Antonella}, year={2025}, month=Apr, pages={412} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:5awf1xo2G04C",
+      "title": "Impact of boom-and-bust economies from oil and gas development on psychiatric hospitalizations among Medicaid beneficiaries",
+      "year": 2025,
+      "status": "found",
+      "doi": "10.1088/2752-5309/ae01ce",
+      "match": {
+        "doi": "10.1088/2752-5309/ae01ce",
+        "crossref_title": "Impact of boom-and-bust economies from oil and gas development on psychiatric hospitalizations among Medicaid beneficiaries",
+        "crossref_year": 2025,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Willis_2025, title={Impact of boom-and-bust economies from oil and gas development on psychiatric hospitalizations among Medicaid beneficiaries}, volume={3}, ISSN={2752-5309}, url={http://dx.doi.org/10.1088/2752-5309/ae01ce}, DOI={10.1088/2752-5309/ae01ce}, number={3}, journal={Environmental Research: Health}, publisher={IOP Publishing}, author={Willis, Mary D and Cesare, Nina and Harleman, Max and Black-Ingersoll, Flannery and Gradus, Jaimie L and Thombs, Ryan and Oblath, Rachel and Buonocore, Jonathan J and Welch, Barrett M and Casey, Joan A and Braun, Danielle and Dominici, Francesca and Nori-Sarma, Amruta}, year={2025}, month=Sept, pages={035008} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:eMMeJKvmdy0C",
+      "title": "Impact of the American Society of Breast Surgeons’ guidelines on genetic testing and contralateral prophylactic mastectomy rates",
+      "year": 2025,
+      "status": "found",
+      "doi": "10.1245/s10434-025-17185-0",
+      "match": {
+        "doi": "10.1245/s10434-025-17185-0",
+        "crossref_title": "Impact of the American Society of Breast Surgeons’ Guidelines on Genetic Testing and Contralateral Prophylactic Mastectomy Rates",
+        "crossref_year": 2025,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Weiss_2025, title={Impact of the American Society of Breast Surgeons’ Guidelines on Genetic Testing and Contralateral Prophylactic Mastectomy Rates}, volume={32}, ISSN={1534-4681}, url={http://dx.doi.org/10.1245/s10434-025-17185-0}, DOI={10.1245/s10434-025-17185-0}, number={6}, journal={Annals of Surgical Oncology}, publisher={Springer Science and Business Media LLC}, author={Weiss, Anna and Rosito, Maria Sol and Braun, Danielle and Barton, Brenna and McGrath, Monica and Stokes, Sam and Laws, Alison and Warren, Laura and Morganti, Stefania and Lynce, Filipa and Bychkovsky, Brittany and Rana, Huma Q. and Davis, Dillon and Stopfer, Jill and Garber, Judy E. and King, Tari A.}, year={2025}, month=Mar, pages={3965–3974} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:WqliGbK-hY8C",
+      "title": "Improving FAIR Compliance for High-Dimensional Data via Automated Metadata Extraction",
+      "year": 2025,
+      "status": "found",
+      "doi": "10.1109/escience65000.2025.00090",
+      "match": {
+        "doi": "10.1109/escience65000.2025.00090",
+        "crossref_title": "Improving FAIR Compliance for High-Dimensional Data via Automated Metadata Extraction",
+        "crossref_year": 2025,
+        "crossref_type": "proceedings-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@inproceedings{Tri_ovi__2025, title={Improving FAIR Compliance for High-Dimensional Data via Automated Metadata Extraction}, url={http://dx.doi.org/10.1109/escience65000.2025.00090}, DOI={10.1109/escience65000.2025.00090}, booktitle={2025 IEEE International Conference on eScience (eScience)}, publisher={IEEE}, author={Trišović, Ana and Range, Jan and Durbin, Philip and Leahey, Amber and Li, Wei and Braun, Danielle}, year={2025}, month=Sept, pages={445–451} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:SdhP9T11ey4C",
+      "title": "Quantifying effects of solar power adoption on CO2 emissions reduction",
+      "year": 2025,
+      "status": "found",
+      "doi": "10.1126/sciadv.adq5660",
+      "match": {
+        "doi": "10.1126/sciadv.adq5660",
+        "crossref_title": "Quantifying effects of solar power adoption on CO\n            <sub>2</sub>\n            emissions reduction",
+        "crossref_year": 2025,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Biswas_2025, title={Quantifying effects of solar power adoption on CO\n            <sub>2</sub>\n            emissions reduction}, volume={11}, ISSN={2375-2548}, url={http://dx.doi.org/10.1126/sciadv.adq5660}, DOI={10.1126/sciadv.adq5660}, number={31}, journal={Science Advances}, publisher={American Association for the Advancement of Science (AAAS)}, author={Biswas, Arpita and Qiu, Minghao and Braun, Danielle and Dominici, Francesca and Mork, Daniel}, year={2025}, month=Aug }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:kzcrU_BdoSEC",
+      "title": "Robust Statistical Approaches to Understanding the Causal Effect of Air Pollution Mixtures",
+      "year": 2025,
+      "status": "no_confident_match",
+      "doi": null,
+      "match": {
+        "doi": "10.1080/00022470.1976.10470217",
+        "crossref_title": "Robust Statistical Methods and Photochemical Air Pollution Data",
+        "crossref_year": 1976,
+        "crossref_type": "journal-article",
+        "score": 0.593,
+        "braun_in_authors": false
+      },
+      "bib": null
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:PELIpwtuRlgC",
+      "title": "The effect of air pollution exposure on menstrual cycle health using self-reported data from a mobile health app: a prospective, observational study",
+      "year": 2025,
+      "status": "found",
+      "doi": "10.1016/s2542-5196(25)00080-4",
+      "match": {
+        "doi": "10.1016/s2542-5196(25)00080-4",
+        "crossref_title": "The effect of air pollution exposure on menstrual cycle health using self-reported data from a mobile health app: a prospective, observational study",
+        "crossref_year": 2025,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{deSouza_2025, title={The effect of air pollution exposure on menstrual cycle health using self-reported data from a mobile health app: a prospective, observational study}, volume={9}, ISSN={2542-5196}, url={http://dx.doi.org/10.1016/s2542-5196(25)00080-4}, DOI={10.1016/s2542-5196(25)00080-4}, number={5}, journal={The Lancet Planetary Health}, publisher={Elsevier BV}, author={deSouza, Priyanka N and Shea, Amanda A and Vitzthum, Virginia J and Duarte, Fabio and Hanly, Claire Gorman and Timmons, Meghan and Huguelet, Patricia and Sammel, Mary D and Ratti, Carlo and Braun, Danielle and Nethery, Rachel C}, year={2025}, month=May, pages={e364â€“e373} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:Mojj43d5GZwC",
+      "title": "The impacts of air pollution on mortality and hospital readmission among Medicare beneficiaries with Alzheimer's disease and Alzheimer's disease-related dementias: a national …",
+      "year": 2025,
+      "status": "found",
+      "doi": "10.2139/ssrn.4325230",
+      "match": {
+        "doi": "10.2139/ssrn.4325230",
+        "crossref_title": "The Impacts of Air Pollution on Mortality and Readmission Among Medicare Beneficiaries with Alzheimer's Disease and Alzheimer's Disease Related Dementias (AD/ADRD)",
+        "crossref_year": 2023,
+        "crossref_type": "posted-content",
+        "score": 0.934,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Dong_2023, title={The Impacts of Air Pollution on Mortality and Readmission Among Medicare Beneficiaries with Alzheimer’s Disease and Alzheimer’s Disease Related Dementias (AD/ADRD)}, url={http://dx.doi.org/10.2139/ssrn.4325230}, DOI={10.2139/ssrn.4325230}, publisher={Elsevier BV}, author={Dong, Shuxin and Braun, Danielle and Wu, Xiao and Yitshak-Sade, Maayan and Blacker, Deborah and Kioumourtzoglou, Marianthi-Anna and Schwartz, Joel and Mork, Daniel and Dominici, Francesca Dominici and Zanobetti, Antonella}, year={2023} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:9vf0nzSNQJEC",
+      "title": "The penetrance R package for estimation of age specific risk in family-based studies",
+      "year": 2025,
+      "status": "found",
+      "doi": "10.1093/bioadv/vbaf154",
+      "match": {
+        "doi": "10.1093/bioadv/vbaf154",
+        "crossref_title": "The <i>penetrance</i> R package for estimation of age specific risk in family-based studies",
+        "crossref_year": 2024,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Kubista_2024, title={The <i>penetrance</i> R package for estimation of age specific risk in family-based studies}, volume={5}, ISSN={2635-0041}, url={http://dx.doi.org/10.1093/bioadv/vbaf154}, DOI={10.1093/bioadv/vbaf154}, number={1}, journal={Bioinformatics Advances}, publisher={Oxford University Press (OUP)}, author={Kubista, Nicolas and Braun, Danielle and Parmigiani, Giovanni}, editor={DeGiorgio, Michael}, year={2024}, month=Dec }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:eflP2zaiRacC",
+      "title": "Treatment effect heterogeneity and importance measures for multivariate continuous treatments",
+      "year": 2025,
+      "status": "found",
+      "doi": "10.1214/25-aoas2060",
+      "match": {
+        "doi": "10.1214/25-aoas2060",
+        "crossref_title": "Treatment effect heterogeneity and importance measures for multivariate continuous treatments",
+        "crossref_year": 2025,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Shin_2025, title={Treatment effect heterogeneity and importance measures for multivariate continuous treatments}, volume={19}, ISSN={1941-7330}, url={http://dx.doi.org/10.1214/25-aoas2060}, DOI={10.1214/25-aoas2060}, number={3}, journal={The Annals of Applied Statistics}, publisher={Institute of Mathematical Statistics}, author={Shin, Heejun and Linero, Antonio and Audirac, Michelle and Irene, Kezia and Braun, Danielle and Antonelli, Joseph}, year={2025}, month=Sept, pages={1847â€“1867} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:hkOj_22Ku90C",
+      "title": "Two and a half decades of United States wildfire burn zone disaster data, 2000-2025",
+      "year": 2025,
+      "status": "found",
+      "doi": "10.1038/s41597-025-06226-8",
+      "match": {
+        "doi": "10.1038/s41597-025-06226-8",
+        "crossref_title": "Two and a half decades of United States wildfire burn zone disaster data, 2000-2025",
+        "crossref_year": 2025,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Wilner_2025, title={Two and a half decades of United States wildfire burn zone disaster data, 2000-2025}, volume={12}, ISSN={2052-4463}, url={http://dx.doi.org/10.1038/s41597-025-06226-8}, DOI={10.1038/s41597-025-06226-8}, number={1}, journal={Scientific Data}, publisher={Springer Science and Business Media LLC}, author={Wilner, Lauren B. and Piepmeier, Logan and Gordon, Milo and Steiger, Benjamin B. and Northrop, Alexander J. and McBrien, Heather and Shea, Brittany and Meltzer, Gabriella Y. and Bedi, Neil Singh and Blake, Elizabeth M. and Benmarhnia, Tarik and Braun, Danielle and Casey, Joan A.}, year={2025}, month=Dec }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:PR6Y55bgFSsC",
+      "title": "Variant‐Specific Mendelian Risk Prediction Model",
+      "year": 2025,
+      "status": "found",
+      "doi": "10.1002/sim.70342",
+      "match": {
+        "doi": "10.1002/sim.70342",
+        "crossref_title": "Variant‐Specific Mendelian Risk Prediction Model",
+        "crossref_year": 2025,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Dias_2025, title={Variant‐Specific Mendelian Risk Prediction Model}, volume={44}, ISSN={1097-0258}, url={http://dx.doi.org/10.1002/sim.70342}, DOI={10.1002/sim.70342}, number={28-30}, journal={Statistics in Medicine}, publisher={Wiley}, author={Dias, Julie‐Alexia and Bae, Eunchan and Huang, Theodore and Chen, Jinbo and Gruber, Stephen B. and Idos, Gregory and Parmigiani, Giovanni and Rebbeck, Timothy R. and Braun, Danielle}, year={2025}, month=Dec }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:NaGl4SEjCO4C",
+      "title": "Assessing the causal effects of a stochastic intervention in time series data: are heat alerts effective in preventing deaths and hospitalizations?",
+      "year": 2024,
+      "status": "found",
+      "doi": "10.1093/biostatistics/kxad002",
+      "match": {
+        "doi": "10.1093/biostatistics/kxad002",
+        "crossref_title": "Assessing the causal effects of a stochastic intervention in time series data: are heat alerts effective in preventing deaths and hospitalizations?",
+        "crossref_year": 2023,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Wu_2023, title={Assessing the causal effects of a stochastic intervention in time series data: are heat alerts effective in preventing deaths and hospitalizations?}, volume={25}, ISSN={1468-4357}, url={http://dx.doi.org/10.1093/biostatistics/kxad002}, DOI={10.1093/biostatistics/kxad002}, number={1}, journal={Biostatistics}, publisher={Oxford University Press (OUP)}, author={Wu, Xiao and Weinberger, Kate R and Wellenius, Gregory A and Dominici, Francesca and Braun, Danielle}, year={2023}, month=Feb, pages={57â€“79} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:1qzjygNMrQYC",
+      "title": "Association between mental health disorders and extreme heat among Medicaid adolescents",
+      "year": 2024,
+      "status": "found",
+      "doi": "10.1289/isee.2024.1799",
+      "match": {
+        "doi": "10.1289/isee.2024.1799",
+        "crossref_title": "Association between mental health disorders and extreme heat among Medicaid adolescents",
+        "crossref_year": 2024,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Zanobetti_2024, title={Association between mental health disorders and extreme heat among Medicaid adolescents}, volume={2024}, ISSN={1078-0475}, url={http://dx.doi.org/10.1289/isee.2024.1799}, DOI={10.1289/isee.2024.1799}, number={1}, journal={ISEE Conference Abstracts}, publisher={Environmental Health Perspectives}, author={Zanobetti, Antonella and Dong, Shuxin and Ryan, Patrick H and Coull, Brent A and Gold, Diane R and Braun, Danielle and Delaney, Scott}, year={2024}, month=Aug }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:q3oQSFYPqjQC",
+      "title": "Associations of street-view greenspace with Parkinson’s disease hospitalizations in an open cohort of elderly US Medicare beneficiaries",
+      "year": 2024,
+      "status": "found",
+      "doi": "10.1016/j.envint.2024.108739",
+      "match": {
+        "doi": "10.1016/j.envint.2024.108739",
+        "crossref_title": "Associations of street-view greenspace with Parkinson’s disease hospitalizations in an open cohort of elderly US Medicare beneficiaries",
+        "crossref_year": 2024,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Klompmaker_2024, title={Associations of street-view greenspace with Parkinsonâ€™s disease hospitalizations in an open cohort of elderly US Medicare beneficiaries}, volume={188}, ISSN={0160-4120}, url={http://dx.doi.org/10.1016/j.envint.2024.108739}, DOI={10.1016/j.envint.2024.108739}, journal={Environment International}, publisher={Elsevier BV}, author={Klompmaker, Jochem O and Mork, Daniel and Zanobetti, Antonella and Braun, Danielle and Hankey, Steve and Hart, Jaime E and Hystad, Perry and Jimenez, Marcia Pescador and Laden, Francine and Larkin, Andrew and Lin, Pi-I Debby and Suel, Esra and Yi, Li and Zhang, Wenwen and Delaney, Scott W. and James, Peter}, year={2024}, month=June, pages={108739} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:p2g8aNsByqUC",
+      "title": "Bayesian meta-analysis of penetrance for cancer risk",
+      "year": 2024,
+      "status": "found",
+      "doi": "10.1093/biomtc/ujae038",
+      "match": {
+        "doi": "10.1093/biomtc/ujae038",
+        "crossref_title": "Bayesian meta-analysis of penetrance for cancer risk",
+        "crossref_year": 2024,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Ruberu_2024, title={Bayesian meta-analysis of penetrance for cancer risk}, volume={80}, ISSN={1541-0420}, url={http://dx.doi.org/10.1093/biomtc/ujae038}, DOI={10.1093/biomtc/ujae038}, number={2}, journal={Biometrics}, publisher={Oxford University Press (OUP)}, author={Ruberu, Thanthirige Lakshika M and Braun, Danielle and Parmigiani, Giovanni and Biswas, Swati}, year={2024}, month=Mar }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:5ugPr518TE4C",
+      "title": "Critically examining research funding patterns for climate change and human health",
+      "year": 2024,
+      "status": "found",
+      "doi": "10.1038/s44168-024-00142-0",
+      "match": {
+        "doi": "10.1038/s44168-024-00142-0",
+        "crossref_title": "Critically examining research funding patterns for climate change and human health",
+        "crossref_year": 2024,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Sovacool_2024, title={Critically examining research funding patterns for climate change and human health}, volume={3}, ISSN={2731-9814}, url={http://dx.doi.org/10.1038/s44168-024-00142-0}, DOI={10.1038/s44168-024-00142-0}, number={1}, journal={npj Climate Action}, publisher={Springer Science and Business Media LLC}, author={Sovacool, Benjamin K. and Clifford, Heather and Pearl-Martinez, Rebecca and Gause, Emma and Braun, Danielle and Kamareddine, Leila and Nori-Sarma, Amruta and Wellenius, Gregory A.}, year={2024}, month=July }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:eJXPG6dFmWUC",
+      "title": "GPCERF-An R package for implementing Gaussian processes for estimating causal exposure response curves",
+      "year": 2024,
+      "status": "found",
+      "doi": "10.21105/joss.05465",
+      "match": {
+        "doi": "10.21105/joss.05465",
+        "crossref_title": "GPCERF - An R package for implementing Gaussian\nprocesses for estimating causal exposure response curves",
+        "crossref_year": 2024,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Khoshnevis_2024, title={GPCERF - An R package for implementing Gaussian\nprocesses for estimating causal exposure response curves}, volume={9}, ISSN={2475-9066}, url={http://dx.doi.org/10.21105/joss.05465}, DOI={10.21105/joss.05465}, number={95}, journal={Journal of Open Source Software}, publisher={The Open Journal}, author={Khoshnevis, Naeem and Ren, Boyu and Braun, Danielle}, year={2024}, month=Mar, pages={5465} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:Tiz5es2fbqcC",
+      "title": "Measuring long-term exposure to wildfire PM2.5 in California: Time-varying inequities in environmental burden",
+      "year": 2024,
+      "status": "found",
+      "doi": "10.1073/pnas.2306729121",
+      "match": {
+        "doi": "10.1073/pnas.2306729121",
+        "crossref_title": "Measuring long-term exposure to wildfire PM\n                    <sub>2.5</sub>\n                    in California: Time-varying inequities in environmental burden",
+        "crossref_year": 2024,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Casey_2024, title={Measuring long-term exposure to wildfire PM\n                    <sub>2.5</sub>\n                    in California: Time-varying inequities in environmental burden}, volume={121}, ISSN={1091-6490}, url={http://dx.doi.org/10.1073/pnas.2306729121}, DOI={10.1073/pnas.2306729121}, number={8}, journal={Proceedings of the National Academy of Sciences}, publisher={National Academy of Sciences}, author={Casey, Joan A. and Kioumourtzoglou, Marianthi-Anna and Padula, Amy and GonzÃ¡lez, David J. X. and Elser, Holly and Aguilera, Rosana and Northrop, Alexander J. and Tartof, Sara Y. and Mayeda, Elizabeth Rose and Braun, Danielle and Dominici, Francesca and Eisen, Ellen A. and Morello-Frosch, Rachel and Benmarhnia, Tarik}, year={2024}, month=Feb }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:738O_yMBCRsC",
+      "title": "Meta‐analysis of breast cancer risk for individuals with palb2 pathogenic variants",
+      "year": 2024,
+      "status": "found",
+      "doi": "10.1002/gepi.22561",
+      "match": {
+        "doi": "10.1002/gepi.22561",
+        "crossref_title": "Meta‐analysis of breast cancer risk for individuals with PALB2 pathogenic variants",
+        "crossref_year": 2024,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Ruberu_2024, title={Meta‐analysis of breast cancer risk for individuals with PALB2 pathogenic variants}, volume={48}, ISSN={1098-2272}, url={http://dx.doi.org/10.1002/gepi.22561}, DOI={10.1002/gepi.22561}, number={8}, journal={Genetic Epidemiology}, publisher={Wiley}, author={Ruberu, Thanthirige L. M. and Braun, Danielle and Parmigiani, Giovanni and Biswas, Swati}, year={2024}, month=Apr, pages={448–454} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:ye4kPcJQO24C",
+      "title": "Multifactorial Zip Code-Year Dataset: Socio-Economic, Demographic, and Environmental Variables in the Contiguous United States (2000-2016)",
+      "year": 2024,
+      "status": "no_confident_match",
+      "doi": null,
+      "match": {
+        "doi": "10.15396/eres2018_131",
+        "crossref_title": "Multifamily Rental Housing, Socio-Economic and Demographic Factors, and Foreign Capital Flows – A ZIP Code Level Analysis",
+        "crossref_year": 2018,
+        "crossref_type": "proceedings-article",
+        "score": 0.47,
+        "braun_in_authors": false
+      },
+      "bib": null
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:mvPsJ3kp5DgC",
+      "title": "Rejoinder to the discussion on “Bayesian meta-analysis of penetrance for cancer risk”",
+      "year": 2024,
+      "status": "found",
+      "doi": "10.1093/biomtc/ujae040",
+      "match": {
+        "doi": "10.1093/biomtc/ujae040",
+        "crossref_title": "Rejoinder to the discussion on “Bayesian meta-analysis of penetrance for cancer risk”",
+        "crossref_year": 2024,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Ruberu_2024, title={Rejoinder to the discussion on “Bayesian meta-analysis of penetrance for cancer risk”}, volume={80}, ISSN={1541-0420}, url={http://dx.doi.org/10.1093/biomtc/ujae040}, DOI={10.1093/biomtc/ujae040}, number={2}, journal={Biometrics}, publisher={Oxford University Press (OUP)}, author={Ruberu, Thanthirige Lakshika M and Braun, Danielle and Parmigiani, Giovanni and Biswas, Swati}, year={2024}, month=Mar }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:V3AGJWp-ZtQC",
+      "title": "Street-view green space impacts on Alzheimer’s disease hospitalization risk in the US Medicare population",
+      "year": 2024,
+      "status": "found",
+      "doi": "10.1289/isee.2024.1844",
+      "match": {
+        "doi": "10.1289/isee.2024.1844",
+        "crossref_title": "Street-view green space impacts on Alzheimer’s disease hospitalization risk in the US Medicare population",
+        "crossref_year": 2024,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Delaney_2024, title={Street-view green space impacts on Alzheimerâ€™s disease hospitalization risk in the US Medicare population}, volume={2024}, ISSN={1078-0475}, url={http://dx.doi.org/10.1289/isee.2024.1844}, DOI={10.1289/isee.2024.1844}, number={1}, journal={ISEE Conference Abstracts}, publisher={Environmental Health Perspectives}, author={Delaney, Scott and Klompmaker, Jochem and Mork, Daniel and Braun, Danielle and Zanobetti, Antonella and James, Peter}, year={2024}, month=Aug }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:bnK-pcrLprsC",
+      "title": "The effect of air pollution on hospitalizations with Parkinson’s disease among medicare beneficiaries nationwide",
+      "year": 2024,
+      "status": "found",
+      "doi": "10.1038/s41531-024-00815-x",
+      "match": {
+        "doi": "10.1038/s41531-024-00815-x",
+        "crossref_title": "The effect of air pollution on hospitalizations with Parkinson’s disease among medicare beneficiaries nationwide",
+        "crossref_year": 2024,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Wang_2024, title={The effect of air pollution on hospitalizations with Parkinson’s disease among medicare beneficiaries nationwide}, volume={10}, ISSN={2373-8057}, url={http://dx.doi.org/10.1038/s41531-024-00815-x}, DOI={10.1038/s41531-024-00815-x}, number={1}, journal={npj Parkinson’s Disease}, publisher={Springer Science and Business Media LLC}, author={Wang, Veronica A. and Delaney, Scott and Flynn, Lauren E. and Racette, Brad A. and Miller, Gary W. and Braun, Danielle and Zanobetti, Antonella and Mork, Daniel}, year={2024}, month=Oct }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:P5F9QuxV20EC",
+      "title": "A Literature Review of the Effects of Air Pollution on COVID-19 Health Outcomes Worldwide: Statistical Challenges and Data Visualization",
+      "year": 2023,
+      "status": "found",
+      "doi": "10.1146/annurev-publhealth-071521-120424",
+      "match": {
+        "doi": "10.1146/annurev-publhealth-071521-120424",
+        "crossref_title": "A Literature Review of the Effects of Air Pollution on COVID-19 Health Outcomes Worldwide: Statistical Challenges and Data Visualization",
+        "crossref_year": 2023,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Bhaskar_2023, title={A Literature Review of the Effects of Air Pollution on COVID-19 Health Outcomes Worldwide: Statistical Challenges and Data Visualization}, volume={44}, ISSN={1545-2093}, url={http://dx.doi.org/10.1146/annurev-publhealth-071521-120424}, DOI={10.1146/annurev-publhealth-071521-120424}, number={1}, journal={Annual Review of Public Health}, publisher={Annual Reviews}, author={Bhaskar, A. and Chandra, J. and Hashemi, H. and Butler, K. and Bennett, L. and Cellini, Jacqueline and Braun, Danielle and Dominici, Francesca}, year={2023}, month=Apr, pages={1â€“20} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:WbkHhVStYXYC",
+      "title": "A spatial interference approach to account for mobility in air pollution studies with multivariate continuous treatments",
+      "year": 2023,
+      "status": "found",
+      "doi": "10.1080/01621459.2026.2743983",
+      "match": {
+        "doi": "10.1080/01621459.2026.2743983",
+        "crossref_title": "A Spatial Interference Approach to Account for Mobility in Air Pollution Studies with Multivariate Continuous Treatments",
+        "crossref_year": 2026,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Shin_2026, title={A Spatial Interference Approach to Account for Mobility in Air Pollution Studies with Multivariate Continuous Treatments}, ISSN={1537-274X}, url={http://dx.doi.org/10.1080/01621459.2026.2743983}, DOI={10.1080/01621459.2026.2743983}, journal={Journal of the American Statistical Association}, publisher={Informa UK Limited}, author={Shin, Heejun and Braun, Danielle and Irene, Kezia and Audirac, Michelle and Antonelli, Joseph}, year={2026}, month=Oct, pages={1â€“44} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:8AbLer7MMksC",
+      "title": "Absolute risk of PM2. 5-attributable mortality differs by racial identity, income, and age",
+      "year": 2023,
+      "status": "found",
+      "doi": "10.1289/isee.2023.op-179",
+      "match": {
+        "doi": "10.1289/isee.2023.op-179",
+        "crossref_title": "Absolute risk of PM2.5-attributable mortality differs by racial identity, income, and age",
+        "crossref_year": 2023,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Delaney_2023, title={Absolute risk of PM2.5-attributable mortality differs by racial identity, income, and age}, volume={2023}, ISSN={1078-0475}, url={http://dx.doi.org/10.1289/isee.2023.op-179}, DOI={10.1289/isee.2023.op-179}, number={1}, journal={ISEE Conference Abstracts}, publisher={Environmental Health Perspectives}, author={Delaney, Scott W and Josey, Kevin P and Wu, Xiao and Nethery, Rachel C and Desouza, Priyanka and Dominici, Francesca and Braun, Danielle}, year={2023}, month=Sept }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:uWQEDVKXjbEC",
+      "title": "Air Pollution and Mortality at the Intersection of Race and Social Class",
+      "year": 2023,
+      "status": "found",
+      "doi": "10.1056/nejmsa2300523",
+      "match": {
+        "doi": "10.1056/nejmsa2300523",
+        "crossref_title": "Air Pollution and Mortality at the Intersection of Race and Social Class",
+        "crossref_year": 2023,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Josey_2023, title={Air Pollution and Mortality at the Intersection of Race and Social Class}, volume={388}, ISSN={1533-4406}, url={http://dx.doi.org/10.1056/nejmsa2300523}, DOI={10.1056/nejmsa2300523}, number={15}, journal={New England Journal of Medicine}, publisher={Massachusetts Medical Society}, author={Josey, Kevin P. and Delaney, Scott W. and Wu, Xiao and Nethery, Rachel C. and DeSouza, Priyanka and Braun, Danielle and Dominici, Francesca}, year={2023}, month=Apr, pages={1396â€“1404} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:XiSMed-E-HIC",
+      "title": "Air pollution and acute kidney injury in the US medicare population: a longitudinal cohort study",
+      "year": 2023,
+      "status": "found",
+      "doi": "10.1289/ehp10729",
+      "match": {
+        "doi": "10.1289/ehp10729",
+        "crossref_title": "Air Pollution and Acute Kidney Injury in the U.S. Medicare Population: A Longitudinal Cohort Study",
+        "crossref_year": 2023,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Lee_2023, title={Air Pollution and Acute Kidney Injury in the U.S. Medicare Population: A Longitudinal Cohort Study}, volume={131}, ISSN={1552-9924}, url={http://dx.doi.org/10.1289/ehp10729}, DOI={10.1289/ehp10729}, number={4}, journal={Environmental Health Perspectives}, publisher={American Chemical Society (ACS)}, author={Lee, Whanhee and Wu, Xiao and Heo, Seulkee and Kim, Joyce Mary and Fong, Kelvin C. and Son, Ji-Young and Sabath, Matthew Benjamin and Trisovic, Ana and Braun, Danielle and Park, Jae Yoon and Kim, Yong Chul and Lee, Jung Pyo and Schwartz, Joel and Kim, Ho and Dominici, Francesca and Al-Aly, Ziyad and Bell, Michelle L.}, year={2023}, month=Apr }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:UxriW0iASnsC",
+      "title": "Associations between greenness and kidney disease in Massachusetts: The US Medicare longitudinal cohort study",
+      "year": 2023,
+      "status": "found",
+      "doi": "10.1016/j.envint.2023.107844",
+      "match": {
+        "doi": "10.1016/j.envint.2023.107844",
+        "crossref_title": "Associations between greenness and kidney disease in Massachusetts: The US Medicare longitudinal cohort study",
+        "crossref_year": 2023,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Lee_2023, title={Associations between greenness and kidney disease in Massachusetts: The US Medicare longitudinal cohort study}, volume={173}, ISSN={0160-4120}, url={http://dx.doi.org/10.1016/j.envint.2023.107844}, DOI={10.1016/j.envint.2023.107844}, journal={Environment International}, publisher={Elsevier BV}, author={Lee, Whanhee and Heo, Seulkee and Stewart, Rory and Wu, Xiao and Fong, Kelvin C. and Son, Ji-Young and Sabath, Benjamin and Braun, Danielle and Park, Jae Yoon and Kim, Yong Chul and Lee, Jung Pyo and Schwartz, Joel and Kim, Ho and Dominici, Francesca and Bell, Michelle L.}, year={2023}, month=Mar, pages={107844} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:tS2w5q8j5-wC",
+      "title": "CausalGPS: An R Package for Causal Inference With Continuous Exposures",
+      "year": 2023,
+      "status": "no_confident_match",
+      "doi": null,
+      "match": {
+        "doi": "10.1016/j.softx.2022.101294",
+        "crossref_title": "Causal ML: Python package for causal inference machine learning",
+        "crossref_year": 2023,
+        "crossref_type": "journal-article",
+        "score": 0.667,
+        "braun_in_authors": false
+      },
+      "bib": null
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:u9iWguZQMMsC",
+      "title": "Clinical implications of conflicting variant interpretations in the cancer genetics clinic",
+      "year": 2023,
+      "status": "found",
+      "doi": "10.1016/j.gim.2023.100837",
+      "match": {
+        "doi": "10.1016/j.gim.2023.100837",
+        "crossref_title": "Clinical implications of conflicting variant interpretations in the cancer genetics clinic",
+        "crossref_year": 2023,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Zukin_2023, title={Clinical implications of conflicting variant interpretations in the cancer genetics clinic}, volume={25}, ISSN={1098-3600}, url={http://dx.doi.org/10.1016/j.gim.2023.100837}, DOI={10.1016/j.gim.2023.100837}, number={7}, journal={Genetics in Medicine}, publisher={Elsevier BV}, author={Zukin, Elyssa and Culver, Julie O. and Liu, Yuxi and Yang, Yunqi and Ricker, CharitÃ© N. and Hodan, Rachel and Sturgeon, Duveen and Kingham, Kerry and Chun, Nicolette M. and Rowe-Teeter, Courtney and Singh, Kathryn and Zell, Jason A. and Ladabaum, Uri and McDonnell, Kevin J. and Ford, James M. and Parmigiani, Giovanni and Braun, Danielle and Kurian, Allison W. and Gruber, Stephen B. and Idos, Gregory E.}, year={2023}, month=July, pages={100837} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:abG-DnoFyZgC",
+      "title": "Combining aggregate and individual-level data to estimate individual-level associations between air pollution and COVID-19 mortality in the United States",
+      "year": 2023,
+      "status": "found",
+      "doi": "10.2139/ssrn.4232123",
+      "match": {
+        "doi": "10.2139/ssrn.4232123",
+        "crossref_title": "Combining Aggregate and Individual-Level Data to Estimate Individual-Level Associations between Air Pollution and COVID-19 Mortality in the United States",
+        "crossref_year": 2022,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Woodward_2022, title={Combining Aggregate and Individual-Level Data to Estimate Individual-Level Associations between Air Pollution and COVID-19 Mortality in the United States}, ISSN={1556-5068}, url={http://dx.doi.org/10.2139/ssrn.4232123}, DOI={10.2139/ssrn.4232123}, journal={SSRN Electronic Journal}, publisher={Elsevier BV}, author={Woodward, Sophie M. and Wu, Xiao and Hou, Zhewen and Mork, Daniel and Braun, Danielle and Dominici, Francesca Dominici}, year={2022} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:RHpTSmoSYBkC",
+      "title": "Combining breast cancer risk prediction models",
+      "year": 2023,
+      "status": "found",
+      "doi": "10.3390/cancers15041090",
+      "match": {
+        "doi": "10.3390/cancers15041090",
+        "crossref_title": "Combining Breast Cancer Risk Prediction Models",
+        "crossref_year": 2023,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Guan_2023, title={Combining Breast Cancer Risk Prediction Models}, volume={15}, ISSN={2072-6694}, url={http://dx.doi.org/10.3390/cancers15041090}, DOI={10.3390/cancers15041090}, number={4}, journal={Cancers}, publisher={MDPI AG}, author={Guan, Zoe and Huang, Theodore and McCarthy, Anne Marie and Hughes, Kevin and Semine, Alan and Uno, Hajime and Trippa, Lorenzo and Parmigiani, Giovanni and Braun, Danielle}, year={2023}, month=Feb, pages={1090} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:1sJd4Hv_s6UC",
+      "title": "Correction to: Estimating a Causal Exposure Response Function with a Continuous Error-Prone Exposure: A Study of Fine Particulate Matter and All-Cause Mortality",
+      "year": 2023,
+      "status": "found",
+      "doi": "10.1007/s13253-022-00526-x",
+      "match": {
+        "doi": "10.1007/s13253-022-00526-x",
+        "crossref_title": "Correction to: Estimating a Causal Exposure Response Function with a Continuous Error-Prone Exposure: A Study of Fine Particulate Matter and All-Cause Mortality",
+        "crossref_year": 2023,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Josey_2022, title={Correction to: Estimating a Causal Exposure Response Function with a Continuous Error-Prone Exposure: A Study of Fine Particulate Matter and All-Cause Mortality}, volume={28}, ISSN={1537-2693}, url={http://dx.doi.org/10.1007/s13253-022-00526-x}, DOI={10.1007/s13253-022-00526-x}, number={1}, journal={Journal of Agricultural, Biological and Environmental Statistics}, publisher={Springer Science and Business Media LLC}, author={Josey, Kevin P. and deSouza, Priyanka and Wu, Xiao and Braun, Danielle and Nethery, Rachel}, year={2022}, month=Dec, pages={42â€“42} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:K3LRdlH-MEoC",
+      "title": "Does choice of outdoor heat metric affect heat-related epidemiologic analyses in the US Medicare population?",
+      "year": 2023,
+      "status": "found",
+      "doi": "10.1097/ee9.0000000000000261",
+      "match": {
+        "doi": "10.1097/ee9.0000000000000261",
+        "crossref_title": "Does choice of outdoor heat metric affect heat-related epidemiologic analyses in the US Medicare population?",
+        "crossref_year": 2023,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Spangler_2023, title={Does choice of outdoor heat metric affect heat-related epidemiologic analyses in the US Medicare population?}, volume={7}, ISSN={2474-7882}, url={http://dx.doi.org/10.1097/ee9.0000000000000261}, DOI={10.1097/ee9.0000000000000261}, number={4}, journal={Environmental Epidemiology}, publisher={Ovid Technologies (Wolters Kluwer Health)}, author={Spangler, Keith R. and Adams, Quinn H. and Hu, Jie Kate and Braun, Danielle and Weinberger, Kate R. and Dominici, Francesca and Wellenius, Gregory A.}, year={2023}, month=July, pages={e261} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:b0M2c_1WBrUC",
+      "title": "Evaluation of model-based PM2. 5 estimates for exposure assessment during wildfire smoke episodes in the western US",
+      "year": 2023,
+      "status": "found",
+      "doi": "10.1021/acs.est.2c06288",
+      "match": {
+        "doi": "10.1021/acs.est.2c06288",
+        "crossref_title": "Evaluation of Model-Based PM<sub>2.5</sub> Estimates for Exposure Assessment during Wildfire Smoke Episodes in the Western U.S.",
+        "crossref_year": 2023,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Considine_2023, title={Evaluation of Model-Based PM<sub>2.5</sub> Estimates for Exposure Assessment during Wildfire Smoke Episodes in the Western U.S.}, volume={57}, ISSN={1520-5851}, url={http://dx.doi.org/10.1021/acs.est.2c06288}, DOI={10.1021/acs.est.2c06288}, number={5}, journal={Environmental Science &amp; Technology}, publisher={American Chemical Society (ACS)}, author={Considine, Ellen M. and Hao, Jiayuan and deSouza, Priyanka and Braun, Danielle and Reid, Colleen E. and Nethery, Rachel C.}, year={2023}, month=Jan, pages={2031â€“2041} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:LjlpjdlvIbIC",
+      "title": "Five-year dataset depicting electric power generation and CO2 emissions within the US electricity sector, spanning from July 2018 to June 2023",
+      "year": 2023,
+      "status": "no_confident_match",
+      "doi": null,
+      "match": {
+        "doi": "10.2139/ssrn.4162556",
+        "crossref_title": "The Roles of Nuclear and Storage in Efficiently Eliminating Co2 Emissions from the Electric Generation Sector",
+        "crossref_year": 2022,
+        "crossref_type": "journal-article",
+        "score": 0.411,
+        "braun_in_authors": false
+      },
+      "bib": null
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:D03iK_w7-QYC",
+      "title": "Investigating Use of Low-Cost Sensors to Increase Accuracy and Equity of Real-Time Air Quality Information",
+      "year": 2023,
+      "status": "found",
+      "doi": "10.1021/acs.est.2c06626",
+      "match": {
+        "doi": "10.1021/acs.est.2c06626",
+        "crossref_title": "Investigating Use of Low-Cost Sensors to Increase Accuracy and Equity of Real-Time Air Quality Information",
+        "crossref_year": 2023,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Considine_2023, title={Investigating Use of Low-Cost Sensors to Increase Accuracy and Equity of Real-Time Air Quality Information}, volume={57}, ISSN={1520-5851}, url={http://dx.doi.org/10.1021/acs.est.2c06626}, DOI={10.1021/acs.est.2c06626}, number={3}, journal={Environmental Science &amp; Technology}, publisher={American Chemical Society (ACS)}, author={Considine, Ellen M. and Braun, Danielle and Kamareddine, Leila and Nethery, Rachel C. and deSouza, Priyanka}, year={2023}, month=Jan, pages={1391â€“1402} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:B3FOqHPlNUQC",
+      "title": "Long-Term Exposure to Low-Level  and Mortality: Investigation of Heterogeneity by Harmonizing Analyses in Large Cohort Studies in Canada, United States …",
+      "year": 2023,
+      "status": "found",
+      "doi": "10.1289/ehp12141",
+      "match": {
+        "doi": "10.1289/ehp12141",
+        "crossref_title": "Long-Term Exposure to Low-Level PM2.5 and Mortality: Investigation of Heterogeneity by Harmonizing Analyses in Large Cohort Studies in Canada, United States, and Europe",
+        "crossref_year": 2023,
+        "crossref_type": "journal-article",
+        "score": 0.951,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Chen_2023, title={Long-Term Exposure to Low-Level PM2.5 and Mortality: Investigation of Heterogeneity by Harmonizing Analyses in Large Cohort Studies in Canada, United States, and Europe}, volume={131}, ISSN={1552-9924}, url={http://dx.doi.org/10.1289/ehp12141}, DOI={10.1289/ehp12141}, number={12}, journal={Environmental Health Perspectives}, publisher={American Chemical Society (ACS)}, author={Chen, Jie and Braun, Danielle and Christidis, Tanya and Cork, Michael and Rodopoulou, Sophia and Samoli, Evangelia and Stafoggia, Massimo and Wolf, Kathrin and Wu, Xiao and Yuchi, Weiran and Andersen, Zorana J. and Atkinson, Richard and Bauwelinck, Mariska and de Hoogh, Kees and Janssen, Nicole A.H. and Katsouyanni, Klea and Klompmaker, Jochem O. and Kristoffersen, Doris Tove and Lim, Youn-Hee and Oftedal, Bente and Strak, Maciej and Vienneau, Danielle and Zhang, Jiawei and Burnett, Richard T. and Hoek, Gerard and Dominici, Francesca and Brauer, Michael and Brunekreef, Bert}, year={2023}, month=Dec }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:nb7KW1ujOQ8C",
+      "title": "MyLynch: A Patient-Facing Clinical Decision Support Tool for Genetically-Guided Personalized Medicine in Lynch Syndrome",
+      "year": 2023,
+      "status": "found",
+      "doi": "10.3390/cancers15020391",
+      "match": {
+        "doi": "10.3390/cancers15020391",
+        "crossref_title": "MyLynch: A Patient-Facing Clinical Decision Support Tool for Genetically-Guided Personalized Medicine in Lynch Syndrome",
+        "crossref_year": 2023,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Knapp_2023, title={MyLynch: A Patient-Facing Clinical Decision Support Tool for Genetically-Guided Personalized Medicine in Lynch Syndrome}, volume={15}, ISSN={2072-6694}, url={http://dx.doi.org/10.3390/cancers15020391}, DOI={10.3390/cancers15020391}, number={2}, journal={Cancers}, publisher={MDPI AG}, author={Knapp, Stephen T. and Revette, Anna and Underhill-Blazey, Meghan and Stopfer, Jill E. and Ukaegbu, Chinedu I. and Poulin, Cole and Parenteau, Madison and Syngal, Sapna and Bae, Eunchan and Bickmore, Timothy and Hampel, Heather and Idos, Gregory E. and Parmigiani, Giovanni and Yurgelun, Matthew B. and Braun, Danielle}, year={2023}, month=Jan, pages={391} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:t6usbXjVLHcC",
+      "title": "Partial identification and unmeasured confounding with multiple treatments and multiple outcomes",
+      "year": 2023,
+      "status": "no_confident_match",
+      "doi": null,
+      "match": {
+        "doi": "10.1097/ede.0b013e3181f74493",
+        "crossref_title": "Bias Formulas for Sensitivity Analysis of Unmeasured Confounding for General Outcomes, Treatments, and Confounders",
+        "crossref_year": 2011,
+        "crossref_type": "journal-article",
+        "score": 0.53,
+        "braun_in_authors": false
+      },
+      "bib": null
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:pqnbT2bcN3wC",
+      "title": "SNIP: An adaptation of sorted neighborhood methods for deduplicating pedigree data",
+      "year": 2023,
+      "status": "found",
+      "doi": "10.1214/23-aoas1735",
+      "match": {
+        "doi": "10.1214/23-aoas1735",
+        "crossref_title": "SNIP: An adaptation of sorted neighborhood methods for deduplicating pedigree data",
+        "crossref_year": 2023,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Huang_2023, title={SNIP: An adaptation of sorted neighborhood methods for deduplicating pedigree data}, volume={17}, ISSN={1941-7330}, url={http://dx.doi.org/10.1214/23-aoas1735}, DOI={10.1214/23-aoas1735}, number={3}, journal={The Annals of Applied Statistics}, publisher={Institute of Mathematical Statistics}, author={Huang, Theodore and Ploenzke, Matthew and Braun, Danielle}, year={2023}, month=Sept, pages={2619â€“2638} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:5Ul4iDaHHb8C",
+      "title": "The impact of multiple marginalization on the association between acute exposure to hot summer temperature and reduced childhood cognitive performance",
+      "year": 2023,
+      "status": "found",
+      "doi": "10.1289/isee.2023.op-267",
+      "match": {
+        "doi": "10.1289/isee.2023.op-267",
+        "crossref_title": "The impact of multiple marginalization on the association between acute exposure to hot summer temperature and reduced childhood cognitive performance",
+        "crossref_year": 2023,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Delaney_2023, title={The impact of multiple marginalization on the association between acute exposure to hot summer temperature and reduced childhood cognitive performance}, volume={2023}, ISSN={1078-0475}, url={http://dx.doi.org/10.1289/isee.2023.op-267}, DOI={10.1289/isee.2023.op-267}, number={1}, journal={ISEE Conference Abstracts}, publisher={Environmental Health Perspectives}, author={Delaney, Scott William and Mork, Daniel and Weisskopf, Marc and Tiemeier, Henning and Braun, Danielle and Zanobetti, Antonella}, year={2023}, month=Sept }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:geHnlv5EZngC",
+      "title": "The impacts of fine particulate matter components and trace elements on rates of dementia hospitalization",
+      "year": 2023,
+      "status": "found",
+      "doi": "10.1289/isee.2023.vo-001",
+      "match": {
+        "doi": "10.1289/isee.2023.vo-001",
+        "crossref_title": "The impacts of fine particulate matter components and trace elements on rates of dementia hospitalization",
+        "crossref_year": 2023,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Mork_2023, title={The impacts of fine particulate matter components and trace elements on rates of dementia hospitalization}, volume={2023}, ISSN={1078-0475}, url={http://dx.doi.org/10.1289/isee.2023.vo-001}, DOI={10.1289/isee.2023.vo-001}, number={1}, journal={ISEE Conference Abstracts}, publisher={Environmental Health Perspectives}, author={Mork, Daniel and Delaney, Scott W and Braun, Danielle and Zanobetti, Antonella}, year={2023}, month=Sept }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:CHSYGLWDkRkC",
+      "title": "Time-lagged relationships between a decade of air pollution exposure and first hospitalization with Alzheimer's disease and related dementias",
+      "year": 2023,
+      "status": "found",
+      "doi": "10.1016/j.envint.2022.107694",
+      "match": {
+        "doi": "10.1016/j.envint.2022.107694",
+        "crossref_title": "Time-lagged relationships between a decade of air pollution exposure and first hospitalization with Alzheimer's disease and related dementias",
+        "crossref_year": 2023,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Mork_2023, title={Time-lagged relationships between a decade of air pollution exposure and first hospitalization with Alzheimerâ€™s disease and related dementias}, volume={171}, ISSN={0160-4120}, url={http://dx.doi.org/10.1016/j.envint.2022.107694}, DOI={10.1016/j.envint.2022.107694}, journal={Environment International}, publisher={Elsevier BV}, author={Mork, Daniel and Braun, Danielle and Zanobetti, Antonella}, year={2023}, month=Jan, pages={107694} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:VL0QpB8kHFEC",
+      "title": "Wildfire Smoke PM2. 5 Per Zipcode",
+      "year": 2023,
+      "status": "no_confident_match",
+      "doi": null,
+      "match": {
+        "doi": "10.2139/ssrn.4693081",
+        "crossref_title": "Wildfire Smoke and Crime",
+        "crossref_year": 2024,
+        "crossref_type": "posted-content",
+        "score": 0.625,
+        "braun_in_authors": false
+      },
+      "bib": null
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:cFHS6HbyZ2cC",
+      "title": "A Bayesian multi-outcome analysis of fine particulate matter and cardiorespiratory hospitalizations",
+      "year": 2022,
+      "status": "found",
+      "doi": "10.1097/ede.0000000000001456",
+      "match": {
+        "doi": "10.1097/ede.0000000000001456",
+        "crossref_title": "A Bayesian Multi-Outcome Analysis of Fine Particulate Matter and Cardiorespiratory Hospitalizations",
+        "crossref_year": 2022,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Thomas_2022, title={A Bayesian Multi-Outcome Analysis of Fine Particulate Matter and Cardiorespiratory Hospitalizations}, volume={33}, ISSN={1044-3983}, url={http://dx.doi.org/10.1097/ede.0000000000001456}, DOI={10.1097/ede.0000000000001456}, number={2}, journal={Epidemiology}, publisher={Ovid Technologies (Wolters Kluwer Health)}, author={Thomas, Emma G. and Braun, Danielle and Kioumourtzoglou, Marianthi-Anna and Trippa, Lorenzo and Wasfy, Jason H. and Dominici, Francesca}, year={2022}, month=Feb, pages={176â€“184} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:_xSYboBqXhAC",
+      "title": "A validation of models for prediction of pathogenic variants in mismatch repair genes",
+      "year": 2022,
+      "status": "found",
+      "doi": "10.1016/j.gim.2022.07.004",
+      "match": {
+        "doi": "10.1016/j.gim.2022.07.004",
+        "crossref_title": "A validation of models for prediction of pathogenic variants in mismatch repair genes",
+        "crossref_year": 2022,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Shyr_2022, title={A validation of models for prediction of pathogenic variants in mismatch repair genes}, volume={24}, ISSN={1098-3600}, url={http://dx.doi.org/10.1016/j.gim.2022.07.004}, DOI={10.1016/j.gim.2022.07.004}, number={10}, journal={Genetics in Medicine}, publisher={Elsevier BV}, author={Shyr, Cathy and Blackford, Amanda L. and Huang, Theodore and Ke, Jianfeng and Ouardaoui, Nofal and Trippa, Lorenzo and Syngal, Sapna and Ukaegbu, Chinedu and Uno, Hajime and Nafa, Khedoudja and Stadler, Zsofia K. and Offit, Kenneth and Amos, Christopher I. and Lynch, Patrick M. and Chen, Sining and Giardiello, Francis M. and Buchanan, Daniel D. and Hopper, John L. and Jenkins, Mark A. and Southey, Melissa C. and Win, Aung Ko and Figueiredo, Jane C. and Braun, Danielle and Parmigiani, Giovanni}, year={2022}, month=Oct, pages={2155â€“2166} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:NhqRSupF_l8C",
+      "title": "Assessing adverse health effects of long-term exposure to low levels of ambient air pollution: implementation of causal inference methods",
+      "year": 2022,
+      "status": "no_confident_match",
+      "doi": null,
+      "match": {
+        "doi": "10.1289/isee.2023.vo-020",
+        "crossref_title": "Assessing Adverse Health Effects of Long-Term Exposure to Low Levels of Ambient Air Pollution: What’s Next?",
+        "crossref_year": 2023,
+        "crossref_type": "journal-article",
+        "score": 0.82,
+        "braun_in_authors": false
+      },
+      "bib": null
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:a0OBvERweLwC",
+      "title": "Associations between long term air pollution exposure and first hospital admission for kidney and total urinary system diseases in the US Medicare population: nationwide …",
+      "year": 2022,
+      "status": "found",
+      "doi": "10.1136/bmjmed-2021-000009",
+      "match": {
+        "doi": "10.1136/bmjmed-2021-000009",
+        "crossref_title": "Associations between long term air pollution exposure and first hospital admission for kidney and total urinary system diseases in the US Medicare population: nationwide longitudinal cohort study",
+        "crossref_year": 2022,
+        "crossref_type": "journal-article",
+        "score": 0.927,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Lee_2022, title={Associations between long term air pollution exposure and first hospital admission for kidney and total urinary system diseases in the US Medicare population: nationwide longitudinal cohort study}, volume={1}, ISSN={2754-0413}, url={http://dx.doi.org/10.1136/bmjmed-2021-000009}, DOI={10.1136/bmjmed-2021-000009}, number={1}, journal={BMJ Medicine}, publisher={BMJ}, author={Lee, Whanhee and Wu, Xiao and Heo, Seulkee and Fong, Kelvin C and Son, Ji-Young and Sabath, M Benjamin and Braun, Danielle and Park, Jae Yoon and Kim, Yong Chul and Lee, Jung Pyo and Schwartz, Joel and Kim, Ho and Dominici, Francesca and Bell, Michelle}, year={2022}, month=Apr, pages={e000009} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:rO6llkc54NcC",
+      "title": "Estimating a Causal Exposure Response Function with a Continuous Error-Prone Exposure: A Study of Fine Particulate Matter and All-Cause Mortality",
+      "year": 2022,
+      "status": "found",
+      "doi": "10.1007/s13253-022-00508-z",
+      "match": {
+        "doi": "10.1007/s13253-022-00508-z",
+        "crossref_title": "Estimating a Causal Exposure Response Function with a Continuous Error-Prone Exposure: A Study of Fine Particulate Matter and All-Cause Mortality",
+        "crossref_year": 2023,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Josey_2022, title={Estimating a Causal Exposure Response Function with a Continuous Error-Prone Exposure: A Study of Fine Particulate Matter and All-Cause Mortality}, volume={28}, ISSN={1537-2693}, url={http://dx.doi.org/10.1007/s13253-022-00508-z}, DOI={10.1007/s13253-022-00508-z}, number={1}, journal={Journal of Agricultural, Biological and Environmental Statistics}, publisher={Springer Science and Business Media LLC}, author={Josey, Kevin P. and deSouza, Priyanka and Wu, Xiao and Braun, Danielle and Nethery, Rachel}, year={2022}, month=Sept, pages={20â€“41} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:f2IySw72cVMC",
+      "title": "Evaluation of Lynch syndrome risk models in a multicenter diverse population.",
+      "year": 2022,
+      "status": "found",
+      "doi": "10.1200/jco.2022.40.16_suppl.10597",
+      "match": {
+        "doi": "10.1200/jco.2022.40.16_suppl.10597",
+        "crossref_title": "Evaluation of Lynch syndrome risk models in a multicenter diverse population.",
+        "crossref_year": 2022,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Lu_2022, title={Evaluation of Lynch syndrome risk models in a multicenter diverse population.}, volume={40}, ISSN={1527-7755}, url={http://dx.doi.org/10.1200/jco.2022.40.16_suppl.10597}, DOI={10.1200/jco.2022.40.16_suppl.10597}, number={16_suppl}, journal={Journal of Clinical Oncology}, publisher={American Society of Clinical Oncology (ASCO)}, author={Lu, Jenny and Knapp, Stephen and Seymour, Gubidxa Gutierrez and Wang, Cathy and Huang, Theodore and Liang, Jane and Yang, Kai and Castillo, Danielle and Herzog, Josef and Parmigiani, Giovanni and Gruber, Stephen B. and Braun, Danielle and Idos, Gregory}, year={2022}, month=June, pages={10597â€“10597} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:RYcK_YlVTxYC",
+      "title": "Familial pancreatic cancer: who should be considered for genetic testing?",
+      "year": 2022,
+      "status": "found",
+      "doi": "10.1007/s11845-021-02572-9",
+      "match": {
+        "doi": "10.1007/s11845-021-02572-9",
+        "crossref_title": "Familial pancreatic cancer: who should be considered for genetic testing?",
+        "crossref_year": 2022,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Kartal_2021, title={Familial pancreatic cancer: who should be considered for genetic testing?}, volume={191}, ISSN={1863-4362}, url={http://dx.doi.org/10.1007/s11845-021-02572-9}, DOI={10.1007/s11845-021-02572-9}, number={2}, journal={Irish Journal of Medical Science (1971 -)}, publisher={Springer Science and Business Media LLC}, author={Kartal, Kinyas and Guan, Zoe and Tang, Rong and Griffin, Molly and Wang, Yan and Braun, Danielle and Klein, Alison P. and Hughes, Kevin S.}, year={2021}, month=Mar, pages={641â€“650} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:5nxA0vEk-isC",
+      "title": "Matching on generalized propensity scores with continuous exposures",
+      "year": 2022,
+      "status": "found",
+      "doi": "10.1080/01621459.2022.2144737",
+      "match": {
+        "doi": "10.1080/01621459.2022.2144737",
+        "crossref_title": "Matching on Generalized Propensity Scores with Continuous Exposures",
+        "crossref_year": 2024,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Wu_2022, title={Matching on Generalized Propensity Scores with Continuous Exposures}, volume={119}, ISSN={1537-274X}, url={http://dx.doi.org/10.1080/01621459.2022.2144737}, DOI={10.1080/01621459.2022.2144737}, number={545}, journal={Journal of the American Statistical Association}, publisher={Informa UK Limited}, author={Wu, Xiao and Mealli, Fabrizia and Kioumourtzoglou, Marianthi-Anna and Dominici, Francesca and Braun, Danielle}, year={2022}, month=Dec, pages={757â€“772} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:zA6iFVUQeVQC",
+      "title": "Penetrance of male breast cancer susceptibility genes: a systematic review",
+      "year": 2022,
+      "status": "found",
+      "doi": "10.1007/s10549-021-06413-2",
+      "match": {
+        "doi": "10.1007/s10549-021-06413-2",
+        "crossref_title": "Penetrance of male breast cancer susceptibility genes: a systematic review",
+        "crossref_year": 2022,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Chamseddine_2021, title={Penetrance of male breast cancer susceptibility genes: a systematic review}, volume={191}, ISSN={1573-7217}, url={http://dx.doi.org/10.1007/s10549-021-06413-2}, DOI={10.1007/s10549-021-06413-2}, number={1}, journal={Breast Cancer Research and Treatment}, publisher={Springer Science and Business Media LLC}, author={Chamseddine, Reem S. and Wang, Cathy and Yin, Kanhua and Wang, Jin and Singh, Preeti and Zhou, Jingan and Robson, Mark E. and Braun, Danielle and Hughes, Kevin S.}, year={2021}, month=Oct, pages={31â€“38} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:ldfaerwXgEUC",
+      "title": "Prediction of hereditary cancers using neural networks",
+      "year": 2022,
+      "status": "found",
+      "doi": "10.1214/21-aoas1510",
+      "match": {
+        "doi": "10.1214/21-aoas1510",
+        "crossref_title": "Prediction of hereditary cancers using neural networks",
+        "crossref_year": 2022,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Guan_2022, title={Prediction of hereditary cancers using neural networks}, volume={16}, ISSN={1941-7330}, url={http://dx.doi.org/10.1214/21-aoas1510}, DOI={10.1214/21-aoas1510}, number={1}, journal={The Annals of Applied Statistics}, publisher={Institute of Mathematical Statistics}, author={Guan, Zoe and Parmigiani, Giovanni and Braun, Danielle and Trippa, Lorenzo}, year={2022}, month=Mar, pages={495â€“520} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:pyW8ca7W8N0C",
+      "title": "Statistical methods for Mendelian models with multiple genes and cancers",
+      "year": 2022,
+      "status": "found",
+      "doi": "10.1002/gepi.22460",
+      "match": {
+        "doi": "10.1002/gepi.22460",
+        "crossref_title": "Statistical methods for Mendelian models with multiple genes and cancers",
+        "crossref_year": 2022,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Liang_2022, title={Statistical methods for Mendelian models with multiple genes and cancers}, volume={46}, ISSN={1098-2272}, url={http://dx.doi.org/10.1002/gepi.22460}, DOI={10.1002/gepi.22460}, number={7}, journal={Genetic Epidemiology}, publisher={Wiley}, author={Liang, Jane W. and Idos, Gregory E. and Hong, Christine and Gruber, Stephen B. and Parmigiani, Giovanni and Braun, Danielle}, year={2022}, month=May, pages={395â€“414} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:blknAaTinKkC",
+      "title": "A likelihood‐based approach to assessing frequency of pathogenicity among variants of unknown significance in susceptibility genes",
+      "year": 2021,
+      "status": "found",
+      "doi": "10.1002/sim.8791",
+      "match": {
+        "doi": "10.1002/sim.8791",
+        "crossref_title": "A likelihood‐based approach to assessing frequency of pathogenicity among variants of unknown significance in susceptibility genes",
+        "crossref_year": 2021,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Yang_2020, title={A likelihood‐based approach to assessing frequency of pathogenicity among variants of unknown significance in susceptibility genes}, volume={40}, ISSN={1097-0258}, url={http://dx.doi.org/10.1002/sim.8791}, DOI={10.1002/sim.8791}, number={3}, journal={Statistics in Medicine}, publisher={Wiley}, author={Yang, Yunqi and Hong, Christine and Liang, Jane W. and Gruber, Stephen and Parmigiani, Giovanni and Idos, Gregory and Braun, Danielle}, year={2020}, month=Oct, pages={593–606} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:ns9cj8rnVeAC",
+      "title": "Abstract OT-20-01: Genetic testing for all breast cancer patients (get facts)",
+      "year": 2021,
+      "status": "found",
+      "doi": "10.1158/1538-7445.sabcs20-ot-20-01",
+      "match": {
+        "doi": "10.1158/1538-7445.sabcs20-ot-20-01",
+        "crossref_title": "Abstract OT-20-01: Genetic testing for all breast cancer patients (get facts)",
+        "crossref_year": 2021,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Weiss_2021, title={Abstract OT-20-01: Genetic testing for all breast cancer patients (get facts)}, volume={81}, ISSN={1538-7445}, url={http://dx.doi.org/10.1158/1538-7445.sabcs20-ot-20-01}, DOI={10.1158/1538-7445.sabcs20-ot-20-01}, number={4_Supplement}, journal={Cancer Research}, publisher={American Association for Cancer Research (AACR)}, author={Weiss, Anna and Braun, Danielle and Stopfer, Jill and Desantis, Daniel and Dwan, Meaghan and Davis, Dillon and Jha, Anjali and Dominici, Laura and Rosenberg, Shoshana and King, Tari A. and Mittendorf, Elizabeth A and Golshan, Mehra and Rana, Huma Q and Garber, Judy E}, year={2021}, month=Feb, pages={OT–20–01–OT–20–01} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:35N4QoGY0k4C",
+      "title": "Bayesian Modeling for Exposure Response Curve via Gaussian Processes: Causal Effects of Exposure to Air Pollution on Health Outcomes",
+      "year": 2021,
+      "status": "no_confident_match",
+      "doi": null,
+      "match": {
+        "doi": "10.1201/9781420012637-31",
+        "crossref_title": "Modeling Human Exposure to Air Pollution",
+        "crossref_year": 2006,
+        "crossref_type": "book-chapter",
+        "score": 0.446,
+        "braun_in_authors": false
+      },
+      "bib": null
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:u_35RYKgDlwC",
+      "title": "Counterfactual time series analysis of short-term change in air pollution following the COVID-19 state of emergency in the United States",
+      "year": 2021,
+      "status": "found",
+      "doi": "10.1038/s41598-021-02776-0",
+      "match": {
+        "doi": "10.1038/s41598-021-02776-0",
+        "crossref_title": "Counterfactual time series analysis of short-term change in air pollution following the COVID-19 state of emergency in the United States",
+        "crossref_year": 2021,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Dey_2021, title={Counterfactual time series analysis of short-term change in air pollution following the COVID-19 state of emergency in the United States}, volume={11}, ISSN={2045-2322}, url={http://dx.doi.org/10.1038/s41598-021-02776-0}, DOI={10.1038/s41598-021-02776-0}, number={1}, journal={Scientific Reports}, publisher={Springer Science and Business Media LLC}, author={Dey, Tanujit and Tyagi, Pooja and Sabath, M. Benjamin and Kamareddine, Leila and Henneman, Lucas and Braun, Danielle and Dominici, Francesca}, year={2021}, month=Dec }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:4JMBOYKVnBMC",
+      "title": "Disease spectrum of breast cancer susceptibility genes",
+      "year": 2021,
+      "status": "found",
+      "doi": "10.3389/fonc.2021.663419",
+      "match": {
+        "doi": "10.3389/fonc.2021.663419",
+        "crossref_title": "Disease Spectrum of Breast Cancer Susceptibility Genes",
+        "crossref_year": 2021,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Wang_2021, title={Disease Spectrum of Breast Cancer Susceptibility Genes}, volume={11}, ISSN={2234-943X}, url={http://dx.doi.org/10.3389/fonc.2021.663419}, DOI={10.3389/fonc.2021.663419}, journal={Frontiers in Oncology}, publisher={Frontiers Media SA}, author={Wang, Jin and Singh, Preeti and Yin, Kanhua and Zhou, Jingan and Bao, Yujia and Wu, Menghua and Pathak, Kush and McKinley, Sophia K. and Braun, Danielle and Hughes, Kevin S.}, year={2021}, month=Apr }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:lSLTfruPkqcC",
+      "title": "Disease spectrum of gastric cancer susceptibility genes",
+      "year": 2021,
+      "status": "found",
+      "doi": "10.1007/s12032-021-01495-w",
+      "match": {
+        "doi": "10.1007/s12032-021-01495-w",
+        "crossref_title": "Disease spectrum of gastric cancer susceptibility genes",
+        "crossref_year": 2021,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{McKinley_2021, title={Disease spectrum of gastric cancer susceptibility genes}, volume={38}, ISSN={1559-131X}, url={http://dx.doi.org/10.1007/s12032-021-01495-w}, DOI={10.1007/s12032-021-01495-w}, number={5}, journal={Medical Oncology}, publisher={Springer Science and Business Media LLC}, author={McKinley, Sophia K. and Singh, Preeti and Yin, Kanhua and Wang, Jin and Zhou, Jingan and Bao, Yujia and Wu, Menghua and Pathak, Kush and Mullen, John T. and Braun, Danielle and Hughes, Kevin S.}, year={2021}, month=Mar }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:vV6vV6tmYwMC",
+      "title": "Extending models via gradient boosting: An application to Mendelian models",
+      "year": 2021,
+      "status": "found",
+      "doi": "10.1214/21-aoas1482",
+      "match": {
+        "doi": "10.1214/21-aoas1482",
+        "crossref_title": "Extending models via gradient boosting: An application to Mendelian models",
+        "crossref_year": 2021,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Huang_2021, title={Extending models via gradient boosting: An application to Mendelian models}, volume={15}, ISSN={1941-7330}, url={http://dx.doi.org/10.1214/21-aoas1482}, DOI={10.1214/21-aoas1482}, number={3}, journal={The Annals of Applied Statistics}, publisher={Institute of Mathematical Statistics}, author={Huang, Theodore and Idos, Gregory and Hong, Christine and Gruber, Stephen B. and Parmigiani, Giovanni and Braun, Danielle}, year={2021}, month=Sept, pages={1126â€“1146} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:3s1wT3WcHBgC",
+      "title": "Heat warnings, mortality, and hospital admissions among older adults in the United States",
+      "year": 2021,
+      "status": "found",
+      "doi": "10.1016/j.envint.2021.106834",
+      "match": {
+        "doi": "10.1016/j.envint.2021.106834",
+        "crossref_title": "Heat warnings, mortality, and hospital admissions among older adults in the United States",
+        "crossref_year": 2021,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Weinberger_2021, title={Heat warnings, mortality, and hospital admissions among older adults in the United States}, volume={157}, ISSN={0160-4120}, url={http://dx.doi.org/10.1016/j.envint.2021.106834}, DOI={10.1016/j.envint.2021.106834}, journal={Environment International}, publisher={Elsevier BV}, author={Weinberger, Kate R. and Wu, Xiao and Sun, Shengzhi and Spangler, Keith R. and Nori-Sarma, Amruta and Schwartz, Joel and Requia, Weeberb and Sabath, Benjamin M. and Braun, Danielle and Zanobetti, Antonella and Dominici, Francesca and Wellenius, Gregory A.}, year={2021}, month=Dec, pages={106834} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:g5m5HwL7SMYC",
+      "title": "Multi-syndrome, multi-gene risk modeling for individuals with a family history of cancer with the novel R package PanelPRO",
+      "year": 2021,
+      "status": "found",
+      "doi": "10.7554/elife.68699",
+      "match": {
+        "doi": "10.7554/elife.68699",
+        "crossref_title": "Multi-syndrome, multi-gene risk modeling for individuals with a family history of cancer with the novel R package PanelPRO",
+        "crossref_year": 2021,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Lee_2021, title={Multi-syndrome, multi-gene risk modeling for individuals with a family history of cancer with the novel R package PanelPRO}, volume={10}, ISSN={2050-084X}, url={http://dx.doi.org/10.7554/elife.68699}, DOI={10.7554/elife.68699}, journal={eLife}, publisher={eLife Sciences Publications, Ltd}, author={Lee, Gavin and Liang, Jane W and Zhang, Qing and Huang, Theodore and Choirat, Christine and Parmigiani, Giovanni and Braun, Danielle}, year={2021}, month=Aug }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:bEWYMUwI8FkC",
+      "title": "Nationwide study of short-term exposure to fine particulate matter and cardiovascular hospitalizations among Medicaid enrollees",
+      "year": 2021,
+      "status": "found",
+      "doi": "10.1097/ede.0000000000001265",
+      "match": {
+        "doi": "10.1097/ede.0000000000001265",
+        "crossref_title": "Nationwide Study of Short-term Exposure to Fine Particulate Matter and Cardiovascular Hospitalizations Among Medicaid Enrollees",
+        "crossref_year": 2021,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{deSouza_2020, title={Nationwide Study of Short-term Exposure to Fine Particulate Matter and Cardiovascular Hospitalizations Among Medicaid Enrollees}, volume={32}, ISSN={1044-3983}, url={http://dx.doi.org/10.1097/ede.0000000000001265}, DOI={10.1097/ede.0000000000001265}, number={1}, journal={Epidemiology}, publisher={Ovid Technologies (Wolters Kluwer Health)}, author={deSouza, Priyanka and Braun, Danielle and Parks, Robbie M. and Schwartz, Joel and Dominici, Francesca and Kioumourtzoglou, Marianthi-Anna}, year={2020}, month=Sept, pages={6â€“13} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:J_g5lzvAfSwC",
+      "title": "Non-medullary thyroid cancer susceptibility genes: evidence and disease spectrum",
+      "year": 2021,
+      "status": "found",
+      "doi": "10.1245/s10434-021-09745-x",
+      "match": {
+        "doi": "10.1245/s10434-021-09745-x",
+        "crossref_title": "Non-medullary Thyroid Cancer Susceptibility Genes: Evidence and Disease Spectrum",
+        "crossref_year": 2021,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Zhou_2021, title={Non-medullary Thyroid Cancer Susceptibility Genes: Evidence and Disease Spectrum}, volume={28}, ISSN={1534-4681}, url={http://dx.doi.org/10.1245/s10434-021-09745-x}, DOI={10.1245/s10434-021-09745-x}, number={11}, journal={Annals of Surgical Oncology}, publisher={Springer Science and Business Media LLC}, author={Zhou, Jingan and Singh, Preeti and Yin, Kanhua and Wang, Jin and Bao, Yujia and Wu, Menghua and Pathak, Kush and McKinley, Sophia K. and Braun, Danielle and Lubitz, Carrie C. and Hughes, Kevin S.}, year={2021}, month=Mar, pages={6590â€“6600} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:EUQCXRtRnyEC",
+      "title": "Package ‘CausalGPS’",
+      "year": 2021,
+      "status": "no_confident_match",
+      "doi": null,
+      "match": {
+        "doi": "10.4071/isom-2012-tp65",
+        "crossref_title": "Control of Package Warpage by Package Substrate Design for Low Profile Package-on-Package Structure",
+        "crossref_year": 2012,
+        "crossref_type": "journal-article",
+        "score": 0.317,
+        "braun_in_authors": false
+      },
+      "bib": null
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:M05iB0D1s5AC",
+      "title": "Search Behavior Regarding Cancer Susceptibility Genes Using a Clinical Decision Support Tool for Gene-Specific Penetrance: Content Analysis",
+      "year": 2021,
+      "status": "found",
+      "doi": "10.2196/28527",
+      "match": {
+        "doi": "10.2196/28527",
+        "crossref_title": "Search Behavior Regarding Cancer Susceptibility Genes Using a Clinical Decision Support Tool for Gene-Specific Penetrance: Content Analysis",
+        "crossref_year": 2021,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Yin_2021, title={Search Behavior Regarding Cancer Susceptibility Genes Using a Clinical Decision Support Tool for Gene-Specific Penetrance: Content Analysis}, volume={7}, ISSN={2369-1999}, url={http://dx.doi.org/10.2196/28527}, DOI={10.2196/28527}, number={3}, journal={JMIR Cancer}, publisher={JMIR Publications Inc.}, author={Yin, Kanhua and Zhou, Jingan and Singh, Preeti and Wang, Jin and Braun, Danielle and Hughes, Kevin S}, year={2021}, month=July, pages={e28527} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:TFP_iSt0sucC",
+      "title": "Statistical approaches for meta‐analysis of genetic mutation prevalence",
+      "year": 2021,
+      "status": "found",
+      "doi": "10.1002/gepi.22364",
+      "match": {
+        "doi": "10.1002/gepi.22364",
+        "crossref_title": "Statistical approaches for meta‐analysis of genetic mutation prevalence",
+        "crossref_year": 2021,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Hujoel_2020, title={Statistical approaches for meta‐analysis of genetic mutation prevalence}, volume={45}, ISSN={1098-2272}, url={http://dx.doi.org/10.1002/gepi.22364}, DOI={10.1002/gepi.22364}, number={2}, journal={Genetic Epidemiology}, publisher={Wiley}, author={Hujoel, Margaux L. A. and Parmigiani, Giovanni and Braun, Danielle}, year={2020}, month=Sept, pages={154–170} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:fPk4N6BV_jEC",
+      "title": "Validation of breast cancer risk models by race/ethnicity, family history and molecular subtypes",
+      "year": 2021,
+      "status": "found",
+      "doi": "10.3390/cancers14010045",
+      "match": {
+        "doi": "10.3390/cancers14010045",
+        "crossref_title": "Validation of Breast Cancer Risk Models by Race/Ethnicity, Family History and Molecular Subtypes",
+        "crossref_year": 2021,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{McCarthy_2021, title={Validation of Breast Cancer Risk Models by Race/Ethnicity, Family History and Molecular Subtypes}, volume={14}, ISSN={2072-6694}, url={http://dx.doi.org/10.3390/cancers14010045}, DOI={10.3390/cancers14010045}, number={1}, journal={Cancers}, publisher={MDPI AG}, author={McCarthy, Anne Marie and Liu, Yi and Ehsan, Sarah and Guan, Zoe and Liang, Jane and Huang, Theodore and Hughes, Kevin and Semine, Alan and Kontos, Despina and Conant, Emily and Lehman, Constance and Armstrong, Katrina and Braun, Danielle and Parmigiani, Giovanni and Chen, Jinbo}, year={2021}, month=Dec, pages={45} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:k_IJM867U9cC",
+      "title": "Variation in cancer risk among families with genetic susceptibility",
+      "year": 2021,
+      "status": "found",
+      "doi": "10.1002/gepi.22366",
+      "match": {
+        "doi": "10.1002/gepi.22366",
+        "crossref_title": "Variation in cancer risk among families with genetic susceptibility",
+        "crossref_year": 2021,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Huang_2020, title={Variation in cancer risk among families with genetic susceptibility}, volume={45}, ISSN={1098-2272}, url={http://dx.doi.org/10.1002/gepi.22366}, DOI={10.1002/gepi.22366}, number={2}, journal={Genetic Epidemiology}, publisher={Wiley}, author={Huang, Theodore and Braun, Danielle and Lynch, Henry T. and Parmigiani, Giovanni}, year={2020}, month=Oct, pages={209â€“221} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:dhFuZR0502QC",
+      "title": "A pedigree-based prediction model identifies carriers of deleterious de novo mutations in families with Li-Fraumeni syndrome",
+      "year": 2020,
+      "status": "found",
+      "doi": "10.1101/gr.249599.119",
+      "match": {
+        "doi": "10.1101/gr.249599.119",
+        "crossref_title": "A pedigree-based prediction model identifies carriers of deleterious de novo mutations in families with Li-Fraumeni syndrome",
+        "crossref_year": 2020,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Gao_2020, title={A pedigree-based prediction model identifies carriers of deleterious de novo mutations in families with Li-Fraumeni syndrome}, volume={30}, ISSN={1549-5469}, url={http://dx.doi.org/10.1101/gr.249599.119}, DOI={10.1101/gr.249599.119}, number={8}, journal={Genome Research}, publisher={Cold Spring Harbor Laboratory}, author={Gao, Fan and Pan, Xuedong and Dodd-Eaton, Elissa B. and Recio, Carlos Vera and Montierth, Matthew D. and Bojadzieva, Jasmina and Mai, Phuong L. and Zelley, Kristin and Johnson, Valen E. and Braun, Danielle and Nichols, Kim E. and Garber, Judy E. and Savage, Sharon A. and Strong, Louise C. and Wang, Wenyi}, year={2020}, month=Aug, pages={1170â€“1180} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:hMod-77fHWUC",
+      "title": "Air pollution and COVID-19 mortality in the United States: Strengths and limitations of an ecological regression analysis",
+      "year": 2020,
+      "status": "found",
+      "doi": "10.1126/sciadv.abd4049",
+      "match": {
+        "doi": "10.1126/sciadv.abd4049",
+        "crossref_title": "Air pollution and COVID-19 mortality in the United States: Strengths and limitations of an ecological regression analysis",
+        "crossref_year": 2020,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Wu_2020, title={Air pollution and COVID-19 mortality in the United States: Strengths and limitations of an ecological regression analysis}, volume={6}, ISSN={2375-2548}, url={http://dx.doi.org/10.1126/sciadv.abd4049}, DOI={10.1126/sciadv.abd4049}, number={45}, journal={Science Advances}, publisher={American Association for the Advancement of Science (AAAS)}, author={Wu, X. and Nethery, R. C. and Sabath, M. B. and Braun, D. and Dominici, F.}, year={2020}, month=Nov }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:hFOr9nPyWt4C",
+      "title": "Cancer risk and overall survival in APC I1307K carriers.",
+      "year": 2020,
+      "status": "found",
+      "doi": "10.1200/jco.2020.38.15_suppl.1592",
+      "match": {
+        "doi": "10.1200/jco.2020.38.15_suppl.1592",
+        "crossref_title": "Cancer risk and overall survival in APC I1307K carriers.",
+        "crossref_year": 2020,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Gruber_2020, title={Cancer risk and overall survival in APC I1307K carriers.}, volume={38}, ISSN={1527-7755}, url={http://dx.doi.org/10.1200/jco.2020.38.15_suppl.1592}, DOI={10.1200/jco.2020.38.15_suppl.1592}, number={15_suppl}, journal={Journal of Clinical Oncology}, publisher={American Society of Clinical Oncology (ASCO)}, author={Gruber, Stephen B. and Bonner, Joseph D and Lejbkowicz, Flavio and Schmit, Stephanie and Rennert, Hedy and Greenson, Joel K and Pinchev, Mila and Melas, Marilena and Moreno, Victor and Tomsho, Lynn P and Capella, Gabriel and Braun, Danielle and Smith, Sidney A and McDonnell, Kevin and Idos, Gregory and Rennert, Gad}, year={2020}, month=May, pages={1592â€“1592} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:M3ejUd6NZC8C",
+      "title": "Clinical factors associated with gastric cancer in individuals with Lynch syndrome",
+      "year": 2020,
+      "status": "found",
+      "doi": "10.1016/j.cgh.2019.07.012",
+      "match": {
+        "doi": "10.1016/j.cgh.2019.07.012",
+        "crossref_title": "Clinical Factors Associated With Gastric Cancer in Individuals With Lynch Syndrome",
+        "crossref_year": 2020,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Kim_2020, title={Clinical Factors Associated With Gastric Cancer in Individuals With Lynch Syndrome}, volume={18}, ISSN={1542-3565}, url={http://dx.doi.org/10.1016/j.cgh.2019.07.012}, DOI={10.1016/j.cgh.2019.07.012}, number={4}, journal={Clinical Gastroenterology and Hepatology}, publisher={Elsevier BV}, author={Kim, Jaihwan and Braun, Danielle and Ukaegbu, Chinedu and Dhingra, Tara G. and Kastrinos, Fay and Parmigiani, Giovanni and Syngal, Sapna and Yurgelun, Matthew B.}, year={2020}, month=Apr, pages={830â€“837.e1} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:R3hNpaxXUhUC",
+      "title": "Evaluating the impact of long-term exposure to fine particulate matter on mortality among the elderly",
+      "year": 2020,
+      "status": "found",
+      "doi": "10.1126/sciadv.aba5692",
+      "match": {
+        "doi": "10.1126/sciadv.aba5692",
+        "crossref_title": "Evaluating the impact of long-term exposure to fine particulate matter on mortality among the elderly",
+        "crossref_year": 2020,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Wu_2020, title={Evaluating the impact of long-term exposure to fine particulate matter on mortality among the elderly}, volume={6}, ISSN={2375-2548}, url={http://dx.doi.org/10.1126/sciadv.aba5692}, DOI={10.1126/sciadv.aba5692}, number={29}, journal={Science Advances}, publisher={American Association for the Advancement of Science (AAAS)}, author={Wu, X. and Braun, D. and Schwartz, J. and Kioumourtzoglou, M. A. and Dominici, F.}, year={2020}, month=July }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:hC7cP41nSMkC",
+      "title": "Legacy Genetic Testing Results for Cancer Susceptibility: How Common are Conflicting Classifications in a Large Variant Dataset from Multiple Practices?",
+      "year": 2020,
+      "status": "found",
+      "doi": "10.1245/s10434-020-08492-9",
+      "match": {
+        "doi": "10.1245/s10434-020-08492-9",
+        "crossref_title": "Legacy Genetic Testing Results for Cancer Susceptibility: How Common are Conflicting Classifications in a Large Variant Dataset from Multiple Practices?",
+        "crossref_year": 2020,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Yin_2020, title={Legacy Genetic Testing Results for Cancer Susceptibility: How Common are Conflicting Classifications in a Large Variant Dataset from Multiple Practices?}, volume={27}, ISSN={1534-4681}, url={http://dx.doi.org/10.1245/s10434-020-08492-9}, DOI={10.1245/s10434-020-08492-9}, number={7}, journal={Annals of Surgical Oncology}, publisher={Springer Science and Business Media LLC}, author={Yin, Kanhua and Liu, Yuxi and Lamichhane, Basanta and Sandbach, John F. and Patel, Gayle and Compagnoni, Gia and Kanak, Richard H. and Rosen, Barry and Ondrula, David P. and Smith, Linda and Brown, Eric and Gold, Linsey and Whitworth, Pat and App, Colleen and Euhus, David and Semine, Alan and Dwight Lyons, S. and Lazarte, Melford Allan C. and Parmigiani, Giovanni and Braun, Danielle and Hughes, Kevin S.}, year={2020}, month=Apr, pages={2212â€“2220} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:maZDTaKrznsC",
+      "title": "Long-term effects of PM2· 5 on neurological disorders in the American Medicare population: a longitudinal cohort study",
+      "year": 2020,
+      "status": "found",
+      "doi": "10.1016/s2542-5196(20)30227-8",
+      "match": {
+        "doi": "10.1016/s2542-5196(20)30227-8",
+        "crossref_title": "Long-term effects of PM2·5 on neurological disorders in the American Medicare population: a longitudinal cohort study",
+        "crossref_year": 2020,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Shi_2020, title={Long-term effects of PM2·5 on neurological disorders in the American Medicare population: a longitudinal cohort study}, volume={4}, ISSN={2542-5196}, url={http://dx.doi.org/10.1016/s2542-5196(20)30227-8}, DOI={10.1016/s2542-5196(20)30227-8}, number={12}, journal={The Lancet Planetary Health}, publisher={Elsevier BV}, author={Shi, Liuhua and Wu, Xiao and Danesh Yazdi, Mahdieh and Braun, Danielle and Abu Awad, Yara and Wei, Yaguang and Liu, Pengfei and Di, Qian and Wang, Yun and Schwartz, Joel and Dominici, Francesca and Kioumourtzoglou, Marianthi-Anna and Zanobetti, Antonella}, year={2020}, month=Dec, pages={e557–e565} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:L8Ckcad2t8MC",
+      "title": "Penetrance of Breast and Ovarian Cancer in Women Who Carry a BRCA1/2 Mutation and Do Not Use Risk-Reducing Salpingo-Oophorectomy: An Updated Meta …",
+      "year": 2020,
+      "status": "found",
+      "doi": "10.1093/jncics/pkaa029",
+      "match": {
+        "doi": "10.1093/jncics/pkaa029",
+        "crossref_title": "Penetrance of Breast and Ovarian Cancer in Women Who Carry a BRCA1/2 Mutation and Do Not Use Risk-Reducing Salpingo-Oophorectomy: An Updated Meta-Analysis",
+        "crossref_year": 2020,
+        "crossref_type": "journal-article",
+        "score": 0.968,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Chen_2020, title={Penetrance of Breast and Ovarian Cancer in Women Who Carry a BRCA1/2 Mutation and Do Not Use Risk-Reducing Salpingo-Oophorectomy: An Updated Meta-Analysis}, volume={4}, ISSN={2515-5091}, url={http://dx.doi.org/10.1093/jncics/pkaa029}, DOI={10.1093/jncics/pkaa029}, number={4}, journal={JNCI Cancer Spectrum}, publisher={Oxford University Press (OUP)}, author={Chen, Jinbo and Bae, Eunchan and Zhang, Lingjiao and Hughes, Kevin and Parmigiani, Giovanni and Braun, Danielle and Rebbeck, Timothy R}, year={2020}, month=Apr }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:qUcmZB5y_30C",
+      "title": "Penetrance of colorectal cancer among mismatch repair gene mutation carriers: a meta-analysis",
+      "year": 2020,
+      "status": "found",
+      "doi": "10.1093/jncics/pkaa027",
+      "match": {
+        "doi": "10.1093/jncics/pkaa027",
+        "crossref_title": "Penetrance of Colorectal Cancer Among Mismatch Repair Gene Mutation Carriers: A Meta-Analysis",
+        "crossref_year": 2020,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Wang_2020, title={Penetrance of Colorectal Cancer Among Mismatch Repair Gene Mutation Carriers: A Meta-Analysis}, volume={4}, ISSN={2515-5091}, url={http://dx.doi.org/10.1093/jncics/pkaa027}, DOI={10.1093/jncics/pkaa027}, number={5}, journal={JNCI Cancer Spectrum}, publisher={Oxford University Press (OUP)}, author={Wang, Cathy and Wang, Yan and Hughes, Kevin S and Parmigiani, Giovanni and Braun, Danielle}, year={2020}, month=Apr }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:aqlVkmm33-oC",
+      "title": "Performance of Breast Cancer Risk-Assessment Models in a Large Mammography Cohort",
+      "year": 2020,
+      "status": "found",
+      "doi": "10.1093/jnci/djz177",
+      "match": {
+        "doi": "10.1093/jnci/djz177",
+        "crossref_title": "Performance of Breast Cancer Risk-Assessment Models in a Large Mammography Cohort",
+        "crossref_year": 2020,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{McCarthy_2019, title={Performance of Breast Cancer Risk-Assessment Models in a Large Mammography Cohort}, volume={112}, ISSN={1460-2105}, url={http://dx.doi.org/10.1093/jnci/djz177}, DOI={10.1093/jnci/djz177}, number={5}, journal={JNCI: Journal of the National Cancer Institute}, publisher={Oxford University Press (OUP)}, author={McCarthy, Anne Marie and Guan, Zoe and Welch, Michaela and Griffin, Molly E and Sippo, Dorothy A and Deng, Zhengyi and Coopey, Suzanne B and Acar, Ahmet and Semine, Alan and Parmigiani, Giovanni and Braun, Danielle and Hughes, Kevin S}, year={2019}, month=Sept, pages={489â€“497} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:HDshCWvjkbEC",
+      "title": "Practical implementation of frailty models in Mendelian risk prediction",
+      "year": 2020,
+      "status": "found",
+      "doi": "10.1002/gepi.22323",
+      "match": {
+        "doi": "10.1002/gepi.22323",
+        "crossref_title": "Practical implementation of frailty models in Mendelian risk prediction",
+        "crossref_year": 2020,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Huang_2020, title={Practical implementation of frailty models in Mendelian risk prediction}, volume={44}, ISSN={1098-2272}, url={http://dx.doi.org/10.1002/gepi.22323}, DOI={10.1002/gepi.22323}, number={6}, journal={Genetic Epidemiology}, publisher={Wiley}, author={Huang, Theodore and Gorfine, Malka and Hsu, Li and Parmigiani, Giovanni and Braun, Danielle}, year={2020}, month=June, pages={564â€“578} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:Wp0gIr-vW9MC",
+      "title": "Ask2Me VarHarmonizer: A Python-Based Tool to Harmonize Variants from Cancer Genetic Testing Reports and Map them to the ClinVar Database",
+      "year": 2019,
+      "status": "no_confident_match",
+      "doi": null,
+      "match": {
+        "doi": "10.1201/9781032725239-18",
+        "crossref_title": "A Database",
+        "crossref_year": 2024,
+        "crossref_type": "book-chapter",
+        "score": 0.145,
+        "braun_in_authors": false
+      },
+      "bib": null
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:mVmsd5A6BfQC",
+      "title": "Assessing adverse health effects of long-term exposure to low levels of ambient air pollution: phase 1",
+      "year": 2019,
+      "status": "no_confident_match",
+      "doi": null,
+      "match": {
+        "doi": "10.1289/isee.2023.vo-020",
+        "crossref_title": "Assessing Adverse Health Effects of Long-Term Exposure to Low Levels of Ambient Air Pollution: What’s Next?",
+        "crossref_year": 2023,
+        "crossref_type": "journal-article",
+        "score": 0.96,
+        "braun_in_authors": false
+      },
+      "bib": null
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:WF5omc3nYNoC",
+      "title": "Causal inference in the context of an error prone exposure: air pollution and mortality",
+      "year": 2019,
+      "status": "found",
+      "doi": "10.1214/18-aoas1206",
+      "match": {
+        "doi": "10.1214/18-aoas1206",
+        "crossref_title": "Causal inference in the context of an error prone exposure: Air pollution and mortality",
+        "crossref_year": 2019,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Wu_2019, title={Causal inference in the context of an error prone exposure: Air pollution and mortality}, volume={13}, ISSN={1941-7330}, url={http://dx.doi.org/10.1214/18-aoas1206}, DOI={10.1214/18-aoas1206}, number={1}, journal={The Annals of Applied Statistics}, publisher={Institute of Mathematical Statistics}, author={Wu, Xiao and Braun, Danielle and Kioumourtzoglou, Marianthi-Anna and Choirat, Christine and Di, Qian and Dominici, Francesca}, year={2019}, month=Mar, pages={520â€“547} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:4TOpqqG69KYC",
+      "title": "Data Science in Environmental Health Research",
+      "year": 2019,
+      "status": "no_confident_match",
+      "doi": null,
+      "match": {
+        "doi": "10.4103/ed.ed_21_24",
+        "crossref_title": "Big data science in environmental health research",
+        "crossref_year": 2024,
+        "crossref_type": "journal-article",
+        "score": 0.964,
+        "braun_in_authors": false
+      },
+      "bib": null
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:_kc_bZDykSQC",
+      "title": "Incidental atypical hyperplasia/LCIS in mammoplasty specimens and subsequent risk of breast cancer.",
+      "year": 2019,
+      "status": "found",
+      "doi": "10.1200/jco.2019.37.15_suppl.1561",
+      "match": {
+        "doi": "10.1200/jco.2019.37.15_suppl.1561",
+        "crossref_title": "Incidental atypical hyperplasia/LCIS in mammoplasty specimens and subsequent risk of breast cancer.",
+        "crossref_year": 2019,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Acevedo_2019, title={Incidental atypical hyperplasia/LCIS in mammoplasty specimens and subsequent risk of breast cancer.}, volume={37}, ISSN={1527-7755}, url={http://dx.doi.org/10.1200/jco.2019.37.15_suppl.1561}, DOI={10.1200/jco.2019.37.15_suppl.1561}, number={15_suppl}, journal={Journal of Clinical Oncology}, publisher={American Society of Clinical Oncology (ASCO)}, author={Acevedo, Francisco and Armengol, Victor Diego and Deng, Zhengyi and Tang, Rong and Coopey, Suzanne and Mazzola, Emanuele and Lanahan, Conor and Braun, Danielle and Yala, Adam and Barzilay, Regina and Li, Clara and Santus, Enrico and Colwell, Amy and Guidi, Anthony and Cetrulo, Curt and Garber, Judy Ellen and Smith, Barbara L. and King, Tari A. and Hughes, Kevin S.}, year={2019}, month=May, pages={1561â€“1561} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:YOwf2qJgpHMC",
+      "title": "Low levels of air pollution and health: effect estimates, methodological challenges, and future directions",
+      "year": 2019,
+      "status": "found",
+      "doi": "10.1007/s40572-019-00235-7",
+      "match": {
+        "doi": "10.1007/s40572-019-00235-7",
+        "crossref_title": "Low Levels of Air Pollution and Health: Effect Estimates, Methodological Challenges, and Future Directions",
+        "crossref_year": 2019,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Papadogeorgou_2019, title={Low Levels of Air Pollution and Health: Effect Estimates, Methodological Challenges, and Future Directions}, volume={6}, ISSN={2196-5412}, url={http://dx.doi.org/10.1007/s40572-019-00235-7}, DOI={10.1007/s40572-019-00235-7}, number={3}, journal={Current Environmental Health Reports}, publisher={Springer Science and Business Media LLC}, author={Papadogeorgou, Georgia and Kioumourtzoglou, Marianthi-Anna and Braun, Danielle and Zanobetti, Antonella}, year={2019}, month=May, pages={105â€“115} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:0EnyYjriUFMC",
+      "title": "Pathologic findings in reduction mammoplasty specimens: a surrogate for the population prevalence of breast cancer and high-risk lesions",
+      "year": 2019,
+      "status": "found",
+      "doi": "10.1007/s10549-018-4962-0",
+      "match": {
+        "doi": "10.1007/s10549-018-4962-0",
+        "crossref_title": "Pathologic findings in reduction mammoplasty specimens: a surrogate for the population prevalence of breast cancer and high-risk lesions",
+        "crossref_year": 2019,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Acevedo_2018, title={Pathologic findings in reduction mammoplasty specimens: a surrogate for the population prevalence of breast cancer and high-risk lesions}, volume={173}, ISSN={1573-7217}, url={http://dx.doi.org/10.1007/s10549-018-4962-0}, DOI={10.1007/s10549-018-4962-0}, number={1}, journal={Breast Cancer Research and Treatment}, publisher={Springer Science and Business Media LLC}, author={Acevedo, Francisco and Armengol, V. Diego and Deng, Zhengyi and Tang, Rong and Coopey, Suzanne B. and Braun, Danielle and Yala, Adam and Barzilay, Regina and Li, Clara and Colwell, Amy and Guidi, Anthony and Cetrulo, Curtis L. and Garber, Judy and Smith, Barbara L. and King, Tari and Hughes, Kevin S.}, year={2018}, month=Sept, pages={201â€“207} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:ULOm3_A8WrAC",
+      "title": "Using machine learning and natural language processing to review and classify the medical literature on cancer susceptibility genes",
+      "year": 2019,
+      "status": "found",
+      "doi": "10.1200/cci.19.00042",
+      "match": {
+        "doi": "10.1200/cci.19.00042",
+        "crossref_title": "Using Machine Learning and Natural Language Processing to Review and Classify the Medical Literature on Cancer Susceptibility Genes",
+        "crossref_year": 2019,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Bao_2019, title={Using Machine Learning and Natural Language Processing to Review and Classify the Medical Literature on Cancer Susceptibility Genes}, ISSN={2473-4276}, url={http://dx.doi.org/10.1200/cci.19.00042}, DOI={10.1200/cci.19.00042}, number={3}, journal={JCO Clinical Cancer Informatics}, publisher={American Society of Clinical Oncology (ASCO)}, author={Bao, Yujia and Deng, Zhengyi and Wang, Yan and Kim, Heeyoon and Armengol, Victor Diego and Acevedo, Francisco and Ouardaoui, Nofal and Wang, Cathy and Parmigiani, Giovanni and Barzilay, Regina and Braun, Danielle and Hughes, Kevin S.}, year={2019}, month=Dec, pages={1â€“9} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:qxL8FJ1GzNcC",
+      "title": "Validation of a Semiautomated Natural Language Processing–Based Procedure for Meta-Analysis of Cancer Susceptibility Gene Penetrance",
+      "year": 2019,
+      "status": "found",
+      "doi": "10.1200/cci.19.00043",
+      "match": {
+        "doi": "10.1200/cci.19.00043",
+        "crossref_title": "Validation of a Semiautomated Natural Language Processing–Based Procedure for Meta-Analysis of Cancer Susceptibility Gene Penetrance",
+        "crossref_year": 2019,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Deng_2019, title={Validation of a Semiautomated Natural Language Processing–Based Procedure for Meta-Analysis of Cancer Susceptibility Gene Penetrance}, ISSN={2473-4276}, url={http://dx.doi.org/10.1200/cci.19.00043}, DOI={10.1200/cci.19.00043}, number={3}, journal={JCO Clinical Cancer Informatics}, publisher={American Society of Clinical Oncology (ASCO)}, author={Deng, Zhengyi and Yin, Kanhua and Bao, Yujia and Armengol, Victor Diego and Wang, Cathy and Tiwari, Ankur and Barzilay, Regina and Parmigiani, Giovanni and Braun, Danielle and Hughes, Kevin S.}, year={2019}, month=Dec, pages={1–9} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:roLk4NBRz8UC",
+      "title": "A clinical decision support tool to predict cancer risk for commonly tested cancer-related germline mutations",
+      "year": 2018,
+      "status": "found",
+      "doi": "10.1007/s10897-018-0238-4",
+      "match": {
+        "doi": "10.1007/s10897-018-0238-4",
+        "crossref_title": "A Clinical Decision Support Tool to Predict Cancer Risk for Commonly Tested Cancer‐Related Germline Mutations",
+        "crossref_year": 2018,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Braun_2018, title={A Clinical Decision Support Tool to Predict Cancer Risk for Commonly Tested Cancer‐Related Germline Mutations}, volume={27}, ISSN={1573-3599}, url={http://dx.doi.org/10.1007/s10897-018-0238-4}, DOI={10.1007/s10897-018-0238-4}, number={5}, journal={Journal of Genetic Counseling}, publisher={Wiley}, author={Braun, Danielle and Yang, Jiabei and Griffin, Molly and Parmigiani, Giovanni and Hughes, Kevin S.}, year={2018}, month=Mar, pages={1187–1199} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:eQOLeE2rZwMC",
+      "title": "Abstract SY32-01: Knowledge management and decision support for commonly tested susceptibility mutations",
+      "year": 2018,
+      "status": "found",
+      "doi": "10.1158/1538-7445.am2018-sy32-01",
+      "match": {
+        "doi": "10.1158/1538-7445.am2018-sy32-01",
+        "crossref_title": "Abstract SY32-01: Knowledge management and decision support for commonly tested susceptibility mutations",
+        "crossref_year": 2018,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Parmigiani_2018, title={Abstract SY32-01: Knowledge management and decision support for commonly tested susceptibility mutations}, volume={78}, ISSN={1538-7445}, url={http://dx.doi.org/10.1158/1538-7445.am2018-sy32-01}, DOI={10.1158/1538-7445.am2018-sy32-01}, number={13_Supplement}, journal={Cancer Research}, publisher={American Association for Cancer Research (AACR)}, author={Parmigiani, Giovanni and Braun, Danielle and Hughes, Kevin S.}, year={2018}, month=July, pages={SY32–01–SY32–01} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:ufrVoPGSRksC",
+      "title": "Airpred: A Flexible R Package Implementing Methods for Predicting Air Pollution",
+      "year": 2018,
+      "status": "found",
+      "doi": "10.1109/dsaa.2018.00074",
+      "match": {
+        "doi": "10.1109/dsaa.2018.00074",
+        "crossref_title": "Airpred: A Flexible R Package Implementing Methods for Predicting Air Pollution",
+        "crossref_year": 2018,
+        "crossref_type": "proceedings-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@inproceedings{Sabath_2018, title={Airpred: A Flexible R Package Implementing Methods for Predicting Air Pollution}, url={http://dx.doi.org/10.1109/dsaa.2018.00074}, DOI={10.1109/dsaa.2018.00074}, booktitle={2018 IEEE 5th International Conference on Data Science and Advanced Analytics (DSAA)}, publisher={IEEE}, author={Sabath, M. Benjamin and Di, Qian and Braun, Danielle and Schwartz, Joel and Dominici, Francesca and Choirat, Christine}, year={2018}, month=Oct, pages={577â€“583} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:Y0pCki6q_DkC",
+      "title": "Efficient computation of the joint probability of multiple inherited risk alleles from pedigree data",
+      "year": 2018,
+      "status": "found",
+      "doi": "10.1002/gepi.22130",
+      "match": {
+        "doi": "10.1002/gepi.22130",
+        "crossref_title": "Efficient computation of the joint probability of multiple inherited risk alleles from pedigree data",
+        "crossref_year": 2018,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Madsen_2018, title={Efficient computation of the joint probability of multiple inherited risk alleles from pedigree data}, volume={42}, ISSN={1098-2272}, url={http://dx.doi.org/10.1002/gepi.22130}, DOI={10.1002/gepi.22130}, number={6}, journal={Genetic Epidemiology}, publisher={Wiley}, author={Madsen, Thomas and Braun, Danielle and Peng, Gang and Parmigiani, Giovanni and Trippa, Lorenzo}, year={2018}, month=June, pages={528â€“538} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:W7OEmFMy1HYC",
+      "title": "Nonparametric Adjustment for Measurement Error in Time-to-Event Data: Application to Risk Prediction Models",
+      "year": 2018,
+      "status": "found",
+      "doi": "10.1080/01621459.2017.1311261",
+      "match": {
+        "doi": "10.1080/01621459.2017.1311261",
+        "crossref_title": "Nonparametric Adjustment for Measurement Error in Time-to-Event Data: Application to Risk Prediction Models",
+        "crossref_year": 2018,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Braun_2018, title={Nonparametric Adjustment for Measurement Error in Time-to-Event Data: Application to Risk Prediction Models}, volume={113}, ISSN={1537-274X}, url={http://dx.doi.org/10.1080/01621459.2017.1311261}, DOI={10.1080/01621459.2017.1311261}, number={521}, journal={Journal of the American Statistical Association}, publisher={Informa UK Limited}, author={Braun, Danielle and Gorfine, Malka and Katki, Hormuzd A. and Ziogas, Argyrios and Parmigiani, Giovanni}, year={2018}, month=Jan, pages={14â€“25} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:YsMSGLbcyi4C",
+      "title": "Authors' response to comments.",
+      "year": 2017,
+      "status": "no_confident_match",
+      "doi": null,
+      "match": null,
+      "bib": null
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:Tyk-4Ss8FVUC",
+      "title": "Breast cancer risk models: a comprehensive overview of existing models, validation, and clinical applications",
+      "year": 2017,
+      "status": "found",
+      "doi": "10.1007/s10549-017-4247-z",
+      "match": {
+        "doi": "10.1007/s10549-017-4247-z",
+        "crossref_title": "Breast cancer risk models: a comprehensive overview of existing models, validation, and clinical applications",
+        "crossref_year": 2017,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Cintolo_Gonzalez_2017, title={Breast cancer risk models: a comprehensive overview of existing models, validation, and clinical applications}, volume={164}, ISSN={1573-7217}, url={http://dx.doi.org/10.1007/s10549-017-4247-z}, DOI={10.1007/s10549-017-4247-z}, number={2}, journal={Breast Cancer Research and Treatment}, publisher={Springer Science and Business Media LLC}, author={Cintolo-Gonzalez, Jessica A. and Braun, Danielle and Blackford, Amanda L. and Mazzola, Emanuele and Acar, Ahmet and Plichta, Jennifer K. and Griffin, Molly and Hughes, Kevin S.}, year={2017}, month=Apr, pages={263â€“284} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:UeHWp8X0CEIC",
+      "title": "Propensity scores with misclassified treatment assignment: a likelihood-based adjustment",
+      "year": 2017,
+      "status": "found",
+      "doi": "10.1093/biostatistics/kxx014",
+      "match": {
+        "doi": "10.1093/biostatistics/kxx014",
+        "crossref_title": "Propensity scores with misclassified treatment assignment: a likelihood-based adjustment",
+        "crossref_year": 2017,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Braun_2017, title={Propensity scores with misclassified treatment assignment: a likelihood-based adjustment}, volume={18}, ISSN={1468-4357}, url={http://dx.doi.org/10.1093/biostatistics/kxx014}, DOI={10.1093/biostatistics/kxx014}, number={4}, journal={Biostatistics}, publisher={Oxford University Press (OUP)}, author={Braun, Danielle and Gorfine, Malka and Parmigiani, Giovanni and Arvold, Nils D. and Dominici, Francesca and Zigler, Corwin}, year={2017}, month=Apr, pages={695â€“710} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:bFI3QPDXJZMC",
+      "title": "Risk assessment with newer statistical metrics Authors' response",
+      "year": 2017,
+      "status": "no_confident_match",
+      "doi": null,
+      "match": {
+        "doi": "10.1002/sim.7378",
+        "crossref_title": "Risk assessment with newer statistical metrics",
+        "crossref_year": 2017,
+        "crossref_type": "journal-article",
+        "score": 0.845,
+        "braun_in_authors": false
+      },
+      "bib": null
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:IjCSPb-OGe4C",
+      "title": "Simpson's paradox in the integrated discrimination improvement",
+      "year": 2017,
+      "status": "found",
+      "doi": "10.1002/sim.6862",
+      "match": {
+        "doi": "10.1002/sim.6862",
+        "crossref_title": "Simpson's paradox in the integrated discrimination improvement",
+        "crossref_year": 2017,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Chipman_2016, title={Simpson’s paradox in the integrated discrimination improvement}, volume={36}, ISSN={1097-0258}, url={http://dx.doi.org/10.1002/sim.6862}, DOI={10.1002/sim.6862}, number={28}, journal={Statistics in Medicine}, publisher={Wiley}, author={Chipman, J. and Braun, D.}, year={2016}, month=Jan, pages={4468–4481} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:2osOgNQ5qMEC",
+      "title": "A cautionary note on the effect of treatment misclassification on the average treatment effect",
+      "year": 2016,
+      "status": "no_confident_match",
+      "doi": null,
+      "match": {
+        "doi": "10.17077/etd.7rpcgiyd",
+        "crossref_title": "Identification of population average treatment effects using nonlinear instrumental variables estimators: another cautionary note",
+        "crossref_year": null,
+        "crossref_type": "dissertation",
+        "score": 0.423,
+        "braun_in_authors": false
+      },
+      "bib": null
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:9yKSN-GCB0IC",
+      "title": "Challenges in the use of administrative data for heart failure services research",
+      "year": 2016,
+      "status": "found",
+      "doi": "10.1016/j.cardfail.2015.11.005",
+      "match": {
+        "doi": "10.1016/j.cardfail.2015.11.005",
+        "crossref_title": "Challenges in the Use of Administrative Data for Heart Failure Services Research",
+        "crossref_year": 2016,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Horvitz_Lennon_2016, title={Challenges in the Use of Administrative Data for Heart Failure Services Research}, volume={22}, ISSN={1071-9164}, url={http://dx.doi.org/10.1016/j.cardfail.2015.11.005}, DOI={10.1016/j.cardfail.2015.11.005}, number={1}, journal={Journal of Cardiac Failure}, publisher={Elsevier BV}, author={Horvitz-Lennon, Marcela and Braun, Danielle and Normand, Sharon-Lise}, year={2016}, month=Jan, pages={61â€“63} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:u-x6o8ySG0sC",
+      "title": "Using validation data to adjust the inverse probability weighting estimator for misclassified treatment",
+      "year": 2016,
+      "status": "no_confident_match",
+      "doi": null,
+      "match": {
+        "doi": "10.1002/sim.2174",
+        "crossref_title": "Adjusted Kaplan–Meier estimator and log‐rank test with inverse probability of treatment weighting for survival data",
+        "crossref_year": 2005,
+        "crossref_type": "journal-article",
+        "score": 0.453,
+        "braun_in_authors": false
+      },
+      "bib": null
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:kNdYIx-mwKoC",
+      "title": "Acknowledgement of reviewers 2014",
+      "year": 2015,
+      "status": "found",
+      "doi": "10.1016/s1434-4610(14)00114-x",
+      "match": {
+        "doi": "10.1016/s1434-4610(14)00114-x",
+        "crossref_title": "Acknowledgement of Reviewers",
+        "crossref_year": 2014,
+        "crossref_type": "journal-article",
+        "score": 0.929,
+        "braun_in_authors": false
+      },
+      "bib": "@article{2014, volume={165}, ISSN={1434-4610}, url={http://dx.doi.org/10.1016/s1434-4610(14)00114-x}, DOI={10.1016/s1434-4610(14)00114-x}, number={6}, journal={Protist}, publisher={Elsevier BV}, year={2014}, month=Dec, pages={XIIâ€“XIII} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:hqOjcs7Dif8C",
+      "title": "Extending mendelian risk prediction models to handle misreported family history",
+      "year": 2014,
+      "status": "no_confident_match",
+      "doi": null,
+      "match": {
+        "doi": "10.1016/j.ejso.2023.03.103",
+        "crossref_title": "Breast cancer risk prediction models in a moderate risk family history clinic",
+        "crossref_year": 2023,
+        "crossref_type": "journal-article",
+        "score": 0.603,
+        "braun_in_authors": false
+      },
+      "bib": null
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:Se3iqnhoufwC",
+      "title": "Misreported family histories and underestimation of risk.",
+      "year": 2014,
+      "status": "found",
+      "doi": "10.1200/jco.2014.57.4848",
+      "match": {
+        "doi": "10.1200/jco.2014.57.4848",
+        "crossref_title": "Misreported Family Histories and Underestimation of Risk",
+        "crossref_year": 2014,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Braun_2014, title={Misreported Family Histories and Underestimation of Risk}, volume={32}, ISSN={1527-7755}, url={http://dx.doi.org/10.1200/jco.2014.57.4848}, DOI={10.1200/jco.2014.57.4848}, number={32}, journal={Journal of Clinical Oncology}, publisher={American Society of Clinical Oncology (ASCO)}, author={Braun, Danielle and Gorfine, Malka and Parmigiani, Giovanni}, year={2014}, month=Nov, pages={3682â€“3683} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:d1gkVwhDpl0C",
+      "title": "Statistical Methods to Adjust for Measurement Error in Risk Prediction Models and Observational Studies",
+      "year": 2014,
+      "status": "no_confident_match",
+      "doi": null,
+      "match": {
+        "doi": "10.1093/cdn/nzac063.011",
+        "crossref_title": "A Comparison of Methods to Adjust Risk Models for Measurement Error in Dietary Exposure",
+        "crossref_year": 2022,
+        "crossref_type": "journal-article",
+        "score": 0.524,
+        "braun_in_authors": false
+      },
+      "bib": null
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:KlAtU1dfN6UC",
+      "title": "Differential efficacy of three cycles of CMF followed by tamoxifen in patients with ER-positive and ER-negative tumors: long-term follow up on IBCSG Trial IX",
+      "year": 2011,
+      "status": "found",
+      "doi": "10.1093/annonc/mdq754",
+      "match": {
+        "doi": "10.1093/annonc/mdq754",
+        "crossref_title": "Differential efficacy of three cycles of CMF followed by tamoxifen in patients with ER-positive and ER-negative tumors: Long-term follow up on IBCSG Trial IX",
+        "crossref_year": 2011,
+        "crossref_type": "journal-article",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Aebi_2011, title={Differential efficacy of three cycles of CMF followed by tamoxifen in patients with ER-positive and ER-negative tumors: Long-term follow up on IBCSG Trial IX}, volume={22}, ISSN={0923-7534}, url={http://dx.doi.org/10.1093/annonc/mdq754}, DOI={10.1093/annonc/mdq754}, number={9}, journal={Annals of Oncology}, publisher={Elsevier BV}, author={Aebi, S. and Sun, Z. and Braun, D. and Price, K.N. and Castiglione-Gertsch, M. and Rabaglio, M. and Gelber, R.D. and Crivellari, D. and Lindtner, J. and Snyder, R. and Karlsson, P. and Simoncini, E. and Gusterson, B.A. and Viale, G. and Regan, M.M. and Coates, A.S. and Goldhirsch, A.}, year={2011}, month=Sept, pages={1981â€“1987} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:3fE2CSJIrl8C",
+      "title": "Long-term results of International Breast Cancer Study Group Trial VIII: adjuvant chemotherapy plus goserelin compared with either therapy alone for premenopausal patients with …",
+      "year": 2011,
+      "status": "found",
+      "doi": "10.1093/annonc/mdq735",
+      "match": {
+        "doi": "10.1093/annonc/mdq735",
+        "crossref_title": "Long-term results of International Breast Cancer Study Group Trial VIII: adjuvant chemotherapy plus goserelin compared with either therapy alone for premenopausal patients with node-negative breast cancer",
+        "crossref_year": 2011,
+        "crossref_type": "journal-article",
+        "score": 0.927,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Karlsson_2011, title={Long-term results of International Breast Cancer Study Group Trial VIII: adjuvant chemotherapy plus goserelin compared with either therapy alone for premenopausal patients with node-negative breast cancer}, volume={22}, ISSN={0923-7534}, url={http://dx.doi.org/10.1093/annonc/mdq735}, DOI={10.1093/annonc/mdq735}, number={10}, journal={Annals of Oncology}, publisher={Elsevier BV}, author={Karlsson, P. and Sun, Z. and Braun, D. and Price, K.N. and Castiglione-Gertsch, M. and Rabaglio, M. and Gelber, R.D. and Crivellari, D. and Collins, J. and Murray, E. and Zaman, K. and Colleoni, M. and Gusterson, B.A. and Viale, G. and Regan, M.M. and Coates, A.S. and Goldhirsch, A.}, year={2011}, month=Oct, pages={2216â€“2226} }"
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:_Re3VWB3Y0AC",
+      "title": "Development of a Clinical Decision Support Tool for Cancer Risk Assessment for Trans and Gender-Diverse Patients",
+      "year": null,
+      "status": "no_confident_match",
+      "doi": null,
+      "match": {
+        "doi": "10.1079/cabicomm-62-8172",
+        "crossref_title": "Assessment of the use of CABI’s decision support tools for biosecurity – Pest Risk Analysis Tool and Horizon Scanning Tool",
+        "crossref_year": 2023,
+        "crossref_type": "report",
+        "score": 0.477,
+        "braun_in_authors": false
+      },
+      "bib": null
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:8k81kl-MbHgC",
+      "title": "Sensitivity of the Association of Long-term PM2. 5 and Mortality to Modeling Choices",
+      "year": null,
+      "status": "no_confident_match",
+      "doi": null,
+      "match": {
+        "doi": "10.26226/morressier.617c37317c09fc044a97521f",
+        "crossref_title": "Long-term association between homelessness and mortality among patients with diabetes who use hospital services",
+        "crossref_year": 2021,
+        "crossref_type": "posted-content",
+        "score": 0.455,
+        "braun_in_authors": false
+      },
+      "bib": null
+    },
+    {
+      "scholar_pub_id": "zQEnP70AAAAJ:NJ774b8OgUMC",
+      "title": "Urban-Rural Disparities in Long-Term Effects of PM2. 5 on Mortality: The Impacts of Chemical Composition and Population Characteristics",
+      "year": null,
+      "status": "found",
+      "doi": "10.2139/ssrn.6514013",
+      "match": {
+        "doi": "10.2139/ssrn.6514013",
+        "crossref_title": "Urban-Rural Disparities in Long-Term Effects of PM2.5 on Mortality: The Impacts of Chemical Composition and Population Characteristics",
+        "crossref_year": 2026,
+        "crossref_type": "posted-content",
+        "score": 1.0,
+        "braun_in_authors": true
+      },
+      "bib": "@article{Byun_2026, title={Urban-Rural Disparities in Long-Term Effects of PM2.5 on Mortality: The Impacts of Chemical Composition and Population Characteristics}, url={http://dx.doi.org/10.2139/ssrn.6514013}, DOI={10.2139/ssrn.6514013}, publisher={Elsevier BV}, author={Byun, Garam and Song, Yimeng and Braun, Danielle and Deziel, Nicole and Bell, Michelle  L.}, year={2026} }"
+    }
+  ]
+}
