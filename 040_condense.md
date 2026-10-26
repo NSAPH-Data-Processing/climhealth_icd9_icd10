@@ -203,3 +203,23 @@ How to read the table: the exposure columns give the number of papers (`L` = lon
 ## Notes for the next step (the YAML for medpar_outcomes)
 - A bin's sources often define it differently (Step 2.7). The next step should choose **one code list per bin** and validate it, and include ICD-10 for the CCS-only bins (e.g. via CCSR or the GEMs).
 - Codes from CCS are printed without decimals; author codes are as written, with wildcards and ranges. They need normalizing before the YAML.
+
+## 4e. Bins split by code set type
+The same run of `040_build_bins.py` writes two more files with the **same 44 bins**. Each is populated only with code sets of one kind:
+- **`040_bins_author_defined.json`**: `author_defined` code sets only.
+- **`040_bins_derived.json`**: derived code sets only (`ccs_table` from Parks, and `ccs_resolved`).
+
+In each file, sources without a code set of that kind are left out, and the flags are recomputed from what remains. Each bin is marked:
+- `represented`: an exact code set of that kind, excluding unanalyzed Parks groups;
+- `partially_represented`: only narrower or broader sets;
+- empty: no sources.
+
+| | represented | partially | empty |
+|---|---|---|---|
+| author-defined | 28 | 5 | 11 |
+| derived | 32 | 10 | 2 |
+
+- **No author-defined code set (11):** upper respiratory infections, hypertension with complications, blood clots, the heat composite, non-respiratory infections, sepsis, skin infections, intestinal obstruction, CNS infections, intestinal infections, injuries.
+- **Author-defined only partially (5):** asthma, respiratory failure (ARDS), aneurysms, fluid/electrolyte (dehydration), diabetes with complications. For these bins, the derived list gives the code set.
+- **No derived code set (2):** ischemic stroke and dehydration. These are author-defined only.
+- **UTI** is `represented` in the author-defined list only through Yitshak-Sade's printed "559" (likely 599.0), so its `n_suspect_codesets` is 1.

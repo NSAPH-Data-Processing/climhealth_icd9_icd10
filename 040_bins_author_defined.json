@@ -1,0 +1,6361 @@
+{
+ "sources": [
+  "040_bins.json"
+ ],
+ "kind": "author_defined",
+ "codeset_types": [
+  "author_defined"
+ ],
+ "bins": [
+  {
+   "id": "R0",
+   "group": "Respiratory",
+   "name": "All respiratory disease (composite)",
+   "former_name": null,
+   "in_reference_list": false,
+   "merged_from": [],
+   "note": "Two definition families: all of ICD-9 460-519 / J00-J99, or COPD + respiratory tract infections (464-466, 480-487, 490-492, sometimes + 493).",
+   "air_pollution": true,
+   "extreme_heat": true,
+   "extreme_weather": true,
+   "long_term": true,
+   "short_term": true,
+   "other_exposure": true,
+   "represented": true,
+   "partially_represented": false,
+   "icd10_available": true,
+   "outcome_wide_only": false,
+   "n_papers": 10,
+   "n_exact_codesets": 10,
+   "n_codesets": 10,
+   "n_suspect_codesets": 1,
+   "support": {
+    "air_pollution_long_term": [
+     "Danesh Yazdi 2022 Sci Total Environ"
+    ],
+    "air_pollution_short_term": [
+     "Bell 2014 EHP",
+     "Bravo 2017 EHP",
+     "Kioumourtzoglou 2013 Environ Health",
+     "Mannshardt 2013 JESEE",
+     "Peng 2009 EHP"
+    ],
+    "extreme_heat_long_term": [
+     "Danesh Yazdi 2022 Sci Total Environ"
+    ],
+    "extreme_heat_short_term": [],
+    "extreme_weather_long_term": [],
+    "extreme_weather_short_term": [
+     "Berman 2017 Lancet Planet Health",
+     "Burrows 2023 Nat Commun",
+     "Yan 2021 Epidemiology"
+    ],
+    "other_exposure": [
+     "Klompmaker 2023 Environ Pollut"
+    ]
+   },
+   "sources": [
+    {
+     "outcome_id": "10_1289_ehp_0800185::respiratory diseases",
+     "paper": "10_1289_ehp_0800185",
+     "paper_label": "Peng 2009 EHP",
+     "outcome_name": "respiratory diseases",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "PM2.5 chemical components, daily time series",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1289_ehp_0800185::respiratory diseases",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "490–492",
+        "464–466",
+        "480–487"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1038_jes_2013_39::emergency respiratory disease hospital admissions",
+     "paper": "10_1038_jes_2013_39",
+     "paper_label": "Mannshardt 2013 JESEE",
+     "outcome_name": "emergency respiratory disease hospital admissions",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "PM2.5 exposure metrics, daily",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1038_jes_2013_39::emergency respiratory disease hospital admissions",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "490-448",
+        "464-466",
+        "480-497"
+       ],
+       "icd10": [],
+       "suspect": [
+        "printed 490-448 and 480-497 (likely 490-492 and 480-487)"
+       ]
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1186_1476_069x_12_68::all respiratory outcomes",
+     "paper": "10_1186_1476_069x_12_68",
+     "paper_label": "Kioumourtzoglou 2013 Environ Health",
+     "outcome_name": "all respiratory outcomes",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "primary organic PM2.5 particles, case-crossover",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1186_1476_069x_12_68::all respiratory outcomes",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "460–519"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1289_ehp_1306656::respiratory disease",
+     "paper": "10_1289_ehp_1306656",
+     "paper_label": "Bell 2014 EHP",
+     "outcome_name": "respiratory disease",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "PM2.5 constituents and sources, daily",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1289_ehp_1306656::respiratory disease",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "490–492",
+        "464–466",
+        "480–487"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1289_ehp257::respiratory (COPD and respiratory tract infections)",
+     "paper": "10_1289_ehp257",
+     "paper_label": "Bravo 2017 EHP",
+     "outcome_name": "respiratory (COPD and respiratory tract infections)",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "PM2.5, same-day and short cumulative lags",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1289_ehp257::respiratory (COPD and respiratory tract infections)",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "490 to 492",
+        "464 to 466",
+        "480 to 487"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1016_s2542_5196_17_30002_5::respiratory admissions",
+     "paper": "10_1016_s2542_5196_17_30002_5",
+     "paper_label": "Berman 2017 Lancet Planet Health",
+     "outcome_name": "respiratory admissions",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": false,
+      "extreme_weather": true,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "drought periods",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1016_s2542_5196_17_30002_5::respiratory admissions",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "464–466",
+        "480–487",
+        "490–492"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1097_ede_0000000000001337::respiratory disease hospitalizations",
+     "paper": "10_1097_ede_0000000000001337",
+     "paper_label": "Yan 2021 Epidemiology",
+     "outcome_name": "respiratory disease hospitalizations",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": false,
+      "extreme_weather": true,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "tropical cyclone storm periods",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1097_ede_0000000000001337::respiratory disease hospitalizations",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "464–466",
+        "480–487",
+        "490–493"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1016_j_envpol_2022_120046::respiratory disease (RSD)",
+     "paper": "10_1016_j_envpol_2022_120046",
+     "paper_label": "Klompmaker 2023 Environ Pollut",
+     "outcome_name": "respiratory disease (RSD)",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": "greenness, parks, blue space",
+      "note": "annual NDVI, park cover, blue space",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1016_j_envpol_2022_120046::respiratory disease (RSD)",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "460–519"
+       ],
+       "icd10": [
+        "J00-J99"
+       ],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1016_j_scitotenv_2022_156855::respiratory disease",
+     "paper": "10_1016_j_scitotenv_2022_156855",
+     "paper_label": "Danesh Yazdi 2022 Sci Total Environ",
+     "outcome_name": "respiratory disease",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": true,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": null,
+      "note": "annual pollution and seasonal temperature (difference-in-differences)",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1016_j_scitotenv_2022_156855::respiratory disease",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "460–519"
+       ],
+       "icd10": [
+        "codes beginning with \"J\""
+       ],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1038_s41467_023_37675_7::respiratory disease",
+     "paper": "10_1038_s41467_023_37675_7",
+     "paper_label": "Burrows 2023 Nat Commun",
+     "outcome_name": "respiratory disease",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": false,
+      "extreme_weather": true,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "tropical cyclone exposure (Florida)",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1038_s41467_023_37675_7::respiratory disease",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "464–466",
+        "480–487",
+        "490–493"
+       ],
+       "icd10": [
+        "J06.9",
+        "J20.9",
+        "J18.9",
+        "J43.9",
+        "J40",
+        "J41.0",
+        "J41.1",
+        "J41.8",
+        "J42",
+        "J44.0",
+        "J44.1",
+        "J44.9",
+        "J47.1",
+        "J47.9",
+        "J67.0-J67.9"
+       ],
+       "suspect": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R1",
+   "group": "Respiratory",
+   "name": "Asthma exacerbations",
+   "former_name": null,
+   "in_reference_list": true,
+   "merged_from": [],
+   "note": null,
+   "air_pollution": false,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": false,
+   "other_exposure": false,
+   "represented": false,
+   "partially_represented": true,
+   "icd10_available": false,
+   "outcome_wide_only": false,
+   "n_papers": 2,
+   "n_exact_codesets": 0,
+   "n_codesets": 2,
+   "n_suspect_codesets": 0,
+   "support": {
+    "air_pollution_long_term": [],
+    "air_pollution_short_term": [],
+    "extreme_heat_long_term": [],
+    "extreme_heat_short_term": [],
+    "extreme_weather_long_term": [],
+    "extreme_weather_short_term": [],
+    "other_exposure": []
+   },
+   "sources": [
+    {
+     "outcome_id": "10_1097_ede_0000000000001337::respiratory disease hospitalizations",
+     "paper": "10_1097_ede_0000000000001337",
+     "paper_label": "Yan 2021 Epidemiology",
+     "outcome_name": "respiratory disease hospitalizations",
+     "scope": "broader",
+     "filter": [
+      "493"
+     ],
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": false,
+      "extreme_weather": true,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "tropical cyclone storm periods",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1097_ede_0000000000001337::respiratory disease hospitalizations",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "490–493"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1038_s41467_023_37675_7::respiratory disease",
+     "paper": "10_1038_s41467_023_37675_7",
+     "paper_label": "Burrows 2023 Nat Commun",
+     "outcome_name": "respiratory disease",
+     "scope": "broader",
+     "filter": [
+      "493"
+     ],
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": false,
+      "extreme_weather": true,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "tropical cyclone exposure (Florida)",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1038_s41467_023_37675_7::respiratory disease",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "490–493"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R2",
+   "group": "Respiratory",
+   "name": "COPD and bronchiectasis",
+   "former_name": "COPD exacerbations",
+   "in_reference_list": true,
+   "merged_from": [
+    "R3 (Bronchiectasis)"
+   ],
+   "note": "Merged with the reference bin 'Bronchiectasis' (ICD-9 494 is in CCS 127 and in the COPD definitions 490-492, 494-496).",
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": true,
+   "short_term": true,
+   "other_exposure": true,
+   "represented": true,
+   "partially_represented": false,
+   "icd10_available": false,
+   "outcome_wide_only": false,
+   "n_papers": 2,
+   "n_exact_codesets": 2,
+   "n_codesets": 2,
+   "n_suspect_codesets": 0,
+   "support": {
+    "air_pollution_long_term": [
+     "Zigler 2018 Epidemiology"
+    ],
+    "air_pollution_short_term": [
+     "Kioumourtzoglou 2013 Environ Health"
+    ],
+    "extreme_heat_long_term": [],
+    "extreme_heat_short_term": [],
+    "extreme_weather_long_term": [],
+    "extreme_weather_short_term": [],
+    "other_exposure": [
+     "Zigler 2018 Epidemiology"
+    ]
+   },
+   "sources": [
+    {
+     "outcome_id": "10_1186_1476_069x_12_68::chronic obstructive pulmonary disease",
+     "paper": "10_1186_1476_069x_12_68",
+     "paper_label": "Kioumourtzoglou 2013 Environ Health",
+     "outcome_name": "chronic obstructive pulmonary disease",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "primary organic PM2.5 particles, case-crossover",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1186_1476_069x_12_68::chronic obstructive pulmonary disease",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "490–492",
+        "494–496"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1097_ede_0000000000000777::chronic obstructive pulmonary disease",
+     "paper": "10_1097_ede_0000000000000777",
+     "paper_label": "Zigler 2018 Epidemiology",
+     "outcome_name": "chronic obstructive pulmonary disease",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": "air quality policy (NAAQS nonattainment designations)",
+      "note": "causal effect of designations via PM2.5 reductions",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1097_ede_0000000000000777::chronic obstructive pulmonary disease",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "490.xx to 492.xx"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R4",
+   "group": "Respiratory",
+   "name": "Pneumonia and other respiratory infections (incl. influenza)",
+   "former_name": null,
+   "in_reference_list": true,
+   "merged_from": [],
+   "note": null,
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": true,
+   "short_term": true,
+   "other_exposure": true,
+   "represented": true,
+   "partially_represented": false,
+   "icd10_available": true,
+   "outcome_wide_only": false,
+   "n_papers": 4,
+   "n_exact_codesets": 3,
+   "n_codesets": 4,
+   "n_suspect_codesets": 0,
+   "support": {
+    "air_pollution_long_term": [
+     "Danesh Yazdi 2021 Circulation",
+     "Zigler 2018 Epidemiology"
+    ],
+    "air_pollution_short_term": [
+     "Kioumourtzoglou 2013 Environ Health",
+     "Yitshak-Sade 2021 Sci Total Environ"
+    ],
+    "extreme_heat_long_term": [],
+    "extreme_heat_short_term": [],
+    "extreme_weather_long_term": [],
+    "extreme_weather_short_term": [],
+    "other_exposure": [
+     "Zigler 2018 Epidemiology"
+    ]
+   },
+   "sources": [
+    {
+     "outcome_id": "10_1186_1476_069x_12_68::pneumonia",
+     "paper": "10_1186_1476_069x_12_68",
+     "paper_label": "Kioumourtzoglou 2013 Environ Health",
+     "outcome_name": "pneumonia",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "primary organic PM2.5 particles, case-crossover",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1186_1476_069x_12_68::pneumonia",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "480–487"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1161_circulationaha_120_050252::pneumonia",
+     "paper": "10_1161_circulationaha_120_050252",
+     "paper_label": "Danesh Yazdi 2021 Circulation",
+     "outcome_name": "pneumonia",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": null,
+      "note": "annual PM2.5, NO2, ozone",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1161_circulationaha_120_050252::pneumonia",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "003.22",
+        "011.6",
+        "055.1",
+        "073.0",
+        "115.05",
+        "115.15",
+        "115.95",
+        "480",
+        "481",
+        "482",
+        "483",
+        "484",
+        "485",
+        "486",
+        "487.0",
+        "488.01",
+        "488.11",
+        "488.81",
+        "516.3",
+        "517.1",
+        "997.32"
+       ],
+       "icd10": [
+        "A01.03",
+        "A02.22",
+        "A20.2",
+        "A21.2",
+        "A22.1",
+        "A37.X1",
+        "A42.0",
+        "A43.0",
+        "A48.1",
+        "A54.84",
+        "A69.8",
+        "B01.2",
+        "B05.2",
+        "B06.81",
+        "B25.0",
+        "B37.1",
+        "B38.0",
+        "B39.0",
+        "B44.0",
+        "B44.1",
+        "B58.3",
+        "B59",
+        "B77.81",
+        "J15",
+        "J09.X1",
+        "J10.0",
+        "J11.0",
+        "J12",
+        "J13",
+        "J14",
+        "J17",
+        "J18",
+        "J84.2",
+        "J85.1",
+        "J95.851"
+       ],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1097_ede_0000000000000777::respiratory tract infection",
+     "paper": "10_1097_ede_0000000000000777",
+     "paper_label": "Zigler 2018 Epidemiology",
+     "outcome_name": "respiratory tract infection",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": "air quality policy (NAAQS nonattainment designations)",
+      "note": "causal effect of designations via PM2.5 reductions",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1097_ede_0000000000000777::respiratory tract infection",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "464.xx to 466.xx",
+        "480.xx to 487.xx"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1016_j_scitotenv_2020_142524::pneumonia, organism unspecified",
+     "paper": "10_1016_j_scitotenv_2020_142524",
+     "paper_label": "Yitshak-Sade 2021 Sci Total Environ",
+     "outcome_name": "pneumonia, organism unspecified",
+     "scope": "narrower",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "high PM2.5 days, matched",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1016_j_scitotenv_2020_142524::pneumonia, organism unspecified",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "486"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R5",
+   "group": "Respiratory",
+   "name": "Respiratory failure, insufficiency, or arrest (incl. ARDS)",
+   "former_name": null,
+   "in_reference_list": true,
+   "merged_from": [],
+   "note": null,
+   "air_pollution": false,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": true,
+   "short_term": false,
+   "other_exposure": true,
+   "represented": false,
+   "partially_represented": true,
+   "icd10_available": false,
+   "outcome_wide_only": false,
+   "n_papers": 1,
+   "n_exact_codesets": 0,
+   "n_codesets": 1,
+   "n_suspect_codesets": 0,
+   "support": {
+    "air_pollution_long_term": [],
+    "air_pollution_short_term": [],
+    "extreme_heat_long_term": [],
+    "extreme_heat_short_term": [],
+    "extreme_weather_long_term": [],
+    "extreme_weather_short_term": [],
+    "other_exposure": [
+     "Rhee 2020 Epidemiology"
+    ]
+   },
+   "sources": [
+    {
+     "outcome_id": "10_1097_ede_0000000000001195::acute respiratory distress syndrome",
+     "paper": "10_1097_ede_0000000000001195",
+     "paper_label": "Rhee 2020 Epidemiology",
+     "outcome_name": "acute respiratory distress syndrome",
+     "scope": "narrower",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": "proximity to construction and manufacturing sites",
+      "note": "annual counts of industry sites per ZIP code",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1097_ede_0000000000001195::acute respiratory distress syndrome",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "518.51",
+        "518.52",
+        "518.53",
+        "518.82"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "R6",
+   "group": "Respiratory",
+   "name": "Upper respiratory infections (and acute bronchitis)",
+   "former_name": null,
+   "in_reference_list": true,
+   "merged_from": [],
+   "note": null,
+   "air_pollution": false,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": false,
+   "other_exposure": false,
+   "represented": false,
+   "partially_represented": false,
+   "icd10_available": false,
+   "outcome_wide_only": false,
+   "n_papers": 0,
+   "n_exact_codesets": 0,
+   "n_codesets": 0,
+   "n_suspect_codesets": 0,
+   "support": {
+    "air_pollution_long_term": [],
+    "air_pollution_short_term": [],
+    "extreme_heat_long_term": [],
+    "extreme_heat_short_term": [],
+    "extreme_weather_long_term": [],
+    "extreme_weather_short_term": [],
+    "other_exposure": []
+   },
+   "sources": []
+  },
+  {
+   "id": "C0",
+   "group": "Cardiovascular and blood-vessel conditions",
+   "name": "All cardiovascular disease (composite)",
+   "former_name": null,
+   "in_reference_list": false,
+   "merged_from": [],
+   "note": "Definition families: 390-459 / I00-I99 (most papers), 390-429, and the MCAPS five-cause sum (426-428, 429, 410-414, 430-438, 440-448).",
+   "air_pollution": true,
+   "extreme_heat": true,
+   "extreme_weather": true,
+   "long_term": true,
+   "short_term": true,
+   "other_exposure": true,
+   "represented": true,
+   "partially_represented": false,
+   "icd10_available": true,
+   "outcome_wide_only": false,
+   "n_papers": 19,
+   "n_exact_codesets": 18,
+   "n_codesets": 19,
+   "n_suspect_codesets": 2,
+   "support": {
+    "air_pollution_long_term": [
+     "Danesh Yazdi 2022 Sci Total Environ",
+     "Danesh Yazdi 2025 Environ Res (PM2.5 components)",
+     "Klompmaker 2021 Environ Int",
+     "Wei 2024 BMJ"
+    ],
+    "air_pollution_short_term": [
+     "Bell 2009 Circulation",
+     "Bell 2014 EHP",
+     "Bravo 2017 EHP",
+     "Kioumourtzoglou 2013 Environ Health",
+     "Kioumourtzoglou 2014 JESEE",
+     "Peng 2009 EHP",
+     "deSouza 2021 Epidemiology"
+    ],
+    "extreme_heat_long_term": [
+     "Danesh Yazdi 2022 Sci Total Environ",
+     "Klompmaker 2023 Environ Int",
+     "Klompmaker 2023 Environ Res"
+    ],
+    "extreme_heat_short_term": [
+     "Heo 2021 Environ Int"
+    ],
+    "extreme_weather_long_term": [],
+    "extreme_weather_short_term": [
+     "Berman 2017 Lancet Planet Health",
+     "Burrows 2023 Nat Commun",
+     "Yan 2021 Epidemiology"
+    ],
+    "other_exposure": [
+     "Correia 2013 BMJ",
+     "Klompmaker 2023 Environ Pollut"
+    ]
+   },
+   "sources": [
+    {
+     "outcome_id": "10_1289_ehp_0800185::cardiovascular disease (CVD)",
+     "paper": "10_1289_ehp_0800185",
+     "paper_label": "Peng 2009 EHP",
+     "outcome_name": "cardiovascular disease (CVD)",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "PM2.5 chemical components, daily time series",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1289_ehp_0800185::cardiovascular disease (CVD)",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "428",
+        "426–427",
+        "430–438",
+        "410–414",
+        "429",
+        "440–448"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1161_circulationaha_109_851113::total CVD (sum of the five causes)",
+     "paper": "10_1161_circulationaha_109_851113",
+     "paper_label": "Bell 2009 Circulation",
+     "outcome_name": "total CVD (sum of the five causes)",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "carbon monoxide, daily time series",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1161_circulationaha_109_851113::total CVD (sum of the five causes)",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "428",
+        "426–427",
+        "430–438",
+        "410–414",
+        "429",
+        "440–448"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1136_bmj_f5561::total cardiovascular disease admissions (sum of the five causes)",
+     "paper": "10_1136_bmj_f5561",
+     "paper_label": "Correia 2013 BMJ",
+     "outcome_name": "total cardiovascular disease admissions (sum of the five causes)",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": "aircraft noise",
+      "note": "annual aircraft noise near airports",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1136_bmj_f5561::total cardiovascular disease admissions (sum of the five causes)",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "428",
+        "426 to 427",
+        "430 to 438",
+        "410 to 414",
+        "429",
+        "440 to 448"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1186_1476_069x_12_68::all CVD conditions",
+     "paper": "10_1186_1476_069x_12_68",
+     "paper_label": "Kioumourtzoglou 2013 Environ Health",
+     "outcome_name": "all CVD conditions",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "primary organic PM2.5 particles, case-crossover",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1186_1476_069x_12_68::all CVD conditions",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "390–429"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1289_ehp_1306656::cardiovascular disease",
+     "paper": "10_1289_ehp_1306656",
+     "paper_label": "Bell 2014 EHP",
+     "outcome_name": "cardiovascular disease",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "PM2.5 constituents and sources, daily",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1289_ehp_1306656::cardiovascular disease",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "428",
+        "426–427",
+        "430–438",
+        "410–414",
+        "429",
+        "440–448"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1038_jes_2014_7::all CVD conditions (emergency admissions)",
+     "paper": "10_1038_jes_2014_7",
+     "paper_label": "Kioumourtzoglou 2014 JESEE",
+     "outcome_name": "all CVD conditions (emergency admissions)",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "source-specific PM2.5, daily (Boston)",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1038_jes_2014_7::all CVD conditions (emergency admissions)",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "390–429"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1289_ehp257::cardiovascular",
+     "paper": "10_1289_ehp257",
+     "paper_label": "Bravo 2017 EHP",
+     "outcome_name": "cardiovascular",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "PM2.5, same-day and short cumulative lags",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1289_ehp257::cardiovascular",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "390 to 459"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1016_s2542_5196_17_30002_5::cardiovascular admissions",
+     "paper": "10_1016_s2542_5196_17_30002_5",
+     "paper_label": "Berman 2017 Lancet Planet Health",
+     "outcome_name": "cardiovascular admissions",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": false,
+      "extreme_weather": true,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "drought periods",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1016_s2542_5196_17_30002_5::cardiovascular admissions",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "390–398",
+        "401–405",
+        "410–414",
+        "415–417",
+        "420–429",
+        "430–438",
+        "440–448",
+        "451–459"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1016_j_envint_2021_106715::cardiovascular disease (CVD)",
+     "paper": "10_1016_j_envint_2021_106715",
+     "paper_label": "Klompmaker 2021 Environ Int",
+     "outcome_name": "cardiovascular disease (CVD)",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": null,
+      "note": "annual PM2.5, NO2, ozone; effect modification by greenness, temperature, humidity",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1016_j_envint_2021_106715::cardiovascular disease (CVD)",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "390– 459"
+       ],
+       "icd10": [
+        "I00-I99"
+       ],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1097_ede_0000000000001265::CVD-related hospitalizations (first)",
+     "paper": "10_1097_ede_0000000000001265",
+     "paper_label": "deSouza 2021 Epidemiology",
+     "outcome_name": "CVD-related hospitalizations (first)",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "PM2.5, case-crossover (Medicaid and Medicare)",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1097_ede_0000000000001265::CVD-related hospitalizations (first)",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "390 to 495"
+       ],
+       "icd10": [],
+       "suspect": [
+        "printed 390 to 495 (likely 390-459)"
+       ]
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1016_j_envint_2021_106737::all CVD",
+     "paper": "10_1016_j_envint_2021_106737",
+     "paper_label": "Heo 2021 Environ Int",
+     "outcome_name": "all CVD",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": true,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "daily high temperature (lag 0-3)",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1016_j_envint_2021_106737::all CVD",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "390-398",
+        "401-405",
+        "410-414",
+        "415-417",
+        "420-429"
+       ],
+       "icd10": [],
+       "suspect": [
+        "'all CVD' printed as 390-429 subsets only (no 430-459)"
+       ]
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1097_ede_0000000000001337::cardiovascular disease hospitalizations",
+     "paper": "10_1097_ede_0000000000001337",
+     "paper_label": "Yan 2021 Epidemiology",
+     "outcome_name": "cardiovascular disease hospitalizations",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": false,
+      "extreme_weather": true,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "tropical cyclone storm periods",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1097_ede_0000000000001337::cardiovascular disease hospitalizations",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "390–459"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1016_j_envpol_2022_120046::cardiovascular disease (CVD)",
+     "paper": "10_1016_j_envpol_2022_120046",
+     "paper_label": "Klompmaker 2023 Environ Pollut",
+     "outcome_name": "cardiovascular disease (CVD)",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": "greenness, parks, blue space",
+      "note": "annual NDVI, park cover, blue space",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1016_j_envpol_2022_120046::cardiovascular disease (CVD)",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "390–459"
+       ],
+       "icd10": [
+        "I00– I99"
+       ],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1016_j_scitotenv_2022_156855::cardiovascular disease",
+     "paper": "10_1016_j_scitotenv_2022_156855",
+     "paper_label": "Danesh Yazdi 2022 Sci Total Environ",
+     "outcome_name": "cardiovascular disease",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": true,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": null,
+      "note": "annual pollution and seasonal temperature (difference-in-differences)",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1016_j_scitotenv_2022_156855::cardiovascular disease",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "390–459"
+       ],
+       "icd10": [
+        "codes beginning with \"I\""
+       ],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1016_j_envres_2022_114684::cardiovascular disease (CVD)",
+     "paper": "10_1016_j_envres_2022_114684",
+     "paper_label": "Klompmaker 2023 Environ Res",
+     "outcome_name": "cardiovascular disease (CVD)",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": true,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": null,
+      "note": "long-term summer/winter average temperature (climate)",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1016_j_envres_2022_114684::cardiovascular disease (CVD)",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "390–459"
+       ],
+       "icd10": [
+        "I00–I99"
+       ],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1038_s41467_023_37675_7::cardiovascular disease",
+     "paper": "10_1038_s41467_023_37675_7",
+     "paper_label": "Burrows 2023 Nat Commun",
+     "outcome_name": "cardiovascular disease",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": false,
+      "extreme_weather": true,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "tropical cyclone exposure (Florida)",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1038_s41467_023_37675_7::cardiovascular disease",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "390–459"
+       ],
+       "icd10": [
+        "I00–I99"
+       ],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1016_j_envint_2023_108182::cardiovascular disease (CVD)",
+     "paper": "10_1016_j_envint_2023_108182",
+     "paper_label": "Klompmaker 2023 Environ Int",
+     "outcome_name": "cardiovascular disease (CVD)",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": true,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": null,
+      "note": "long-term summer specific humidity (climate)",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1016_j_envint_2023_108182::cardiovascular disease (CVD)",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "390– 459"
+       ],
+       "icd10": [
+        "I00-I99"
+       ],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1136_bmj_2023_076939::composite CVD (any of the seven subtypes)",
+     "paper": "10_1136_bmj_2023_076939",
+     "paper_label": "Wei 2024 BMJ",
+     "outcome_name": "composite CVD (any of the seven subtypes)",
+     "scope": "narrower",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": null,
+      "note": "3-year average PM2.5",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1136_bmj_2023_076939::composite CVD (any of the seven subtypes)",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "union of the seven subtypes"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1016_j_envres_2025_122779::cardiovascular diseases (first admission)",
+     "paper": "10_1016_j_envres_2025_122779",
+     "paper_label": "Danesh Yazdi 2025 Environ Res (PM2.5 components)",
+     "outcome_name": "cardiovascular diseases (first admission)",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": null,
+      "note": "annual PM2.5 components",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1016_j_envres_2025_122779::cardiovascular diseases (first admission)",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "390–459"
+       ],
+       "icd10": [
+        "codes beginning with \"I\""
+       ],
+       "suspect": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "C1",
+   "group": "Cardiovascular and blood-vessel conditions",
+   "name": "Heart attack (acute myocardial infarction)",
+   "former_name": null,
+   "in_reference_list": true,
+   "merged_from": [],
+   "note": null,
+   "air_pollution": true,
+   "extreme_heat": true,
+   "extreme_weather": false,
+   "long_term": true,
+   "short_term": true,
+   "other_exposure": true,
+   "represented": true,
+   "partially_represented": false,
+   "icd10_available": true,
+   "outcome_wide_only": false,
+   "n_papers": 8,
+   "n_exact_codesets": 8,
+   "n_codesets": 8,
+   "n_suspect_codesets": 0,
+   "support": {
+    "air_pollution_long_term": [
+     "Danesh Yazdi 2021 Circulation",
+     "Danesh Yazdi 2022 Sci Total Environ",
+     "Danesh Yazdi 2025 Environ Int (second events)",
+     "Danesh Yazdi 2025 Environ Res (PM2.5 components)",
+     "Schwartz 2023 Environ Res"
+    ],
+    "air_pollution_short_term": [
+     "Kioumourtzoglou 2013 Environ Health",
+     "deSouza 2021 Epidemiology"
+    ],
+    "extreme_heat_long_term": [
+     "Danesh Yazdi 2022 Sci Total Environ",
+     "Danesh Yazdi 2025 Environ Int (second events)"
+    ],
+    "extreme_heat_short_term": [],
+    "extreme_weather_long_term": [],
+    "extreme_weather_short_term": [],
+    "other_exposure": [
+     "Yeh 2012 Circ Cardiovasc Qual Outcomes"
+    ]
+   },
+   "sources": [
+    {
+     "outcome_id": "10_1161_circoutcomes_111_962456::first hospitalized myocardial infarction each year",
+     "paper": "10_1161_circoutcomes_111_962456",
+     "paper_label": "Yeh 2012 Circ Cardiovasc Qual Outcomes",
+     "outcome_name": "first hospitalized myocardial infarction each year",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": false,
+      "other_exposure": "secular trends / geography (no environmental exposure)",
+      "note": "MI incidence trends by region",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1161_circoutcomes_111_962456::first hospitalized myocardial infarction each year",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "410.xx, except 410.x2"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1186_1476_069x_12_68::myocardial infarction",
+     "paper": "10_1186_1476_069x_12_68",
+     "paper_label": "Kioumourtzoglou 2013 Environ Health",
+     "outcome_name": "myocardial infarction",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "primary organic PM2.5 particles, case-crossover",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1186_1476_069x_12_68::myocardial infarction",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "410"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1161_circulationaha_120_050252::myocardial infarction",
+     "paper": "10_1161_circulationaha_120_050252",
+     "paper_label": "Danesh Yazdi 2021 Circulation",
+     "outcome_name": "myocardial infarction",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": null,
+      "note": "annual PM2.5, NO2, ozone",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1161_circulationaha_120_050252::myocardial infarction",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "410.X0",
+        "410.X1"
+       ],
+       "icd10": [
+        "I21"
+       ],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1097_ede_0000000000001265::acute myocardial infarction",
+     "paper": "10_1097_ede_0000000000001265",
+     "paper_label": "deSouza 2021 Epidemiology",
+     "outcome_name": "acute myocardial infarction",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "PM2.5, case-crossover (Medicaid and Medicare)",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1097_ede_0000000000001265::acute myocardial infarction",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "410.9"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1016_j_scitotenv_2022_156855::myocardial infarction",
+     "paper": "10_1016_j_scitotenv_2022_156855",
+     "paper_label": "Danesh Yazdi 2022 Sci Total Environ",
+     "outcome_name": "myocardial infarction",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": true,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": null,
+      "note": "annual pollution and seasonal temperature (difference-in-differences)",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1016_j_scitotenv_2022_156855::myocardial infarction",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "410.X0",
+        "410.X1"
+       ],
+       "icd10": [
+        "I21"
+       ],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1016_j_envres_2023_116203::myocardial infarction admissions",
+     "paper": "10_1016_j_envres_2023_116203",
+     "paper_label": "Schwartz 2023 Environ Res",
+     "outcome_name": "myocardial infarction admissions",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": null,
+      "note": "annual PM2.5, NO2, ozone",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1016_j_envres_2023_116203::myocardial infarction admissions",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "410.×0",
+        "410.×1"
+       ],
+       "icd10": [
+        "I21"
+       ],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1016_j_envint_2025_109617::second admission with myocardial infarction",
+     "paper": "10_1016_j_envint_2025_109617",
+     "paper_label": "Danesh Yazdi 2025 Environ Int (second events)",
+     "outcome_name": "second admission with myocardial infarction",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": true,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": null,
+      "note": "intermediate and long-term pollution and temperature",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1016_j_envint_2025_109617::second admission with myocardial infarction",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "410.X0",
+        "410.X1"
+       ],
+       "icd10": [
+        "I21"
+       ],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1016_j_envres_2025_122779::myocardial infarction",
+     "paper": "10_1016_j_envres_2025_122779",
+     "paper_label": "Danesh Yazdi 2025 Environ Res (PM2.5 components)",
+     "outcome_name": "myocardial infarction",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": null,
+      "note": "annual PM2.5 components",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1016_j_envres_2025_122779::myocardial infarction",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "410. X0",
+        "410.X1"
+       ],
+       "icd10": [
+        "I21"
+       ],
+       "suspect": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "C2",
+   "group": "Cardiovascular and blood-vessel conditions",
+   "name": "Ischemic heart disease and coronary atherosclerosis",
+   "former_name": null,
+   "in_reference_list": true,
+   "merged_from": [],
+   "note": null,
+   "air_pollution": true,
+   "extreme_heat": true,
+   "extreme_weather": false,
+   "long_term": true,
+   "short_term": true,
+   "other_exposure": true,
+   "represented": true,
+   "partially_represented": false,
+   "icd10_available": true,
+   "outcome_wide_only": false,
+   "n_papers": 9,
+   "n_exact_codesets": 9,
+   "n_codesets": 9,
+   "n_suspect_codesets": 0,
+   "support": {
+    "air_pollution_long_term": [
+     "Klompmaker 2021 Environ Int",
+     "Wei 2024 BMJ",
+     "Zigler 2018 Epidemiology"
+    ],
+    "air_pollution_short_term": [
+     "Bell 2009 Circulation",
+     "Kioumourtzoglou 2013 Environ Health",
+     "deSouza 2021 Epidemiology"
+    ],
+    "extreme_heat_long_term": [
+     "Klompmaker 2023 Environ Int",
+     "Klompmaker 2023 Environ Res"
+    ],
+    "extreme_heat_short_term": [],
+    "extreme_weather_long_term": [],
+    "extreme_weather_short_term": [],
+    "other_exposure": [
+     "Correia 2013 BMJ",
+     "Zigler 2018 Epidemiology"
+    ]
+   },
+   "sources": [
+    {
+     "outcome_id": "10_1161_circulationaha_109_851113::ischemic heart disease",
+     "paper": "10_1161_circulationaha_109_851113",
+     "paper_label": "Bell 2009 Circulation",
+     "outcome_name": "ischemic heart disease",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "carbon monoxide, daily time series",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1161_circulationaha_109_851113::ischemic heart disease",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "410–414",
+        "429"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1136_bmj_f5561::ischemic heart disease",
+     "paper": "10_1136_bmj_f5561",
+     "paper_label": "Correia 2013 BMJ",
+     "outcome_name": "ischemic heart disease",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": "aircraft noise",
+      "note": "annual aircraft noise near airports",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1136_bmj_f5561::ischemic heart disease",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "410 to 414",
+        "429"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1186_1476_069x_12_68::ischemic heart disease",
+     "paper": "10_1186_1476_069x_12_68",
+     "paper_label": "Kioumourtzoglou 2013 Environ Health",
+     "outcome_name": "ischemic heart disease",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "primary organic PM2.5 particles, case-crossover",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1186_1476_069x_12_68::ischemic heart disease",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "410–414"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1097_ede_0000000000000777::ischemic heart disease",
+     "paper": "10_1097_ede_0000000000000777",
+     "paper_label": "Zigler 2018 Epidemiology",
+     "outcome_name": "ischemic heart disease",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": "air quality policy (NAAQS nonattainment designations)",
+      "note": "causal effect of designations via PM2.5 reductions",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1097_ede_0000000000000777::ischemic heart disease",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "410.xx–414.xx",
+        "429.xx"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1097_ede_0000000000001265::ischemic heart disease",
+     "paper": "10_1097_ede_0000000000001265",
+     "paper_label": "deSouza 2021 Epidemiology",
+     "outcome_name": "ischemic heart disease",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "PM2.5, case-crossover (Medicaid and Medicare)",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1097_ede_0000000000001265::ischemic heart disease",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "410–414"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1016_j_envint_2021_106715::coronary heart disease (CHD)",
+     "paper": "10_1016_j_envint_2021_106715",
+     "paper_label": "Klompmaker 2021 Environ Int",
+     "outcome_name": "coronary heart disease (CHD)",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": null,
+      "note": "annual PM2.5, NO2, ozone; effect modification by greenness, temperature, humidity",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1016_j_envint_2021_106715::coronary heart disease (CHD)",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "410–414"
+       ],
+       "icd10": [
+        "I20-I25"
+       ],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1016_j_envres_2022_114684::coronary heart disease (CHD; secondary outcome)",
+     "paper": "10_1016_j_envres_2022_114684",
+     "paper_label": "Klompmaker 2023 Environ Res",
+     "outcome_name": "coronary heart disease (CHD; secondary outcome)",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": true,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": null,
+      "note": "long-term summer/winter average temperature (climate)",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1016_j_envres_2022_114684::coronary heart disease (CHD; secondary outcome)",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "410– 414"
+       ],
+       "icd10": [
+        "I20–I25"
+       ],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1016_j_envint_2023_108182::coronary heart disease (CHD)",
+     "paper": "10_1016_j_envint_2023_108182",
+     "paper_label": "Klompmaker 2023 Environ Int",
+     "outcome_name": "coronary heart disease (CHD)",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": true,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": null,
+      "note": "long-term summer specific humidity (climate)",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1016_j_envint_2023_108182::coronary heart disease (CHD)",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "410–414"
+       ],
+       "icd10": [
+        "I20-I25"
+       ],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1136_bmj_2023_076939::ischemic heart disease",
+     "paper": "10_1136_bmj_2023_076939",
+     "paper_label": "Wei 2024 BMJ",
+     "outcome_name": "ischemic heart disease",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": null,
+      "note": "3-year average PM2.5",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1136_bmj_2023_076939::ischemic heart disease",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "410.x",
+        "411.x",
+        "412.x",
+        "413.x",
+        "414.x"
+       ],
+       "icd10": [
+        "I20.x",
+        "I21.x",
+        "I22.x",
+        "I23.x",
+        "I24.x",
+        "I25.x"
+       ],
+       "suspect": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "C3",
+   "group": "Cardiovascular and blood-vessel conditions",
+   "name": "Heart failure",
+   "former_name": null,
+   "in_reference_list": true,
+   "merged_from": [],
+   "note": null,
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": true,
+   "short_term": true,
+   "other_exposure": true,
+   "represented": true,
+   "partially_represented": false,
+   "icd10_available": true,
+   "outcome_wide_only": false,
+   "n_papers": 7,
+   "n_exact_codesets": 7,
+   "n_codesets": 7,
+   "n_suspect_codesets": 0,
+   "support": {
+    "air_pollution_long_term": [
+     "Danesh Yazdi 2025 Environ Res (PM2.5 components)",
+     "Wei 2024 BMJ",
+     "Zigler 2018 Epidemiology"
+    ],
+    "air_pollution_short_term": [
+     "Bell 2009 Circulation",
+     "Kioumourtzoglou 2013 Environ Health",
+     "deSouza 2021 Epidemiology"
+    ],
+    "extreme_heat_long_term": [],
+    "extreme_heat_short_term": [],
+    "extreme_weather_long_term": [],
+    "extreme_weather_short_term": [],
+    "other_exposure": [
+     "Correia 2013 BMJ",
+     "Zigler 2018 Epidemiology"
+    ]
+   },
+   "sources": [
+    {
+     "outcome_id": "10_1161_circulationaha_109_851113::heart failure",
+     "paper": "10_1161_circulationaha_109_851113",
+     "paper_label": "Bell 2009 Circulation",
+     "outcome_name": "heart failure",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "carbon monoxide, daily time series",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1161_circulationaha_109_851113::heart failure",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "428"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1136_bmj_f5561::heart failure",
+     "paper": "10_1136_bmj_f5561",
+     "paper_label": "Correia 2013 BMJ",
+     "outcome_name": "heart failure",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": "aircraft noise",
+      "note": "annual aircraft noise near airports",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1136_bmj_f5561::heart failure",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "428"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1186_1476_069x_12_68::congestive heart failure",
+     "paper": "10_1186_1476_069x_12_68",
+     "paper_label": "Kioumourtzoglou 2013 Environ Health",
+     "outcome_name": "congestive heart failure",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "primary organic PM2.5 particles, case-crossover",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1186_1476_069x_12_68::congestive heart failure",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "428"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1097_ede_0000000000000777::heart failure",
+     "paper": "10_1097_ede_0000000000000777",
+     "paper_label": "Zigler 2018 Epidemiology",
+     "outcome_name": "heart failure",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": "air quality policy (NAAQS nonattainment designations)",
+      "note": "causal effect of designations via PM2.5 reductions",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1097_ede_0000000000000777::heart failure",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "428.xx"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1097_ede_0000000000001265::congestive heart failure",
+     "paper": "10_1097_ede_0000000000001265",
+     "paper_label": "deSouza 2021 Epidemiology",
+     "outcome_name": "congestive heart failure",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "PM2.5, case-crossover (Medicaid and Medicare)",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1097_ede_0000000000001265::congestive heart failure",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "428"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1136_bmj_2023_076939::heart failure",
+     "paper": "10_1136_bmj_2023_076939",
+     "paper_label": "Wei 2024 BMJ",
+     "outcome_name": "heart failure",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": null,
+      "note": "3-year average PM2.5",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1136_bmj_2023_076939::heart failure",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "398.91",
+        "402.01",
+        "402.11",
+        "402.91",
+        "404.01",
+        "404.03",
+        "404.11",
+        "404.13",
+        "404.91",
+        "404.93",
+        "428.x"
+       ],
+       "icd10": [
+        "I50.x"
+       ],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1016_j_envres_2025_122779::heart failure",
+     "paper": "10_1016_j_envres_2025_122779",
+     "paper_label": "Danesh Yazdi 2025 Environ Res (PM2.5 components)",
+     "outcome_name": "heart failure",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": null,
+      "note": "annual PM2.5 components",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1016_j_envres_2025_122779::heart failure",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "428"
+       ],
+       "icd10": [
+        "I50"
+       ],
+       "suspect": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "C4",
+   "group": "Cardiovascular and blood-vessel conditions",
+   "name": "Arrhythmias and cardiac arrest",
+   "former_name": "Abnormal heart rhythms (arrhythmias/dysrhythmias)",
+   "in_reference_list": true,
+   "merged_from": [
+    "C5 (Cardiac arrest)"
+   ],
+   "note": "Merged with the reference bin 'Cardiac arrest' (ICD-9 427.4-427.5 are inside the arrhythmia range 426-427).",
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": true,
+   "short_term": true,
+   "other_exposure": true,
+   "represented": true,
+   "partially_represented": false,
+   "icd10_available": true,
+   "outcome_wide_only": false,
+   "n_papers": 6,
+   "n_exact_codesets": 4,
+   "n_codesets": 6,
+   "n_suspect_codesets": 0,
+   "support": {
+    "air_pollution_long_term": [
+     "Danesh Yazdi 2021 Circulation",
+     "Danesh Yazdi 2025 Environ Res (PM2.5 components)",
+     "Wei 2024 BMJ",
+     "Zigler 2018 Epidemiology"
+    ],
+    "air_pollution_short_term": [
+     "Bell 2009 Circulation"
+    ],
+    "extreme_heat_long_term": [],
+    "extreme_heat_short_term": [],
+    "extreme_weather_long_term": [],
+    "extreme_weather_short_term": [],
+    "other_exposure": [
+     "Correia 2013 BMJ",
+     "Zigler 2018 Epidemiology"
+    ]
+   },
+   "sources": [
+    {
+     "outcome_id": "10_1161_circulationaha_109_851113::heart rhythm disturbances",
+     "paper": "10_1161_circulationaha_109_851113",
+     "paper_label": "Bell 2009 Circulation",
+     "outcome_name": "heart rhythm disturbances",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "carbon monoxide, daily time series",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1161_circulationaha_109_851113::heart rhythm disturbances",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "426–427"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1136_bmj_f5561::heart rhythm disturbances",
+     "paper": "10_1136_bmj_f5561",
+     "paper_label": "Correia 2013 BMJ",
+     "outcome_name": "heart rhythm disturbances",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": "aircraft noise",
+      "note": "annual aircraft noise near airports",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1136_bmj_f5561::heart rhythm disturbances",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "426 to 427"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1097_ede_0000000000000777::heart rhythm disorders",
+     "paper": "10_1097_ede_0000000000000777",
+     "paper_label": "Zigler 2018 Epidemiology",
+     "outcome_name": "heart rhythm disorders",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": "air quality policy (NAAQS nonattainment designations)",
+      "note": "causal effect of designations via PM2.5 reductions",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1097_ede_0000000000000777::heart rhythm disorders",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "426.xx-427.xx"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1136_bmj_2023_076939::arrhythmia",
+     "paper": "10_1136_bmj_2023_076939",
+     "paper_label": "Wei 2024 BMJ",
+     "outcome_name": "arrhythmia",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": null,
+      "note": "3-year average PM2.5",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1136_bmj_2023_076939::arrhythmia",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "426.x",
+        "427.x",
+        "785.0"
+       ],
+       "icd10": [
+        "I44.x",
+        "I45.x",
+        "I47.x",
+        "I48.x",
+        "I49.x",
+        "R00.0",
+        "R00.1",
+        "R00.8",
+        "R94.31",
+        "T82.1",
+        "T82.11",
+        "T82.110",
+        "T82.111",
+        "T82.118",
+        "T82.119",
+        "Z45.0",
+        "Z45.01",
+        "Z45.010",
+        "Z45.018",
+        "Z45.02",
+        "Z45.09",
+        "Z95.0"
+       ],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1161_circulationaha_120_050252::atrial fibrillation and flutter",
+     "paper": "10_1161_circulationaha_120_050252",
+     "paper_label": "Danesh Yazdi 2021 Circulation",
+     "outcome_name": "atrial fibrillation and flutter",
+     "scope": "narrower",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": null,
+      "note": "annual PM2.5, NO2, ozone",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1161_circulationaha_120_050252::atrial fibrillation and flutter",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "427.3"
+       ],
+       "icd10": [
+        "I48"
+       ],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1016_j_envres_2025_122779::atrial fibrillation and flutter",
+     "paper": "10_1016_j_envres_2025_122779",
+     "paper_label": "Danesh Yazdi 2025 Environ Res (PM2.5 components)",
+     "outcome_name": "atrial fibrillation and flutter",
+     "scope": "narrower",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": null,
+      "note": "annual PM2.5 components",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1016_j_envres_2025_122779::atrial fibrillation and flutter",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "427.3"
+       ],
+       "icd10": [
+        "I48"
+       ],
+       "suspect": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "C6",
+   "group": "Cardiovascular and blood-vessel conditions",
+   "name": "Hypertension with complications (hypertensive heart and kidney disease)",
+   "former_name": "Hypertensive heart disease",
+   "in_reference_list": true,
+   "merged_from": [],
+   "note": "Renamed from 'Hypertensive heart disease': the only code set is CCS 99 (402-405).",
+   "air_pollution": false,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": false,
+   "other_exposure": false,
+   "represented": false,
+   "partially_represented": false,
+   "icd10_available": false,
+   "outcome_wide_only": false,
+   "n_papers": 0,
+   "n_exact_codesets": 0,
+   "n_codesets": 0,
+   "n_suspect_codesets": 0,
+   "support": {
+    "air_pollution_long_term": [],
+    "air_pollution_short_term": [],
+    "extreme_heat_long_term": [],
+    "extreme_heat_short_term": [],
+    "extreme_weather_long_term": [],
+    "extreme_weather_short_term": [],
+    "other_exposure": []
+   },
+   "sources": []
+  },
+  {
+   "id": "C15",
+   "group": "Cardiovascular and blood-vessel conditions",
+   "name": "Ischemic stroke",
+   "former_name": null,
+   "in_reference_list": false,
+   "merged_from": [],
+   "note": "Split from the reference bin 'Stroke, including ischemic and hemorrhagic stroke': hemorrhagic stroke has no code set (only multi-level CCS 7.3.1.1 in Thomas 2022); all stroke is in N4.",
+   "air_pollution": true,
+   "extreme_heat": true,
+   "extreme_weather": false,
+   "long_term": true,
+   "short_term": true,
+   "other_exposure": false,
+   "represented": true,
+   "partially_represented": false,
+   "icd10_available": true,
+   "outcome_wide_only": false,
+   "n_papers": 5,
+   "n_exact_codesets": 5,
+   "n_codesets": 5,
+   "n_suspect_codesets": 2,
+   "support": {
+    "air_pollution_long_term": [
+     "Danesh Yazdi 2021 Circulation",
+     "Danesh Yazdi 2022 Sci Total Environ",
+     "Danesh Yazdi 2025 Environ Int (second events)",
+     "Danesh Yazdi 2025 Environ Res (PM2.5 components)"
+    ],
+    "air_pollution_short_term": [
+     "deSouza 2021 Epidemiology"
+    ],
+    "extreme_heat_long_term": [
+     "Danesh Yazdi 2022 Sci Total Environ",
+     "Danesh Yazdi 2025 Environ Int (second events)"
+    ],
+    "extreme_heat_short_term": [],
+    "extreme_weather_long_term": [],
+    "extreme_weather_short_term": [],
+    "other_exposure": []
+   },
+   "sources": [
+    {
+     "outcome_id": "10_1161_circulationaha_120_050252::ischemic stroke",
+     "paper": "10_1161_circulationaha_120_050252",
+     "paper_label": "Danesh Yazdi 2021 Circulation",
+     "outcome_name": "ischemic stroke",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": null,
+      "note": "annual PM2.5, NO2, ozone",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1161_circulationaha_120_050252::ischemic stroke",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "433.X1",
+        "434.X1",
+        "436"
+       ],
+       "icd10": [
+        "I63"
+       ],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1016_j_scitotenv_2022_156855::ischemic stroke",
+     "paper": "10_1016_j_scitotenv_2022_156855",
+     "paper_label": "Danesh Yazdi 2022 Sci Total Environ",
+     "outcome_name": "ischemic stroke",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": true,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": null,
+      "note": "annual pollution and seasonal temperature (difference-in-differences)",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1016_j_scitotenv_2022_156855::ischemic stroke",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "433.X1",
+        "434.X1",
+        "436"
+       ],
+       "icd10": [
+        "I63"
+       ],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1097_ede_0000000000001265::ischemic stroke",
+     "paper": "10_1097_ede_0000000000001265",
+     "paper_label": "deSouza 2021 Epidemiology",
+     "outcome_name": "ischemic stroke",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "PM2.5, case-crossover (Medicaid and Medicare)",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1097_ede_0000000000001265::ischemic stroke",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "434.91"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1016_j_envint_2025_109617::second admission with ischemic stroke",
+     "paper": "10_1016_j_envint_2025_109617",
+     "paper_label": "Danesh Yazdi 2025 Environ Int (second events)",
+     "outcome_name": "second admission with ischemic stroke",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": true,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": null,
+      "note": "intermediate and long-term pollution and temperature",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1016_j_envint_2025_109617::second admission with ischemic stroke",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "433.X1",
+        "434.X1",
+        "436"
+       ],
+       "icd10": [
+        "I163"
+       ],
+       "suspect": [
+        "ICD-10 printed I163 (likely I63)"
+       ]
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1016_j_envres_2025_122779::ischemic stroke",
+     "paper": "10_1016_j_envres_2025_122779",
+     "paper_label": "Danesh Yazdi 2025 Environ Res (PM2.5 components)",
+     "outcome_name": "ischemic stroke",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": null,
+      "note": "annual PM2.5 components",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1016_j_envres_2025_122779::ischemic stroke",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "433.X1",
+        "434.X1",
+        "436"
+       ],
+       "icd10": [
+        "I163"
+       ],
+       "suspect": [
+        "ICD-10 printed I163 (likely I63)"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "C8",
+   "group": "Cardiovascular and blood-vessel conditions",
+   "name": "Blood clots: phlebitis, thrombophlebitis, and thromboembolism",
+   "former_name": null,
+   "in_reference_list": true,
+   "merged_from": [],
+   "note": null,
+   "air_pollution": false,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": false,
+   "other_exposure": false,
+   "represented": false,
+   "partially_represented": false,
+   "icd10_available": false,
+   "outcome_wide_only": false,
+   "n_papers": 0,
+   "n_exact_codesets": 0,
+   "n_codesets": 0,
+   "n_suspect_codesets": 0,
+   "support": {
+    "air_pollution_long_term": [],
+    "air_pollution_short_term": [],
+    "extreme_heat_long_term": [],
+    "extreme_heat_short_term": [],
+    "extreme_weather_long_term": [],
+    "extreme_weather_short_term": [],
+    "other_exposure": []
+   },
+   "sources": []
+  },
+  {
+   "id": "C10",
+   "group": "Cardiovascular and blood-vessel conditions",
+   "name": "Peripheral vascular disease and atherosclerosis",
+   "former_name": null,
+   "in_reference_list": false,
+   "merged_from": [],
+   "note": "ICD-9 440-448 in the MCAPS papers; CCS 114 (atherosclerosis) in the heat papers.",
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": true,
+   "short_term": true,
+   "other_exposure": true,
+   "represented": true,
+   "partially_represented": false,
+   "icd10_available": false,
+   "outcome_wide_only": false,
+   "n_papers": 3,
+   "n_exact_codesets": 3,
+   "n_codesets": 3,
+   "n_suspect_codesets": 0,
+   "support": {
+    "air_pollution_long_term": [
+     "Zigler 2018 Epidemiology"
+    ],
+    "air_pollution_short_term": [
+     "Bell 2009 Circulation"
+    ],
+    "extreme_heat_long_term": [],
+    "extreme_heat_short_term": [],
+    "extreme_weather_long_term": [],
+    "extreme_weather_short_term": [],
+    "other_exposure": [
+     "Correia 2013 BMJ",
+     "Zigler 2018 Epidemiology"
+    ]
+   },
+   "sources": [
+    {
+     "outcome_id": "10_1161_circulationaha_109_851113::peripheral vascular disease",
+     "paper": "10_1161_circulationaha_109_851113",
+     "paper_label": "Bell 2009 Circulation",
+     "outcome_name": "peripheral vascular disease",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "carbon monoxide, daily time series",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1161_circulationaha_109_851113::peripheral vascular disease",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "440–448"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1136_bmj_f5561::peripheral vascular disease",
+     "paper": "10_1136_bmj_f5561",
+     "paper_label": "Correia 2013 BMJ",
+     "outcome_name": "peripheral vascular disease",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": "aircraft noise",
+      "note": "annual aircraft noise near airports",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1136_bmj_f5561::peripheral vascular disease",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "440 to 448"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1097_ede_0000000000000777::peripheral vascular disease",
+     "paper": "10_1097_ede_0000000000000777",
+     "paper_label": "Zigler 2018 Epidemiology",
+     "outcome_name": "peripheral vascular disease",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": "air quality policy (NAAQS nonattainment designations)",
+      "note": "causal effect of designations via PM2.5 reductions",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1097_ede_0000000000000777::peripheral vascular disease",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "440.xx-448.xx"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "C11",
+   "group": "Cardiovascular and blood-vessel conditions",
+   "name": "Cardiomyopathy",
+   "former_name": null,
+   "in_reference_list": false,
+   "merged_from": [],
+   "note": null,
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": true,
+   "short_term": false,
+   "other_exposure": false,
+   "represented": true,
+   "partially_represented": false,
+   "icd10_available": true,
+   "outcome_wide_only": false,
+   "n_papers": 1,
+   "n_exact_codesets": 1,
+   "n_codesets": 1,
+   "n_suspect_codesets": 0,
+   "support": {
+    "air_pollution_long_term": [
+     "Wei 2024 BMJ"
+    ],
+    "air_pollution_short_term": [],
+    "extreme_heat_long_term": [],
+    "extreme_heat_short_term": [],
+    "extreme_weather_long_term": [],
+    "extreme_weather_short_term": [],
+    "other_exposure": []
+   },
+   "sources": [
+    {
+     "outcome_id": "10_1136_bmj_2023_076939::cardiomyopathy",
+     "paper": "10_1136_bmj_2023_076939",
+     "paper_label": "Wei 2024 BMJ",
+     "outcome_name": "cardiomyopathy",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": null,
+      "note": "3-year average PM2.5",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1136_bmj_2023_076939::cardiomyopathy",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "425.x"
+       ],
+       "icd10": [
+        "I42.x"
+       ],
+       "suspect": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "C12",
+   "group": "Cardiovascular and blood-vessel conditions",
+   "name": "Valvular heart disease",
+   "former_name": null,
+   "in_reference_list": false,
+   "merged_from": [],
+   "note": null,
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": true,
+   "short_term": false,
+   "other_exposure": false,
+   "represented": true,
+   "partially_represented": false,
+   "icd10_available": true,
+   "outcome_wide_only": false,
+   "n_papers": 1,
+   "n_exact_codesets": 1,
+   "n_codesets": 1,
+   "n_suspect_codesets": 0,
+   "support": {
+    "air_pollution_long_term": [
+     "Wei 2024 BMJ"
+    ],
+    "air_pollution_short_term": [],
+    "extreme_heat_long_term": [],
+    "extreme_heat_short_term": [],
+    "extreme_weather_long_term": [],
+    "extreme_weather_short_term": [],
+    "other_exposure": []
+   },
+   "sources": [
+    {
+     "outcome_id": "10_1136_bmj_2023_076939::valvular heart disease",
+     "paper": "10_1136_bmj_2023_076939",
+     "paper_label": "Wei 2024 BMJ",
+     "outcome_name": "valvular heart disease",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": null,
+      "note": "3-year average PM2.5",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1136_bmj_2023_076939::valvular heart disease",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "424.x"
+       ],
+       "icd10": [
+        "I34.x",
+        "I35.x",
+        "I36.x",
+        "I37.x",
+        "I38.x",
+        "I39.x"
+       ],
+       "suspect": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "C13",
+   "group": "Cardiovascular and blood-vessel conditions",
+   "name": "Aortic and other arterial aneurysms",
+   "former_name": null,
+   "in_reference_list": false,
+   "merged_from": [],
+   "note": null,
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": true,
+   "short_term": false,
+   "other_exposure": false,
+   "represented": false,
+   "partially_represented": true,
+   "icd10_available": true,
+   "outcome_wide_only": false,
+   "n_papers": 1,
+   "n_exact_codesets": 0,
+   "n_codesets": 1,
+   "n_suspect_codesets": 0,
+   "support": {
+    "air_pollution_long_term": [
+     "Wei 2024 BMJ"
+    ],
+    "air_pollution_short_term": [],
+    "extreme_heat_long_term": [],
+    "extreme_heat_short_term": [],
+    "extreme_weather_long_term": [],
+    "extreme_weather_short_term": [],
+    "other_exposure": []
+   },
+   "sources": [
+    {
+     "outcome_id": "10_1136_bmj_2023_076939::thoracic and abdominal aortic aneurysms",
+     "paper": "10_1136_bmj_2023_076939",
+     "paper_label": "Wei 2024 BMJ",
+     "outcome_name": "thoracic and abdominal aortic aneurysms",
+     "scope": "narrower",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": null,
+      "note": "3-year average PM2.5",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1136_bmj_2023_076939::thoracic and abdominal aortic aneurysms",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "441.x"
+       ],
+       "icd10": [
+        "I71.x"
+       ],
+       "suspect": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "N1",
+   "group": "Neurological and mental health",
+   "name": "Parkinson's disease",
+   "former_name": null,
+   "in_reference_list": true,
+   "merged_from": [],
+   "note": null,
+   "air_pollution": true,
+   "extreme_heat": true,
+   "extreme_weather": false,
+   "long_term": true,
+   "short_term": true,
+   "other_exposure": true,
+   "represented": true,
+   "partially_represented": false,
+   "icd10_available": true,
+   "outcome_wide_only": false,
+   "n_papers": 7,
+   "n_exact_codesets": 7,
+   "n_codesets": 7,
+   "n_suspect_codesets": 0,
+   "support": {
+    "air_pollution_long_term": [
+     "Delaney 2026 Environ Epidemiol",
+     "Shi 2020 Lancet Planet Health",
+     "Wang 2024 npj Parkinsons Dis"
+    ],
+    "air_pollution_short_term": [
+     "Zanobetti 2014 Environ Health"
+    ],
+    "extreme_heat_long_term": [],
+    "extreme_heat_short_term": [
+     "Dinehart 2026 J Expo Sci Environ Epidemiol"
+    ],
+    "extreme_weather_long_term": [],
+    "extreme_weather_short_term": [],
+    "other_exposure": [
+     "Klompmaker 2023 JAMA Netw Open",
+     "Klompmaker 2024 Environ Int"
+    ]
+   },
+   "sources": [
+    {
+     "outcome_id": "10_1186_1476_069x_13_38::Parkinson's disease",
+     "paper": "10_1186_1476_069x_13_38",
+     "paper_label": "Zanobetti 2014 Environ Health",
+     "outcome_name": "Parkinson's disease",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "PM2.5, national case-crossover",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1186_1476_069x_13_38::Parkinson's disease",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "332"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1016_s2542_5196_20_30227_8::first hospital admission for Parkinson's disease",
+     "paper": "10_1016_s2542_5196_20_30227_8",
+     "paper_label": "Shi 2020 Lancet Planet Health",
+     "outcome_name": "first hospital admission for Parkinson's disease",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": null,
+      "note": "annual PM2.5",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1016_s2542_5196_20_30227_8::first hospital admission for Parkinson's disease",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "332"
+       ],
+       "icd10": [
+        "G20",
+        "G21·11",
+        "G21·19",
+        "G21·8"
+       ],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1001_jamanetworkopen_2022_47664::first hospitalization with Parkinson disease",
+     "paper": "10_1001_jamanetworkopen_2022_47664",
+     "paper_label": "Klompmaker 2023 JAMA Netw Open",
+     "outcome_name": "first hospitalization with Parkinson disease",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": "greenness, parks, blue space",
+      "note": "annual NDVI, park cover, blue space",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1001_jamanetworkopen_2022_47664::first hospitalization with Parkinson disease",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "332.0",
+        "332.1"
+       ],
+       "icd10": [
+        "G20",
+        "G21.11",
+        "G21.19",
+        "G21.8"
+       ],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1016_j_envint_2024_108739::first PD-involved hospitalization",
+     "paper": "10_1016_j_envint_2024_108739",
+     "paper_label": "Klompmaker 2024 Environ Int",
+     "outcome_name": "first PD-involved hospitalization",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": "street-view greenspace",
+      "note": "annual street-view trees, grass, other green",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1016_j_envint_2024_108739::first PD-involved hospitalization",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "332.0",
+        "332.1"
+       ],
+       "icd10": [
+        "G20",
+        "G21.11",
+        "G21.19",
+        "G21.8"
+       ],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1038_s41531_024_00815_x::first hospitalization with Parkinson's disease",
+     "paper": "10_1038_s41531_024_00815_x",
+     "paper_label": "Wang 2024 npj Parkinsons Dis",
+     "outcome_name": "first hospitalization with Parkinson's disease",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": null,
+      "note": "annual PM2.5, NO2, summer ozone",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1038_s41531_024_00815_x::first hospitalization with Parkinson's disease",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "332"
+       ],
+       "icd10": [
+        "G20"
+       ],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1038_s41370_026_00882_7::first hospitalization with Parkinson's disease (warm season)",
+     "paper": "10_1038_s41370_026_00882_7",
+     "paper_label": "Dinehart 2026 J Expo Sci Environ Epidemiol",
+     "outcome_name": "first hospitalization with Parkinson's disease (warm season)",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": true,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "daily maximum heat index, lags 0-2",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1038_s41370_026_00882_7::first hospitalization with Parkinson's disease (warm season)",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "332.0"
+       ],
+       "icd10": [
+        "G20"
+       ],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1097_ee9_0000000000000519::first hospitalization with Parkinson's disease",
+     "paper": "10_1097_ee9_0000000000000519",
+     "paper_label": "Delaney 2026 Environ Epidemiol",
+     "outcome_name": "first hospitalization with Parkinson's disease",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": null,
+      "note": "10-year lagged annual PM2.5, NO2, summer ozone",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1097_ee9_0000000000000519::first hospitalization with Parkinson's disease",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "332/332.0"
+       ],
+       "icd10": [
+        "G20"
+       ],
+       "suspect": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "N2",
+   "group": "Neurological and mental health",
+   "name": "Dementia, including Alzheimer's disease",
+   "former_name": null,
+   "in_reference_list": true,
+   "merged_from": [],
+   "note": null,
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": true,
+   "short_term": true,
+   "other_exposure": true,
+   "represented": true,
+   "partially_represented": false,
+   "icd10_available": true,
+   "outcome_wide_only": false,
+   "n_papers": 7,
+   "n_exact_codesets": 4,
+   "n_codesets": 12,
+   "n_suspect_codesets": 0,
+   "support": {
+    "air_pollution_long_term": [
+     "Lee 2019 Environ Pollut",
+     "Mork 2023 Environ Int",
+     "Shi 2020 Lancet Planet Health"
+    ],
+    "air_pollution_short_term": [
+     "Zanobetti 2014 Environ Health"
+    ],
+    "extreme_heat_long_term": [],
+    "extreme_heat_short_term": [],
+    "extreme_weather_long_term": [],
+    "extreme_weather_short_term": [],
+    "other_exposure": [
+     "Klompmaker 2023 JAMA Netw Open",
+     "Spoto 2025 Alzheimers Dement"
+    ]
+   },
+   "sources": [
+    {
+     "outcome_id": "10_1186_1476_069x_13_38::dementia",
+     "paper": "10_1186_1476_069x_13_38",
+     "paper_label": "Zanobetti 2014 Environ Health",
+     "outcome_name": "dementia",
+     "scope": "narrower",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "PM2.5, national case-crossover",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1186_1476_069x_13_38::dementia",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "290"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1186_1476_069x_13_38::Alzheimer's disease",
+     "paper": "10_1186_1476_069x_13_38",
+     "paper_label": "Zanobetti 2014 Environ Health",
+     "outcome_name": "Alzheimer's disease",
+     "scope": "narrower",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "PM2.5, national case-crossover",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1186_1476_069x_13_38::Alzheimer's disease",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "331.0"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1016_j_envpol_2019_07_094::first hospitalization with dementia",
+     "paper": "10_1016_j_envpol_2019_07_094",
+     "paper_label": "Lee 2019 Environ Pollut",
+     "outcome_name": "first hospitalization with dementia",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": null,
+      "note": "annual PM2.5",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1016_j_envpol_2019_07_094::first hospitalization with dementia",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "290.0",
+        "290.20",
+        "290.21",
+        "290.3",
+        "290.40",
+        "290.41",
+        "290.42",
+        "290.43",
+        "291.2",
+        "294.0",
+        "294.1",
+        "294.10",
+        "294.11",
+        "331.0",
+        "331.1",
+        "331.11",
+        "331.19",
+        "331.2",
+        "331.7",
+        "331.82"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1016_s2542_5196_20_30227_8::first hospital admission for Alzheimer's disease and related dementias",
+     "paper": "10_1016_s2542_5196_20_30227_8",
+     "paper_label": "Shi 2020 Lancet Planet Health",
+     "outcome_name": "first hospital admission for Alzheimer's disease and related dementias",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": null,
+      "note": "annual PM2.5",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1016_s2542_5196_20_30227_8::first hospital admission for Alzheimer's disease and related dementias",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "331·0",
+        "290"
+       ],
+       "icd10": [
+        "G30·9",
+        "F05"
+       ],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1001_jamanetworkopen_2022_47664::first hospitalization with ADRD",
+     "paper": "10_1001_jamanetworkopen_2022_47664",
+     "paper_label": "Klompmaker 2023 JAMA Netw Open",
+     "outcome_name": "first hospitalization with ADRD",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": "greenness, parks, blue space",
+      "note": "annual NDVI, park cover, blue space",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1001_jamanetworkopen_2022_47664::first hospitalization with ADRD",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "331.0",
+        "331.11",
+        "331.19",
+        "331.2",
+        "331.7",
+        "290.0",
+        "290.10",
+        "290.11",
+        "290.12",
+        "290.13",
+        "290.20",
+        "290.21",
+        "290.3",
+        "290.40",
+        "290.41",
+        "290.42",
+        "290.43",
+        "294.0",
+        "294.10",
+        "294.11",
+        "294.20",
+        "294.21",
+        "294.8",
+        "797"
+       ],
+       "icd10": [
+        "F01.50",
+        "F01.51",
+        "F02.80",
+        "F02.81",
+        "F03.90",
+        "F03.91",
+        "F04",
+        "F05",
+        "F06.1",
+        "F06.8",
+        "G13.8",
+        "G30.0",
+        "G30.1",
+        "G30.8",
+        "G30.9",
+        "G31.01",
+        "G31.09",
+        "G31.1",
+        "G31.2",
+        "G94",
+        "R41.81",
+        "R54"
+       ],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1016_j_scitotenv_2020_142524::cerebral degenerations",
+     "paper": "10_1016_j_scitotenv_2020_142524",
+     "paper_label": "Yitshak-Sade 2021 Sci Total Environ",
+     "outcome_name": "cerebral degenerations",
+     "scope": "broader",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "high PM2.5 days, matched",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1016_j_scitotenv_2020_142524::cerebral degenerations",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "331"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1002_alz_70945::Alzheimer's disease",
+     "paper": "10_1002_alz_70945",
+     "paper_label": "Spoto 2025 Alzheimers Dement",
+     "outcome_name": "Alzheimer's disease",
+     "scope": "narrower",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": false,
+      "other_exposure": "none (diagnostic coding study)",
+      "note": "dementia ICD-10 coding variation",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1002_alz_70945::Alzheimer's disease",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [],
+       "icd10": [
+        "G300",
+        "G301",
+        "G308",
+        "G309"
+       ],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1002_alz_70945::non-specific dementia",
+     "paper": "10_1002_alz_70945",
+     "paper_label": "Spoto 2025 Alzheimers Dement",
+     "outcome_name": "non-specific dementia",
+     "scope": "narrower",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": false,
+      "other_exposure": "none (diagnostic coding study)",
+      "note": "dementia ICD-10 coding variation",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1002_alz_70945::non-specific dementia",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [],
+       "icd10": [
+        "F0280",
+        "F0281",
+        "F0390",
+        "F0391",
+        "G3109",
+        "G311",
+        "G3189",
+        "G319"
+       ],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1002_alz_70945::vascular dementia",
+     "paper": "10_1002_alz_70945",
+     "paper_label": "Spoto 2025 Alzheimers Dement",
+     "outcome_name": "vascular dementia",
+     "scope": "narrower",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": false,
+      "other_exposure": "none (diagnostic coding study)",
+      "note": "dementia ICD-10 coding variation",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1002_alz_70945::vascular dementia",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [],
+       "icd10": [
+        "F0150",
+        "F0151"
+       ],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1002_alz_70945::Pick's disease",
+     "paper": "10_1002_alz_70945",
+     "paper_label": "Spoto 2025 Alzheimers Dement",
+     "outcome_name": "Pick's disease",
+     "scope": "narrower",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": false,
+      "other_exposure": "none (diagnostic coding study)",
+      "note": "dementia ICD-10 coding variation",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1002_alz_70945::Pick's disease",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [],
+       "icd10": [
+        "G3101"
+       ],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1002_alz_70945::neurocognitive disorder",
+     "paper": "10_1002_alz_70945",
+     "paper_label": "Spoto 2025 Alzheimers Dement",
+     "outcome_name": "neurocognitive disorder",
+     "scope": "narrower",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": false,
+      "other_exposure": "none (diagnostic coding study)",
+      "note": "dementia ICD-10 coding variation",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1002_alz_70945::neurocognitive disorder",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [],
+       "icd10": [
+        "G3183",
+        "G3185"
+       ],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1016_j_envint_2022_107694::first hospitalization with ADRD",
+     "paper": "10_1016_j_envint_2022_107694",
+     "paper_label": "Mork 2023 Environ Int",
+     "outcome_name": "first hospitalization with ADRD",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": null,
+      "note": "10-year lagged annual PM2.5, NO2, summer ozone",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1016_j_envint_2022_107694::first hospitalization with ADRD",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "331.0",
+        "331.11",
+        "331.19",
+        "331.2",
+        "331.7",
+        "290.0",
+        "290.10",
+        "290.11",
+        "290.12",
+        "290.13",
+        "290.20",
+        "290.21",
+        "290.3",
+        "290.40",
+        "290.41",
+        "290.42",
+        "290.43",
+        "294.0",
+        "294.10",
+        "294.11",
+        "294.20",
+        "294.21",
+        "294.8",
+        "797"
+       ],
+       "icd10": [
+        "F01.50",
+        "F01.51",
+        "F02.80",
+        "F02.81",
+        "F03.90",
+        "F03.91",
+        "F04",
+        "F05",
+        "F06.1",
+        "F06.8",
+        "G13.8",
+        "G30.0",
+        "G30.1",
+        "G30.8",
+        "G30.9",
+        "G31.01",
+        "G31.09",
+        "G31.1",
+        "G31.2",
+        "G94",
+        "R41.81",
+        "R54"
+       ],
+       "suspect": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "N3",
+   "group": "Neurological and mental health",
+   "name": "Depression and mood disorders",
+   "former_name": null,
+   "in_reference_list": true,
+   "merged_from": [],
+   "note": null,
+   "air_pollution": true,
+   "extreme_heat": true,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": true,
+   "other_exposure": false,
+   "represented": true,
+   "partially_represented": false,
+   "icd10_available": true,
+   "outcome_wide_only": false,
+   "n_papers": 1,
+   "n_exact_codesets": 1,
+   "n_codesets": 1,
+   "n_suspect_codesets": 0,
+   "support": {
+    "air_pollution_long_term": [],
+    "air_pollution_short_term": [
+     "Qiu 2022 Lancet Planet Health"
+    ],
+    "extreme_heat_long_term": [],
+    "extreme_heat_short_term": [
+     "Qiu 2022 Lancet Planet Health"
+    ],
+    "extreme_weather_long_term": [],
+    "extreme_weather_short_term": [],
+    "other_exposure": []
+   },
+   "sources": [
+    {
+     "outcome_id": "10_1016_s2542_5196_22_00017_1::depression",
+     "paper": "10_1016_s2542_5196_22_00017_1",
+     "paper_label": "Qiu 2022 Lancet Planet Health",
+     "outcome_name": "depression",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": true,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "daily PM2.5, NO2, ozone and ambient temperature, case-crossover",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1016_s2542_5196_22_00017_1::depression",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "296.2x",
+        "296.3x",
+        "300.4x",
+        "309.0x",
+        "309.1x",
+        "311.xx"
+       ],
+       "icd10": [
+        "F32.xx",
+        "F33.xx",
+        "F34.1x",
+        "F39.xx",
+        "F43.21"
+       ],
+       "suspect": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "N4",
+   "group": "Neurological and mental health",
+   "name": "Cerebrovascular disease, including stroke",
+   "former_name": "Stroke and other cerebrovascular conditions",
+   "in_reference_list": true,
+   "merged_from": [
+    "C7 (Stroke, including ischemic and hemorrhagic stroke)"
+   ],
+   "note": "Includes all stroke (430-438 / I60-I69); ischemic stroke also has its own bin C15.",
+   "air_pollution": true,
+   "extreme_heat": true,
+   "extreme_weather": false,
+   "long_term": true,
+   "short_term": true,
+   "other_exposure": true,
+   "represented": true,
+   "partially_represented": false,
+   "icd10_available": true,
+   "outcome_wide_only": false,
+   "n_papers": 7,
+   "n_exact_codesets": 7,
+   "n_codesets": 7,
+   "n_suspect_codesets": 0,
+   "support": {
+    "air_pollution_long_term": [
+     "Klompmaker 2021 Environ Int",
+     "Wei 2024 BMJ",
+     "Zigler 2018 Epidemiology"
+    ],
+    "air_pollution_short_term": [
+     "Bell 2009 Circulation"
+    ],
+    "extreme_heat_long_term": [
+     "Klompmaker 2023 Environ Int",
+     "Klompmaker 2023 Environ Res"
+    ],
+    "extreme_heat_short_term": [],
+    "extreme_weather_long_term": [],
+    "extreme_weather_short_term": [],
+    "other_exposure": [
+     "Correia 2013 BMJ",
+     "Zigler 2018 Epidemiology"
+    ]
+   },
+   "sources": [
+    {
+     "outcome_id": "10_1161_circulationaha_109_851113::cerebrovascular events",
+     "paper": "10_1161_circulationaha_109_851113",
+     "paper_label": "Bell 2009 Circulation",
+     "outcome_name": "cerebrovascular events",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "carbon monoxide, daily time series",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1161_circulationaha_109_851113::cerebrovascular events",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "430–438"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1136_bmj_f5561::cerebrovascular events",
+     "paper": "10_1136_bmj_f5561",
+     "paper_label": "Correia 2013 BMJ",
+     "outcome_name": "cerebrovascular events",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": "aircraft noise",
+      "note": "annual aircraft noise near airports",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1136_bmj_f5561::cerebrovascular events",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "430 to 438"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1097_ede_0000000000000777::cardiovascular stroke",
+     "paper": "10_1097_ede_0000000000000777",
+     "paper_label": "Zigler 2018 Epidemiology",
+     "outcome_name": "cardiovascular stroke",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": "air quality policy (NAAQS nonattainment designations)",
+      "note": "causal effect of designations via PM2.5 reductions",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1097_ede_0000000000000777::cardiovascular stroke",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "430.xx-438.xx"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1016_j_envint_2021_106715::cerebrovascular disease (CBV)",
+     "paper": "10_1016_j_envint_2021_106715",
+     "paper_label": "Klompmaker 2021 Environ Int",
+     "outcome_name": "cerebrovascular disease (CBV)",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": null,
+      "note": "annual PM2.5, NO2, ozone; effect modification by greenness, temperature, humidity",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1016_j_envint_2021_106715::cerebrovascular disease (CBV)",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "430–438"
+       ],
+       "icd10": [
+        "I60-I69"
+       ],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1016_j_envres_2022_114684::cerebrovascular disease (CBV; secondary outcome)",
+     "paper": "10_1016_j_envres_2022_114684",
+     "paper_label": "Klompmaker 2023 Environ Res",
+     "outcome_name": "cerebrovascular disease (CBV; secondary outcome)",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": true,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": null,
+      "note": "long-term summer/winter average temperature (climate)",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1016_j_envres_2022_114684::cerebrovascular disease (CBV; secondary outcome)",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "430–438"
+       ],
+       "icd10": [
+        "I60–I69"
+       ],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1016_j_envint_2023_108182::cerebrovascular disease (CBV)",
+     "paper": "10_1016_j_envint_2023_108182",
+     "paper_label": "Klompmaker 2023 Environ Int",
+     "outcome_name": "cerebrovascular disease (CBV)",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": true,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": null,
+      "note": "long-term summer specific humidity (climate)",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1016_j_envint_2023_108182::cerebrovascular disease (CBV)",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "430–438"
+       ],
+       "icd10": [
+        "I60-I69"
+       ],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1136_bmj_2023_076939::cerebrovascular disease",
+     "paper": "10_1136_bmj_2023_076939",
+     "paper_label": "Wei 2024 BMJ",
+     "outcome_name": "cerebrovascular disease",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": null,
+      "note": "3-year average PM2.5",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1136_bmj_2023_076939::cerebrovascular disease",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "430.x",
+        "431.x",
+        "432.x",
+        "433.x",
+        "434.x",
+        "435.x",
+        "436.x",
+        "437.x",
+        "438.x"
+       ],
+       "icd10": [
+        "I60.x",
+        "I61.x",
+        "I62.x",
+        "I63.x",
+        "I64.x",
+        "I65.x",
+        "I66.x",
+        "I67.x",
+        "I68.x",
+        "I69.x"
+       ],
+       "suspect": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "N5",
+   "group": "Neurological and mental health",
+   "name": "Multiple sclerosis",
+   "former_name": null,
+   "in_reference_list": false,
+   "merged_from": [],
+   "note": null,
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": true,
+   "other_exposure": false,
+   "represented": true,
+   "partially_represented": false,
+   "icd10_available": false,
+   "outcome_wide_only": false,
+   "n_papers": 1,
+   "n_exact_codesets": 1,
+   "n_codesets": 1,
+   "n_suspect_codesets": 0,
+   "support": {
+    "air_pollution_long_term": [],
+    "air_pollution_short_term": [
+     "Zanobetti 2014 Environ Health"
+    ],
+    "extreme_heat_long_term": [],
+    "extreme_heat_short_term": [],
+    "extreme_weather_long_term": [],
+    "extreme_weather_short_term": [],
+    "other_exposure": []
+   },
+   "sources": [
+    {
+     "outcome_id": "10_1186_1476_069x_13_38::multiple sclerosis",
+     "paper": "10_1186_1476_069x_13_38",
+     "paper_label": "Zanobetti 2014 Environ Health",
+     "outcome_name": "multiple sclerosis",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "PM2.5, national case-crossover",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1186_1476_069x_13_38::multiple sclerosis",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "340"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "N6",
+   "group": "Neurological and mental health",
+   "name": "Schizophrenia and other psychotic disorders",
+   "former_name": null,
+   "in_reference_list": false,
+   "merged_from": [],
+   "note": null,
+   "air_pollution": true,
+   "extreme_heat": true,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": true,
+   "other_exposure": false,
+   "represented": true,
+   "partially_represented": false,
+   "icd10_available": true,
+   "outcome_wide_only": false,
+   "n_papers": 1,
+   "n_exact_codesets": 1,
+   "n_codesets": 1,
+   "n_suspect_codesets": 0,
+   "support": {
+    "air_pollution_long_term": [],
+    "air_pollution_short_term": [
+     "Qiu 2022 Lancet Planet Health"
+    ],
+    "extreme_heat_long_term": [],
+    "extreme_heat_short_term": [
+     "Qiu 2022 Lancet Planet Health"
+    ],
+    "extreme_weather_long_term": [],
+    "extreme_weather_short_term": [],
+    "other_exposure": []
+   },
+   "sources": [
+    {
+     "outcome_id": "10_1016_s2542_5196_22_00017_1::schizophrenia",
+     "paper": "10_1016_s2542_5196_22_00017_1",
+     "paper_label": "Qiu 2022 Lancet Planet Health",
+     "outcome_name": "schizophrenia",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": true,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "daily PM2.5, NO2, ozone and ambient temperature, case-crossover",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1016_s2542_5196_22_00017_1::schizophrenia",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "295.xx"
+       ],
+       "icd10": [
+        "F20.xx",
+        "F25.0x",
+        "F25.1x"
+       ],
+       "suspect": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "N7",
+   "group": "Neurological and mental health",
+   "name": "Bipolar disorder",
+   "former_name": null,
+   "in_reference_list": false,
+   "merged_from": [],
+   "note": null,
+   "air_pollution": true,
+   "extreme_heat": true,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": true,
+   "other_exposure": false,
+   "represented": true,
+   "partially_represented": false,
+   "icd10_available": true,
+   "outcome_wide_only": false,
+   "n_papers": 1,
+   "n_exact_codesets": 1,
+   "n_codesets": 1,
+   "n_suspect_codesets": 0,
+   "support": {
+    "air_pollution_long_term": [],
+    "air_pollution_short_term": [
+     "Qiu 2022 Lancet Planet Health"
+    ],
+    "extreme_heat_long_term": [],
+    "extreme_heat_short_term": [
+     "Qiu 2022 Lancet Planet Health"
+    ],
+    "extreme_weather_long_term": [],
+    "extreme_weather_short_term": [],
+    "other_exposure": []
+   },
+   "sources": [
+    {
+     "outcome_id": "10_1016_s2542_5196_22_00017_1::bipolar disorder",
+     "paper": "10_1016_s2542_5196_22_00017_1",
+     "paper_label": "Qiu 2022 Lancet Planet Health",
+     "outcome_name": "bipolar disorder",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": true,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "daily PM2.5, NO2, ozone and ambient temperature, case-crossover",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1016_s2542_5196_22_00017_1::bipolar disorder",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "296.0x",
+        "296.40",
+        "296.4x",
+        "296.5x",
+        "296.6x",
+        "296.7x",
+        "296.89",
+        "301.13",
+        "296.80"
+       ],
+       "icd10": [
+        "F30.xx",
+        "F31.xx",
+        "F34.0x"
+       ],
+       "suspect": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "K0",
+   "group": "Kidney, metabolic, and fluid-balance conditions",
+   "name": "Kidney and urinary system diseases (composite)",
+   "former_name": null,
+   "in_reference_list": false,
+   "merged_from": [],
+   "note": null,
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": true,
+   "short_term": false,
+   "other_exposure": false,
+   "represented": true,
+   "partially_represented": false,
+   "icd10_available": true,
+   "outcome_wide_only": false,
+   "n_papers": 1,
+   "n_exact_codesets": 1,
+   "n_codesets": 1,
+   "n_suspect_codesets": 0,
+   "support": {
+    "air_pollution_long_term": [
+     "Lee 2022 BMJ Medicine"
+    ],
+    "air_pollution_short_term": [],
+    "extreme_heat_long_term": [],
+    "extreme_heat_short_term": [],
+    "extreme_weather_long_term": [],
+    "extreme_weather_short_term": [],
+    "other_exposure": []
+   },
+   "sources": [
+    {
+     "outcome_id": "10_1136_bmjmed_2021_000009::diseases of the kidney and the urinary system",
+     "paper": "10_1136_bmjmed_2021_000009",
+     "paper_label": "Lee 2022 BMJ Medicine",
+     "outcome_name": "diseases of the kidney and the urinary system",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": null,
+      "note": "annual PM2.5, NO2",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1136_bmjmed_2021_000009::diseases of the kidney and the urinary system",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "580-599"
+       ],
+       "icd10": [
+        "N00-N39"
+       ],
+       "suspect": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "K1",
+   "group": "Kidney, metabolic, and fluid-balance conditions",
+   "name": "Acute or unspecified kidney failure",
+   "former_name": null,
+   "in_reference_list": true,
+   "merged_from": [],
+   "note": null,
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": true,
+   "short_term": false,
+   "other_exposure": false,
+   "represented": true,
+   "partially_represented": false,
+   "icd10_available": true,
+   "outcome_wide_only": false,
+   "n_papers": 1,
+   "n_exact_codesets": 1,
+   "n_codesets": 1,
+   "n_suspect_codesets": 0,
+   "support": {
+    "air_pollution_long_term": [
+     "Lee 2023 EHP"
+    ],
+    "air_pollution_short_term": [],
+    "extreme_heat_long_term": [],
+    "extreme_heat_short_term": [],
+    "extreme_weather_long_term": [],
+    "extreme_weather_short_term": [],
+    "other_exposure": []
+   },
+   "sources": [
+    {
+     "outcome_id": "10_1289_ehp10729::first hospital admission with acute kidney injury",
+     "paper": "10_1289_ehp10729",
+     "paper_label": "Lee 2023 EHP",
+     "outcome_name": "first hospital admission with acute kidney injury",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": null,
+      "note": "annual PM2.5, NO2, summer ozone",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1289_ehp10729::first hospital admission with acute kidney injury",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "584"
+       ],
+       "icd10": [
+        "N17"
+       ],
+       "suspect": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "K2",
+   "group": "Kidney, metabolic, and fluid-balance conditions",
+   "name": "Fluid and electrolyte disorders (incl. dehydration)",
+   "former_name": null,
+   "in_reference_list": true,
+   "merged_from": [],
+   "note": null,
+   "air_pollution": false,
+   "extreme_heat": true,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": true,
+   "other_exposure": false,
+   "represented": false,
+   "partially_represented": true,
+   "icd10_available": true,
+   "outcome_wide_only": false,
+   "n_papers": 1,
+   "n_exact_codesets": 0,
+   "n_codesets": 1,
+   "n_suspect_codesets": 0,
+   "support": {
+    "air_pollution_long_term": [],
+    "air_pollution_short_term": [],
+    "extreme_heat_long_term": [],
+    "extreme_heat_short_term": [
+     "Jung 2025 Environ Epidemiol"
+    ],
+    "extreme_weather_long_term": [],
+    "extreme_weather_short_term": [],
+    "other_exposure": []
+   },
+   "sources": [
+    {
+     "outcome_id": "10_1097_ee9_0000000000000395::dehydration",
+     "paper": "10_1097_ee9_0000000000000395",
+     "paper_label": "Jung 2025 Environ Epidemiol",
+     "outcome_name": "dehydration",
+     "scope": "narrower",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": true,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "daily heat index, extreme heat days, heat waves (Greater Boston)",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1097_ee9_0000000000000395::dehydration",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "276.51"
+       ],
+       "icd10": [
+        "E86.0"
+       ],
+       "suspect": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "K3",
+   "group": "Kidney, metabolic, and fluid-balance conditions",
+   "name": "Diabetes with complications",
+   "former_name": null,
+   "in_reference_list": true,
+   "merged_from": [],
+   "note": null,
+   "air_pollution": false,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": false,
+   "other_exposure": false,
+   "represented": false,
+   "partially_represented": true,
+   "icd10_available": false,
+   "outcome_wide_only": false,
+   "n_papers": 1,
+   "n_exact_codesets": 0,
+   "n_codesets": 1,
+   "n_suspect_codesets": 0,
+   "support": {
+    "air_pollution_long_term": [],
+    "air_pollution_short_term": [],
+    "extreme_heat_long_term": [],
+    "extreme_heat_short_term": [],
+    "extreme_weather_long_term": [],
+    "extreme_weather_short_term": [],
+    "other_exposure": []
+   },
+   "sources": [
+    {
+     "outcome_id": "10_1186_1476_069x_13_38::diabetes",
+     "paper": "10_1186_1476_069x_13_38",
+     "paper_label": "Zanobetti 2014 Environ Health",
+     "outcome_name": "diabetes",
+     "scope": "broader",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "PM2.5, national case-crossover",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1186_1476_069x_13_38::diabetes",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "250"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "K4",
+   "group": "Kidney, metabolic, and fluid-balance conditions",
+   "name": "Chronic kidney disease",
+   "former_name": null,
+   "in_reference_list": false,
+   "merged_from": [],
+   "note": null,
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": true,
+   "short_term": false,
+   "other_exposure": false,
+   "represented": true,
+   "partially_represented": false,
+   "icd10_available": true,
+   "outcome_wide_only": false,
+   "n_papers": 1,
+   "n_exact_codesets": 1,
+   "n_codesets": 1,
+   "n_suspect_codesets": 0,
+   "support": {
+    "air_pollution_long_term": [
+     "Lee 2022 BMJ Medicine"
+    ],
+    "air_pollution_short_term": [],
+    "extreme_heat_long_term": [],
+    "extreme_heat_short_term": [],
+    "extreme_weather_long_term": [],
+    "extreme_weather_short_term": [],
+    "other_exposure": []
+   },
+   "sources": [
+    {
+     "outcome_id": "10_1136_bmjmed_2021_000009::chronic kidney disease",
+     "paper": "10_1136_bmjmed_2021_000009",
+     "paper_label": "Lee 2022 BMJ Medicine",
+     "outcome_name": "chronic kidney disease",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": null,
+      "note": "annual PM2.5, NO2",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1136_bmjmed_2021_000009::chronic kidney disease",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "585"
+       ],
+       "icd10": [
+        "N18"
+       ],
+       "suspect": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "K5",
+   "group": "Kidney, metabolic, and fluid-balance conditions",
+   "name": "Diabetes mellitus (all)",
+   "former_name": null,
+   "in_reference_list": false,
+   "merged_from": [],
+   "note": null,
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": true,
+   "other_exposure": false,
+   "represented": true,
+   "partially_represented": false,
+   "icd10_available": false,
+   "outcome_wide_only": false,
+   "n_papers": 1,
+   "n_exact_codesets": 1,
+   "n_codesets": 1,
+   "n_suspect_codesets": 0,
+   "support": {
+    "air_pollution_long_term": [],
+    "air_pollution_short_term": [
+     "Zanobetti 2014 Environ Health"
+    ],
+    "extreme_heat_long_term": [],
+    "extreme_heat_short_term": [],
+    "extreme_weather_long_term": [],
+    "extreme_weather_short_term": [],
+    "other_exposure": []
+   },
+   "sources": [
+    {
+     "outcome_id": "10_1186_1476_069x_13_38::diabetes",
+     "paper": "10_1186_1476_069x_13_38",
+     "paper_label": "Zanobetti 2014 Environ Health",
+     "outcome_name": "diabetes",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "PM2.5, national case-crossover",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1186_1476_069x_13_38::diabetes",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "250"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "H1",
+   "group": "Heat-related conditions",
+   "name": "Heat-related illness (heat stroke, heat exhaustion, effects of heat)",
+   "former_name": null,
+   "in_reference_list": false,
+   "merged_from": [],
+   "note": "ICD-9 992.x (heat stroke 992.0) / ICD-10 T67.x; CCS 244 is broader (other injuries and external causes).",
+   "air_pollution": false,
+   "extreme_heat": true,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": true,
+   "other_exposure": false,
+   "represented": true,
+   "partially_represented": false,
+   "icd10_available": true,
+   "outcome_wide_only": false,
+   "n_papers": 3,
+   "n_exact_codesets": 2,
+   "n_codesets": 4,
+   "n_suspect_codesets": 1,
+   "support": {
+    "air_pollution_long_term": [],
+    "air_pollution_short_term": [],
+    "extreme_heat_long_term": [],
+    "extreme_heat_short_term": [
+     "Heo 2021 Environ Int",
+     "Jung 2025 Environ Epidemiol",
+     "Wang 2016 Environ Health"
+    ],
+    "extreme_weather_long_term": [],
+    "extreme_weather_short_term": [],
+    "other_exposure": []
+   },
+   "sources": [
+    {
+     "outcome_id": "10_1186_s12940_016_0167_3::heat stroke and sunstroke",
+     "paper": "10_1186_s12940_016_0167_3",
+     "paper_label": "Wang 2016 Environ Health",
+     "outcome_name": "heat stroke and sunstroke",
+     "scope": "narrower",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": true,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "heat waves",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1186_s12940_016_0167_3::heat stroke and sunstroke",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "992.0"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1016_j_envint_2021_106737::heat stroke",
+     "paper": "10_1016_j_envint_2021_106737",
+     "paper_label": "Heo 2021 Environ Int",
+     "outcome_name": "heat stroke",
+     "scope": "narrower",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": true,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "daily high temperature (lag 0-3)",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1016_j_envint_2021_106737::heat stroke",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "992.0"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1097_ee9_0000000000000395::heat-related illness",
+     "paper": "10_1097_ee9_0000000000000395",
+     "paper_label": "Jung 2025 Environ Epidemiol",
+     "outcome_name": "heat-related illness",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": true,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "daily heat index, extreme heat days, heat waves (Greater Boston)",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1097_ee9_0000000000000395::heat-related illness",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "992.0-992.9"
+       ],
+       "icd10": [
+        "T67.3-67.5"
+       ],
+       "suspect": [
+        "ICD-10 printed T67.3-67.5, narrower than its ICD-9 992.0-992.9 (T67.0-T67.9)"
+       ]
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1097_ee9_0000000000000395::exposure to excessive natural heat",
+     "paper": "10_1097_ee9_0000000000000395",
+     "paper_label": "Jung 2025 Environ Epidemiol",
+     "outcome_name": "exposure to excessive natural heat",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": true,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "daily heat index, extreme heat days, heat waves (Greater Boston)",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1097_ee9_0000000000000395::exposure to excessive natural heat",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "E900"
+       ],
+       "icd10": [
+        "X30"
+       ],
+       "suspect": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "H2",
+   "group": "Heat-related conditions",
+   "name": "Heat-sensitive admissions composite (CCS 2, 50, 55, 114, 157, 159, 244)",
+   "former_name": null,
+   "in_reference_list": false,
+   "merged_from": [],
+   "note": "The seven CCS groups that Bobb 2014 found elevated during heat waves.",
+   "air_pollution": false,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": false,
+   "other_exposure": false,
+   "represented": false,
+   "partially_represented": false,
+   "icd10_available": false,
+   "outcome_wide_only": false,
+   "n_papers": 0,
+   "n_exact_codesets": 0,
+   "n_codesets": 0,
+   "n_suspect_codesets": 0,
+   "support": {
+    "air_pollution_long_term": [],
+    "air_pollution_short_term": [],
+    "extreme_heat_long_term": [],
+    "extreme_heat_short_term": [],
+    "extreme_weather_long_term": [],
+    "extreme_weather_short_term": [],
+    "other_exposure": []
+   },
+   "sources": []
+  },
+  {
+   "id": "I0",
+   "group": "Infections and other reported admission categories",
+   "name": "Non-respiratory infections (composite)",
+   "former_name": null,
+   "in_reference_list": false,
+   "merged_from": [],
+   "note": null,
+   "air_pollution": false,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": false,
+   "other_exposure": false,
+   "represented": false,
+   "partially_represented": false,
+   "icd10_available": false,
+   "outcome_wide_only": false,
+   "n_papers": 0,
+   "n_exact_codesets": 0,
+   "n_codesets": 0,
+   "n_suspect_codesets": 0,
+   "support": {
+    "air_pollution_long_term": [],
+    "air_pollution_short_term": [],
+    "extreme_heat_long_term": [],
+    "extreme_heat_short_term": [],
+    "extreme_weather_long_term": [],
+    "extreme_weather_short_term": [],
+    "other_exposure": []
+   },
+   "sources": []
+  },
+  {
+   "id": "I1",
+   "group": "Infections and other reported admission categories",
+   "name": "Sepsis/septicemia",
+   "former_name": null,
+   "in_reference_list": true,
+   "merged_from": [],
+   "note": null,
+   "air_pollution": false,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": false,
+   "other_exposure": false,
+   "represented": false,
+   "partially_represented": false,
+   "icd10_available": false,
+   "outcome_wide_only": false,
+   "n_papers": 0,
+   "n_exact_codesets": 0,
+   "n_codesets": 0,
+   "n_suspect_codesets": 0,
+   "support": {
+    "air_pollution_long_term": [],
+    "air_pollution_short_term": [],
+    "extreme_heat_long_term": [],
+    "extreme_heat_short_term": [],
+    "extreme_weather_long_term": [],
+    "extreme_weather_short_term": [],
+    "other_exposure": []
+   },
+   "sources": []
+  },
+  {
+   "id": "I2",
+   "group": "Infections and other reported admission categories",
+   "name": "Urinary tract infections",
+   "former_name": null,
+   "in_reference_list": true,
+   "merged_from": [],
+   "note": "Yitshak-Sade 2021 prints UTI as ICD-9 559 (likely 599.0).",
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": true,
+   "other_exposure": false,
+   "represented": true,
+   "partially_represented": false,
+   "icd10_available": false,
+   "outcome_wide_only": false,
+   "n_papers": 1,
+   "n_exact_codesets": 1,
+   "n_codesets": 1,
+   "n_suspect_codesets": 1,
+   "support": {
+    "air_pollution_long_term": [],
+    "air_pollution_short_term": [
+     "Yitshak-Sade 2021 Sci Total Environ"
+    ],
+    "extreme_heat_long_term": [],
+    "extreme_heat_short_term": [],
+    "extreme_weather_long_term": [],
+    "extreme_weather_short_term": [],
+    "other_exposure": []
+   },
+   "sources": [
+    {
+     "outcome_id": "10_1016_j_scitotenv_2020_142524::urinary tract infection",
+     "paper": "10_1016_j_scitotenv_2020_142524",
+     "paper_label": "Yitshak-Sade 2021 Sci Total Environ",
+     "outcome_name": "urinary tract infection",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "high PM2.5 days, matched",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1016_j_scitotenv_2020_142524::urinary tract infection",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "559"
+       ],
+       "icd10": [],
+       "suspect": [
+        "printed 559 (likely 599.0)"
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "I3",
+   "group": "Infections and other reported admission categories",
+   "name": "Skin and soft-tissue infections",
+   "former_name": null,
+   "in_reference_list": true,
+   "merged_from": [],
+   "note": null,
+   "air_pollution": false,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": false,
+   "other_exposure": false,
+   "represented": false,
+   "partially_represented": false,
+   "icd10_available": false,
+   "outcome_wide_only": false,
+   "n_papers": 0,
+   "n_exact_codesets": 0,
+   "n_codesets": 0,
+   "n_suspect_codesets": 0,
+   "support": {
+    "air_pollution_long_term": [],
+    "air_pollution_short_term": [],
+    "extreme_heat_long_term": [],
+    "extreme_heat_short_term": [],
+    "extreme_weather_long_term": [],
+    "extreme_weather_short_term": [],
+    "other_exposure": []
+   },
+   "sources": []
+  },
+  {
+   "id": "I5",
+   "group": "Digestive conditions",
+   "name": "Intestinal obstruction",
+   "former_name": "Intestinal obstruction",
+   "in_reference_list": true,
+   "merged_from": [],
+   "note": null,
+   "air_pollution": false,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": false,
+   "other_exposure": false,
+   "represented": false,
+   "partially_represented": false,
+   "icd10_available": false,
+   "outcome_wide_only": false,
+   "n_papers": 0,
+   "n_exact_codesets": 0,
+   "n_codesets": 0,
+   "n_suspect_codesets": 0,
+   "support": {
+    "air_pollution_long_term": [],
+    "air_pollution_short_term": [],
+    "extreme_heat_long_term": [],
+    "extreme_heat_short_term": [],
+    "extreme_weather_long_term": [],
+    "extreme_weather_short_term": [],
+    "other_exposure": []
+   },
+   "sources": []
+  },
+  {
+   "id": "I6",
+   "group": "Infections and other reported admission categories",
+   "name": "Central nervous system infections",
+   "former_name": null,
+   "in_reference_list": false,
+   "merged_from": [],
+   "note": null,
+   "air_pollution": false,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": false,
+   "other_exposure": false,
+   "represented": false,
+   "partially_represented": false,
+   "icd10_available": false,
+   "outcome_wide_only": false,
+   "n_papers": 0,
+   "n_exact_codesets": 0,
+   "n_codesets": 0,
+   "n_suspect_codesets": 0,
+   "support": {
+    "air_pollution_long_term": [],
+    "air_pollution_short_term": [],
+    "extreme_heat_long_term": [],
+    "extreme_heat_short_term": [],
+    "extreme_weather_long_term": [],
+    "extreme_weather_short_term": [],
+    "other_exposure": []
+   },
+   "sources": []
+  },
+  {
+   "id": "I7",
+   "group": "Infections and other reported admission categories",
+   "name": "Intestinal infections",
+   "former_name": null,
+   "in_reference_list": false,
+   "merged_from": [],
+   "note": null,
+   "air_pollution": false,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": false,
+   "other_exposure": false,
+   "represented": false,
+   "partially_represented": false,
+   "icd10_available": false,
+   "outcome_wide_only": false,
+   "n_papers": 0,
+   "n_exact_codesets": 0,
+   "n_codesets": 0,
+   "n_suspect_codesets": 0,
+   "support": {
+    "air_pollution_long_term": [],
+    "air_pollution_short_term": [],
+    "extreme_heat_long_term": [],
+    "extreme_heat_short_term": [],
+    "extreme_weather_long_term": [],
+    "extreme_weather_short_term": [],
+    "other_exposure": []
+   },
+   "sources": []
+  },
+  {
+   "id": "X1",
+   "group": "Injuries",
+   "name": "Injuries",
+   "former_name": null,
+   "in_reference_list": false,
+   "merged_from": [],
+   "note": "Also used as a negative control outcome (Bell 2009, Wei 2019) and excluded in Peng 2009.",
+   "air_pollution": false,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": false,
+   "other_exposure": false,
+   "represented": false,
+   "partially_represented": false,
+   "icd10_available": false,
+   "outcome_wide_only": false,
+   "n_papers": 0,
+   "n_exact_codesets": 0,
+   "n_codesets": 0,
+   "n_suspect_codesets": 0,
+   "support": {
+    "air_pollution_long_term": [],
+    "air_pollution_short_term": [],
+    "extreme_heat_long_term": [],
+    "extreme_heat_short_term": [],
+    "extreme_weather_long_term": [],
+    "extreme_weather_short_term": [],
+    "other_exposure": []
+   },
+   "sources": []
+  },
+  {
+   "id": "X2",
+   "group": "Injuries",
+   "name": "Hip fracture",
+   "former_name": "Fractures (incl. hip and osteoporosis-related)",
+   "in_reference_list": false,
+   "merged_from": [],
+   "note": "Renamed from 'Fractures': the code sets are hip fracture (820, CCS 226); osteoporosis-related fractures (Prada 2017) have no fetched codes.",
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": true,
+   "other_exposure": false,
+   "represented": true,
+   "partially_represented": false,
+   "icd10_available": false,
+   "outcome_wide_only": false,
+   "n_papers": 1,
+   "n_exact_codesets": 1,
+   "n_codesets": 1,
+   "n_suspect_codesets": 0,
+   "support": {
+    "air_pollution_long_term": [],
+    "air_pollution_short_term": [
+     "Yitshak-Sade 2021 Sci Total Environ"
+    ],
+    "extreme_heat_long_term": [],
+    "extreme_heat_short_term": [],
+    "extreme_weather_long_term": [],
+    "extreme_weather_short_term": [],
+    "other_exposure": []
+   },
+   "sources": [
+    {
+     "outcome_id": "10_1016_j_scitotenv_2020_142524::hip fractures",
+     "paper": "10_1016_j_scitotenv_2020_142524",
+     "paper_label": "Yitshak-Sade 2021 Sci Total Environ",
+     "outcome_name": "hip fractures",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "high PM2.5 days, matched",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1016_j_scitotenv_2020_142524::hip fractures",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "820"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "O1",
+   "group": "Other conditions",
+   "name": "Pancreatic cancer",
+   "former_name": null,
+   "in_reference_list": false,
+   "merged_from": [],
+   "note": "Only a trends paper (no environmental exposure) and the Parks CCS table.",
+   "air_pollution": false,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": false,
+   "other_exposure": true,
+   "represented": true,
+   "partially_represented": false,
+   "icd10_available": false,
+   "outcome_wide_only": false,
+   "n_papers": 1,
+   "n_exact_codesets": 1,
+   "n_codesets": 1,
+   "n_suspect_codesets": 0,
+   "support": {
+    "air_pollution_long_term": [],
+    "air_pollution_short_term": [],
+    "extreme_heat_long_term": [],
+    "extreme_heat_short_term": [],
+    "extreme_weather_long_term": [],
+    "extreme_weather_short_term": [],
+    "other_exposure": [
+     "Wang 2014 Cancer"
+    ]
+   },
+   "sources": [
+    {
+     "outcome_id": "10_1002_cncr_28537::initial pancreatic cancer hospitalization",
+     "paper": "10_1002_cncr_28537",
+     "paper_label": "Wang 2014 Cancer",
+     "outcome_name": "initial pancreatic cancer hospitalization",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": false,
+      "other_exposure": "secular trends (no environmental exposure)",
+      "note": "pancreatic cancer care trends",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1002_cncr_28537::initial pancreatic cancer hospitalization",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "157.xx"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "K6",
+   "group": "Kidney, metabolic, and fluid-balance conditions",
+   "name": "Dehydration and volume depletion",
+   "former_name": null,
+   "in_reference_list": false,
+   "merged_from": [],
+   "note": "Added in Step 3.8 (Jung 2025: 276.51 / E86.0). Part of CCS 55; Bobb 2014 reports 276.51 as the most common code in that group during heat waves.",
+   "air_pollution": false,
+   "extreme_heat": true,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": true,
+   "other_exposure": false,
+   "represented": true,
+   "partially_represented": false,
+   "icd10_available": true,
+   "outcome_wide_only": false,
+   "n_papers": 1,
+   "n_exact_codesets": 1,
+   "n_codesets": 1,
+   "n_suspect_codesets": 0,
+   "support": {
+    "air_pollution_long_term": [],
+    "air_pollution_short_term": [],
+    "extreme_heat_long_term": [],
+    "extreme_heat_short_term": [
+     "Jung 2025 Environ Epidemiol"
+    ],
+    "extreme_weather_long_term": [],
+    "extreme_weather_short_term": [],
+    "other_exposure": []
+   },
+   "sources": [
+    {
+     "outcome_id": "10_1097_ee9_0000000000000395::dehydration",
+     "paper": "10_1097_ee9_0000000000000395",
+     "paper_label": "Jung 2025 Environ Epidemiol",
+     "outcome_name": "dehydration",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": true,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "daily heat index, extreme heat days, heat waves (Greater Boston)",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1097_ee9_0000000000000395::dehydration",
+       "source_type": "author_defined",
+       "ccs": false,
+       "ccs_groups": [],
+       "parks_analyzed": null,
+       "icd9": [
+        "276.51"
+       ],
+       "icd10": [
+        "E86.0"
+       ],
+       "suspect": []
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

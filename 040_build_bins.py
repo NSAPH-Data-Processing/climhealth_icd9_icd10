@@ -27,7 +27,12 @@ Flags per bin
   n_papers, n_papers_dominici, n_papers_braun, n_exact_codesets, n_author_defined_exact,
   n_suspect_codesets
 
-Outputs: 040_bins.json, 040_bins.csv
+Outputs: 040_bins.json, 040_bins.csv, and the same bins split by code set type:
+  040_bins_author_defined.json   populated only with author-defined code sets
+  040_bins_derived.json          populated only with derived code sets (ccs_table, ccs_resolved)
+  In the split files, a bin is 'represented' (an exact code set of that type, not an unanalyzed
+  Parks group), 'partially_represented' (only narrower/broader sets) or empty; flags are
+  recomputed from that type's sources.
 Run: .venv/bin/python 040_build_bins.py
 """
 import csv
@@ -91,6 +96,39 @@ def covers(code, prefixes):
         return True
     m = re.match(r"^(\d{3})\S*\s*(?:–|-|to)\s*(\d{3})", code.strip())
     return bool(m) and any(int(m.group(1)) <= int(p[:3]) <= int(m.group(2)) for p in prefixes)
+
+
+def split(bins, kind):
+    """The same bins, each populated only with code sets of one kind:
+    'author_defined' (source_type author_defined) or 'derived' (ccs_table, ccs_resolved).
+    Sources without a code set of that kind are left out; flags are recomputed from what remains."""
+    out = []
+    for b in bins:
+        sources = []
+        for s in b["sources"]:
+            css = [c for c in s["codesets"] if (c["source_type"] == "author_defined") == (kind == "author_defined")
+                   and (c["icd9"] or c["icd10"])]
+            if css:
+                sources.append(dict(s, codesets=css))
+        counted = [s for s in sources if s["scope"] in ("exact", "narrower")]
+        exact = [c for s in sources if s["scope"] == "exact" for c in s["codesets"] if c["parks_analyzed"] is not False]
+        support = {"%s_%s" % (e, t): sorted({s["paper_label"] for s in counted if s["exposure"][e] and s["exposure"][t]})
+                   for e in EXPOSURE_KEYS for t in TERM_KEYS}
+        support["other_exposure"] = sorted({s["paper_label"] for s in counted if s["exposure"]["other_exposure"]})
+        rec = {k: b[k] for k in ("id", "group", "name", "former_name", "in_reference_list", "merged_from", "note")}
+        rec.update({k: any(s["exposure"][k] for s in counted) for k in EXPOSURE_KEYS + TERM_KEYS})
+        rec["other_exposure"] = bool(support["other_exposure"])
+        rec.update({
+            "represented": bool(exact),
+            "partially_represented": not exact and bool(sources),
+            "icd10_available": any(c["icd10"] for s in counted for c in s["codesets"]),
+            "outcome_wide_only": bool(counted) and all(s["outcome_wide_scan"] for s in counted),
+            "n_papers": len({s["paper"] for s in sources}), "n_exact_codesets": len(exact),
+            "n_codesets": sum(len(s["codesets"]) for s in sources),
+            "n_suspect_codesets": sum(bool(c["suspect"]) for s in sources for c in s["codesets"]),
+            "support": support, "sources": sources})
+        out.append(rec)
+    return out
 
 
 def main():
@@ -212,6 +250,17 @@ def main():
         json.dump({"sources": ["028_bins.json", "038_bins.json", "040_outcomes.json", "040_codesets.json"],
                    "removed_bins": removed, "bins": out}, f, ensure_ascii=False, indent=1)
         f.write("\n")
+    for kind in ("author_defined", "derived"):
+        sb = split(out, kind)
+        with open("040_bins_%s.json" % kind, "w", encoding="utf-8") as f:
+            json.dump({"sources": ["040_bins.json"], "kind": kind,
+                       "codeset_types": ["author_defined"] if kind == "author_defined" else ["ccs_table", "ccs_resolved"],
+                       "bins": sb}, f, ensure_ascii=False, indent=1)
+            f.write("\n")
+        print("wrote 040_bins_%s.json: %d bins, %d represented, %d partially, %d empty"
+              % (kind, len(sb), sum(b["represented"] for b in sb), sum(b["partially_represented"] for b in sb),
+                 sum(not b["sources"] for b in sb)))
+
     with open("040_bins.csv", "w", encoding="utf-8", newline="") as f:
         w = csv.writer(f)
         flags = EXPOSURE_KEYS + TERM_KEYS + ["other_exposure", "author_defined", "ccs_only", "icd10_available",
