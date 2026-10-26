@@ -78,3 +78,28 @@ Run: `.venv/bin/python 040_build_shortlist.py` → **`040_shortlist.json`**.
 | 11 | Article PDF + supplement (ADRD definition) | 2026 AJE (ADRD by region and race) | [doi](https://doi.org/10.1093/aje/kwag087) | `papers/10_1093_aje_kwag087/` |
 
 Ranks 12–31 are optional; they are in the JSON.
+
+## 4c. Code sets
+Run: `.venv/bin/python 040_build_codesets.py` → **`040_codesets.json`**.
+
+**Three kinds of code sets (`source_type`):**
+| source_type | what it is | n |
+|---|---|---|
+| `author_defined` | The paper lists ICD codes (Parks table excluded). 119 have role `outcome`, from 43 papers; 59 of them include ICD-10. The other 5 are controls, covariates and sensitivity sets. | 124 |
+| `ccs_table` | A Parks 2021 CCS group (214 level 3) or cause (13 level 1 = the union of its groups). | 227 |
+| `ccs_resolved` | **New in Step 4.** An outcome named only by single-level AHRQ CCS group number(s), e.g. Wei 2019 "septicemia (CCS 2)", Weinberger 2021, Spangler 2023, Feng 2024. Its ICD-9 codes come from the Parks table for those groups. Bobb 2014 gives group names without numbers, so `CCS_BY_NAME` maps them (`resolved_by: name`). | 36 |
+
+**Not resolved (11, listed in `unresolved_classification_outcomes`):**
+- whole-classification scans (Bobb 283/214 groups, Wei 214 groups, Wei injury/poisoning);
+- multi-level CCS (Wei 2019's 122 groups and Thomas 2022). The Parks table is single-level only.
+- Feng 2024 includes CCS 248, which is not in the Parks table. That is flagged in `suspect`.
+
+**Flags per code set:**
+- `ccs`, `ccs_groups`, `ccs_level`;
+- `parks_analyzed`: whether Parks analyzed the group on its own. Gray groups (`false`) were not.
+- `icd_versions`, `n_icd9`, `n_icd10`, `diagnosis_position`, `role`, `outcome_wide_scan`;
+- `code_format`: CCS-derived codes are printed without the decimal point (e.g. 4280 = 428.0);
+- `suspect`: printed codes that look wrong. There are 13: the typos noted in Steps 2.6/3.6, plus the Parks codes missing a leading digit;
+- `flags`: the paper's exposure attributes.
+
+**ICD-10:** `ccs_table` and `ccs_resolved` sets are ICD-9 only. ICD-10 comes only from author-defined sets.
