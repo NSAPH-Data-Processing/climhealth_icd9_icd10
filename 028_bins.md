@@ -1,51 +1,130 @@
-# Step 2.8 — Can the reference outcome bins be populated from the Step 2 publications?
+# Step 2.8 — Outcome bins for the Step 2.6 code sets, with exposure attributes
 
-Input: the reference list in CLAUDE.md Step 2.8 (27 bins in 5 groups) and the Step 2.6 outcomes (`026_icd_codes.json`). It covers the 51 papers with full text, including the Parks 2021 CCS table.
+**Rewritten on 2026-10-26.** The first version treated the CLAUDE.md list as a checklist. Bins are now **our own classification** of every Step 2.6 code set:
+- the 27 reference bins, plus **22 added bins** for outcomes that appear in the papers but not on the list;
+- every code set is tagged with the paper's **exposure**: air pollution, extreme heat or extreme weather, and long-term or short-term.
 
 ## Method
-1. **Search.** Each bin was searched by keyword in every Step 2.6 outcome and in the Step 2.3 outcome names (abstract level). The script is `.cache/028_scan.py`, which is not committed. The rare bins (Pneumocystis, retinal artery occlusion, intestinal obstruction, cardiac arrest, hypertensive heart disease) were also searched in all 476 Step 2.2 abstracts and the full texts. **No paper in the set studies any of them as an outcome.**
-2. **Hand map** → `028_bins.json`. For each bin I listed the Step 2.6 outcome entries that populate it, with a **scope**:
-   - `exact`: the paper's outcome is this bin.
-   - `narrower`: the outcome is part of the bin (e.g. ischemic stroke for "stroke").
-   - `broader`: the paper's group contains the bin plus other conditions. A code **filter** then picks the bin-specific ICD-9 codes inside the group, e.g. 362.3x retinal artery occlusion inside CCS 87, or 136.3 Pneumocystis inside CCS 122.
-3. **`028_build_bins.py`** → `028_bins_populated.json` and **`028_bins.csv`** (one row per bin).
+1. **Exposure per paper** → `028_exposures.json` (hand-labeled from the methods of the 51 full-text papers). Each paper gets these attributes:
+   - `air_pollution`, `extreme_heat`, `extreme_weather`;
+   - `long_term`, `short_term`: from the study design, e.g. annual or multi-year averages vs. daily lags, event days or drought periods;
+   - `other_exposure`: the exposure, when it is none of the above (e.g. greenness, noise, policy);
+   - a short `note`.
 
-**Bin status** (the best source wins):
+   Decisions (confirmed with the user):
+   - **Wildfire smoke** = `air_pollution` + `extreme_weather`.
+   - **Long-term average climate** (summer/winter temperature, specific humidity) = `extreme_heat` + `long_term`.
+   - **Greenness, parks, blue space, aircraft noise, industry proximity** = `other_exposure` only.
+   - **Air-quality policies** (NAAQS nonattainment, Clean Air Act) = `air_pollution` + `long_term` + `other_exposure` (policy).
+   - **Heat-alert papers** = `extreme_heat` + `short_term` + `other_exposure` (policy).
+   - **Trends and coding papers** (pancreatic cancer, MI geography, amyloidosis, dementia coding) = `other_exposure`, with no time flags.
+2. **Bins** → `028_bins.json` (hand). Every code set is assigned to one or more bins, with a scope:
+   - `exact`;
+   - `narrower`: the code set is part of the bin;
+   - `broader`: the code set is the bin plus other conditions. An optional ICD-9 filter picks the bin's codes inside it.
 
-| status | meaning |
-|---|---|
-| `explicit` | an `exact` source lists ICD codes |
-| `explicit_partial` | ICD codes come only from `broader` (filtered) or `narrower` sources |
-| `classification` / `no_codes` / `not_found` | only CCS numbers / codes unavailable / no source (none occurred) |
+   Parks 2021 contributes its CCS groups where they define a bin. Its 13 broad causes go to the composite bins, and the rest go to `W1`.
+3. **`028_build_bins.py`** → `028_bins_populated.json` and **`028_bins.csv`**:
+   - **Bin exposure attributes** are the union over the papers of its `exact` and `narrower` sources. `broader` sources studied a larger group, so they do not count.
+   - **`support`** lists the papers for each exposure × term, e.g. `air_pollution_long_term`.
+   - **Coverage check:** every author-defined (explicit) code set with role `outcome` must be in a bin. **All are** (`unbinned_code_sets` is empty).
 
-`parks_only` marks bins whose only coded source is the Parks 2021 CCS table. That table is ICD-9 only, and its codes come from the AHRQ CCS assignment, not from authors defining the outcome.
+Run: `.venv/bin/python 028_build_bins.py`. The first version of the map is kept at `.cache/028_bins_v1.json` (not committed).
 
-Run: `.venv/bin/python 028_build_bins.py`.
+## Bins (49: 27 reference + 22 added)
+**How to read the table:**
+- The exposure columns give the number of papers: `L` = long-term, `S` = short-term.
+- "other" = papers with other exposures.
+- ICD-10 ✓ = at least one coded source gives ICD-10 codes.
+- Status: `explicit` = an exact code set with ICD codes; `explicit_partial` = codes only from broader or narrower sets; `no_codes` = sources exist, but their codes are not available.
 
-## Results (27 bins)
-**Every bin can be populated with ICD codes: 23 `explicit` and 4 `explicit_partial`.** How well each one is supported varies a lot:
+| id | bin | origin | status | air pollution | extreme heat | extreme weather | long-term | short-term | other | ICD-10 |
+|---|---|---|---|---|---|---|---|---|---|---|
+| R0 | All respiratory disease (composite) | added | explicit | L1 S7 | L1 | S5 | ✓ | ✓ | 1 | ✓ |
+| R1 | Asthma exacerbations | reference | explicit |  |  | S1 |  | ✓ |  |  |
+| R2 | COPD exacerbations | reference | explicit | L1 S2 |  | S1 | ✓ | ✓ | 1 |  |
+| R3 | Bronchiectasis | reference | explicit_partial |  |  |  |  |  |  |  |
+| R4 | Pneumonia and other respiratory infections (incl. influenza) | reference | explicit | L2 S4 |  | S1 | ✓ | ✓ | 1 | ✓ |
+| R5 | Respiratory failure, insufficiency, or arrest (incl. ARDS) | reference | explicit | S1 |  | S1 | ✓ | ✓ | 1 |  |
+| R6 | Upper respiratory infections (and acute bronchitis) | reference | explicit |  |  | S1 |  | ✓ |  |  |
+| C0 | All cardiovascular disease (composite) | added | explicit | L5 S10 | L3 S1 | S5 | ✓ | ✓ | 3 | ✓ |
+| C1 | Heart attack (acute myocardial infarction) | reference | explicit | L5 S3 | L2 | S1 | ✓ | ✓ | 1 | ✓ |
+| C2 | Ischemic heart disease and coronary atherosclerosis | reference | explicit | L3 S4 | L2 | S1 | ✓ | ✓ | 2 | ✓ |
+| C3 | Heart failure | reference | explicit | L3 S5 | S1 | S1 | ✓ | ✓ | 2 | ✓ |
+| C4 | Abnormal heart rhythms (arrhythmias/dysrhythmias) | reference | explicit | L4 S2 |  | S1 | ✓ | ✓ | 2 | ✓ |
+| C5 | Cardiac arrest | reference | explicit |  |  | S1 |  | ✓ |  |  |
+| C6 | Hypertensive heart disease | reference | explicit_partial | L1 |  |  | ✓ |  |  | ✓ |
+| C7 | Stroke, including ischemic and hemorrhagic stroke | reference | explicit | L4 S2 | L2 | S1 | ✓ | ✓ |  | ✓ |
+| C8 | Blood clots: phlebitis, thrombophlebitis, and thromboembolism | reference | explicit | S1 |  | S1 |  | ✓ |  |  |
+| C9 | Retinal artery occlusion | reference | explicit_partial |  |  |  |  |  |  |  |
+| C10 | Peripheral vascular disease and atherosclerosis | added | explicit | L1 S1 | S1 | S1 | ✓ | ✓ | 3 |  |
+| C11 | Cardiomyopathy | added | explicit | L1 |  |  | ✓ |  |  | ✓ |
+| C12 | Valvular heart disease | added | explicit | L1 |  | S1 | ✓ | ✓ |  | ✓ |
+| C13 | Aortic and other arterial aneurysms | added | explicit | L1 S2 |  | S1 | ✓ | ✓ |  | ✓ |
+| C14 | Cardiac amyloidosis | added | no_codes |  |  |  |  |  | 1 |  |
+| N1 | Parkinson's disease | reference | explicit | L1 S2 |  | S1 | ✓ | ✓ | 1 | ✓ |
+| N2 | Dementia, including Alzheimer's disease | reference | explicit | L3 S1 |  |  | ✓ | ✓ | 3 | ✓ |
+| N3 | Depression and mood disorders | reference | explicit | S1 | S1 |  |  | ✓ |  | ✓ |
+| N4 | Stroke and other cerebrovascular conditions | reference | explicit | L3 S2 | L2 | S1 | ✓ | ✓ | 2 | ✓ |
+| N5 | Multiple sclerosis | added | explicit | S1 |  | S1 |  | ✓ |  |  |
+| N6 | Schizophrenia and other psychotic disorders | added | explicit | S1 | S1 | S1 |  | ✓ |  | ✓ |
+| N7 | Bipolar disorder | added | explicit | S1 | S1 |  |  | ✓ |  | ✓ |
+| K0 | Kidney and urinary system diseases (composite) | added | explicit | L1 |  |  | ✓ |  |  | ✓ |
+| K1 | Acute or unspecified kidney failure | reference | explicit | L1 S1 | S3 | S1 | ✓ | ✓ | 1 | ✓ |
+| K2 | Fluid and electrolyte disorders (incl. dehydration) | reference | explicit | S1 | S3 | S1 |  | ✓ | 1 |  |
+| K3 | Diabetes with complications | reference | explicit | S1 | S1 | S1 |  | ✓ | 1 |  |
+| K4 | Chronic kidney disease | added | explicit | L1 |  | S1 | ✓ | ✓ |  | ✓ |
+| K5 | Diabetes mellitus (all) | added | explicit | S1 |  | S1 |  | ✓ |  |  |
+| H1 | Heat-related illness (heat stroke, heat exhaustion, effects of heat) | added | explicit_partial |  | S3 |  |  | ✓ |  |  |
+| H2 | Heat-sensitive admissions composite (CCS 2, 50, 55, 114, 157, 159, 244) | added | classification |  | S2 |  |  | ✓ | 1 |  |
+| I0 | Non-respiratory infections (composite) | added | explicit_partial | L1 |  |  | ✓ |  |  |  |
+| I1 | Sepsis/septicemia | reference | explicit | L1 S1 | S2 | S1 | ✓ | ✓ | 1 |  |
+| I2 | Urinary tract infections | reference | explicit | L1 S2 | S2 | S1 | ✓ | ✓ | 1 |  |
+| I3 | Skin and soft-tissue infections | reference | explicit | S1 |  | S1 |  | ✓ |  |  |
+| I4 | Pneumocystis pneumonia | reference | explicit_partial |  |  |  |  |  |  |  |
+| I5 | Intestinal obstruction | reference | explicit |  |  | S1 |  | ✓ |  |  |
+| I6 | Central nervous system infections | added | explicit_partial | L1 |  | S1 | ✓ | ✓ |  |  |
+| I7 | Intestinal infections | added | explicit | L1 |  | S1 | ✓ | ✓ |  |  |
+| X1 | Injuries | added | explicit |  |  | S1 |  | ✓ |  |  |
+| X2 | Fractures (incl. hip and osteoporosis-related) | added | explicit_partial | L1 S1 |  | S1 | ✓ | ✓ |  |  |
+| O1 | Pancreatic cancer | added | explicit |  |  | S1 |  | ✓ | 1 |  |
+| W1 | Outcome-wide scans of all disease groups | added | explicit_partial | S1 | S2 | S1 |  | ✓ |  |  |
 
-| Support | Bins |
-|---|---|
-| **Several papers with author-defined codes, including ICD-10** | AMI (C1, 10 papers), IHD/coronary (C2, 11), heart failure (C3, 11), arrhythmia (C4, 8), stroke (C7, 7: mostly ischemic stroke), cerebrovascular (N4, 9), Parkinson's (N1, 5), dementia (N2, 7), pneumonia/respiratory infections (R4, 6), acute kidney failure (K1, 6: Lee 2023 AKI 584/N17), depression (N3: Qiu 2022) |
-| **Author-defined codes, ICD-9 only** | COPD (R2), asthma (R1, only inside the cardiorespiratory composites of Yan 2021 / Burrows 2023), respiratory failure (R5: ARDS in Rhee 2020 is narrower), diabetes with complications (K3: Zanobetti 2014 "diabetes 250" is broader), UTI (I2: Yitshak-Sade's "559" is likely a typo for 599.0) |
-| **Only the Parks CCS table (ICD-9, CCS-assigned)**; the other papers give CCS numbers only | Upper respiratory infections (R6), cardiac arrest (C5), blood clots (C8; Wei 2019 CCS 118), fluid and electrolyte disorders (K2; Wei 2019 / Weinberger 2021 / Bobb 2014 CCS 55), sepsis (I1; CCS 2), skin infections (I3; CCS 197), intestinal obstruction (I5) |
-| **Only inside a broader group** (`explicit_partial`) | Bronchiectasis (R3: inside COPD/CCS 127, ICD-9 494), hypertensive heart disease (C6: ICD-9 402/404 inside Parks CCS 99, and inside Wei 2024's heart-failure list), retinal artery occlusion (C9: 362.3x inside Parks CCS 87, gray), Pneumocystis pneumonia (I4: 136.3 inside Parks CCS 122 Pneumonia) |
-
-Observations:
-- **The five rarest bins have no paper in the Step 2 set** that studies them: Pneumocystis, retinal artery occlusion, intestinal obstruction, cardiac arrest and hypertensive heart disease. Their codes exist here only because Parks published the full CCS → ICD-9 table. These bins probably come from outcome-wide studies outside this set, e.g. Wei 2019 BMJ-style CCS scans in other cohorts or other groups' papers.
-- **ICD-10 is missing for 15 bins.** ICD-10 codes come only from the 2016+ cohort papers (Danesh Yazdi, Klompmaker, Shi, Wei 2024, Lee, Qiu, Spoto). The CCS-based bins have no ICD-10 at all. They would need CCSR (ICD-10) or a GEM crosswalk later.
-- Ischemic and hemorrhagic stroke are studied separately (ischemic 433.x1/434.x1/436/I63; intracranial hemorrhage only as CCS 7.3.1.1). Only Parks CCS 109 combines them.
+## Summary
+- **Status:**
+  - 38 bins are `explicit`.
+  - 9 are `explicit_partial`: bronchiectasis, hypertensive heart disease, retinal artery occlusion, heat-related illness, Pneumocystis, CNS infections, fractures, non-respiratory infections, and the outcome-wide `W1`.
+  - 1 is `no_codes`: cardiac amyloidosis.
+  - 1 is `classification`: the heat-sensitive CCS composite `H2`.
+- **Bins supported by long-term air pollution studies:**
+  - all CVD and all respiratory;
+  - AMI, IHD, heart failure, arrhythmia, stroke and cerebrovascular disease;
+  - Parkinson's and dementia;
+  - pneumonia and COPD;
+  - acute kidney failure, CKD and kidney/urinary disease;
+  - cardiomyopathy, valvular disease and aneurysm;
+  - sepsis, UTI, non-respiratory/CNS/intestinal infections;
+  - fractures and hypertensive heart disease.
+- **Bins supported by short-term air pollution studies:** most of the cardiorespiratory bins, plus Parkinson's, dementia, diabetes, MS, the psychiatric bins, and the Wei 2019 CCS groups (sepsis, fluid/electrolyte, renal failure, UTI, skin infections, blood clots).
+- **Bins supported by extreme heat:**
+  - short-term (heat waves): heat-related illness, fluid/electrolyte, acute kidney failure, sepsis, UTI, diabetes with complications, peripheral vascular, heart failure, the psychiatric bins, and all CVD;
+  - long-term (climate): all CVD, IHD, stroke/cerebrovascular, AMI, all respiratory.
+- **Bins supported by extreme weather:**
+  - tropical cyclones (Parks 2021: every CCS group, so most bins; Yan 2021; Burrows 2023), drought and wildfire, all short-term;
+  - asthma, upper respiratory infections, cardiac arrest and intestinal obstruction are supported **only** by Parks 2021 (cyclones).
+- **No exposure study at all:** bronchiectasis, retinal artery occlusion and Pneumocystis. Their only source is a broader Parks group.
+- **Only trend or other papers:** cardiac amyloidosis, and pancreatic cancer (apart from Parks). These are candidates to drop from a pollution/weather list.
 
 ## Caveats
-- The map is one reader's judgement, especially the `scope` labels; see the notes in `028_bins.json`.
-- Populated does not mean validated. Definitions for the same bin often differ between papers (Step 2.7 shows how). Choosing and validating one ICD-9/ICD-10 list per bin is the next step.
-- Parks is ICD-9 only, and a few of its printed codes look truncated (Step 2.6 `suspect_codes`).
+- Exposure classification, bin assignment and scope are one reader's judgement. All of it is in `028_exposures.json` and `028_bins.json`.
+- **Parks 2021 marks many bins as extreme-weather (short-term) supported**, because it tested every CCS group. Support from a single outcome-wide scan is weaker than a dedicated study.
+- Bins classify code sets; they do not yet choose one validated code list. Definitions inside a bin often differ (Step 2.7).
 
 ## Outputs
 | File | Purpose |
 |---|---|
-| `028_bins.json` | Hand map: bin → Step 2.6 outcome entries, scope, code filters, notes |
-| `028_build_bins.py` | Builds the bin table |
-| `028_bins_populated.json` | Per bin: status, flags, and every source with its codes, position and evidence location |
+| `028_exposures.json` | Hand exposure attributes for the 51 Step 2.6 papers |
+| `028_bins.json` | Hand bin definitions and the code set → bin map |
+| `028_build_bins.py` | Builds the bins with exposure attributes and the coverage check |
+| `028_bins_populated.json` | Per bin: attributes, `support`, status and sources (codes, evidence, exposure) |
 | `028_bins.csv` | **Review table**: one row per bin |

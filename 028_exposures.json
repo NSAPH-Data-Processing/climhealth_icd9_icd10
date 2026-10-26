@@ -1,0 +1,464 @@
+{
+ "description": "Step 2.8 hand classification of each Step 2.6 paper's exposure (read from the methods). long_term/short_term follow the study design (annual or multi-year averages vs daily lags, event days or periods). Wildfire smoke = air_pollution + extreme_weather; long-term climate (average temperature/humidity) = extreme_heat + long_term; other_exposure names exposures that are none of air pollution, heat or extreme weather.",
+ "papers": {
+  "10_1289_ehp_0800185": {
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": true,
+   "other_exposure": null,
+   "note": "PM2.5 chemical components, daily time series"
+  },
+  "10_1161_circulationaha_109_851113": {
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": true,
+   "other_exposure": null,
+   "note": "carbon monoxide, daily time series"
+  },
+  "10_1161_circoutcomes_111_962456": {
+   "air_pollution": false,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": false,
+   "other_exposure": "secular trends / geography (no environmental exposure)",
+   "note": "MI incidence trends by region"
+  },
+  "10_1038_jes_2013_39": {
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": true,
+   "other_exposure": null,
+   "note": "PM2.5 exposure metrics, daily"
+  },
+  "10_1136_bmj_f5561": {
+   "air_pollution": false,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": true,
+   "short_term": false,
+   "other_exposure": "aircraft noise",
+   "note": "annual aircraft noise near airports"
+  },
+  "10_1186_1476_069x_12_68": {
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": true,
+   "other_exposure": null,
+   "note": "primary organic PM2.5 particles, case-crossover"
+  },
+  "10_1186_1476_069x_13_38": {
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": true,
+   "other_exposure": null,
+   "note": "PM2.5, national case-crossover"
+  },
+  "10_1289_ehp_1306656": {
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": true,
+   "other_exposure": null,
+   "note": "PM2.5 constituents and sources, daily"
+  },
+  "10_1001_jama_2014_15715": {
+   "air_pollution": false,
+   "extreme_heat": true,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": true,
+   "other_exposure": null,
+   "note": "heat waves vs matched days"
+  },
+  "10_1002_cncr_28537": {
+   "air_pollution": false,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": false,
+   "other_exposure": "secular trends (no environmental exposure)",
+   "note": "pancreatic cancer care trends"
+  },
+  "10_1038_jes_2014_7": {
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": true,
+   "other_exposure": null,
+   "note": "source-specific PM2.5, daily (Boston)"
+  },
+  "10_1111_biom_12254": {
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": true,
+   "other_exposure": null,
+   "note": "PM2.5 components, acute effects"
+  },
+  "10_1186_s12940_016_0167_3": {
+   "air_pollution": false,
+   "extreme_heat": true,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": true,
+   "other_exposure": null,
+   "note": "heat waves"
+  },
+  "10_1289_ehp257": {
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": true,
+   "other_exposure": null,
+   "note": "PM2.5, same-day and short cumulative lags"
+  },
+  "10_1016_s2542_5196_17_30136_5": {
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": true,
+   "short_term": false,
+   "other_exposure": null,
+   "note": "1-year average PM2.5"
+  },
+  "10_1016_s2542_5196_17_30002_5": {
+   "air_pollution": false,
+   "extreme_heat": false,
+   "extreme_weather": true,
+   "long_term": false,
+   "short_term": true,
+   "other_exposure": null,
+   "note": "drought periods"
+  },
+  "10_1097_ede_0000000000000556": {
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": true,
+   "long_term": false,
+   "short_term": true,
+   "other_exposure": null,
+   "note": "wildfire smoke PM2.5, smoke-wave days"
+  },
+  "10_1097_ede_0000000000000777": {
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": true,
+   "short_term": false,
+   "other_exposure": "air quality policy (NAAQS nonattainment designations)",
+   "note": "causal effect of designations via PM2.5 reductions"
+  },
+  "10_1016_j_ypmed_2018_02_001": {
+   "air_pollution": false,
+   "extreme_heat": true,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": true,
+   "other_exposure": null,
+   "note": "heat waves"
+  },
+  "10_1161_circheartfailure_118_005407": {
+   "air_pollution": false,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": false,
+   "other_exposure": "secular trends (no environmental exposure)",
+   "note": "cardiac amyloidosis epidemiology"
+  },
+  "10_1016_j_envpol_2019_07_094": {
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": true,
+   "short_term": false,
+   "other_exposure": null,
+   "note": "annual PM2.5"
+  },
+  "10_1136_bmj_l6258": {
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": true,
+   "other_exposure": null,
+   "note": "PM2.5 lag 0-1, case-crossover"
+  },
+  "10_1016_s2542_5196_20_30227_8": {
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": true,
+   "short_term": false,
+   "other_exposure": null,
+   "note": "annual PM2.5"
+  },
+  "10_1097_ede_0000000000001195": {
+   "air_pollution": false,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": true,
+   "short_term": false,
+   "other_exposure": "proximity to construction and manufacturing sites",
+   "note": "annual counts of industry sites per ZIP code"
+  },
+  "10_1016_j_envint_2021_106715": {
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": true,
+   "short_term": false,
+   "other_exposure": null,
+   "note": "annual PM2.5, NO2, ozone; effect modification by greenness, temperature, humidity"
+  },
+  "10_1080_01621459_2020_1803883": {
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": true,
+   "short_term": false,
+   "other_exposure": "air quality policy (Clean Air Act Amendments)",
+   "note": "counterfactual PM2.5/ozone without the CAAA"
+  },
+  "10_1016_j_envint_2021_106834": {
+   "air_pollution": false,
+   "extreme_heat": true,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": true,
+   "other_exposure": "heat alert policy",
+   "note": "heat alert days vs matched days"
+  },
+  "10_1161_circulationaha_120_050252": {
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": true,
+   "short_term": false,
+   "other_exposure": null,
+   "note": "annual PM2.5, NO2, ozone"
+  },
+  "10_1097_ede_0000000000001265": {
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": true,
+   "other_exposure": null,
+   "note": "PM2.5, case-crossover (Medicaid and Medicare)"
+  },
+  "10_1016_j_scitotenv_2020_142524": {
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": true,
+   "other_exposure": null,
+   "note": "high PM2.5 days, matched"
+  },
+  "10_1016_j_envint_2021_106737": {
+   "air_pollution": false,
+   "extreme_heat": true,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": true,
+   "other_exposure": null,
+   "note": "daily high temperature (lag 0-3)"
+  },
+  "10_1038_s41467_021_21777_1": {
+   "air_pollution": false,
+   "extreme_heat": false,
+   "extreme_weather": true,
+   "long_term": false,
+   "short_term": true,
+   "other_exposure": null,
+   "note": "tropical cyclone exposure, lags 0-7"
+  },
+  "10_1097_ede_0000000000001337": {
+   "air_pollution": false,
+   "extreme_heat": false,
+   "extreme_weather": true,
+   "long_term": false,
+   "short_term": true,
+   "other_exposure": null,
+   "note": "tropical cyclone storm periods"
+  },
+  "10_1097_ede_0000000000001456": {
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": true,
+   "other_exposure": null,
+   "note": "PM2.5 lag 0-1, case-crossover"
+  },
+  "10_1136_bmjmed_2021_000009": {
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": true,
+   "short_term": false,
+   "other_exposure": null,
+   "note": "annual PM2.5, NO2"
+  },
+  "10_1001_jamanetworkopen_2022_47664": {
+   "air_pollution": false,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": true,
+   "short_term": false,
+   "other_exposure": "greenness, parks, blue space",
+   "note": "annual NDVI, park cover, blue space"
+  },
+  "10_1016_j_envpol_2022_120046": {
+   "air_pollution": false,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": true,
+   "short_term": false,
+   "other_exposure": "greenness, parks, blue space",
+   "note": "annual NDVI, park cover, blue space"
+  },
+  "10_1016_s2542_5196_22_00017_1": {
+   "air_pollution": true,
+   "extreme_heat": true,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": true,
+   "other_exposure": null,
+   "note": "daily PM2.5, NO2, ozone and ambient temperature, case-crossover"
+  },
+  "10_1016_j_scitotenv_2022_156855": {
+   "air_pollution": true,
+   "extreme_heat": true,
+   "extreme_weather": false,
+   "long_term": true,
+   "short_term": false,
+   "other_exposure": null,
+   "note": "annual pollution and seasonal temperature (difference-in-differences)"
+  },
+  "10_1289_ehp10729": {
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": true,
+   "short_term": false,
+   "other_exposure": null,
+   "note": "annual PM2.5, NO2, summer ozone"
+  },
+  "10_1097_ee9_0000000000000261": {
+   "air_pollution": false,
+   "extreme_heat": true,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": true,
+   "other_exposure": null,
+   "note": "extreme heat days by heat metric"
+  },
+  "10_1016_j_envres_2022_114684": {
+   "air_pollution": false,
+   "extreme_heat": true,
+   "extreme_weather": false,
+   "long_term": true,
+   "short_term": false,
+   "other_exposure": null,
+   "note": "long-term summer/winter average temperature (climate)"
+  },
+  "10_1016_j_envres_2023_116203": {
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": true,
+   "short_term": false,
+   "other_exposure": null,
+   "note": "annual PM2.5, NO2, ozone"
+  },
+  "10_1038_s41467_023_37675_7": {
+   "air_pollution": false,
+   "extreme_heat": false,
+   "extreme_weather": true,
+   "long_term": false,
+   "short_term": true,
+   "other_exposure": null,
+   "note": "tropical cyclone exposure (Florida)"
+  },
+  "10_1016_j_envint_2023_108182": {
+   "air_pollution": false,
+   "extreme_heat": true,
+   "extreme_weather": false,
+   "long_term": true,
+   "short_term": false,
+   "other_exposure": null,
+   "note": "long-term summer specific humidity (climate)"
+  },
+  "10_1136_bmj_2023_076939": {
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": true,
+   "short_term": false,
+   "other_exposure": null,
+   "note": "3-year average PM2.5"
+  },
+  "10_1038_s41467_024_45776_0": {
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": true,
+   "short_term": false,
+   "other_exposure": null,
+   "note": "annual PM2.5 and constituents"
+  },
+  "10_1016_j_envint_2025_109617": {
+   "air_pollution": true,
+   "extreme_heat": true,
+   "extreme_weather": false,
+   "long_term": true,
+   "short_term": false,
+   "other_exposure": null,
+   "note": "intermediate and long-term pollution and temperature"
+  },
+  "10_1016_j_envres_2025_122779": {
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": true,
+   "short_term": false,
+   "other_exposure": null,
+   "note": "annual PM2.5 components"
+  },
+  "10_1609_aaai_v39i27_35009": {
+   "air_pollution": false,
+   "extreme_heat": true,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": true,
+   "other_exposure": "heat alert policy",
+   "note": "heat alerts (reinforcement learning)"
+  },
+  "10_1002_alz_70945": {
+   "air_pollution": false,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": false,
+   "other_exposure": "none (diagnostic coding study)",
+   "note": "dementia ICD-10 coding variation"
+  }
+ }
+}

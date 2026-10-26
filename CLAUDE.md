@@ -10,9 +10,9 @@ Do not ever reach data or files outside of the root of this project, except Clau
 
 ## Project Descriptio
 
-I need to perform an extensive check of  icd9 and icd 10 mappings. Each mapping is assigned to an outcome. The set of mappings was created using public health papers from Francesca Dominici's research group. 
+I need to generate a list of outcomes associated with pollution and extreme weather, and for each a validated list of icd9-10. The final list, should be stored as a yaml that will be ingested into medpar_outcomes https://github.com/NSAPH-Data-Processing/medpar_outcomes. Specifically, it should be formatted as francesca_claudio_icdranges01.yaml.
 
-Ultimately we should have a list of outcomes associated with pollution and heat, and for each a validated list of icd9-10. 
+
 
 ## Steps
 
@@ -24,7 +24,9 @@ characters. `Step 1` → `010_*.md`, `Step 2` → `020_*.md`, `Step 2.5` → `02
 
 Before moving forwards when you start, give me a thumbs up that you understand this every time we resume a session.
 
-### Step 1
+### Step 1: check previous list
+First we will check  icd9 and icd 10 mappings from a previously generated document. 
+
 Parse Dominici_hospitalization_ICD_codes.md.pdf to extract the inventory of icd mappings in the document. Store the mappings in json form. 
 
 ### Step 1.2
@@ -97,8 +99,27 @@ the codes found (Step 2.6) in the papers that row cites, with a per-paper and a 
 crosswalk and the row → outcome choices are made by hand. Uncited papers with the same outcome
 may be shown as context, but they do not change the verdict. Deliver a CSV for review.
 
-### Step 2.8 "Bin" definition check
-We want to identify relevant outcome categories or bins from the publications. Use the list below as reference, check if we can populate all of these outcomes from the publications in step 2. 
+### Step 2.8 "Bin" definitions
+Define our own list of outcome bins. Bins are a classification of the Step 2.6 code sets, not a
+checklist to fill.
+- Start from the reference list below, and add a bin for every relevant outcome in the Step 2.6
+  papers that the list lacks (e.g. all-cardiovascular and all-respiratory composites,
+  heat-related illness, peripheral vascular disease, chronic kidney disease). Every
+  author-defined code set must fall into at least one bin; list any that do not, with the reason.
+  Keep reference bins that have no paper evidence, marked as such.
+- Map each code set to its bin(s), with a scope: `exact`, `narrower` (part of the bin) or
+  `broader` (the bin plus other conditions).
+- Classify each paper's exposure, and record it per code set and per bin as JSON attributes:
+  `air_pollution`, `extreme_heat`, `extreme_weather` (e.g. tropical cyclones, drought, wildfire,
+  snowstorms), `long_term`, `short_term` (true/false, from the study design: e.g. annual
+  averages vs. daily lags or event days), plus `other_exposure` for papers whose exposure is
+  none of these (e.g. greenness, noise, policy). A bin's attributes are the union over its
+  papers, with the supporting papers listed. Add notes on whether the bin is supported for
+  long-term or short-term effects, and for air pollution or extreme weather.
+- Output: the bins JSON, plus a CSV with one row per bin listing its code sets, papers and
+  attributes.
+
+Reference list:
 
 ```
 # Respiratory
@@ -143,4 +164,7 @@ We want to identify relevant outcome categories or bins from the publications. U
 ``` 
 
 ### Step 3
-Repeat all the steps in 2 but for Danielle Braun's Google scholar. Try to produce the same files that are gerenerated in step 2, except the name of output files should be numbered like 03x_xxxx.xx. 
+Repeat all the steps in 2 but for Danielle Braun's Google scholar. Try to produce the same files that are gerenerated in step 2, except the name of output files should be numbered like 03x_xxxx.xx.
+
+### Step 4: Condense 2 and 3
+We should have a unified list of code sets from step 2 and 3 that incorporates information from each paper only once, avoiding to add papers twice if they are both in Francesca and Danielle Google Scholars. Bins are just a reference that helps classify the code sets. Modify the bins definition to include as many relevant outcomes as possible. We are interested in air pollution and extreme weather related outcomes overall. The bins should distinguish between "long-term effect" and "short-term effect" related outcomes. Incorporate a 
