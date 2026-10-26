@@ -1,0 +1,138 @@
+{
+ "description": "Step 3.8 exposure classification of Braun's Step 3.6 papers, same rules as 028_exposures.json. Papers shared with Step 2.8 reuse its entries (reused_from_step28: true).",
+ "papers": {
+  "10_1016_s2542_5196_20_30227_8": {
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": true,
+   "short_term": false,
+   "other_exposure": null,
+   "note": "annual PM2.5",
+   "reused_from_step28": true
+  },
+  "10_1016_j_envint_2021_106834": {
+   "air_pollution": false,
+   "extreme_heat": true,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": true,
+   "other_exposure": "heat alert policy",
+   "note": "heat alert days vs matched days",
+   "reused_from_step28": true
+  },
+  "10_1097_ede_0000000000001265": {
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": true,
+   "other_exposure": null,
+   "note": "PM2.5, case-crossover (Medicaid and Medicare)",
+   "reused_from_step28": true
+  },
+  "10_1097_ede_0000000000001456": {
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": true,
+   "other_exposure": null,
+   "note": "PM2.5 lag 0-1, case-crossover",
+   "reused_from_step28": true
+  },
+  "10_1136_bmjmed_2021_000009": {
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": true,
+   "short_term": false,
+   "other_exposure": null,
+   "note": "annual PM2.5, NO2",
+   "reused_from_step28": true
+  },
+  "10_1289_ehp10729": {
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": true,
+   "short_term": false,
+   "other_exposure": null,
+   "note": "annual PM2.5, NO2, summer ozone",
+   "reused_from_step28": true
+  },
+  "10_1097_ee9_0000000000000261": {
+   "air_pollution": false,
+   "extreme_heat": true,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": true,
+   "other_exposure": null,
+   "note": "extreme heat days by heat metric",
+   "reused_from_step28": true
+  },
+  "10_1016_j_envint_2022_107694": {
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": true,
+   "short_term": false,
+   "other_exposure": null,
+   "note": "10-year lagged annual PM2.5, NO2, summer ozone"
+  },
+  "10_1016_j_envint_2024_108739": {
+   "air_pollution": false,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": true,
+   "short_term": false,
+   "other_exposure": "street-view greenspace",
+   "note": "annual street-view trees, grass, other green"
+  },
+  "10_1038_s41531_024_00815_x": {
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": true,
+   "short_term": false,
+   "other_exposure": null,
+   "note": "annual PM2.5, NO2, summer ozone"
+  },
+  "10_1093_aje_kwae133": {
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": true,
+   "short_term": false,
+   "other_exposure": null,
+   "note": "annual PM2.5, NO2, summer ozone (causal methods)"
+  },
+  "10_1097_ee9_0000000000000395": {
+   "air_pollution": false,
+   "extreme_heat": true,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": true,
+   "other_exposure": null,
+   "note": "daily heat index, extreme heat days, heat waves (Greater Boston)"
+  },
+  "10_1038_s41370_026_00882_7": {
+   "air_pollution": false,
+   "extreme_heat": true,
+   "extreme_weather": false,
+   "long_term": false,
+   "short_term": true,
+   "other_exposure": null,
+   "note": "daily maximum heat index, lags 0-2"
+  },
+  "10_1097_ee9_0000000000000519": {
+   "air_pollution": true,
+   "extreme_heat": false,
+   "extreme_weather": false,
+   "long_term": true,
+   "short_term": false,
+   "other_exposure": null,
+   "note": "10-year lagged annual PM2.5, NO2, summer ozone"
+  }
+ }
+}

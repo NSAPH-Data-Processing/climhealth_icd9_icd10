@@ -1,53 +1,97 @@
 {
- "description": "Step 3.8 hand map: the Step 2.8 reference bins -> Step 3.6 outcome entries (036_icd_codes.json, Braun's papers). Same scope rules as 028_bins.json.",
- "labels": {},
+ "description": "Step 3.8 bins: the Step 2.8 bins (028_bins.json) applied to Braun's Step 3.6 code sets (036_icd_codes.json), same scope rules, plus K6 (dehydration) added from Braun's papers. Bins with no Braun source are kept (status no_evidence) so the two lists align for Step 4.",
+ "labels": {
+  "10_1016_j_envint_2021_106834": "Weinberger 2021 Environ Int",
+  "10_1097_ee9_0000000000000261": "Spangler 2023 Environ Epidemiol",
+  "10_1097_ede_0000000000001265": "deSouza 2021 Epidemiology"
+ },
  "bins": [
+  {
+   "id": "R0",
+   "group": "Respiratory",
+   "name": "All respiratory disease (composite)",
+   "origin": "added",
+   "sources": [
+    [
+     "10_1097_ede_0000000000001456",
+     "32 respiratory discharge diagnoses (multi-level CCS codes starting with 8)",
+     "exact"
+    ]
+   ],
+   "note": "Two definition families: all of ICD-9 460-519 / J00-J99, or COPD + respiratory tract infections (464-466, 480-487, 490-492, sometimes + 493)."
+  },
   {
    "id": "R1",
    "group": "Respiratory",
    "name": "Asthma exacerbations",
-   "sources": [],
-   "note": "No outcome in Braun's Step 3.6 papers."
+   "origin": "reference",
+   "sources": []
   },
   {
    "id": "R2",
    "group": "Respiratory",
    "name": "COPD exacerbations",
-   "sources": [],
-   "note": "No outcome in Braun's Step 3.6 papers."
+   "origin": "reference",
+   "sources": []
   },
   {
    "id": "R3",
    "group": "Respiratory",
    "name": "Bronchiectasis",
-   "sources": [],
-   "note": "No outcome in Braun's Step 3.6 papers."
+   "origin": "reference",
+   "sources": []
   },
   {
    "id": "R4",
    "group": "Respiratory",
-   "name": "Pneumonia and some other respiratory infections",
-   "sources": [],
-   "note": "No outcome in Braun's Step 3.6 papers."
+   "name": "Pneumonia and other respiratory infections (incl. influenza)",
+   "origin": "reference",
+   "sources": [
+    [
+     "10_1097_ede_0000000000001456",
+     "influenza (CCS 8.1.2)",
+     "narrower"
+    ]
+   ]
   },
   {
    "id": "R5",
    "group": "Respiratory",
-   "name": "Respiratory failure, insufficiency, or arrest",
-   "sources": [],
-   "note": "No outcome in Braun's Step 3.6 papers."
+   "name": "Respiratory failure, insufficiency, or arrest (incl. ARDS)",
+   "origin": "reference",
+   "sources": []
   },
   {
    "id": "R6",
    "group": "Respiratory",
-   "name": "Upper respiratory infections",
-   "sources": [],
-   "note": "No outcome in Braun's Step 3.6 papers."
+   "name": "Upper respiratory infections (and acute bronchitis)",
+   "origin": "reference",
+   "sources": []
+  },
+  {
+   "id": "C0",
+   "group": "Cardiovascular and blood-vessel conditions",
+   "name": "All cardiovascular disease (composite)",
+   "origin": "added",
+   "sources": [
+    [
+     "10_1097_ede_0000000000001265",
+     "CVD-related hospitalizations (first)",
+     "exact"
+    ],
+    [
+     "10_1097_ede_0000000000001456",
+     "57 cardiovascular discharge diagnoses (multi-level CCS codes starting with 7)",
+     "exact"
+    ]
+   ],
+   "note": "Definition families: 390-459 / I00-I99 (most papers), 390-429, and the MCAPS five-cause sum (426-428, 429, 410-414, 430-438, 440-448)."
   },
   {
    "id": "C1",
    "group": "Cardiovascular and blood-vessel conditions",
    "name": "Heart attack (acute myocardial infarction)",
+   "origin": "reference",
    "sources": [
     [
      "10_1097_ede_0000000000001265",
@@ -60,6 +104,7 @@
    "id": "C2",
    "group": "Cardiovascular and blood-vessel conditions",
    "name": "Ischemic heart disease and coronary atherosclerosis",
+   "origin": "reference",
    "sources": [
     [
      "10_1097_ede_0000000000001265",
@@ -72,6 +117,7 @@
    "id": "C3",
    "group": "Cardiovascular and blood-vessel conditions",
    "name": "Heart failure",
+   "origin": "reference",
    "sources": [
     [
      "10_1097_ede_0000000000001265",
@@ -89,27 +135,28 @@
    "id": "C4",
    "group": "Cardiovascular and blood-vessel conditions",
    "name": "Abnormal heart rhythms (arrhythmias/dysrhythmias)",
-   "sources": [],
-   "note": "No outcome in Braun's Step 3.6 papers."
+   "origin": "reference",
+   "sources": []
   },
   {
    "id": "C5",
    "group": "Cardiovascular and blood-vessel conditions",
    "name": "Cardiac arrest",
-   "sources": [],
-   "note": "No outcome in Braun's Step 3.6 papers."
+   "origin": "reference",
+   "sources": []
   },
   {
    "id": "C6",
    "group": "Cardiovascular and blood-vessel conditions",
    "name": "Hypertensive heart disease",
-   "sources": [],
-   "note": "No outcome in Braun's Step 3.6 papers."
+   "origin": "reference",
+   "sources": []
   },
   {
    "id": "C7",
    "group": "Cardiovascular and blood-vessel conditions",
    "name": "Stroke, including ischemic and hemorrhagic stroke",
+   "origin": "reference",
    "sources": [
     [
      "10_1097_ede_0000000000001265",
@@ -121,26 +168,77 @@
      "intracranial hemorrhage (CCS 7.3.1.1)",
      "narrower"
     ]
-   ]
+   ],
+   "note": "Ischemic and hemorrhagic stroke are studied separately; broader cerebrovascular outcomes are in N4."
   },
   {
    "id": "C8",
    "group": "Cardiovascular and blood-vessel conditions",
    "name": "Blood clots: phlebitis, thrombophlebitis, and thromboembolism",
-   "sources": [],
-   "note": "No outcome in Braun's Step 3.6 papers."
+   "origin": "reference",
+   "sources": []
   },
   {
    "id": "C9",
    "group": "Cardiovascular and blood-vessel conditions",
    "name": "Retinal artery occlusion",
+   "origin": "reference",
+   "sources": []
+  },
+  {
+   "id": "C10",
+   "group": "Cardiovascular and blood-vessel conditions",
+   "name": "Peripheral vascular disease and atherosclerosis",
+   "origin": "added",
+   "sources": [
+    [
+     "10_1016_j_envint_2021_106834",
+     "peripheral vascular disease (CCS 114)",
+     "exact"
+    ]
+   ],
+   "note": "ICD-9 440-448 in the MCAPS papers; CCS 114 (atherosclerosis) in the heat papers."
+  },
+  {
+   "id": "C11",
+   "group": "Cardiovascular and blood-vessel conditions",
+   "name": "Cardiomyopathy",
+   "origin": "added",
+   "sources": []
+  },
+  {
+   "id": "C12",
+   "group": "Cardiovascular and blood-vessel conditions",
+   "name": "Valvular heart disease",
+   "origin": "added",
+   "sources": []
+  },
+  {
+   "id": "C13",
+   "group": "Cardiovascular and blood-vessel conditions",
+   "name": "Aortic and other arterial aneurysms",
+   "origin": "added",
+   "sources": [
+    [
+     "10_1097_ede_0000000000001456",
+     "other aneurysm (CCS 7.4.2.2)",
+     "narrower"
+    ]
+   ]
+  },
+  {
+   "id": "C14",
+   "group": "Cardiovascular and blood-vessel conditions",
+   "name": "Cardiac amyloidosis",
+   "origin": "added",
    "sources": [],
-   "note": "No outcome in Braun's Step 3.6 papers."
+   "note": "Only a trends paper (no environmental exposure)."
   },
   {
    "id": "N1",
    "group": "Neurological and mental health",
    "name": "Parkinson's disease",
+   "origin": "reference",
    "sources": [
     [
      "10_1016_s2542_5196_20_30227_8",
@@ -173,6 +271,7 @@
    "id": "N2",
    "group": "Neurological and mental health",
    "name": "Dementia, including Alzheimer's disease",
+   "origin": "reference",
    "sources": [
     [
      "10_1016_s2542_5196_20_30227_8",
@@ -194,14 +293,15 @@
   {
    "id": "N3",
    "group": "Neurological and mental health",
-   "name": "Depression-related hospital visits or admissions",
-   "sources": [],
-   "note": "No outcome in Braun's Step 3.6 papers."
+   "name": "Depression and mood disorders",
+   "origin": "reference",
+   "sources": []
   },
   {
    "id": "N4",
    "group": "Neurological and mental health",
    "name": "Stroke and other cerebrovascular conditions",
+   "origin": "reference",
    "sources": [
     [
      "10_1097_ede_0000000000001456",
@@ -211,9 +311,44 @@
    ]
   },
   {
+   "id": "N5",
+   "group": "Neurological and mental health",
+   "name": "Multiple sclerosis",
+   "origin": "added",
+   "sources": []
+  },
+  {
+   "id": "N6",
+   "group": "Neurological and mental health",
+   "name": "Schizophrenia and other psychotic disorders",
+   "origin": "added",
+   "sources": []
+  },
+  {
+   "id": "N7",
+   "group": "Neurological and mental health",
+   "name": "Bipolar disorder",
+   "origin": "added",
+   "sources": []
+  },
+  {
+   "id": "K0",
+   "group": "Kidney, metabolic, and fluid-balance conditions",
+   "name": "Kidney and urinary system diseases (composite)",
+   "origin": "added",
+   "sources": [
+    [
+     "10_1136_bmjmed_2021_000009",
+     "diseases of the kidney and the urinary system",
+     "exact"
+    ]
+   ]
+  },
+  {
    "id": "K1",
    "group": "Kidney, metabolic, and fluid-balance conditions",
    "name": "Acute or unspecified kidney failure",
+   "origin": "reference",
    "sources": [
     [
      "10_1289_ehp10729",
@@ -230,7 +365,8 @@
   {
    "id": "K2",
    "group": "Kidney, metabolic, and fluid-balance conditions",
-   "name": "Fluid and electrolyte disorders",
+   "name": "Fluid and electrolyte disorders (incl. dehydration)",
+   "origin": "reference",
    "sources": [
     [
      "10_1016_j_envint_2021_106834",
@@ -248,6 +384,7 @@
    "id": "K3",
    "group": "Kidney, metabolic, and fluid-balance conditions",
    "name": "Diabetes with complications",
+   "origin": "reference",
    "sources": [
     [
      "10_1016_j_envint_2021_106834",
@@ -257,9 +394,89 @@
    ]
   },
   {
+   "id": "K4",
+   "group": "Kidney, metabolic, and fluid-balance conditions",
+   "name": "Chronic kidney disease",
+   "origin": "added",
+   "sources": [
+    [
+     "10_1136_bmjmed_2021_000009",
+     "chronic kidney disease",
+     "exact"
+    ]
+   ]
+  },
+  {
+   "id": "K5",
+   "group": "Kidney, metabolic, and fluid-balance conditions",
+   "name": "Diabetes mellitus (all)",
+   "origin": "added",
+   "sources": []
+  },
+  {
+   "id": "K6",
+   "group": "Kidney, metabolic, and fluid-balance conditions",
+   "name": "Dehydration and volume depletion",
+   "origin": "added",
+   "sources": [
+    [
+     "10_1097_ee9_0000000000000395",
+     "dehydration",
+     "exact"
+    ]
+   ],
+   "note": "Added in Step 3.8 (Jung 2025: 276.51 / E86.0). Part of CCS 55; Bobb 2014 reports 276.51 as the most common code in that group during heat waves."
+  },
+  {
+   "id": "H1",
+   "group": "Heat-related conditions",
+   "name": "Heat-related illness (heat stroke, heat exhaustion, effects of heat)",
+   "origin": "added",
+   "sources": [
+    [
+     "10_1097_ee9_0000000000000395",
+     "heat-related illness",
+     "exact"
+    ],
+    [
+     "10_1097_ee9_0000000000000395",
+     "exposure to excessive natural heat",
+     "exact"
+    ],
+    [
+     "10_1016_j_envint_2021_106834",
+     "heat stroke and other external causes (CCS 244)",
+     "broader"
+    ]
+   ],
+   "note": "ICD-9 992.x (heat stroke 992.0) / ICD-10 T67.x; CCS 244 is broader (other injuries and external causes)."
+  },
+  {
+   "id": "H2",
+   "group": "Heat-related conditions",
+   "name": "Heat-sensitive admissions composite (CCS 2, 50, 55, 114, 157, 159, 244)",
+   "origin": "added",
+   "sources": [
+    [
+     "10_1097_ee9_0000000000000261",
+     "heat-related hospitalizations (CCS 55, 157, 159, 2, 244, 114, 50)",
+     "exact"
+    ]
+   ],
+   "note": "The seven CCS groups that Bobb 2014 found elevated during heat waves."
+  },
+  {
+   "id": "I0",
+   "group": "Infections and other reported admission categories",
+   "name": "Non-respiratory infections (composite)",
+   "origin": "added",
+   "sources": []
+  },
+  {
    "id": "I1",
    "group": "Infections and other reported admission categories",
    "name": "Sepsis/septicemia",
+   "origin": "reference",
    "sources": [
     [
      "10_1016_j_envint_2021_106834",
@@ -272,34 +489,81 @@
    "id": "I2",
    "group": "Infections and other reported admission categories",
    "name": "Urinary tract infections",
+   "origin": "reference",
    "sources": [
     [
      "10_1016_j_envint_2021_106834",
      "urinary tract infections (CCS 159)",
      "exact"
     ]
-   ]
+   ],
+   "note": "Yitshak-Sade 2021 prints UTI as ICD-9 559 (likely 599.0)."
   },
   {
    "id": "I3",
    "group": "Infections and other reported admission categories",
    "name": "Skin and soft-tissue infections",
-   "sources": [],
-   "note": "No outcome in Braun's Step 3.6 papers."
+   "origin": "reference",
+   "sources": []
   },
   {
    "id": "I4",
    "group": "Infections and other reported admission categories",
    "name": "Pneumocystis pneumonia",
-   "sources": [],
-   "note": "No outcome in Braun's Step 3.6 papers."
+   "origin": "reference",
+   "sources": []
   },
   {
    "id": "I5",
    "group": "Infections and other reported admission categories",
    "name": "Intestinal obstruction",
+   "origin": "reference",
+   "sources": []
+  },
+  {
+   "id": "I6",
+   "group": "Infections and other reported admission categories",
+   "name": "Central nervous system infections",
+   "origin": "added",
+   "sources": []
+  },
+  {
+   "id": "I7",
+   "group": "Infections and other reported admission categories",
+   "name": "Intestinal infections",
+   "origin": "added",
+   "sources": []
+  },
+  {
+   "id": "X1",
+   "group": "Injuries",
+   "name": "Injuries",
+   "origin": "added",
    "sources": [],
-   "note": "No outcome in Braun's Step 3.6 papers."
+   "note": "Also used as a negative control outcome (Bell 2009, Wei 2019) and excluded in Peng 2009."
+  },
+  {
+   "id": "X2",
+   "group": "Injuries",
+   "name": "Fractures (incl. hip and osteoporosis-related)",
+   "origin": "added",
+   "sources": []
+  },
+  {
+   "id": "O1",
+   "group": "Other",
+   "name": "Pancreatic cancer",
+   "origin": "added",
+   "sources": [],
+   "note": "Only a trends paper (no environmental exposure) and the Parks CCS table."
+  },
+  {
+   "id": "W1",
+   "group": "Outcome-wide scans",
+   "name": "Outcome-wide scans of all disease groups",
+   "origin": "added",
+   "sources": [],
+   "note": "Not a disease bin: studies that scan every CCS group. Parks level-1 causes without a dedicated bin are listed here."
   }
  ]
 }

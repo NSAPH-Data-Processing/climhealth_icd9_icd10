@@ -117,7 +117,7 @@ def main():
             "parks_only": bool(coded) and all(s["slug"] == PARKS for s in coded),
             "n_papers": len({s["slug"] for s in sources}),
             "icd10_available": any(s["icd10"] for s in coded),
-            "support": support, "support_note": support_note(support),
+            "support": support, "support_note": support_note(support) if sources else "no source in this set",
             "note": b.get("note"), "sources": sources}))
 
     unbinned = [{"slug": p["slug"], "outcome_name": o["outcome_name"], "codes_status": o["codes_status"]}
