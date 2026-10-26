@@ -1,0 +1,689 @@
+{
+ "sources": [
+  "040_papers.json",
+  "025_build_shortlist.py",
+  "035_build_shortlist.py"
+ ],
+ "shortlist_size": 11,
+ "resolved_since_step25": [
+  "10_1093_aje_kwae133"
+ ],
+ "items": [
+  {
+   "rank": 1,
+   "shortlist": true,
+   "slug": "10_1001_jama_295_10_1127",
+   "label": "Dominici 2006 JAMA",
+   "gap": "no_fulltext",
+   "step25_rank": 1,
+   "step35_rank": null,
+   "in_dominici_scholar": true,
+   "in_braun_scholar": false,
+   "step1_cv": [
+    57
+   ],
+   "document": "Article PDF, plus any online supplement (eTables)",
+   "links": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC3543154/",
+    "https://doi.org/10.1001/jama.295.10.1127"
+   ],
+   "why": "Dominici 2006 JAMA is the source cited for 6 Step 1 rows (S1-01/02/03/05/06/07: CVD, respiratory, IHD, CHF, arrhythmia, cerebrovascular). Its cause-specific ICD-9 definitions are the reference set.",
+   "year": 2006,
+   "title": "Fine particulate air pollution and hospital admission for cardiovascular and respiratory diseases",
+   "save_to": "papers/10_1001_jama_295_10_1127/"
+  },
+  {
+   "rank": 2,
+   "shortlist": true,
+   "slug": "10_1001_jama_299_18_2172",
+   "label": "Peng 2008 JAMA",
+   "gap": "no_fulltext",
+   "step25_rank": 2,
+   "step35_rank": null,
+   "in_dominici_scholar": true,
+   "in_braun_scholar": false,
+   "step1_cv": [
+    78
+   ],
+   "document": "Article PDF, plus any online supplement",
+   "links": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC3169813/",
+    "https://doi.org/10.1001/jama.299.18.2172"
+   ],
+   "why": "Peng 2008 JAMA is cited for S1-01/02/09/11 (CVD, respiratory, COPD, pneumonia/RTI).",
+   "year": 2008,
+   "title": "Coarse particulate matter air pollution and hospital admissions for cardiovascular and respiratory diseases among Medicare patients",
+   "save_to": "papers/10_1001_jama_299_18_2172/"
+  },
+  {
+   "rank": 3,
+   "shortlist": true,
+   "slug": "10_1093_aje_kws267",
+   "label": "Barr 2012 AJE",
+   "gap": "no_fulltext",
+   "step25_rank": 3,
+   "step35_rank": null,
+   "in_dominici_scholar": true,
+   "in_braun_scholar": false,
+   "step1_cv": [
+    125
+   ],
+   "document": "Article PDF, plus any online supplement",
+   "links": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC3530376/",
+    "https://doi.org/10.1093/aje/kws267"
+   ],
+   "why": "Barr 2012 (smoking bans) is the source for S1-04, acute MI (ICD-9 410).",
+   "year": 2012,
+   "title": "Comprehensive smoking bans and acute myocardial infarction among Medicare enrollees in 387 US counties: 1999–2008",
+   "save_to": "papers/10_1093_aje_kws267/"
+  },
+  {
+   "rank": 4,
+   "shortlist": true,
+   "slug": "10_1016_j_chest_2019_03_017",
+   "label": "Rhee 2019 Chest",
+   "gap": "no_fulltext",
+   "step25_rank": 4,
+   "step35_rank": null,
+   "in_dominici_scholar": true,
+   "in_braun_scholar": false,
+   "step1_cv": [
+    202
+   ],
+   "document": "Article PDF, plus any online supplement",
+   "links": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC6607425/",
+    "https://doi.org/10.1016/j.chest.2019.03.017"
+   ],
+   "why": "Rhee 2019 is cited for S1-12 (ARDS, ICD-9 518.82). The 2020 Rhee paper (fetched) lists 518.51-518.53 too, so checking the 2019 definition matters.",
+   "year": 2019,
+   "title": "Impact of long-term exposures to ambient PM2. 5 and ozone on ARDS risk for older adults in the United States",
+   "save_to": "papers/10_1016_j_chest_2019_03_017/"
+  },
+  {
+   "rank": 5,
+   "shortlist": true,
+   "slug": "10_1016_s2542_5196_21_00168_6",
+   "label": "Chen 2021 Lancet Planet Health",
+   "gap": "no_fulltext",
+   "step25_rank": 5,
+   "step35_rank": null,
+   "in_dominici_scholar": true,
+   "in_braun_scholar": false,
+   "step1_cv": [
+    245,
+    253
+   ],
+   "document": "Article PDF (open-access journal), plus appendix",
+   "links": [
+    "https://doi.org/10.1016/s2542-5196(21)00168-6"
+   ],
+   "why": "Chen 2021 is cited for S1-01 (CVD all-cause). Gold open access, so it should download without an account.",
+   "year": 2021,
+   "title": "Temporal variation in association between short-term exposure to fine particulate matter and hospitalisations in older adults in the USA: a long-term time-series analysis of …",
+   "save_to": "papers/10_1016_s2542_5196_21_00168_6/"
+  },
+  {
+   "rank": 6,
+   "shortlist": true,
+   "slug": "10_1097_ede_0000000000000556",
+   "label": "Liu 2017 Epidemiology",
+   "gap": "supplements_missing",
+   "step25_rank": 7,
+   "step35_rank": null,
+   "in_dominici_scholar": true,
+   "in_braun_scholar": false,
+   "step1_cv": [
+    175
+   ],
+   "document": "Supplement: NIHMS823701-supplement-Supplemental.docx (eAppendix)",
+   "links": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC5130603/",
+    "https://doi.org/10.1097/ede.0000000000000556"
+   ],
+   "why": "Liu 2017 wildfire paper (S1-27). The main text says 'The ICD-9 codes of diagnoses are in eAppendix'.",
+   "year": 2017,
+   "title": "Wildfire-specific fine particulate matter and risk of hospital admissions in urban and rural counties",
+   "save_to": "papers/10_1097_ede_0000000000000556/"
+  },
+  {
+   "rank": 7,
+   "shortlist": true,
+   "slug": "10_1016_j_ypmed_2018_02_001",
+   "label": "Hopp 2018 Prev Med",
+   "gap": "supplements_missing",
+   "step25_rank": 8,
+   "step35_rank": null,
+   "in_dominici_scholar": true,
+   "in_braun_scholar": false,
+   "step1_cv": [
+    190
+   ],
+   "document": "Supplement: NIHMS944332-supplement.docx",
+   "links": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC6040588/",
+    "https://doi.org/10.1016/j.ypmed.2018.02.001"
+   ],
+   "why": "Hopp 2018 (S1-24 heat stroke / heat illness). The supplement lists the ~50 heat-related ICD-9 diagnoses; the main text names only the CCS groups.",
+   "year": 2018,
+   "title": "Medical diagnoses of heat wave-related hospital admissions in older adults",
+   "save_to": "papers/10_1016_j_ypmed_2018_02_001/"
+  },
+  {
+   "rank": 8,
+   "shortlist": true,
+   "slug": "10_1001_jama_2014_15715",
+   "label": "Bobb 2014 JAMA",
+   "gap": "supplements_missing",
+   "step25_rank": 9,
+   "step35_rank": null,
+   "in_dominici_scholar": true,
+   "in_braun_scholar": false,
+   "step1_cv": [
+    153
+   ],
+   "document": "Supplement: NIHMS657527-supplement-Hospitalizations_and_heat_waves_-_Supplemental_Material.pdf",
+   "links": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC4319792/",
+    "https://doi.org/10.1001/jama.2014.15715"
+   ],
+   "why": "Bobb 2014 JAMA (S1-24, S1-26 heat multi-cause). The main text uses 283 CCS groups; the supplement should show the categories and codes behind the heat-sensitive outcomes.",
+   "year": 2014,
+   "title": "Cause-specific risk of hospital admission related to extreme heat in older adults",
+   "save_to": "papers/10_1001_jama_2014_15715/"
+  },
+  {
+   "rank": 9,
+   "shortlist": true,
+   "slug": "10_1080_01621459_2020_1722134",
+   "label": "Thomas 2020 JASA",
+   "gap": "no_fulltext",
+   "step25_rank": 10,
+   "step35_rank": null,
+   "in_dominici_scholar": true,
+   "in_braun_scholar": false,
+   "step1_cv": [
+    220,
+    268
+   ],
+   "document": "Article PDF, plus supplementary material (likely paywalled: JASA)",
+   "links": [
+    "https://doi.org/10.1080/01621459.2020.1722134"
+   ],
+   "why": "Thomas 2020 is cited for S1-13 (cardiorespiratory). Outcome-wide study (432 ICD-9 CVD codes), so its value depends on the pending 2.6 decision on outcome-wide papers. Probably needs a library account.",
+   "year": 2020,
+   "title": "Estimating the effects of fine particulate matter on 432 cardiovascular diseases using multi-outcome regression with tree-structured shrinkage",
+   "save_to": "papers/10_1080_01621459_2020_1722134/"
+  },
+  {
+   "rank": 10,
+   "shortlist": true,
+   "slug": "10_1001_jamainternmed_2024_7719",
+   "label": "Heat and ADRD 2025 JAMA Intern Med",
+   "gap": "no_fulltext",
+   "step25_rank": null,
+   "step35_rank": 1,
+   "in_dominici_scholar": false,
+   "in_braun_scholar": true,
+   "step1_cv": [],
+   "document": "Article PDF, plus Supplement 1 (eMethods: ADRD codes)",
+   "links": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC11791774/",
+    "https://doi.org/10.1001/jamainternmed.2024.7719"
+   ],
+   "why": "Heat and first hospitalization with ADRD (Medicare FFS 2000-2018): the ADRD code list (ICD-9 and ICD-10 years) fills the dementia bin for a heat exposure. Has a PMC page (PMC11791774) that the script could not fetch.",
+   "year": 2025,
+   "title": "Extreme heat and hospitalization among older persons with Alzheimer disease and related dementias",
+   "save_to": "papers/10_1001_jamainternmed_2024_7719/"
+  },
+  {
+   "rank": 11,
+   "shortlist": true,
+   "slug": "10_1093_aje_kwag087",
+   "label": "ADRD by region and race 2026 AJE",
+   "gap": "no_fulltext",
+   "step25_rank": null,
+   "step35_rank": 2,
+   "in_dominici_scholar": false,
+   "in_braun_scholar": true,
+   "step1_cv": [],
+   "document": "Article PDF, plus supplementary material (ADRD definition)",
+   "links": [
+    "https://doi.org/10.1093/aje/kwag087"
+   ],
+   "why": "ADRD and non-ADRD hospitalizations 2000-2018 (spans the ICD-10 switch): another ADRD code list.",
+   "year": 2026,
+   "title": "Hospitalization risk with and without dementia by region and race in the United States",
+   "save_to": "papers/10_1093_aje_kwag087/"
+  },
+  {
+   "rank": 12,
+   "shortlist": false,
+   "slug": "10_1097_ede_0000000000001456",
+   "label": "Thomas 2022 Epidemiology",
+   "gap": "supplements_missing",
+   "step25_rank": 11,
+   "step35_rank": 3,
+   "in_dominici_scholar": true,
+   "in_braun_scholar": true,
+   "step1_cv": [
+    220,
+    268
+   ],
+   "document": "Supplements: NIHMS1763059-supplement-eAppendix_1..3.pdf",
+   "links": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC8852365/",
+    "https://doi.org/10.1097/ede.0000000000001456"
+   ],
+   "why": "Thomas 2022 (S1-13). The main text already defines outcomes as CCS groups 7.x/8.x; the eAppendix adds the diagnosis list. Outcome-wide.",
+   "year": 2022,
+   "title": "A Bayesian multi-outcome analysis of fine particulate matter and cardiorespiratory hospitalizations",
+   "save_to": "papers/10_1097_ede_0000000000001456/"
+  },
+  {
+   "rank": 13,
+   "shortlist": false,
+   "slug": "10_1080_01621459_2020_1803883",
+   "label": "Nethery 2021 JASA",
+   "gap": "supplements_missing",
+   "step25_rank": 12,
+   "step35_rank": null,
+   "in_dominici_scholar": true,
+   "in_braun_scholar": false,
+   "step1_cv": [],
+   "document": "Supplement: NIHMS1632056-supplement-Sup23/26/29.pdf (Supplementary Materials, Section 2.2)",
+   "links": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7788006/",
+    "https://doi.org/10.1080/01621459.2020.1803883"
+   ],
+   "why": "Nethery 2021, Clean Air Act (CVD, dementia). The main text says the ICD-9 codes are in Supplement Section 2.2. Not cited in Step 1. Most other supplement files are code (.r/.md).",
+   "year": 2021,
+   "title": "Evaluation of the health impacts of the 1990 clean air act amendments using causal inference and machine learning",
+   "save_to": "papers/10_1080_01621459_2020_1803883/"
+  },
+  {
+   "rank": 14,
+   "shortlist": false,
+   "slug": "10_1016_j_scitotenv_2020_142524",
+   "label": "Yitshak-Sade 2021 Sci Total Environ",
+   "gap": "supplements_missing",
+   "step25_rank": 13,
+   "step35_rank": null,
+   "in_dominici_scholar": true,
+   "in_braun_scholar": false,
+   "step1_cv": [
+    238
+   ],
+   "document": "Supplements: NIHMS1634916-supplement-1.pdf, -2.docx",
+   "links": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7749824/",
+    "https://doi.org/10.1016/j.scitotenv.2020.142524"
+   ],
+   "why": "Yitshak-Sade 2021 (S1-16). The main text already gives the cohort and main cause codes (332, 3310, 290, 486, ...).",
+   "year": 2021,
+   "title": "PM2. 5 and hospital admissions among Medicare enrollees with chronic debilitating brain disorders",
+   "save_to": "papers/10_1016_j_scitotenv_2020_142524/"
+  },
+  {
+   "rank": 15,
+   "shortlist": false,
+   "slug": "10_1016_s2542_5196_17_30136_5",
+   "label": "Prada 2017 Lancet Planet Health",
+   "gap": "supplements_missing",
+   "step25_rank": 14,
+   "step35_rank": null,
+   "in_dominici_scholar": true,
+   "in_braun_scholar": false,
+   "step1_cv": [],
+   "document": "Supplement: NIHMS921603-supplement.docx (Supplementary Table 1)",
+   "links": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC5841468/",
+    "https://doi.org/10.1016/s2542-5196(17)30136-5"
+   ],
+   "why": "Prada 2017, fracture codes (in Supplementary Table 1). The outcome is not in the Step 1 PDF.",
+   "year": 2017,
+   "title": "Association of air particulate pollution with bone loss over time and bone fracture risk: analysis of data from two independent studies",
+   "save_to": "papers/10_1016_s2542_5196_17_30136_5/"
+  },
+  {
+   "rank": 16,
+   "shortlist": false,
+   "slug": "10_1161_circheartfailure_118_005407",
+   "label": "Gilstrap 2019 Circ Heart Fail",
+   "gap": "supplements_missing",
+   "step25_rank": 15,
+   "step35_rank": null,
+   "in_dominici_scholar": true,
+   "in_braun_scholar": false,
+   "step1_cv": [],
+   "document": "Supplement: NIHMS1528632-supplement-Supplemental_Material.pdf (Appendix)",
+   "links": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC6557425/",
+    "https://doi.org/10.1161/circheartfailure.118.005407"
+   ],
+   "why": "Gilstrap 2019, amyloidosis + HF codes (in the Appendix). The outcome is not in the Step 1 PDF.",
+   "year": 2019,
+   "title": "Epidemiology of cardiac amyloidosis–associated heart failure hospitalizations among fee-for-service medicare beneficiaries in the United States",
+   "save_to": "papers/10_1161_circheartfailure_118_005407/"
+  },
+  {
+   "rank": 17,
+   "shortlist": false,
+   "slug": "10_1161_circulationaha_109_851113",
+   "label": "Bell 2009 Circulation",
+   "gap": "supplements_missing",
+   "step25_rank": 16,
+   "step35_rank": null,
+   "in_dominici_scholar": true,
+   "in_braun_scholar": false,
+   "step1_cv": [
+    92
+   ],
+   "document": "Supplement: NIHMS139389-supplement-1.pdf",
+   "links": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC2777712/",
+    "https://doi.org/10.1161/circulationaha.109.851113"
+   ],
+   "why": "Bell 2009 (S1-08, S1-33). Codes are already in the main text (428, 426-427, 430-438, 410-414, 429, ...).",
+   "year": 2009,
+   "title": "Emergency hospital admissions for cardiovascular diseases and ambient levels of carbon monoxide: results for 126 United States urban counties, 1999–2005",
+   "save_to": "papers/10_1161_circulationaha_109_851113/"
+  },
+  {
+   "rank": 18,
+   "shortlist": false,
+   "slug": "10_1097_ede_0000000000001337",
+   "label": "Yan 2021 Epidemiology",
+   "gap": "supplements_missing",
+   "step25_rank": 17,
+   "step35_rank": null,
+   "in_dominici_scholar": true,
+   "in_braun_scholar": false,
+   "step1_cv": [
+    242
+   ],
+   "document": "Supplement: NIHMS1667651-supplement-Supplemental_Digital_Content.pdf",
+   "links": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC8887827/",
+    "https://doi.org/10.1097/ede.0000000000001337"
+   ],
+   "why": "Yan 2021 (S1-13, S1-30). Codes are already in the main text (390-459; 464-466, 480-487, 490-493).",
+   "year": 2021,
+   "title": "Tropical cyclone exposures and risks of emergency Medicare hospital admission for cardiorespiratory diseases in 175 urban United States counties, 1999–2010",
+   "save_to": "papers/10_1097_ede_0000000000001337/"
+  },
+  {
+   "rank": 19,
+   "shortlist": false,
+   "slug": "10_1097_ede_0000000000001195",
+   "label": "Rhee 2020 Epidemiology",
+   "gap": "supplements_missing",
+   "step25_rank": 18,
+   "step35_rank": null,
+   "in_dominici_scholar": true,
+   "in_braun_scholar": false,
+   "step1_cv": [
+    229
+   ],
+   "document": "Supplement: NIHMS1650996-supplement-supplemental_material.docx",
+   "links": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7744113/",
+    "https://doi.org/10.1097/ede.0000000000001195"
+   ],
+   "why": "Rhee 2020 (S1-12). Codes are already in the main text (518.51, 518.52, 518.53, 518.82).",
+   "year": 2020,
+   "title": "Risk of acute respiratory distress syndrome among older adults living near construction and manufacturing sites",
+   "save_to": "papers/10_1097_ede_0000000000001195/"
+  },
+  {
+   "rank": 20,
+   "shortlist": false,
+   "slug": "10_1016_j_scitotenv_2022_156855",
+   "label": "Danesh Yazdi 2022 Sci Total Environ",
+   "gap": "supplements_missing",
+   "step25_rank": 19,
+   "step35_rank": null,
+   "in_dominici_scholar": true,
+   "in_braun_scholar": false,
+   "step1_cv": [],
+   "document": "Supplement: NIHMS1849786-supplement-supplement.docx",
+   "links": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC10007814/",
+    "https://doi.org/10.1016/j.scitotenv.2022.156855"
+   ],
+   "why": "Danesh Yazdi 2022. ICD-9 and ICD-10 codes are already in the main text.",
+   "year": 2022,
+   "title": "The effect of long-term exposure to air pollution and seasonal temperature on hospital admissions with cardiovascular and respiratory disease in the United States: a difference …",
+   "save_to": "papers/10_1016_j_scitotenv_2022_156855/"
+  },
+  {
+   "rank": 21,
+   "shortlist": false,
+   "slug": "10_1097_ede_0000000000001265",
+   "label": "deSouza 2021 Epidemiology",
+   "gap": "supplements_missing",
+   "step25_rank": 20,
+   "step35_rank": 4,
+   "in_dominici_scholar": true,
+   "in_braun_scholar": true,
+   "step1_cv": [],
+   "document": "Supplement: NIHMS1662172-supplement-Supplemental_Digital_Content.pdf",
+   "links": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC7896354/",
+    "https://doi.org/10.1097/ede.0000000000001265"
+   ],
+   "why": "deSouza 2021. Codes are already in the main text.",
+   "year": 2021,
+   "title": "Nationwide study of short-term exposure to fine particulate matter and cardiovascular hospitalizations among Medicaid enrollees",
+   "save_to": "papers/10_1097_ede_0000000000001265/"
+  },
+  {
+   "rank": 22,
+   "shortlist": false,
+   "slug": "10_1016_j_envint_2021_106737",
+   "label": "Heo 2021 Environ Int",
+   "gap": "supplements_missing",
+   "step25_rank": 21,
+   "step35_rank": null,
+   "in_dominici_scholar": true,
+   "in_braun_scholar": false,
+   "step1_cv": [],
+   "document": "Supplement: NIHMS1722949-supplement-1.docx",
+   "links": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC8380720/",
+    "https://doi.org/10.1016/j.envint.2021.106737"
+   ],
+   "why": "Heo 2021. Codes are already in the main text (CVD ranges, 992.0).",
+   "year": 2021,
+   "title": "Temporal changes in associations between high temperature and hospitalizations by greenspace: analysis in the Medicare population in 40 US northeast counties",
+   "save_to": "papers/10_1016_j_envint_2021_106737/"
+  },
+  {
+   "rank": 23,
+   "shortlist": false,
+   "slug": "10_1097_ede_0000000000000777",
+   "label": "Zigler 2018 Epidemiology",
+   "gap": "supplements_missing",
+   "step25_rank": 22,
+   "step35_rank": null,
+   "in_dominici_scholar": true,
+   "in_braun_scholar": false,
+   "step1_cv": [],
+   "document": "Supplement: NIHMS916569-supplement-Supplemental_Digital_Content.pdf",
+   "links": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC5792368/",
+    "https://doi.org/10.1097/ede.0000000000000777"
+   ],
+   "why": "Zigler 2018. Codes are already in the main text (490-492, ...).",
+   "year": 2018,
+   "title": "Impact of National Ambient Air Quality Standards nonattainment designations on particulate pollution and health",
+   "save_to": "papers/10_1097_ede_0000000000000777/"
+  },
+  {
+   "rank": 24,
+   "shortlist": false,
+   "slug": "10_1161_circoutcomes_111_962456",
+   "label": "Yeh 2012 Circ Cardiovasc Qual Outcomes",
+   "gap": "supplements_missing",
+   "step25_rank": 23,
+   "step35_rank": null,
+   "in_dominici_scholar": true,
+   "in_braun_scholar": false,
+   "step1_cv": [],
+   "document": "Supplement: NIHMS353706-supplement-1.pdf",
+   "links": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC3310945/",
+    "https://doi.org/10.1161/circoutcomes.111.962456"
+   ],
+   "why": "Yeh 2012. MI codes are already in the main text (410.xx except 410.x2).",
+   "year": 2012,
+   "title": "Geographic disparities in the incidence and outcomes of hospitalized myocardial infarction: does a rising tide lift all boats?",
+   "save_to": "papers/10_1161_circoutcomes_111_962456/"
+  },
+  {
+   "rank": 25,
+   "shortlist": false,
+   "slug": "10_1002_cncr_28537",
+   "label": "Wang 2014 Cancer",
+   "gap": "supplements_missing",
+   "step25_rank": 24,
+   "step35_rank": null,
+   "in_dominici_scholar": true,
+   "in_braun_scholar": false,
+   "step1_cv": [],
+   "document": "Supplement: NIHMS578201-supplement-Supp_appendix_S1.doc",
+   "links": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC4019988/",
+    "https://doi.org/10.1002/cncr.28537"
+   ],
+   "why": "Wang 2014, pancreatic cancer (157.xx in the main text). Not in the Step 1 PDF.",
+   "year": 2014,
+   "title": "National trends in pancreatic cancer outcomes and pattern of care among Medicare beneficiaries, 2000 through 2010",
+   "save_to": "papers/10_1002_cncr_28537/"
+  },
+  {
+   "rank": 26,
+   "shortlist": false,
+   "slug": "10_1111_biom_12254",
+   "label": "Boehm Vock 2015 Biometrics",
+   "gap": "supplements_missing",
+   "step25_rank": 25,
+   "step35_rank": null,
+   "in_dominici_scholar": true,
+   "in_braun_scholar": false,
+   "step1_cv": [],
+   "document": "Supplement: NIHMS635368-supplement-1.pdf",
+   "links": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC4394902/",
+    "https://doi.org/10.1111/biom.12254"
+   ],
+   "why": "Boehm Vock 2015, a methods paper. CVD codes are referenced in the main text.",
+   "year": 2015,
+   "title": "Spatial variable selection methods for investigating acute health effects of fine particulate matter components",
+   "save_to": "papers/10_1111_biom_12254/"
+  },
+  {
+   "rank": 27,
+   "shortlist": false,
+   "slug": "10_1016_j_envint_2023_107844",
+   "label": "Greenness and kidney 2023 Environ Int",
+   "gap": "no_fulltext",
+   "step25_rank": 26,
+   "step35_rank": 5,
+   "in_dominici_scholar": true,
+   "in_braun_scholar": true,
+   "step1_cv": [],
+   "document": "Article PDF",
+   "links": [
+    "https://doi.org/10.1016/j.envint.2023.107844"
+   ],
+   "why": "Lee 2023 Env Int, greenness and kidney disease. Not the EHP paper cited for S1-18 (that one, ehp10729, was fetched). The kidney codes probably match the EHP paper.",
+   "year": 2023,
+   "title": "Associations between greenness and kidney disease in Massachusetts: The US Medicare longitudinal cohort study",
+   "save_to": "papers/10_1016_j_envint_2023_107844/"
+  },
+  {
+   "rank": 28,
+   "shortlist": false,
+   "slug": "10_1111_j_1467_9876_2008_00640_x",
+   "label": "Peng 2009 JRSS-C",
+   "gap": "no_fulltext",
+   "step25_rank": 27,
+   "step35_rank": null,
+   "in_dominici_scholar": true,
+   "in_braun_scholar": false,
+   "step1_cv": [],
+   "document": "Article PDF",
+   "links": [
+    "https://doi.org/10.1111/j.1467-9876.2008.00640.x"
+   ],
+   "why": "Peng 2009 JRSS-C, a methods paper (IHD, COPD). Not the JAMA 2008 paper cited in Step 1.",
+   "year": 2009,
+   "title": "A Bayesian hierarchical distributed lag model for estimating the time course of risk of hospitalization associated with particulate matter air pollution",
+   "save_to": "papers/10_1111_j_1467_9876_2008_00640_x/"
+  },
+  {
+   "rank": 29,
+   "shortlist": false,
+   "slug": "10_1093_biostatistics_kxr002",
+   "label": "Chang 2011 Biostatistics",
+   "gap": "no_fulltext",
+   "step25_rank": 28,
+   "step35_rank": null,
+   "in_dominici_scholar": true,
+   "in_braun_scholar": false,
+   "step1_cv": [],
+   "document": "Article PDF",
+   "links": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC3202305/",
+    "https://doi.org/10.1093/biostatistics/kxr002"
+   ],
+   "why": "Chang 2011, a methods paper (cardiovascular). Not cited in Step 1.",
+   "year": 2011,
+   "title": "Estimating the acute health effects of coarse particulate matter accounting for exposure measurement error",
+   "save_to": "papers/10_1093_biostatistics_kxr002/"
+  },
+  {
+   "rank": 30,
+   "shortlist": false,
+   "slug": "10_1093_aje_kwr457",
+   "label": "Levy 2012 AJE",
+   "gap": "no_fulltext",
+   "step25_rank": 29,
+   "step35_rank": null,
+   "in_dominici_scholar": true,
+   "in_braun_scholar": false,
+   "step1_cv": [],
+   "document": "Article PDF",
+   "links": [
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC3491972/",
+    "https://doi.org/10.1093/aje/kwr457"
+   ],
+   "why": "Levy 2012 meta-analysis (cardiovascular). Not cited in Step 1.",
+   "year": 2012,
+   "title": "A meta-analysis and multisite time-series analysis of the differential toxicity of major fine particulate matter constituents",
+   "save_to": "papers/10_1093_aje_kwr457/"
+  },
+  {
+   "rank": 31,
+   "shortlist": false,
+   "slug": "scholar_RSwElNMAAAAJ_j7_hQOaDUrUC",
+   "label": "HEI 2016 report (causal methods, air quality regulations)",
+   "gap": "no_fulltext",
+   "step25_rank": 30,
+   "step35_rank": null,
+   "in_dominici_scholar": true,
+   "in_braun_scholar": false,
+   "step1_cv": [],
+   "document": "HEI Research Report PDF",
+   "links": [
+    "https://pubmed.ncbi.nlm.nih.gov/27526497/"
+   ],
+   "why": "HEI 2016 report on causal methods (respiratory). Not cited in Step 1; no DOI.",
+   "year": 2016,
+   "title": "Causal inference methods for estimating long-term health effects of air quality regulations",
+   "save_to": "papers/scholar_RSwElNMAAAAJ_j7_hQOaDUrUC/"
+  }
+ ]
+}
