@@ -103,3 +103,103 @@ Run: `.venv/bin/python 040_build_codesets.py` → **`040_codesets.json`**.
 - `flags`: the paper's exposure attributes.
 
 **ICD-10:** `ccs_table` and `ccs_resolved` sets are ICD-9 only. ICD-10 comes only from author-defined sets.
+
+## 4d. Bins
+Run: `.venv/bin/python 040_build_bins.py` → **`040_bins.json`**, **`040_bins.csv`**.
+
+**Method:**
+1. **Union:** the Step 2.8 and 3.8 maps are merged by bin id, and sources are deduplicated by outcome id. Each source brings its code sets, including the new `ccs_resolved` sets.
+2. **Restructure:** hand decisions in the script (`DROP`, `RESTRUCTURE`, `MOVES`, `RENAME`).
+   - **Merged:** bronchiectasis into **COPD and bronchiectasis** (494 is in CCS 127 and in 490–492/494–496), and cardiac arrest into **Arrhythmias and cardiac arrest** (427.4–427.5 are inside 426–427).
+   - **Split:** "Stroke" becomes **Ischemic stroke** (C15, with 5 author-defined code sets), and all stroke goes into **Cerebrovascular disease, including stroke** (N4). Hemorrhagic stroke has no code set (only multi-level CCS 7.3.1.1).
+   - **Renamed:** hypertensive heart disease becomes **Hypertension with complications** (CCS 99), and fractures become **Hip fracture**.
+   - **Dropped:** retinal artery occlusion and Pneumocystis (only inside larger groups), cardiac amyloidosis (no codes, no exposure study), and the outcome-wide scans (not an outcome).
+3. **Representation rule (checked by the script):** every kept bin has
+   - at least one `exact` source with a code set that has ICD codes, not counting Parks groups that Parks did not analyze on their own; and
+   - at least one supporting paper with an air pollution, extreme heat or extreme weather exposure.
+4. **Coverage rule (checked by the script):** every author-defined code set with role `outcome` is in a kept bin.
+
+**Flags per bin:**
+- the exposure flags: `air_pollution`, `extreme_heat`, `extreme_weather`, `long_term`, `short_term`, `other_exposure`, with `support` listing the papers per exposure × term;
+- `author_defined`: at least one exact author-defined code set without a `suspect` note;
+- `ccs_only`: no author-defined code set at all;
+- `icd10_available`;
+- `outcome_wide_only`: every supporting exposure paper is an outcome-wide scan (Parks 2021, Wei 2019, Bobb 2014, Hopp 2018);
+- `in_reference_list`;
+- paper counts in total and by Scholar profile, plus `n_exact_codesets`, `n_author_defined_exact` and `n_suspect_codesets`.
+
+## Results: 44 bins (22 from the reference list or renamed from it, 22 added)
+- **27 bins have an author-defined code set**, and **23 have ICD-10 codes.**
+- **13 are CCS-only:** their codes come from the CCS table, ICD-9 only.
+- **9 are supported only by an outcome-wide scan:** asthma, upper respiratory infections, respiratory failure, hypertension with complications, blood clots, skin infections, intestinal obstruction, injuries, pancreatic cancer.
+  - These are well represented by codes, but weakly by dedicated studies.
+  - **Candidates to review:** pancreatic cancer (whose only exposure support is the cyclone scan) and injuries.
+- **Air pollution:**
+  - long-term studies support the cardiorespiratory, kidney, neurodegenerative, infection and cardiomyopathy/valvular/aneurysm bins;
+  - short-term studies support most bins.
+- **Extreme heat:**
+  - short-term studies support heat-related illness, dehydration, fluid/electrolyte, kidney failure, sepsis, UTI, diabetes with complications, peripheral vascular, heart failure, Parkinson's, and the psychiatric bins;
+  - long-term studies (climate) support all CVD, IHD, AMI, ischemic stroke, cerebrovascular, and all respiratory.
+- **Extreme weather:** cyclones, drought and wildfire. Short-term only, mostly through Parks 2021.
+
+How to read the table: the exposure columns give the number of papers (`L` = long-term, `S` = short-term). The last column gives the paper count in total and by profile (Dominici / Braun; shared papers count in both).
+
+| id | bin | air pollution | extreme heat | extreme weather | long-term | short-term | author-defined codes | ICD-10 | scan only | papers (D/B) |
+|---|---|---|---|---|---|---|---|---|---|---|
+| R0 | All respiratory disease (composite) | L1 S7 | L1 | S5 | ✓ | ✓ | ✓ | ✓ |  | 13 (13/1) |
+| R1 | Asthma exacerbations |  |  | S1 |  | ✓ |  |  | ✓ | 3 (3/0) |
+| R2 | COPD and bronchiectasis | L1 S2 |  | S1 | ✓ | ✓ | ✓ |  |  | 4 (4/0) |
+| R4 | Pneumonia and other respiratory infections (incl. influenza) | L2 S4 |  | S1 | ✓ | ✓ | ✓ | ✓ |  | 7 (7/1) |
+| R5 | Respiratory failure, insufficiency, or arrest (incl. ARDS) | S1 |  | S1 | ✓ | ✓ |  |  | ✓ | 3 (3/0) |
+| R6 | Upper respiratory infections (and acute bronchitis) |  |  | S1 |  | ✓ |  |  | ✓ | 1 (1/0) |
+| C0 | All cardiovascular disease (composite) | L5 S10 | L3 S1 | S5 | ✓ | ✓ | ✓ | ✓ |  | 24 (24/2) |
+| C1 | Heart attack (acute myocardial infarction) | L5 S3 | L2 | S1 | ✓ | ✓ | ✓ | ✓ |  | 10 (10/1) |
+| C2 | Ischemic heart disease and coronary atherosclerosis | L3 S4 | L2 | S1 | ✓ | ✓ | ✓ | ✓ |  | 11 (11/1) |
+| C3 | Heart failure | L3 S5 | S1 | S1 | ✓ | ✓ | ✓ | ✓ |  | 11 (11/2) |
+| C4 | Arrhythmias and cardiac arrest | L4 S2 |  | S1 | ✓ | ✓ | ✓ | ✓ |  | 8 (8/0) |
+| C6 | Hypertension with complications (hypertensive heart and kidney disease) |  |  | S1 |  | ✓ |  |  | ✓ | 1 (1/0) |
+| C15 | Ischemic stroke | L4 S1 | L2 |  | ✓ | ✓ | ✓ | ✓ |  | 5 (5/1) |
+| C8 | Blood clots: phlebitis, thrombophlebitis, and thromboembolism | S1 |  | S1 |  | ✓ |  |  | ✓ | 2 (2/0) |
+| C10 | Peripheral vascular disease and atherosclerosis | L1 S1 | S1 | S1 | ✓ | ✓ | ✓ |  |  | 5 (5/1) |
+| C11 | Cardiomyopathy | L1 |  |  | ✓ |  | ✓ | ✓ |  | 2 (2/0) |
+| C12 | Valvular heart disease | L1 |  | S1 | ✓ | ✓ | ✓ | ✓ |  | 2 (2/0) |
+| C13 | Aortic and other arterial aneurysms | L1 S2 |  | S1 | ✓ | ✓ |  | ✓ |  | 4 (4/1) |
+| N1 | Parkinson's disease | L3 S2 | S1 | S1 | ✓ | ✓ | ✓ | ✓ |  | 9 (5/5) |
+| N2 | Dementia, including Alzheimer's disease | L5 S1 |  |  | ✓ | ✓ | ✓ | ✓ |  | 10 (9/3) |
+| N3 | Depression and mood disorders | S1 | S1 |  |  | ✓ | ✓ | ✓ |  | 2 (2/0) |
+| N4 | Cerebrovascular disease, including stroke | L3 S2 | L2 | S1 | ✓ | ✓ | ✓ | ✓ |  | 9 (9/1) |
+| N5 | Multiple sclerosis | S1 |  | S1 |  | ✓ | ✓ |  |  | 2 (2/0) |
+| N6 | Schizophrenia and other psychotic disorders | S1 | S1 | S1 |  | ✓ | ✓ | ✓ |  | 2 (2/0) |
+| N7 | Bipolar disorder | S1 | S1 |  |  | ✓ | ✓ | ✓ |  | 2 (2/0) |
+| K0 | Kidney and urinary system diseases (composite) | L1 |  |  | ✓ |  | ✓ | ✓ |  | 2 (2/1) |
+| K1 | Acute or unspecified kidney failure | L1 S1 | S3 | S1 | ✓ | ✓ | ✓ | ✓ |  | 6 (6/2) |
+| K2 | Fluid and electrolyte disorders (incl. dehydration) | S1 | S4 | S1 |  | ✓ |  | ✓ |  | 6 (5/2) |
+| K3 | Diabetes with complications | S1 | S1 | S1 |  | ✓ |  |  |  | 4 (4/1) |
+| K4 | Chronic kidney disease | L1 |  | S1 | ✓ | ✓ | ✓ | ✓ |  | 2 (2/1) |
+| K5 | Diabetes mellitus (all) | S1 |  | S1 |  | ✓ | ✓ |  |  | 2 (2/0) |
+| H1 | Heat-related illness (heat stroke, heat exhaustion, effects of heat) |  | S4 |  |  | ✓ | ✓ | ✓ |  | 7 (6/2) |
+| H2 | Heat-sensitive admissions composite (CCS 2, 50, 55, 114, 157, 159, 244) |  | S2 |  |  | ✓ |  |  |  | 2 (2/1) |
+| I0 | Non-respiratory infections (composite) | L1 |  |  | ✓ |  |  |  |  | 2 (2/0) |
+| I1 | Sepsis/septicemia | L1 S1 | S2 | S1 | ✓ | ✓ |  |  |  | 5 (5/1) |
+| I2 | Urinary tract infections | L1 S2 | S2 | S1 | ✓ | ✓ |  |  |  | 6 (6/1) |
+| I3 | Skin and soft-tissue infections | S1 |  | S1 |  | ✓ |  |  | ✓ | 2 (2/0) |
+| I5 | Intestinal obstruction |  |  | S1 |  | ✓ |  |  | ✓ | 1 (1/0) |
+| I6 | Central nervous system infections | L1 |  | S1 | ✓ | ✓ |  |  |  | 2 (2/0) |
+| I7 | Intestinal infections | L1 |  | S1 | ✓ | ✓ |  |  |  | 2 (2/0) |
+| X1 | Injuries |  |  | S1 |  | ✓ |  |  | ✓ | 1 (1/0) |
+| X2 | Hip fracture | S1 |  | S1 |  | ✓ | ✓ |  |  | 3 (3/0) |
+| O1 | Pancreatic cancer |  |  | S1 |  | ✓ | ✓ |  | ✓ | 2 (2/0) |
+| K6 | Dehydration and volume depletion |  | S1 |  |  | ✓ | ✓ | ✓ |  | 1 (0/1) |
+
+**Removed (7):**
+- W1 Outcome-wide scans of all disease groups: not an outcome (outcome-wide scans); the scans' groups are in the disease bins.
+- C9 Retinal artery occlusion: only inside a broader Parks group (CCS 87, not analyzed on its own); no study of the outcome.
+- I4 Pneumocystis pneumonia: only inside the pneumonia CCS group (136.3 in CCS 122); its codes stay in R4.
+- C14 Cardiac amyloidosis: no code set (codes in an unfetched supplement) and no environmental exposure study.
+- R3 Bronchiectasis: merged into R2.
+- C5 Cardiac arrest: merged into C4.
+- C7 Stroke, including ischemic and hemorrhagic stroke: merged into N4.
+
+## Notes for the next step (the YAML for medpar_outcomes)
+- A bin's sources often define it differently (Step 2.7). The next step should choose **one code list per bin** and validate it, and include ICD-10 for the CCS-only bins (e.g. via CCSR or the GEMs).
+- Codes from CCS are printed without decimals; author codes are as written, with wildcards and ranges. They need normalizing before the YAML.
