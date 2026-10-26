@@ -27,7 +27,7 @@
    "icd10_available": false,
    "outcome_wide_only": true,
    "n_papers": 1,
-   "n_exact_codesets": 1,
+   "n_member_codesets": 1,
    "n_codesets": 1,
    "n_suspect_codesets": 0,
    "support": {
@@ -434,102 +434,16 @@
    ]
   },
   {
-   "id": "R1",
-   "group": "Respiratory",
-   "name": "Asthma exacerbations",
-   "former_name": null,
-   "in_reference_list": true,
-   "merged_from": [],
-   "note": null,
-   "air_pollution": false,
-   "extreme_heat": false,
-   "extreme_weather": true,
-   "long_term": false,
-   "short_term": true,
-   "other_exposure": false,
-   "represented": true,
-   "partially_represented": false,
-   "icd10_available": false,
-   "outcome_wide_only": true,
-   "n_papers": 1,
-   "n_exact_codesets": 1,
-   "n_codesets": 1,
-   "n_suspect_codesets": 1,
-   "support": {
-    "air_pollution_long_term": [],
-    "air_pollution_short_term": [],
-    "extreme_heat_long_term": [],
-    "extreme_heat_short_term": [],
-    "extreme_weather_long_term": [],
-    "extreme_weather_short_term": [
-     "Parks 2021 Nat Commun"
-    ],
-    "other_exposure": []
-   },
-   "sources": [
-    {
-     "outcome_id": "10_1038_s41467_021_21777_1::ccs-l3-128",
-     "paper": "10_1038_s41467_021_21777_1",
-     "paper_label": "Parks 2021 Nat Commun",
-     "outcome_name": "Asthma",
-     "scope": "exact",
-     "filter": null,
-     "codes_status": "explicit_codes",
-     "outcome_wide_scan": true,
-     "exposure": {
-      "air_pollution": false,
-      "extreme_heat": false,
-      "extreme_weather": true,
-      "long_term": false,
-      "short_term": true,
-      "other_exposure": null,
-      "note": "tropical cyclone exposure, lags 0-7",
-      "source": "full text"
-     },
-     "codesets": [
-      {
-       "codeset_id": "10_1038_s41467_021_21777_1::ccs-l3-128",
-       "source_type": "ccs_table",
-       "ccs": true,
-       "ccs_groups": [
-        "128"
-       ],
-       "parks_analyzed": true,
-       "icd9": [
-        "9300",
-        "49301",
-        "49302",
-        "49310",
-        "49311",
-        "49312",
-        "49320",
-        "49321",
-        "49322",
-        "49381",
-        "49382",
-        "49390",
-        "49391",
-        "49392"
-       ],
-       "icd10": [],
-       "suspect": [
-        "Printed codes that seem to lack a leading digit: 9300 (likely 49300)."
-       ]
-      }
-     ]
-    }
-   ]
-  },
-  {
    "id": "R2",
    "group": "Respiratory",
-   "name": "COPD and bronchiectasis",
+   "name": "Chronic lower respiratory disease: COPD, bronchiectasis and asthma",
    "former_name": "COPD exacerbations",
    "in_reference_list": true,
    "merged_from": [
+    "R1 (Asthma exacerbations)",
     "R3 (Bronchiectasis)"
    ],
-   "note": "Merged with the reference bin 'Bronchiectasis' (ICD-9 494 is in CCS 127 and in the COPD definitions 490-492, 494-496).",
+   "note": "Merged the reference bins COPD, bronchiectasis and asthma (CCS 127, 128; ICD-9 490-496).",
    "air_pollution": true,
    "extreme_heat": false,
    "extreme_weather": true,
@@ -541,9 +455,9 @@
    "icd10_available": false,
    "outcome_wide_only": true,
    "n_papers": 2,
-   "n_exact_codesets": 2,
-   "n_codesets": 2,
-   "n_suspect_codesets": 0,
+   "n_member_codesets": 3,
+   "n_codesets": 3,
+   "n_suspect_codesets": 1,
    "support": {
     "air_pollution_long_term": [],
     "air_pollution_short_term": [
@@ -657,50 +571,12 @@
        "suspect": []
       }
      ]
-    }
-   ]
-  },
-  {
-   "id": "R4",
-   "group": "Respiratory",
-   "name": "Pneumonia and other respiratory infections (incl. influenza)",
-   "former_name": null,
-   "in_reference_list": true,
-   "merged_from": [],
-   "note": null,
-   "air_pollution": true,
-   "extreme_heat": false,
-   "extreme_weather": true,
-   "long_term": false,
-   "short_term": true,
-   "other_exposure": false,
-   "represented": true,
-   "partially_represented": false,
-   "icd10_available": false,
-   "outcome_wide_only": true,
-   "n_papers": 2,
-   "n_exact_codesets": 2,
-   "n_codesets": 4,
-   "n_suspect_codesets": 0,
-   "support": {
-    "air_pollution_long_term": [],
-    "air_pollution_short_term": [
-     "Wei 2019 BMJ"
-    ],
-    "extreme_heat_long_term": [],
-    "extreme_heat_short_term": [],
-    "extreme_weather_long_term": [],
-    "extreme_weather_short_term": [
-     "Parks 2021 Nat Commun"
-    ],
-    "other_exposure": []
-   },
-   "sources": [
+    },
     {
-     "outcome_id": "10_1038_s41467_021_21777_1::ccs-l3-122",
+     "outcome_id": "10_1038_s41467_021_21777_1::ccs-l3-128",
      "paper": "10_1038_s41467_021_21777_1",
      "paper_label": "Parks 2021 Nat Commun",
-     "outcome_name": "Pneumonia",
+     "outcome_name": "Asthma",
      "scope": "exact",
      "filter": null,
      "codes_status": "explicit_codes",
@@ -717,276 +593,33 @@
      },
      "codesets": [
       {
-       "codeset_id": "10_1038_s41467_021_21777_1::ccs-l3-122",
+       "codeset_id": "10_1038_s41467_021_21777_1::ccs-l3-128",
        "source_type": "ccs_table",
        "ccs": true,
        "ccs_groups": [
-        "122"
+        "128"
        ],
        "parks_analyzed": true,
        "icd9": [
-        "00322",
-        "0203",
-        "0204",
-        "0205",
-        "0212",
-        "0221",
-        "0310",
-        "0391",
-        "0521",
-        "0551",
-        "0730",
-        "0830",
-        "1124",
-        "1140",
-        "1144",
-        "1145",
-        "11505",
-        "11515",
-        "11595",
-        "1304",
-        "1363",
-        "4800",
-        "4801",
-        "4802",
-        "4803",
-        "4808",
-        "4809",
-        "481",
-        "4820",
-        "4821",
-        "4822",
-        "4823",
-        "48230",
-        "48231",
-        "48232",
-        "48239",
-        "4824",
-        "48240",
-        "48241",
-        "48242",
-        "48249",
-        "4828",
-        "48281",
-        "48282",
-        "48283",
-        "48284",
-        "48289",
-        "4829",
-        "483",
-        "4830",
-        "4831",
-        "4838",
-        "4841",
-        "4843",
-        "4845",
-        "4846",
-        "4847",
-        "4848",
-        "485",
-        "486",
-        "5130",
-        "5171"
+        "9300",
+        "49301",
+        "49302",
+        "49310",
+        "49311",
+        "49312",
+        "49320",
+        "49321",
+        "49322",
+        "49381",
+        "49382",
+        "49390",
+        "49391",
+        "49392"
        ],
        "icd10": [],
-       "suspect": []
-      }
-     ]
-    },
-    {
-     "outcome_id": "10_1038_s41467_021_21777_1::ccs-l3-123",
-     "paper": "10_1038_s41467_021_21777_1",
-     "paper_label": "Parks 2021 Nat Commun",
-     "outcome_name": "Influenza",
-     "scope": "narrower",
-     "filter": null,
-     "codes_status": "explicit_codes",
-     "outcome_wide_scan": true,
-     "exposure": {
-      "air_pollution": false,
-      "extreme_heat": false,
-      "extreme_weather": true,
-      "long_term": false,
-      "short_term": true,
-      "other_exposure": null,
-      "note": "tropical cyclone exposure, lags 0-7",
-      "source": "full text"
-     },
-     "codesets": [
-      {
-       "codeset_id": "10_1038_s41467_021_21777_1::ccs-l3-123",
-       "source_type": "ccs_table",
-       "ccs": true,
-       "ccs_groups": [
-        "123"
-       ],
-       "parks_analyzed": false,
-       "icd9": [
-        "4870",
-        "4871",
-        "4878",
-        "488",
-        "4880",
-        "48801",
-        "48802",
-        "48809",
-        "4881",
-        "48811",
-        "48812",
-        "48819",
-        "48881",
-        "48882",
-        "48889"
-       ],
-       "icd10": [],
-       "suspect": []
-      }
-     ]
-    },
-    {
-     "outcome_id": "10_1136_bmj_l6258::pneumonia (CCS 122)",
-     "paper": "10_1136_bmj_l6258",
-     "paper_label": "Wei 2019 BMJ",
-     "outcome_name": "pneumonia (CCS 122)",
-     "scope": "exact",
-     "filter": null,
-     "codes_status": "classification_ref",
-     "outcome_wide_scan": true,
-     "exposure": {
-      "air_pollution": true,
-      "extreme_heat": false,
-      "extreme_weather": false,
-      "long_term": false,
-      "short_term": true,
-      "other_exposure": null,
-      "note": "PM2.5 lag 0-1, case-crossover",
-      "source": "full text"
-     },
-     "codesets": [
-      {
-       "codeset_id": "10_1136_bmj_l6258::pneumonia (CCS 122)::ccs",
-       "source_type": "ccs_resolved",
-       "ccs": true,
-       "ccs_groups": [
-        "122"
-       ],
-       "parks_analyzed": null,
-       "icd9": [
-        "00322",
-        "0203",
-        "0204",
-        "0205",
-        "0212",
-        "0221",
-        "0310",
-        "0391",
-        "0521",
-        "0551",
-        "0730",
-        "0830",
-        "1124",
-        "1140",
-        "1144",
-        "1145",
-        "11505",
-        "11515",
-        "11595",
-        "1304",
-        "1363",
-        "4800",
-        "4801",
-        "4802",
-        "4803",
-        "4808",
-        "4809",
-        "481",
-        "4820",
-        "4821",
-        "4822",
-        "4823",
-        "48230",
-        "48231",
-        "48232",
-        "48239",
-        "4824",
-        "48240",
-        "48241",
-        "48242",
-        "48249",
-        "4828",
-        "48281",
-        "48282",
-        "48283",
-        "48284",
-        "48289",
-        "4829",
-        "483",
-        "4830",
-        "4831",
-        "4838",
-        "4841",
-        "4843",
-        "4845",
-        "4846",
-        "4847",
-        "4848",
-        "485",
-        "486",
-        "5130",
-        "5171"
-       ],
-       "icd10": [],
-       "suspect": []
-      }
-     ]
-    },
-    {
-     "outcome_id": "10_1136_bmj_l6258::influenza (CCS 123)",
-     "paper": "10_1136_bmj_l6258",
-     "paper_label": "Wei 2019 BMJ",
-     "outcome_name": "influenza (CCS 123)",
-     "scope": "narrower",
-     "filter": null,
-     "codes_status": "classification_ref",
-     "outcome_wide_scan": true,
-     "exposure": {
-      "air_pollution": true,
-      "extreme_heat": false,
-      "extreme_weather": false,
-      "long_term": false,
-      "short_term": true,
-      "other_exposure": null,
-      "note": "PM2.5 lag 0-1, case-crossover",
-      "source": "full text"
-     },
-     "codesets": [
-      {
-       "codeset_id": "10_1136_bmj_l6258::influenza (CCS 123)::ccs",
-       "source_type": "ccs_resolved",
-       "ccs": true,
-       "ccs_groups": [
-        "123"
-       ],
-       "parks_analyzed": null,
-       "icd9": [
-        "4870",
-        "4871",
-        "4878",
-        "488",
-        "4880",
-        "48801",
-        "48802",
-        "48809",
-        "4881",
-        "48811",
-        "48812",
-        "48819",
-        "48881",
-        "48882",
-        "48889"
-       ],
-       "icd10": [],
-       "suspect": []
+       "suspect": [
+        "Printed codes that seem to lack a leading digit: 9300 (likely 49300)."
+       ]
       }
      ]
     }
@@ -1011,7 +644,7 @@
    "icd10_available": false,
    "outcome_wide_only": true,
    "n_papers": 2,
-   "n_exact_codesets": 1,
+   "n_member_codesets": 1,
    "n_codesets": 2,
    "n_suspect_codesets": 0,
    "support": {
@@ -1133,151 +766,6 @@
    ]
   },
   {
-   "id": "R6",
-   "group": "Respiratory",
-   "name": "Upper respiratory infections (and acute bronchitis)",
-   "former_name": null,
-   "in_reference_list": true,
-   "merged_from": [],
-   "note": null,
-   "air_pollution": false,
-   "extreme_heat": false,
-   "extreme_weather": true,
-   "long_term": false,
-   "short_term": true,
-   "other_exposure": false,
-   "represented": true,
-   "partially_represented": false,
-   "icd10_available": false,
-   "outcome_wide_only": true,
-   "n_papers": 1,
-   "n_exact_codesets": 2,
-   "n_codesets": 2,
-   "n_suspect_codesets": 0,
-   "support": {
-    "air_pollution_long_term": [],
-    "air_pollution_short_term": [],
-    "extreme_heat_long_term": [],
-    "extreme_heat_short_term": [],
-    "extreme_weather_long_term": [],
-    "extreme_weather_short_term": [
-     "Parks 2021 Nat Commun"
-    ],
-    "other_exposure": []
-   },
-   "sources": [
-    {
-     "outcome_id": "10_1038_s41467_021_21777_1::ccs-l3-126",
-     "paper": "10_1038_s41467_021_21777_1",
-     "paper_label": "Parks 2021 Nat Commun",
-     "outcome_name": "Other upper respiratory infections",
-     "scope": "exact",
-     "filter": null,
-     "codes_status": "explicit_codes",
-     "outcome_wide_scan": true,
-     "exposure": {
-      "air_pollution": false,
-      "extreme_heat": false,
-      "extreme_weather": true,
-      "long_term": false,
-      "short_term": true,
-      "other_exposure": null,
-      "note": "tropical cyclone exposure, lags 0-7",
-      "source": "full text"
-     },
-     "codesets": [
-      {
-       "codeset_id": "10_1038_s41467_021_21777_1::ccs-l3-126",
-       "source_type": "ccs_table",
-       "ccs": true,
-       "ccs_groups": [
-        "126"
-       ],
-       "parks_analyzed": true,
-       "icd9": [
-        "0320",
-        "0321",
-        "0322",
-        "0323",
-        "0340",
-        "460",
-        "4610",
-        "4611",
-        "4612",
-        "4613",
-        "4618",
-        "4619",
-        "462",
-        "4640",
-        "46400",
-        "46401",
-        "46410",
-        "46411",
-        "46420",
-        "46421",
-        "46430",
-        "46431",
-        "4644",
-        "46450",
-        "46451",
-        "4650",
-        "4658",
-        "4659",
-        "4730",
-        "4731",
-        "4732",
-        "4733",
-        "4738",
-        "4739",
-        "78491"
-       ],
-       "icd10": [],
-       "suspect": []
-      }
-     ]
-    },
-    {
-     "outcome_id": "10_1038_s41467_021_21777_1::ccs-l3-125",
-     "paper": "10_1038_s41467_021_21777_1",
-     "paper_label": "Parks 2021 Nat Commun",
-     "outcome_name": "Acute bronchitis",
-     "scope": "exact",
-     "filter": null,
-     "codes_status": "explicit_codes",
-     "outcome_wide_scan": true,
-     "exposure": {
-      "air_pollution": false,
-      "extreme_heat": false,
-      "extreme_weather": true,
-      "long_term": false,
-      "short_term": true,
-      "other_exposure": null,
-      "note": "tropical cyclone exposure, lags 0-7",
-      "source": "full text"
-     },
-     "codesets": [
-      {
-       "codeset_id": "10_1038_s41467_021_21777_1::ccs-l3-125",
-       "source_type": "ccs_table",
-       "ccs": true,
-       "ccs_groups": [
-        "125"
-       ],
-       "parks_analyzed": true,
-       "icd9": [
-        "4660",
-        "4661",
-        "46611",
-        "46619"
-       ],
-       "icd10": [],
-       "suspect": []
-      }
-     ]
-    }
-   ]
-  },
-  {
    "id": "C0",
    "group": "Cardiovascular and blood-vessel conditions",
    "name": "All cardiovascular disease (composite)",
@@ -1296,7 +784,7 @@
    "icd10_available": false,
    "outcome_wide_only": true,
    "n_papers": 1,
-   "n_exact_codesets": 1,
+   "n_member_codesets": 1,
    "n_codesets": 1,
    "n_suspect_codesets": 0,
    "support": {
@@ -1933,7 +1421,7 @@
    "icd10_available": false,
    "outcome_wide_only": true,
    "n_papers": 2,
-   "n_exact_codesets": 2,
+   "n_member_codesets": 2,
    "n_codesets": 2,
    "n_suspect_codesets": 0,
    "support": {
@@ -2121,7 +1609,7 @@
    "icd10_available": false,
    "outcome_wide_only": true,
    "n_papers": 2,
-   "n_exact_codesets": 2,
+   "n_member_codesets": 2,
    "n_codesets": 2,
    "n_suspect_codesets": 0,
    "support": {
@@ -2253,11 +1741,13 @@
   {
    "id": "C3",
    "group": "Cardiovascular and blood-vessel conditions",
-   "name": "Heart failure",
-   "former_name": null,
+   "name": "Heart failure and hypertensive heart disease",
+   "former_name": "Heart failure",
    "in_reference_list": true,
-   "merged_from": [],
-   "note": null,
+   "merged_from": [
+    "C6 (Hypertensive heart disease)"
+   ],
+   "note": "Merged with 'Hypertensive heart disease' (CCS 99: 402-405; Wei 2024 counts 402.x1/404.x in heart failure).",
    "air_pollution": true,
    "extreme_heat": true,
    "extreme_weather": true,
@@ -2269,8 +1759,8 @@
    "icd10_available": false,
    "outcome_wide_only": true,
    "n_papers": 3,
-   "n_exact_codesets": 2,
-   "n_codesets": 3,
+   "n_member_codesets": 3,
+   "n_codesets": 4,
    "n_suspect_codesets": 0,
    "support": {
     "air_pollution_long_term": [],
@@ -2440,6 +1930,65 @@
        "suspect": []
       }
      ]
+    },
+    {
+     "outcome_id": "10_1038_s41467_021_21777_1::ccs-l3-99",
+     "paper": "10_1038_s41467_021_21777_1",
+     "paper_label": "Parks 2021 Nat Commun",
+     "outcome_name": "Hypertension with complications and secondary hypertension",
+     "scope": "narrower",
+     "filter": [
+      "402",
+      "404"
+     ],
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": true,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": false,
+      "extreme_weather": true,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "tropical cyclone exposure, lags 0-7",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1038_s41467_021_21777_1::ccs-l3-99",
+       "source_type": "ccs_table",
+       "ccs": true,
+       "ccs_groups": [
+        "99"
+       ],
+       "parks_analyzed": true,
+       "icd9": [
+        "40200",
+        "40201",
+        "40210",
+        "40211",
+        "40290",
+        "40291",
+        "4040",
+        "40400",
+        "40401",
+        "40402",
+        "40403",
+        "4041",
+        "40410",
+        "40411",
+        "40412",
+        "40413",
+        "4049",
+        "40490",
+        "40491",
+        "40492",
+        "40493"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
     }
    ]
   },
@@ -2452,7 +2001,7 @@
    "merged_from": [
     "C5 (Cardiac arrest)"
    ],
-   "note": "Merged with the reference bin 'Cardiac arrest' (ICD-9 427.4-427.5 are inside the arrhythmia range 426-427).",
+   "note": "Merged with 'Cardiac arrest' (427.4-427.5 are inside 426-427).",
    "air_pollution": true,
    "extreme_heat": false,
    "extreme_weather": true,
@@ -2464,7 +2013,7 @@
    "icd10_available": false,
    "outcome_wide_only": true,
    "n_papers": 2,
-   "n_exact_codesets": 3,
+   "n_member_codesets": 3,
    "n_codesets": 4,
    "n_suspect_codesets": 0,
    "support": {
@@ -2681,44 +2230,52 @@
    ]
   },
   {
-   "id": "C6",
+   "id": "C10",
    "group": "Cardiovascular and blood-vessel conditions",
-   "name": "Hypertension with complications (hypertensive heart and kidney disease)",
-   "former_name": "Hypertensive heart disease",
-   "in_reference_list": true,
-   "merged_from": [],
-   "note": "Renamed from 'Hypertensive heart disease': the only code set is CCS 99 (402-405).",
-   "air_pollution": false,
-   "extreme_heat": false,
+   "name": "Peripheral vascular disease and thromboembolism",
+   "former_name": "Peripheral vascular disease and atherosclerosis",
+   "in_reference_list": false,
+   "merged_from": [
+    "C8 (Blood clots: phlebitis, thrombophlebitis, and thromboembolism)"
+   ],
+   "note": "Merged with 'Blood clots: phlebitis, thrombophlebitis, and thromboembolism' (CCS 114, 118).",
+   "air_pollution": true,
+   "extreme_heat": true,
    "extreme_weather": true,
    "long_term": false,
    "short_term": true,
-   "other_exposure": false,
+   "other_exposure": true,
    "represented": true,
    "partially_represented": false,
    "icd10_available": false,
-   "outcome_wide_only": true,
-   "n_papers": 1,
-   "n_exact_codesets": 1,
-   "n_codesets": 1,
-   "n_suspect_codesets": 0,
+   "outcome_wide_only": false,
+   "n_papers": 3,
+   "n_member_codesets": 4,
+   "n_codesets": 5,
+   "n_suspect_codesets": 1,
    "support": {
     "air_pollution_long_term": [],
-    "air_pollution_short_term": [],
+    "air_pollution_short_term": [
+     "Wei 2019 BMJ"
+    ],
     "extreme_heat_long_term": [],
-    "extreme_heat_short_term": [],
+    "extreme_heat_short_term": [
+     "Weinberger 2021 Environ Int"
+    ],
     "extreme_weather_long_term": [],
     "extreme_weather_short_term": [
      "Parks 2021 Nat Commun"
     ],
-    "other_exposure": []
+    "other_exposure": [
+     "Weinberger 2021 Environ Int"
+    ]
    },
    "sources": [
     {
-     "outcome_id": "10_1038_s41467_021_21777_1::ccs-l3-99",
+     "outcome_id": "10_1038_s41467_021_21777_1::ccs-l3-114",
      "paper": "10_1038_s41467_021_21777_1",
      "paper_label": "Parks 2021 Nat Commun",
-     "outcome_name": "Hypertension with complications and secondary hypertension",
+     "outcome_name": "Atherosclerosis",
      "scope": "exact",
      "filter": null,
      "codes_status": "explicit_codes",
@@ -2735,129 +2292,87 @@
      },
      "codesets": [
       {
-       "codeset_id": "10_1038_s41467_021_21777_1::ccs-l3-99",
+       "codeset_id": "10_1038_s41467_021_21777_1::ccs-l3-114",
        "source_type": "ccs_table",
        "ccs": true,
        "ccs_groups": [
-        "99"
+        "114"
        ],
        "parks_analyzed": true,
        "icd9": [
-        "4010",
-        "40200",
-        "40201",
-        "40210",
-        "40211",
-        "40290",
-        "40291",
-        "4030",
-        "40300",
-        "40301",
-        "4031",
-        "40310",
-        "40311",
-        "4039",
-        "40390",
-        "40391",
-        "4040",
-        "40400",
-        "40401",
-        "40402",
-        "40403",
-        "4041",
-        "40410",
-        "40411",
-        "40412",
-        "40413",
-        "4049",
-        "40490",
-        "40491",
-        "40492",
-        "40493",
-        "40501",
-        "40509",
-        "40511",
-        "40519",
-        "40591",
-        "40599",
-        "4372"
+        "400",
+        "4401",
+        "4402",
+        "44020",
+        "44021",
+        "44022",
+        "44023",
+        "44029",
+        "4404",
+        "4408",
+        "4409",
+        "4439",
+        "5570",
+        "5571",
+        "5579"
+       ],
+       "icd10": [],
+       "suspect": [
+        "Printed codes that seem to lack a leading digit: 400 (likely 4400)."
+       ]
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1016_j_envint_2021_106834::peripheral vascular disease (CCS 114)",
+     "paper": "10_1016_j_envint_2021_106834",
+     "paper_label": "Weinberger 2021 Environ Int",
+     "outcome_name": "peripheral vascular disease (CCS 114)",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "classification_ref",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": true,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": "heat alert policy",
+      "note": "heat alert days vs matched days",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1016_j_envint_2021_106834::peripheral vascular disease (CCS 114)::ccs",
+       "source_type": "ccs_resolved",
+       "ccs": true,
+       "ccs_groups": [
+        "114"
+       ],
+       "parks_analyzed": null,
+       "icd9": [
+        "400",
+        "4401",
+        "4402",
+        "44020",
+        "44021",
+        "44022",
+        "44023",
+        "44029",
+        "4404",
+        "4408",
+        "4409",
+        "4439",
+        "5570",
+        "5571",
+        "5579"
        ],
        "icd10": [],
        "suspect": []
       }
      ]
-    }
-   ]
-  },
-  {
-   "id": "C15",
-   "group": "Cardiovascular and blood-vessel conditions",
-   "name": "Ischemic stroke",
-   "former_name": null,
-   "in_reference_list": false,
-   "merged_from": [],
-   "note": "Split from the reference bin 'Stroke, including ischemic and hemorrhagic stroke': hemorrhagic stroke has no code set (only multi-level CCS 7.3.1.1 in Thomas 2022); all stroke is in N4.",
-   "air_pollution": false,
-   "extreme_heat": false,
-   "extreme_weather": false,
-   "long_term": false,
-   "short_term": false,
-   "other_exposure": false,
-   "represented": false,
-   "partially_represented": false,
-   "icd10_available": false,
-   "outcome_wide_only": false,
-   "n_papers": 0,
-   "n_exact_codesets": 0,
-   "n_codesets": 0,
-   "n_suspect_codesets": 0,
-   "support": {
-    "air_pollution_long_term": [],
-    "air_pollution_short_term": [],
-    "extreme_heat_long_term": [],
-    "extreme_heat_short_term": [],
-    "extreme_weather_long_term": [],
-    "extreme_weather_short_term": [],
-    "other_exposure": []
-   },
-   "sources": []
-  },
-  {
-   "id": "C8",
-   "group": "Cardiovascular and blood-vessel conditions",
-   "name": "Blood clots: phlebitis, thrombophlebitis, and thromboembolism",
-   "former_name": null,
-   "in_reference_list": true,
-   "merged_from": [],
-   "note": null,
-   "air_pollution": true,
-   "extreme_heat": false,
-   "extreme_weather": true,
-   "long_term": false,
-   "short_term": true,
-   "other_exposure": false,
-   "represented": true,
-   "partially_represented": false,
-   "icd10_available": false,
-   "outcome_wide_only": true,
-   "n_papers": 2,
-   "n_exact_codesets": 1,
-   "n_codesets": 3,
-   "n_suspect_codesets": 0,
-   "support": {
-    "air_pollution_long_term": [],
-    "air_pollution_short_term": [
-     "Wei 2019 BMJ"
-    ],
-    "extreme_heat_long_term": [],
-    "extreme_heat_short_term": [],
-    "extreme_weather_long_term": [],
-    "extreme_weather_short_term": [
-     "Parks 2021 Nat Commun"
-    ],
-    "other_exposure": []
-   },
-   "sources": [
+    },
     {
      "outcome_id": "10_1038_s41467_021_21777_1::ccs-l3-118",
      "paper": "10_1038_s41467_021_21777_1",
@@ -3065,168 +2580,28 @@
    ]
   },
   {
-   "id": "C10",
+   "id": "C11",
    "group": "Cardiovascular and blood-vessel conditions",
-   "name": "Peripheral vascular disease and atherosclerosis",
-   "former_name": null,
+   "name": "Cardiomyopathy and valvular heart disease",
+   "former_name": "Cardiomyopathy",
    "in_reference_list": false,
-   "merged_from": [],
-   "note": "ICD-9 440-448 in the MCAPS papers; CCS 114 (atherosclerosis) in the heat papers.",
+   "merged_from": [
+    "C12 (Valvular heart disease)"
+   ],
+   "note": "Merged the added bins cardiomyopathy and valvular disease.",
    "air_pollution": false,
-   "extreme_heat": true,
+   "extreme_heat": false,
    "extreme_weather": true,
    "long_term": false,
    "short_term": true,
-   "other_exposure": true,
+   "other_exposure": false,
    "represented": true,
    "partially_represented": false,
    "icd10_available": false,
-   "outcome_wide_only": false,
-   "n_papers": 2,
-   "n_exact_codesets": 2,
-   "n_codesets": 2,
-   "n_suspect_codesets": 1,
-   "support": {
-    "air_pollution_long_term": [],
-    "air_pollution_short_term": [],
-    "extreme_heat_long_term": [],
-    "extreme_heat_short_term": [
-     "Weinberger 2021 Environ Int"
-    ],
-    "extreme_weather_long_term": [],
-    "extreme_weather_short_term": [
-     "Parks 2021 Nat Commun"
-    ],
-    "other_exposure": [
-     "Weinberger 2021 Environ Int"
-    ]
-   },
-   "sources": [
-    {
-     "outcome_id": "10_1038_s41467_021_21777_1::ccs-l3-114",
-     "paper": "10_1038_s41467_021_21777_1",
-     "paper_label": "Parks 2021 Nat Commun",
-     "outcome_name": "Atherosclerosis",
-     "scope": "exact",
-     "filter": null,
-     "codes_status": "explicit_codes",
-     "outcome_wide_scan": true,
-     "exposure": {
-      "air_pollution": false,
-      "extreme_heat": false,
-      "extreme_weather": true,
-      "long_term": false,
-      "short_term": true,
-      "other_exposure": null,
-      "note": "tropical cyclone exposure, lags 0-7",
-      "source": "full text"
-     },
-     "codesets": [
-      {
-       "codeset_id": "10_1038_s41467_021_21777_1::ccs-l3-114",
-       "source_type": "ccs_table",
-       "ccs": true,
-       "ccs_groups": [
-        "114"
-       ],
-       "parks_analyzed": true,
-       "icd9": [
-        "400",
-        "4401",
-        "4402",
-        "44020",
-        "44021",
-        "44022",
-        "44023",
-        "44029",
-        "4404",
-        "4408",
-        "4409",
-        "4439",
-        "5570",
-        "5571",
-        "5579"
-       ],
-       "icd10": [],
-       "suspect": [
-        "Printed codes that seem to lack a leading digit: 400 (likely 4400)."
-       ]
-      }
-     ]
-    },
-    {
-     "outcome_id": "10_1016_j_envint_2021_106834::peripheral vascular disease (CCS 114)",
-     "paper": "10_1016_j_envint_2021_106834",
-     "paper_label": "Weinberger 2021 Environ Int",
-     "outcome_name": "peripheral vascular disease (CCS 114)",
-     "scope": "exact",
-     "filter": null,
-     "codes_status": "classification_ref",
-     "outcome_wide_scan": false,
-     "exposure": {
-      "air_pollution": false,
-      "extreme_heat": true,
-      "extreme_weather": false,
-      "long_term": false,
-      "short_term": true,
-      "other_exposure": "heat alert policy",
-      "note": "heat alert days vs matched days",
-      "source": "full text"
-     },
-     "codesets": [
-      {
-       "codeset_id": "10_1016_j_envint_2021_106834::peripheral vascular disease (CCS 114)::ccs",
-       "source_type": "ccs_resolved",
-       "ccs": true,
-       "ccs_groups": [
-        "114"
-       ],
-       "parks_analyzed": null,
-       "icd9": [
-        "400",
-        "4401",
-        "4402",
-        "44020",
-        "44021",
-        "44022",
-        "44023",
-        "44029",
-        "4404",
-        "4408",
-        "4409",
-        "4439",
-        "5570",
-        "5571",
-        "5579"
-       ],
-       "icd10": [],
-       "suspect": []
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "C11",
-   "group": "Cardiovascular and blood-vessel conditions",
-   "name": "Cardiomyopathy",
-   "former_name": null,
-   "in_reference_list": false,
-   "merged_from": [],
-   "note": null,
-   "air_pollution": false,
-   "extreme_heat": false,
-   "extreme_weather": false,
-   "long_term": false,
-   "short_term": false,
-   "other_exposure": false,
-   "represented": false,
-   "partially_represented": true,
-   "icd10_available": false,
-   "outcome_wide_only": false,
+   "outcome_wide_only": true,
    "n_papers": 1,
-   "n_exact_codesets": 0,
-   "n_codesets": 1,
+   "n_member_codesets": 1,
+   "n_codesets": 2,
    "n_suspect_codesets": 0,
    "support": {
     "air_pollution_long_term": [],
@@ -3234,7 +2609,9 @@
     "extreme_heat_long_term": [],
     "extreme_heat_short_term": [],
     "extreme_weather_long_term": [],
-    "extreme_weather_short_term": [],
+    "extreme_weather_short_term": [
+     "Parks 2021 Nat Commun"
+    ],
     "other_exposure": []
    },
    "sources": [
@@ -3284,43 +2661,7 @@
        "suspect": []
       }
      ]
-    }
-   ]
-  },
-  {
-   "id": "C12",
-   "group": "Cardiovascular and blood-vessel conditions",
-   "name": "Valvular heart disease",
-   "former_name": null,
-   "in_reference_list": false,
-   "merged_from": [],
-   "note": null,
-   "air_pollution": false,
-   "extreme_heat": false,
-   "extreme_weather": true,
-   "long_term": false,
-   "short_term": true,
-   "other_exposure": false,
-   "represented": true,
-   "partially_represented": false,
-   "icd10_available": false,
-   "outcome_wide_only": true,
-   "n_papers": 1,
-   "n_exact_codesets": 1,
-   "n_codesets": 1,
-   "n_suspect_codesets": 0,
-   "support": {
-    "air_pollution_long_term": [],
-    "air_pollution_short_term": [],
-    "extreme_heat_long_term": [],
-    "extreme_heat_short_term": [],
-    "extreme_weather_long_term": [],
-    "extreme_weather_short_term": [
-     "Parks 2021 Nat Commun"
-    ],
-    "other_exposure": []
-   },
-   "sources": [
+    },
     {
      "outcome_id": "10_1038_s41467_021_21777_1::ccs-l3-96",
      "paper": "10_1038_s41467_021_21777_1",
@@ -3405,7 +2746,7 @@
    "icd10_available": false,
    "outcome_wide_only": true,
    "n_papers": 2,
-   "n_exact_codesets": 1,
+   "n_member_codesets": 1,
    "n_codesets": 2,
    "n_suspect_codesets": 0,
    "support": {
@@ -3537,11 +2878,13 @@
   {
    "id": "N1",
    "group": "Neurological and mental health",
-   "name": "Parkinson's disease",
-   "former_name": null,
+   "name": "Parkinson's disease and other neurological disorders (incl. multiple sclerosis)",
+   "former_name": "Parkinson's disease",
    "in_reference_list": true,
-   "merged_from": [],
-   "note": null,
+   "merged_from": [
+    "N5 (Multiple sclerosis)"
+   ],
+   "note": "Merged with 'Multiple sclerosis'.",
    "air_pollution": true,
    "extreme_heat": false,
    "extreme_weather": true,
@@ -3553,8 +2896,8 @@
    "icd10_available": false,
    "outcome_wide_only": true,
    "n_papers": 2,
-   "n_exact_codesets": 2,
-   "n_codesets": 2,
+   "n_member_codesets": 2,
+   "n_codesets": 3,
    "n_suspect_codesets": 0,
    "support": {
     "air_pollution_long_term": [],
@@ -3641,29 +2984,65 @@
        "suspect": []
       }
      ]
+    },
+    {
+     "outcome_id": "10_1038_s41467_021_21777_1::ccs-l3-80",
+     "paper": "10_1038_s41467_021_21777_1",
+     "paper_label": "Parks 2021 Nat Commun",
+     "outcome_name": "Multiple sclerosis",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": true,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": false,
+      "extreme_weather": true,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "tropical cyclone exposure, lags 0-7",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1038_s41467_021_21777_1::ccs-l3-80",
+       "source_type": "ccs_table",
+       "ccs": true,
+       "ccs_groups": [
+        "80"
+       ],
+       "parks_analyzed": false,
+       "icd9": [
+        "340"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
     }
    ]
   },
   {
    "id": "N2",
    "group": "Neurological and mental health",
-   "name": "Dementia, including Alzheimer's disease",
-   "former_name": null,
+   "name": "Dementia and delirium (incl. Alzheimer's disease)",
+   "former_name": "Dementia, including Alzheimer's disease",
    "in_reference_list": true,
    "merged_from": [],
-   "note": null,
+   "note": "Renamed so that the CCS group 'Delirium and dementia' (653) is a member.",
    "air_pollution": false,
    "extreme_heat": false,
-   "extreme_weather": false,
+   "extreme_weather": true,
    "long_term": false,
-   "short_term": false,
+   "short_term": true,
    "other_exposure": false,
-   "represented": false,
-   "partially_represented": true,
+   "represented": true,
+   "partially_represented": false,
    "icd10_available": false,
-   "outcome_wide_only": false,
+   "outcome_wide_only": true,
    "n_papers": 1,
-   "n_exact_codesets": 0,
+   "n_member_codesets": 1,
    "n_codesets": 1,
    "n_suspect_codesets": 0,
    "support": {
@@ -3672,7 +3051,9 @@
     "extreme_heat_long_term": [],
     "extreme_heat_short_term": [],
     "extreme_weather_long_term": [],
-    "extreme_weather_short_term": [],
+    "extreme_weather_short_term": [
+     "Parks 2021 Nat Commun"
+    ],
     "other_exposure": []
    },
    "sources": [
@@ -3681,7 +3062,7 @@
      "paper": "10_1038_s41467_021_21777_1",
      "paper_label": "Parks 2021 Nat Commun",
      "outcome_name": "Delirium and dementia",
-     "scope": "broader",
+     "scope": "exact",
      "filter": null,
      "codes_status": "explicit_codes",
      "outcome_wide_scan": true,
@@ -3753,24 +3134,27 @@
   {
    "id": "N3",
    "group": "Neurological and mental health",
-   "name": "Depression and mood disorders",
-   "former_name": null,
+   "name": "Psychiatric disorders: depression, bipolar disorder, schizophrenia",
+   "former_name": "Depression and mood disorders",
    "in_reference_list": true,
-   "merged_from": [],
-   "note": null,
+   "merged_from": [
+    "N6 (Schizophrenia and other psychotic disorders)",
+    "N7 (Bipolar disorder)"
+   ],
+   "note": "Merged depression and mood disorders, bipolar disorder, schizophrenia (CCS 657, 659).",
    "air_pollution": false,
    "extreme_heat": false,
-   "extreme_weather": false,
+   "extreme_weather": true,
    "long_term": false,
-   "short_term": false,
+   "short_term": true,
    "other_exposure": false,
-   "represented": false,
-   "partially_represented": true,
+   "represented": true,
+   "partially_represented": false,
    "icd10_available": false,
-   "outcome_wide_only": false,
+   "outcome_wide_only": true,
    "n_papers": 1,
-   "n_exact_codesets": 0,
-   "n_codesets": 1,
+   "n_member_codesets": 2,
+   "n_codesets": 2,
    "n_suspect_codesets": 0,
    "support": {
     "air_pollution_long_term": [],
@@ -3778,7 +3162,9 @@
     "extreme_heat_long_term": [],
     "extreme_heat_short_term": [],
     "extreme_weather_long_term": [],
-    "extreme_weather_short_term": [],
+    "extreme_weather_short_term": [
+     "Parks 2021 Nat Commun"
+    ],
     "other_exposure": []
    },
    "sources": [
@@ -3787,7 +3173,7 @@
      "paper": "10_1038_s41467_021_21777_1",
      "paper_label": "Parks 2021 Nat Commun",
      "outcome_name": "Mood disorders",
-     "scope": "broader",
+     "scope": "exact",
      "filter": null,
      "codes_status": "explicit_codes",
      "outcome_wide_scan": true,
@@ -3875,31 +3261,141 @@
        "suspect": []
       }
      ]
+    },
+    {
+     "outcome_id": "10_1038_s41467_021_21777_1::ccs-l3-659",
+     "paper": "10_1038_s41467_021_21777_1",
+     "paper_label": "Parks 2021 Nat Commun",
+     "outcome_name": "Schizophrenia and other psychotic disorders",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": true,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": false,
+      "extreme_weather": true,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "tropical cyclone exposure, lags 0-7",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1038_s41467_021_21777_1::ccs-l3-659",
+       "source_type": "ccs_table",
+       "ccs": true,
+       "ccs_groups": [
+        "659"
+       ],
+       "parks_analyzed": true,
+       "icd9": [
+        "29381",
+        "29382",
+        "29500",
+        "29501",
+        "29502",
+        "29503",
+        "29504",
+        "29505",
+        "29510",
+        "29511",
+        "29512",
+        "29513",
+        "29514",
+        "29515",
+        "29520",
+        "29521",
+        "29522",
+        "29523",
+        "29524",
+        "29525",
+        "29530",
+        "29531",
+        "29532",
+        "29533",
+        "29534",
+        "29535",
+        "29540",
+        "29541",
+        "29542",
+        "29543",
+        "29544",
+        "29545",
+        "29550",
+        "29551",
+        "29552",
+        "29553",
+        "29554",
+        "29555",
+        "29560",
+        "29561",
+        "29562",
+        "29563",
+        "29564",
+        "29565",
+        "29570",
+        "29571",
+        "29572",
+        "29573",
+        "29574",
+        "29575",
+        "29580",
+        "29581",
+        "29582",
+        "29583",
+        "29584",
+        "29585",
+        "29590",
+        "29591",
+        "29592",
+        "29593",
+        "29594",
+        "29595",
+        "2970",
+        "2971",
+        "2972",
+        "2973",
+        "2978",
+        "2979",
+        "2980",
+        "2981",
+        "2982",
+        "2983",
+        "2984",
+        "2988",
+        "2989"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
     }
    ]
   },
   {
    "id": "N4",
    "group": "Neurological and mental health",
-   "name": "Cerebrovascular disease, including stroke",
+   "name": "Cerebrovascular disease, including ischemic stroke",
    "former_name": "Stroke and other cerebrovascular conditions",
    "in_reference_list": true,
    "merged_from": [
     "C7 (Stroke, including ischemic and hemorrhagic stroke)"
    ],
-   "note": "Includes all stroke (430-438 / I60-I69); ischemic stroke also has its own bin C15.",
+   "note": "Merged the reference bin 'Stroke' (ischemic stroke code sets, CCS 109).",
    "air_pollution": false,
    "extreme_heat": false,
    "extreme_weather": true,
    "long_term": false,
    "short_term": true,
    "other_exposure": false,
-   "represented": false,
-   "partially_represented": true,
+   "represented": true,
+   "partially_represented": false,
    "icd10_available": false,
    "outcome_wide_only": true,
    "n_papers": 1,
-   "n_exact_codesets": 0,
+   "n_member_codesets": 3,
    "n_codesets": 3,
    "n_suspect_codesets": 1,
    "support": {
@@ -4064,116 +3560,54 @@
    ]
   },
   {
-   "id": "N5",
-   "group": "Neurological and mental health",
-   "name": "Multiple sclerosis",
-   "former_name": null,
-   "in_reference_list": false,
-   "merged_from": [],
-   "note": null,
-   "air_pollution": false,
-   "extreme_heat": false,
+   "id": "K1",
+   "group": "Kidney, metabolic, and fluid-balance conditions",
+   "name": "Kidney disease: acute kidney failure, chronic kidney disease, kidney and urinary",
+   "former_name": "Acute or unspecified kidney failure",
+   "in_reference_list": true,
+   "merged_from": [
+    "K0 (Kidney and urinary system diseases (composite))",
+    "K4 (Chronic kidney disease)"
+   ],
+   "note": "Merged acute kidney failure, chronic kidney disease and the kidney/urinary composite.",
+   "air_pollution": true,
+   "extreme_heat": true,
    "extreme_weather": true,
    "long_term": false,
    "short_term": true,
-   "other_exposure": false,
-   "represented": false,
-   "partially_represented": true,
-   "icd10_available": false,
-   "outcome_wide_only": true,
-   "n_papers": 1,
-   "n_exact_codesets": 0,
-   "n_codesets": 1,
-   "n_suspect_codesets": 0,
-   "support": {
-    "air_pollution_long_term": [],
-    "air_pollution_short_term": [],
-    "extreme_heat_long_term": [],
-    "extreme_heat_short_term": [],
-    "extreme_weather_long_term": [],
-    "extreme_weather_short_term": [
-     "Parks 2021 Nat Commun"
-    ],
-    "other_exposure": []
-   },
-   "sources": [
-    {
-     "outcome_id": "10_1038_s41467_021_21777_1::ccs-l3-80",
-     "paper": "10_1038_s41467_021_21777_1",
-     "paper_label": "Parks 2021 Nat Commun",
-     "outcome_name": "Multiple sclerosis",
-     "scope": "exact",
-     "filter": null,
-     "codes_status": "explicit_codes",
-     "outcome_wide_scan": true,
-     "exposure": {
-      "air_pollution": false,
-      "extreme_heat": false,
-      "extreme_weather": true,
-      "long_term": false,
-      "short_term": true,
-      "other_exposure": null,
-      "note": "tropical cyclone exposure, lags 0-7",
-      "source": "full text"
-     },
-     "codesets": [
-      {
-       "codeset_id": "10_1038_s41467_021_21777_1::ccs-l3-80",
-       "source_type": "ccs_table",
-       "ccs": true,
-       "ccs_groups": [
-        "80"
-       ],
-       "parks_analyzed": false,
-       "icd9": [
-        "340"
-       ],
-       "icd10": [],
-       "suspect": []
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "N6",
-   "group": "Neurological and mental health",
-   "name": "Schizophrenia and other psychotic disorders",
-   "former_name": null,
-   "in_reference_list": false,
-   "merged_from": [],
-   "note": null,
-   "air_pollution": false,
-   "extreme_heat": false,
-   "extreme_weather": true,
-   "long_term": false,
-   "short_term": true,
-   "other_exposure": false,
+   "other_exposure": true,
    "represented": true,
    "partially_represented": false,
    "icd10_available": false,
-   "outcome_wide_only": true,
-   "n_papers": 1,
-   "n_exact_codesets": 1,
-   "n_codesets": 1,
+   "outcome_wide_only": false,
+   "n_papers": 4,
+   "n_member_codesets": 4,
+   "n_codesets": 6,
    "n_suspect_codesets": 0,
    "support": {
     "air_pollution_long_term": [],
-    "air_pollution_short_term": [],
+    "air_pollution_short_term": [
+     "Wei 2019 BMJ"
+    ],
     "extreme_heat_long_term": [],
-    "extreme_heat_short_term": [],
+    "extreme_heat_short_term": [
+     "Bobb 2014 JAMA",
+     "Weinberger 2021 Environ Int"
+    ],
     "extreme_weather_long_term": [],
     "extreme_weather_short_term": [
      "Parks 2021 Nat Commun"
     ],
-    "other_exposure": []
+    "other_exposure": [
+     "Weinberger 2021 Environ Int"
+    ]
    },
    "sources": [
     {
-     "outcome_id": "10_1038_s41467_021_21777_1::ccs-l3-659",
+     "outcome_id": "10_1038_s41467_021_21777_1::ccs-l3-157",
      "paper": "10_1038_s41467_021_21777_1",
      "paper_label": "Parks 2021 Nat Commun",
-     "outcome_name": "Schizophrenia and other psychotic disorders",
+     "outcome_name": "Renal failure (acute/unspecified)",
      "scope": "exact",
      "filter": null,
      "codes_status": "explicit_codes",
@@ -4190,257 +3624,149 @@
      },
      "codesets": [
       {
-       "codeset_id": "10_1038_s41467_021_21777_1::ccs-l3-659",
+       "codeset_id": "10_1038_s41467_021_21777_1::ccs-l3-157",
        "source_type": "ccs_table",
        "ccs": true,
        "ccs_groups": [
-        "659"
+        "157"
        ],
        "parks_analyzed": true,
        "icd9": [
-        "29381",
-        "29382",
-        "29500",
-        "29501",
-        "29502",
-        "29503",
-        "29504",
-        "29505",
-        "29510",
-        "29511",
-        "29512",
-        "29513",
-        "29514",
-        "29515",
-        "29520",
-        "29521",
-        "29522",
-        "29523",
-        "29524",
-        "29525",
-        "29530",
-        "29531",
-        "29532",
-        "29533",
-        "29534",
-        "29535",
-        "29540",
-        "29541",
-        "29542",
-        "29543",
-        "29544",
-        "29545",
-        "29550",
-        "29551",
-        "29552",
-        "29553",
-        "29554",
-        "29555",
-        "29560",
-        "29561",
-        "29562",
-        "29563",
-        "29564",
-        "29565",
-        "29570",
-        "29571",
-        "29572",
-        "29573",
-        "29574",
-        "29575",
-        "29580",
-        "29581",
-        "29582",
-        "29583",
-        "29584",
-        "29585",
-        "29590",
-        "29591",
-        "29592",
-        "29593",
-        "29594",
-        "29595",
-        "2970",
-        "2971",
-        "2972",
-        "2973",
-        "2978",
-        "2979",
-        "2980",
-        "2981",
-        "2982",
-        "2983",
-        "2984",
-        "2988",
-        "2989"
+        "5845",
+        "5846",
+        "5847",
+        "5848",
+        "5849",
+        "586"
        ],
        "icd10": [],
        "suspect": []
       }
      ]
-    }
-   ]
-  },
-  {
-   "id": "N7",
-   "group": "Neurological and mental health",
-   "name": "Bipolar disorder",
-   "former_name": null,
-   "in_reference_list": false,
-   "merged_from": [],
-   "note": null,
-   "air_pollution": false,
-   "extreme_heat": false,
-   "extreme_weather": false,
-   "long_term": false,
-   "short_term": false,
-   "other_exposure": false,
-   "represented": false,
-   "partially_represented": true,
-   "icd10_available": false,
-   "outcome_wide_only": false,
-   "n_papers": 1,
-   "n_exact_codesets": 0,
-   "n_codesets": 1,
-   "n_suspect_codesets": 0,
-   "support": {
-    "air_pollution_long_term": [],
-    "air_pollution_short_term": [],
-    "extreme_heat_long_term": [],
-    "extreme_heat_short_term": [],
-    "extreme_weather_long_term": [],
-    "extreme_weather_short_term": [],
-    "other_exposure": []
-   },
-   "sources": [
+    },
     {
-     "outcome_id": "10_1038_s41467_021_21777_1::ccs-l3-657",
-     "paper": "10_1038_s41467_021_21777_1",
-     "paper_label": "Parks 2021 Nat Commun",
-     "outcome_name": "Mood disorders",
-     "scope": "broader",
+     "outcome_id": "10_1136_bmj_l6258::acute and unspecified renal failure (CCS 157)",
+     "paper": "10_1136_bmj_l6258",
+     "paper_label": "Wei 2019 BMJ",
+     "outcome_name": "acute and unspecified renal failure (CCS 157)",
+     "scope": "exact",
      "filter": null,
-     "codes_status": "explicit_codes",
+     "codes_status": "classification_ref",
      "outcome_wide_scan": true,
      "exposure": {
-      "air_pollution": false,
+      "air_pollution": true,
       "extreme_heat": false,
-      "extreme_weather": true,
+      "extreme_weather": false,
       "long_term": false,
       "short_term": true,
       "other_exposure": null,
-      "note": "tropical cyclone exposure, lags 0-7",
+      "note": "PM2.5 lag 0-1, case-crossover",
       "source": "full text"
      },
      "codesets": [
       {
-       "codeset_id": "10_1038_s41467_021_21777_1::ccs-l3-657",
-       "source_type": "ccs_table",
+       "codeset_id": "10_1136_bmj_l6258::acute and unspecified renal failure (CCS 157)::ccs",
+       "source_type": "ccs_resolved",
        "ccs": true,
        "ccs_groups": [
-        "657"
+        "157"
        ],
-       "parks_analyzed": true,
+       "parks_analyzed": null,
        "icd9": [
-        "29383",
-        "29600",
-        "29601",
-        "29602",
-        "29603",
-        "29604",
-        "29605",
-        "29606",
-        "29610",
-        "29611",
-        "29612",
-        "29613",
-        "29614",
-        "29615",
-        "29616",
-        "29620",
-        "29621",
-        "29622",
-        "29623",
-        "29624",
-        "29625",
-        "29626",
-        "29630",
-        "29631",
-        "29632",
-        "29633",
-        "29634",
-        "29635",
-        "29636",
-        "29640",
-        "29641",
-        "29642",
-        "29643",
-        "29644",
-        "29645",
-        "29646",
-        "29650",
-        "29651",
-        "29652",
-        "29653",
-        "29654",
-        "29655",
-        "29656",
-        "29660",
-        "29661",
-        "29662",
-        "29663",
-        "29664",
-        "29665",
-        "29666",
-        "2967",
-        "29680",
-        "29681",
-        "29682",
-        "29689",
-        "29690",
-        "29699",
-        "3004",
-        "311"
+        "5845",
+        "5846",
+        "5847",
+        "5848",
+        "5849",
+        "586"
        ],
        "icd10": [],
        "suspect": []
       }
      ]
-    }
-   ]
-  },
-  {
-   "id": "K0",
-   "group": "Kidney, metabolic, and fluid-balance conditions",
-   "name": "Kidney and urinary system diseases (composite)",
-   "former_name": null,
-   "in_reference_list": false,
-   "merged_from": [],
-   "note": null,
-   "air_pollution": false,
-   "extreme_heat": false,
-   "extreme_weather": false,
-   "long_term": false,
-   "short_term": false,
-   "other_exposure": false,
-   "represented": false,
-   "partially_represented": true,
-   "icd10_available": false,
-   "outcome_wide_only": false,
-   "n_papers": 1,
-   "n_exact_codesets": 0,
-   "n_codesets": 1,
-   "n_suspect_codesets": 0,
-   "support": {
-    "air_pollution_long_term": [],
-    "air_pollution_short_term": [],
-    "extreme_heat_long_term": [],
-    "extreme_heat_short_term": [],
-    "extreme_weather_long_term": [],
-    "extreme_weather_short_term": [],
-    "other_exposure": []
-   },
-   "sources": [
+    },
+    {
+     "outcome_id": "10_1016_j_envint_2021_106834::renal failure (acute/unspecified) (CCS 157)",
+     "paper": "10_1016_j_envint_2021_106834",
+     "paper_label": "Weinberger 2021 Environ Int",
+     "outcome_name": "renal failure (acute/unspecified) (CCS 157)",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "classification_ref",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": true,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": "heat alert policy",
+      "note": "heat alert days vs matched days",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1016_j_envint_2021_106834::renal failure (acute/unspecified) (CCS 157)::ccs",
+       "source_type": "ccs_resolved",
+       "ccs": true,
+       "ccs_groups": [
+        "157"
+       ],
+       "parks_analyzed": null,
+       "icd9": [
+        "5845",
+        "5846",
+        "5847",
+        "5848",
+        "5849",
+        "586"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1001_jama_2014_15715::renal failure",
+     "paper": "10_1001_jama_2014_15715",
+     "paper_label": "Bobb 2014 JAMA",
+     "outcome_name": "renal failure",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "classification_ref",
+     "outcome_wide_scan": true,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": true,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "heat waves vs matched days",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1001_jama_2014_15715::renal failure::ccs",
+       "source_type": "ccs_resolved",
+       "ccs": true,
+       "ccs_groups": [
+        "157"
+       ],
+       "parks_analyzed": null,
+       "icd9": [
+        "5845",
+        "5846",
+        "5847",
+        "5848",
+        "5849",
+        "586"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
     {
      "outcome_id": "10_1038_s41467_021_21777_1::ccs-l1-10",
      "paper": "10_1038_s41467_021_21777_1",
@@ -4999,55 +4325,12 @@
        "suspect": []
       }
      ]
-    }
-   ]
-  },
-  {
-   "id": "K1",
-   "group": "Kidney, metabolic, and fluid-balance conditions",
-   "name": "Acute or unspecified kidney failure",
-   "former_name": null,
-   "in_reference_list": true,
-   "merged_from": [],
-   "note": null,
-   "air_pollution": true,
-   "extreme_heat": true,
-   "extreme_weather": true,
-   "long_term": false,
-   "short_term": true,
-   "other_exposure": true,
-   "represented": true,
-   "partially_represented": false,
-   "icd10_available": false,
-   "outcome_wide_only": false,
-   "n_papers": 4,
-   "n_exact_codesets": 4,
-   "n_codesets": 4,
-   "n_suspect_codesets": 0,
-   "support": {
-    "air_pollution_long_term": [],
-    "air_pollution_short_term": [
-     "Wei 2019 BMJ"
-    ],
-    "extreme_heat_long_term": [],
-    "extreme_heat_short_term": [
-     "Bobb 2014 JAMA",
-     "Weinberger 2021 Environ Int"
-    ],
-    "extreme_weather_long_term": [],
-    "extreme_weather_short_term": [
-     "Parks 2021 Nat Commun"
-    ],
-    "other_exposure": [
-     "Weinberger 2021 Environ Int"
-    ]
-   },
-   "sources": [
+    },
     {
-     "outcome_id": "10_1038_s41467_021_21777_1::ccs-l3-157",
+     "outcome_id": "10_1038_s41467_021_21777_1::ccs-l3-158",
      "paper": "10_1038_s41467_021_21777_1",
      "paper_label": "Parks 2021 Nat Commun",
-     "outcome_name": "Renal failure (acute/unspecified)",
+     "outcome_name": "Chronic kidney disease",
      "scope": "exact",
      "filter": null,
      "codes_status": "explicit_codes",
@@ -5064,143 +4347,33 @@
      },
      "codesets": [
       {
-       "codeset_id": "10_1038_s41467_021_21777_1::ccs-l3-157",
+       "codeset_id": "10_1038_s41467_021_21777_1::ccs-l3-158",
        "source_type": "ccs_table",
        "ccs": true,
        "ccs_groups": [
-        "157"
+        "158"
        ],
-       "parks_analyzed": true,
+       "parks_analyzed": false,
        "icd9": [
-        "5845",
-        "5846",
-        "5847",
-        "5848",
-        "5849",
-        "586"
-       ],
-       "icd10": [],
-       "suspect": []
-      }
-     ]
-    },
-    {
-     "outcome_id": "10_1136_bmj_l6258::acute and unspecified renal failure (CCS 157)",
-     "paper": "10_1136_bmj_l6258",
-     "paper_label": "Wei 2019 BMJ",
-     "outcome_name": "acute and unspecified renal failure (CCS 157)",
-     "scope": "exact",
-     "filter": null,
-     "codes_status": "classification_ref",
-     "outcome_wide_scan": true,
-     "exposure": {
-      "air_pollution": true,
-      "extreme_heat": false,
-      "extreme_weather": false,
-      "long_term": false,
-      "short_term": true,
-      "other_exposure": null,
-      "note": "PM2.5 lag 0-1, case-crossover",
-      "source": "full text"
-     },
-     "codesets": [
-      {
-       "codeset_id": "10_1136_bmj_l6258::acute and unspecified renal failure (CCS 157)::ccs",
-       "source_type": "ccs_resolved",
-       "ccs": true,
-       "ccs_groups": [
-        "157"
-       ],
-       "parks_analyzed": null,
-       "icd9": [
-        "5845",
-        "5846",
-        "5847",
-        "5848",
-        "5849",
-        "586"
-       ],
-       "icd10": [],
-       "suspect": []
-      }
-     ]
-    },
-    {
-     "outcome_id": "10_1016_j_envint_2021_106834::renal failure (acute/unspecified) (CCS 157)",
-     "paper": "10_1016_j_envint_2021_106834",
-     "paper_label": "Weinberger 2021 Environ Int",
-     "outcome_name": "renal failure (acute/unspecified) (CCS 157)",
-     "scope": "exact",
-     "filter": null,
-     "codes_status": "classification_ref",
-     "outcome_wide_scan": false,
-     "exposure": {
-      "air_pollution": false,
-      "extreme_heat": true,
-      "extreme_weather": false,
-      "long_term": false,
-      "short_term": true,
-      "other_exposure": "heat alert policy",
-      "note": "heat alert days vs matched days",
-      "source": "full text"
-     },
-     "codesets": [
-      {
-       "codeset_id": "10_1016_j_envint_2021_106834::renal failure (acute/unspecified) (CCS 157)::ccs",
-       "source_type": "ccs_resolved",
-       "ccs": true,
-       "ccs_groups": [
-        "157"
-       ],
-       "parks_analyzed": null,
-       "icd9": [
-        "5845",
-        "5846",
-        "5847",
-        "5848",
-        "5849",
-        "586"
-       ],
-       "icd10": [],
-       "suspect": []
-      }
-     ]
-    },
-    {
-     "outcome_id": "10_1001_jama_2014_15715::renal failure",
-     "paper": "10_1001_jama_2014_15715",
-     "paper_label": "Bobb 2014 JAMA",
-     "outcome_name": "renal failure",
-     "scope": "exact",
-     "filter": null,
-     "codes_status": "classification_ref",
-     "outcome_wide_scan": true,
-     "exposure": {
-      "air_pollution": false,
-      "extreme_heat": true,
-      "extreme_weather": false,
-      "long_term": false,
-      "short_term": true,
-      "other_exposure": null,
-      "note": "heat waves vs matched days",
-      "source": "full text"
-     },
-     "codesets": [
-      {
-       "codeset_id": "10_1001_jama_2014_15715::renal failure::ccs",
-       "source_type": "ccs_resolved",
-       "ccs": true,
-       "ccs_groups": [
-        "157"
-       ],
-       "parks_analyzed": null,
-       "icd9": [
-        "5845",
-        "5846",
-        "5847",
-        "5848",
-        "5849",
-        "586"
+        "585",
+        "5851",
+        "5852",
+        "5853",
+        "5854",
+        "5855",
+        "5856",
+        "5859",
+        "7925",
+        "V420",
+        "V451",
+        "V4511",
+        "V4512",
+        "V560",
+        "V561",
+        "V562",
+        "V5631",
+        "V5632",
+        "V568"
        ],
        "icd10": [],
        "suspect": []
@@ -5212,11 +4385,13 @@
   {
    "id": "K2",
    "group": "Kidney, metabolic, and fluid-balance conditions",
-   "name": "Fluid and electrolyte disorders (incl. dehydration)",
-   "former_name": null,
+   "name": "Fluid and electrolyte disorders, including dehydration",
+   "former_name": "Fluid and electrolyte disorders (incl. dehydration)",
    "in_reference_list": true,
-   "merged_from": [],
-   "note": null,
+   "merged_from": [
+    "K6 (Dehydration and volume depletion)"
+   ],
+   "note": "Merged with 'Dehydration' (276.51 / E86.0).",
    "air_pollution": true,
    "extreme_heat": true,
    "extreme_weather": true,
@@ -5228,7 +4403,7 @@
    "icd10_available": false,
    "outcome_wide_only": false,
    "n_papers": 4,
-   "n_exact_codesets": 4,
+   "n_member_codesets": 4,
    "n_codesets": 4,
    "n_suspect_codesets": 0,
    "support": {
@@ -5455,11 +4630,13 @@
   {
    "id": "K3",
    "group": "Kidney, metabolic, and fluid-balance conditions",
-   "name": "Diabetes with complications",
-   "former_name": null,
+   "name": "Diabetes mellitus (with or without complications)",
+   "former_name": "Diabetes with complications",
    "in_reference_list": true,
-   "merged_from": [],
-   "note": null,
+   "merged_from": [
+    "K5 (Diabetes mellitus (all))"
+   ],
+   "note": "Merged diabetes with complications and all diabetes.",
    "air_pollution": true,
    "extreme_heat": true,
    "extreme_weather": true,
@@ -5471,8 +4648,8 @@
    "icd10_available": false,
    "outcome_wide_only": false,
    "n_papers": 3,
-   "n_exact_codesets": 3,
-   "n_codesets": 3,
+   "n_member_codesets": 4,
+   "n_codesets": 5,
    "n_suspect_codesets": 0,
    "support": {
     "air_pollution_long_term": [],
@@ -5767,133 +4944,7 @@
        "suspect": []
       }
      ]
-    }
-   ]
-  },
-  {
-   "id": "K4",
-   "group": "Kidney, metabolic, and fluid-balance conditions",
-   "name": "Chronic kidney disease",
-   "former_name": null,
-   "in_reference_list": false,
-   "merged_from": [],
-   "note": null,
-   "air_pollution": false,
-   "extreme_heat": false,
-   "extreme_weather": true,
-   "long_term": false,
-   "short_term": true,
-   "other_exposure": false,
-   "represented": false,
-   "partially_represented": true,
-   "icd10_available": false,
-   "outcome_wide_only": true,
-   "n_papers": 1,
-   "n_exact_codesets": 0,
-   "n_codesets": 1,
-   "n_suspect_codesets": 0,
-   "support": {
-    "air_pollution_long_term": [],
-    "air_pollution_short_term": [],
-    "extreme_heat_long_term": [],
-    "extreme_heat_short_term": [],
-    "extreme_weather_long_term": [],
-    "extreme_weather_short_term": [
-     "Parks 2021 Nat Commun"
-    ],
-    "other_exposure": []
-   },
-   "sources": [
-    {
-     "outcome_id": "10_1038_s41467_021_21777_1::ccs-l3-158",
-     "paper": "10_1038_s41467_021_21777_1",
-     "paper_label": "Parks 2021 Nat Commun",
-     "outcome_name": "Chronic kidney disease",
-     "scope": "exact",
-     "filter": null,
-     "codes_status": "explicit_codes",
-     "outcome_wide_scan": true,
-     "exposure": {
-      "air_pollution": false,
-      "extreme_heat": false,
-      "extreme_weather": true,
-      "long_term": false,
-      "short_term": true,
-      "other_exposure": null,
-      "note": "tropical cyclone exposure, lags 0-7",
-      "source": "full text"
-     },
-     "codesets": [
-      {
-       "codeset_id": "10_1038_s41467_021_21777_1::ccs-l3-158",
-       "source_type": "ccs_table",
-       "ccs": true,
-       "ccs_groups": [
-        "158"
-       ],
-       "parks_analyzed": false,
-       "icd9": [
-        "585",
-        "5851",
-        "5852",
-        "5853",
-        "5854",
-        "5855",
-        "5856",
-        "5859",
-        "7925",
-        "V420",
-        "V451",
-        "V4511",
-        "V4512",
-        "V560",
-        "V561",
-        "V562",
-        "V5631",
-        "V5632",
-        "V568"
-       ],
-       "icd10": [],
-       "suspect": []
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "K5",
-   "group": "Kidney, metabolic, and fluid-balance conditions",
-   "name": "Diabetes mellitus (all)",
-   "former_name": null,
-   "in_reference_list": false,
-   "merged_from": [],
-   "note": null,
-   "air_pollution": false,
-   "extreme_heat": false,
-   "extreme_weather": true,
-   "long_term": false,
-   "short_term": true,
-   "other_exposure": false,
-   "represented": false,
-   "partially_represented": true,
-   "icd10_available": false,
-   "outcome_wide_only": true,
-   "n_papers": 1,
-   "n_exact_codesets": 0,
-   "n_codesets": 2,
-   "n_suspect_codesets": 0,
-   "support": {
-    "air_pollution_long_term": [],
-    "air_pollution_short_term": [],
-    "extreme_heat_long_term": [],
-    "extreme_heat_short_term": [],
-    "extreme_weather_long_term": [],
-    "extreme_weather_short_term": [
-     "Parks 2021 Nat Commun"
-    ],
-    "other_exposure": []
-   },
-   "sources": [
+    },
     {
      "outcome_id": "10_1038_s41467_021_21777_1::ccs-l3-49",
      "paper": "10_1038_s41467_021_21777_1",
@@ -6038,30 +5089,34 @@
   {
    "id": "H1",
    "group": "Heat-related conditions",
-   "name": "Heat-related illness (heat stroke, heat exhaustion, effects of heat)",
-   "former_name": null,
+   "name": "Heat-related illness and heat-sensitive admissions",
+   "former_name": "Heat-related illness (heat stroke, heat exhaustion, effects of heat)",
    "in_reference_list": false,
-   "merged_from": [],
-   "note": "ICD-9 992.x (heat stroke 992.0) / ICD-10 T67.x; CCS 244 is broader (other injuries and external causes).",
+   "merged_from": [
+    "H2 (Heat-sensitive admissions composite (CCS 2, 50, 55, 114, 157, 159, 244))"
+   ],
+   "note": "Merged heat-related illness (992.x / T67.x, E900 / X30) and the heat-sensitive CCS composite.",
    "air_pollution": false,
-   "extreme_heat": false,
+   "extreme_heat": true,
    "extreme_weather": false,
    "long_term": false,
-   "short_term": false,
+   "short_term": true,
    "other_exposure": false,
-   "represented": false,
-   "partially_represented": true,
+   "represented": true,
+   "partially_represented": false,
    "icd10_available": false,
    "outcome_wide_only": false,
-   "n_papers": 3,
-   "n_exact_codesets": 0,
-   "n_codesets": 3,
+   "n_papers": 4,
+   "n_member_codesets": 1,
+   "n_codesets": 4,
    "n_suspect_codesets": 0,
    "support": {
     "air_pollution_long_term": [],
     "air_pollution_short_term": [],
     "extreme_heat_long_term": [],
-    "extreme_heat_short_term": [],
+    "extreme_heat_short_term": [
+     "Spangler 2023 Environ Epidemiol"
+    ],
     "extreme_weather_long_term": [],
     "extreme_weather_short_term": [],
     "other_exposure": []
@@ -6573,43 +5628,7 @@
        "suspect": []
       }
      ]
-    }
-   ]
-  },
-  {
-   "id": "H2",
-   "group": "Heat-related conditions",
-   "name": "Heat-sensitive admissions composite (CCS 2, 50, 55, 114, 157, 159, 244)",
-   "former_name": null,
-   "in_reference_list": false,
-   "merged_from": [],
-   "note": "The seven CCS groups that Bobb 2014 found elevated during heat waves.",
-   "air_pollution": false,
-   "extreme_heat": true,
-   "extreme_weather": false,
-   "long_term": false,
-   "short_term": true,
-   "other_exposure": false,
-   "represented": true,
-   "partially_represented": false,
-   "icd10_available": false,
-   "outcome_wide_only": false,
-   "n_papers": 1,
-   "n_exact_codesets": 1,
-   "n_codesets": 1,
-   "n_suspect_codesets": 0,
-   "support": {
-    "air_pollution_long_term": [],
-    "air_pollution_short_term": [],
-    "extreme_heat_long_term": [],
-    "extreme_heat_short_term": [
-     "Spangler 2023 Environ Epidemiol"
-    ],
-    "extreme_weather_long_term": [],
-    "extreme_weather_short_term": [],
-    "other_exposure": []
-   },
-   "sources": [
+    },
     {
      "outcome_id": "10_1097_ee9_0000000000000261::heat-related hospitalizations (CCS 55, 157, 159, 2, 244, 114, 50)",
      "paper": "10_1097_ee9_0000000000000261",
@@ -6994,39 +6013,764 @@
    ]
   },
   {
-   "id": "I0",
-   "group": "Infections and other reported admission categories",
-   "name": "Non-respiratory infections (composite)",
-   "former_name": null,
-   "in_reference_list": false,
-   "merged_from": [],
-   "note": null,
+   "id": "I1",
+   "group": "Infections",
+   "name": "Infections: respiratory (pneumonia, influenza, bronchitis, upper respiratory) and other (sepsis, urinary tract, skin, CNS, intestinal)",
+   "former_name": "Sepsis/septicemia",
+   "in_reference_list": true,
+   "merged_from": [
+    "R4 (Pneumonia and other respiratory infections (incl. influenza))",
+    "R6 (Upper respiratory infections (and acute bronchitis))",
+    "I0 (Non-respiratory infections (composite))",
+    "I2 (Urinary tract infections)",
+    "I3 (Skin and soft-tissue infections)",
+    "I6 (Central nervous system infections)",
+    "I7 (Intestinal infections)"
+   ],
+   "note": "Merged all infection bins: only respiratory infections have author-defined code sets.",
    "air_pollution": true,
-   "extreme_heat": false,
-   "extreme_weather": false,
+   "extreme_heat": true,
+   "extreme_weather": true,
    "long_term": true,
-   "short_term": false,
-   "other_exposure": false,
+   "short_term": true,
+   "other_exposure": true,
    "represented": true,
    "partially_represented": false,
    "icd10_available": false,
    "outcome_wide_only": false,
-   "n_papers": 2,
-   "n_exact_codesets": 1,
-   "n_codesets": 2,
+   "n_papers": 5,
+   "n_member_codesets": 21,
+   "n_codesets": 26,
    "n_suspect_codesets": 1,
    "support": {
     "air_pollution_long_term": [
      "Feng 2024 Nat Commun"
     ],
-    "air_pollution_short_term": [],
+    "air_pollution_short_term": [
+     "Wei 2019 BMJ"
+    ],
     "extreme_heat_long_term": [],
-    "extreme_heat_short_term": [],
+    "extreme_heat_short_term": [
+     "Bobb 2014 JAMA",
+     "Weinberger 2021 Environ Int"
+    ],
     "extreme_weather_long_term": [],
-    "extreme_weather_short_term": [],
-    "other_exposure": []
+    "extreme_weather_short_term": [
+     "Parks 2021 Nat Commun"
+    ],
+    "other_exposure": [
+     "Weinberger 2021 Environ Int"
+    ]
    },
    "sources": [
+    {
+     "outcome_id": "10_1038_s41467_021_21777_1::ccs-l3-2",
+     "paper": "10_1038_s41467_021_21777_1",
+     "paper_label": "Parks 2021 Nat Commun",
+     "outcome_name": "Septicemia except in labor",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": true,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": false,
+      "extreme_weather": true,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "tropical cyclone exposure, lags 0-7",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1038_s41467_021_21777_1::ccs-l3-2",
+       "source_type": "ccs_table",
+       "ccs": true,
+       "ccs_groups": [
+        "2"
+       ],
+       "parks_analyzed": true,
+       "icd9": [
+        "0031",
+        "0202",
+        "0223",
+        "0362",
+        "0380",
+        "0381",
+        "03810",
+        "03811",
+        "03812",
+        "03819",
+        "0382",
+        "0383",
+        "03840",
+        "03841",
+        "03842",
+        "03843",
+        "03844",
+        "03849",
+        "0388",
+        "0389",
+        "0545",
+        "449",
+        "77181",
+        "7907",
+        "99591",
+        "99592"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1136_bmj_l6258::septicemia (CCS 2)",
+     "paper": "10_1136_bmj_l6258",
+     "paper_label": "Wei 2019 BMJ",
+     "outcome_name": "septicemia (CCS 2)",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "classification_ref",
+     "outcome_wide_scan": true,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "PM2.5 lag 0-1, case-crossover",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1136_bmj_l6258::septicemia (CCS 2)::ccs",
+       "source_type": "ccs_resolved",
+       "ccs": true,
+       "ccs_groups": [
+        "2"
+       ],
+       "parks_analyzed": null,
+       "icd9": [
+        "0031",
+        "0202",
+        "0223",
+        "0362",
+        "0380",
+        "0381",
+        "03810",
+        "03811",
+        "03812",
+        "03819",
+        "0382",
+        "0383",
+        "03840",
+        "03841",
+        "03842",
+        "03843",
+        "03844",
+        "03849",
+        "0388",
+        "0389",
+        "0545",
+        "449",
+        "77181",
+        "7907",
+        "99591",
+        "99592"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1016_j_envint_2021_106834::septicemia (except in labor) (CCS 2)",
+     "paper": "10_1016_j_envint_2021_106834",
+     "paper_label": "Weinberger 2021 Environ Int",
+     "outcome_name": "septicemia (except in labor) (CCS 2)",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "classification_ref",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": true,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": "heat alert policy",
+      "note": "heat alert days vs matched days",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1016_j_envint_2021_106834::septicemia (except in labor) (CCS 2)::ccs",
+       "source_type": "ccs_resolved",
+       "ccs": true,
+       "ccs_groups": [
+        "2"
+       ],
+       "parks_analyzed": null,
+       "icd9": [
+        "0031",
+        "0202",
+        "0223",
+        "0362",
+        "0380",
+        "0381",
+        "03810",
+        "03811",
+        "03812",
+        "03819",
+        "0382",
+        "0383",
+        "03840",
+        "03841",
+        "03842",
+        "03843",
+        "03844",
+        "03849",
+        "0388",
+        "0389",
+        "0545",
+        "449",
+        "77181",
+        "7907",
+        "99591",
+        "99592"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1001_jama_2014_15715::septicemia",
+     "paper": "10_1001_jama_2014_15715",
+     "paper_label": "Bobb 2014 JAMA",
+     "outcome_name": "septicemia",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "classification_ref",
+     "outcome_wide_scan": true,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": true,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "heat waves vs matched days",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1001_jama_2014_15715::septicemia::ccs",
+       "source_type": "ccs_resolved",
+       "ccs": true,
+       "ccs_groups": [
+        "2"
+       ],
+       "parks_analyzed": null,
+       "icd9": [
+        "0031",
+        "0202",
+        "0223",
+        "0362",
+        "0380",
+        "0381",
+        "03810",
+        "03811",
+        "03812",
+        "03819",
+        "0382",
+        "0383",
+        "03840",
+        "03841",
+        "03842",
+        "03843",
+        "03844",
+        "03849",
+        "0388",
+        "0389",
+        "0545",
+        "449",
+        "77181",
+        "7907",
+        "99591",
+        "99592"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1038_s41467_024_45776_0::septicemia",
+     "paper": "10_1038_s41467_024_45776_0",
+     "paper_label": "Feng 2024 Nat Commun",
+     "outcome_name": "septicemia",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "classification_ref",
+     "outcome_wide_scan": false,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": true,
+      "short_term": false,
+      "other_exposure": null,
+      "note": "annual PM2.5 and constituents",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1038_s41467_024_45776_0::septicemia::ccs",
+       "source_type": "ccs_resolved",
+       "ccs": true,
+       "ccs_groups": [
+        "2"
+       ],
+       "parks_analyzed": null,
+       "icd9": [
+        "0031",
+        "0202",
+        "0223",
+        "0362",
+        "0380",
+        "0381",
+        "03810",
+        "03811",
+        "03812",
+        "03819",
+        "0382",
+        "0383",
+        "03840",
+        "03841",
+        "03842",
+        "03843",
+        "03844",
+        "03849",
+        "0388",
+        "0389",
+        "0545",
+        "449",
+        "77181",
+        "7907",
+        "99591",
+        "99592"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1038_s41467_021_21777_1::ccs-l3-122",
+     "paper": "10_1038_s41467_021_21777_1",
+     "paper_label": "Parks 2021 Nat Commun",
+     "outcome_name": "Pneumonia",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": true,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": false,
+      "extreme_weather": true,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "tropical cyclone exposure, lags 0-7",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1038_s41467_021_21777_1::ccs-l3-122",
+       "source_type": "ccs_table",
+       "ccs": true,
+       "ccs_groups": [
+        "122"
+       ],
+       "parks_analyzed": true,
+       "icd9": [
+        "00322",
+        "0203",
+        "0204",
+        "0205",
+        "0212",
+        "0221",
+        "0310",
+        "0391",
+        "0521",
+        "0551",
+        "0730",
+        "0830",
+        "1124",
+        "1140",
+        "1144",
+        "1145",
+        "11505",
+        "11515",
+        "11595",
+        "1304",
+        "1363",
+        "4800",
+        "4801",
+        "4802",
+        "4803",
+        "4808",
+        "4809",
+        "481",
+        "4820",
+        "4821",
+        "4822",
+        "4823",
+        "48230",
+        "48231",
+        "48232",
+        "48239",
+        "4824",
+        "48240",
+        "48241",
+        "48242",
+        "48249",
+        "4828",
+        "48281",
+        "48282",
+        "48283",
+        "48284",
+        "48289",
+        "4829",
+        "483",
+        "4830",
+        "4831",
+        "4838",
+        "4841",
+        "4843",
+        "4845",
+        "4846",
+        "4847",
+        "4848",
+        "485",
+        "486",
+        "5130",
+        "5171"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1038_s41467_021_21777_1::ccs-l3-123",
+     "paper": "10_1038_s41467_021_21777_1",
+     "paper_label": "Parks 2021 Nat Commun",
+     "outcome_name": "Influenza",
+     "scope": "narrower",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": true,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": false,
+      "extreme_weather": true,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "tropical cyclone exposure, lags 0-7",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1038_s41467_021_21777_1::ccs-l3-123",
+       "source_type": "ccs_table",
+       "ccs": true,
+       "ccs_groups": [
+        "123"
+       ],
+       "parks_analyzed": false,
+       "icd9": [
+        "4870",
+        "4871",
+        "4878",
+        "488",
+        "4880",
+        "48801",
+        "48802",
+        "48809",
+        "4881",
+        "48811",
+        "48812",
+        "48819",
+        "48881",
+        "48882",
+        "48889"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1136_bmj_l6258::pneumonia (CCS 122)",
+     "paper": "10_1136_bmj_l6258",
+     "paper_label": "Wei 2019 BMJ",
+     "outcome_name": "pneumonia (CCS 122)",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "classification_ref",
+     "outcome_wide_scan": true,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "PM2.5 lag 0-1, case-crossover",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1136_bmj_l6258::pneumonia (CCS 122)::ccs",
+       "source_type": "ccs_resolved",
+       "ccs": true,
+       "ccs_groups": [
+        "122"
+       ],
+       "parks_analyzed": null,
+       "icd9": [
+        "00322",
+        "0203",
+        "0204",
+        "0205",
+        "0212",
+        "0221",
+        "0310",
+        "0391",
+        "0521",
+        "0551",
+        "0730",
+        "0830",
+        "1124",
+        "1140",
+        "1144",
+        "1145",
+        "11505",
+        "11515",
+        "11595",
+        "1304",
+        "1363",
+        "4800",
+        "4801",
+        "4802",
+        "4803",
+        "4808",
+        "4809",
+        "481",
+        "4820",
+        "4821",
+        "4822",
+        "4823",
+        "48230",
+        "48231",
+        "48232",
+        "48239",
+        "4824",
+        "48240",
+        "48241",
+        "48242",
+        "48249",
+        "4828",
+        "48281",
+        "48282",
+        "48283",
+        "48284",
+        "48289",
+        "4829",
+        "483",
+        "4830",
+        "4831",
+        "4838",
+        "4841",
+        "4843",
+        "4845",
+        "4846",
+        "4847",
+        "4848",
+        "485",
+        "486",
+        "5130",
+        "5171"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1136_bmj_l6258::influenza (CCS 123)",
+     "paper": "10_1136_bmj_l6258",
+     "paper_label": "Wei 2019 BMJ",
+     "outcome_name": "influenza (CCS 123)",
+     "scope": "narrower",
+     "filter": null,
+     "codes_status": "classification_ref",
+     "outcome_wide_scan": true,
+     "exposure": {
+      "air_pollution": true,
+      "extreme_heat": false,
+      "extreme_weather": false,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "PM2.5 lag 0-1, case-crossover",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1136_bmj_l6258::influenza (CCS 123)::ccs",
+       "source_type": "ccs_resolved",
+       "ccs": true,
+       "ccs_groups": [
+        "123"
+       ],
+       "parks_analyzed": null,
+       "icd9": [
+        "4870",
+        "4871",
+        "4878",
+        "488",
+        "4880",
+        "48801",
+        "48802",
+        "48809",
+        "4881",
+        "48811",
+        "48812",
+        "48819",
+        "48881",
+        "48882",
+        "48889"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1038_s41467_021_21777_1::ccs-l3-126",
+     "paper": "10_1038_s41467_021_21777_1",
+     "paper_label": "Parks 2021 Nat Commun",
+     "outcome_name": "Other upper respiratory infections",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": true,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": false,
+      "extreme_weather": true,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "tropical cyclone exposure, lags 0-7",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1038_s41467_021_21777_1::ccs-l3-126",
+       "source_type": "ccs_table",
+       "ccs": true,
+       "ccs_groups": [
+        "126"
+       ],
+       "parks_analyzed": true,
+       "icd9": [
+        "0320",
+        "0321",
+        "0322",
+        "0323",
+        "0340",
+        "460",
+        "4610",
+        "4611",
+        "4612",
+        "4613",
+        "4618",
+        "4619",
+        "462",
+        "4640",
+        "46400",
+        "46401",
+        "46410",
+        "46411",
+        "46420",
+        "46421",
+        "46430",
+        "46431",
+        "4644",
+        "46450",
+        "46451",
+        "4650",
+        "4658",
+        "4659",
+        "4730",
+        "4731",
+        "4732",
+        "4733",
+        "4738",
+        "4739",
+        "78491"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
+    {
+     "outcome_id": "10_1038_s41467_021_21777_1::ccs-l3-125",
+     "paper": "10_1038_s41467_021_21777_1",
+     "paper_label": "Parks 2021 Nat Commun",
+     "outcome_name": "Acute bronchitis",
+     "scope": "exact",
+     "filter": null,
+     "codes_status": "explicit_codes",
+     "outcome_wide_scan": true,
+     "exposure": {
+      "air_pollution": false,
+      "extreme_heat": false,
+      "extreme_weather": true,
+      "long_term": false,
+      "short_term": true,
+      "other_exposure": null,
+      "note": "tropical cyclone exposure, lags 0-7",
+      "source": "full text"
+     },
+     "codesets": [
+      {
+       "codeset_id": "10_1038_s41467_021_21777_1::ccs-l3-125",
+       "source_type": "ccs_table",
+       "ccs": true,
+       "ccs_groups": [
+        "125"
+       ],
+       "parks_analyzed": true,
+       "icd9": [
+        "4660",
+        "4661",
+        "46611",
+        "46619"
+       ],
+       "icd10": [],
+       "suspect": []
+      }
+     ]
+    },
     {
      "outcome_id": "10_1038_s41467_024_45776_0::non-respiratory infections (total)",
      "paper": "10_1038_s41467_024_45776_0",
@@ -9636,402 +9380,7 @@
        "suspect": []
       }
      ]
-    }
-   ]
-  },
-  {
-   "id": "I1",
-   "group": "Infections and other reported admission categories",
-   "name": "Sepsis/septicemia",
-   "former_name": null,
-   "in_reference_list": true,
-   "merged_from": [],
-   "note": null,
-   "air_pollution": true,
-   "extreme_heat": true,
-   "extreme_weather": true,
-   "long_term": true,
-   "short_term": true,
-   "other_exposure": true,
-   "represented": true,
-   "partially_represented": false,
-   "icd10_available": false,
-   "outcome_wide_only": false,
-   "n_papers": 5,
-   "n_exact_codesets": 5,
-   "n_codesets": 5,
-   "n_suspect_codesets": 0,
-   "support": {
-    "air_pollution_long_term": [
-     "Feng 2024 Nat Commun"
-    ],
-    "air_pollution_short_term": [
-     "Wei 2019 BMJ"
-    ],
-    "extreme_heat_long_term": [],
-    "extreme_heat_short_term": [
-     "Bobb 2014 JAMA",
-     "Weinberger 2021 Environ Int"
-    ],
-    "extreme_weather_long_term": [],
-    "extreme_weather_short_term": [
-     "Parks 2021 Nat Commun"
-    ],
-    "other_exposure": [
-     "Weinberger 2021 Environ Int"
-    ]
-   },
-   "sources": [
-    {
-     "outcome_id": "10_1038_s41467_021_21777_1::ccs-l3-2",
-     "paper": "10_1038_s41467_021_21777_1",
-     "paper_label": "Parks 2021 Nat Commun",
-     "outcome_name": "Septicemia except in labor",
-     "scope": "exact",
-     "filter": null,
-     "codes_status": "explicit_codes",
-     "outcome_wide_scan": true,
-     "exposure": {
-      "air_pollution": false,
-      "extreme_heat": false,
-      "extreme_weather": true,
-      "long_term": false,
-      "short_term": true,
-      "other_exposure": null,
-      "note": "tropical cyclone exposure, lags 0-7",
-      "source": "full text"
-     },
-     "codesets": [
-      {
-       "codeset_id": "10_1038_s41467_021_21777_1::ccs-l3-2",
-       "source_type": "ccs_table",
-       "ccs": true,
-       "ccs_groups": [
-        "2"
-       ],
-       "parks_analyzed": true,
-       "icd9": [
-        "0031",
-        "0202",
-        "0223",
-        "0362",
-        "0380",
-        "0381",
-        "03810",
-        "03811",
-        "03812",
-        "03819",
-        "0382",
-        "0383",
-        "03840",
-        "03841",
-        "03842",
-        "03843",
-        "03844",
-        "03849",
-        "0388",
-        "0389",
-        "0545",
-        "449",
-        "77181",
-        "7907",
-        "99591",
-        "99592"
-       ],
-       "icd10": [],
-       "suspect": []
-      }
-     ]
     },
-    {
-     "outcome_id": "10_1136_bmj_l6258::septicemia (CCS 2)",
-     "paper": "10_1136_bmj_l6258",
-     "paper_label": "Wei 2019 BMJ",
-     "outcome_name": "septicemia (CCS 2)",
-     "scope": "exact",
-     "filter": null,
-     "codes_status": "classification_ref",
-     "outcome_wide_scan": true,
-     "exposure": {
-      "air_pollution": true,
-      "extreme_heat": false,
-      "extreme_weather": false,
-      "long_term": false,
-      "short_term": true,
-      "other_exposure": null,
-      "note": "PM2.5 lag 0-1, case-crossover",
-      "source": "full text"
-     },
-     "codesets": [
-      {
-       "codeset_id": "10_1136_bmj_l6258::septicemia (CCS 2)::ccs",
-       "source_type": "ccs_resolved",
-       "ccs": true,
-       "ccs_groups": [
-        "2"
-       ],
-       "parks_analyzed": null,
-       "icd9": [
-        "0031",
-        "0202",
-        "0223",
-        "0362",
-        "0380",
-        "0381",
-        "03810",
-        "03811",
-        "03812",
-        "03819",
-        "0382",
-        "0383",
-        "03840",
-        "03841",
-        "03842",
-        "03843",
-        "03844",
-        "03849",
-        "0388",
-        "0389",
-        "0545",
-        "449",
-        "77181",
-        "7907",
-        "99591",
-        "99592"
-       ],
-       "icd10": [],
-       "suspect": []
-      }
-     ]
-    },
-    {
-     "outcome_id": "10_1016_j_envint_2021_106834::septicemia (except in labor) (CCS 2)",
-     "paper": "10_1016_j_envint_2021_106834",
-     "paper_label": "Weinberger 2021 Environ Int",
-     "outcome_name": "septicemia (except in labor) (CCS 2)",
-     "scope": "exact",
-     "filter": null,
-     "codes_status": "classification_ref",
-     "outcome_wide_scan": false,
-     "exposure": {
-      "air_pollution": false,
-      "extreme_heat": true,
-      "extreme_weather": false,
-      "long_term": false,
-      "short_term": true,
-      "other_exposure": "heat alert policy",
-      "note": "heat alert days vs matched days",
-      "source": "full text"
-     },
-     "codesets": [
-      {
-       "codeset_id": "10_1016_j_envint_2021_106834::septicemia (except in labor) (CCS 2)::ccs",
-       "source_type": "ccs_resolved",
-       "ccs": true,
-       "ccs_groups": [
-        "2"
-       ],
-       "parks_analyzed": null,
-       "icd9": [
-        "0031",
-        "0202",
-        "0223",
-        "0362",
-        "0380",
-        "0381",
-        "03810",
-        "03811",
-        "03812",
-        "03819",
-        "0382",
-        "0383",
-        "03840",
-        "03841",
-        "03842",
-        "03843",
-        "03844",
-        "03849",
-        "0388",
-        "0389",
-        "0545",
-        "449",
-        "77181",
-        "7907",
-        "99591",
-        "99592"
-       ],
-       "icd10": [],
-       "suspect": []
-      }
-     ]
-    },
-    {
-     "outcome_id": "10_1001_jama_2014_15715::septicemia",
-     "paper": "10_1001_jama_2014_15715",
-     "paper_label": "Bobb 2014 JAMA",
-     "outcome_name": "septicemia",
-     "scope": "exact",
-     "filter": null,
-     "codes_status": "classification_ref",
-     "outcome_wide_scan": true,
-     "exposure": {
-      "air_pollution": false,
-      "extreme_heat": true,
-      "extreme_weather": false,
-      "long_term": false,
-      "short_term": true,
-      "other_exposure": null,
-      "note": "heat waves vs matched days",
-      "source": "full text"
-     },
-     "codesets": [
-      {
-       "codeset_id": "10_1001_jama_2014_15715::septicemia::ccs",
-       "source_type": "ccs_resolved",
-       "ccs": true,
-       "ccs_groups": [
-        "2"
-       ],
-       "parks_analyzed": null,
-       "icd9": [
-        "0031",
-        "0202",
-        "0223",
-        "0362",
-        "0380",
-        "0381",
-        "03810",
-        "03811",
-        "03812",
-        "03819",
-        "0382",
-        "0383",
-        "03840",
-        "03841",
-        "03842",
-        "03843",
-        "03844",
-        "03849",
-        "0388",
-        "0389",
-        "0545",
-        "449",
-        "77181",
-        "7907",
-        "99591",
-        "99592"
-       ],
-       "icd10": [],
-       "suspect": []
-      }
-     ]
-    },
-    {
-     "outcome_id": "10_1038_s41467_024_45776_0::septicemia",
-     "paper": "10_1038_s41467_024_45776_0",
-     "paper_label": "Feng 2024 Nat Commun",
-     "outcome_name": "septicemia",
-     "scope": "exact",
-     "filter": null,
-     "codes_status": "classification_ref",
-     "outcome_wide_scan": false,
-     "exposure": {
-      "air_pollution": true,
-      "extreme_heat": false,
-      "extreme_weather": false,
-      "long_term": true,
-      "short_term": false,
-      "other_exposure": null,
-      "note": "annual PM2.5 and constituents",
-      "source": "full text"
-     },
-     "codesets": [
-      {
-       "codeset_id": "10_1038_s41467_024_45776_0::septicemia::ccs",
-       "source_type": "ccs_resolved",
-       "ccs": true,
-       "ccs_groups": [
-        "2"
-       ],
-       "parks_analyzed": null,
-       "icd9": [
-        "0031",
-        "0202",
-        "0223",
-        "0362",
-        "0380",
-        "0381",
-        "03810",
-        "03811",
-        "03812",
-        "03819",
-        "0382",
-        "0383",
-        "03840",
-        "03841",
-        "03842",
-        "03843",
-        "03844",
-        "03849",
-        "0388",
-        "0389",
-        "0545",
-        "449",
-        "77181",
-        "7907",
-        "99591",
-        "99592"
-       ],
-       "icd10": [],
-       "suspect": []
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "I2",
-   "group": "Infections and other reported admission categories",
-   "name": "Urinary tract infections",
-   "former_name": null,
-   "in_reference_list": true,
-   "merged_from": [],
-   "note": "Yitshak-Sade 2021 prints UTI as ICD-9 559 (likely 599.0).",
-   "air_pollution": true,
-   "extreme_heat": true,
-   "extreme_weather": true,
-   "long_term": true,
-   "short_term": true,
-   "other_exposure": true,
-   "represented": true,
-   "partially_represented": false,
-   "icd10_available": false,
-   "outcome_wide_only": false,
-   "n_papers": 5,
-   "n_exact_codesets": 5,
-   "n_codesets": 5,
-   "n_suspect_codesets": 0,
-   "support": {
-    "air_pollution_long_term": [
-     "Feng 2024 Nat Commun"
-    ],
-    "air_pollution_short_term": [
-     "Wei 2019 BMJ"
-    ],
-    "extreme_heat_long_term": [],
-    "extreme_heat_short_term": [
-     "Bobb 2014 JAMA",
-     "Weinberger 2021 Environ Int"
-    ],
-    "extreme_weather_long_term": [],
-    "extreme_weather_short_term": [
-     "Parks 2021 Nat Commun"
-    ],
-    "other_exposure": [
-     "Weinberger 2021 Environ Int"
-    ]
-   },
-   "sources": [
     {
      "outcome_id": "10_1038_s41467_021_21777_1::ccs-l3-159",
      "paper": "10_1038_s41467_021_21777_1",
@@ -10336,45 +9685,7 @@
        "suspect": []
       }
      ]
-    }
-   ]
-  },
-  {
-   "id": "I3",
-   "group": "Infections and other reported admission categories",
-   "name": "Skin and soft-tissue infections",
-   "former_name": null,
-   "in_reference_list": true,
-   "merged_from": [],
-   "note": null,
-   "air_pollution": true,
-   "extreme_heat": false,
-   "extreme_weather": true,
-   "long_term": false,
-   "short_term": true,
-   "other_exposure": false,
-   "represented": true,
-   "partially_represented": false,
-   "icd10_available": false,
-   "outcome_wide_only": true,
-   "n_papers": 2,
-   "n_exact_codesets": 2,
-   "n_codesets": 2,
-   "n_suspect_codesets": 0,
-   "support": {
-    "air_pollution_long_term": [],
-    "air_pollution_short_term": [
-     "Wei 2019 BMJ"
-    ],
-    "extreme_heat_long_term": [],
-    "extreme_heat_short_term": [],
-    "extreme_weather_long_term": [],
-    "extreme_weather_short_term": [
-     "Parks 2021 Nat Commun"
-    ],
-    "other_exposure": []
-   },
-   "sources": [
+    },
     {
      "outcome_id": "10_1038_s41467_021_21777_1::ccs-l3-197",
      "paper": "10_1038_s41467_021_21777_1",
@@ -10530,126 +9841,7 @@
        "suspect": []
       }
      ]
-    }
-   ]
-  },
-  {
-   "id": "I5",
-   "group": "Digestive conditions",
-   "name": "Intestinal obstruction",
-   "former_name": "Intestinal obstruction",
-   "in_reference_list": true,
-   "merged_from": [],
-   "note": null,
-   "air_pollution": false,
-   "extreme_heat": false,
-   "extreme_weather": true,
-   "long_term": false,
-   "short_term": true,
-   "other_exposure": false,
-   "represented": true,
-   "partially_represented": false,
-   "icd10_available": false,
-   "outcome_wide_only": true,
-   "n_papers": 1,
-   "n_exact_codesets": 1,
-   "n_codesets": 1,
-   "n_suspect_codesets": 0,
-   "support": {
-    "air_pollution_long_term": [],
-    "air_pollution_short_term": [],
-    "extreme_heat_long_term": [],
-    "extreme_heat_short_term": [],
-    "extreme_weather_long_term": [],
-    "extreme_weather_short_term": [
-     "Parks 2021 Nat Commun"
-    ],
-    "other_exposure": []
-   },
-   "sources": [
-    {
-     "outcome_id": "10_1038_s41467_021_21777_1::ccs-l3-145",
-     "paper": "10_1038_s41467_021_21777_1",
-     "paper_label": "Parks 2021 Nat Commun",
-     "outcome_name": "Bowel obstruction",
-     "scope": "exact",
-     "filter": null,
-     "codes_status": "explicit_codes",
-     "outcome_wide_scan": true,
-     "exposure": {
-      "air_pollution": false,
-      "extreme_heat": false,
-      "extreme_weather": true,
-      "long_term": false,
-      "short_term": true,
-      "other_exposure": null,
-      "note": "tropical cyclone exposure, lags 0-7",
-      "source": "full text"
-     },
-     "codesets": [
-      {
-       "codeset_id": "10_1038_s41467_021_21777_1::ccs-l3-145",
-       "source_type": "ccs_table",
-       "ccs": true,
-       "ccs_groups": [
-        "145"
-       ],
-       "parks_analyzed": true,
-       "icd9": [
-        "5600",
-        "5601",
-        "5602",
-        "56030",
-        "56031",
-        "56032",
-        "56039",
-        "56081",
-        "56089",
-        "5609"
-       ],
-       "icd10": [],
-       "suspect": []
-      }
-     ]
-    }
-   ]
-  },
-  {
-   "id": "I6",
-   "group": "Infections and other reported admission categories",
-   "name": "Central nervous system infections",
-   "former_name": null,
-   "in_reference_list": false,
-   "merged_from": [],
-   "note": null,
-   "air_pollution": true,
-   "extreme_heat": false,
-   "extreme_weather": true,
-   "long_term": true,
-   "short_term": true,
-   "other_exposure": false,
-   "represented": true,
-   "partially_represented": false,
-   "icd10_available": false,
-   "outcome_wide_only": false,
-   "n_papers": 2,
-   "n_exact_codesets": 1,
-   "n_codesets": 4,
-   "n_suspect_codesets": 0,
-   "support": {
-    "air_pollution_long_term": [
-     "Feng 2024 Nat Commun"
-    ],
-    "air_pollution_short_term": [],
-    "extreme_heat_long_term": [],
-    "extreme_heat_short_term": [],
-    "extreme_weather_long_term": [],
-    "extreme_weather_short_term": [
-     "Parks 2021 Nat Commun"
-    ],
-    "other_exposure": []
-   },
-   "sources": [
+    },
     {
      "outcome_id": "10_1038_s41467_024_45776_0::central nervous system infections",
      "paper": "10_1038_s41467_024_45776_0",
@@ -11037,45 +10229,7 @@
        "suspect": []
       }
      ]
-    }
-   ]
-  },
-  {
-   "id": "I7",
-   "group": "Infections and other reported admission categories",
-   "name": "Intestinal infections",
-   "former_name": null,
-   "in_reference_list": false,
-   "merged_from": [],
-   "note": null,
-   "air_pollution": true,
-   "extreme_heat": false,
-   "extreme_weather": true,
-   "long_term": true,
-   "short_term": true,
-   "other_exposure": false,
-   "represented": true,
-   "partially_represented": false,
-   "icd10_available": false,
-   "outcome_wide_only": false,
-   "n_papers": 2,
-   "n_exact_codesets": 2,
-   "n_codesets": 2,
-   "n_suspect_codesets": 0,
-   "support": {
-    "air_pollution_long_term": [
-     "Feng 2024 Nat Commun"
-    ],
-    "air_pollution_short_term": [],
-    "extreme_heat_long_term": [],
-    "extreme_heat_short_term": [],
-    "extreme_weather_long_term": [],
-    "extreme_weather_short_term": [
-     "Parks 2021 Nat Commun"
-    ],
-    "other_exposure": []
-   },
-   "sources": [
+    },
     {
      "outcome_id": "10_1038_s41467_024_45776_0::intestinal infections",
      "paper": "10_1038_s41467_024_45776_0",
@@ -11311,11 +10465,13 @@
   {
    "id": "X1",
    "group": "Injuries",
-   "name": "Injuries",
-   "former_name": null,
+   "name": "Injuries and fractures",
+   "former_name": "Injuries",
    "in_reference_list": false,
-   "merged_from": [],
-   "note": "Also used as a negative control outcome (Bell 2009, Wei 2019) and excluded in Peng 2009.",
+   "merged_from": [
+    "X2 (Fractures (incl. hip and osteoporosis-related))"
+   ],
+   "note": "Merged injuries and hip fracture.",
    "air_pollution": false,
    "extreme_heat": false,
    "extreme_weather": true,
@@ -11327,8 +10483,8 @@
    "icd10_available": false,
    "outcome_wide_only": true,
    "n_papers": 1,
-   "n_exact_codesets": 1,
-   "n_codesets": 1,
+   "n_member_codesets": 2,
+   "n_codesets": 2,
    "n_suspect_codesets": 0,
    "support": {
     "air_pollution_long_term": [],
@@ -14159,49 +13315,13 @@
        "suspect": []
       }
      ]
-    }
-   ]
-  },
-  {
-   "id": "X2",
-   "group": "Injuries",
-   "name": "Hip fracture",
-   "former_name": "Fractures (incl. hip and osteoporosis-related)",
-   "in_reference_list": false,
-   "merged_from": [],
-   "note": "Renamed from 'Fractures': the code sets are hip fracture (820, CCS 226); osteoporosis-related fractures (Prada 2017) have no fetched codes.",
-   "air_pollution": false,
-   "extreme_heat": false,
-   "extreme_weather": true,
-   "long_term": false,
-   "short_term": true,
-   "other_exposure": false,
-   "represented": true,
-   "partially_represented": false,
-   "icd10_available": false,
-   "outcome_wide_only": true,
-   "n_papers": 1,
-   "n_exact_codesets": 1,
-   "n_codesets": 1,
-   "n_suspect_codesets": 0,
-   "support": {
-    "air_pollution_long_term": [],
-    "air_pollution_short_term": [],
-    "extreme_heat_long_term": [],
-    "extreme_heat_short_term": [],
-    "extreme_weather_long_term": [],
-    "extreme_weather_short_term": [
-     "Parks 2021 Nat Commun"
-    ],
-    "other_exposure": []
-   },
-   "sources": [
+    },
     {
      "outcome_id": "10_1038_s41467_021_21777_1::ccs-l3-226",
      "paper": "10_1038_s41467_021_21777_1",
      "paper_label": "Parks 2021 Nat Commun",
      "outcome_name": "Fracture of neck of femur hip",
-     "scope": "exact",
+     "scope": "narrower",
      "filter": null,
      "codes_status": "explicit_codes",
      "outcome_wide_scan": true,
@@ -14273,7 +13393,7 @@
    "icd10_available": false,
    "outcome_wide_only": true,
    "n_papers": 1,
-   "n_exact_codesets": 1,
+   "n_member_codesets": 1,
    "n_codesets": 1,
    "n_suspect_codesets": 0,
    "support": {
@@ -14331,39 +13451,6 @@
      ]
     }
    ]
-  },
-  {
-   "id": "K6",
-   "group": "Kidney, metabolic, and fluid-balance conditions",
-   "name": "Dehydration and volume depletion",
-   "former_name": null,
-   "in_reference_list": false,
-   "merged_from": [],
-   "note": "Added in Step 3.8 (Jung 2025: 276.51 / E86.0). Part of CCS 55; Bobb 2014 reports 276.51 as the most common code in that group during heat waves.",
-   "air_pollution": false,
-   "extreme_heat": false,
-   "extreme_weather": false,
-   "long_term": false,
-   "short_term": false,
-   "other_exposure": false,
-   "represented": false,
-   "partially_represented": false,
-   "icd10_available": false,
-   "outcome_wide_only": false,
-   "n_papers": 0,
-   "n_exact_codesets": 0,
-   "n_codesets": 0,
-   "n_suspect_codesets": 0,
-   "support": {
-    "air_pollution_long_term": [],
-    "air_pollution_short_term": [],
-    "extreme_heat_long_term": [],
-    "extreme_heat_short_term": [],
-    "extreme_weather_long_term": [],
-    "extreme_weather_short_term": [],
-    "other_exposure": []
-   },
-   "sources": []
   }
  ]
 }
