@@ -182,5 +182,28 @@ You will guide me step by step so we work together in chrome. I can sign in to m
 
 Record the final status of each of the manually downloaded papers.
 
-### Step 5
-We should have a unified list of code sets from step 2 and 3 that incorporates information from each paper only once, avoiding to add papers twice if they are both in Francesca and Danielle Google Scholars. Bins are just a reference that helps classify the code sets. Modify the bins definition to include as many relevant outcomes as possible. We are interested in air pollution and extreme weather related outcomes overall. The bins should distinguish between "long-term effect" and "short-term effect" related outcomes. 
+### Step 4.2
+Apply step 2.6 and 2.8 to the manually downloaded papers
+
+### Step 5: condense 
+We should have a unified list of code sets from step 2.6, 3.6 and 4.2 that incorporates information from each paper only once, avoiding to add papers twice if they are both in Francesca and Danielle Google Scholars. 
+
+The output is a yml file that is almost as simple as francesca_claudio_icdranges01.yaml. Note each item uses a short name for each code set. The new yaml will also include:
+* `long_name` a long description of the outcome the codeset represents
+* `criteria` for example `"principal"` vs. `"any diagnosis"` or `"not stated"` or others that could make sense like `"secondary"` or whatever
+* `paper_id` which will list papers (or the folder names of the papers) that share the same codeset definition and criteria for a given outcome. 
+* `treatment` which will take the following values in a list (that can be empty if none apply) `[air_pollution, extreme_weather, long_term, short_term]`. Heat would count as extreme_weather, and greenness, noise or policy papers would get an empty list unless they also fit a listed value.
+
+
+Leave out group based code sets from outcome-wide papers. For example not include the outcomes from Parks 2021 or others that use the CCS groups. Keep author defined outcomes with explicit codes.
+
+If icd codes are not available leave the range empty.
+
+Fix apparent typos, for example 490-448.
+
+### Step 5.1: Bins
+Bins are just a reference that helps classify the code sets. Modify the bins definition to include as many relevant outcomes as possible from the condensed codeset yaml. We are interested in air pollution and extreme weather related outcomes overall. The bins should distinguish between "long-term effect" and "short-term effect" related outcomes.
+
+Store the bins in a very simple yaml which should include a short name for each bin to identify each item, and:
+* a long name
+* a list containing the short names of the icd code sets that belong to the bin. Split them in long_term and short_term lists of code set names to each bin.

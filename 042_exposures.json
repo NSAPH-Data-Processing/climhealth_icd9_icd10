@@ -1,0 +1,20 @@
+{
+ "description": "Step 4.2 exposure of the 15 shortlisted papers, same rules as 028_exposures.json. Ranks 6-9, 11 and 12 repeat their Step 2.8 / 3.8 labels; the others were hand-classified from the methods on 2026-11-03. Smoking bans and geographic or racial variation have no pollution, heat or weather exposure, so they are other_exposure with no time flags.",
+ "papers": {
+  "10_1001_jama_295_10_1127": {"air_pollution": true, "extreme_heat": false, "extreme_weather": false, "long_term": false, "short_term": true, "other_exposure": null, "note": "PM2.5, daily time series"},
+  "10_1001_jama_299_18_2172": {"air_pollution": true, "extreme_heat": false, "extreme_weather": false, "long_term": false, "short_term": true, "other_exposure": null, "note": "coarse PM (PM10-2.5) and PM2.5, daily time series"},
+  "10_1093_aje_kws267": {"air_pollution": false, "extreme_heat": false, "extreme_weather": false, "long_term": false, "short_term": false, "other_exposure": "smoking bans (policy)", "note": "comprehensive smoking bans"},
+  "10_1016_j_chest_2019_03_017": {"air_pollution": true, "extreme_heat": false, "extreme_weather": false, "long_term": true, "short_term": false, "other_exposure": null, "note": "annual PM2.5 and ozone"},
+  "10_1016_s2542_5196_21_00168_6": {"air_pollution": true, "extreme_heat": false, "extreme_weather": false, "long_term": false, "short_term": true, "other_exposure": null, "note": "PM2.5, daily time series"},
+  "10_1093_aje_kwae133": {"air_pollution": true, "extreme_heat": false, "extreme_weather": false, "long_term": true, "short_term": false, "other_exposure": null, "note": "annual PM2.5, NO2, summer ozone (causal methods)"},
+  "10_1097_ede_0000000000000556": {"air_pollution": true, "extreme_heat": false, "extreme_weather": true, "long_term": false, "short_term": true, "other_exposure": null, "note": "wildfire smoke PM2.5, smoke-wave days"},
+  "10_1016_j_ypmed_2018_02_001": {"air_pollution": false, "extreme_heat": true, "extreme_weather": false, "long_term": false, "short_term": true, "other_exposure": null, "note": "heat waves"},
+  "10_1001_jama_2014_15715": {"air_pollution": false, "extreme_heat": true, "extreme_weather": false, "long_term": false, "short_term": true, "other_exposure": null, "note": "heat waves vs matched days"},
+  "10_1080_01621459_2020_1722134": {"air_pollution": true, "extreme_heat": false, "extreme_weather": false, "long_term": false, "short_term": true, "other_exposure": null, "note": "two-day average PM2.5, case-crossover"},
+  "10_1097_ede_0000000000001456": {"air_pollution": true, "extreme_heat": false, "extreme_weather": false, "long_term": false, "short_term": true, "other_exposure": null, "note": "PM2.5 lag 0-1, case-crossover"},
+  "10_1097_ede_0000000000001265": {"air_pollution": true, "extreme_heat": false, "extreme_weather": false, "long_term": false, "short_term": true, "other_exposure": null, "note": "PM2.5, case-crossover (Medicaid and Medicare)"},
+  "10_1016_j_envint_2023_107844": {"air_pollution": false, "extreme_heat": false, "extreme_weather": false, "long_term": true, "short_term": false, "other_exposure": "greenness", "note": "annual ZIP-level EVI; PM2.5 and ozone are covariates"},
+  "10_1001_jamainternmed_2024_7719": {"air_pollution": false, "extreme_heat": true, "extreme_weather": false, "long_term": false, "short_term": true, "other_exposure": null, "note": "daily maximum heat index, lags 0-14, case-crossover"},
+  "10_1093_aje_kwag087": {"air_pollution": false, "extreme_heat": false, "extreme_weather": false, "long_term": false, "short_term": false, "other_exposure": "region and race", "note": "county and race variation in hospitalization risk; no environmental exposure"}
+ }
+}

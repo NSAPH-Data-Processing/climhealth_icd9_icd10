@@ -1,0 +1,272 @@
+{
+ "description": "Step 4.2 hand labels for the 15 shortlisted papers, same format as 026_labels.json, read by Claude from papers/<slug>/text/ on 2026-11-03. 'reuse' takes the outcomes from an earlier labels file. group_based marks outcome-wide group entries, whose ICD codes are handled separately. 'bins' maps an outcome to Step 2.8 bins as [bin id, scope].",
+ "labels": {
+  "10_1001_jama_295_10_1127": "Dominici 2006 JAMA",
+  "10_1001_jama_299_18_2172": "Peng 2008 JAMA",
+  "10_1093_aje_kws267": "Barr 2012 AJE",
+  "10_1016_j_chest_2019_03_017": "Rhee 2019 Chest",
+  "10_1016_s2542_5196_21_00168_6": "Chen 2021 Lancet Planet Health",
+  "10_1093_aje_kwae133": "Qin 2025 AJE",
+  "10_1097_ede_0000000000000556": "Liu 2017 Epidemiology",
+  "10_1016_j_ypmed_2018_02_001": "Hopp 2018 Prev Med",
+  "10_1001_jama_2014_15715": "Bobb 2014 JAMA",
+  "10_1080_01621459_2020_1722134": "Thomas 2020 JASA",
+  "10_1097_ede_0000000000001456": "Thomas 2022 Epidemiology",
+  "10_1097_ede_0000000000001265": "deSouza 2021 Epidemiology",
+  "10_1016_j_envint_2023_107844": "Lee 2023 Environ Int",
+  "10_1001_jamainternmed_2024_7719": "Delaney 2025 JAMA Intern Med",
+  "10_1093_aje_kwag087": "2026 AJE dementia by region and race"
+ },
+ "papers": {
+  "10_1001_jama_295_10_1127": {
+   "source": "Medicare billing claims (county daily counts)",
+   "medpar_ffs": "implied",
+   "ev": ["article.pdf", "daily counts of hospital admissions for 1999-2002 obtained from billing claims of Medicare enrollees"],
+   "outcomes": [
+    {"name": "heart failure", "step23": "heart failure", "codes_status": "explicit_codes", "icd9": ["428"], "position": "principal",
+     "ev": ["article.pdf", "heart failure [428]"],
+     "position_ev": ["article.pdf", "summing the number of hospital admissions for each of the diseases considered a primary diagnosis"],
+     "bins": [["C3", "exact"]]},
+    {"name": "heart rhythm disturbances", "step23": "heart rhythm", "codes_status": "explicit_codes", "icd9": ["426-427"], "position": "principal",
+     "ev": ["article.pdf", "heart rhythm disturbances [426-427]"], "bins": [["C4", "exact"]]},
+    {"name": "cerebrovascular events", "step23": "cerebrovascular", "codes_status": "explicit_codes", "icd9": ["430-438"], "position": "principal",
+     "ev": ["article.pdf", "cerebrovascular events [430-438]"], "bins": [["N4", "exact"], ["C7", "exact"]]},
+    {"name": "ischemic heart disease", "step23": "ischemic heart disease", "codes_status": "explicit_codes", "icd9": ["410-414", "429"], "position": "principal",
+     "ev": ["article.pdf", "ischemic heart disease [410-414,429]"], "bins": [["C2", "exact"]]},
+    {"name": "peripheral vascular disease", "step23": "peripheral", "codes_status": "explicit_codes", "icd9": ["440-448"], "position": "principal",
+     "ev": ["article.pdf", "peripheral vascular disease [440-448]"], "bins": [["C10", "exact"]]},
+    {"name": "chronic obstructive pulmonary disease", "step23": "COPD", "codes_status": "explicit_codes", "icd9": ["490-492"], "position": "principal",
+     "ev": ["article.pdf", "chronic obstructive pulmonary disease [COPD; 490-492]"], "bins": [["R2", "exact"]]},
+    {"name": "respiratory tract infections", "step23": "respiratory infection", "codes_status": "explicit_codes", "icd9": ["464-466", "480-487"], "position": "principal",
+     "ev": ["article.pdf", "respiratory tract infections [464-466, 480-487]"], "bins": [["R4", "exact"]]},
+    {"name": "injuries and other external causes (control)", "step23": "injuries (control)", "role": "negative_control", "codes_status": "explicit_codes", "icd9": ["800-849"], "position": "principal",
+     "ev": ["article.pdf", "hospitalizations caused by injuries and other external causes (800-849)"]}
+   ]
+  },
+  "10_1001_jama_299_18_2172": {
+   "source": "Medicare billing claims (county daily counts, emergency admissions)",
+   "medpar_ffs": "implied",
+   "ev": ["article.pdf", "emergency hospital admissions for 1999-2005 derived from billing claims of Medicare enrollees"],
+   "outcomes": [
+    {"name": "cardiovascular admissions", "step23": "cardiovascular", "codes_status": "explicit_codes", "icd9": ["428", "426-427", "430-438", "410-414", "429", "440-448"], "position": "principal",
+     "ev": ["article.pdf", "Cardiovascular admissions included heart failure (428), heart rhythm disturbances (426-427), cerebrovascular events (430-438), ischemic heart disease (410-414, 429), and peripheral vascular disease (440-448)"],
+     "position_ev": ["article.pdf", "only the primary diagnosis for the hospital admission was considered"],
+     "bins": [["C0", "exact"]]},
+    {"name": "respiratory admissions", "step23": "respiratory", "codes_status": "explicit_codes", "icd9": ["490-492", "464-466", "480-487"], "position": "principal",
+     "ev": ["article.pdf", "Respiratory admissions included chronic obstructive pulmonary disease (490-492) and respiratory tract infections (464-466, 480-487)"],
+     "bins": [["R0", "exact"]]},
+    {"name": "heart failure", "step23": "cardiovascular", "codes_status": "explicit_codes", "icd9": ["428"], "position": "principal",
+     "ev": ["article.pdf", "heart failure (428)"], "bins": [["C3", "exact"]]},
+    {"name": "heart rhythm disturbances", "step23": "cardiovascular", "codes_status": "explicit_codes", "icd9": ["426-427"], "position": "principal",
+     "ev": ["article.pdf", "heart rhythm disturbances (426-427)"], "bins": [["C4", "exact"]]},
+    {"name": "cerebrovascular events", "step23": "cardiovascular", "codes_status": "explicit_codes", "icd9": ["430-438"], "position": "principal",
+     "ev": ["article.pdf", "cerebrovascular events (430-438)"], "bins": [["N4", "exact"], ["C7", "exact"]]},
+    {"name": "ischemic heart disease", "step23": "cardiovascular", "codes_status": "explicit_codes", "icd9": ["410-414", "429"], "position": "principal",
+     "ev": ["article.pdf", "ischemic heart disease (410-414, 429)"], "bins": [["C2", "exact"]]},
+    {"name": "peripheral vascular disease", "step23": "cardiovascular", "codes_status": "explicit_codes", "icd9": ["440-448"], "position": "principal",
+     "ev": ["article.pdf", "peripheral vascular disease (440-448)"], "bins": [["C10", "exact"]]},
+    {"name": "chronic obstructive pulmonary disease", "step23": "respiratory", "codes_status": "explicit_codes", "icd9": ["490-492"], "position": "principal",
+     "ev": ["article.pdf", "chronic obstructive pulmonary disease (490-492)"], "bins": [["R2", "exact"]]},
+    {"name": "respiratory tract infections", "step23": "respiratory", "codes_status": "explicit_codes", "icd9": ["464-466", "480-487"], "position": "principal",
+     "ev": ["article.pdf", "respiratory tract infections (464-466, 480-487)"], "bins": [["R4", "exact"]]},
+    {"name": "injuries and other external causes (control)", "step23": null, "role": "negative_control", "codes_status": "explicit_codes", "icd9": ["800-849"], "position": null,
+     "ev": ["article.pdf", "hospitalizations caused by injuries and other external causes as the outcomes (ICD-9 codes 800-849)"]}
+   ]
+  },
+  "10_1093_aje_kws267": {
+   "source": "Medicare FFS inpatient claims",
+   "medpar_ffs": "stated",
+   "ev": ["article.pdf", "enrolled in the Medicare fee-for-service plan and were included in the inpatient claims"],
+   "outcomes": [
+    {"name": "acute myocardial infarction", "step23": "acute myocardial infarction", "codes_status": "explicit_codes", "icd9": ["410.xx excluding 410.x2"], "position": "principal",
+     "ev": ["article.pdf", "using the principal discharge diagnosis code (410.xx, excluding 410.x2)"], "bins": [["C1", "exact"]],
+     "note": "The web material has county names and model details, no further codes."}
+   ]
+  },
+  "10_1016_j_chest_2019_03_017": {
+   "source": "MedPAR inpatient data",
+   "medpar_ffs": "stated",
+   "ev": ["article.pdf", "The study used Medicare Provider Analysis and Review inpatient data"],
+   "outcomes": [
+    {"name": "acute respiratory distress syndrome", "step23": "acute respiratory distress syndrome", "codes_status": "explicit_codes", "icd9": ["518.51", "518.52", "518.53", "518.82"], "position": "principal_or_secondary",
+     "ev": ["article.pdf", "ICD-9-CM codes 518.51, 518.52, 518.53, and 518.82 were used as ARDS criteria"],
+     "position_ev": ["article.pdf", "the primary and secondary discharge diagnosis codes for ARDS"],
+     "bins": [["R5", "narrower"]], "note": "Code 518.81 is deliberately excluded. ICD-9-CM only (2000-2012)."},
+    {"name": "ARDS subgroup: sepsis", "step23": null, "role": "component", "codes_status": "explicit_codes",
+     "icd9": ["A infection (primary or secondary): 001–005, 008–018, 020–027, 030–041, 054.5, 090–098, 100–104, 110–112, 114–118, 320, 322, 324, 325, 420, 421, 451, 461–465, 481, 482, 485, 486, 491.21, 494, 510, 513, 540–542, 562.01, 562.03, 562.11, 562.13, 566, 567, 569.5, 569.83, 572.0, 572.1, 575.0, 590, 597, 599.0, 601, 614, 615, 616, 681–683, 686, 711.0, 730, 790.7, 996.6, 998.5, 993.3",
+              "B organ dysfunction (primary or secondary): 96.7, 286.6, 286.9, 287.4, 287.5, 293, 297.4, 348.1, 348.3, 427.5, 458, 458.8, 458.9, 518.81, 518.82, 570, 572.2, 573.4, 584, 780.01, 785.5, 786.09, 799.1, 796.3",
+              "C direct (primary): 995.91, 995.92, 785.52"],
+     "position": null, "ev": ["mmc1.pdf", "C: Sepsis direct codes (primary): 995.91(sepsis), 995.92 (severe sepsis), 785.52 (septic shock)"],
+     "note": "Defines a subgroup of ARDS patients in e-Table 1, not a separate outcome."},
+    {"name": "ARDS subgroup: pneumonia", "step23": null, "role": "component", "codes_status": "explicit_codes", "icd9": ["480.0 - 487.0"], "position": null,
+     "ev": ["mmc1.pdf", "Pneumonia 480.0 - 487.0"], "note": "Defines a subgroup of ARDS patients in e-Table 1, not a separate outcome."},
+    {"name": "ARDS subgroup: traumatic injury", "step23": null, "role": "component", "codes_status": "explicit_codes", "icd9": ["800 - 904", "910 - 929", "940 - 959.9"], "position": null,
+     "ev": ["mmc1.pdf", "Traumatic Injury 800 - 904, 910 - 929, 940 - 959.9"], "note": "Defines a subgroup of ARDS patients in e-Table 1, not a separate outcome."}
+   ]
+  },
+  "10_1016_s2542_5196_21_00168_6": {
+   "source": "Medicare FFS patient claims (county daily counts)",
+   "medpar_ffs": "stated",
+   "ev": ["article.pdf", "from Medicare fee-for-service patient claims"],
+   "outcomes": [
+    {"name": "circulatory hospitalisations", "step23": "circulatory", "codes_status": "explicit_codes",
+     "icd9": ["390–398", "401–405", "410–414", "415–417", "420–429", "430–438", "440–448", "451–459"], "icd10": ["I00-I99"], "position": "principal",
+     "ev": ["supplement_mmc1.pdf", "hypertensive disease (401–405); ischemic heart disease (410–414); pulmonary circulation disease"],
+     "position_ev": ["article.pdf", "We categorised hospitalisations into circulatory and respiratory hospitalisation by primary diagnosis"],
+     "bins": [["C0", "exact"]], "note": "Appendix eMethod 1 gives all the codes, across lines. ICD-10 is stated in 'The utilized ICD-10-CM codes were I00-I99'."},
+    {"name": "respiratory hospitalisations", "step23": "respiratory", "codes_status": "explicit_codes",
+     "icd9": ["464–466", "480–487", "490–492", "494-496"], "icd10": ["J40-42", "J43·9", "J44", "J47·1", "J47·9", "J67", "J06·9", "J20·9", "J18·9"], "position": "principal",
+     "ev": ["supplement_mmc1.pdf", "J40-42, J43·9, J44, J47·1, J47·9, J67, J06·9, J20·9, and J18·9 for respiratory"],
+     "bins": [["R0", "exact"]]}
+   ]
+  },
+  "10_1093_aje_kwae133": {
+   "source": "MedPAR (Medicare Part A), FFS",
+   "medpar_ffs": "stated",
+   "ev": ["article.pdf", "Claims for inpatient hospitalizations were obtained from the Medicare Provider and Analysis Review file for Medicare Part A"],
+   "outcomes": [
+    {"name": "first hospitalization with ADRD", "step23": "first hospitalization with ADRD", "codes_status": "explicit_codes", "classification": "CMS Chronic Conditions Data Warehouse (CCW) ADRD algorithm",
+     "icd9": ["331.0", "331.11", "331.19", "331.2", "331.7", "290.0", "290.10", "290.11", "290.12", "290.13", "290.20", "290.21", "290.3", "290.40", "290.41", "290.42", "290.43", "294.0", "294.10", "294.11", "294.20", "294.21", "294.8", "797"],
+     "icd10": ["F01.50", "F01.51", "F02.80", "F02.81", "F03.90", "F03.91", "F04", "F05", "F06.1", "F06.8", "G13.8", "G30.0", "G30.1", "G30.8", "G30.9", "G31.01", "G31.09", "G31.1", "G31.2", "G94", "R41.81", "R54"],
+     "position": "any",
+     "ev": ["Causal_AD_ADRD Supp.pdf", "ICD-9: 331.0, 331.11, 331.19, 331.2, 331.7, 290.0"],
+     "position_ev": ["article.pdf", "a hospitalization that was recorded with an accompanying diagnosis code for ADRD"],
+     "bins": [["N2", "exact"]]}
+   ]
+  },
+  "10_1097_ede_0000000000000556": {
+   "source": "MCAPS billing records, Medicare FFS beneficiaries (county daily counts)",
+   "medpar_ffs": "stated",
+   "ev": ["PMC5130603.1.xml", "We included county-level data for all Medicare beneficiaries (US residents≥65y) enrolled in fee-for-service plan"],
+   "outcomes": [
+    {"name": "emergency cardiovascular admissions", "step23": "cardiovascular", "codes_status": "explicit_codes", "icd9": ["390 to 459"], "position": "principal",
+     "ev": ["NIHMS823701-supplement-Supplemental.docx", "Cardiovascular diseases are coded as the sum of admissions for ICD-9 390 to 459"],
+     "position_ev": ["NIHMS823701-supplement-Supplemental.docx", "are primary discharge causes of hospital admissions"],
+     "bins": [["C0", "exact"]]},
+    {"name": "emergency respiratory admissions", "step23": "respiratory", "codes_status": "explicit_codes", "icd9": ["490–492", "464–466", "480–487"], "position": "principal",
+     "ev": ["NIHMS823701-supplement-Supplemental.docx", "chronic obstructive pulmonary disease (COPD) (ICD-9 490–492) and respiratory tract infections (ICD-9 464–466, 480–487)"],
+     "bins": [["R0", "exact"]]},
+    {"name": "component: heart failure", "step23": null, "role": "component", "codes_status": "explicit_codes", "icd9": ["428"], "position": "principal",
+     "ev": ["NIHMS823701-supplement-Supplemental.docx", "heart failure (ICD-9 428)"], "note": "Listed as part of cardiovascular disease; the paper reports no results for it alone."},
+    {"name": "component: heart rhythm disturbances", "step23": null, "role": "component", "codes_status": "explicit_codes", "icd9": ["426–427"], "position": "principal",
+     "ev": ["NIHMS823701-supplement-Supplemental.docx", "heart rhythm disturbances (ICD-9 426–427)"], "note": "Listed as part of cardiovascular disease; the paper reports no results for it alone."},
+    {"name": "component: cerebrovascular events", "step23": null, "role": "component", "codes_status": "explicit_codes", "icd9": ["430–438"], "position": "principal",
+     "ev": ["NIHMS823701-supplement-Supplemental.docx", "cerebrovascular events (ICD-9 430–438)"], "note": "Listed as part of cardiovascular disease; the paper reports no results for it alone."},
+    {"name": "component: ischemic heart disease", "step23": null, "role": "component", "codes_status": "explicit_codes", "icd9": ["410–414", "429"], "position": "principal",
+     "ev": ["NIHMS823701-supplement-Supplemental.docx", "ischemic heart disease (ICD-9 410–414 and 429)"], "note": "Listed as part of cardiovascular disease; the paper reports no results for it alone."},
+    {"name": "component: peripheral vascular disease", "step23": null, "role": "component", "codes_status": "explicit_codes", "icd9": ["440–449"], "position": "principal",
+     "ev": ["NIHMS823701-supplement-Supplemental.docx", "peripheral vascular disease (ICD-9 440–449)"], "note": "Printed as 440–449; Dominici 2006 and Peng 2008 use 440-448."}
+   ]
+  },
+  "10_1016_j_ypmed_2018_02_001": {
+   "source": "Medicare FFS hospital admissions (Bobb et al. 2014 database)",
+   "medpar_ffs": "stated",
+   "outcome_wide": "50 ICD-9-CM diagnoses within 6 CCS categories, listed in Supplemental Table S1",
+   "ev": ["PMC6040588.1.xml", "We used a linked national database of daily data on hospital admissions and weather for a population of 23.7 million fee-for-service Medicare enrollees"],
+   "outcomes": [
+    {"name": "50 heat-related ICD-9-CM diagnoses in 6 CCS categories", "step23": "50 heat-related diagnoses", "codes_status": "classification_ref", "classification": "AHRQ CCS (6 categories from Bobb et al. 2014)", "group_based": true, "position": "principal",
+     "ev": ["PMC6040588.1.xml", "leaving 50 diagnoses for analysis (Supplemental Table S1)"],
+     "position_ev": ["PMC6040588.1.xml", "counts of the daily number of cause-specific hospital admissions, defined using the principal discharge diagnosis code"],
+     "bins": [["W1", "exact"]],
+     "note": "Supplemental Table S1 lists every ICD-9 code by CCS group. Left for the separate CCS work."},
+    {"name": "heat stroke and sunstroke", "step23": "heat stroke and sunstroke", "codes_status": "explicit_codes", "icd9": ["9920"], "position": "principal",
+     "ev": ["NIHMS944332-supplement.docx", "9920 Heat stroke & sunstroke"], "bins": [["H1", "narrower"]]},
+    {"name": "heat-related illnesses (3 diagnoses)", "step23": "50 heat-related diagnoses", "codes_status": "explicit_codes", "icd9": ["9920", "9923", "9925"], "position": "principal",
+     "ev": ["NIHMS944332-supplement.docx", "9925 Heat exhaustion, unspecified"], "bins": [["H1", "narrower"]],
+     "note": "The 3 heat-related illnesses with higher risk, from the supplement's results table."},
+    {"name": "fluid and electrolyte disorders (4 diagnoses)", "step23": "fluid and electrolyte disorders", "codes_status": "explicit_codes", "icd9": ["2760", "2761", "2765", "27651"], "position": "principal",
+     "ev": ["PMC6040588.1.xml", "including 3 heat-related illnesses, 4 fluid and electrolyte disorders, 2 diagnoses for septicemia, acute kidney failure, and urinary tract infection"], "bins": [["K2", "narrower"]],
+     "note": "The text gives only the count. The 4 codes are those whose confidence interval excludes 1 in the supplement's results table (27650 and 2767 do not)."},
+    {"name": "acute kidney failure", "step23": "acute kidney failure", "codes_status": "explicit_codes", "icd9": ["5849"], "position": "principal",
+     "ev": ["NIHMS944332-supplement.docx", "5849 Acute kidney failure, unspecified"], "bins": [["K1", "narrower"]]},
+    {"name": "septicemia (2 diagnoses)", "step23": "50 heat-related diagnoses", "codes_status": "explicit_codes", "icd9": ["0388", "0389"], "position": "principal",
+     "ev": ["NIHMS944332-supplement.docx", "0389 Unspecified septicemia"], "bins": [["I1", "narrower"]]},
+    {"name": "urinary tract infection", "step23": "50 heat-related diagnoses", "codes_status": "explicit_codes", "icd9": ["5990"], "position": "principal",
+     "ev": ["NIHMS944332-supplement.docx", "5990 Urinary tract infection, site not specified"], "bins": [["I2", "narrower"]]},
+    {"name": "chronic heart failure", "step23": "50 heat-related diagnoses", "codes_status": "explicit_codes", "icd9": ["4280"], "position": "principal",
+     "ev": ["NIHMS944332-supplement.docx", "4280 Chronic heart failure, unspecified"], "bins": [["C3", "narrower"]],
+     "note": "The 1 diagnosis with lower risk during heat waves."}
+   ]
+  },
+  "10_1001_jama_2014_15715": {
+   "reuse": "026_labels.json",
+   "group_based": true,
+   "outcome_wide": "283 CCS disease categories (214 analyzed). The ICD codes behind them are left for the separate CCS work; the supplement's eTable 5 lists the codes of CCS group 55."
+  },
+  "10_1080_01621459_2020_1722134": {
+   "source": "MEDPAR file, FFS beneficiaries, urgent or emergent admissions",
+   "medpar_ffs": "stated",
+   "outcome_wide": "432 ICD-9 codes for circulatory diseases, collapsed by the model into 8 groups (Table 1; full list in Supplement Section I)",
+   "ev": ["article.pdf", "from the Medicare Provider Analysis and Review (MEDPAR) file"],
+   "outcomes": [
+    {"name": "diseases of the circulatory system", "step23": "432 cardiovascular diseases (ICD-9)", "codes_status": "explicit_codes", "icd9": ["390–459"], "position": "principal",
+     "ev": ["article.pdf", "432 ICD9 codes representing diseases of the circulatory system (codes 390–459)"],
+     "position_ev": ["article.pdf", "Cause of hospitalization was defined by the ICD9 code of principle discharge diagnosis"],
+     "bins": [["C0", "exact"]]},
+    {"name": "model group 1: dissection of aorta", "step23": "432 cardiovascular diseases (ICD-9)", "group_based": true, "codes_status": "explicit_codes", "icd9": ["441.00", "441.01", "441.02", "441.03"], "position": "principal",
+     "ev": ["article.pdf", "Dissection of aorta (441.00, 441.01, 441.02, 441.03)"], "bins": [["C13", "narrower"]]},
+    {"name": "model group 2: subarachnoid hemorrhage", "step23": "432 cardiovascular diseases (ICD-9)", "group_based": true, "codes_status": "explicit_codes", "icd9": ["430"], "position": "principal",
+     "ev": ["article.pdf", "Subarachnoid hemorrhage (430)"], "bins": [["C7", "narrower"], ["N4", "narrower"]]},
+    {"name": "model group 3: abdominal aneurysm, ruptured", "step23": "432 cardiovascular diseases (ICD-9)", "group_based": true, "codes_status": "explicit_codes", "icd9": ["441.3"], "position": "principal",
+     "ev": ["article.pdf", "Abdominal aneurysm, ruptured (441.3)"], "bins": [["C13", "narrower"]]},
+    {"name": "model group 4: unspecified intracranial hemorrhage", "step23": "432 cardiovascular diseases (ICD-9)", "group_based": true, "codes_status": "explicit_codes", "icd9": ["432.9"], "position": "principal",
+     "ev": ["article.pdf", "Unspecified intracranial hemorrhage (432.9)"], "bins": [["C7", "narrower"], ["N4", "narrower"]]},
+    {"name": "model group 5: intracerebral hemorrhage", "step23": "432 cardiovascular diseases (ICD-9)", "group_based": true, "codes_status": "explicit_codes", "icd9": ["431"], "position": "principal",
+     "ev": ["article.pdf", "Intracerebral hemorrhage (431)"], "bins": [["C7", "narrower"], ["N4", "narrower"]]},
+    {"name": "model group 6: essential hypertension", "step23": "432 cardiovascular diseases (ICD-9)", "group_based": true, "codes_status": "explicit_codes", "icd9": ["401.0", "401.1", "401.9"], "position": "principal",
+     "ev": ["article.pdf", "Essential hypertension (401.0, 401.1, 401.9)"], "bins": [["C0", "narrower"]]},
+    {"name": "model group 7: all 420 remaining codes", "step23": "432 cardiovascular diseases (ICD-9)", "group_based": true, "codes_status": "not_listed", "position": "principal",
+     "ev": ["article.pdf", "All 420 remaining codes"], "note": "The list is in Supplement Section I; not transcribed."},
+    {"name": "model group 8: congestive heart failure, unspecified", "step23": "432 cardiovascular diseases (ICD-9)", "group_based": true, "codes_status": "explicit_codes", "icd9": ["428.0"], "position": "principal",
+     "ev": ["article.pdf", "Congestive heart failure, unspecified (428.0)"], "bins": [["C3", "narrower"]]}
+   ]
+  },
+  "10_1097_ede_0000000000001456": {
+   "reuse": "026_labels.json",
+   "group_based": true,
+   "outcome_wide": "57 cardiovascular and 32 respiratory multi-level CCS outcomes. eAppendix 1 shows the CCS trees (eFigures 1-2) and gives no ICD codes; they are left for the separate CCS work."
+  },
+  "10_1097_ede_0000000000001265": {
+   "reuse": "026_labels.json",
+   "note": "The supplement has sensitivity analyses and a figure, no further codes."
+  },
+  "10_1016_j_envint_2023_107844": {
+   "source": "MedPAR, Medicare Part A FFS (Massachusetts)",
+   "medpar_ffs": "stated",
+   "ev": ["article.pdf", "Medicare inpatient hospital claims were obtained from the Medicare Provider and Analysis Review (MedPAR) files"],
+   "outcomes": [
+    {"name": "total kidney disease", "step23": "total kidney disease", "codes_status": "explicit_codes", "icd9": ["580–599"], "icd10": ["N00-N39"], "position": "principal_or_secondary",
+     "ev": ["article.pdf", "total kidney disease (ICD-9: 580–599; ICD-10: N00-N39)"],
+     "position_ev": ["article.pdf", "admissions as the primary or secondary diagnoses during the study period"],
+     "bins": [["K0", "exact"]]},
+    {"name": "chronic kidney disease", "step23": "chronic kidney disease", "codes_status": "explicit_codes", "icd9": ["585"], "icd10": ["N18"], "position": "principal_or_secondary",
+     "ev": ["article.pdf", "CKD (ICD-9: 585; ICD-10: N18)"], "bins": [["K4", "exact"]]},
+    {"name": "acute kidney injury", "step23": "acute kidney injury", "codes_status": "explicit_codes", "icd9": ["584"], "icd10": ["N17"], "position": "principal_or_secondary",
+     "ev": ["article.pdf", "AKI (ICD-9: 584; ICD-10: N17)"], "bins": [["K1", "exact"]]}
+   ]
+  },
+  "10_1001_jamainternmed_2024_7719": {
+   "source": "Medicare FFS (Part A) claims",
+   "medpar_ffs": "stated",
+   "ev": ["article.pdf", "Medicare fee-for-service (Part A) claims from 2000 to 2018"],
+   "outcomes": [
+    {"name": "first hospitalization with ADRD", "step23": "first hospitalization with ADRD", "codes_status": "classification_ref", "classification": "CMS Chronic Conditions Data Warehouse (CCW) ADRD algorithm", "position": "any",
+     "ev": ["article.pdf", "first known hospitalization that includes any diagnosis code listed in the Chronic Conditions Data Warehouse (1999-2021) algorithm"],
+     "position_ev": ["article.pdf", "we considered only the first 10 diagnosis codes for each hospitalization claim"],
+     "bins": [["N2", "exact"]], "note": "Names the CCW algorithm; neither the article nor Supplement 1 prints the codes."}
+   ]
+  },
+  "10_1093_aje_kwag087": {
+   "source": "Medicare FFS inpatient hospitalizations",
+   "medpar_ffs": "stated",
+   "ev": ["article.pdf", "Medicare Fee-for-Service beneficiaries aged 65 years or older enrolled in Medicare between 2000 and 2018"],
+   "outcomes": [
+    {"name": "hospitalization with ADRD", "step23": "hospitalization with ADRD", "codes_status": "classification_ref", "classification": "CMS Chronic Conditions Data Warehouse (CCW) ADRD algorithm", "position": "any",
+     "ev": ["article.pdf", "hospitalizations that included any International Classification of Disease (ICD-9 or ICD-10) diagnosis code listed in the Chronic Conditions Data Warehouse"],
+     "bins": [["N2", "exact"]], "note": "Names the CCW algorithm; neither the article nor the supplement prints the codes. The publisher's supplement PDF is truncated (see 042_icd_codes.md)."},
+    {"name": "hospitalization without ADRD", "step23": "hospitalization without ADRD", "codes_status": "classification_ref", "classification": "All hospitalizations without a CCW ADRD code", "position": "any",
+     "ev": ["article.pdf", "all other hospitalizations that did not include any ADRD-related diagnosis codes"]}
+   ]
+  }
+ }
+}

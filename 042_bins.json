@@ -1,0 +1,734 @@
+{
+ "description": "Step 4.2 bins: the Step 2.8 bins with sources from the 15 shortlisted papers only. Built by 042_build_bins.py.",
+ "labels": {
+  "10_1001_jama_295_10_1127": "Dominici 2006 JAMA",
+  "10_1001_jama_299_18_2172": "Peng 2008 JAMA",
+  "10_1093_aje_kws267": "Barr 2012 AJE",
+  "10_1016_j_chest_2019_03_017": "Rhee 2019 Chest",
+  "10_1016_s2542_5196_21_00168_6": "Chen 2021 Lancet Planet Health",
+  "10_1093_aje_kwae133": "Qin 2025 AJE",
+  "10_1097_ede_0000000000000556": "Liu 2017 Epidemiology",
+  "10_1016_j_ypmed_2018_02_001": "Hopp 2018 Prev Med",
+  "10_1001_jama_2014_15715": "Bobb 2014 JAMA",
+  "10_1080_01621459_2020_1722134": "Thomas 2020 JASA",
+  "10_1097_ede_0000000000001456": "Thomas 2022 Epidemiology",
+  "10_1097_ede_0000000000001265": "deSouza 2021 Epidemiology",
+  "10_1016_j_envint_2023_107844": "Lee 2023 Environ Int",
+  "10_1001_jamainternmed_2024_7719": "Delaney 2025 JAMA Intern Med",
+  "10_1093_aje_kwag087": "2026 AJE dementia by region and race"
+ },
+ "bins": [
+  {
+   "id": "R0",
+   "group": "Respiratory",
+   "name": "All respiratory disease (composite)",
+   "origin": "added",
+   "sources": [
+    [
+     "10_1001_jama_299_18_2172",
+     "respiratory admissions",
+     "exact"
+    ],
+    [
+     "10_1016_s2542_5196_21_00168_6",
+     "respiratory hospitalisations",
+     "exact"
+    ],
+    [
+     "10_1097_ede_0000000000000556",
+     "emergency respiratory admissions",
+     "exact"
+    ],
+    [
+     "10_1097_ede_0000000000001456",
+     "32 respiratory discharge diagnoses (multi-level CCS codes starting with 8)",
+     "exact"
+    ]
+   ]
+  },
+  {
+   "id": "R1",
+   "group": "Respiratory",
+   "name": "Asthma exacerbations",
+   "origin": "reference",
+   "sources": []
+  },
+  {
+   "id": "R2",
+   "group": "Respiratory",
+   "name": "COPD exacerbations",
+   "origin": "reference",
+   "sources": [
+    [
+     "10_1001_jama_295_10_1127",
+     "chronic obstructive pulmonary disease",
+     "exact"
+    ],
+    [
+     "10_1001_jama_299_18_2172",
+     "chronic obstructive pulmonary disease",
+     "exact"
+    ]
+   ]
+  },
+  {
+   "id": "R3",
+   "group": "Respiratory",
+   "name": "Bronchiectasis",
+   "origin": "reference",
+   "sources": []
+  },
+  {
+   "id": "R4",
+   "group": "Respiratory",
+   "name": "Pneumonia and other respiratory infections (incl. influenza)",
+   "origin": "reference",
+   "sources": [
+    [
+     "10_1001_jama_295_10_1127",
+     "respiratory tract infections",
+     "exact"
+    ],
+    [
+     "10_1001_jama_299_18_2172",
+     "respiratory tract infections",
+     "exact"
+    ],
+    [
+     "10_1097_ede_0000000000001456",
+     "influenza (CCS 8.1.2)",
+     "narrower"
+    ]
+   ]
+  },
+  {
+   "id": "R5",
+   "group": "Respiratory",
+   "name": "Respiratory failure, insufficiency, or arrest (incl. ARDS)",
+   "origin": "reference",
+   "sources": [
+    [
+     "10_1016_j_chest_2019_03_017",
+     "acute respiratory distress syndrome",
+     "narrower"
+    ]
+   ]
+  },
+  {
+   "id": "R6",
+   "group": "Respiratory",
+   "name": "Upper respiratory infections (and acute bronchitis)",
+   "origin": "reference",
+   "sources": []
+  },
+  {
+   "id": "C0",
+   "group": "Cardiovascular and blood-vessel conditions",
+   "name": "All cardiovascular disease (composite)",
+   "origin": "added",
+   "sources": [
+    [
+     "10_1001_jama_299_18_2172",
+     "cardiovascular admissions",
+     "exact"
+    ],
+    [
+     "10_1016_s2542_5196_21_00168_6",
+     "circulatory hospitalisations",
+     "exact"
+    ],
+    [
+     "10_1097_ede_0000000000000556",
+     "emergency cardiovascular admissions",
+     "exact"
+    ],
+    [
+     "10_1080_01621459_2020_1722134",
+     "diseases of the circulatory system",
+     "exact"
+    ],
+    [
+     "10_1080_01621459_2020_1722134",
+     "model group 6: essential hypertension",
+     "narrower"
+    ],
+    [
+     "10_1097_ede_0000000000001265",
+     "CVD-related hospitalizations (first)",
+     "exact"
+    ],
+    [
+     "10_1097_ede_0000000000001456",
+     "57 cardiovascular discharge diagnoses (multi-level CCS codes starting with 7)",
+     "exact"
+    ]
+   ]
+  },
+  {
+   "id": "C1",
+   "group": "Cardiovascular and blood-vessel conditions",
+   "name": "Heart attack (acute myocardial infarction)",
+   "origin": "reference",
+   "sources": [
+    [
+     "10_1093_aje_kws267",
+     "acute myocardial infarction",
+     "exact"
+    ],
+    [
+     "10_1097_ede_0000000000001265",
+     "acute myocardial infarction",
+     "exact"
+    ]
+   ]
+  },
+  {
+   "id": "C2",
+   "group": "Cardiovascular and blood-vessel conditions",
+   "name": "Ischemic heart disease and coronary atherosclerosis",
+   "origin": "reference",
+   "sources": [
+    [
+     "10_1001_jama_295_10_1127",
+     "ischemic heart disease",
+     "exact"
+    ],
+    [
+     "10_1001_jama_299_18_2172",
+     "ischemic heart disease",
+     "exact"
+    ],
+    [
+     "10_1097_ede_0000000000001265",
+     "ischemic heart disease",
+     "exact"
+    ]
+   ]
+  },
+  {
+   "id": "C3",
+   "group": "Cardiovascular and blood-vessel conditions",
+   "name": "Heart failure",
+   "origin": "reference",
+   "sources": [
+    [
+     "10_1001_jama_295_10_1127",
+     "heart failure",
+     "exact"
+    ],
+    [
+     "10_1001_jama_299_18_2172",
+     "heart failure",
+     "exact"
+    ],
+    [
+     "10_1016_j_ypmed_2018_02_001",
+     "chronic heart failure",
+     "narrower"
+    ],
+    [
+     "10_1080_01621459_2020_1722134",
+     "model group 8: congestive heart failure, unspecified",
+     "narrower"
+    ],
+    [
+     "10_1097_ede_0000000000001265",
+     "congestive heart failure",
+     "exact"
+    ],
+    [
+     "10_1001_jama_2014_15715",
+     "congestive heart failure",
+     "exact"
+    ],
+    [
+     "10_1097_ede_0000000000001456",
+     "heart failure and congestive heart failure (CCS 7.2.11; 3 outcomes)",
+     "exact"
+    ]
+   ]
+  },
+  {
+   "id": "C4",
+   "group": "Cardiovascular and blood-vessel conditions",
+   "name": "Abnormal heart rhythms (arrhythmias/dysrhythmias)",
+   "origin": "reference",
+   "sources": [
+    [
+     "10_1001_jama_295_10_1127",
+     "heart rhythm disturbances",
+     "exact"
+    ],
+    [
+     "10_1001_jama_299_18_2172",
+     "heart rhythm disturbances",
+     "exact"
+    ]
+   ]
+  },
+  {
+   "id": "C5",
+   "group": "Cardiovascular and blood-vessel conditions",
+   "name": "Cardiac arrest",
+   "origin": "reference",
+   "sources": []
+  },
+  {
+   "id": "C6",
+   "group": "Cardiovascular and blood-vessel conditions",
+   "name": "Hypertensive heart disease",
+   "origin": "reference",
+   "sources": []
+  },
+  {
+   "id": "C7",
+   "group": "Cardiovascular and blood-vessel conditions",
+   "name": "Stroke, including ischemic and hemorrhagic stroke",
+   "origin": "reference",
+   "sources": [
+    [
+     "10_1001_jama_295_10_1127",
+     "cerebrovascular events",
+     "exact"
+    ],
+    [
+     "10_1001_jama_299_18_2172",
+     "cerebrovascular events",
+     "exact"
+    ],
+    [
+     "10_1080_01621459_2020_1722134",
+     "model group 2: subarachnoid hemorrhage",
+     "narrower"
+    ],
+    [
+     "10_1080_01621459_2020_1722134",
+     "model group 4: unspecified intracranial hemorrhage",
+     "narrower"
+    ],
+    [
+     "10_1080_01621459_2020_1722134",
+     "model group 5: intracerebral hemorrhage",
+     "narrower"
+    ],
+    [
+     "10_1097_ede_0000000000001265",
+     "ischemic stroke",
+     "narrower"
+    ],
+    [
+     "10_1097_ede_0000000000001456",
+     "intracranial hemorrhage (CCS 7.3.1.1)",
+     "narrower"
+    ]
+   ]
+  },
+  {
+   "id": "C8",
+   "group": "Cardiovascular and blood-vessel conditions",
+   "name": "Blood clots: phlebitis, thrombophlebitis, and thromboembolism",
+   "origin": "reference",
+   "sources": []
+  },
+  {
+   "id": "C9",
+   "group": "Cardiovascular and blood-vessel conditions",
+   "name": "Retinal artery occlusion",
+   "origin": "reference",
+   "sources": []
+  },
+  {
+   "id": "C10",
+   "group": "Cardiovascular and blood-vessel conditions",
+   "name": "Peripheral vascular disease and atherosclerosis",
+   "origin": "added",
+   "sources": [
+    [
+     "10_1001_jama_295_10_1127",
+     "peripheral vascular disease",
+     "exact"
+    ],
+    [
+     "10_1001_jama_299_18_2172",
+     "peripheral vascular disease",
+     "exact"
+    ]
+   ]
+  },
+  {
+   "id": "C11",
+   "group": "Cardiovascular and blood-vessel conditions",
+   "name": "Cardiomyopathy",
+   "origin": "added",
+   "sources": []
+  },
+  {
+   "id": "C12",
+   "group": "Cardiovascular and blood-vessel conditions",
+   "name": "Valvular heart disease",
+   "origin": "added",
+   "sources": []
+  },
+  {
+   "id": "C13",
+   "group": "Cardiovascular and blood-vessel conditions",
+   "name": "Aortic and other arterial aneurysms",
+   "origin": "added",
+   "sources": [
+    [
+     "10_1080_01621459_2020_1722134",
+     "model group 1: dissection of aorta",
+     "narrower"
+    ],
+    [
+     "10_1080_01621459_2020_1722134",
+     "model group 3: abdominal aneurysm, ruptured",
+     "narrower"
+    ],
+    [
+     "10_1097_ede_0000000000001456",
+     "other aneurysm (CCS 7.4.2.2)",
+     "narrower"
+    ]
+   ]
+  },
+  {
+   "id": "C14",
+   "group": "Cardiovascular and blood-vessel conditions",
+   "name": "Cardiac amyloidosis",
+   "origin": "added",
+   "sources": []
+  },
+  {
+   "id": "N1",
+   "group": "Neurological and mental health",
+   "name": "Parkinson's disease",
+   "origin": "reference",
+   "sources": []
+  },
+  {
+   "id": "N2",
+   "group": "Neurological and mental health",
+   "name": "Dementia, including Alzheimer's disease",
+   "origin": "reference",
+   "sources": [
+    [
+     "10_1093_aje_kwae133",
+     "first hospitalization with ADRD",
+     "exact"
+    ],
+    [
+     "10_1001_jamainternmed_2024_7719",
+     "first hospitalization with ADRD",
+     "exact"
+    ],
+    [
+     "10_1093_aje_kwag087",
+     "hospitalization with ADRD",
+     "exact"
+    ]
+   ]
+  },
+  {
+   "id": "N3",
+   "group": "Neurological and mental health",
+   "name": "Depression and mood disorders",
+   "origin": "reference",
+   "sources": []
+  },
+  {
+   "id": "N4",
+   "group": "Neurological and mental health",
+   "name": "Stroke and other cerebrovascular conditions",
+   "origin": "reference",
+   "sources": [
+    [
+     "10_1001_jama_295_10_1127",
+     "cerebrovascular events",
+     "exact"
+    ],
+    [
+     "10_1001_jama_299_18_2172",
+     "cerebrovascular events",
+     "exact"
+    ],
+    [
+     "10_1080_01621459_2020_1722134",
+     "model group 2: subarachnoid hemorrhage",
+     "narrower"
+    ],
+    [
+     "10_1080_01621459_2020_1722134",
+     "model group 4: unspecified intracranial hemorrhage",
+     "narrower"
+    ],
+    [
+     "10_1080_01621459_2020_1722134",
+     "model group 5: intracerebral hemorrhage",
+     "narrower"
+    ],
+    [
+     "10_1097_ede_0000000000001456",
+     "transient cerebral ischemia (CCS 7.3.4)",
+     "narrower"
+    ]
+   ]
+  },
+  {
+   "id": "N5",
+   "group": "Neurological and mental health",
+   "name": "Multiple sclerosis",
+   "origin": "added",
+   "sources": []
+  },
+  {
+   "id": "N6",
+   "group": "Neurological and mental health",
+   "name": "Schizophrenia and other psychotic disorders",
+   "origin": "added",
+   "sources": []
+  },
+  {
+   "id": "N7",
+   "group": "Neurological and mental health",
+   "name": "Bipolar disorder",
+   "origin": "added",
+   "sources": []
+  },
+  {
+   "id": "K0",
+   "group": "Kidney, metabolic, and fluid-balance conditions",
+   "name": "Kidney and urinary system diseases (composite)",
+   "origin": "added",
+   "sources": [
+    [
+     "10_1016_j_envint_2023_107844",
+     "total kidney disease",
+     "exact"
+    ]
+   ]
+  },
+  {
+   "id": "K1",
+   "group": "Kidney, metabolic, and fluid-balance conditions",
+   "name": "Acute or unspecified kidney failure",
+   "origin": "reference",
+   "sources": [
+    [
+     "10_1016_j_ypmed_2018_02_001",
+     "acute kidney failure",
+     "narrower"
+    ],
+    [
+     "10_1016_j_envint_2023_107844",
+     "acute kidney injury",
+     "exact"
+    ],
+    [
+     "10_1001_jama_2014_15715",
+     "renal failure",
+     "exact"
+    ]
+   ]
+  },
+  {
+   "id": "K2",
+   "group": "Kidney, metabolic, and fluid-balance conditions",
+   "name": "Fluid and electrolyte disorders (incl. dehydration)",
+   "origin": "reference",
+   "sources": [
+    [
+     "10_1016_j_ypmed_2018_02_001",
+     "fluid and electrolyte disorders (4 diagnoses)",
+     "narrower"
+    ],
+    [
+     "10_1001_jama_2014_15715",
+     "fluid and electrolyte disorders",
+     "exact"
+    ]
+   ]
+  },
+  {
+   "id": "K3",
+   "group": "Kidney, metabolic, and fluid-balance conditions",
+   "name": "Diabetes with complications",
+   "origin": "reference",
+   "sources": []
+  },
+  {
+   "id": "K4",
+   "group": "Kidney, metabolic, and fluid-balance conditions",
+   "name": "Chronic kidney disease",
+   "origin": "added",
+   "sources": [
+    [
+     "10_1016_j_envint_2023_107844",
+     "chronic kidney disease",
+     "exact"
+    ]
+   ]
+  },
+  {
+   "id": "K5",
+   "group": "Kidney, metabolic, and fluid-balance conditions",
+   "name": "Diabetes mellitus (all)",
+   "origin": "added",
+   "sources": []
+  },
+  {
+   "id": "K6",
+   "group": "Kidney, metabolic, and fluid-balance conditions",
+   "name": "Dehydration and volume depletion",
+   "origin": "added",
+   "sources": []
+  },
+  {
+   "id": "H1",
+   "group": "Heat-related conditions",
+   "name": "Heat-related illness (heat stroke, heat exhaustion, effects of heat)",
+   "origin": "added",
+   "sources": [
+    [
+     "10_1016_j_ypmed_2018_02_001",
+     "heat stroke and sunstroke",
+     "narrower"
+    ],
+    [
+     "10_1016_j_ypmed_2018_02_001",
+     "heat-related illnesses (3 diagnoses)",
+     "narrower"
+    ],
+    [
+     "10_1001_jama_2014_15715",
+     "heat stroke (CCS group 244)",
+     "broader"
+    ]
+   ]
+  },
+  {
+   "id": "H2",
+   "group": "Heat-related conditions",
+   "name": "Heat-sensitive admissions composite (CCS 2, 50, 55, 114, 157, 159, 244)",
+   "origin": "added",
+   "sources": []
+  },
+  {
+   "id": "I0",
+   "group": "Infections and other reported admission categories",
+   "name": "Non-respiratory infections (composite)",
+   "origin": "added",
+   "sources": []
+  },
+  {
+   "id": "I1",
+   "group": "Infections and other reported admission categories",
+   "name": "Sepsis/septicemia",
+   "origin": "reference",
+   "sources": [
+    [
+     "10_1016_j_ypmed_2018_02_001",
+     "septicemia (2 diagnoses)",
+     "narrower"
+    ],
+    [
+     "10_1001_jama_2014_15715",
+     "septicemia",
+     "exact"
+    ]
+   ]
+  },
+  {
+   "id": "I2",
+   "group": "Infections and other reported admission categories",
+   "name": "Urinary tract infections",
+   "origin": "reference",
+   "sources": [
+    [
+     "10_1016_j_ypmed_2018_02_001",
+     "urinary tract infection",
+     "narrower"
+    ],
+    [
+     "10_1001_jama_2014_15715",
+     "urinary tract infection",
+     "exact"
+    ]
+   ]
+  },
+  {
+   "id": "I3",
+   "group": "Infections and other reported admission categories",
+   "name": "Skin and soft-tissue infections",
+   "origin": "reference",
+   "sources": []
+  },
+  {
+   "id": "I4",
+   "group": "Infections and other reported admission categories",
+   "name": "Pneumocystis pneumonia",
+   "origin": "reference",
+   "sources": []
+  },
+  {
+   "id": "I5",
+   "group": "Infections and other reported admission categories",
+   "name": "Intestinal obstruction",
+   "origin": "reference",
+   "sources": []
+  },
+  {
+   "id": "I6",
+   "group": "Infections and other reported admission categories",
+   "name": "Central nervous system infections",
+   "origin": "added",
+   "sources": []
+  },
+  {
+   "id": "I7",
+   "group": "Infections and other reported admission categories",
+   "name": "Intestinal infections",
+   "origin": "added",
+   "sources": []
+  },
+  {
+   "id": "X1",
+   "group": "Injuries",
+   "name": "Injuries",
+   "origin": "added",
+   "sources": []
+  },
+  {
+   "id": "X2",
+   "group": "Injuries",
+   "name": "Fractures (incl. hip and osteoporosis-related)",
+   "origin": "added",
+   "sources": []
+  },
+  {
+   "id": "O1",
+   "group": "Other",
+   "name": "Pancreatic cancer",
+   "origin": "added",
+   "sources": []
+  },
+  {
+   "id": "W1",
+   "group": "Outcome-wide scans",
+   "name": "Outcome-wide scans of all disease groups",
+   "origin": "added",
+   "sources": [
+    [
+     "10_1016_j_ypmed_2018_02_001",
+     "50 heat-related ICD-9-CM diagnoses in 6 CCS categories",
+     "exact"
+    ],
+    [
+     "10_1001_jama_2014_15715",
+     "283 disease categories (CCS), 214 analyzed",
+     "exact"
+    ]
+   ]
+  }
+ ]
+}
