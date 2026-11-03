@@ -1,0 +1,251 @@
+{
+  "source": "040_shortlist.json",
+  "n_shortlisted": 15,
+  "counts": {
+    "downloaded": 15,
+    "pending": 0
+  },
+  "items": [
+    {
+      "unified_rank": 1,
+      "title": "Fine particulate air pollution and hospital admission for cardiovascular and respiratory diseases",
+      "year": 2006,
+      "doi": "10.1001/jama.295.10.1127",
+      "folder": "papers/10_1001_jama_295_10_1127/",
+      "gap": "no_fulltext",
+      "status": "downloaded",
+      "source": "JAMA",
+      "access": "harvard_signin",
+      "article": "article.pdf",
+      "supplements": [],
+      "note": "No supplement link found on the page."
+    },
+    {
+      "unified_rank": 2,
+      "title": "Coarse particulate matter air pollution and hospital admissions for cardiovascular and respiratory diseases among Medicare patients",
+      "year": 2008,
+      "doi": "10.1001/jama.299.18.2172",
+      "folder": "papers/10_1001_jama_299_18_2172/",
+      "gap": "no_fulltext",
+      "status": "downloaded",
+      "source": "JAMA",
+      "access": "harvard_signin",
+      "article": "article.pdf",
+      "supplements": [],
+      "note": "No supplement link found on the page."
+    },
+    {
+      "unified_rank": 3,
+      "title": "Comprehensive smoking bans and acute myocardial infarction among Medicare enrollees in 387 US counties: 1999–2008",
+      "year": 2012,
+      "doi": "10.1093/aje/kws267",
+      "folder": "papers/10_1093_aje_kws267/",
+      "gap": "no_fulltext",
+      "status": "downloaded",
+      "source": "Oxford Academic",
+      "access": "user_download",
+      "article": "article.pdf",
+      "supplements": [
+        "kws267-kws267_web_material.pdf"
+      ],
+      "note": null
+    },
+    {
+      "unified_rank": 4,
+      "title": "Impact of long-term exposures to ambient PM2. 5 and ozone on ARDS risk for older adults in the United States",
+      "year": 2019,
+      "doi": "10.1016/j.chest.2019.03.017",
+      "folder": "papers/10_1016_j_chest_2019_03_017/",
+      "gap": "no_fulltext",
+      "status": "downloaded",
+      "source": "Chest journal site",
+      "access": "user_download",
+      "article": "article.pdf",
+      "supplements": [
+        "mmc1.pdf"
+      ],
+      "note": null
+    },
+    {
+      "unified_rank": 5,
+      "title": "Temporal variation in association between short-term exposure to fine particulate matter and hospitalisations in older adults in the USA: a long-term time-series analysis of …",
+      "year": 2021,
+      "doi": "10.1016/s2542-5196(21)00168-6",
+      "folder": "papers/10_1016_s2542_5196_21_00168_6/",
+      "gap": "no_fulltext",
+      "status": "downloaded",
+      "source": "The Lancet Planetary Health",
+      "access": "open_access",
+      "article": "article.pdf",
+      "supplements": [
+        "supplement_mmc1.pdf"
+      ],
+      "note": null
+    },
+    {
+      "unified_rank": 6,
+      "title": "Comparing traditional and causal inference methodologies for evaluating impacts of long-term air pollution exposure on hospitalization with Alzheimer disease and related dementias",
+      "year": 2025,
+      "doi": "10.1093/aje/kwae133",
+      "folder": "papers/10_1093_aje_kwae133/",
+      "gap": "no_fulltext",
+      "status": "downloaded",
+      "source": "Oxford Academic",
+      "access": "user_download",
+      "article": "article.pdf",
+      "supplements": [
+        "web_material_kwae133.zip",
+        "Causal_AD_ADRD Supp.pdf"
+      ],
+      "note": "The zip also holds latex.zip, left unextracted."
+    },
+    {
+      "unified_rank": 7,
+      "title": "Wildfire-specific fine particulate matter and risk of hospital admissions in urban and rural counties",
+      "year": 2017,
+      "doi": "10.1097/ede.0000000000000556",
+      "folder": "papers/10_1097_ede_0000000000000556/",
+      "gap": "supplements_missing",
+      "status": "downloaded",
+      "source": "PMC",
+      "access": "user_download",
+      "article": "article.pdf",
+      "supplements": [
+        "NIHMS823701-supplement-Supplemental.docx"
+      ],
+      "note": null
+    },
+    {
+      "unified_rank": 8,
+      "title": "Medical diagnoses of heat wave-related hospital admissions in older adults",
+      "year": 2018,
+      "doi": "10.1016/j.ypmed.2018.02.001",
+      "folder": "papers/10_1016_j_ypmed_2018_02_001/",
+      "gap": "supplements_missing",
+      "status": "downloaded",
+      "source": "PMC",
+      "access": "user_download",
+      "article": "article.pdf",
+      "supplements": [
+        "NIHMS944332-supplement.docx"
+      ],
+      "note": null
+    },
+    {
+      "unified_rank": 9,
+      "title": "Cause-specific risk of hospital admission related to extreme heat in older adults",
+      "year": 2014,
+      "doi": "10.1001/jama.2014.15715",
+      "folder": "papers/10_1001_jama_2014_15715/",
+      "gap": "supplements_missing",
+      "status": "downloaded",
+      "source": "PMC",
+      "access": "user_download",
+      "article": "article.pdf",
+      "supplements": [
+        "NIHMS657527-supplement-Hospitalizations_and_heat_waves_-_Supplemental_Material.pdf"
+      ],
+      "note": null
+    },
+    {
+      "unified_rank": 10,
+      "title": "Estimating the effects of fine particulate matter on 432 cardiovascular diseases using multi-outcome regression with tree-structured shrinkage",
+      "year": 2020,
+      "doi": "10.1080/01621459.2020.1722134",
+      "folder": "papers/10_1080_01621459_2020_1722134/",
+      "gap": "no_fulltext",
+      "status": "downloaded",
+      "source": "Taylor & Francis",
+      "access": "harvard_signin",
+      "article": "article.pdf",
+      "supplements": [
+        "uasa_a_1722134_sm0458.pdf",
+        "uasa_a_1722134_sm0459.pdf"
+      ],
+      "note": "The supplements are free."
+    },
+    {
+      "unified_rank": 11,
+      "title": "A Bayesian multi-outcome analysis of fine particulate matter and cardiorespiratory hospitalizations",
+      "year": 2022,
+      "doi": "10.1097/ede.0000000000001456",
+      "folder": "papers/10_1097_ede_0000000000001456/",
+      "gap": "supplements_missing",
+      "status": "downloaded",
+      "source": "PMC",
+      "access": "user_download",
+      "article": "PMC8852365.1.xml",
+      "supplements": [
+        "NIHMS1763059-supplement-eAppendix_1.pdf",
+        "NIHMS1763059-supplement-eAppendix_2.pdf",
+        "NIHMS1763059-supplement-eAppendix_3.pdf"
+      ],
+      "note": "Supplements only; the full text is from Step 2.4."
+    },
+    {
+      "unified_rank": 12,
+      "title": "Nationwide study of short-term exposure to fine particulate matter and cardiovascular hospitalizations among Medicaid enrollees",
+      "year": 2021,
+      "doi": "10.1097/ede.0000000000001265",
+      "folder": "papers/10_1097_ede_0000000000001265/",
+      "gap": "supplements_missing",
+      "status": "downloaded",
+      "source": "PMC",
+      "access": "user_download",
+      "article": "article.pdf",
+      "supplements": [
+        "NIHMS1662172-supplement-Supplemental_Digital_Content.pdf"
+      ],
+      "note": null
+    },
+    {
+      "unified_rank": 13,
+      "title": "Associations between greenness and kidney disease in Massachusetts: The US Medicare longitudinal cohort study",
+      "year": 2023,
+      "doi": "10.1016/j.envint.2023.107844",
+      "folder": "papers/10_1016_j_envint_2023_107844/",
+      "gap": "no_fulltext",
+      "status": "downloaded",
+      "source": "ScienceDirect",
+      "access": "user_download",
+      "article": "article.pdf",
+      "supplements": [
+        "1-s2.0-S0160412023001174-mmc1.docx"
+      ],
+      "note": null
+    },
+    {
+      "unified_rank": 14,
+      "title": "Extreme heat and hospitalization among older persons with Alzheimer disease and related dementias",
+      "year": 2025,
+      "doi": "10.1001/jamainternmed.2024.7719",
+      "folder": "papers/10_1001_jamainternmed_2024_7719/",
+      "gap": "no_fulltext",
+      "status": "downloaded",
+      "source": "JAMA Network",
+      "access": "harvard_signin",
+      "article": "article.pdf",
+      "supplements": [
+        "ioi240093supp1_prod_1743791974.59513.pdf"
+      ],
+      "note": "Supplement 2 (data sharing statement) skipped."
+    },
+    {
+      "unified_rank": 15,
+      "title": "Hospitalization risk with and without dementia by region and race in the United States",
+      "year": 2026,
+      "doi": "10.1093/aje/kwag087",
+      "folder": "papers/10_1093_aje_kwag087/",
+      "gap": "no_fulltext",
+      "status": "downloaded",
+      "source": "Oxford Academic",
+      "access": "harvard_signin",
+      "article": "article.pdf",
+      "supplements": [
+        "web_material_kwag087.zip",
+        "Supplementary_materials_kwag087.pdf"
+      ],
+      "note": "The PDF is the only file in the zip."
+    }
+  ]
+}
