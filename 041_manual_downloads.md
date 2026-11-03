@@ -31,6 +31,4 @@ Run: `.venv/bin/python 041_build_status.py` → `041_status.json`, the status of
 
 All 15 shortlisted papers are downloaded.
 
-**Note on #6.** `034_fulltext_manifest.json` records `papers/10_1093_aje_kwae133/fulltext.pdf`, and `035_shortlist.md` says no download is needed, but that file is not on disk, so the paper was downloaded here as `article.pdf`.
-
 **Not done in this step:** the files have not been opened, checked against their papers, or used for code extraction.
