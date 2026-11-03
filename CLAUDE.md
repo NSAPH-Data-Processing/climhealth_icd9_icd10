@@ -166,5 +166,21 @@ Reference list:
 ### Step 3
 Repeat all the steps in 2 but for Danielle Braun's Google scholar. Try to produce the same files that are gerenerated in step 2, except the name of output files should be numbered like 03x_xxxx.xx.
 
-### Step 4: Condense 2 and 3
-We should have a unified list of code sets from step 2 and 3 that incorporates information from each paper only once, avoiding to add papers twice if they are both in Francesca and Danielle Google Scholars. Bins are just a reference that helps classify the code sets. Modify the bins definition to include as many relevant outcomes as possible. We are interested in air pollution and extreme weather related outcomes overall. The bins should distinguish between "long-term effect" and "short-term effect" related outcomes. Incorporate a 
+### Step 4: Condense 025 and 035 
+Build a unified shortlist from 025_shortlist.json and 035_shortlist.json, as the first step of
+condensing Steps 2 and 3.
+- One row per paper, matched by DOI, so papers on both lists appear once. Do not modify the
+  Step 2.4, 2.5, 3.4 or 3.5 files.
+- Keep the Step 2.5 and Step 3.5 ranks, and record which list(s) each paper came from.
+- Add a unified rank: papers shortlisted in either step first, in Step 2.5 order, then the
+  Step 3.5 papers.
+
+### Step 4.1: Download shortlisted papers
+For this step, we will override the python preference, and will allow other software usage. We will also allow you to manipulate other folder directories (for example, the Downloads folder).
+
+You will guide me step by step so we work together in chrome. I can sign in to my institutional account, when the website allows, you can then perform downloads. I will assist when necessary.
+
+Record the final status of each of the manually downloaded papers.
+
+### Step 5
+We should have a unified list of code sets from step 2 and 3 that incorporates information from each paper only once, avoiding to add papers twice if they are both in Francesca and Danielle Google Scholars. Bins are just a reference that helps classify the code sets. Modify the bins definition to include as many relevant outcomes as possible. We are interested in air pollution and extreme weather related outcomes overall. The bins should distinguish between "long-term effect" and "short-term effect" related outcomes. 
