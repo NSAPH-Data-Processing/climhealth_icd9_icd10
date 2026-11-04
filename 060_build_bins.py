@@ -7,6 +7,7 @@ Output: 060_bins.yaml
 Run: .venv/bin/python 060_build_bins.py
 """
 import json
+import re
 
 import yaml
 
@@ -20,6 +21,11 @@ def main():
     spec = json.load(open(MAP, encoding="utf-8"))["bins"]
     origin = json.load(open(OUTCOMES, encoding="utf-8"))
     final = yaml.safe_load(open(FINAL, encoding="utf-8"))
+    for m in origin.values():  # the two parts of a set split in Step 5.3 belong to the bin of that set
+        m["from_codesets"] = sorted({re.sub(r"__icd(9|10)$", "", c) for c in m["from_codesets"]})
+    mapped = {c for _, members in spec.values() for c in members}
+    missing = sorted({c for m in origin.values() for c in m["from_codesets"]} - mapped)
+    assert not missing, "no bin for: %s" % missing
     bins, dropped, unlisted = {}, [], []
     for short, (long_name, members) in spec.items():
         keys = [k for k, m in origin.items() if set(m["from_codesets"]) & set(members)]
@@ -41,6 +47,12 @@ def main():
     print("wrote %s: %d bins" % (OUT, len(bins)))
     print("  in neither list (%d):" % len(unlisted), unlisted)
     print("  bins not written:", dropped)
+    print("  both:", sum(bool(b["long_term"]) and bool(b["short_term"]) for b in bins.values()),
+          "| long-term only:", [k for k, b in bins.items() if b["long_term"] and not b["short_term"]],
+          "| short-term only:", [k for k, b in bins.items() if b["short_term"] and not b["long_term"]])
+    print("  outcomes listed: %d of %d" % (len({c for b in bins.values() for c in b["long_term"] + b["short_term"]}), len(final)))
+    for k, b in bins.items():
+        print("  %-22s L %2d  S %2d" % (k, len(b["long_term"]), len(b["short_term"])))
 
 
 if __name__ == "__main__":

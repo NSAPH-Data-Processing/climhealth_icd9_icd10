@@ -1,7 +1,7 @@
 {
  "description": "Step 6 hand map: bin -> code sets of 050_codesets.yaml. Whether a code set is long-term or short-term comes from its treatment. A bin with neither is not written.",
  "bins": {
-  "cvd_all": ["All cardiovascular disease (composite)", ["cvd_all_principal", "cvd_all_not_stated", "cvd_all_icd9_principal", "cvd_all_icd9_not_stated", "cvd_circulatory_groups", "cvd_circulatory_groups_icd9", "cvd_five_causes", "cvd_390_429_principal", "cvd_390_429_not_stated", "cvd_heart_groups", "cvd_composite_seven", "cvd_no_codes_principal", "cvd_no_codes_not_stated"]],
+  "cvd_all": ["All cardiovascular disease (composite)", ["cvd_all_principal", "cvd_all_not_stated", "cvd_all_icd9_principal", "cvd_all_icd9_not_stated", "cvd_390_495", "cvd_circulatory_groups", "cvd_circulatory_groups_icd9", "cvd_five_causes", "cvd_390_429_principal", "cvd_390_429_not_stated", "cvd_heart_groups", "cvd_composite_seven", "cvd_no_codes_principal", "cvd_no_codes_not_stated"]],
   "ischemic_heart": ["Ischemic heart disease and coronary atherosclerosis", ["ischemic_heart", "ischemic_heart_icd9", "ischemic_heart_429"]],
   "mi": ["Heart attack (acute myocardial infarction)", ["mi_acute", "mi_acute_icd9", "mi_410", "mi_4109"]],
   "heart_failure": ["Heart failure", ["chf", "chf_icd9", "chf_hypertensive"]],
@@ -9,16 +9,16 @@
   "valvular": ["Valvular heart disease", ["valvular"]],
   "cardiomyopathy": ["Cardiomyopathy", ["cardiomyopathy"]],
   "cerebrovascular": ["Stroke and other cerebrovascular conditions", ["cerebrovascular", "cerebrovascular_icd9"]],
-  "ischemic_stroke": ["Ischemic stroke", ["stroke_ischemic", "stroke_43491"]],
+  "ischemic_stroke": ["Ischemic stroke", ["stroke_ischemic", "stroke_ischemic_i163", "stroke_43491"]],
   "peripheral_vascular": ["Peripheral vascular disease and atherosclerosis", ["peripheral_vascular_icd9", "peripheral_vascular_ccs"]],
   "aortic_aneurysm": ["Aortic aneurysms", ["aortic_aneurysm"]],
 
-  "resp_all": ["All respiratory disease (composite)", ["resp_all", "resp_all_icd9", "resp_infection_copd", "resp_infection_copd_494", "resp_infection_copd_asthma_icd9", "resp_infection_copd_asthma"]],
+  "resp_all": ["All respiratory disease (composite)", ["resp_all", "resp_all_icd9", "resp_infection_copd", "resp_printed_490_448", "resp_infection_copd_494", "resp_infection_copd_asthma_icd9", "resp_infection_copd_asthma"]],
   "resp_infection": ["Pneumonia and other respiratory infections", ["resp_infection_icd9", "pneumonia_icd9", "pneumonia_486", "pneumonia_broad"]],
   "copd": ["Chronic obstructive pulmonary disease", ["copd_icd9", "copd_494_icd9"]],
   "ards": ["Acute respiratory distress syndrome", ["ards"]],
 
-  "parkinson": ["Parkinson's disease", ["parkinson_332", "parkinson_332_icd9", "parkinson_332_g21", "parkinson_3320", "parkinson_secondary_prim_sec", "parkinson_secondary_any"]],
+  "parkinson": ["Parkinson's disease", ["parkinson_332", "parkinson_332_icd9", "parkinson_332_g21", "parkinson_3320", "parkinson_332_or_3320", "parkinson_secondary_prim_sec", "parkinson_secondary_any"]],
   "dementia": ["Dementia, including Alzheimer's disease", ["adrd_ccw_prim_sec", "adrd_ccw_any", "adrd_ccw_first10", "dementia_ccw_icd9", "adrd_ccw_unlisted_first10", "adrd_ccw_unlisted_any", "dementia_290", "alzheimers_icd9", "adrd_shi", "alzheimers_icd10", "dementia_vascular_icd10", "dementia_nonspecific_icd10", "dementia_picks_icd10", "neurocognitive_icd10", "cerebral_degenerations", "dementia_vascular_no_codes", "dementia_no_codes"]],
   "multiple_sclerosis": ["Multiple sclerosis", ["multiple_sclerosis"]],
   "depression": ["Depression", ["depression"]],
@@ -28,7 +28,7 @@
   "kidney_urinary": ["Kidney and urinary system diseases (composite)", ["kidney_urinary"]],
   "kidney_failure": ["Acute or unspecified kidney failure", ["aki_first10", "aki_prim_sec", "kidney_failure_ccs"]],
   "ckd": ["Chronic kidney disease", ["ckd"]],
-  "uti": ["Urinary tract infections", ["uti", "uti_ccs", "uti_ccs_ccsr"]],
+  "uti": ["Urinary tract infections", ["uti_559", "uti_ccs", "uti_ccs_ccsr"]],
   "fluid_electrolyte": ["Fluid and electrolyte disorders, including dehydration", ["fluid_electrolyte_ccs", "dehydration"]],
   "diabetes": ["Diabetes, including diabetes with complications", ["diabetes_icd9", "diabetes_complications_ccs"]],
 
