@@ -201,6 +201,18 @@ If icd codes are not available leave the range empty.
 
 Keep ICD-9 only and ICD-10 only sets. 
 
+Source of truth for codes, in this order:
+1. The codes printed in the papers, with typos corrected (Step 5.3). These are never replaced by another source, except when a set is split in Step 5.3.
+2. For a missing ICD version: the pairing in another paper that prints both ICD-9 and ICD-10 for the same codes, regardless of its criteria.
+3. Where a paper names CCW, CCS or CCSR without printing the codes: the official list.
+4. Only for an ICD-9-only or ICD-10-only set that cannot be paired with a paper's definition: the ICD-9 to ICD-10 crosswalk (GEMs).
+
+Different criteria, as set in Step 5.1, are different entries.
+
+Each of Steps 5.1 to 5.5 outputs a JSON, with the source of every code and any flags. The simple YAML is created in Step 5.6.
+
+Steps 5.2 and 5.4 may download the official lists and crosswalks (CCW, CCS, CCSR, GEMs) into a git-ignored folder in this project. Record the version of each. Save a machine-readable version of each (CSV or JSON), which is committed with its source and version.
+
 ### Step 5.1: Runnable criteria
 Each outcome needs a diagnosis position that can be run on the claims.
 - Translate each `criteria` into the fields `get_outcomes.py` in `medpar_outcomes` reads:
@@ -221,6 +233,7 @@ Markers mean the paper names a definition without printing its codes. Replace th
 ### Step 5.3 Clean icd codes.
 - note potential typos, support with some evidence.
 - for the author defined icd9 and icd10 mappings, measure ICD-9 and ICD-10 map coverage in both directions. Determine a percentage measure. 
+- when coverage is very low (e.g. `heat_illness`), split the set in two, one ICD-9 only and one ICD-10 only, each filled with the GEM mapping in Step 5.4.
 - let's fix one by one manually together (like we did with manual downloads), record the decisions.
 
 ### Step 5.4: ICD-10 and ICD-9 coverage
@@ -228,12 +241,13 @@ Every outcome must have codes for the whole period, because ICD-10 replaced ICD-
 - For ICD-9-only and ICD-10-only sets, fill only the missing version. First use the pairing from a paper that prints both versions, when its codes in the available version are identical, regardless of its criteria. The set keeps its own criteria. If papers give different pairings, the set takes each one, and the distinct definitions are all kept.
 - If no paper gives a pairing, use the CMS General Equivalence Mappings (GEMs).
 - Mark filled codes separately, with their source: the paper, or the mapping.
+- A set split in Step 5.3 uses the GEM mapping, not a pairing.
 
 ### Step 5.5: Remove true duplicates
 Merge outcomes with identical codes and criteria, and combine their `paper_id` and `treatment`. Keep every other distinct definition, even when definitions overlap.
 
-### Step 5.5: Final YAML
-Format the results  as a YAML in the same format as `050_codesets.yaml`: short name, `long_name`, `criteria`, `outcome_criteria`, `first_n` (only with `outcome_criteria: first_n`), `paper_id`, `treatment`, `icd9`, `icd10`. Add a `note` only to the entries that need it (e.g. flagged mappings, assigned criteria). Entries without one omit the field.
+### Step 5.6: Final YAML
+Format the results of Step 5.5 as a YAML in the same format as `050_codesets.yaml`: short name, `long_name`, `criteria`, `outcome_criteria`, `first_n` (only with `outcome_criteria: first_n`), `paper_id`, `treatment`, `icd9`, `icd10`. Add a `note` only to the entries that need it (e.g. flagged mappings, assigned criteria). Entries without one omit the field.
 
 ### Step 6: Bins
 Bins are just a reference that helps classify the code sets. Modify the bins definition to include as many relevant outcomes as possible from the condensed codeset yaml. We are interested in air pollution and extreme weather related outcomes overall. The bins should distinguish between "long-term effect" and "short-term effect" related outcomes.
