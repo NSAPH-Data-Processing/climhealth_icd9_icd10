@@ -1,0 +1,209 @@
+cvd_all:
+  icd9: ["390-459"]
+  icd10: ["I00-I99"]
+
+resp_all:
+  icd9: ["460-519"]
+  icd10: ["J00-J99"]
+
+cardioresp_combined:
+  icd9: ["390-519"]
+  icd10: ["I00-I99", "J00-J99"]
+
+ischemic_heart:
+  icd9: ["410-414"]
+  icd10: ["I20-I25"]
+
+mi_acute:
+  icd9: ["410"]
+  icd10: ["I21-I22"]
+
+chf:
+  icd9: ["428"]
+  icd10: ["I50"]
+
+arrhythmia:
+  icd9: ["427"]
+  icd10: ["I47-I49"]
+
+stroke:
+  icd9: ["430-438"]
+  icd10: ["I60-I69"]
+
+co_cardiovascular:
+  icd9: ["410-414", "427-428", "7865"]
+  icd10: ["I20-I25", "I47-I50", "R079"]
+
+second_cv_event:
+  icd9: ["410-414", "428", "430-438"]
+  icd10: ["I20-I25", "I50", "I60-I69"]
+
+copd:
+  icd9: ["490-492", "494-496"]
+  icd10: ["J40-J44"]
+
+asthma:
+  icd9: ["493"]
+  icd10: ["J45"]
+
+pneumonia:
+  icd9: ["480-487"]
+  icd10: ["J09-J18"]
+
+ards:
+  icd9: ["51882"]
+  icd10: ["J80"]
+
+diabetes:
+  icd9: ["250"]
+  icd10: ["E10-E14"]
+
+aki_kidney:
+  icd9: ["584", "585"]
+  icd10: ["N17", "N18"]
+
+neuro_disorders:
+  icd9: ["320-359"]
+  icd10: ["G00-G99"]
+
+brain_disorders_chronic:
+  icd9: ["290-294", "320-359"]
+  icd10: ["F01-F09", "G00-G99"]
+
+dementia_alzheimers:
+  icd9: ["2900", "3310"]
+  icd10: ["F01-F03", "G30"]
+
+psychiatric:
+  icd9: ["290-319"]
+  icd10: ["F01-F99"]
+
+alcohol_substance:
+  icd9: ["291", "292", "303-305"]
+  icd10: ["F10-F19"]
+
+violence_assault:
+  icd9: ["E960-E969"]
+  icd10: ["X92-X99", "Y00-Y09"]
+
+self_inflicted:
+  icd9: ["E950-E959"]
+  icd10: ["X71-X83"]
+
+heat_illness:
+  icd9: ["9920-9929"]
+  icd10: ["T670-T679"]
+
+heat_multicause:
+  _src: "Bobb (Obermeyer) et al. 2014 JAMA (#153): cause-specific risk of admission related to extreme heat"
+  icd9: ["250", "390-519", "584-586"]
+  icd10: ["E10-E14", "I00-I99", "J00-J99", "N17-N19"]
+
+nonresp_infection:
+  _src: "Feng et al. 2024 Nat Commun (#303/#309)"
+  _note: "source says 'A00-B99 and site-specific infection codes'. ICD-9 320-326 (CNS infection) and 590 (kidney infection) map to G00-G09 and N10-N12, NOT to A00-B99 -- encoding only A00-B99 would repeat the weather_injury asymmetry, so those are added explicitly."
+  icd9: ["001-139", "320-326", "590"]
+  icd10: ["A00-A99", "B00-B99", "G00-G09", "N10-N12"]
+
+cold_exposure_cv:
+  _src: "Section 2: cold exposure-related cardiovascular events"
+  _note: "near-duplicate of co_cardiovascular but WITHOUT chest pain (786.5/R07.9); kept separate because source lists it separately"
+  icd9: ["410-414", "427-428"]
+  icd10: ["I20-I25", "I47-I50"]
+
+hypertension:
+  icd9: ["401-405"]
+  icd10: ["I10-I16"]
+
+atrial_fib:
+  icd9: ["42731"]
+  icd10: ["I480-I489"]
+
+cardiac_arrest:
+  icd9: ["4275"]
+  icd10: ["I462", "I468", "I469"]
+
+chronic_bronchitis:
+  icd9: ["491"]
+  icd10: ["J41-J42"]
+
+acute_bronchitis:
+  icd9: ["466"]
+  icd10: ["J20-J21"]
+
+uri:
+  icd9: ["460-465"]
+  icd10: ["J00-J06"]
+
+otitis_media:
+  icd9: ["381-382"]
+  icd10: ["H65-H67"]
+
+conjunctivitis:
+  icd9: ["3720"]
+  icd10: ["H10"]
+
+allergic_rhinitis:
+  icd9: ["477"]
+  icd10: ["J30"]
+
+dehydration:
+  icd9: ["27651"]
+  icd10: ["E860"]
+
+heat_exhaustion:
+  icd9: ["9923", "9925-9927"]
+  icd10: ["T672", "T673", "T676-T678"]
+
+hypothermia:
+  icd9: ["9916"]
+  icd10: ["T68"]
+
+frostbite:
+  icd9: ["9910-9913"]
+  icd10: ["T33-T34"]
+
+renal_colic_stones:
+  icd9: ["592"]
+  icd10: ["N20"]
+
+sepsis:
+  icd9: ["038"]
+  icd10: ["A41"]
+
+uti:
+  icd9: ["5990"]
+  icd10: ["N390"]
+
+rhabdomyolysis:
+  icd9: ["72888"]
+  icd10: ["M6282"]
+
+weather_injury:
+  _note: "ICD-10 stops at T34: T36-T88 is poisoning/toxic effects/complications, which ICD-9 puts at 960-999, outside 800-959"
+  icd9: ["800-959"]
+  icd10: ["S00-S99", "T00-T34"]
+
+injury_external_env:
+  icd9: ["E880-E888"]
+  icd10: ["W00-W19"]
+
+co_poisoning:
+  icd9: ["986"]
+  icd10: ["T58"]
+
+vector_borne:
+  icd9: ["061", "0664"]
+  icd10: ["A90-A91", "A923"]
+
+gastroenteritis:
+  icd9: ["009", "5589"]
+  icd10: ["A09", "K529"]
+
+mental_health_crisis:
+  icd9: ["300-316"]
+  icd10: ["F40-F48", "F90-F98"]
+
+anxiety_mood:
+  icd9: ["296", "300"]
+  icd10: ["F30-F41"]
