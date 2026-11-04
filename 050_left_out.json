@@ -1,0 +1,1775 @@
+{
+ "n": 295,
+ "items": [
+  {
+   "slug": "10_1001_jama_295_10_1127",
+   "outcome_name": "injuries and other external causes (control)",
+   "reason": "role negative_control",
+   "classification": null
+  },
+  {
+   "slug": "10_1001_jama_299_18_2172",
+   "outcome_name": "injuries and other external causes (control)",
+   "reason": "role negative_control",
+   "classification": null
+  },
+  {
+   "slug": "10_1289_ehp_0800185",
+   "outcome_name": "injuries and external causes (excluded)",
+   "reason": "role excluded",
+   "classification": null
+  },
+  {
+   "slug": "10_1161_circulationaha_109_851113",
+   "outcome_name": "injuries and other external causes (test outcome)",
+   "reason": "role negative_control",
+   "classification": null
+  },
+  {
+   "slug": "10_1001_jama_2014_15715",
+   "outcome_name": "283 disease categories (CCS), 214 analyzed",
+   "reason": "group-based",
+   "classification": "AHRQ CCS (single-level)"
+  },
+  {
+   "slug": "10_1001_jama_2014_15715",
+   "outcome_name": "fluid and electrolyte disorders",
+   "reason": "group-based",
+   "classification": "AHRQ CCS (number not given)"
+  },
+  {
+   "slug": "10_1001_jama_2014_15715",
+   "outcome_name": "renal failure",
+   "reason": "group-based",
+   "classification": "AHRQ CCS (number not given)"
+  },
+  {
+   "slug": "10_1001_jama_2014_15715",
+   "outcome_name": "urinary tract infection",
+   "reason": "group-based",
+   "classification": "AHRQ CCS (number not given)"
+  },
+  {
+   "slug": "10_1001_jama_2014_15715",
+   "outcome_name": "septicemia",
+   "reason": "group-based",
+   "classification": "AHRQ CCS (number not given)"
+  },
+  {
+   "slug": "10_1001_jama_2014_15715",
+   "outcome_name": "heat stroke (CCS group 244)",
+   "reason": "group-based",
+   "classification": "AHRQ CCS 244"
+  },
+  {
+   "slug": "10_1001_jama_2014_15715",
+   "outcome_name": "congestive heart failure",
+   "reason": "group-based",
+   "classification": "AHRQ CCS (number not given)"
+  },
+  {
+   "slug": "10_1097_ede_0000000000000556",
+   "outcome_name": "component: heart failure",
+   "reason": "role component",
+   "classification": null
+  },
+  {
+   "slug": "10_1097_ede_0000000000000556",
+   "outcome_name": "component: heart rhythm disturbances",
+   "reason": "role component",
+   "classification": null
+  },
+  {
+   "slug": "10_1097_ede_0000000000000556",
+   "outcome_name": "component: cerebrovascular events",
+   "reason": "role component",
+   "classification": null
+  },
+  {
+   "slug": "10_1097_ede_0000000000000556",
+   "outcome_name": "component: ischemic heart disease",
+   "reason": "role component",
+   "classification": null
+  },
+  {
+   "slug": "10_1097_ede_0000000000000556",
+   "outcome_name": "component: peripheral vascular disease",
+   "reason": "role component",
+   "classification": null
+  },
+  {
+   "slug": "10_1097_ede_0000000000000777",
+   "outcome_name": "all cardiovascular hospitalizations (covariate)",
+   "reason": "role covariate",
+   "classification": null
+  },
+  {
+   "slug": "10_1016_j_ypmed_2018_02_001",
+   "outcome_name": "50 heat-related ICD-9-CM diagnoses in 6 CCS categories",
+   "reason": "group-based",
+   "classification": "AHRQ CCS (6 categories from Bobb et al. 2014)"
+  },
+  {
+   "slug": "10_1016_j_ypmed_2018_02_001",
+   "outcome_name": "heat stroke and sunstroke",
+   "reason": "same model over each diagnosis in 6 CCS categories",
+   "classification": null
+  },
+  {
+   "slug": "10_1016_j_ypmed_2018_02_001",
+   "outcome_name": "heat-related illnesses (3 diagnoses)",
+   "reason": "same model over each diagnosis in 6 CCS categories",
+   "classification": null
+  },
+  {
+   "slug": "10_1016_j_ypmed_2018_02_001",
+   "outcome_name": "fluid and electrolyte disorders (4 diagnoses)",
+   "reason": "same model over each diagnosis in 6 CCS categories",
+   "classification": null
+  },
+  {
+   "slug": "10_1016_j_ypmed_2018_02_001",
+   "outcome_name": "acute kidney failure",
+   "reason": "same model over each diagnosis in 6 CCS categories",
+   "classification": null
+  },
+  {
+   "slug": "10_1016_j_ypmed_2018_02_001",
+   "outcome_name": "septicemia (2 diagnoses)",
+   "reason": "same model over each diagnosis in 6 CCS categories",
+   "classification": null
+  },
+  {
+   "slug": "10_1016_j_ypmed_2018_02_001",
+   "outcome_name": "urinary tract infection",
+   "reason": "same model over each diagnosis in 6 CCS categories",
+   "classification": null
+  },
+  {
+   "slug": "10_1016_j_ypmed_2018_02_001",
+   "outcome_name": "chronic heart failure",
+   "reason": "same model over each diagnosis in 6 CCS categories",
+   "classification": null
+  },
+  {
+   "slug": "10_1161_circheartfailure_118_005407",
+   "outcome_name": "heart failure or cardiomyopathy (component)",
+   "reason": "component of the amyloidosis definition",
+   "classification": null
+  },
+  {
+   "slug": "10_1016_j_chest_2019_03_017",
+   "outcome_name": "ARDS subgroup: sepsis",
+   "reason": "role component",
+   "classification": null
+  },
+  {
+   "slug": "10_1016_j_chest_2019_03_017",
+   "outcome_name": "ARDS subgroup: pneumonia",
+   "reason": "role component",
+   "classification": null
+  },
+  {
+   "slug": "10_1016_j_chest_2019_03_017",
+   "outcome_name": "ARDS subgroup: traumatic injury",
+   "reason": "role component",
+   "classification": null
+  },
+  {
+   "slug": "10_1136_bmj_l6258",
+   "outcome_name": "214 mutually exclusive disease groups (CCS)",
+   "reason": "scan of CCS groups, no explicit codes",
+   "classification": "AHRQ CCS (single-level)"
+  },
+  {
+   "slug": "10_1136_bmj_l6258",
+   "outcome_name": "septicemia (CCS 2)",
+   "reason": "scan of CCS groups, no explicit codes",
+   "classification": "AHRQ CCS 2"
+  },
+  {
+   "slug": "10_1136_bmj_l6258",
+   "outcome_name": "fluid and electrolyte disorders (CCS 55)",
+   "reason": "scan of CCS groups, no explicit codes",
+   "classification": "AHRQ CCS 55"
+  },
+  {
+   "slug": "10_1136_bmj_l6258",
+   "outcome_name": "acute and unspecified renal failure (CCS 157)",
+   "reason": "scan of CCS groups, no explicit codes",
+   "classification": "AHRQ CCS 157"
+  },
+  {
+   "slug": "10_1136_bmj_l6258",
+   "outcome_name": "urinary tract infections (CCS 159)",
+   "reason": "scan of CCS groups, no explicit codes",
+   "classification": "AHRQ CCS 159"
+  },
+  {
+   "slug": "10_1136_bmj_l6258",
+   "outcome_name": "skin and subcutaneous tissue infections (CCS 197)",
+   "reason": "scan of CCS groups, no explicit codes",
+   "classification": "AHRQ CCS 197"
+  },
+  {
+   "slug": "10_1136_bmj_l6258",
+   "outcome_name": "non-hypertensive congestive heart failure (CCS 108)",
+   "reason": "scan of CCS groups, no explicit codes",
+   "classification": "AHRQ CCS 108"
+  },
+  {
+   "slug": "10_1136_bmj_l6258",
+   "outcome_name": "pneumonia (CCS 122)",
+   "reason": "scan of CCS groups, no explicit codes",
+   "classification": "AHRQ CCS 122"
+  },
+  {
+   "slug": "10_1136_bmj_l6258",
+   "outcome_name": "chronic obstructive pulmonary disease and bronchiectasis (CCS 127)",
+   "reason": "scan of CCS groups, no explicit codes",
+   "classification": "AHRQ CCS 127"
+  },
+  {
+   "slug": "10_1136_bmj_l6258",
+   "outcome_name": "acute myocardial infarction (CCS 100)",
+   "reason": "scan of CCS groups, no explicit codes",
+   "classification": "AHRQ CCS 100"
+  },
+  {
+   "slug": "10_1136_bmj_l6258",
+   "outcome_name": "cardiac dysrhythmias (CCS 106)",
+   "reason": "scan of CCS groups, no explicit codes",
+   "classification": "AHRQ CCS 106"
+  },
+  {
+   "slug": "10_1136_bmj_l6258",
+   "outcome_name": "coronary atherosclerosis and other heart disease (CCS 101)",
+   "reason": "scan of CCS groups, no explicit codes",
+   "classification": "AHRQ CCS 101"
+  },
+  {
+   "slug": "10_1136_bmj_l6258",
+   "outcome_name": "respiratory failures, insufficiency, or arrest (CCS 131)",
+   "reason": "scan of CCS groups, no explicit codes",
+   "classification": "AHRQ CCS 131"
+  },
+  {
+   "slug": "10_1136_bmj_l6258",
+   "outcome_name": "Parkinson's disease (CCS 79)",
+   "reason": "scan of CCS groups, no explicit codes",
+   "classification": "AHRQ CCS 79"
+  },
+  {
+   "slug": "10_1136_bmj_l6258",
+   "outcome_name": "diabetes mellitus with complications (CCS 50)",
+   "reason": "scan of CCS groups, no explicit codes",
+   "classification": "AHRQ CCS 50"
+  },
+  {
+   "slug": "10_1136_bmj_l6258",
+   "outcome_name": "phlebitis, thrombophlebitis, and thromboembolism (CCS 118)",
+   "reason": "scan of CCS groups, no explicit codes",
+   "classification": "AHRQ CCS 118"
+  },
+  {
+   "slug": "10_1136_bmj_l6258",
+   "outcome_name": "influenza (CCS 123)",
+   "reason": "scan of CCS groups, no explicit codes",
+   "classification": "AHRQ CCS 123"
+  },
+  {
+   "slug": "10_1136_bmj_l6258",
+   "outcome_name": "aortic, peripheral, and visceral artery aneurysms (CCS 115)",
+   "reason": "scan of CCS groups, no explicit codes",
+   "classification": "AHRQ CCS 115"
+  },
+  {
+   "slug": "10_1136_bmj_l6258",
+   "outcome_name": "injury and poisoning (negative outcome control)",
+   "reason": "role negative_control",
+   "classification": "AHRQ CCS (injury and poisoning; numbers not given)"
+  },
+  {
+   "slug": "10_1136_bmj_l6258",
+   "outcome_name": "122 broader disease groups (sensitivity analysis)",
+   "reason": "role sensitivity",
+   "classification": "AHRQ multi-level CCS, levels 1 and 2"
+  },
+  {
+   "slug": "10_1080_01621459_2020_1722134",
+   "outcome_name": "model group 1: dissection of aorta",
+   "reason": "group-based",
+   "classification": null
+  },
+  {
+   "slug": "10_1080_01621459_2020_1722134",
+   "outcome_name": "model group 2: subarachnoid hemorrhage",
+   "reason": "group-based",
+   "classification": null
+  },
+  {
+   "slug": "10_1080_01621459_2020_1722134",
+   "outcome_name": "model group 3: abdominal aneurysm, ruptured",
+   "reason": "group-based",
+   "classification": null
+  },
+  {
+   "slug": "10_1080_01621459_2020_1722134",
+   "outcome_name": "model group 4: unspecified intracranial hemorrhage",
+   "reason": "group-based",
+   "classification": null
+  },
+  {
+   "slug": "10_1080_01621459_2020_1722134",
+   "outcome_name": "model group 5: intracerebral hemorrhage",
+   "reason": "group-based",
+   "classification": null
+  },
+  {
+   "slug": "10_1080_01621459_2020_1722134",
+   "outcome_name": "model group 6: essential hypertension",
+   "reason": "group-based",
+   "classification": null
+  },
+  {
+   "slug": "10_1080_01621459_2020_1722134",
+   "outcome_name": "model group 7: all 420 remaining codes",
+   "reason": "group-based",
+   "classification": null
+  },
+  {
+   "slug": "10_1080_01621459_2020_1722134",
+   "outcome_name": "model group 8: congestive heart failure, unspecified",
+   "reason": "group-based",
+   "classification": null
+  },
+  {
+   "slug": "10_1016_s2542_5196_20_30227_8",
+   "outcome_name": "circulatory system disease as primary code (sensitivity exclusion)",
+   "reason": "role sensitivity",
+   "classification": null
+  },
+  {
+   "slug": "10_1016_j_scitotenv_2020_142524",
+   "outcome_name": "all-cause admissions in the chronic debilitating brain disorder (CDBD) cohort: Parkinson's disease, Alzheimer's disease, other dementia",
+   "reason": "role cohort",
+   "classification": null
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Infectious and parasitic diseases",
+   "reason": "Parks 2021",
+   "classification": "AHRQ multi-level CCS level 1, cause 1"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Tuberculosis",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 1 (level 1 cause 1)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Septicemia except in labor",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 2 (level 1 cause 1)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Bacterial infection (unspecified)",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 3 (level 1 cause 1)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Mycoses",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 4 (level 1 cause 1)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "HIV infection",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 5 (level 1 cause 1)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Hepatitis",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 6 (level 1 cause 1)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Viral infection",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 7 (level 1 cause 1)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Other infections",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 8 (level 1 cause 1)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Sexually transmitted infections (not HIV or hepatitis)",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 9 (level 1 cause 1)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Immunizations and screening",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 10 (level 1 cause 1)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Cancers",
+   "reason": "Parks 2021",
+   "classification": "AHRQ multi-level CCS level 1, cause 2"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Head and neck",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 11 (level 1 cause 2)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Esophagus",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 12 (level 1 cause 2)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Stomach",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 13 (level 1 cause 2)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Colon",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 14 (level 1 cause 2)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Rectum and anus",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 15 (level 1 cause 2)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Liver and intrahepatic bile duct",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 16 (level 1 cause 2)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Pancreas",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 17 (level 1 cause 2)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Gastrointestinal tract organs and peritoneum",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 18 (level 1 cause 2)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Bronchus and lung",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 19 (level 1 cause 2)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Other respiratory and intrathoracic",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 20 (level 1 cause 2)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Bone and connective tissue",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 21 (level 1 cause 2)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Melanomas of skin",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 22 (level 1 cause 2)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Non-epithelial cancer of skin",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 23 (level 1 cause 2)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Breast",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 24 (level 1 cause 2)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Uterus",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 25 (level 1 cause 2)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Cervix",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 26 (level 1 cause 2)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Ovary",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 27 (level 1 cause 2)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Other female genital organs",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 28 (level 1 cause 2)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Prostate",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 29 (level 1 cause 2)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Testis",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 30 (level 1 cause 2)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Other male genital organs",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 31 (level 1 cause 2)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Bladder",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 32 (level 1 cause 2)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Kidney and renal pelvis",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 33 (level 1 cause 2)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Other urinary organs",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 34 (level 1 cause 2)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Brain and nervous system",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 35 (level 1 cause 2)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Thyroid",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 36 (level 1 cause 2)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Hodgkin's disease",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 37 (level 1 cause 2)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Non-Hodgkin's lymphoma",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 38 (level 1 cause 2)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Leukemias",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 39 (level 1 cause 2)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Multiple myeloma",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 40 (level 1 cause 2)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Other cancers",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 41 (level 1 cause 2)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Secondary malignancies",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 42 (level 1 cause 2)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Unspecified site",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 43 (level 1 cause 2)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Cancers of unspecified nature or uncertain behavior",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 44 (level 1 cause 2)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Chemotherapy and radiotherapy",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 45 (level 1 cause 2)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Uterus (benign)",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 46 (level 1 cause 2)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Other (benign)",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 47 (level 1 cause 2)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Endocrine disorders",
+   "reason": "Parks 2021",
+   "classification": "AHRQ multi-level CCS level 1, cause 3"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Thyroid disorders",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 48 (level 1 cause 3)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Diabetes mellitus without complication",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 49 (level 1 cause 3)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Diabetes mellitus with complications",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 50 (level 1 cause 3)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Other endocrine disorders",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 51 (level 1 cause 3)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Nutritional deficiencies",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 52 (level 1 cause 3)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Disorders of lipid metabolism",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 53 (level 1 cause 3)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Gout and other crystal arthropathies",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 54 (level 1 cause 3)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Fluid and electrolyte disorders",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 55 (level 1 cause 3)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Cystic fibrosis",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 56 (level 1 cause 3)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Immunity disorders",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 57 (level 1 cause 3)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Other disorders of stomach and duodenum",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 58 (level 1 cause 3)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Blood diseases",
+   "reason": "Parks 2021",
+   "classification": "AHRQ multi-level CCS level 1, cause 4"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Deficiency and other anemia",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 59 (level 1 cause 4)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Acute posthemorrhagic anemia",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 60 (level 1 cause 4)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Sickle cell anemia",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 61 (level 1 cause 4)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Coagulation and hemorrhagic disorders",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 62 (level 1 cause 4)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Diseases of white blood cells",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 63 (level 1 cause 4)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Other hematologic conditions",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 64 (level 1 cause 4)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Neuropsychiatric disorders",
+   "reason": "Parks 2021",
+   "classification": "AHRQ multi-level CCS level 1, cause 5"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Adjustment disorders",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 650 (level 1 cause 5)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Anxiety disorders",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 651 (level 1 cause 5)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Attention-deficit, conduct, and disruptive behavior disorders",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 652 (level 1 cause 5)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Delirium and dementia",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 653 (level 1 cause 5)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Developmental disorders",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 654 (level 1 cause 5)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Disorders usually diagnosed in infancy, childhood, or adolescence",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 655 (level 1 cause 5)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Impulse control disorders, NEC",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 656 (level 1 cause 5)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Mood disorders",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 657 (level 1 cause 5)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Personality disorders",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 658 (level 1 cause 5)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Schizophrenia and other psychotic disorders",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 659 (level 1 cause 5)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Alcohol-related disorders",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 660 (level 1 cause 5)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Substance-related disorders",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 661 (level 1 cause 5)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Suicide and intentional self-inflicted injury",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 662 (level 1 cause 5)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Screening and history of mental health and substance abuse codes",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 663 (level 1 cause 5)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Miscellaneous mental health disorders",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 670 (level 1 cause 5)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Nervous system diseases",
+   "reason": "Parks 2021",
+   "classification": "AHRQ multi-level CCS level 1, cause 6"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Meningitis",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 76 (level 1 cause 6)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Encephalitis",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 77 (level 1 cause 6)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Other CNS infection and poliomyelitis",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 78 (level 1 cause 6)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Parkinson's disease",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 79 (level 1 cause 6)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Multiple sclerosis",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 80 (level 1 cause 6)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Other hereditary and degenerative nervous system conditions",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 81 (level 1 cause 6)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Paralysis",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 82 (level 1 cause 6)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Epilepsy and convulsions",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 83 (level 1 cause 6)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Headache (including migraine)",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 84 (level 1 cause 6)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Coma, stupor and brain damage",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 85 (level 1 cause 6)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Cataract",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 86 (level 1 cause 6)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Retinal detachments, defects, vascular occlusion and retinopathy",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 87 (level 1 cause 6)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Glaucoma",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 88 (level 1 cause 6)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Blindness and vision defects",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 89 (level 1 cause 6)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Inflammation and infection of eye",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 90 (level 1 cause 6)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Other eye disorders",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 91 (level 1 cause 6)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Otitis media and related conditions",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 92 (level 1 cause 6)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Conditions associated with dizziness or vertigo",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 93 (level 1 cause 6)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Other ear and sense organ disorders",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 94 (level 1 cause 6)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Other nervous system disorders",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 95 (level 1 cause 6)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Cardiovascular diseases",
+   "reason": "Parks 2021",
+   "classification": "AHRQ multi-level CCS level 1, cause 7"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Heart valve disorders",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 96 (level 1 cause 7)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Peri-, endo-, and myocarditis, cardiomyopathy",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 97 (level 1 cause 7)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Essential hypertension",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 98 (level 1 cause 7)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Hypertension with complications and secondary hypertension",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 99 (level 1 cause 7)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Acute myocardial infarction",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 100 (level 1 cause 7)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Coronary atherosclerosis",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 101 (level 1 cause 7)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Nonspecific chest pain",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 102 (level 1 cause 7)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Pulmonary heart disease",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 103 (level 1 cause 7)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Other and ill-defined heart disease",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 104 (level 1 cause 7)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Conduction disorders",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 105 (level 1 cause 7)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Cardiac dysrhythmias",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 106 (level 1 cause 7)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Cardiac arrest and ventricular fibrillation",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 107 (level 1 cause 7)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Congestive heart failure",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 108 (level 1 cause 7)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Stroke",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 109 (level 1 cause 7)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Occlusion or stenosis of precerebral arteries",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 110 (level 1 cause 7)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Other and ill-defined cerebrovascular disease",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 111 (level 1 cause 7)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Transient cerebral ischemia",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 112 (level 1 cause 7)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Late effects of cerebrovascular disease",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 113 (level 1 cause 7)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Atherosclerosis",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 114 (level 1 cause 7)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Aortic, peripheral, and visceral artery aneurysms",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 115 (level 1 cause 7)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Aortic and peripheral arterial embolism or thrombosis",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 116 (level 1 cause 7)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Other circulatory disease",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 117 (level 1 cause 7)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Phlebitis, thrombophlebitis and thromboembolism",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 118 (level 1 cause 7)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Varicose veins of lower extremity",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 119 (level 1 cause 7)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Hemorrhoids",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 120 (level 1 cause 7)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Other diseases of veins and lymphatics",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 121 (level 1 cause 7)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Respiratory diseases",
+   "reason": "Parks 2021",
+   "classification": "AHRQ multi-level CCS level 1, cause 8"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Pneumonia",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 122 (level 1 cause 8)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Influenza",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 123 (level 1 cause 8)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Acute and chronic tonsillitis",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 124 (level 1 cause 8)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Acute bronchitis",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 125 (level 1 cause 8)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Other upper respiratory infections",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 126 (level 1 cause 8)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "COPD",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 127 (level 1 cause 8)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Asthma",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 128 (level 1 cause 8)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Aspiration pneumonitis (food/vomitus)",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 129 (level 1 cause 8)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Pleurisy, pneumothorax, pulmonary collapse",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 130 (level 1 cause 8)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Respiratory failure",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 131 (level 1 cause 8)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Lung disease due to external agents",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 132 (level 1 cause 8)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Other lower respiratory disease",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 133 (level 1 cause 8)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Other upper respiratory disease",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 134 (level 1 cause 8)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Digestive system diseases",
+   "reason": "Parks 2021",
+   "classification": "AHRQ multi-level CCS level 1, cause 9"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Intestinal infection",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 135 (level 1 cause 9)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Disorders of teeth and jaw",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 136 (level 1 cause 9)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Diseases of mouth (excluding dental)",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 137 (level 1 cause 9)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Esophageal disorders",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 138 (level 1 cause 9)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Gastroduodenal ulcer except hemorrhage",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 139 (level 1 cause 9)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Gastritis and duodenitis",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 140 (level 1 cause 9)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Other disorders of stomach and duodenum",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 141 (level 1 cause 9)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Appendicitis and other appendiceal conditions",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 142 (level 1 cause 9)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Abdominal hernia",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 143 (level 1 cause 9)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Regional enteritis and ulcerative colitis",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 144 (level 1 cause 9)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Bowel obstruction",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 145 (level 1 cause 9)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Diverticulosis and diverticulitis",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 146 (level 1 cause 9)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Anal and rectal conditions",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 147 (level 1 cause 9)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Peritonitis and intestinal abscess",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 148 (level 1 cause 9)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Biliary tract disease",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 149 (level 1 cause 9)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Other liver diseases",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 151 (level 1 cause 9)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Pancreatic disorders not diabetes",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 152 (level 1 cause 9)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Gastrointestinal hemorrhage",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 153 (level 1 cause 9)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Noninfectious gastroenteritis",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 154 (level 1 cause 9)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Other gastrointestinal disorders",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 155 (level 1 cause 9)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Genitourinary diseases",
+   "reason": "Parks 2021",
+   "classification": "AHRQ multi-level CCS level 1, cause 10"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Nephritis, nephrosis, renal sclerosis",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 156 (level 1 cause 10)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Renal failure (acute/unspecified)",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 157 (level 1 cause 10)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Chronic kidney disease",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 158 (level 1 cause 10)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Urinary tract infections",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 159 (level 1 cause 10)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Calculus of urinary tract",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 160 (level 1 cause 10)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Other diseases of kidney and ureters",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 161 (level 1 cause 10)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Other diseases of bladder and urethra",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 162 (level 1 cause 10)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Genitourinary symptoms and ill-defined conditions",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 163 (level 1 cause 10)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Hyperplasia of prostate",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 164 (level 1 cause 10)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Inflammatory conditions of male genital organs",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 165 (level 1 cause 10)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Other male genital disorders",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 166 (level 1 cause 10)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Nonmalignant breast conditions",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 167 (level 1 cause 10)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Inflammatory diseases of female pelvic organs",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 168 (level 1 cause 10)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Endometriosis",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 169 (level 1 cause 10)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Prolapse of female genital organs",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 170 (level 1 cause 10)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Menstrual disorders",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 171 (level 1 cause 10)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Ovarian cyst",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 172 (level 1 cause 10)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Menopausal disorders",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 173 (level 1 cause 10)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Female infertility",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 174 (level 1 cause 10)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Other female genital disorders",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 175 (level 1 cause 10)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Skin and subcutaneous tissue diseases",
+   "reason": "Parks 2021",
+   "classification": "AHRQ multi-level CCS level 1, cause 12"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Skin infections",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 197 (level 1 cause 12)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Other inflammatory condition of skin",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 198 (level 1 cause 12)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Chronic ulcer of skin",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 199 (level 1 cause 12)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Other skin disorders",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 200 (level 1 cause 12)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Musculoskeletal system and connective tissue diseases",
+   "reason": "Parks 2021",
+   "classification": "AHRQ multi-level CCS level 1, cause 13"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Infective arthritis and osteomyelitis",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 201 (level 1 cause 13)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Rheumatoid arthritis and related disease",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 202 (level 1 cause 13)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Osteoarthritis",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 203 (level 1 cause 13)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Other non-traumatic joint disorders",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 204 (level 1 cause 13)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Back problems",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 205 (level 1 cause 13)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Osteoporosis",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 206 (level 1 cause 13)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Pathological fracture",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 207 (level 1 cause 13)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Acquired foot deformities",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 208 (level 1 cause 13)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Other acquired deformities",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 209 (level 1 cause 13)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Systemic lupus erythematosus and connective tissue disorders",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 210 (level 1 cause 13)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Other connective tissue disease",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 211 (level 1 cause 13)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Other bone disease and musculoskeletal deformities",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 212 (level 1 cause 13)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Injuries",
+   "reason": "Parks 2021",
+   "classification": "AHRQ multi-level CCS level 1, cause 16"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Joint disorders and dislocations",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 225 (level 1 cause 16)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Fracture of neck of femur hip",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 226 (level 1 cause 16)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Spinal cord injury",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 227 (level 1 cause 16)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Skull and face fractures",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 228 (level 1 cause 16)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Fracture of upper limb",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 229 (level 1 cause 16)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Fracture of lower limb",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 230 (level 1 cause 16)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Other fractures",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 231 (level 1 cause 16)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Sprains and strains",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 232 (level 1 cause 16)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Intracranial injury",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 233 (level 1 cause 16)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Crushing injury or internal injury",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 234 (level 1 cause 16)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Open wounds of head, neck, and trunk",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 235 (level 1 cause 16)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Open wounds of extremities",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 236 (level 1 cause 16)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Complications (device/implant/graft)",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 237 (level 1 cause 16)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Complications (surgical/medical)",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 238 (level 1 cause 16)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Superficial injury, contusion",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 239 (level 1 cause 16)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Burns",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 240 (level 1 cause 16)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Poisoning by psychotropic agents",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 241 (level 1 cause 16)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Poisoning by other medications and drugs",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 242 (level 1 cause 16)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Poisoning by nonmedicinal substances",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 243 (level 1 cause 16)"
+  },
+  {
+   "slug": "10_1038_s41467_021_21777_1",
+   "outcome_name": "Other injuries and conditions due to external causes",
+   "reason": "Parks 2021",
+   "classification": "AHRQ CCS level 3 group 244 (level 1 cause 16)"
+  },
+  {
+   "slug": "10_1097_ede_0000000000001456",
+   "outcome_name": "57 cardiovascular discharge diagnoses (multi-level CCS codes starting with 7)",
+   "reason": "group-based",
+   "classification": "AHRQ multi-level CCS, chapter 7"
+  },
+  {
+   "slug": "10_1097_ede_0000000000001456",
+   "outcome_name": "32 respiratory discharge diagnoses (multi-level CCS codes starting with 8)",
+   "reason": "group-based",
+   "classification": "AHRQ multi-level CCS, chapter 8"
+  },
+  {
+   "slug": "10_1097_ede_0000000000001456",
+   "outcome_name": "intracranial hemorrhage (CCS 7.3.1.1)",
+   "reason": "group-based",
+   "classification": "AHRQ multi-level CCS 7.3.1.1"
+  },
+  {
+   "slug": "10_1097_ede_0000000000001456",
+   "outcome_name": "other aneurysm (CCS 7.4.2.2)",
+   "reason": "group-based",
+   "classification": "AHRQ multi-level CCS 7.4.2.2"
+  },
+  {
+   "slug": "10_1097_ede_0000000000001456",
+   "outcome_name": "transient cerebral ischemia (CCS 7.3.4)",
+   "reason": "group-based",
+   "classification": "AHRQ multi-level CCS 7.3.4"
+  },
+  {
+   "slug": "10_1097_ede_0000000000001456",
+   "outcome_name": "heart failure and congestive heart failure (CCS 7.2.11; 3 outcomes)",
+   "reason": "group-based",
+   "classification": "AHRQ multi-level CCS 7.2.11"
+  },
+  {
+   "slug": "10_1097_ede_0000000000001456",
+   "outcome_name": "influenza (CCS 8.1.2)",
+   "reason": "group-based",
+   "classification": "AHRQ multi-level CCS 8.1.2"
+  },
+  {
+   "slug": "10_1609_aaai_v39i27_35009",
+   "outcome_name": "not-obviously heat-related (NOHR) hospitalizations: septicemia, peripheral vascular disease, urinary tract infections, diabetes mellitus with complications",
+   "reason": "CCS groups, taken from Bobb 2014",
+   "classification": null
+  },
+  {
+   "slug": "10_1093_aje_kwag087",
+   "outcome_name": "hospitalization without ADRD",
+   "reason": "every other hospitalization, not a code set",
+   "classification": "All hospitalizations without a CCW ADRD code"
+  }
+ ]
+}

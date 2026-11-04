@@ -195,11 +195,13 @@ The output is a yml file that is almost as simple as francesca_claudio_icdranges
 * `treatment` which will take the following values in a list (that can be empty if none apply) `[air_pollution, extreme_weather, long_term, short_term]`. Heat would count as extreme_weather, and greenness, noise or policy papers would get an empty list unless they also fit a listed value.
 
 
-Leave out group based code sets from outcome-wide papers. For example not include the outcomes from Parks 2021 or others that use the CCS groups. Keep author defined outcomes with explicit codes.
+Leave out group based code sets from outcome-wide papers. For example, do not include the outcomes from Parks 2021 or others that use ALL the CCS groups or CCW as an initial pool. Add CCS/CCW if explicit codes are included in the study and if the approach is not iterating the same model over multiple outcomes.
 
 If icd codes are not available leave the range empty.
 
 Fix apparent typos, for example 490-448.
+
+Keep ICD-9 only and ICD-10 only sets. 
 
 ### Step 5.1: Bins
 Bins are just a reference that helps classify the code sets. Modify the bins definition to include as many relevant outcomes as possible from the condensed codeset yaml. We are interested in air pollution and extreme weather related outcomes overall. The bins should distinguish between "long-term effect" and "short-term effect" related outcomes.

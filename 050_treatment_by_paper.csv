@@ -1,0 +1,168 @@
+code_set,paper_id,air_pollution,extreme_weather,long_term,short_term,other_exposure
+cvd_all_principal,10_1016_j_envint_2021_106715,True,False,True,False,
+cvd_all_principal,10_1016_j_envint_2023_108182,False,True,True,False,
+cvd_all_principal,10_1016_j_envpol_2022_120046,False,False,False,False,"greenness, parks, blue space"
+cvd_all_principal,10_1016_j_envres_2022_114684,False,True,True,False,
+cvd_all_principal,10_1016_j_envres_2025_122779,True,False,True,False,
+cvd_all_principal,10_1016_j_scitotenv_2022_156855,True,True,True,False,
+cvd_all_not_stated,10_1038_s41467_023_37675_7,False,True,False,True,
+cvd_all_icd9_principal,10_1080_01621459_2020_1722134,True,False,False,True,
+cvd_all_icd9_principal,10_1097_ede_0000000000000556,True,True,False,True,
+cvd_all_icd9_principal,10_1097_ede_0000000000001265,True,False,False,True,
+cvd_all_icd9_principal,10_1289_ehp257,True,False,False,True,
+cvd_all_icd9_not_stated,10_1097_ede_0000000000001337,False,True,False,True,
+cvd_circulatory_groups,10_1016_s2542_5196_21_00168_6,True,False,False,True,
+cvd_circulatory_groups_icd9,10_1016_s2542_5196_17_30002_5,False,True,False,True,
+cvd_five_causes,10_1001_jama_299_18_2172,True,False,False,True,
+cvd_five_causes,10_1136_bmj_f5561,False,False,False,False,aircraft noise
+cvd_five_causes,10_1161_circulationaha_109_851113,True,False,False,True,
+cvd_five_causes,10_1289_ehp_0800185,True,False,False,True,
+cvd_five_causes,10_1289_ehp_1306656,True,False,False,True,
+cvd_390_429_principal,10_1186_1476_069x_12_68,True,False,False,True,
+cvd_390_429_not_stated,10_1038_jes_2014_7,True,False,False,True,
+cvd_heart_groups,10_1016_j_envint_2021_106737,False,True,False,True,
+cvd_composite_seven,10_1136_bmj_2023_076939,True,False,True,False,
+cvd_no_codes_principal,10_1111_biom_12254,True,False,False,True,
+cvd_no_codes_not_stated,10_1080_01621459_2020_1803883,True,False,True,False,air quality policy (Clean Air Act Amendments)
+ischemic_heart,10_1016_j_envint_2021_106715,True,False,True,False,
+ischemic_heart,10_1016_j_envint_2023_108182,False,True,True,False,
+ischemic_heart,10_1016_j_envres_2022_114684,False,True,True,False,
+ischemic_heart,10_1136_bmj_2023_076939,True,False,True,False,
+ischemic_heart_icd9,10_1097_ede_0000000000001265,True,False,False,True,
+ischemic_heart_icd9,10_1186_1476_069x_12_68,True,False,False,True,
+ischemic_heart_429,10_1001_jama_295_10_1127,True,False,False,True,
+ischemic_heart_429,10_1001_jama_299_18_2172,True,False,False,True,
+ischemic_heart_429,10_1097_ede_0000000000000777,True,False,True,False,air quality policy (NAAQS nonattainment designations)
+ischemic_heart_429,10_1136_bmj_f5561,False,False,False,False,aircraft noise
+ischemic_heart_429,10_1161_circulationaha_109_851113,True,False,False,True,
+mi_acute,10_1016_j_envint_2025_109617,True,True,True,False,
+mi_acute,10_1016_j_envres_2023_116203,True,False,True,False,
+mi_acute,10_1016_j_envres_2025_122779,True,False,True,False,
+mi_acute,10_1016_j_scitotenv_2022_156855,True,True,True,False,
+mi_acute,10_1161_circulationaha_120_050252,True,False,True,False,
+mi_acute_icd9,10_1093_aje_kws267,False,False,False,False,smoking bans (policy)
+mi_acute_icd9,10_1161_circoutcomes_111_962456,False,False,False,False,secular trends / geography (no environmental exposure)
+mi_410,10_1186_1476_069x_12_68,True,False,False,True,
+mi_4109,10_1097_ede_0000000000001265,True,False,False,True,
+chf,10_1016_j_envres_2025_122779,True,False,True,False,
+chf_icd9,10_1001_jama_295_10_1127,True,False,False,True,
+chf_icd9,10_1001_jama_299_18_2172,True,False,False,True,
+chf_icd9,10_1097_ede_0000000000000777,True,False,True,False,air quality policy (NAAQS nonattainment designations)
+chf_icd9,10_1097_ede_0000000000001265,True,False,False,True,
+chf_icd9,10_1136_bmj_f5561,False,False,False,False,aircraft noise
+chf_icd9,10_1161_circulationaha_109_851113,True,False,False,True,
+chf_icd9,10_1186_1476_069x_12_68,True,False,False,True,
+chf_hypertensive,10_1136_bmj_2023_076939,True,False,True,False,
+arrhythmia_icd9,10_1001_jama_295_10_1127,True,False,False,True,
+arrhythmia_icd9,10_1001_jama_299_18_2172,True,False,False,True,
+arrhythmia_icd9,10_1097_ede_0000000000000777,True,False,True,False,air quality policy (NAAQS nonattainment designations)
+arrhythmia_icd9,10_1136_bmj_f5561,False,False,False,False,aircraft noise
+arrhythmia_icd9,10_1161_circulationaha_109_851113,True,False,False,True,
+arrhythmia_broad,10_1136_bmj_2023_076939,True,False,True,False,
+atrial_fib,10_1016_j_envres_2025_122779,True,False,True,False,
+atrial_fib,10_1161_circulationaha_120_050252,True,False,True,False,
+valvular,10_1136_bmj_2023_076939,True,False,True,False,
+cardiomyopathy,10_1136_bmj_2023_076939,True,False,True,False,
+cardiac_amyloidosis,10_1161_circheartfailure_118_005407,False,False,False,False,secular trends (no environmental exposure)
+cerebrovascular,10_1016_j_envint_2021_106715,True,False,True,False,
+cerebrovascular,10_1016_j_envint_2023_108182,False,True,True,False,
+cerebrovascular,10_1016_j_envres_2022_114684,False,True,True,False,
+cerebrovascular,10_1136_bmj_2023_076939,True,False,True,False,
+cerebrovascular_icd9,10_1001_jama_295_10_1127,True,False,False,True,
+cerebrovascular_icd9,10_1001_jama_299_18_2172,True,False,False,True,
+cerebrovascular_icd9,10_1097_ede_0000000000000777,True,False,True,False,air quality policy (NAAQS nonattainment designations)
+cerebrovascular_icd9,10_1136_bmj_f5561,False,False,False,False,aircraft noise
+cerebrovascular_icd9,10_1161_circulationaha_109_851113,True,False,False,True,
+stroke_ischemic,10_1016_j_envint_2025_109617,True,True,True,False,
+stroke_ischemic,10_1016_j_envres_2025_122779,True,False,True,False,
+stroke_ischemic,10_1016_j_scitotenv_2022_156855,True,True,True,False,
+stroke_ischemic,10_1161_circulationaha_120_050252,True,False,True,False,
+stroke_43491,10_1097_ede_0000000000001265,True,False,False,True,
+peripheral_vascular_icd9,10_1001_jama_295_10_1127,True,False,False,True,
+peripheral_vascular_icd9,10_1001_jama_299_18_2172,True,False,False,True,
+peripheral_vascular_icd9,10_1097_ede_0000000000000777,True,False,True,False,air quality policy (NAAQS nonattainment designations)
+peripheral_vascular_icd9,10_1136_bmj_f5561,False,False,False,False,aircraft noise
+peripheral_vascular_icd9,10_1161_circulationaha_109_851113,True,False,False,True,
+aortic_aneurysm,10_1136_bmj_2023_076939,True,False,True,False,
+resp_all,10_1016_j_envpol_2022_120046,False,False,False,False,"greenness, parks, blue space"
+resp_all,10_1016_j_scitotenv_2022_156855,True,True,True,False,
+resp_all_icd9,10_1186_1476_069x_12_68,True,False,False,True,
+resp_infection_copd,10_1001_jama_299_18_2172,True,False,False,True,
+resp_infection_copd,10_1016_s2542_5196_17_30002_5,False,True,False,True,
+resp_infection_copd,10_1038_jes_2013_39,True,False,False,True,
+resp_infection_copd,10_1097_ede_0000000000000556,True,True,False,True,
+resp_infection_copd,10_1289_ehp257,True,False,False,True,
+resp_infection_copd,10_1289_ehp_0800185,True,False,False,True,
+resp_infection_copd,10_1289_ehp_1306656,True,False,False,True,
+resp_infection_copd_494,10_1016_s2542_5196_21_00168_6,True,False,False,True,
+resp_infection_copd_asthma_icd9,10_1097_ede_0000000000001337,False,True,False,True,
+resp_infection_copd_asthma,10_1038_s41467_023_37675_7,False,True,False,True,
+resp_infection_icd9,10_1001_jama_295_10_1127,True,False,False,True,
+resp_infection_icd9,10_1001_jama_299_18_2172,True,False,False,True,
+resp_infection_icd9,10_1097_ede_0000000000000777,True,False,True,False,air quality policy (NAAQS nonattainment designations)
+pneumonia_icd9,10_1186_1476_069x_12_68,True,False,False,True,
+pneumonia_486,10_1016_j_scitotenv_2020_142524,True,False,False,True,
+pneumonia_broad,10_1161_circulationaha_120_050252,True,False,True,False,
+copd_icd9,10_1001_jama_295_10_1127,True,False,False,True,
+copd_icd9,10_1001_jama_299_18_2172,True,False,False,True,
+copd_icd9,10_1097_ede_0000000000000777,True,False,True,False,air quality policy (NAAQS nonattainment designations)
+copd_494_icd9,10_1186_1476_069x_12_68,True,False,False,True,
+ards,10_1016_j_chest_2019_03_017,True,False,True,False,
+ards,10_1097_ede_0000000000001195,False,False,False,False,proximity to construction and manufacturing sites
+parkinson_332,10_1038_s41531_024_00815_x,True,False,True,False,
+parkinson_332_icd9,10_1186_1476_069x_13_38,True,False,False,True,
+parkinson_332_g21,10_1016_s2542_5196_20_30227_8,True,False,True,False,
+parkinson_3320,10_1038_s41370_026_00882_7,False,True,False,True,
+parkinson_3320,10_1097_ee9_0000000000000519,True,False,True,False,
+parkinson_secondary_prim_sec,10_1001_jamanetworkopen_2022_47664,False,False,False,False,"greenness, parks, blue space"
+parkinson_secondary_any,10_1016_j_envint_2024_108739,False,False,False,False,street-view greenspace
+adrd_ccw_prim_sec,10_1001_jamanetworkopen_2022_47664,False,False,False,False,"greenness, parks, blue space"
+adrd_ccw_any,10_1093_aje_kwae133,True,False,True,False,
+adrd_ccw_first10,10_1016_j_envint_2022_107694,True,False,True,False,
+dementia_ccw_icd9,10_1016_j_envpol_2019_07_094,True,False,True,False,
+adrd_ccw_unlisted_first10,10_1001_jamainternmed_2024_7719,False,True,False,True,
+adrd_ccw_unlisted_any,10_1093_aje_kwag087,False,False,False,False,region and race
+dementia_290,10_1186_1476_069x_13_38,True,False,False,True,
+alzheimers_icd9,10_1186_1476_069x_13_38,True,False,False,True,
+adrd_shi,10_1016_s2542_5196_20_30227_8,True,False,True,False,
+alzheimers_icd10,10_1002_alz_70945,False,False,False,False,none (diagnostic coding study)
+dementia_vascular_icd10,10_1002_alz_70945,False,False,False,False,none (diagnostic coding study)
+dementia_nonspecific_icd10,10_1002_alz_70945,False,False,False,False,none (diagnostic coding study)
+dementia_picks_icd10,10_1002_alz_70945,False,False,False,False,none (diagnostic coding study)
+neurocognitive_icd10,10_1002_alz_70945,False,False,False,False,none (diagnostic coding study)
+cerebral_degenerations,10_1016_j_scitotenv_2020_142524,True,False,False,True,
+dementia_vascular_no_codes,10_1016_j_envpol_2019_07_094,True,False,True,False,
+dementia_no_codes,10_1080_01621459_2020_1803883,True,False,True,False,air quality policy (Clean Air Act Amendments)
+multiple_sclerosis,10_1186_1476_069x_13_38,True,False,False,True,
+depression,10_1016_s2542_5196_22_00017_1,True,True,False,True,
+schizophrenia,10_1016_s2542_5196_22_00017_1,True,True,False,True,
+bipolar,10_1016_s2542_5196_22_00017_1,True,True,False,True,
+kidney_urinary,10_1016_j_envint_2023_107844,False,False,False,False,greenness
+kidney_urinary,10_1136_bmjmed_2021_000009,True,False,True,False,
+aki_first10,10_1289_ehp10729,True,False,True,False,
+aki_prim_sec,10_1016_j_envint_2023_107844,False,False,False,False,greenness
+ckd,10_1016_j_envint_2023_107844,False,False,False,False,greenness
+ckd,10_1136_bmjmed_2021_000009,True,False,True,False,
+uti,10_1016_j_scitotenv_2020_142524,True,False,False,True,
+dehydration,10_1097_ee9_0000000000000395,False,True,False,True,
+diabetes_icd9,10_1186_1476_069x_13_38,True,False,False,True,
+heat_stroke,10_1016_j_envint_2021_106737,False,True,False,True,
+heat_stroke,10_1186_s12940_016_0167_3,False,True,False,True,
+heat_illness,10_1097_ee9_0000000000000395,False,True,False,True,
+excessive_natural_heat,10_1097_ee9_0000000000000395,False,True,False,True,
+hip_fracture,10_1016_j_scitotenv_2020_142524,True,False,False,True,
+fracture_osteoporosis_no_codes,10_1016_s2542_5196_17_30136_5,True,False,True,False,
+pancreatic_cancer,10_1002_cncr_28537,False,False,False,False,secular trends (no environmental exposure)
+septicemia_ccs,10_1016_j_envint_2021_106834,False,True,False,True,heat alert policy
+septicemia_ccs_ccsr,10_1038_s41467_024_45776_0,True,False,True,False,
+diabetes_complications_ccs,10_1016_j_envint_2021_106834,False,True,False,True,heat alert policy
+fluid_electrolyte_ccs,10_1016_j_envint_2021_106834,False,True,False,True,heat alert policy
+peripheral_vascular_ccs,10_1016_j_envint_2021_106834,False,True,False,True,heat alert policy
+kidney_failure_ccs,10_1016_j_envint_2021_106834,False,True,False,True,heat alert policy
+uti_ccs,10_1016_j_envint_2021_106834,False,True,False,True,heat alert policy
+uti_ccs_ccsr,10_1038_s41467_024_45776_0,True,False,True,False,
+heat_external_ccs,10_1016_j_envint_2021_106834,False,True,False,True,heat alert policy
+heat_composite_ccs,10_1097_ee9_0000000000000261,False,True,False,True,
+nonresp_infection_ccs,10_1038_s41467_024_45776_0,True,False,True,False,
+cns_infection_ccs,10_1038_s41467_024_45776_0,True,False,True,False,
+intestinal_infection_ccs,10_1038_s41467_024_45776_0,True,False,True,False,
