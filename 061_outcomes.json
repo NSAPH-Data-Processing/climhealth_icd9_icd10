@@ -1,0 +1,2470 @@
+{
+ "cvd_all_principal": {
+  "long_name": "All cardiovascular disease",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1016_j_envint_2021_106715",
+   "10_1016_j_envint_2023_108182",
+   "10_1016_j_envpol_2022_120046",
+   "10_1016_j_envres_2022_114684",
+   "10_1016_j_envres_2025_122779",
+   "10_1016_j_scitotenv_2022_156855"
+  ],
+  "treatment": [
+   "air_pollution",
+   "extreme_weather",
+   "long_term"
+  ],
+  "icd9": [
+   "390-459"
+  ],
+  "icd10": [
+   "I00-I99"
+  ]
+ },
+ "cvd_all_not_stated": {
+  "long_name": "All cardiovascular disease",
+  "criteria_in_step5": "not stated",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": true,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1038_s41467_023_37675_7"
+  ],
+  "treatment": [
+   "extreme_weather",
+   "short_term"
+  ],
+  "icd9": [
+   "390-459"
+  ],
+  "icd10": [
+   "I00-I99"
+  ]
+ },
+ "cvd_all_icd9_principal": {
+  "long_name": "All cardiovascular disease, ICD-9 only",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1080_01621459_2020_1722134",
+   "10_1097_ede_0000000000000556",
+   "10_1097_ede_0000000000001265",
+   "10_1289_ehp257"
+  ],
+  "treatment": [
+   "air_pollution",
+   "extreme_weather",
+   "short_term"
+  ],
+  "icd9": [
+   "390-459"
+  ],
+  "icd10": []
+ },
+ "cvd_all_icd9_not_stated": {
+  "long_name": "All cardiovascular disease, ICD-9 only",
+  "criteria_in_step5": "not stated",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": true,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1097_ede_0000000000001337"
+  ],
+  "treatment": [
+   "extreme_weather",
+   "short_term"
+  ],
+  "icd9": [
+   "390-459"
+  ],
+  "icd10": []
+ },
+ "cvd_circulatory_groups": {
+  "long_name": "Circulatory disease as a sum of ICD-9 groups, without 399-400, 406-409, 419, 439, 449-450",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1016_s2542_5196_21_00168_6"
+  ],
+  "treatment": [
+   "air_pollution",
+   "short_term"
+  ],
+  "icd9": [
+   "390-398",
+   "401-405",
+   "410-417",
+   "420-438",
+   "440-448",
+   "451-459"
+  ],
+  "icd10": [
+   "I00-I99"
+  ]
+ },
+ "cvd_circulatory_groups_icd9": {
+  "long_name": "Circulatory disease as a sum of ICD-9 groups, ICD-9 only",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1016_s2542_5196_17_30002_5"
+  ],
+  "treatment": [
+   "extreme_weather",
+   "short_term"
+  ],
+  "icd9": [
+   "390-398",
+   "401-405",
+   "410-417",
+   "420-438",
+   "440-448",
+   "451-459"
+  ],
+  "icd10": []
+ },
+ "cvd_five_causes": {
+  "long_name": "Cardiovascular disease as five causes: heart failure, heart rhythm, cerebrovascular, ischemic heart, peripheral vascular",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1001_jama_299_18_2172",
+   "10_1136_bmj_f5561",
+   "10_1161_circulationaha_109_851113",
+   "10_1289_ehp_0800185",
+   "10_1289_ehp_1306656"
+  ],
+  "treatment": [
+   "air_pollution",
+   "short_term"
+  ],
+  "icd9": [
+   "410-414",
+   "426-438",
+   "440-448"
+  ],
+  "icd10": []
+ },
+ "cvd_390_429_principal": {
+  "long_name": "Cardiovascular conditions printed as ICD-9 390-429, without cerebrovascular or vascular codes",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1186_1476_069x_12_68"
+  ],
+  "treatment": [
+   "air_pollution",
+   "short_term"
+  ],
+  "icd9": [
+   "390-429"
+  ],
+  "icd10": []
+ },
+ "cvd_390_429_not_stated": {
+  "long_name": "Cardiovascular conditions printed as ICD-9 390-429, without cerebrovascular or vascular codes",
+  "criteria_in_step5": "not stated",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": true,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1038_jes_2014_7"
+  ],
+  "treatment": [
+   "air_pollution",
+   "short_term"
+  ],
+  "icd9": [
+   "390-429"
+  ],
+  "icd10": []
+ },
+ "cvd_heart_groups": {
+  "long_name": "Cardiovascular disease as heart groups only, without cerebrovascular or vascular codes",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1016_j_envint_2021_106737"
+  ],
+  "treatment": [
+   "extreme_weather",
+   "short_term"
+  ],
+  "icd9": [
+   "390-398",
+   "401-405",
+   "410-417",
+   "420-429"
+  ],
+  "icd10": []
+ },
+ "cvd_composite_seven": {
+  "long_name": "Composite of seven cardiovascular subtypes",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1136_bmj_2023_076939"
+  ],
+  "treatment": [
+   "air_pollution",
+   "long_term"
+  ],
+  "icd9": [
+   "39891",
+   "40201",
+   "40211",
+   "40291",
+   "40401",
+   "40403",
+   "40411",
+   "40413",
+   "40491",
+   "40493",
+   "410-414",
+   "424-428",
+   "430-438",
+   "441",
+   "7850"
+  ],
+  "icd10": [
+   "I20-I25",
+   "I34-I39",
+   "I42",
+   "I44-I45",
+   "I47-I50",
+   "I60-I69",
+   "I71",
+   "R000",
+   "R001",
+   "R008",
+   "R9431",
+   "T821",
+   "T8211",
+   "T82110",
+   "T82111",
+   "T82118",
+   "T82119",
+   "Z450",
+   "Z4501",
+   "Z45010",
+   "Z45018",
+   "Z4502",
+   "Z4509",
+   "Z950"
+  ]
+ },
+ "cvd_no_codes_principal": {
+  "long_name": "Cardiovascular disease hospitalizations, codes not available",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1111_biom_12254"
+  ],
+  "treatment": [
+   "air_pollution",
+   "short_term"
+  ],
+  "icd9": [],
+  "icd10": []
+ },
+ "cvd_no_codes_not_stated": {
+  "long_name": "Cardiovascular disease hospitalizations, codes not available",
+  "criteria_in_step5": "not stated",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": true,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1080_01621459_2020_1803883"
+  ],
+  "treatment": [
+   "air_pollution",
+   "long_term"
+  ],
+  "icd9": [],
+  "icd10": []
+ },
+ "ischemic_heart": {
+  "long_name": "Ischemic or coronary heart disease",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1016_j_envint_2021_106715",
+   "10_1016_j_envint_2023_108182",
+   "10_1016_j_envres_2022_114684",
+   "10_1136_bmj_2023_076939"
+  ],
+  "treatment": [
+   "air_pollution",
+   "extreme_weather",
+   "long_term"
+  ],
+  "icd9": [
+   "410-414"
+  ],
+  "icd10": [
+   "I20-I25"
+  ]
+ },
+ "ischemic_heart_icd9": {
+  "long_name": "Ischemic heart disease, ICD-9 only",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1097_ede_0000000000001265",
+   "10_1186_1476_069x_12_68"
+  ],
+  "treatment": [
+   "air_pollution",
+   "short_term"
+  ],
+  "icd9": [
+   "410-414"
+  ],
+  "icd10": []
+ },
+ "ischemic_heart_429": {
+  "long_name": "Ischemic heart disease including ICD-9 429",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1001_jama_295_10_1127",
+   "10_1001_jama_299_18_2172",
+   "10_1097_ede_0000000000000777",
+   "10_1136_bmj_f5561",
+   "10_1161_circulationaha_109_851113"
+  ],
+  "treatment": [
+   "air_pollution",
+   "long_term",
+   "short_term"
+  ],
+  "icd9": [
+   "410-414",
+   "429"
+  ],
+  "icd10": []
+ },
+ "mi_acute": {
+  "long_name": "Acute myocardial infarction, initial episode or unspecified (410.x0, 410.x1)",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1016_j_envint_2025_109617",
+   "10_1016_j_envres_2023_116203",
+   "10_1016_j_envres_2025_122779",
+   "10_1016_j_scitotenv_2022_156855",
+   "10_1161_circulationaha_120_050252"
+  ],
+  "treatment": [
+   "air_pollution",
+   "extreme_weather",
+   "long_term"
+  ],
+  "icd9": [
+   "41000",
+   "41001",
+   "41010",
+   "41011",
+   "41020",
+   "41021",
+   "41030",
+   "41031",
+   "41040",
+   "41041",
+   "41050",
+   "41051",
+   "41060",
+   "41061",
+   "41070",
+   "41071",
+   "41080",
+   "41081",
+   "41090",
+   "41091"
+  ],
+  "icd10": [
+   "I21"
+  ]
+ },
+ "mi_acute_icd9": {
+  "long_name": "Acute myocardial infarction, initial episode or unspecified (410.x0, 410.x1), ICD-9 only",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1093_aje_kws267",
+   "10_1161_circoutcomes_111_962456"
+  ],
+  "treatment": [],
+  "icd9": [
+   "41000",
+   "41001",
+   "41010",
+   "41011",
+   "41020",
+   "41021",
+   "41030",
+   "41031",
+   "41040",
+   "41041",
+   "41050",
+   "41051",
+   "41060",
+   "41061",
+   "41070",
+   "41071",
+   "41080",
+   "41081",
+   "41090",
+   "41091"
+  ],
+  "icd10": []
+ },
+ "mi_410": {
+  "long_name": "Myocardial infarction, all of ICD-9 410",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1186_1476_069x_12_68"
+  ],
+  "treatment": [
+   "air_pollution",
+   "short_term"
+  ],
+  "icd9": [
+   "410"
+  ],
+  "icd10": []
+ },
+ "mi_4109": {
+  "long_name": "Acute myocardial infarction, unspecified site (ICD-9 410.9)",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1097_ede_0000000000001265"
+  ],
+  "treatment": [
+   "air_pollution",
+   "short_term"
+  ],
+  "icd9": [
+   "4109"
+  ],
+  "icd10": []
+ },
+ "chf": {
+  "long_name": "Heart failure",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1016_j_envres_2025_122779"
+  ],
+  "treatment": [
+   "air_pollution",
+   "long_term"
+  ],
+  "icd9": [
+   "428"
+  ],
+  "icd10": [
+   "I50"
+  ]
+ },
+ "chf_icd9": {
+  "long_name": "Heart failure, ICD-9 only",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1001_jama_295_10_1127",
+   "10_1001_jama_299_18_2172",
+   "10_1097_ede_0000000000000777",
+   "10_1097_ede_0000000000001265",
+   "10_1136_bmj_f5561",
+   "10_1161_circulationaha_109_851113",
+   "10_1186_1476_069x_12_68"
+  ],
+  "treatment": [
+   "air_pollution",
+   "long_term",
+   "short_term"
+  ],
+  "icd9": [
+   "428"
+  ],
+  "icd10": []
+ },
+ "chf_hypertensive": {
+  "long_name": "Heart failure including hypertensive and rheumatic heart failure codes",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1136_bmj_2023_076939"
+  ],
+  "treatment": [
+   "air_pollution",
+   "long_term"
+  ],
+  "icd9": [
+   "39891",
+   "40201",
+   "40211",
+   "40291",
+   "40401",
+   "40403",
+   "40411",
+   "40413",
+   "40491",
+   "40493",
+   "428"
+  ],
+  "icd10": [
+   "I50"
+  ]
+ },
+ "arrhythmia_icd9": {
+  "long_name": "Heart rhythm disturbances, ICD-9 only",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1001_jama_295_10_1127",
+   "10_1001_jama_299_18_2172",
+   "10_1097_ede_0000000000000777",
+   "10_1136_bmj_f5561",
+   "10_1161_circulationaha_109_851113"
+  ],
+  "treatment": [
+   "air_pollution",
+   "long_term",
+   "short_term"
+  ],
+  "icd9": [
+   "426-427"
+  ],
+  "icd10": []
+ },
+ "arrhythmia_broad": {
+  "long_name": "Arrhythmia, including abnormal heartbeat and cardiac device codes",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1136_bmj_2023_076939"
+  ],
+  "treatment": [
+   "air_pollution",
+   "long_term"
+  ],
+  "icd9": [
+   "426-427",
+   "7850"
+  ],
+  "icd10": [
+   "I44-I45",
+   "I47-I49",
+   "R000",
+   "R001",
+   "R008",
+   "R9431",
+   "T821",
+   "T8211",
+   "T82110",
+   "T82111",
+   "T82118",
+   "T82119",
+   "Z450",
+   "Z4501",
+   "Z45010",
+   "Z45018",
+   "Z4502",
+   "Z4509",
+   "Z950"
+  ]
+ },
+ "atrial_fib": {
+  "long_name": "Atrial fibrillation and flutter",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1016_j_envres_2025_122779",
+   "10_1161_circulationaha_120_050252"
+  ],
+  "treatment": [
+   "air_pollution",
+   "long_term"
+  ],
+  "icd9": [
+   "4273"
+  ],
+  "icd10": [
+   "I48"
+  ]
+ },
+ "valvular": {
+  "long_name": "Valvular heart disease",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1136_bmj_2023_076939"
+  ],
+  "treatment": [
+   "air_pollution",
+   "long_term"
+  ],
+  "icd9": [
+   "424"
+  ],
+  "icd10": [
+   "I34-I39"
+  ]
+ },
+ "cardiomyopathy": {
+  "long_name": "Cardiomyopathy",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1136_bmj_2023_076939"
+  ],
+  "treatment": [
+   "air_pollution",
+   "long_term"
+  ],
+  "icd9": [
+   "425"
+  ],
+  "icd10": [
+   "I42"
+  ]
+ },
+ "cardiac_amyloidosis": {
+  "long_name": "Cardiac amyloidosis, codes not available",
+  "criteria_in_step5": "principal or secondary diagnosis",
+  "criteria": "any diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "all",
+  "first_n": null,
+  "paper_id": [
+   "10_1161_circheartfailure_118_005407"
+  ],
+  "treatment": [],
+  "icd9": [],
+  "icd10": []
+ },
+ "cerebrovascular": {
+  "long_name": "Cerebrovascular disease",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1016_j_envint_2021_106715",
+   "10_1016_j_envint_2023_108182",
+   "10_1016_j_envres_2022_114684",
+   "10_1136_bmj_2023_076939"
+  ],
+  "treatment": [
+   "air_pollution",
+   "extreme_weather",
+   "long_term"
+  ],
+  "icd9": [
+   "430-438"
+  ],
+  "icd10": [
+   "I60-I69"
+  ]
+ },
+ "cerebrovascular_icd9": {
+  "long_name": "Cerebrovascular disease, ICD-9 only",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1001_jama_295_10_1127",
+   "10_1001_jama_299_18_2172",
+   "10_1097_ede_0000000000000777",
+   "10_1136_bmj_f5561",
+   "10_1161_circulationaha_109_851113"
+  ],
+  "treatment": [
+   "air_pollution",
+   "long_term",
+   "short_term"
+  ],
+  "icd9": [
+   "430-438"
+  ],
+  "icd10": []
+ },
+ "stroke_ischemic": {
+  "long_name": "Ischemic stroke",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1016_j_envint_2025_109617",
+   "10_1016_j_envres_2025_122779",
+   "10_1016_j_scitotenv_2022_156855",
+   "10_1161_circulationaha_120_050252"
+  ],
+  "treatment": [
+   "air_pollution",
+   "extreme_weather",
+   "long_term"
+  ],
+  "icd9": [
+   "43301",
+   "43311",
+   "43321",
+   "43331",
+   "43381",
+   "43391",
+   "43401",
+   "43411",
+   "43491",
+   "436"
+  ],
+  "icd10": [
+   "I63"
+  ]
+ },
+ "stroke_43491": {
+  "long_name": "Ischemic stroke, cerebral artery occlusion unspecified (ICD-9 434.91)",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1097_ede_0000000000001265"
+  ],
+  "treatment": [
+   "air_pollution",
+   "short_term"
+  ],
+  "icd9": [
+   "43491"
+  ],
+  "icd10": []
+ },
+ "peripheral_vascular_icd9": {
+  "long_name": "Peripheral vascular disease, ICD-9 only",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1001_jama_295_10_1127",
+   "10_1001_jama_299_18_2172",
+   "10_1097_ede_0000000000000777",
+   "10_1136_bmj_f5561",
+   "10_1161_circulationaha_109_851113"
+  ],
+  "treatment": [
+   "air_pollution",
+   "long_term",
+   "short_term"
+  ],
+  "icd9": [
+   "440-448"
+  ],
+  "icd10": []
+ },
+ "aortic_aneurysm": {
+  "long_name": "Thoracic and abdominal aortic aneurysms",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1136_bmj_2023_076939"
+  ],
+  "treatment": [
+   "air_pollution",
+   "long_term"
+  ],
+  "icd9": [
+   "441"
+  ],
+  "icd10": [
+   "I71"
+  ]
+ },
+ "resp_all": {
+  "long_name": "All respiratory disease",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1016_j_envpol_2022_120046",
+   "10_1016_j_scitotenv_2022_156855"
+  ],
+  "treatment": [
+   "air_pollution",
+   "extreme_weather",
+   "long_term"
+  ],
+  "icd9": [
+   "460-519"
+  ],
+  "icd10": [
+   "J00-J99"
+  ]
+ },
+ "resp_all_icd9": {
+  "long_name": "All respiratory disease, ICD-9 only",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1186_1476_069x_12_68"
+  ],
+  "treatment": [
+   "air_pollution",
+   "short_term"
+  ],
+  "icd9": [
+   "460-519"
+  ],
+  "icd10": []
+ },
+ "resp_infection_copd": {
+  "long_name": "Respiratory disease as respiratory tract infections plus COPD, ICD-9 only",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1001_jama_299_18_2172",
+   "10_1016_s2542_5196_17_30002_5",
+   "10_1038_jes_2013_39",
+   "10_1097_ede_0000000000000556",
+   "10_1289_ehp257",
+   "10_1289_ehp_0800185",
+   "10_1289_ehp_1306656"
+  ],
+  "treatment": [
+   "air_pollution",
+   "extreme_weather",
+   "short_term"
+  ],
+  "icd9": [
+   "464-466",
+   "480-487",
+   "490-492"
+  ],
+  "icd10": []
+ },
+ "resp_infection_copd_494": {
+  "long_name": "Respiratory disease as infections plus COPD, with ICD-9 494-496",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1016_s2542_5196_21_00168_6"
+  ],
+  "treatment": [
+   "air_pollution",
+   "short_term"
+  ],
+  "icd9": [
+   "464-466",
+   "480-487",
+   "490-492",
+   "494-496"
+  ],
+  "icd10": [
+   "J069",
+   "J189",
+   "J209",
+   "J40-J42",
+   "J439",
+   "J44",
+   "J471",
+   "J479",
+   "J67"
+  ]
+ },
+ "resp_infection_copd_asthma_icd9": {
+  "long_name": "Respiratory disease as infections, COPD and asthma, ICD-9 only",
+  "criteria_in_step5": "not stated",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": true,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1097_ede_0000000000001337"
+  ],
+  "treatment": [
+   "extreme_weather",
+   "short_term"
+  ],
+  "icd9": [
+   "464-466",
+   "480-487",
+   "490-493"
+  ],
+  "icd10": []
+ },
+ "resp_infection_copd_asthma": {
+  "long_name": "Respiratory disease as infections, COPD and asthma",
+  "criteria_in_step5": "not stated",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": true,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1038_s41467_023_37675_7"
+  ],
+  "treatment": [
+   "extreme_weather",
+   "short_term"
+  ],
+  "icd9": [
+   "464-466",
+   "480-487",
+   "490-493"
+  ],
+  "icd10": [
+   "J069",
+   "J189",
+   "J209",
+   "J40",
+   "J410",
+   "J411",
+   "J418",
+   "J42",
+   "J439",
+   "J440",
+   "J441",
+   "J449",
+   "J471",
+   "J479",
+   "J670-J679"
+  ]
+ },
+ "resp_infection_icd9": {
+  "long_name": "Respiratory tract infections, ICD-9 only",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1001_jama_295_10_1127",
+   "10_1001_jama_299_18_2172",
+   "10_1097_ede_0000000000000777"
+  ],
+  "treatment": [
+   "air_pollution",
+   "long_term",
+   "short_term"
+  ],
+  "icd9": [
+   "464-466",
+   "480-487"
+  ],
+  "icd10": []
+ },
+ "pneumonia_icd9": {
+  "long_name": "Pneumonia and influenza, ICD-9 only",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1186_1476_069x_12_68"
+  ],
+  "treatment": [
+   "air_pollution",
+   "short_term"
+  ],
+  "icd9": [
+   "480-487"
+  ],
+  "icd10": []
+ },
+ "pneumonia_486": {
+  "long_name": "Pneumonia, organism unspecified (ICD-9 486)",
+  "criteria_in_step5": "not stated",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": true,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1016_j_scitotenv_2020_142524"
+  ],
+  "treatment": [
+   "air_pollution",
+   "short_term"
+  ],
+  "icd9": [
+   "486"
+  ],
+  "icd10": []
+ },
+ "pneumonia_broad": {
+  "long_name": "Pneumonia, including pneumonia codes from infectious disease chapters",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1161_circulationaha_120_050252"
+  ],
+  "treatment": [
+   "air_pollution",
+   "long_term"
+  ],
+  "icd9": [
+   "00322",
+   "0116",
+   "0551",
+   "0730",
+   "11505",
+   "11515",
+   "11595",
+   "480-486",
+   "4870",
+   "48801",
+   "48811",
+   "48881",
+   "5163",
+   "5171",
+   "99732"
+  ],
+  "icd10": [
+   "A0103",
+   "A0222",
+   "A202",
+   "A212",
+   "A221",
+   "A3701",
+   "A3711",
+   "A3781",
+   "A3791",
+   "A420",
+   "A430",
+   "A481",
+   "A5484",
+   "A698",
+   "B012",
+   "B052",
+   "B0681",
+   "B250",
+   "B371",
+   "B380",
+   "B390",
+   "B440",
+   "B441",
+   "B583",
+   "B59",
+   "B7781",
+   "J09X1",
+   "J100",
+   "J110",
+   "J12-J15",
+   "J17-J18",
+   "J842",
+   "J851",
+   "J95851"
+  ]
+ },
+ "copd_icd9": {
+  "long_name": "Chronic obstructive pulmonary disease, ICD-9 490-492",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1001_jama_295_10_1127",
+   "10_1001_jama_299_18_2172",
+   "10_1097_ede_0000000000000777"
+  ],
+  "treatment": [
+   "air_pollution",
+   "long_term",
+   "short_term"
+  ],
+  "icd9": [
+   "490-492"
+  ],
+  "icd10": []
+ },
+ "copd_494_icd9": {
+  "long_name": "Chronic obstructive pulmonary disease, ICD-9 490-492 and 494-496",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1186_1476_069x_12_68"
+  ],
+  "treatment": [
+   "air_pollution",
+   "short_term"
+  ],
+  "icd9": [
+   "490-492",
+   "494-496"
+  ],
+  "icd10": []
+ },
+ "ards": {
+  "long_name": "Acute respiratory distress syndrome",
+  "criteria_in_step5": "principal or secondary diagnosis",
+  "criteria": "any diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "all",
+  "first_n": null,
+  "paper_id": [
+   "10_1016_j_chest_2019_03_017",
+   "10_1097_ede_0000000000001195"
+  ],
+  "treatment": [
+   "air_pollution",
+   "long_term"
+  ],
+  "icd9": [
+   "51851",
+   "51852",
+   "51853",
+   "51882"
+  ],
+  "icd10": []
+ },
+ "parkinson_332": {
+  "long_name": "Parkinson's disease, ICD-9 332",
+  "criteria_in_step5": "any of the first 10 diagnosis fields",
+  "criteria": "any of the first 10 diagnosis fields",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 10,
+  "paper_id": [
+   "10_1038_s41531_024_00815_x"
+  ],
+  "treatment": [
+   "air_pollution",
+   "long_term"
+  ],
+  "icd9": [
+   "332"
+  ],
+  "icd10": [
+   "G20"
+  ]
+ },
+ "parkinson_332_icd9": {
+  "long_name": "Parkinson's disease, ICD-9 332 only",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1186_1476_069x_13_38"
+  ],
+  "treatment": [
+   "air_pollution",
+   "short_term"
+  ],
+  "icd9": [
+   "332"
+  ],
+  "icd10": []
+ },
+ "parkinson_332_g21": {
+  "long_name": "Parkinson's disease, ICD-9 332, with ICD-10 G21 secondary parkinsonism codes",
+  "criteria_in_step5": "principal or secondary diagnosis",
+  "criteria": "any diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "all",
+  "first_n": null,
+  "paper_id": [
+   "10_1016_s2542_5196_20_30227_8"
+  ],
+  "treatment": [
+   "air_pollution",
+   "long_term"
+  ],
+  "icd9": [
+   "332"
+  ],
+  "icd10": [
+   "G20",
+   "G2111",
+   "G2119",
+   "G218"
+  ]
+ },
+ "parkinson_3320": {
+  "long_name": "Parkinson's disease, ICD-9 332.0",
+  "criteria_in_step5": "any of the first 10 diagnosis fields",
+  "criteria": "any of the first 10 diagnosis fields",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 10,
+  "paper_id": [
+   "10_1038_s41370_026_00882_7",
+   "10_1097_ee9_0000000000000519"
+  ],
+  "treatment": [
+   "air_pollution",
+   "extreme_weather",
+   "long_term",
+   "short_term"
+  ],
+  "icd9": [
+   "3320"
+  ],
+  "icd10": [
+   "G20"
+  ]
+ },
+ "parkinson_secondary_prim_sec": {
+  "long_name": "Parkinson's disease with secondary parkinsonism",
+  "criteria_in_step5": "principal or secondary diagnosis",
+  "criteria": "any diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "all",
+  "first_n": null,
+  "paper_id": [
+   "10_1001_jamanetworkopen_2022_47664"
+  ],
+  "treatment": [],
+  "icd9": [
+   "3320",
+   "3321"
+  ],
+  "icd10": [
+   "G20",
+   "G2111",
+   "G2119",
+   "G218"
+  ]
+ },
+ "parkinson_secondary_any": {
+  "long_name": "Parkinson's disease with secondary parkinsonism",
+  "criteria_in_step5": "any diagnosis",
+  "criteria": "any diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "all",
+  "first_n": null,
+  "paper_id": [
+   "10_1016_j_envint_2024_108739"
+  ],
+  "treatment": [],
+  "icd9": [
+   "3320",
+   "3321"
+  ],
+  "icd10": [
+   "G20",
+   "G2111",
+   "G2119",
+   "G218"
+  ]
+ },
+ "adrd_ccw_prim_sec": {
+  "long_name": "Alzheimer's disease and related dementias, CMS Chronic Conditions Warehouse list",
+  "criteria_in_step5": "principal or secondary diagnosis",
+  "criteria": "any diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "all",
+  "first_n": null,
+  "paper_id": [
+   "10_1001_jamanetworkopen_2022_47664"
+  ],
+  "treatment": [],
+  "icd9": [
+   "2900",
+   "29010",
+   "29011",
+   "29012",
+   "29013",
+   "29020",
+   "29021",
+   "2903",
+   "29040",
+   "29041",
+   "29042",
+   "29043",
+   "2940",
+   "29410",
+   "29411",
+   "29420",
+   "29421",
+   "2948",
+   "3310",
+   "33111",
+   "33119",
+   "3312",
+   "3317",
+   "797"
+  ],
+  "icd10": [
+   "F0150",
+   "F0151",
+   "F0280",
+   "F0281",
+   "F0390",
+   "F0391",
+   "F04-F05",
+   "F061",
+   "F068",
+   "G138",
+   "G300",
+   "G301",
+   "G308",
+   "G309",
+   "G3101",
+   "G3109",
+   "G311",
+   "G312",
+   "G94",
+   "R4181",
+   "R54"
+  ]
+ },
+ "adrd_ccw_any": {
+  "long_name": "Alzheimer's disease and related dementias, CMS Chronic Conditions Warehouse list",
+  "criteria_in_step5": "any diagnosis",
+  "criteria": "any diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "all",
+  "first_n": null,
+  "paper_id": [
+   "10_1093_aje_kwae133"
+  ],
+  "treatment": [
+   "air_pollution",
+   "long_term"
+  ],
+  "icd9": [
+   "2900",
+   "29010",
+   "29011",
+   "29012",
+   "29013",
+   "29020",
+   "29021",
+   "2903",
+   "29040",
+   "29041",
+   "29042",
+   "29043",
+   "2940",
+   "29410",
+   "29411",
+   "29420",
+   "29421",
+   "2948",
+   "3310",
+   "33111",
+   "33119",
+   "3312",
+   "3317",
+   "797"
+  ],
+  "icd10": [
+   "F0150",
+   "F0151",
+   "F0280",
+   "F0281",
+   "F0390",
+   "F0391",
+   "F04-F05",
+   "F061",
+   "F068",
+   "G138",
+   "G300",
+   "G301",
+   "G308",
+   "G309",
+   "G3101",
+   "G3109",
+   "G311",
+   "G312",
+   "G94",
+   "R4181",
+   "R54"
+  ]
+ },
+ "adrd_ccw_first10": {
+  "long_name": "Alzheimer's disease and related dementias, CMS Chronic Conditions Warehouse list",
+  "criteria_in_step5": "any of the first 10 diagnosis fields",
+  "criteria": "any of the first 10 diagnosis fields",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 10,
+  "paper_id": [
+   "10_1016_j_envint_2022_107694"
+  ],
+  "treatment": [
+   "air_pollution",
+   "long_term"
+  ],
+  "icd9": [
+   "2900",
+   "29010",
+   "29011",
+   "29012",
+   "29013",
+   "29020",
+   "29021",
+   "2903",
+   "29040",
+   "29041",
+   "29042",
+   "29043",
+   "2940",
+   "29410",
+   "29411",
+   "29420",
+   "29421",
+   "2948",
+   "3310",
+   "33111",
+   "33119",
+   "3312",
+   "3317",
+   "797"
+  ],
+  "icd10": [
+   "F0150",
+   "F0151",
+   "F0280",
+   "F0281",
+   "F0390",
+   "F0391",
+   "F04-F05",
+   "F061",
+   "F068",
+   "G138",
+   "G300",
+   "G301",
+   "G308",
+   "G309",
+   "G3101",
+   "G3109",
+   "G311",
+   "G312",
+   "G94",
+   "R4181",
+   "R54"
+  ]
+ },
+ "dementia_ccw_icd9": {
+  "long_name": "Dementia, CMS Chronic Conditions Warehouse list, ICD-9 only",
+  "criteria_in_step5": "any diagnosis",
+  "criteria": "any diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "all",
+  "first_n": null,
+  "paper_id": [
+   "10_1016_j_envpol_2019_07_094"
+  ],
+  "treatment": [
+   "air_pollution",
+   "long_term"
+  ],
+  "icd9": [
+   "2900",
+   "29020",
+   "29021",
+   "2903",
+   "29040",
+   "29041",
+   "29042",
+   "29043",
+   "2912",
+   "2940",
+   "2941",
+   "29410",
+   "29411",
+   "3310",
+   "3311",
+   "33111",
+   "33119",
+   "3312",
+   "3317",
+   "33182"
+  ],
+  "icd10": []
+ },
+ "adrd_ccw_unlisted_first10": {
+  "long_name": "Alzheimer's disease and related dementias, CCW algorithm named, codes not printed",
+  "criteria_in_step5": "any of the first 10 diagnosis fields",
+  "criteria": "any of the first 10 diagnosis fields",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 10,
+  "paper_id": [
+   "10_1001_jamainternmed_2024_7719"
+  ],
+  "treatment": [
+   "extreme_weather",
+   "short_term"
+  ],
+  "icd9": [
+   "CCW"
+  ],
+  "icd10": [
+   "CCW"
+  ]
+ },
+ "adrd_ccw_unlisted_any": {
+  "long_name": "Alzheimer's disease and related dementias, CCW algorithm named, codes not printed",
+  "criteria_in_step5": "any diagnosis",
+  "criteria": "any diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "all",
+  "first_n": null,
+  "paper_id": [
+   "10_1093_aje_kwag087"
+  ],
+  "treatment": [],
+  "icd9": [
+   "CCW"
+  ],
+  "icd10": [
+   "CCW"
+  ]
+ },
+ "dementia_290": {
+  "long_name": "Dementia, ICD-9 290",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1186_1476_069x_13_38"
+  ],
+  "treatment": [
+   "air_pollution",
+   "short_term"
+  ],
+  "icd9": [
+   "290"
+  ],
+  "icd10": []
+ },
+ "alzheimers_icd9": {
+  "long_name": "Alzheimer's disease, ICD-9 331.0",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1186_1476_069x_13_38"
+  ],
+  "treatment": [
+   "air_pollution",
+   "short_term"
+  ],
+  "icd9": [
+   "3310"
+  ],
+  "icd10": []
+ },
+ "adrd_shi": {
+  "long_name": "Alzheimer's disease and related dementias, short definition",
+  "criteria_in_step5": "principal or secondary diagnosis",
+  "criteria": "any diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "all",
+  "first_n": null,
+  "paper_id": [
+   "10_1016_s2542_5196_20_30227_8"
+  ],
+  "treatment": [
+   "air_pollution",
+   "long_term"
+  ],
+  "icd9": [
+   "290",
+   "3310"
+  ],
+  "icd10": [
+   "F05",
+   "G309"
+  ]
+ },
+ "alzheimers_icd10": {
+  "long_name": "Alzheimer's disease, ICD-10 only",
+  "criteria_in_step5": "any of up to 25 diagnosis fields",
+  "criteria": "any diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "all",
+  "first_n": null,
+  "paper_id": [
+   "10_1002_alz_70945"
+  ],
+  "treatment": [],
+  "icd9": [],
+  "icd10": [
+   "G300",
+   "G301",
+   "G308",
+   "G309"
+  ]
+ },
+ "dementia_vascular_icd10": {
+  "long_name": "Vascular dementia, ICD-10 only",
+  "criteria_in_step5": "any of up to 25 diagnosis fields",
+  "criteria": "any diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "all",
+  "first_n": null,
+  "paper_id": [
+   "10_1002_alz_70945"
+  ],
+  "treatment": [],
+  "icd9": [],
+  "icd10": [
+   "F0150",
+   "F0151"
+  ]
+ },
+ "dementia_nonspecific_icd10": {
+  "long_name": "Non-specific dementia, ICD-10 only",
+  "criteria_in_step5": "any of up to 25 diagnosis fields",
+  "criteria": "any diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "all",
+  "first_n": null,
+  "paper_id": [
+   "10_1002_alz_70945"
+  ],
+  "treatment": [],
+  "icd9": [],
+  "icd10": [
+   "F0280",
+   "F0281",
+   "F0390",
+   "F0391",
+   "G3109",
+   "G311",
+   "G3189",
+   "G319"
+  ]
+ },
+ "dementia_picks_icd10": {
+  "long_name": "Pick's disease, ICD-10 only",
+  "criteria_in_step5": "any of up to 25 diagnosis fields",
+  "criteria": "any diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "all",
+  "first_n": null,
+  "paper_id": [
+   "10_1002_alz_70945"
+  ],
+  "treatment": [],
+  "icd9": [],
+  "icd10": [
+   "G3101"
+  ]
+ },
+ "neurocognitive_icd10": {
+  "long_name": "Neurocognitive disorder, ICD-10 only",
+  "criteria_in_step5": "any of up to 25 diagnosis fields",
+  "criteria": "any diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "all",
+  "first_n": null,
+  "paper_id": [
+   "10_1002_alz_70945"
+  ],
+  "treatment": [],
+  "icd9": [],
+  "icd10": [
+   "G3183",
+   "G3185"
+  ]
+ },
+ "cerebral_degenerations": {
+  "long_name": "Cerebral degenerations, ICD-9 331",
+  "criteria_in_step5": "not stated",
+  "criteria": "any of the first 10 diagnosis fields",
+  "criteria_assigned": true,
+  "outcome_criteria": "first_n",
+  "first_n": 10,
+  "paper_id": [
+   "10_1016_j_scitotenv_2020_142524"
+  ],
+  "treatment": [
+   "air_pollution",
+   "short_term"
+  ],
+  "icd9": [
+   "331"
+  ],
+  "icd10": []
+ },
+ "dementia_vascular_no_codes": {
+  "long_name": "Vascular dementia, codes not available",
+  "criteria_in_step5": "any diagnosis",
+  "criteria": "any diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "all",
+  "first_n": null,
+  "paper_id": [
+   "10_1016_j_envpol_2019_07_094"
+  ],
+  "treatment": [
+   "air_pollution",
+   "long_term"
+  ],
+  "icd9": [],
+  "icd10": []
+ },
+ "dementia_no_codes": {
+  "long_name": "Dementia-related hospitalizations, codes not available",
+  "criteria_in_step5": "not stated",
+  "criteria": "any of the first 10 diagnosis fields",
+  "criteria_assigned": true,
+  "outcome_criteria": "first_n",
+  "first_n": 10,
+  "paper_id": [
+   "10_1080_01621459_2020_1803883"
+  ],
+  "treatment": [
+   "air_pollution",
+   "long_term"
+  ],
+  "icd9": [],
+  "icd10": []
+ },
+ "multiple_sclerosis": {
+  "long_name": "Multiple sclerosis",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1186_1476_069x_13_38"
+  ],
+  "treatment": [
+   "air_pollution",
+   "short_term"
+  ],
+  "icd9": [
+   "340"
+  ],
+  "icd10": []
+ },
+ "depression": {
+  "long_name": "Depression",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1016_s2542_5196_22_00017_1"
+  ],
+  "treatment": [
+   "air_pollution",
+   "extreme_weather",
+   "short_term"
+  ],
+  "icd9": [
+   "2962",
+   "2963",
+   "3004",
+   "3090",
+   "3091",
+   "311"
+  ],
+  "icd10": [
+   "F32-F33",
+   "F341",
+   "F39",
+   "F4321"
+  ]
+ },
+ "schizophrenia": {
+  "long_name": "Schizophrenia",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1016_s2542_5196_22_00017_1"
+  ],
+  "treatment": [
+   "air_pollution",
+   "extreme_weather",
+   "short_term"
+  ],
+  "icd9": [
+   "295"
+  ],
+  "icd10": [
+   "F20",
+   "F250",
+   "F251"
+  ]
+ },
+ "bipolar": {
+  "long_name": "Bipolar disorder",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1016_s2542_5196_22_00017_1"
+  ],
+  "treatment": [
+   "air_pollution",
+   "extreme_weather",
+   "short_term"
+  ],
+  "icd9": [
+   "2960",
+   "2964",
+   "29640",
+   "2965",
+   "2966",
+   "2967",
+   "29680",
+   "29689",
+   "30113"
+  ],
+  "icd10": [
+   "F30-F31",
+   "F340"
+  ]
+ },
+ "kidney_urinary": {
+  "long_name": "Diseases of the kidney and urinary system",
+  "criteria_in_step5": "principal or secondary diagnosis",
+  "criteria": "any diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "all",
+  "first_n": null,
+  "paper_id": [
+   "10_1016_j_envint_2023_107844",
+   "10_1136_bmjmed_2021_000009"
+  ],
+  "treatment": [
+   "air_pollution",
+   "long_term"
+  ],
+  "icd9": [
+   "580-599"
+  ],
+  "icd10": [
+   "N00-N39"
+  ]
+ },
+ "aki_first10": {
+  "long_name": "Acute kidney injury",
+  "criteria_in_step5": "any of the first 10 diagnosis fields",
+  "criteria": "any of the first 10 diagnosis fields",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 10,
+  "paper_id": [
+   "10_1289_ehp10729"
+  ],
+  "treatment": [
+   "air_pollution",
+   "long_term"
+  ],
+  "icd9": [
+   "584"
+  ],
+  "icd10": [
+   "N17"
+  ]
+ },
+ "aki_prim_sec": {
+  "long_name": "Acute kidney injury",
+  "criteria_in_step5": "principal or secondary diagnosis",
+  "criteria": "any diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "all",
+  "first_n": null,
+  "paper_id": [
+   "10_1016_j_envint_2023_107844"
+  ],
+  "treatment": [],
+  "icd9": [
+   "584"
+  ],
+  "icd10": [
+   "N17"
+  ]
+ },
+ "ckd": {
+  "long_name": "Chronic kidney disease",
+  "criteria_in_step5": "principal or secondary diagnosis",
+  "criteria": "any diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "all",
+  "first_n": null,
+  "paper_id": [
+   "10_1016_j_envint_2023_107844",
+   "10_1136_bmjmed_2021_000009"
+  ],
+  "treatment": [
+   "air_pollution",
+   "long_term"
+  ],
+  "icd9": [
+   "585"
+  ],
+  "icd10": [
+   "N18"
+  ]
+ },
+ "uti": {
+  "long_name": "Urinary tract infection (ICD-9 599.0)",
+  "criteria_in_step5": "not stated",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": true,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1016_j_scitotenv_2020_142524"
+  ],
+  "treatment": [
+   "air_pollution",
+   "short_term"
+  ],
+  "icd9": [
+   "5990"
+  ],
+  "icd10": []
+ },
+ "dehydration": {
+  "long_name": "Dehydration",
+  "criteria_in_step5": "principal or secondary diagnosis",
+  "criteria": "any diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "all",
+  "first_n": null,
+  "paper_id": [
+   "10_1097_ee9_0000000000000395"
+  ],
+  "treatment": [
+   "extreme_weather",
+   "short_term"
+  ],
+  "icd9": [
+   "27651"
+  ],
+  "icd10": [
+   "E860"
+  ]
+ },
+ "diabetes_icd9": {
+  "long_name": "Diabetes, ICD-9 only",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1186_1476_069x_13_38"
+  ],
+  "treatment": [
+   "air_pollution",
+   "short_term"
+  ],
+  "icd9": [
+   "250"
+  ],
+  "icd10": []
+ },
+ "heat_stroke": {
+  "long_name": "Heat stroke and sunstroke",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1016_j_envint_2021_106737",
+   "10_1186_s12940_016_0167_3"
+  ],
+  "treatment": [
+   "extreme_weather",
+   "short_term"
+  ],
+  "icd9": [
+   "9920"
+  ],
+  "icd10": []
+ },
+ "heat_illness": {
+  "long_name": "Heat-related illness",
+  "criteria_in_step5": "principal or secondary diagnosis",
+  "criteria": "any diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "all",
+  "first_n": null,
+  "paper_id": [
+   "10_1097_ee9_0000000000000395"
+  ],
+  "treatment": [
+   "extreme_weather",
+   "short_term"
+  ],
+  "icd9": [
+   "9920-9929"
+  ],
+  "icd10": [
+   "T673-T675"
+  ]
+ },
+ "excessive_natural_heat": {
+  "long_name": "Exposure to excessive natural heat",
+  "criteria_in_step5": "principal or secondary diagnosis",
+  "criteria": "any diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "all",
+  "first_n": null,
+  "paper_id": [
+   "10_1097_ee9_0000000000000395"
+  ],
+  "treatment": [
+   "extreme_weather",
+   "short_term"
+  ],
+  "icd9": [
+   "E900"
+  ],
+  "icd10": [
+   "X30"
+  ]
+ },
+ "hip_fracture": {
+  "long_name": "Hip fractures",
+  "criteria_in_step5": "not stated",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": true,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1016_j_scitotenv_2020_142524"
+  ],
+  "treatment": [
+   "air_pollution",
+   "short_term"
+  ],
+  "icd9": [
+   "820"
+  ],
+  "icd10": []
+ },
+ "fracture_osteoporosis_no_codes": {
+  "long_name": "Osteoporosis-related bone fractures, codes not available",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1016_s2542_5196_17_30136_5"
+  ],
+  "treatment": [
+   "air_pollution",
+   "long_term"
+  ],
+  "icd9": [],
+  "icd10": []
+ },
+ "pancreatic_cancer": {
+  "long_name": "Pancreatic cancer",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1002_cncr_28537"
+  ],
+  "treatment": [],
+  "icd9": [
+   "157"
+  ],
+  "icd10": []
+ },
+ "septicemia_ccs": {
+  "long_name": "Septicemia, CCS group 2",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1016_j_envint_2021_106834"
+  ],
+  "treatment": [
+   "extreme_weather",
+   "short_term"
+  ],
+  "icd9": [
+   "CCS 2"
+  ],
+  "icd10": []
+ },
+ "septicemia_ccs_ccsr": {
+  "long_name": "Septicemia, CCS group 2 and CCSR INF002",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1038_s41467_024_45776_0"
+  ],
+  "treatment": [
+   "air_pollution",
+   "long_term"
+  ],
+  "icd9": [
+   "CCS 2"
+  ],
+  "icd10": [
+   "CCSR INF002"
+  ]
+ },
+ "diabetes_complications_ccs": {
+  "long_name": "Diabetes mellitus with complications, CCS group 50",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1016_j_envint_2021_106834"
+  ],
+  "treatment": [
+   "extreme_weather",
+   "short_term"
+  ],
+  "icd9": [
+   "CCS 50"
+  ],
+  "icd10": []
+ },
+ "fluid_electrolyte_ccs": {
+  "long_name": "Fluid and electrolyte disorders, CCS group 55",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1016_j_envint_2021_106834"
+  ],
+  "treatment": [
+   "extreme_weather",
+   "short_term"
+  ],
+  "icd9": [
+   "CCS 55"
+  ],
+  "icd10": []
+ },
+ "peripheral_vascular_ccs": {
+  "long_name": "Peripheral and visceral atherosclerosis, CCS group 114",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1016_j_envint_2021_106834"
+  ],
+  "treatment": [
+   "extreme_weather",
+   "short_term"
+  ],
+  "icd9": [
+   "CCS 114"
+  ],
+  "icd10": []
+ },
+ "kidney_failure_ccs": {
+  "long_name": "Acute and unspecified renal failure, CCS group 157",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1016_j_envint_2021_106834"
+  ],
+  "treatment": [
+   "extreme_weather",
+   "short_term"
+  ],
+  "icd9": [
+   "CCS 157"
+  ],
+  "icd10": []
+ },
+ "uti_ccs": {
+  "long_name": "Urinary tract infections, CCS group 159",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1016_j_envint_2021_106834"
+  ],
+  "treatment": [
+   "extreme_weather",
+   "short_term"
+  ],
+  "icd9": [
+   "CCS 159"
+  ],
+  "icd10": []
+ },
+ "uti_ccs_ccsr": {
+  "long_name": "Urinary tract infections, CCS group 159 and CCSR GEN001",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1038_s41467_024_45776_0"
+  ],
+  "treatment": [
+   "air_pollution",
+   "long_term"
+  ],
+  "icd9": [
+   "CCS 159"
+  ],
+  "icd10": [
+   "CCSR GEN001"
+  ]
+ },
+ "heat_external_ccs": {
+  "long_name": "Heat and other injuries and conditions due to external causes, CCS group 244",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1016_j_envint_2021_106834"
+  ],
+  "treatment": [
+   "extreme_weather",
+   "short_term"
+  ],
+  "icd9": [
+   "CCS 244"
+  ],
+  "icd10": []
+ },
+ "heat_composite_ccs": {
+  "long_name": "Heat-related hospitalizations, composite of 7 CCS groups",
+  "criteria_in_step5": "not stated",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": true,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1097_ee9_0000000000000261"
+  ],
+  "treatment": [
+   "extreme_weather",
+   "short_term"
+  ],
+  "icd9": [
+   "CCS 2",
+   "CCS 50",
+   "CCS 55",
+   "CCS 114",
+   "CCS 157",
+   "CCS 159",
+   "CCS 244"
+  ],
+  "icd10": []
+ },
+ "nonresp_infection_ccs": {
+  "long_name": "Non-respiratory infections, CCS and CCSR groups; the CCSR list excludes RSP002-RSP006",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1038_s41467_024_45776_0"
+  ],
+  "treatment": [
+   "air_pollution",
+   "long_term"
+  ],
+  "icd9": [
+   "CCS 2-9",
+   "CCS 76-78",
+   "CCS 90",
+   "CCS 135",
+   "CCS 159",
+   "CCS 197",
+   "CCS 201",
+   "CCS 248"
+  ],
+  "icd10": [
+   "CCSR DIG001",
+   "CCSR GEN001",
+   "CCSR INF002-INF004",
+   "CCSR INF006-INF011",
+   "CCSR MUS001-MUS002",
+   "CCSR MUS027",
+   "CCSR NVS001-NVS003",
+   "CCSR SKN001"
+  ]
+ },
+ "cns_infection_ccs": {
+  "long_name": "Central nervous system infections, CCS groups 76-78 and CCSR NVS001-NVS003",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1038_s41467_024_45776_0"
+  ],
+  "treatment": [
+   "air_pollution",
+   "long_term"
+  ],
+  "icd9": [
+   "CCS 76-78"
+  ],
+  "icd10": [
+   "CCSR NVS001-NVS003"
+  ]
+ },
+ "intestinal_infection_ccs": {
+  "long_name": "Intestinal infections, CCS group 135 and CCSR DIG001",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1038_s41467_024_45776_0"
+  ],
+  "treatment": [
+   "air_pollution",
+   "long_term"
+  ],
+  "icd9": [
+   "CCS 135"
+  ],
+  "icd10": [
+   "CCSR DIG001"
+  ]
+ }
+}

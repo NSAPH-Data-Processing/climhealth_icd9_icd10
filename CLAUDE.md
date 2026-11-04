@@ -199,13 +199,53 @@ Leave out group based code sets from outcome-wide papers. For example, do not in
 
 If icd codes are not available leave the range empty.
 
-Fix apparent typos, for example 490-448.
-
 Keep ICD-9 only and ICD-10 only sets. 
 
-### Step 5.1: Bins
+### Step 5.1: Runnable criteria
+Each outcome needs a diagnosis position that can be run on the claims.
+- Translate each `criteria` into the fields `get_outcomes.py` in `medpar_outcomes` reads:
+  - principal diagnosis: `outcome_criteria: first_n`, `first_n: 1`
+  - any of the first N diagnosis fields: `outcome_criteria: first_n`, `first_n: N`
+  - any diagnosis, or principal or secondary diagnosis: `outcome_criteria: all`
+- For `not stated`, use principal diagnosis for acute events and the first 10 fields for conditions often recorded as secondary (e.g. dementia, Parkinson's, CKD). Record that this was assigned, not taken from the paper.
+
+### Step 5.2: Resolve CCS and CCW markers
+Markers mean the paper names a definition without printing its codes. Replace them with codes from the official lists, and record the list and version:
+- `CCW`: the CMS Chronic Conditions Warehouse algorithm.
+- `CCS`: the AHRQ HCUP CCS table for ICD-9-CM.
+- `CCSR`: the AHRQ HCUP CCSR table for ICD-10-CM.
+- Sets with printed codes are not changed, including printed CCW lists.
+- Sets with empty ranges stay out. List them with the reason.
+
+
+### Step 5.3 Clean icd codes.
+- note potential typos, support with some evidence.
+- for the author defined icd9 and icd10 mappings, measure ICD-9 and ICD-10 map coverage in both directions. Determine a percentage measure. 
+- let's fix one by one manually together (like we did with manual downloads), record the decisions.
+
+### Step 5.4: ICD-10 and ICD-9 coverage
+Every outcome must have codes for the whole period, because ICD-10 replaced ICD-9 in October 2015.
+- For ICD-9-only and ICD-10-only sets, fill only the missing version. First use the pairing from a paper that prints both versions, when its codes in the available version are identical, regardless of its criteria. The set keeps its own criteria. If papers give different pairings, the set takes each one, and the distinct definitions are all kept.
+- If no paper gives a pairing, use the CMS General Equivalence Mappings (GEMs).
+- Mark filled codes separately, with their source: the paper, or the mapping.
+
+### Step 5.5: Remove true duplicates
+Merge outcomes with identical codes and criteria, and combine their `paper_id` and `treatment`. Keep every other distinct definition, even when definitions overlap.
+
+### Step 5.5: Final YAML
+Format the results  as a YAML in the same format as `050_codesets.yaml`: short name, `long_name`, `criteria`, `outcome_criteria`, `first_n` (only with `outcome_criteria: first_n`), `paper_id`, `treatment`, `icd9`, `icd10`. Add a `note` only to the entries that need it (e.g. flagged mappings, assigned criteria). Entries without one omit the field.
+
+### Step 6: Bins
 Bins are just a reference that helps classify the code sets. Modify the bins definition to include as many relevant outcomes as possible from the condensed codeset yaml. We are interested in air pollution and extreme weather related outcomes overall. The bins should distinguish between "long-term effect" and "short-term effect" related outcomes.
 
 Store the bins in a very simple yaml which should include a short name for each bin to identify each item, and:
 * a long name
 * a list containing the short names of the icd code sets that belong to the bin. Split them in long_term and short_term lists of code set names to each bin.
+
+### Recommended next steps: Checks after the counts are generated
+Run once the counts exist, and report per outcome:
+- Continuity across October 2015: flag jumps in the counts at the switch to ICD-10.
+- Rare outcomes: national yearly counts and the share of zero ZCTA-days, against a minimum to be agreed.
+- Near-identical outcomes: flag pairs that are almost perfectly correlated, for loss weighting and for holding out whole bins in evaluation.
+- List the negative controls that the papers themselves use as such, each with its `paper_id`. Do not propose others. Store them in a separate YAML, not with the outcomes.
+- We left out Medicaid outcomes, which could be incorporated.

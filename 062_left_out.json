@@ -1,0 +1,53 @@
+{
+ "n": 6,
+ "items": [
+  {
+   "code_set": "cvd_no_codes_principal",
+   "long_name": "Cardiovascular disease hospitalizations, codes not available",
+   "paper_id": [
+    "10_1111_biom_12254"
+   ],
+   "reason": "no ICD codes and no named definition in the paper"
+  },
+  {
+   "code_set": "cvd_no_codes_not_stated",
+   "long_name": "Cardiovascular disease hospitalizations, codes not available",
+   "paper_id": [
+    "10_1080_01621459_2020_1803883"
+   ],
+   "reason": "no ICD codes and no named definition in the paper"
+  },
+  {
+   "code_set": "cardiac_amyloidosis",
+   "long_name": "Cardiac amyloidosis, codes not available",
+   "paper_id": [
+    "10_1161_circheartfailure_118_005407"
+   ],
+   "reason": "no ICD codes and no named definition in the paper"
+  },
+  {
+   "code_set": "dementia_vascular_no_codes",
+   "long_name": "Vascular dementia, codes not available",
+   "paper_id": [
+    "10_1016_j_envpol_2019_07_094"
+   ],
+   "reason": "no ICD codes and no named definition in the paper"
+  },
+  {
+   "code_set": "dementia_no_codes",
+   "long_name": "Dementia-related hospitalizations, codes not available",
+   "paper_id": [
+    "10_1080_01621459_2020_1803883"
+   ],
+   "reason": "no ICD codes and no named definition in the paper"
+  },
+  {
+   "code_set": "fracture_osteoporosis_no_codes",
+   "long_name": "Osteoporosis-related bone fractures, codes not available",
+   "paper_id": [
+    "10_1016_s2542_5196_17_30136_5"
+   ],
+   "reason": "no ICD codes and no named definition in the paper"
+  }
+ ]
+}

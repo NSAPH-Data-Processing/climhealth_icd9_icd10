@@ -1,0 +1,32 @@
+{
+ "ccs_single_level_2015.zip": {
+  "url": "https://hcup-us.ahrq.gov/toolssoftware/ccs/Single_Level_CCS_2015.zip",
+  "final_url": "https://hcup-us.ahrq.gov/toolssoftware/ccs/Single_Level_CCS_2015.zip",
+  "downloaded": "2026-11-03",
+  "bytes": 205587,
+  "content_type": "application/zip",
+  "sha256": "a1e31709cc4fa7d67fc254a7421ec9686030098af9225d5f7ba73ae28deaa283"
+ },
+ "ccsr_dx_v2023_1.zip": {
+  "url": "https://hcup-us.ahrq.gov/toolssoftware/ccsr/DXCCSR_v2023-1.zip",
+  "final_url": "https://hcup-us.ahrq.gov/toolssoftware/ccsr/DXCCSR_v2023-1.zip",
+  "downloaded": "2026-11-03",
+  "bytes": 5659813,
+  "content_type": "application/zip",
+  "sha256": "83fef8c9bafd68e34db532517de178d0ee4ad7adbd5aa002f2227a8216b7429d"
+ },
+ "gem_2018.zip": {
+  "url": "https://www.cms.gov/medicare/coding/icd10/downloads/2018-ICD-10-CM-General-Equivalence-Mappings.zip",
+  "final_url": "https://www.cms.gov/medicare/coding/icd10/downloads/2018-ICD-10-CM-General-Equivalence-Mappings.zip",
+  "downloaded": "2026-11-03",
+  "bytes": 1114989,
+  "content_type": "application/zip",
+  "sha256": "1c5e5f14026ace48437a0d1c485d282fb5d171c357c6ab4f7798fc0a1e3624a2"
+ },
+ "ccw_alzdisorders_archive_2022.pdf": {
+  "url": "https://web.archive.org/web/20240228082945/https://www2.ccwdata.org/documents/10280/19139608/ccw-cond-algo-alzdisorders.pdf",
+  "downloaded": "2026-11-03",
+  "bytes": 150487,
+  "sha256": "a9b357daaba59aee1fb7a4e492b497c2534746786ee5285dbbf4189aa0d92d5a"
+ }
+}
