@@ -1,16 +1,16 @@
-"""Step 6.5: format the results of Step 6.4 as the final YAML, in the format of 050_codesets.yaml.
+"""Step 5.6: format the results of Step 5.5 as the final YAML, in the format of 050_codesets.yaml.
 
-Input: 064_outcomes.json. Adds outcome_criteria, first_n (only with outcome_criteria: first_n) and a note (only where needed).
+Input: 055_outcomes.json. Adds outcome_criteria, first_n (only with outcome_criteria: first_n) and a note (only where needed).
 
-Output: 065_outcomes.yaml
-Run: .venv/bin/python 065_final_yaml.py
+Output: 056_outcomes.yaml
+Run: .venv/bin/python 056_final_yaml.py
 """
 import json
 
 import yaml
 
-IN = "064_outcomes.json"
-OUT = "065_outcomes.yaml"
+IN = "055_outcomes.json"
+OUT = "056_outcomes.yaml"
 # typos corrected in Step 5 (FIXES in 050_build_codesets.py): paper, printed code, code used
 STEP5_TYPOS = [("10_1038_jes_2013_39", "490-448", "490-492"), ("10_1038_jes_2013_39", "480-497", "480-487"),
                ("10_1097_ede_0000000000001265", "390 to 495", "390-459"), ("10_1016_j_scitotenv_2020_142524", "559", "5990"),

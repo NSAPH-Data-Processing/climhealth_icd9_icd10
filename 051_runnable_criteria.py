@@ -1,17 +1,17 @@
-"""Step 6.1: give each Step 5 code set a diagnosis position that can be run on the claims.
+"""Step 5.1: give each Step 5 code set a diagnosis position that can be run on the claims.
 
 Input: 050_codesets.yaml. Translates criteria into the outcome_criteria and first_n fields of medpar_outcomes/src/get_outcomes.py.
 'not stated' is assigned: principal diagnosis, or the first 10 fields for conditions often recorded as secondary.
 
-Output: 061_outcomes.json
-Run: .venv/bin/python 061_runnable_criteria.py
+Output: 051_outcomes.json
+Run: .venv/bin/python 051_runnable_criteria.py
 """
 import json
 
 import yaml
 
 IN = "050_codesets.yaml"
-OUT = "061_outcomes.json"
+OUT = "051_outcomes.json"
 # code sets with criteria 'not stated' for conditions often recorded as secondary
 SECONDARY = {"cerebral_degenerations", "dementia_no_codes"}
 RUN = {"principal diagnosis": ("principal diagnosis", "first_n", 1),

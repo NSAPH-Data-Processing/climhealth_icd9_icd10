@@ -1,4 +1,4 @@
-"""Step 6: download the official lists used by Steps 6.2 and 6.3, and save a machine-readable version of each.
+"""Steps 5.2 and 5.4: download the official lists they use, and save a machine-readable version of each.
 
 Raw files go to official_lists/raw/ (git-ignored), with URL, date, size and sha256 in official_lists/downloads.json.
 A failed download stops the build of the tables.
@@ -9,7 +9,7 @@ Output (committed):
   official_lists/ccsr_icd10_v2023_1.csv     ICD-10-CM code -> CCSR categories
   official_lists/gem_2018_icd9_to_icd10.csv, official_lists/gem_2018_icd10_to_icd9.csv   CMS GEMs, with flags
 
-Run: .venv/bin/python 060_download_lists.py
+Run: .venv/bin/python 052_download_lists.py
 """
 import csv
 import hashlib

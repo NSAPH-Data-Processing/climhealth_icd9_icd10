@@ -1,26 +1,26 @@
-"""Step 6.4: merge outcomes with identical codes and criteria, and combine their paper_id and treatment.
+"""Step 5.5: merge outcomes with identical codes and criteria, and combine their paper_id and treatment.
 
-Input: 063_outcomes.json. Codes are compared after expansion to valid codes, so F04-F05 equals F04 + F05.
+Input: 054_outcomes.json. Codes are compared after expansion to valid codes, so F04-F05 equals F04 + F05.
 Keeps the codes as printed when any merged entry has them. Short names lose their version and criteria suffixes unless
 that makes two outcomes share a name.
 
-Output: 064_outcomes.json
-Run: .venv/bin/python 064_remove_duplicates.py
+Output: 055_outcomes.json
+Run: .venv/bin/python 055_remove_duplicates.py
 """
 import importlib.util
 import json
 import re
 
-IN = "063_outcomes.json"
-OUT = "064_outcomes.json"
+IN = "054_outcomes.json"
+OUT = "055_outcomes.json"
 TREATMENT = ["air_pollution", "extreme_weather", "long_term", "short_term"]
 # same base name and criteria as parkinson_332__pair1, but with the G21 pairing
 RENAME = {"parkinson_332_icd9__pair2": "parkinson_332_g21_principal"}
 LONG_NAMES = {"parkinson_332_icd9__pair2": "Parkinson's disease, ICD-9 332, with ICD-10 G21 secondary parkinsonism codes"}
 
-_spec = importlib.util.spec_from_file_location("step63", "063_icd_coverage.py")
-step63 = importlib.util.module_from_spec(_spec)
-_spec.loader.exec_module(step63)
+_spec = importlib.util.spec_from_file_location("step54", "054_icd_coverage.py")
+step54 = importlib.util.module_from_spec(_spec)
+_spec.loader.exec_module(step54)
 
 
 def rank(s):
@@ -42,7 +42,7 @@ def main():
     sets = json.load(open(IN, encoding="utf-8"))
     groups = {}
     for key, s in sets.items():
-        sig = (frozenset(step63.expand(s["icd9"], step63.ALL9)), frozenset(step63.expand(s["icd10"], step63.ALL10)),
+        sig = (frozenset(step54.expand(s["icd9"], step54.ALL9)), frozenset(step54.expand(s["icd10"], step54.ALL10)),
                s["outcome_criteria"], s["first_n"])
         groups.setdefault(sig, []).append((key, s))
 

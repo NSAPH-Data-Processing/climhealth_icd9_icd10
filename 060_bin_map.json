@@ -1,5 +1,5 @@
 {
- "description": "Step 5.1 hand map: bin -> code sets of 050_codesets.yaml. Whether a code set is long-term or short-term comes from its treatment. A bin with neither is not written.",
+ "description": "Step 6 hand map: bin -> code sets of 050_codesets.yaml. Whether a code set is long-term or short-term comes from its treatment. A bin with neither is not written.",
  "bins": {
   "cvd_all": ["All cardiovascular disease (composite)", ["cvd_all_principal", "cvd_all_not_stated", "cvd_all_icd9_principal", "cvd_all_icd9_not_stated", "cvd_circulatory_groups", "cvd_circulatory_groups_icd9", "cvd_five_causes", "cvd_390_429_principal", "cvd_390_429_not_stated", "cvd_heart_groups", "cvd_composite_seven", "cvd_no_codes_principal", "cvd_no_codes_not_stated"]],
   "ischemic_heart": ["Ischemic heart disease and coronary atherosclerosis", ["ischemic_heart", "ischemic_heart_icd9", "ischemic_heart_429"]],

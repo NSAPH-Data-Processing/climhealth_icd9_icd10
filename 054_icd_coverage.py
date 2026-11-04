@@ -1,6 +1,6 @@
-"""Step 6.3: give every outcome ICD-9 and ICD-10 codes for the whole period.
+"""Step 5.4: give every outcome ICD-9 and ICD-10 codes for the whole period.
 
-Input: 062_outcomes.json, official_lists/.
+Input: 052_outcomes.json, official_lists/.
 For a set with one ICD version, in this order:
   1. Pairing: the other version from every set whose codes in the available version are identical, whatever its criteria.
      Different pairings each give an entry. The set keeps its own criteria.
@@ -8,14 +8,14 @@ For a set with one ICD version, in this order:
 Flags a set when its two versions do not cover the same conditions: expanded to codes and passed through the GEMs, less than
 COVERAGE of the mapped codes fall inside the other version. Filled by GEMs sets are not checked, since they agree by construction.
 
-Output: 063_outcomes.json
-Run: .venv/bin/python 063_icd_coverage.py
+Output: 054_outcomes.json
+Run: .venv/bin/python 054_icd_coverage.py
 """
 import csv
 import json
 
-IN = "062_outcomes.json"
-OUT = "063_outcomes.json"
+IN = "052_outcomes.json"
+OUT = "054_outcomes.json"
 COVERAGE = 0.7
 
 

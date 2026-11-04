@@ -1,18 +1,18 @@
-"""Step 6.2: replace CCW, CCS and CCSR markers with codes from the official lists. Printed codes are not changed.
+"""Step 5.2: replace CCW, CCS and CCSR markers with codes from the official lists. Printed codes are not changed.
 
-Input: 061_outcomes.json, official_lists/. Sets with empty ranges stay out, and are listed with the reason.
+Input: 051_outcomes.json, official_lists/. Sets with empty ranges stay out, and are listed with the reason.
 CCSR categories match any of a code's categories, not only its default one.
 
-Output: 062_outcomes.json, 062_left_out.json
-Run: .venv/bin/python 062_resolve_markers.py
+Output: 052_outcomes.json, 052_left_out.json
+Run: .venv/bin/python 052_resolve_markers.py
 """
 import csv
 import json
 import re
 
-IN = "061_outcomes.json"
-OUT = "062_outcomes.json"
-OUT_LEFT = "062_left_out.json"
+IN = "051_outcomes.json"
+OUT = "052_outcomes.json"
+OUT_LEFT = "052_left_out.json"
 CCW = json.load(open("official_lists/ccw_adrd_27cc_2022.json", encoding="utf-8"))
 # the paper's non-respiratory infection list excludes these CCSR categories
 CCSR_EXCLUDE = {"nonresp_infection_ccs": {"RSP002", "RSP003", "RSP004", "RSP005", "RSP006"}}

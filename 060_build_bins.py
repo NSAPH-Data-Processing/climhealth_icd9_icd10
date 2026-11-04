@@ -1,19 +1,19 @@
-"""Step 6.6: regenerate the Step 5.1 bins from the final YAML, in the same format, so that they use its short names.
+"""Step 6: outcome bins over the final YAML, split into long-term and short-term, using its short names.
 
-Inputs: 051_bin_map.json (bin -> Step 5 code sets), 064_outcomes.json (outcome -> Step 5 code sets it came from), 065_outcomes.yaml.
+Inputs: 060_bin_map.json (bin -> Step 5 code sets), 055_outcomes.json (outcome -> Step 5 code sets it came from), 056_outcomes.yaml.
 An outcome merged from several code sets is in the bin of each. long_term and short_term come from its treatment.
 
-Output: 066_bins.yaml
-Run: .venv/bin/python 066_update_bins.py
+Output: 060_bins.yaml
+Run: .venv/bin/python 060_build_bins.py
 """
 import json
 
 import yaml
 
-MAP = "051_bin_map.json"
-OUTCOMES = "064_outcomes.json"
-FINAL = "065_outcomes.yaml"
-OUT = "066_bins.yaml"
+MAP = "060_bin_map.json"
+OUTCOMES = "055_outcomes.json"
+FINAL = "056_outcomes.yaml"
+OUT = "060_bins.yaml"
 
 
 def main():
