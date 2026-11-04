@@ -1,0 +1,169 @@
+cvd_all:
+  long_name: "All cardiovascular disease (composite)"
+  long_term: ["cvd_all_principal", "cvd_composite_seven", "cvd_no_codes_not_stated"]
+  short_term: ["cvd_all_not_stated", "cvd_all_icd9_principal", "cvd_all_icd9_not_stated", "cvd_circulatory_groups", "cvd_circulatory_groups_icd9", "cvd_five_causes", "cvd_390_429_principal", "cvd_390_429_not_stated", "cvd_heart_groups", "cvd_no_codes_principal"]
+
+ischemic_heart:
+  long_name: "Ischemic heart disease and coronary atherosclerosis"
+  long_term: ["ischemic_heart", "ischemic_heart_429"]
+  short_term: ["ischemic_heart_icd9", "ischemic_heart_429"]
+
+mi:
+  long_name: "Heart attack (acute myocardial infarction)"
+  long_term: ["mi_acute"]
+  short_term: ["mi_410", "mi_4109"]
+
+heart_failure:
+  long_name: "Heart failure"
+  long_term: ["chf", "chf_icd9", "chf_hypertensive"]
+  short_term: ["chf_icd9"]
+
+arrhythmia:
+  long_name: "Abnormal heart rhythms, including atrial fibrillation"
+  long_term: ["arrhythmia_icd9", "arrhythmia_broad", "atrial_fib"]
+  short_term: ["arrhythmia_icd9"]
+
+valvular:
+  long_name: "Valvular heart disease"
+  long_term: ["valvular"]
+  short_term: []
+
+cardiomyopathy:
+  long_name: "Cardiomyopathy"
+  long_term: ["cardiomyopathy"]
+  short_term: []
+
+cerebrovascular:
+  long_name: "Stroke and other cerebrovascular conditions"
+  long_term: ["cerebrovascular", "cerebrovascular_icd9"]
+  short_term: ["cerebrovascular_icd9"]
+
+ischemic_stroke:
+  long_name: "Ischemic stroke"
+  long_term: ["stroke_ischemic"]
+  short_term: ["stroke_43491"]
+
+peripheral_vascular:
+  long_name: "Peripheral vascular disease and atherosclerosis"
+  long_term: ["peripheral_vascular_icd9"]
+  short_term: ["peripheral_vascular_icd9", "peripheral_vascular_ccs"]
+
+aortic_aneurysm:
+  long_name: "Aortic aneurysms"
+  long_term: ["aortic_aneurysm"]
+  short_term: []
+
+resp_all:
+  long_name: "All respiratory disease (composite)"
+  long_term: ["resp_all"]
+  short_term: ["resp_all_icd9", "resp_infection_copd", "resp_infection_copd_494", "resp_infection_copd_asthma_icd9", "resp_infection_copd_asthma"]
+
+resp_infection:
+  long_name: "Pneumonia and other respiratory infections"
+  long_term: ["resp_infection_icd9", "pneumonia_broad"]
+  short_term: ["resp_infection_icd9", "pneumonia_icd9", "pneumonia_486"]
+
+copd:
+  long_name: "Chronic obstructive pulmonary disease"
+  long_term: ["copd_icd9"]
+  short_term: ["copd_icd9", "copd_494_icd9"]
+
+ards:
+  long_name: "Acute respiratory distress syndrome"
+  long_term: ["ards"]
+  short_term: []
+
+parkinson:
+  long_name: "Parkinson's disease"
+  long_term: ["parkinson_332", "parkinson_332_g21", "parkinson_3320"]
+  short_term: ["parkinson_332_icd9", "parkinson_3320"]
+
+dementia:
+  long_name: "Dementia, including Alzheimer's disease"
+  long_term: ["adrd_ccw_any", "adrd_ccw_first10", "dementia_ccw_icd9", "adrd_shi", "dementia_vascular_no_codes", "dementia_no_codes"]
+  short_term: ["adrd_ccw_unlisted_first10", "dementia_290", "alzheimers_icd9", "cerebral_degenerations"]
+
+multiple_sclerosis:
+  long_name: "Multiple sclerosis"
+  long_term: []
+  short_term: ["multiple_sclerosis"]
+
+depression:
+  long_name: "Depression"
+  long_term: []
+  short_term: ["depression"]
+
+schizophrenia:
+  long_name: "Schizophrenia"
+  long_term: []
+  short_term: ["schizophrenia"]
+
+bipolar:
+  long_name: "Bipolar disorder"
+  long_term: []
+  short_term: ["bipolar"]
+
+kidney_urinary:
+  long_name: "Kidney and urinary system diseases (composite)"
+  long_term: ["kidney_urinary"]
+  short_term: []
+
+kidney_failure:
+  long_name: "Acute or unspecified kidney failure"
+  long_term: ["aki_first10"]
+  short_term: ["kidney_failure_ccs"]
+
+ckd:
+  long_name: "Chronic kidney disease"
+  long_term: ["ckd"]
+  short_term: []
+
+uti:
+  long_name: "Urinary tract infections"
+  long_term: ["uti_ccs_ccsr"]
+  short_term: ["uti", "uti_ccs"]
+
+fluid_electrolyte:
+  long_name: "Fluid and electrolyte disorders, including dehydration"
+  long_term: []
+  short_term: ["fluid_electrolyte_ccs", "dehydration"]
+
+diabetes:
+  long_name: "Diabetes, including diabetes with complications"
+  long_term: []
+  short_term: ["diabetes_icd9", "diabetes_complications_ccs"]
+
+heat_illness:
+  long_name: "Heat-related illness"
+  long_term: []
+  short_term: ["heat_stroke", "heat_illness", "excessive_natural_heat", "heat_external_ccs"]
+
+heat_composite:
+  long_name: "Heat-sensitive admissions (composite of CCS groups)"
+  long_term: []
+  short_term: ["heat_composite_ccs"]
+
+sepsis:
+  long_name: "Sepsis and septicemia"
+  long_term: ["septicemia_ccs_ccsr"]
+  short_term: ["septicemia_ccs"]
+
+nonresp_infection:
+  long_name: "Non-respiratory infections (composite)"
+  long_term: ["nonresp_infection_ccs"]
+  short_term: []
+
+cns_infection:
+  long_name: "Central nervous system infections"
+  long_term: ["cns_infection_ccs"]
+  short_term: []
+
+intestinal_infection:
+  long_name: "Intestinal infections"
+  long_term: ["intestinal_infection_ccs"]
+  short_term: []
+
+fracture:
+  long_name: "Fractures, including hip and osteoporosis-related"
+  long_term: ["fracture_osteoporosis_no_codes"]
+  short_term: ["hip_fracture"]
