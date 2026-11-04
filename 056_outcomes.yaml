@@ -19,7 +19,7 @@ cvd_all:
   treatment: ["air_pollution", "extreme_weather", "long_term", "short_term"]
   icd9: ["390-459"]
   icd10: ["I00-I99"]
-  note: "Typo corrected: 10_1097_ede_0000000000001265 prints 390 to 495, read as 390-459. Criteria not stated by 2 paper(s), assigned here."
+  note: "Typo corrected: 10_1097_ede_0000000000001265 prints 390-495, read as 390-459 (decision 7). Criteria not stated by 2 paper(s), assigned here."
 
 cvd_circulatory_groups:
   long_name: "Circulatory disease as a sum of ICD-9 groups, without 399-400, 406-409, 419, 439, 449-450"
@@ -47,7 +47,6 @@ cvd_five_causes:
   treatment: ["air_pollution", "short_term"]
   icd9: ["410-414", "426-438", "440-448"]
   icd10: ["G450", "G451", "G454", "G458", "G459", "I200", "I201", "I208", "I209", "I2109", "I2111", "I2119", "I2129", "I213", "I214", "I219", "I21A1", "I21A9", "I230", "I240", "I241", "I248", "I2510", "I252", "I253", "I2541", "I2542", "I255", "I25810", "I25811", "I25812", "I2582", "I2583", "I2584", "I2589", "I259", "I440", "I441", "I442", "I4430", "I4439", "I444", "I445", "I4460", "I4469", "I447", "I4510", "I452", "I453", "I454", "I455", "I456", "I4581", "I4589", "I459", "I469", "I471", "I472", "I479", "I4891", "I4892", "I4901", "I4902", "I491", "I493", "I4940", "I4949", "I495", "I498", "I499", "I501", "I5020", "I5021", "I5022", "I5023", "I5030", "I5031", "I5032", "I5033", "I5040", "I5041", "I5042", "I5043", "I50810", "I50811", "I50812", "I50813", "I50814", "I5082", "I5083", "I5084", "I5089", "I509", "I510", "I511", "I512", "I513", "I514", "I515", "I517", "I5181", "I5189", "I519", "I609", "I619", "I6200", "I621", "I629", "I63019", "I63119", "I63139", "I6320", "I63219", "I6322", "I63239", "I6330", "I6340", "I6350", "I6359", "I6509", "I651", "I6529", "I658", "I659", "I6609", "I6619", "I6629", "I669", "I671", "I672", "I674", "I675", "I676", "I677", "I6781", "I6782", "I67848", "I6789", "I679", "I69898", "I6990", "I69910", "I69911", "I69912", "I69913", "I69914", "I69915", "I69918", "I69919", "I69920", "I69921", "I69922", "I69923", "I69928", "I69931", "I69932", "I69933", "I69934", "I69939", "I69941", "I69942", "I69943", "I69944", "I69949", "I69951", "I69952", "I69953", "I69954", "I69959", "I69961", "I69962", "I69963", "I69964", "I69965", "I69969", "I69990", "I69991", "I69992", "I69993", "I69998", "I700", "I701", "I70209", "I70219", "I70229", "I7025", "I70269", "I70299", "I70399", "I70499", "I70599", "I708", "I7090", "I7091", "I7092", "I7100", "I7101", "I7102", "I7103", "I711", "I712", "I713", "I714", "I715", "I716", "I718", "I719", "I720", "I721", "I722", "I723", "I724", "I725", "I726", "I728", "I729", "I7300", "I731", "I7381", "I7389", "I739", "I7401", "I7409", "I7411", "I742", "I743", "I745", "I748", "I749", "I75019", "I75029", "I7581", "I7589", "I770", "I771", "I772", "I773", "I774", "I775", "I776", "I7771", "I7772", "I7773", "I7774", "I7775", "I7776", "I7777", "I7779", "I77810", "I77811", "I77812", "I77819", "I7789", "I779", "I780", "I781", "I788", "I789", "I798", "I970", "I97110", "I97130", "I97190", "M300", "M303", "M310", "M311", "M312", "M3130", "M314", "M316", "R001"]
-  note: "ICD-10 codes not printed; source: GEM 2018. Flag: review GEM mapping: 297 source codes, 185 approximate, 36 one-to-many, 26 with no map."
 
 cvd_390_429:
   long_name: "Cardiovascular conditions printed as ICD-9 390-429, without cerebrovascular or vascular codes"
@@ -61,7 +60,7 @@ cvd_390_429:
   treatment: ["air_pollution", "extreme_weather", "short_term"]
   icd9: ["390-429"]
   icd10: ["I00", "I010", "I011", "I012", "I018", "I019", "I020", "I029", "I050", "I051", "I052", "I058", "I060", "I061", "I062", "I068", "I069", "I071", "I072", "I078", "I080", "I088", "I089", "I090", "I091", "I092", "I0981", "I0989", "I099", "I10", "I110", "I119", "I120", "I129", "I130", "I1310", "I1311", "I132", "I150", "I158", "I169", "I200", "I201", "I208", "I209", "I2109", "I2111", "I2119", "I2129", "I213", "I214", "I219", "I21A1", "I21A9", "I230", "I240", "I241", "I248", "I2510", "I252", "I253", "I2541", "I2542", "I255", "I25810", "I25811", "I25812", "I2582", "I2583", "I2584", "I2589", "I259", "I2609", "I2690", "I2692", "I2699", "I270", "I271", "I2720", "I2721", "I2722", "I2723", "I2724", "I2729", "I2781", "I2782", "I2789", "I279", "I280", "I281", "I288", "I289", "I300", "I308", "I309", "I310", "I311", "I312", "I314", "I318", "I319", "I32", "I330", "I339", "I340", "I348", "I350", "I351", "I352", "I358", "I359", "I360", "I368", "I370", "I378", "I38", "I39", "I400", "I401", "I408", "I409", "I41", "I421", "I422", "I423", "I424", "I425", "I426", "I427", "I428", "I43", "I440", "I441", "I442", "I4430", "I4439", "I444", "I445", "I4460", "I4469", "I447", "I4510", "I452", "I453", "I454", "I455", "I456", "I4581", "I4589", "I459", "I469", "I471", "I472", "I479", "I4891", "I4892", "I4901", "I4902", "I491", "I493", "I4940", "I4949", "I495", "I498", "I499", "I501", "I5020", "I5021", "I5022", "I5023", "I5030", "I5031", "I5032", "I5033", "I5040", "I5041", "I5042", "I5043", "I50810", "I50811", "I50812", "I50813", "I50814", "I5082", "I5083", "I5084", "I5089", "I509", "I510", "I511", "I512", "I513", "I514", "I515", "I517", "I5181", "I5189", "I519", "I970", "I97110", "I97130", "I97190", "R001", "T800XXA", "T81718A", "T8172XA", "T82817A", "T82818A"]
-  note: "ICD-10 codes not printed; source: GEM 2018. Criteria not stated by 1 paper(s), assigned here. Flag: review GEM mapping: 250 source codes, 167 approximate, 26 one-to-many, 20 with no map."
+  note: "Kept as printed. Printed as all CVD, but 390-429 covers heart conditions and excludes stroke (430-438) and blood vessel disease (440-459). Criteria not stated by 1 paper(s), assigned here."
 
 cvd_composite_seven:
   long_name: "Composite of seven cardiovascular subtypes"
@@ -73,6 +72,7 @@ cvd_composite_seven:
   treatment: ["air_pollution", "long_term"]
   icd9: ["39891", "40201", "40211", "40291", "40401", "40403", "40411", "40413", "40491", "40493", "410-414", "424-428", "430-438", "441", "7850"]
   icd10: ["I20-I25", "I34-I39", "I42", "I44-I45", "I47-I50", "I60-I69", "I71", "R000", "R001", "R008", "R9431", "T821", "T8211", "T82110", "T82111", "T82118", "T82119", "Z450", "Z4501", "Z45010", "Z45018", "Z4502", "Z4509", "Z950"]
+  note: "Kept as printed. The cerebrovascular part lists I64.x, which is not in the US ICD-10-CM, so it matches no US claims and changes no count."
 
 ischemic_heart:
   long_name: "Ischemic or coronary heart disease"
@@ -104,7 +104,6 @@ ischemic_heart_429:
   treatment: ["air_pollution", "long_term", "short_term"]
   icd9: ["410-414", "429"]
   icd10: ["I200", "I201", "I208", "I209", "I2109", "I2111", "I2119", "I2129", "I213", "I214", "I219", "I21A1", "I21A9", "I230", "I240", "I241", "I248", "I2510", "I252", "I253", "I2541", "I2542", "I255", "I25810", "I25811", "I25812", "I2582", "I2583", "I2584", "I2589", "I259", "I510", "I511", "I512", "I513", "I514", "I515", "I517", "I5181", "I5189", "I519", "I970", "I97110", "I97130", "I97190"]
-  note: "ICD-10 codes not printed; source: GEM 2018. Flag: review GEM mapping: 81 source codes, 56 approximate, 7 one-to-many, 12 with no map."
 
 mi_acute:
   long_name: "Acute myocardial infarction, initial episode or unspecified (410.x0, 410.x1)"
@@ -133,7 +132,6 @@ mi_410:
   treatment: ["air_pollution", "short_term"]
   icd9: ["410"]
   icd10: ["I2109", "I2111", "I2119", "I2129", "I213", "I214", "I219", "I21A1", "I21A9"]
-  note: "ICD-10 codes not printed; source: GEM 2018. Flag: review GEM mapping: 40 source codes, 30 approximate, 3 one-to-many, 10 with no map."
 
 mi_4109:
   long_name: "Acute myocardial infarction, unspecified site (ICD-9 410.9)"
@@ -145,7 +143,6 @@ mi_4109:
   treatment: ["air_pollution", "short_term"]
   icd9: ["4109"]
   icd10: ["I213", "I219", "I21A1", "I21A9"]
-  note: "ICD-10 codes not printed; source: GEM 2018. Flag: review GEM mapping: 4 source codes, 3 approximate, 3 one-to-many, 1 with no map."
 
 chf:
   long_name: "Heart failure"
@@ -190,7 +187,6 @@ arrhythmia:
   treatment: ["air_pollution", "long_term", "short_term"]
   icd9: ["426-427"]
   icd10: ["I440", "I441", "I442", "I4430", "I4439", "I444", "I445", "I4460", "I4469", "I447", "I4510", "I452", "I453", "I454", "I455", "I456", "I4581", "I4589", "I459", "I469", "I471", "I472", "I479", "I4891", "I4892", "I4901", "I4902", "I491", "I493", "I4940", "I4949", "I495", "I498", "I499", "R001"]
-  note: "ICD-10 codes not printed; source: GEM 2018. Flag: review GEM mapping: 33 source codes, 20 approximate, 5 one-to-many, 0 with no map."
 
 arrhythmia_broad:
   long_name: "Arrhythmia, including abnormal heartbeat and cardiac device codes"
@@ -255,6 +251,7 @@ cerebrovascular:
   treatment: ["air_pollution", "extreme_weather", "long_term", "short_term"]
   icd9: ["430-438"]
   icd10: ["I60-I69"]
+  note: "Kept as printed. 10_1136_bmj_2023_076939 lists I64.x within I60-I69. I64 is not in the US ICD-10-CM, so it matches no US claims and changes no count."
 
 stroke_ischemic:
   long_name: "Ischemic stroke"
@@ -269,7 +266,7 @@ stroke_ischemic:
   treatment: ["air_pollution", "extreme_weather", "long_term"]
   icd9: ["43301", "43311", "43321", "43331", "43381", "43391", "43401", "43411", "43491", "436"]
   icd10: ["I63"]
-  note: "Typo corrected: 10_1016_j_envint_2025_109617 prints I163, read as I63. Typo corrected: 10_1016_j_envres_2025_122779 prints I163, read as I63."
+  note: "Typo corrected: 10_1016_j_envint_2025_109617, 10_1016_j_envres_2025_122779 prints I163, read as I63 (decision 3)."
 
 stroke_43491:
   long_name: "Ischemic stroke, cerebral artery occlusion unspecified (ICD-9 434.91)"
@@ -281,7 +278,6 @@ stroke_43491:
   treatment: ["air_pollution", "short_term"]
   icd9: ["43491"]
   icd10: ["I6350"]
-  note: "ICD-10 codes not printed; source: GEM 2018. Flag: review GEM mapping: 1 source codes, 1 approximate, 0 one-to-many, 0 with no map."
 
 peripheral_vascular:
   long_name: "Peripheral vascular disease"
@@ -297,7 +293,6 @@ peripheral_vascular:
   treatment: ["air_pollution", "long_term", "short_term"]
   icd9: ["440-448"]
   icd10: ["I700", "I701", "I70209", "I70219", "I70229", "I7025", "I70269", "I70299", "I70399", "I70499", "I70599", "I708", "I7090", "I7091", "I7092", "I7100", "I7101", "I7102", "I7103", "I711", "I712", "I713", "I714", "I715", "I716", "I718", "I719", "I720", "I721", "I722", "I723", "I724", "I725", "I726", "I728", "I729", "I7300", "I731", "I7381", "I7389", "I739", "I7401", "I7409", "I7411", "I742", "I743", "I745", "I748", "I749", "I75019", "I75029", "I7581", "I7589", "I770", "I771", "I772", "I773", "I774", "I775", "I776", "I7771", "I7772", "I7773", "I7774", "I7775", "I7776", "I7777", "I7779", "I77810", "I77811", "I77812", "I77819", "I7789", "I779", "I780", "I781", "I788", "I789", "I798", "M300", "M303", "M310", "M311", "M312", "M3130", "M314", "M316"]
-  note: "ICD-10 codes not printed; source: GEM 2018. Flag: review GEM mapping: 89 source codes, 35 approximate, 5 one-to-many, 4 with no map."
 
 aortic_aneurysm:
   long_name: "Thoracic and abdominal aortic aneurysms"
@@ -339,7 +334,7 @@ resp_infection_copd:
   treatment: ["air_pollution", "extreme_weather", "short_term"]
   icd9: ["464-466", "480-487", "490-492"]
   icd10: ["A221", "A3791", "A481", "B250", "B440", "J040", "J0410", "J0411", "J042", "J0430", "J0431", "J050", "J0510", "J0511", "J060", "J069", "J101", "J1100", "J111", "J112", "J1181", "J1189", "J120", "J121", "J122", "J1281", "J1289", "J129", "J13", "J14", "J150", "J151", "J1520", "J15211", "J15212", "J1529", "J153", "J154", "J155", "J156", "J157", "J158", "J159", "J160", "J168", "J17", "J180", "J181", "J189", "J209", "J210", "J218", "J40", "J410", "J411", "J418", "J42", "J439", "J440", "J441", "J449"]
-  note: "Typo corrected: 10_1038_jes_2013_39 prints 490-448, read as 490-492. Typo corrected: 10_1038_jes_2013_39 prints 480-497, read as 480-487. ICD-10 codes not printed; source: GEM 2018. Flag: review GEM mapping: 72 source codes, 31 approximate, 4 one-to-many, 7 with no map."
+  note: "Typo corrected: 10_1038_jes_2013_39 prints 480-497, read as 480-487 (decision 2). Typo corrected: 10_1038_jes_2013_39 prints 490-448, read as 490-492 (decision 1)."
 
 resp_infection_copd_494:
   long_name: "Respiratory disease as infections plus COPD, with ICD-9 494-496"
@@ -351,7 +346,7 @@ resp_infection_copd_494:
   treatment: ["air_pollution", "short_term"]
   icd9: ["464-466", "480-487", "490-492", "494-496"]
   icd10: ["J069", "J189", "J209", "J40-J42", "J439", "J44", "J471", "J479", "J67"]
-  note: "Flag: ICD-9 and ICD-10 may not cover the same conditions: GEM overlap icd9_to_icd10 0.33."
+  note: "Kept as printed, as an exception to the coverage cutoff: overlap 24 of 73 (33%) from ICD-9 to ICD-10, but the authors evaluated this ICD-9 to ICD-10 conversion and deemed it acceptable."
 
 resp_infection_copd_asthma:
   long_name: "Respiratory disease as infections, COPD and asthma"
@@ -363,8 +358,8 @@ resp_infection_copd_asthma:
     - "10_1097_ede_0000000000001337"
   treatment: ["extreme_weather", "short_term"]
   icd9: ["464-466", "480-487", "490-493"]
-  icd10: ["J069", "J189", "J209", "J40", "J410", "J411", "J418", "J42", "J439", "J440", "J441", "J449", "J471", "J479", "J670-J679"]
-  note: "Criteria not stated by 2 paper(s), assigned here. Flag: ICD-9 and ICD-10 may not cover the same conditions: GEM overlap icd9_to_icd10 0.17, icd10_to_icd9 0.57."
+  icd10: ["A221", "A3791", "A481", "B250", "B440", "J040", "J0410", "J0411", "J042", "J0430", "J0431", "J050", "J0510", "J0511", "J060", "J069", "J101", "J1100", "J111", "J112", "J1181", "J1189", "J120", "J121", "J122", "J1281", "J1289", "J129", "J13", "J14", "J150", "J151", "J1520", "J15211", "J15212", "J1529", "J153", "J154", "J155", "J156", "J157", "J158", "J159", "J160", "J168", "J17", "J180", "J181", "J189", "J209", "J210", "J218", "J40", "J410", "J411", "J418", "J42", "J439", "J440", "J441", "J449", "J4520", "J4521", "J4522", "J45901", "J45902", "J45909", "J45990", "J45991", "J45998"]
+  note: "Split for low coverage: overlap 12 of 70 (17%) from ICD-9 to ICD-10, and 17 of 30 (57%) from ICD-10 to ICD-9. The paper's ICD-10 list is much shorter than its ICD-9 ranges. Criteria not stated by 2 paper(s), assigned here."
 
 resp_infection:
   long_name: "Respiratory tract infections"
@@ -378,7 +373,6 @@ resp_infection:
   treatment: ["air_pollution", "long_term", "short_term"]
   icd9: ["464-466", "480-487"]
   icd10: ["A221", "A3791", "A481", "B250", "B440", "J040", "J0410", "J0411", "J042", "J0430", "J0431", "J050", "J0510", "J0511", "J060", "J069", "J101", "J1100", "J111", "J112", "J1181", "J1189", "J120", "J121", "J122", "J1281", "J1289", "J129", "J13", "J14", "J150", "J151", "J1520", "J15211", "J15212", "J1529", "J153", "J154", "J155", "J156", "J157", "J158", "J159", "J160", "J168", "J17", "J180", "J181", "J189", "J209", "J210", "J218"]
-  note: "ICD-10 codes not printed; source: GEM 2018. Flag: review GEM mapping: 61 source codes, 25 approximate, 4 one-to-many, 6 with no map."
 
 pneumonia:
   long_name: "Pneumonia and influenza"
@@ -390,7 +384,6 @@ pneumonia:
   treatment: ["air_pollution", "short_term"]
   icd9: ["480-487"]
   icd10: ["A221", "A3791", "A481", "B250", "B440", "J101", "J1100", "J111", "J112", "J1181", "J1189", "J120", "J121", "J122", "J1281", "J1289", "J129", "J13", "J14", "J150", "J151", "J1520", "J15211", "J15212", "J1529", "J153", "J154", "J155", "J156", "J157", "J158", "J159", "J160", "J168", "J17", "J180", "J181", "J189"]
-  note: "ICD-10 codes not printed; source: GEM 2018. Flag: review GEM mapping: 42 source codes, 18 approximate, 4 one-to-many, 4 with no map."
 
 pneumonia_486:
   long_name: "Pneumonia, organism unspecified (ICD-9 486)"
@@ -402,7 +395,7 @@ pneumonia_486:
   treatment: ["air_pollution", "short_term"]
   icd9: ["486"]
   icd10: ["J189"]
-  note: "ICD-10 codes not printed; source: GEM 2018. Criteria not stated by 1 paper(s), assigned here. Flag: review GEM mapping: 1 source codes, 1 approximate, 0 one-to-many, 0 with no map."
+  note: "Criteria not stated by 1 paper(s), assigned here."
 
 pneumonia_broad:
   long_name: "Pneumonia, including pneumonia codes from infectious disease chapters"
@@ -414,7 +407,6 @@ pneumonia_broad:
   treatment: ["air_pollution", "long_term"]
   icd9: ["00322", "0116", "0551", "0730", "11505", "11515", "11595", "480-486", "4870", "48801", "48811", "48881", "5163", "5171", "99732"]
   icd10: ["A0103", "A0222", "A202", "A212", "A221", "A3701", "A3711", "A3781", "A3791", "A420", "A430", "A481", "A5484", "A698", "B012", "B052", "B0681", "B250", "B371", "B380", "B390", "B440", "B441", "B583", "B59", "B7781", "J09X1", "J100", "J110", "J12-J15", "J17-J18", "J842", "J851", "J95851"]
-  note: "Flag: ICD-9 and ICD-10 may not cover the same conditions: GEM overlap icd10_to_icd9 0.62."
 
 copd:
   long_name: "Chronic obstructive pulmonary disease, ICD-9 490-492"
@@ -428,7 +420,6 @@ copd:
   treatment: ["air_pollution", "long_term", "short_term"]
   icd9: ["490-492"]
   icd10: ["J40", "J410", "J411", "J418", "J42", "J439", "J440", "J441", "J449"]
-  note: "ICD-10 codes not printed; source: GEM 2018. Flag: review GEM mapping: 11 source codes, 6 approximate, 0 one-to-many, 1 with no map."
 
 copd_494:
   long_name: "Chronic obstructive pulmonary disease, ICD-9 490-492 and 494-496"
@@ -440,7 +431,6 @@ copd_494:
   treatment: ["air_pollution", "short_term"]
   icd9: ["490-492", "494-496"]
   icd10: ["J40", "J410", "J411", "J418", "J42", "J439", "J440", "J441", "J449", "J471", "J479", "J670", "J671", "J672", "J673", "J674", "J675", "J676", "J677", "J678", "J679"]
-  note: "ICD-10 codes not printed; source: GEM 2018. Flag: review GEM mapping: 25 source codes, 8 approximate, 0 one-to-many, 2 with no map."
 
 ards:
   long_name: "Acute respiratory distress syndrome"
@@ -452,34 +442,9 @@ ards:
   treatment: ["air_pollution", "long_term"]
   icd9: ["51851", "51852", "51853", "51882"]
   icd10: ["J80", "J951", "J952", "J953", "J95821", "J95822", "J9600", "J9620", "R0603"]
-  note: "ICD-10 codes not printed; source: GEM 2018. Flag: review GEM mapping: 4 source codes, 4 approximate, 4 one-to-many, 0 with no map."
 
-parkinson_332_first10:
+parkinson_332:
   long_name: "Parkinson's disease, ICD-9 332"
-  criteria: "any of the first 10 diagnosis fields"
-  outcome_criteria: "first_n"
-  first_n: 10
-  paper_id:
-    - "10_1038_s41531_024_00815_x"
-  treatment: ["air_pollution", "long_term"]
-  icd9: ["332"]
-  icd10: ["G20"]
-  note: "Flag: ICD-9 and ICD-10 may not cover the same conditions: GEM overlap icd9_to_icd10 0.25."
-
-parkinson_332_principal:
-  long_name: "Parkinson's disease, ICD-9 332"
-  criteria: "principal diagnosis"
-  outcome_criteria: "first_n"
-  first_n: 1
-  paper_id:
-    - "10_1186_1476_069x_13_38"
-  treatment: ["air_pollution", "short_term"]
-  icd9: ["332"]
-  icd10: ["G20"]
-  note: "ICD-10 codes not printed; source: paper pairing: parkinson_332. Flag: ICD-9 and ICD-10 may not cover the same conditions: GEM overlap icd9_to_icd10 0.25."
-
-parkinson_332_g21_principal:
-  long_name: "Parkinson's disease, ICD-9 332, with ICD-10 G21 secondary parkinsonism codes"
   criteria: "principal diagnosis"
   outcome_criteria: "first_n"
   first_n: 1
@@ -488,7 +453,6 @@ parkinson_332_g21_principal:
   treatment: ["air_pollution", "short_term"]
   icd9: ["332"]
   icd10: ["G20", "G2111", "G2119", "G218"]
-  note: "ICD-10 codes not printed; source: paper pairing: parkinson_332_g21."
 
 parkinson_332_g21:
   long_name: "Parkinson's disease, ICD-9 332, with ICD-10 G21 secondary parkinsonism codes"
@@ -509,11 +473,12 @@ parkinson_3320:
   first_n: 10
   paper_id:
     - "10_1038_s41370_026_00882_7"
+    - "10_1038_s41531_024_00815_x"
     - "10_1097_ee9_0000000000000519"
   treatment: ["air_pollution", "extreme_weather", "long_term", "short_term"]
   icd9: ["3320"]
   icd10: ["G20"]
-  note: "Typo corrected: 10_1097_ee9_0000000000000519 prints 332/332.0, read as 3320."
+  note: "Ambiguous, not a clear typo: the paper prints 332/332.0, and it is not clear which it used. Read as 332.0, which means the same condition as its ICD-10 code G20. The other reading, 332, would also include secondary parkinsonism (332.1). Split for low coverage: overlap 1 of 4 (25%) from ICD-9 to ICD-10. 332 also includes secondary parkinsonism (332.1), and G20 does not. The two parts match existing definitions."
 
 adrd_ccw_any:
   long_name: "Alzheimer's disease and related dementias, CMS Chronic Conditions Warehouse list"
@@ -548,7 +513,6 @@ dementia_ccw:
   treatment: ["air_pollution", "long_term"]
   icd9: ["2900", "29020", "29021", "2903", "29040", "29041", "29042", "29043", "2912", "2940", "2941", "29410", "29411", "3310", "3311", "33111", "33119", "3312", "3317", "33182"]
   icd10: ["F0150", "F0151", "F0280", "F0281", "F0390", "F04", "F05", "F1027", "G309", "G3101", "G3109", "G311", "G3183", "G94"]
-  note: "ICD-10 codes not printed; source: GEM 2018. Flag: review GEM mapping: 20 source codes, 12 approximate, 2 one-to-many, 2 with no map."
 
 dementia_290:
   long_name: "Dementia, ICD-9 290"
@@ -560,7 +524,6 @@ dementia_290:
   treatment: ["air_pollution", "short_term"]
   icd9: ["290"]
   icd10: ["F0150", "F0151", "F0390", "F05"]
-  note: "ICD-10 codes not printed; source: GEM 2018. Flag: review GEM mapping: 14 source codes, 14 approximate, 3 one-to-many, 0 with no map."
 
 alzheimers_principal:
   long_name: "Alzheimer's disease, ICD-9 331.0"
@@ -572,7 +535,6 @@ alzheimers_principal:
   treatment: ["air_pollution", "short_term"]
   icd9: ["3310"]
   icd10: ["G309"]
-  note: "ICD-10 codes not printed; source: GEM 2018. Flag: review GEM mapping: 1 source codes, 1 approximate, 0 one-to-many, 0 with no map."
 
 alzheimers_any:
   long_name: "Alzheimer's disease"
@@ -583,18 +545,6 @@ alzheimers_any:
   treatment: []
   icd9: ["3310"]
   icd10: ["G300", "G301", "G308", "G309"]
-  note: "ICD-9 codes not printed; source: GEM 2018. Flag: review GEM mapping: 4 source codes, 4 approximate, 0 one-to-many, 0 with no map."
-
-adrd_shi:
-  long_name: "Alzheimer's disease and related dementias, short definition"
-  criteria: "any diagnosis"
-  outcome_criteria: "all"
-  paper_id:
-    - "10_1016_s2542_5196_20_30227_8"
-  treatment: ["air_pollution", "long_term"]
-  icd9: ["290", "3310"]
-  icd10: ["F05", "G309"]
-  note: "Flag: ICD-9 and ICD-10 may not cover the same conditions: GEM overlap icd9_to_icd10 0.40, icd10_to_icd9 0.33."
 
 dementia_vascular:
   long_name: "Vascular dementia"
@@ -605,7 +555,6 @@ dementia_vascular:
   treatment: []
   icd9: ["29040", "29041"]
   icd10: ["F0150", "F0151"]
-  note: "ICD-9 codes not printed; source: GEM 2018. Flag: review GEM mapping: 4 source codes, 2 approximate, 0 one-to-many, 2 with no map."
 
 dementia_nonspecific:
   long_name: "Non-specific dementia"
@@ -616,7 +565,6 @@ dementia_nonspecific:
   treatment: []
   icd9: ["2900", "29010", "29011", "29013", "29021", "2908", "2909", "29410", "29411", "29420", "29421", "3309", "33119", "3312", "33189", "3319"]
   icd10: ["F0280", "F0281", "F0390", "F0391", "G3109", "G311", "G3189", "G319"]
-  note: "ICD-9 codes not printed; source: GEM 2018. Flag: review GEM mapping: 12 source codes, 3 approximate, 2 one-to-many, 4 with no map."
 
 dementia_picks:
   long_name: "Pick's disease"
@@ -627,7 +575,6 @@ dementia_picks:
   treatment: []
   icd9: ["33111"]
   icd10: ["G3101"]
-  note: "ICD-9 codes not printed; source: GEM 2018."
 
 neurocognitive:
   long_name: "Neurocognitive disorder"
@@ -638,7 +585,6 @@ neurocognitive:
   treatment: []
   icd9: ["3316", "33182"]
   icd10: ["G3183", "G3185"]
-  note: "ICD-9 codes not printed; source: GEM 2018."
 
 cerebral_degenerations:
   long_name: "Cerebral degenerations, ICD-9 331"
@@ -650,7 +596,7 @@ cerebral_degenerations:
   treatment: ["air_pollution", "short_term"]
   icd9: ["331"]
   icd10: ["G309", "G3101", "G3109", "G311", "G3183", "G3184", "G3185", "G3189", "G319", "G910", "G911", "G912", "G937", "G94"]
-  note: "ICD-10 codes not printed; source: GEM 2018. Criteria not stated by 1 paper(s), assigned here. Flag: review GEM mapping: 15 source codes, 5 approximate, 0 one-to-many, 1 with no map."
+  note: "Criteria not stated by 1 paper(s), assigned here."
 
 multiple_sclerosis:
   long_name: "Multiple sclerosis"
@@ -662,7 +608,6 @@ multiple_sclerosis:
   treatment: ["air_pollution", "short_term"]
   icd9: ["340"]
   icd10: ["G35"]
-  note: "ICD-10 codes not printed; source: GEM 2018."
 
 depression:
   long_name: "Depression"
@@ -750,7 +695,7 @@ uti:
   treatment: ["air_pollution", "short_term"]
   icd9: ["5990"]
   icd10: ["N390"]
-  note: "Typo corrected: 10_1016_j_scitotenv_2020_142524 prints 559, read as 5990. ICD-10 codes not printed; source: GEM 2018. Criteria not stated by 1 paper(s), assigned here."
+  note: "Typo corrected: 10_1016_j_scitotenv_2020_142524 prints 559, read as 5990 (decision 4). Criteria not stated by 1 paper(s), assigned here."
 
 dehydration:
   long_name: "Dehydration"
@@ -772,7 +717,6 @@ diabetes:
   treatment: ["air_pollution", "short_term"]
   icd9: ["250"]
   icd10: ["E1010", "E1011", "E1021", "E1029", "E10311", "E10319", "E1036", "E1037X1", "E1037X2", "E1037X3", "E1037X9", "E1039", "E1040", "E1051", "E10618", "E10620", "E10621", "E10622", "E10628", "E10630", "E10638", "E10641", "E10649", "E1065", "E1069", "E108", "E109", "E1100", "E1101", "E1110", "E1111", "E1121", "E1129", "E11311", "E11319", "E1136", "E1139", "E1140", "E1151", "E11618", "E11620", "E11621", "E11622", "E11628", "E11630", "E11638", "E11641", "E11649", "E1165", "E1169", "E118", "E119", "E1310"]
-  note: "ICD-10 codes not printed; source: GEM 2018. Flag: review GEM mapping: 40 source codes, 40 approximate, 26 one-to-many, 0 with no map."
 
 heat_stroke:
   long_name: "Heat stroke and sunstroke"
@@ -785,18 +729,6 @@ heat_stroke:
   treatment: ["extreme_weather", "short_term"]
   icd9: ["9920"]
   icd10: ["T670XXA"]
-  note: "ICD-10 codes not printed; source: GEM 2018. Flag: review GEM mapping: 1 source codes, 1 approximate, 0 one-to-many, 0 with no map."
-
-heat_illness:
-  long_name: "Heat-related illness"
-  criteria: "any diagnosis"
-  outcome_criteria: "all"
-  paper_id:
-    - "10_1097_ee9_0000000000000395"
-  treatment: ["extreme_weather", "short_term"]
-  icd9: ["9920-9929"]
-  icd10: ["T673-T675"]
-  note: "Flag: ICD-9 and ICD-10 may not cover the same conditions: GEM overlap icd9_to_icd10 0.30, icd10_to_icd9 0.60."
 
 excessive_natural_heat:
   long_name: "Exposure to excessive natural heat"
@@ -807,7 +739,7 @@ excessive_natural_heat:
   treatment: ["extreme_weather", "short_term"]
   icd9: ["E900"]
   icd10: ["X30"]
-  note: "Flag: ICD-9 and ICD-10 may not cover the same conditions: GEM overlap icd9_to_icd10 0.50, icd10_to_icd9 0.50."
+  note: "Kept as printed, as an exception to the coverage cutoff: overlap 1 of 2 (50%) in each direction rests on too few codes. A split would add side effects of the mapping, W92 (man-made heat) and E929.5 (late effect of natural heat)."
 
 hip_fracture:
   long_name: "Hip fractures"
@@ -819,7 +751,7 @@ hip_fracture:
   treatment: ["air_pollution", "short_term"]
   icd9: ["820"]
   icd10: ["S72009A", "S72009B", "S72009C", "S72019A", "S72019B", "S72019C", "S72023A", "S72023B", "S72023C", "S72026A", "S72026B", "S72026C", "S72033A", "S72033B", "S72033C", "S72036A", "S72036B", "S72036C", "S72043A", "S72043B", "S72043C", "S72046A", "S72046B", "S72046C", "S72099A", "S72099B", "S72099C", "S72109A", "S72109B", "S72109C", "S72143A", "S72143B", "S72143C", "S72146A", "S72146B", "S72146C", "S7223XA", "S7223XB", "S7223XC", "S7226XA", "S7226XB", "S7226XC"]
-  note: "ICD-10 codes not printed; source: GEM 2018. Criteria not stated by 1 paper(s), assigned here. Flag: review GEM mapping: 18 source codes, 18 approximate, 14 one-to-many, 0 with no map."
+  note: "Criteria not stated by 1 paper(s), assigned here."
 
 pancreatic_cancer:
   long_name: "Pancreatic cancer"
@@ -831,7 +763,6 @@ pancreatic_cancer:
   treatment: []
   icd9: ["157"]
   icd10: ["C250", "C251", "C252", "C253", "C254", "C257", "C258", "C259"]
-  note: "ICD-10 codes not printed; source: GEM 2018. Flag: review GEM mapping: 7 source codes, 1 approximate, 1 one-to-many, 0 with no map."
 
 septicemia_ccs:
   long_name: "Septicemia, CCS group 2"
@@ -844,7 +775,6 @@ septicemia_ccs:
   treatment: ["air_pollution", "extreme_weather", "long_term", "short_term"]
   icd9: ["0031", "0202", "0223", "0362", "0380", "0381", "03810", "03811", "03812", "03819", "0382", "0383", "03840", "03841", "03842", "03843", "03844", "03849", "0388", "0389", "0545", "449", "77181", "7907", "99591", "99592"]
   icd10: ["A021", "A207", "A227", "A267", "A327", "A392", "A393", "A394", "A400", "A401", "A403", "A408", "A409", "A4101", "A4102", "A411", "A412", "A413", "A414", "A4150", "A4151", "A4152", "A4153", "A4159", "A4181", "A4189", "A419", "A427", "A5486", "B007", "B377", "I76", "O0337", "O0387", "O0487", "O0737", "O0882", "O85", "O8604", "P360", "P3610", "P3619", "P362", "P3630", "P3639", "P364", "P365", "P368", "P369", "R6520", "R6521", "T8112XA", "T8144XA"]
-  note: "ICD-9 codes not printed; source: official list: HCUP CCS 2015. ICD-10 codes not printed; source: official list: HCUP CCSR v2023.1; paper pairing: septicemia_ccs_ccsr. Flag: ICD-9 and ICD-10 may not cover the same conditions: GEM overlap icd10_to_icd9 0.63."
 
 diabetes_complications_ccs:
   long_name: "Diabetes mellitus with complications, CCS group 50"
@@ -856,7 +786,6 @@ diabetes_complications_ccs:
   treatment: ["extreme_weather", "short_term"]
   icd9: ["24901", "24910", "24911", "24920", "24921", "24930", "24931", "24940", "24941", "24950", "24951", "24960", "24961", "24970", "24971", "24980", "24981", "24990", "24991", "25002", "25003", "25010", "25011", "25012", "25013", "25020", "25021", "25022", "25023", "25030", "25031", "25032", "25033", "25040", "25041", "25042", "25043", "25050", "25051", "25052", "25053", "25060", "25061", "25062", "25063", "25070", "25071", "25072", "25073", "25080", "25081", "25082", "25083", "25090", "25091", "25092", "25093"]
   icd10: ["E0801", "E0810", "E0811", "E0821", "E08311", "E08319", "E0836", "E0837X1", "E0837X2", "E0837X3", "E0837X9", "E0839", "E0840", "E0841", "E0842", "E0843", "E0844", "E0849", "E0851", "E08610", "E08618", "E08620", "E08621", "E08622", "E08628", "E08630", "E08638", "E08641", "E0865", "E0869", "E088", "E0901", "E0910", "E0911", "E0921", "E09311", "E09319", "E0936", "E0937X1", "E0937X2", "E0937X3", "E0937X9", "E0939", "E0940", "E0941", "E0942", "E0943", "E0944", "E0949", "E0951", "E09610", "E09618", "E09620", "E09621", "E09622", "E09628", "E09630", "E09638", "E09641", "E09649", "E0965", "E0969", "E098", "E1010", "E1011", "E1021", "E1029", "E10311", "E10319", "E1036", "E1037X1", "E1037X2", "E1037X3", "E1037X9", "E1039", "E1040", "E1051", "E10618", "E10620", "E10621", "E10622", "E10628", "E10630", "E10638", "E10641", "E10649", "E1065", "E1069", "E108", "E1100", "E1101", "E1110", "E1111", "E1121", "E1129", "E11311", "E11319", "E1136", "E1139", "E1140", "E1151", "E11618", "E11620", "E11621", "E11622", "E11628", "E11630", "E11638", "E11641", "E11649", "E1165", "E1169", "E118", "E1300", "E1310", "E1311", "E1339", "E1340", "E1341", "E1342", "E1343", "E1344", "E1349", "E1359", "E13620", "E13621", "E13622", "E13628", "E13638", "E13641", "E13649", "E1365", "E1369", "E138"]
-  note: "ICD-9 codes not printed; source: official list: HCUP CCS 2015. ICD-10 codes not printed; source: GEM 2018. Flag: review GEM mapping: 57 source codes, 57 approximate, 45 one-to-many, 0 with no map."
 
 fluid_electrolyte_ccs:
   long_name: "Fluid and electrolyte disorders, CCS group 55"
@@ -868,7 +797,6 @@ fluid_electrolyte_ccs:
   treatment: ["extreme_weather", "short_term"]
   icd9: ["2760", "2761", "2762", "2763", "2764", "2765", "27650", "27651", "27652", "2766", "27669", "2767", "2768", "2769", "9951"]
   icd10: ["E860", "E861", "E869", "E870", "E871", "E872", "E873", "E874", "E875", "E876", "E8770", "E8771", "E8779", "E878", "T783XXA"]
-  note: "ICD-9 codes not printed; source: official list: HCUP CCS 2015. ICD-10 codes not printed; source: GEM 2018. Flag: review GEM mapping: 16 source codes, 2 approximate, 1 one-to-many, 2 with no map."
 
 peripheral_vascular_ccs:
   long_name: "Peripheral and visceral atherosclerosis, CCS group 114"
@@ -880,7 +808,6 @@ peripheral_vascular_ccs:
   treatment: ["extreme_weather", "short_term"]
   icd9: ["4400", "4401", "4402", "44020", "44021", "44022", "44023", "44029", "4404", "4408", "4409", "4439", "5570", "5571", "5579"]
   icd10: ["I700", "I701", "I70209", "I70219", "I70229", "I7025", "I70269", "I70299", "I708", "I7090", "I7091", "I7092", "I739", "K55011", "K55012", "K55019", "K55021", "K55022", "K55029", "K55031", "K55032", "K55039", "K55041", "K55042", "K55049", "K55051", "K55052", "K55059", "K55061", "K55062", "K55069", "K551", "K5530", "K5531", "K5532", "K5533", "K559"]
-  note: "ICD-9 codes not printed; source: official list: HCUP CCS 2015. ICD-10 codes not printed; source: GEM 2018. Flag: review GEM mapping: 16 source codes, 10 approximate, 2 one-to-many, 1 with no map."
 
 kidney_failure_ccs:
   long_name: "Acute and unspecified renal failure, CCS group 157"
@@ -892,7 +819,6 @@ kidney_failure_ccs:
   treatment: ["extreme_weather", "short_term"]
   icd9: ["5845", "5846", "5847", "5848", "5849", "586"]
   icd10: ["N170", "N171", "N172", "N178", "N179", "N19"]
-  note: "ICD-9 codes not printed; source: official list: HCUP CCS 2015. ICD-10 codes not printed; source: GEM 2018. Flag: review GEM mapping: 6 source codes, 2 approximate, 0 one-to-many, 0 with no map."
 
 uti_ccs:
   long_name: "Urinary tract infections, CCS group 159"
@@ -905,7 +831,7 @@ uti_ccs:
   treatment: ["air_pollution", "extreme_weather", "long_term", "short_term"]
   icd9: ["03284", "59000", "59001", "59010", "59011", "5902", "5903", "59080", "59081", "5909", "5950", "5951", "5952", "5953", "5954", "59581", "59582", "59589", "5959", "5970", "59780", "59781", "59789", "59800", "59801", "5990"]
   icd10: ["A0225", "A1810", "A1813", "A3685", "A5275", "A5401", "A5601", "A5903", "B3741", "B3749", "N10", "N110", "N111", "N118", "N119", "N12", "N136", "N151", "N3000", "N3001", "N3010", "N3011", "N3020", "N3021", "N3030", "N3031", "N3040", "N3041", "N3080", "N3081", "N3090", "N3091", "N340", "N341", "N342", "N343", "N390", "O2300", "O2301", "O2302", "O2303", "O2310", "O2311", "O2312", "O2313", "O2320", "O2321", "O2322", "O2323", "O2330", "O2331", "O2332", "O2333", "O2340", "O2341", "O2342", "O2343", "O8620", "O8621", "O8622", "O8629"]
-  note: "ICD-9 codes not printed; source: official list: HCUP CCS 2015. ICD-10 codes not printed; source: official list: HCUP CCSR v2023.1; paper pairing: uti_ccs_ccsr. Flag: ICD-9 and ICD-10 may not cover the same conditions: GEM overlap icd10_to_icd9 0.57. Flag: typo corrected: the paper prints CCSR GEN001 for urinary tract infection, read as GEN004, since GEN001 is nephritis."
+  note: "Typo corrected: 10_1038_s41467_024_45776_0 prints CCSR GEN001, read as CCSR GEN004 (decision 5)."
 
 heat_external_ccs:
   long_name: "Heat and other injuries and conditions due to external causes, CCS group 244"
@@ -917,7 +843,6 @@ heat_external_ccs:
   treatment: ["extreme_weather", "short_term"]
   icd9: ["7960", "7990", "79901", "79902", "9071", "9073", "9074", "9075", "9079", "9085", "9086", "9089", "9092", "9094", "9099", "9300", "9301", "9302", "9308", "9309", "931", "932", "9330", "9331", "9340", "9341", "9348", "9349", "9350", "9351", "9352", "936", "937", "938", "9390", "9391", "9392", "9393", "9399", "9500", "9501", "9502", "9503", "9509", "9510", "9511", "9512", "9513", "9514", "9515", "9516", "9517", "9518", "9519", "9530", "9531", "9532", "9533", "9534", "9535", "9538", "9539", "9540", "9541", "9548", "9549", "9550", "9551", "9552", "9553", "9554", "9555", "9556", "9557", "9558", "9559", "9560", "9561", "9562", "9563", "9564", "9565", "9568", "9569", "9570", "9571", "9578", "9579", "9580", "9581", "9582", "9583", "9584", "9585", "9586", "9587", "9588", "95890", "95891", "95892", "95893", "95899", "9590", "95901", "95909", "9591", "95911", "95912", "95913", "95914", "95919", "9592", "9593", "9594", "9595", "9596", "9597", "9598", "9599", "990", "9910", "9911", "9912", "9913", "9914", "9915", "9916", "9918", "9919", "9920", "9921", "9922", "9923", "9924", "9925", "9926", "9927", "9928", "9929", "9930", "9931", "9932", "9933", "9934", "9938", "9939", "9940", "9941", "9942", "9943", "9944", "9945", "9946", "9947", "9948", "9949", "9955", "99550", "99551", "99552", "99553", "99554", "99555", "99559", "99580", "99581", "99582", "99583", "99584", "99585", "99589", "99590", "99593", "99594", "V155", "V1551", "V1559", "V156", "V1588", "V713", "V714", "V716", "V9010", "V9011", "V9012", "V902", "V9031", "V9032", "V9033", "V9039", "V9081", "V9083", "V9089", "V909"]
   icd10: ["L599", "R0901", "R0902", "R6510", "R6511", "R825", "R826", "R892", "R893", "S04019A", "S0402XA", "S04039A", "S04049A", "S0410XA", "S0420XA", "S0430XA", "S0440XA", "S0450XA", "S0460XA", "S0470XA", "S04819A", "S04899A", "S049XXA", "S049XXS", "S098XXA", "S0990XA", "S0990XS", "S0993XA", "S142XXA", "S142XXS", "S143XXA", "S144XXA", "S145XXA", "S149XXA", "S149XXS", "S169XXS", "S199XXA", "S242XXA", "S242XXS", "S243XXA", "S244XXA", "S248XXA", "S249XXA", "S249XXS", "S298XXA", "S299XXS", "S3421XA", "S3421XS", "S3422XA", "S3422XS", "S344XXA", "S345XXA", "S346XXA", "S349XXA", "S349XXS", "S3981XA", "S3982XA", "S39840A", "S39848A", "S3991XS", "S3992XS", "S3993XS", "S3994XS", "S4400XA", "S4410XA", "S4420XA", "S4430XA", "S4440XA", "S4450XA", "S448X9A", "S4490XA", "S4490XS", "S4980XA", "S4990XA", "S4990XS", "S5400XA", "S5410XA", "S5420XA", "S5430XA", "S5490XS", "S59809A", "S59819A", "S59909A", "S59909S", "S59919A", "S6400XA", "S6410XA", "S6420XA", "S6430XA", "S6440XA", "S6490XS", "S6980XA", "S6990XA", "S6990XS", "S7400XA", "S7410XA", "S7420XA", "S748X9A", "S7490XA", "S7490XS", "S79819A", "S79829A", "S79919A", "S79919S", "S79929A", "S79929S", "S8400XA", "S8410XA", "S8420XA", "S84809A", "S8490XA", "S8490XS", "S8980XA", "S8990XA", "S8990XS", "S9430XA", "S948X9A", "S9490XA", "S9490XS", "S99819A", "S99919A", "S99919S", "S99929S", "T07XXXA", "T07XXXS", "T1490XA", "T1500XA", "T1501XA", "T1502XA", "T1510XA", "T1511XA", "T1512XA", "T1580XA", "T1581XA", "T1582XA", "T1590XA", "T1590XS", "T1591XA", "T1592XA", "T161XXA", "T162XXA", "T169XXA", "T169XXS", "T170XXA", "T171XXA", "T171XXS", "T17200A", "T17208A", "T17210A", "T17218A", "T17220A", "T17228A", "T17290A", "T17298A", "T17300A", "T17308A", "T17310A", "T17318A", "T17320A", "T17328A", "T17390A", "T17398A", "T17400A", "T17408A", "T17410A", "T17418A", "T17420A", "T17428A", "T17490A", "T17498A", "T17500A", "T17508A", "T17510A", "T17518A", "T17520A", "T17528A", "T17590A", "T17598A", "T17800A", "T17808A", "T17810A", "T17818A", "T17820A", "T17828A", "T17890A", "T17898A", "T17900A", "T17900S", "T17908A", "T17910A", "T17918A", "T17920A", "T17928A", "T17990A", "T17998A", "T180XXA", "T180XXS", "T18100A", "T18108A", "T18110A", "T18118A", "T18120A", "T18128A", "T18190A", "T18198A", "T182XXA", "T183XXA", "T184XXA", "T185XXA", "T188XXA", "T189XXA", "T189XXS", "T190XXA", "T191XXA", "T192XXA", "T193XXA", "T194XXA", "T198XXA", "T199XXA", "T199XXS", "T3309XA", "T33529A", "T33829A", "T33839A", "T3390XA", "T3399XA", "T3409XA", "T34529A", "T34829A", "T3490XA", "T3499XA", "T66XXXA", "T670XXA", "T671XXA", "T672XXA", "T673XXA", "T674XXA", "T675XXA", "T676XXA", "T677XXA", "T678XXA", "T679XXA", "T68XXXA", "T69029A", "T691XXA", "T698XXA", "T699XXA", "T700XXA", "T701XXA", "T7020XA", "T7029XA", "T703XXA", "T704XXA", "T708XXA", "T709XXA", "T71111A", "T71112A", "T71113A", "T71114A", "T71121A", "T71122A", "T71123A", "T71124A", "T71131A", "T71132A", "T71133A", "T71134A", "T71141A", "T71143A", "T71144A", "T71151A", "T71152A", "T71153A", "T71154A", "T71161A", "T71162A", "T71163A", "T71164A", "T71191A", "T71192A", "T71193A", "T71194A", "T7120XA", "T7121XA", "T71221A", "T71222A", "T71223A", "T71224A", "T71231A", "T71232A", "T71233A", "T71234A", "T7129XA", "T719XXA", "T730XXA", "T731XXA", "T732XXA", "T733XXA", "T738XXA", "T739XXA", "T7401XA", "T7402XA", "T7411XA", "T7412XA", "T7421XA", "T7422XA", "T7431XA", "T7432XA", "T744XXA", "T7491XA", "T7492XA", "T7500XA", "T7501XA", "T751XXA", "T753XXA", "T754XXA", "T7589XA", "T7589XS", "T7601XA", "T7602XA", "T7611XA", "T7612XA", "T7621XA", "T7622XA", "T7631XA", "T7632XA", "T7691XA", "T7692XA", "T788XXS", "T790XXA", "T791XXA", "T792XXA", "T794XXA", "T795XXA", "T796XXA", "T797XXA", "T798XXA", "T799XXS", "T79A0XA", "T79A19A", "T79A29A", "T79A3XA", "T79A9XA", "T8851XA", "Z042", "Z043", "Z048", "Z1810", "Z1811", "Z1812", "Z182", "Z1831", "Z1832", "Z1833", "Z1839", "Z1881", "Z1883", "Z1889", "Z189", "Z8781", "Z87820", "Z87821", "Z87828", "Z9181", "Z9189"]
-  note: "ICD-9 codes not printed; source: official list: HCUP CCS 2015. ICD-10 codes not printed; source: GEM 2018. Flag: review GEM mapping: 196 source codes, 171 approximate, 68 one-to-many, 5 with no map."
 
 heat_composite_ccs:
   long_name: "Heat-related hospitalizations, composite of 7 CCS groups"
@@ -929,7 +854,7 @@ heat_composite_ccs:
   treatment: ["extreme_weather", "short_term"]
   icd9: ["0031", "0202", "0223", "03284", "0362", "0380", "0381", "03810", "03811", "03812", "03819", "0382", "0383", "03840", "03841", "03842", "03843", "03844", "03849", "0388", "0389", "0545", "24901", "24910", "24911", "24920", "24921", "24930", "24931", "24940", "24941", "24950", "24951", "24960", "24961", "24970", "24971", "24980", "24981", "24990", "24991", "25002", "25003", "25010", "25011", "25012", "25013", "25020", "25021", "25022", "25023", "25030", "25031", "25032", "25033", "25040", "25041", "25042", "25043", "25050", "25051", "25052", "25053", "25060", "25061", "25062", "25063", "25070", "25071", "25072", "25073", "25080", "25081", "25082", "25083", "25090", "25091", "25092", "25093", "2760", "2761", "2762", "2763", "2764", "2765", "27650", "27651", "27652", "2766", "27669", "2767", "2768", "2769", "4400", "4401", "4402", "44020", "44021", "44022", "44023", "44029", "4404", "4408", "4409", "4439", "449", "5570", "5571", "5579", "5845", "5846", "5847", "5848", "5849", "586", "59000", "59001", "59010", "59011", "5902", "5903", "59080", "59081", "5909", "5950", "5951", "5952", "5953", "5954", "59581", "59582", "59589", "5959", "5970", "59780", "59781", "59789", "59800", "59801", "5990", "77181", "7907", "7960", "7990", "79901", "79902", "9071", "9073", "9074", "9075", "9079", "9085", "9086", "9089", "9092", "9094", "9099", "9300", "9301", "9302", "9308", "9309", "931", "932", "9330", "9331", "9340", "9341", "9348", "9349", "9350", "9351", "9352", "936", "937", "938", "9390", "9391", "9392", "9393", "9399", "9500", "9501", "9502", "9503", "9509", "9510", "9511", "9512", "9513", "9514", "9515", "9516", "9517", "9518", "9519", "9530", "9531", "9532", "9533", "9534", "9535", "9538", "9539", "9540", "9541", "9548", "9549", "9550", "9551", "9552", "9553", "9554", "9555", "9556", "9557", "9558", "9559", "9560", "9561", "9562", "9563", "9564", "9565", "9568", "9569", "9570", "9571", "9578", "9579", "9580", "9581", "9582", "9583", "9584", "9585", "9586", "9587", "9588", "95890", "95891", "95892", "95893", "95899", "9590", "95901", "95909", "9591", "95911", "95912", "95913", "95914", "95919", "9592", "9593", "9594", "9595", "9596", "9597", "9598", "9599", "990", "9910", "9911", "9912", "9913", "9914", "9915", "9916", "9918", "9919", "9920", "9921", "9922", "9923", "9924", "9925", "9926", "9927", "9928", "9929", "9930", "9931", "9932", "9933", "9934", "9938", "9939", "9940", "9941", "9942", "9943", "9944", "9945", "9946", "9947", "9948", "9949", "9951", "9955", "99550", "99551", "99552", "99553", "99554", "99555", "99559", "99580", "99581", "99582", "99583", "99584", "99585", "99589", "99590", "99591", "99592", "99593", "99594", "V155", "V1551", "V1559", "V156", "V1588", "V713", "V714", "V716", "V9010", "V9011", "V9012", "V902", "V9031", "V9032", "V9033", "V9039", "V9081", "V9083", "V9089", "V909"]
   icd10: ["A021", "A207", "A227", "A3685", "A394", "A403", "A409", "A4101", "A4102", "A411", "A412", "A413", "A414", "A4150", "A4151", "A4152", "A4153", "A4159", "A4189", "A419", "B007", "E0801", "E0810", "E0811", "E0821", "E08311", "E08319", "E0836", "E0837X1", "E0837X2", "E0837X3", "E0837X9", "E0839", "E0840", "E0841", "E0842", "E0843", "E0844", "E0849", "E0851", "E08610", "E08618", "E08620", "E08621", "E08622", "E08628", "E08630", "E08638", "E08641", "E0865", "E0869", "E088", "E0901", "E0910", "E0911", "E0921", "E09311", "E09319", "E0936", "E0937X1", "E0937X2", "E0937X3", "E0937X9", "E0939", "E0940", "E0941", "E0942", "E0943", "E0944", "E0949", "E0951", "E09610", "E09618", "E09620", "E09621", "E09622", "E09628", "E09630", "E09638", "E09641", "E09649", "E0965", "E0969", "E098", "E1010", "E1011", "E1021", "E1029", "E10311", "E10319", "E1036", "E1037X1", "E1037X2", "E1037X3", "E1037X9", "E1039", "E1040", "E1051", "E10618", "E10620", "E10621", "E10622", "E10628", "E10630", "E10638", "E10641", "E10649", "E1065", "E1069", "E108", "E1100", "E1101", "E1110", "E1111", "E1121", "E1129", "E11311", "E11319", "E1136", "E1139", "E1140", "E1151", "E11618", "E11620", "E11621", "E11622", "E11628", "E11630", "E11638", "E11641", "E11649", "E1165", "E1169", "E118", "E1300", "E1310", "E1311", "E1339", "E1340", "E1341", "E1342", "E1343", "E1344", "E1349", "E1359", "E13620", "E13621", "E13622", "E13628", "E13638", "E13641", "E13649", "E1365", "E1369", "E138", "E860", "E861", "E869", "E870", "E871", "E872", "E873", "E874", "E875", "E876", "E8770", "E8771", "E8779", "E878", "I700", "I701", "I70209", "I70219", "I70229", "I7025", "I70269", "I70299", "I708", "I7090", "I7091", "I7092", "I739", "I76", "K55011", "K55012", "K55019", "K55021", "K55022", "K55029", "K55031", "K55032", "K55039", "K55041", "K55042", "K55049", "K55051", "K55052", "K55059", "K55061", "K55062", "K55069", "K551", "K5530", "K5531", "K5532", "K5533", "K559", "L599", "N10", "N110", "N118", "N12", "N151", "N159", "N16", "N170", "N171", "N172", "N178", "N179", "N19", "N2884", "N2885", "N2886", "N3000", "N3001", "N3010", "N3011", "N3020", "N3021", "N3030", "N3031", "N3040", "N3041", "N3080", "N3081", "N3090", "N3091", "N340", "N341", "N342", "N343", "N35111", "N37", "N390", "P369", "R0901", "R0902", "R6510", "R6511", "R6520", "R7881", "R825", "R826", "R892", "R893", "S04019A", "S0402XA", "S04039A", "S04049A", "S0410XA", "S0420XA", "S0430XA", "S0440XA", "S0450XA", "S0460XA", "S0470XA", "S04819A", "S04899A", "S049XXA", "S049XXS", "S098XXA", "S0990XA", "S0990XS", "S0993XA", "S142XXA", "S142XXS", "S143XXA", "S144XXA", "S145XXA", "S149XXA", "S149XXS", "S169XXS", "S199XXA", "S242XXA", "S242XXS", "S243XXA", "S244XXA", "S248XXA", "S249XXA", "S249XXS", "S298XXA", "S299XXS", "S3421XA", "S3421XS", "S3422XA", "S3422XS", "S344XXA", "S345XXA", "S346XXA", "S349XXA", "S349XXS", "S3981XA", "S3982XA", "S39840A", "S39848A", "S3991XS", "S3992XS", "S3993XS", "S3994XS", "S4400XA", "S4410XA", "S4420XA", "S4430XA", "S4440XA", "S4450XA", "S448X9A", "S4490XA", "S4490XS", "S4980XA", "S4990XA", "S4990XS", "S5400XA", "S5410XA", "S5420XA", "S5430XA", "S5490XS", "S59809A", "S59819A", "S59909A", "S59909S", "S59919A", "S6400XA", "S6410XA", "S6420XA", "S6430XA", "S6440XA", "S6490XS", "S6980XA", "S6990XA", "S6990XS", "S7400XA", "S7410XA", "S7420XA", "S748X9A", "S7490XA", "S7490XS", "S79819A", "S79829A", "S79919A", "S79919S", "S79929A", "S79929S", "S8400XA", "S8410XA", "S8420XA", "S84809A", "S8490XA", "S8490XS", "S8980XA", "S8990XA", "S8990XS", "S9430XA", "S948X9A", "S9490XA", "S9490XS", "S99819A", "S99919A", "S99919S", "S99929S", "T07XXXA", "T07XXXS", "T1490XA", "T1500XA", "T1501XA", "T1502XA", "T1510XA", "T1511XA", "T1512XA", "T1580XA", "T1581XA", "T1582XA", "T1590XA", "T1590XS", "T1591XA", "T1592XA", "T161XXA", "T162XXA", "T169XXA", "T169XXS", "T170XXA", "T171XXA", "T171XXS", "T17200A", "T17208A", "T17210A", "T17218A", "T17220A", "T17228A", "T17290A", "T17298A", "T17300A", "T17308A", "T17310A", "T17318A", "T17320A", "T17328A", "T17390A", "T17398A", "T17400A", "T17408A", "T17410A", "T17418A", "T17420A", "T17428A", "T17490A", "T17498A", "T17500A", "T17508A", "T17510A", "T17518A", "T17520A", "T17528A", "T17590A", "T17598A", "T17800A", "T17808A", "T17810A", "T17818A", "T17820A", "T17828A", "T17890A", "T17898A", "T17900A", "T17900S", "T17908A", "T17910A", "T17918A", "T17920A", "T17928A", "T17990A", "T17998A", "T180XXA", "T180XXS", "T18100A", "T18108A", "T18110A", "T18118A", "T18120A", "T18128A", "T18190A", "T18198A", "T182XXA", "T183XXA", "T184XXA", "T185XXA", "T188XXA", "T189XXA", "T189XXS", "T190XXA", "T191XXA", "T192XXA", "T193XXA", "T194XXA", "T198XXA", "T199XXA", "T199XXS", "T3309XA", "T33529A", "T33829A", "T33839A", "T3390XA", "T3399XA", "T3409XA", "T34529A", "T34829A", "T3490XA", "T3499XA", "T66XXXA", "T670XXA", "T671XXA", "T672XXA", "T673XXA", "T674XXA", "T675XXA", "T676XXA", "T677XXA", "T678XXA", "T679XXA", "T68XXXA", "T69029A", "T691XXA", "T698XXA", "T699XXA", "T700XXA", "T701XXA", "T7020XA", "T7029XA", "T703XXA", "T704XXA", "T708XXA", "T709XXA", "T71111A", "T71112A", "T71113A", "T71114A", "T71121A", "T71122A", "T71123A", "T71124A", "T71131A", "T71132A", "T71133A", "T71134A", "T71141A", "T71143A", "T71144A", "T71151A", "T71152A", "T71153A", "T71154A", "T71161A", "T71162A", "T71163A", "T71164A", "T71191A", "T71192A", "T71193A", "T71194A", "T7120XA", "T7121XA", "T71221A", "T71222A", "T71223A", "T71224A", "T71231A", "T71232A", "T71233A", "T71234A", "T7129XA", "T719XXA", "T730XXA", "T731XXA", "T732XXA", "T733XXA", "T738XXA", "T739XXA", "T7401XA", "T7402XA", "T7411XA", "T7412XA", "T7421XA", "T7422XA", "T7431XA", "T7432XA", "T744XXA", "T7491XA", "T7492XA", "T7500XA", "T7501XA", "T751XXA", "T753XXA", "T754XXA", "T7589XA", "T7589XS", "T7601XA", "T7602XA", "T7611XA", "T7612XA", "T7621XA", "T7622XA", "T7631XA", "T7632XA", "T7691XA", "T7692XA", "T783XXA", "T788XXS", "T790XXA", "T791XXA", "T792XXA", "T794XXA", "T795XXA", "T796XXA", "T797XXA", "T798XXA", "T799XXS", "T79A0XA", "T79A19A", "T79A29A", "T79A3XA", "T79A9XA", "T8851XA", "Z042", "Z043", "Z048", "Z1810", "Z1811", "Z1812", "Z182", "Z1831", "Z1832", "Z1833", "Z1839", "Z1881", "Z1883", "Z1889", "Z189", "Z8781", "Z87820", "Z87821", "Z87828", "Z9181", "Z9189"]
-  note: "ICD-9 codes not printed; source: official list: HCUP CCS 2015. ICD-10 codes not printed; source: GEM 2018. Criteria not stated by 1 paper(s), assigned here. Flag: review GEM mapping: 343 source codes, 285 approximate, 128 one-to-many, 9 with no map."
+  note: "Criteria not stated by 1 paper(s), assigned here."
 
 nonresp_infection_ccs:
   long_name: "Non-respiratory infections, CCS and CCSR groups; the CCSR list excludes RSP002-RSP006"
@@ -941,7 +866,7 @@ nonresp_infection_ccs:
   treatment: ["air_pollution", "long_term"]
   icd9: ["0010", "0011", "0019", "0020", "0021", "0022", "0023", "0029", "0030", "0031", "00320", "00321", "00323", "00324", "00329", "0038", "0039", "0040", "0041", "0042", "0043", "0048", "0049", "0050", "0051", "0052", "0053", "0054", "0058", "00581", "00589", "0059", "0060", "0061", "0062", "0063", "0064", "0065", "0066", "0068", "0069", "0070", "0071", "0072", "0073", "0074", "0075", "0078", "0079", "0080", "00800", "00801", "00802", "00803", "00804", "00809", "0081", "0082", "0083", "00841", "00842", "00843", "00844", "00845", "00846", "00847", "00849", "0085", "0086", "00861", "00862", "00863", "00864", "00865", "00866", "00867", "00869", "0088", "0090", "0091", "0092", "0093", "0200", "0201", "0202", "0208", "0209", "0210", "0211", "0213", "0218", "0219", "0220", "0222", "0223", "0228", "0229", "0230", "0231", "0232", "0233", "0238", "0239", "024", "025", "0260", "0261", "0269", "0270", "0271", "0272", "0278", "0279", "0300", "0301", "0302", "0303", "0308", "0309", "0311", "0312", "0318", "0319", "03281", "03284", "03285", "03289", "0329", "0330", "0331", "0338", "0339", "0341", "035", "0360", "0361", "0362", "0363", "03681", "03682", "03689", "0369", "037", "0380", "0381", "03810", "03811", "03812", "03819", "0382", "0383", "03840", "03841", "03842", "03843", "03844", "03849", "0388", "0389", "0390", "0392", "0393", "0394", "0398", "0399", "0400", "0401", "0402", "0403", "04042", "04081", "04082", "04089", "0410", "04100", "04101", "04102", "04103", "04104", "04105", "04109", "0411", "04110", "04111", "04112", "04119", "0412", "0413", "0414", "04141", "04142", "04143", "04149", "0415", "0416", "0417", "0418", "04181", "04182", "04183", "04184", "04185", "04186", "04189", "0419", "042", "0420", "0421", "0422", "0429", "0430", "0431", "0432", "0433", "0439", "0440", "0449", "04500", "04501", "04502", "04503", "04510", "04511", "04512", "04513", "04520", "04521", "04522", "04523", "04590", "04591", "04592", "04593", "0460", "0461", "04611", "04619", "0462", "0463", "04671", "04672", "04679", "0468", "0469", "0470", "0471", "0478", "0479", "048", "0490", "0491", "0498", "0499", "0500", "0501", "0502", "0509", "0510", "05101", "05102", "0511", "0512", "0519", "0520", "0522", "0527", "0528", "0529", "0530", "05310", "05311", "05312", "05313", "05314", "05319", "05320", "05321", "05322", "05329", "05371", "05379", "0538", "0539", "0540", "05410", "05411", "05412", "05413", "05419", "0542", "0543", "05440", "05441", "05442", "05443", "05444", "05449", "0545", "0546", "05471", "05472", "05473", "05474", "05479", "0548", "0549", "0550", "05571", "05579", "0558", "0559", "05600", "05601", "05609", "05671", "05679", "0568", "0569", "0570", "0578", "0579", "05810", "05811", "05812", "05821", "05829", "05881", "05882", "05889", "05900", "05901", "05909", "05910", "05911", "05912", "05919", "05920", "05921", "05922", "0598", "0599", "0600", "0601", "0609", "061", "0620", "0621", "0622", "0623", "0624", "0625", "0628", "0629", "0630", "0631", "0632", "0638", "0639", "064", "0650", "0651", "0652", "0653", "0654", "0658", "0659", "0660", "0661", "0662", "0663", "0664", "06640", "06641", "06642", "06649", "0668", "0669", "0700", "0701", "0702", "07020", "07021", "07022", "07023", "0703", "07030", "07031", "07032", "07033", "0704", "07041", "07042", "07043", "07044", "07049", "0705", "07051", "07052", "07053", "07054", "07059", "0706", "07070", "07071", "0709", "071", "0720", "0721", "0722", "0723", "07271", "07272", "07279", "0728", "0729", "0737", "0738", "0739", "0740", "0741", "0743", "0748", "075", "0760", "0761", "0769", "0770", "0771", "0772", "0773", "0774", "0778", "0779", "07798", "07799", "0780", "0781", "07810", "07811", "07812", "07819", "0782", "0783", "0784", "0785", "0786", "0787", "07881", "07882", "07888", "07889", "0790", "0791", "0792", "0793", "0794", "07950", "07951", "07952", "07953", "07959", "0796", "0798", "07981", "07982", "07983", "07988", "07989", "0799", "07998", "07999", "080", "0810", "0811", "0812", "0819", "0820", "0821", "0822", "0823", "08240", "08241", "08249", "0828", "0829", "0831", "0832", "0838", "0839", "0840", "0841", "0842", "0843", "0844", "0845", "0846", "0847", "0848", "0849", "0850", "0851", "0852", "0853", "0854", "0855", "0859", "0860", "0861", "0862", "0863", "0864", "0865", "0869", "0870", "0871", "0879", "0880", "0888", "08881", "08882", "08889", "0889", "0900", "0901", "0902", "0903", "09040", "09041", "09042", "09049", "0905", "0906", "0907", "0909", "0910", "0911", "0912", "0913", "0914", "09150", "09151", "09152", "09161", "09162", "09169", "0917", "09181", "09182", "09189", "0919", "0920", "0929", "0930", "0931", "09320", "09321", "09322", "09323", "09324", "09381", "09382", "09389", "0939", "0940", "0941", "0942", "0943", "09481", "09482", "09483", "09484", "09485", "09486", "09487", "09489", "0949", "0950", "0951", "0952", "0953", "0954", "0955", "0956", "0957", "0958", "0959", "096", "0970", "0971", "0979", "0980", "09810", "09811", "09812", "09813", "09814", "09815", "09816", "09817", "09819", "0982", "09830", "09831", "09832", "09833", "09834", "09835", "09836", "09837", "09839", "09840", "09841", "09842", "09843", "09849", "09850", "09851", "09852", "09853", "09859", "0986", "0987", "09881", "09882", "09883", "09884", "09885", "09886", "09889", "0990", "0991", "0992", "0993", "0994", "09940", "09941", "09949", "09950", "09951", "09952", "09953", "09954", "09955", "09956", "09959", "0998", "0999", "1000", "10081", "10089", "1009", "101", "1020", "1021", "1022", "1023", "1024", "1025", "1026", "1027", "1028", "1029", "1030", "1031", "1032", "1033", "1039", "1040", "1048", "1049", "1100", "1101", "1102", "1103", "1104", "1105", "1106", "1108", "1109", "1110", "1111", "1112", "1113", "1118", "1119", "1120", "1121", "1122", "1123", "1125", "11282", "11283", "11284", "11285", "11289", "1129", "1141", "1142", "1143", "1149", "11500", "11501", "11502", "11509", "11510", "11511", "11512", "11519", "11590", "11591", "11592", "11599", "1160", "1161", "1162", "1170", "1171", "1172", "1173", "1174", "1175", "1176", "1177", "1178", "1179", "118", "1200", "1201", "1202", "1203", "1208", "1209", "1210", "1211", "1212", "1213", "1214", "1215", "1216", "1218", "1219", "1220", "1221", "1222", "1223", "1224", "1225", "1226", "1227", "1228", "1229", "1230", "1231", "1232", "1233", "1234", "1235", "1236", "1238", "1239", "124", "1250", "1251", "1252", "1253", "1254", "1255", "1256", "1257", "1259", "1260", "1261", "1262", "1263", "1268", "1269", "1270", "1271", "1272", "1273", "1274", "1275", "1276", "1277", "1278", "1279", "1280", "1281", "1288", "1289", "129", "1300", "1301", "1302", "1305", "1307", "1308", "1309", "13100", "13101", "13102", "13103", "13109", "1318", "1319", "1320", "1321", "1322", "1323", "1329", "1330", "1338", "1339", "1340", "1341", "1342", "1348", "1349", "135", "1360", "1361", "1362", "13621", "13629", "1364", "1365", "1368", "1369", "138", "1390", "1391", "1398", "27910", "27919", "3200", "3201", "3202", "3203", "3207", "3208", "32081", "32082", "32089", "3209", "3210", "3211", "3212", "3213", "3214", "3218", "3220", "3221", "3222", "3229", "3230", "32301", "32302", "3231", "3232", "3234", "32341", "32342", "3235", "32351", "32352", "3236", "32361", "32362", "32363", "3237", "32371", "32372", "3238", "32381", "32382", "3239", "3240", "3241", "3249", "326", "34120", "34121", "34122", "36000", "36001", "36002", "36003", "36004", "36011", "36012", "36013", "36014", "36019", "36300", "36301", "36303", "36304", "36305", "36306", "36307", "36308", "36310", "36311", "36312", "36313", "36314", "36315", "36320", "36321", "36322", "36400", "36401", "36402", "36403", "36404", "36405", "36410", "36411", "36421", "36422", "36423", "36424", "3643", "37020", "37021", "37022", "37023", "37024", "37031", "37032", "37033", "37034", "37035", "37040", "37044", "37049", "37050", "37052", "37054", "37055", "37059", "3708", "3709", "37200", "37201", "37202", "37203", "37204", "37205", "37206", "37210", "37211", "37212", "37213", "37214", "37215", "37220", "37221", "37222", "37230", "37231", "37233", "37239", "37300", "37301", "37302", "37311", "37312", "37313", "37331", "37332", "37333", "37334", "3734", "3735", "3736", "3738", "3739", "37500", "37501", "37502", "37503", "37530", "37531", "37532", "37533", "37541", "37542", "37543", "37600", "37601", "37602", "37603", "37604", "37610", "37611", "37612", "37613", "37730", "37731", "37732", "37733", "37734", "37739", "37900", "37901", "37902", "37903", "37904", "37905", "37906", "37907", "37909", "37960", "37961", "37962", "37963", "390", "3929", "44024", "449", "57140", "57141", "57142", "57149", "5731", "5732", "5733", "59000", "59001", "59010", "59011", "5902", "5903", "59080", "59081", "5909", "5950", "5951", "5952", "5953", "5954", "59581", "59582", "59589", "5959", "5970", "59780", "59781", "59789", "59800", "59801", "5990", "6800", "6801", "6802", "6803", "6804", "6805", "6806", "6807", "6808", "6809", "68100", "68101", "68102", "68110", "68111", "6819", "6820", "6821", "6822", "6823", "6824", "6825", "6826", "6827", "6828", "6829", "684", "6850", "6851", "6860", "68600", "68601", "68609", "6861", "6868", "6869", "71100", "71101", "71102", "71103", "71104", "71105", "71106", "71107", "71108", "71109", "71110", "71111", "71112", "71113", "71114", "71115", "71116", "71117", "71118", "71119", "71120", "71121", "71122", "71123", "71124", "71125", "71126", "71127", "71128", "71129", "71130", "71131", "71132", "71133", "71134", "71135", "71136", "71137", "71138", "71139", "71140", "71141", "71142", "71143", "71144", "71145", "71146", "71147", "71148", "71149", "71150", "71151", "71152", "71153", "71154", "71155", "71156", "71157", "71158", "71159", "71160", "71161", "71162", "71163", "71164", "71165", "71166", "71167", "71168", "71169", "71170", "71171", "71172", "71173", "71174", "71175", "71176", "71177", "71178", "71179", "71180", "71181", "71182", "71183", "71184", "71185", "71186", "71187", "71188", "71189", "71190", "71191", "71192", "71193", "71194", "71195", "71196", "71197", "71198", "71199", "73000", "73001", "73002", "73003", "73004", "73005", "73006", "73007", "73008", "73009", "73010", "73011", "73012", "73013", "73014", "73015", "73016", "73017", "73018", "73019", "73020", "73021", "73022", "73023", "73024", "73025", "73026", "73027", "73028", "73029", "73030", "73031", "73032", "73033", "73034", "73035", "73036", "73037", "73038", "73039", "73070", "73071", "73072", "73073", "73074", "73075", "73076", "73077", "73078", "73079", "73080", "73081", "73082", "73083", "73084", "73085", "73086", "73087", "73088", "73089", "73090", "73091", "73092", "73093", "73094", "73095", "73096", "73097", "73098", "73099", "77181", "7854", "7907", "7908", "79505", "79515", "79519", "7953", "79531", "79539", "79571", "7958", "79675", "79679", "99591", "99592", "V08", "V090", "V091", "V092", "V093", "V094", "V0950", "V0951", "V096", "V0970", "V0971", "V0980", "V0981", "V0990", "V0991", "V120", "V1200", "V1202", "V1203", "V1204", "V1209"]
   icd10: ["A000", "A001", "A009", "A0100", "A0101", "A0102", "A0104", "A0105", "A0109", "A011", "A012", "A013", "A014", "A020", "A021", "A0220", "A0221", "A0223", "A0224", "A0225", "A0229", "A028", "A029", "A030", "A031", "A032", "A033", "A038", "A039", "A040", "A041", "A042", "A043", "A044", "A045", "A046", "A047", "A0471", "A0472", "A048", "A049", "A060", "A061", "A062", "A063", "A064", "A065", "A066", "A067", "A0681", "A0682", "A0689", "A069", "A070", "A071", "A072", "A073", "A074", "A078", "A079", "A080", "A0811", "A0819", "A082", "A0831", "A0832", "A0839", "A084", "A088", "A09", "A170", "A171", "A1782", "A1801", "A1802", "A1803", "A1810", "A1813", "A1832", "A200", "A201", "A203", "A207", "A208", "A209", "A210", "A211", "A213", "A217", "A218", "A219", "A220", "A222", "A227", "A228", "A229", "A230", "A231", "A232", "A233", "A238", "A239", "A240", "A241", "A242", "A243", "A249", "A250", "A251", "A259", "A260", "A267", "A268", "A269", "A270", "A2781", "A2789", "A279", "A280", "A281", "A282", "A288", "A289", "A300", "A301", "A302", "A303", "A304", "A305", "A308", "A309", "A311", "A312", "A318", "A319", "A320", "A3211", "A3212", "A327", "A3281", "A3282", "A3289", "A329", "A33", "A34", "A35", "A363", "A3681", "A3682", "A3683", "A3684", "A3685", "A3686", "A3689", "A369", "A3700", "A3710", "A3780", "A3790", "A380", "A381", "A388", "A389", "A390", "A391", "A392", "A393", "A394", "A3950", "A3951", "A3952", "A3953", "A3981", "A3982", "A3983", "A3984", "A3989", "A399", "A400", "A401", "A403", "A408", "A409", "A4101", "A4102", "A411", "A412", "A413", "A414", "A4150", "A4151", "A4152", "A4153", "A4159", "A4181", "A4189", "A419", "A420", "A421", "A422", "A427", "A4281", "A4282", "A4289", "A429", "A431", "A438", "A439", "A440", "A441", "A448", "A449", "A46", "A480", "A482", "A483", "A484", "A4852", "A488", "A4901", "A4902", "A491", "A492", "A493", "A498", "A499", "A5001", "A5002", "A5005", "A5006", "A5007", "A5008", "A5009", "A501", "A502", "A5030", "A5031", "A5032", "A5039", "A5040", "A5041", "A5042", "A5043", "A5044", "A5045", "A5049", "A5051", "A5052", "A5053", "A5054", "A5055", "A5056", "A5057", "A5059", "A506", "A507", "A509", "A510", "A511", "A512", "A5131", "A5132", "A5139", "A5141", "A5142", "A5143", "A5144", "A5145", "A5146", "A5149", "A515", "A519", "A5200", "A5201", "A5202", "A5203", "A5204", "A5205", "A5206", "A5209", "A5210", "A5211", "A5212", "A5213", "A5214", "A5215", "A5216", "A5217", "A5219", "A522", "A523", "A5271", "A5274", "A5275", "A5276", "A5277", "A5278", "A5279", "A528", "A529", "A530", "A539", "A5400", "A5401", "A5402", "A5403", "A5409", "A541", "A5421", "A5422", "A5423", "A5424", "A5429", "A5430", "A5431", "A5432", "A5433", "A5439", "A5440", "A5441", "A5442", "A5443", "A5449", "A546", "A5481", "A5482", "A5483", "A5485", "A5486", "A5489", "A549", "A55", "A5600", "A5601", "A5602", "A5609", "A5611", "A5619", "A562", "A563", "A568", "A57", "A58", "A5900", "A5901", "A5902", "A5903", "A5909", "A598", "A599", "A6000", "A6001", "A6002", "A6003", "A6004", "A6009", "A601", "A609", "A630", "A638", "A64", "A65", "A660", "A661", "A662", "A663", "A664", "A665", "A666", "A667", "A668", "A669", "A670", "A671", "A672", "A673", "A679", "A680", "A681", "A689", "A690", "A691", "A6920", "A6921", "A6922", "A6923", "A6929", "A698", "A699", "A70", "A710", "A711", "A719", "A740", "A7481", "A7489", "A749", "A750", "A751", "A752", "A753", "A759", "A770", "A771", "A772", "A773", "A7740", "A7741", "A7749", "A778", "A779", "A78", "A790", "A791", "A7981", "A7982", "A7989", "A799", "A800", "A801", "A802", "A8030", "A8039", "A804", "A809", "A8100", "A8101", "A8109", "A811", "A812", "A8181", "A8182", "A8183", "A8189", "A819", "A820", "A821", "A829", "A830", "A831", "A832", "A833", "A834", "A835", "A836", "A838", "A839", "A840", "A841", "A848", "A8481", "A8489", "A849", "A850", "A851", "A852", "A858", "A86", "A870", "A871", "A872", "A878", "A879", "A880", "A881", "A888", "A89", "A90", "A91", "A920", "A921", "A922", "A9230", "A9231", "A9232", "A9239", "A924", "A925", "A928", "A929", "A930", "A931", "A932", "A938", "A94", "A950", "A951", "A959", "A960", "A961", "A962", "A968", "A969", "A980", "A981", "A982", "A983", "A984", "A985", "A988", "A99", "B000", "B001", "B003", "B004", "B0050", "B0051", "B0052", "B0053", "B0059", "B007", "B0081", "B0082", "B0089", "B009", "B010", "B0111", "B0112", "B0181", "B0189", "B019", "B020", "B021", "B0221", "B0222", "B0223", "B0224", "B0229", "B0230", "B0231", "B0232", "B0233", "B0234", "B0239", "B027", "B028", "B029", "B03", "B04", "B050", "B051", "B053", "B054", "B0581", "B0589", "B059", "B0600", "B0601", "B0602", "B0609", "B0682", "B0689", "B069", "B070", "B078", "B079", "B08010", "B08011", "B0802", "B0803", "B0804", "B0809", "B081", "B0820", "B0821", "B0822", "B083", "B084", "B0860", "B0861", "B0862", "B0869", "B0870", "B0871", "B0872", "B0879", "B088", "B09", "B1001", "B1009", "B1081", "B1082", "B1089", "B150", "B159", "B160", "B161", "B162", "B169", "B170", "B1710", "B1711", "B172", "B178", "B179", "B180", "B181", "B182", "B188", "B189", "B190", "B1910", "B1911", "B1920", "B1921", "B199", "B20", "B251", "B252", "B258", "B259", "B260", "B261", "B262", "B263", "B2681", "B2682", "B2683", "B2684", "B2685", "B2689", "B269", "B2700", "B2701", "B2702", "B2709", "B2710", "B2711", "B2712", "B2719", "B2780", "B2781", "B2782", "B2789", "B2790", "B2791", "B2792", "B2799", "B300", "B301", "B302", "B303", "B308", "B309", "B330", "B331", "B3320", "B3321", "B3322", "B3323", "B3324", "B333", "B334", "B338", "B340", "B341", "B342", "B343", "B344", "B348", "B349", "B350", "B351", "B352", "B353", "B354", "B355", "B356", "B358", "B359", "B360", "B361", "B362", "B363", "B368", "B369", "B370", "B372", "B373", "B3731", "B3732", "B3741", "B3742", "B3749", "B375", "B376", "B377", "B3781", "B3782", "B3783", "B3784", "B3789", "B379", "B383", "B384", "B387", "B3881", "B3889", "B389", "B393", "B394", "B395", "B399", "B400", "B401", "B402", "B403", "B407", "B4081", "B4089", "B409", "B410", "B417", "B418", "B419", "B420", "B421", "B427", "B4281", "B4282", "B4289", "B429", "B430", "B431", "B432", "B438", "B439", "B440", "B441", "B442", "B447", "B4481", "B4489", "B449", "B450", "B451", "B452", "B453", "B457", "B458", "B459", "B460", "B461", "B462", "B463", "B464", "B465", "B468", "B469", "B470", "B471", "B479", "B480", "B481", "B482", "B483", "B484", "B488", "B49", "B500", "B508", "B509", "B510", "B518", "B519", "B520", "B528", "B529", "B530", "B531", "B538", "B54", "B550", "B551", "B552", "B559", "B560", "B561", "B569", "B570", "B571", "B572", "B5730", "B5731", "B5732", "B5739", "B5740", "B5741", "B5742", "B5749", "B575", "B5800", "B5801", "B5809", "B581", "B582", "B5881", "B5882", "B5883", "B5889", "B589", "B600", "B6000", "B6001", "B6002", "B6003", "B6009", "B6010", "B6011", "B6012", "B6013", "B6019", "B602", "B608", "B64", "B650", "B651", "B652", "B653", "B658", "B659", "B660", "B661", "B662", "B663", "B664", "B665", "B668", "B669", "B670", "B671", "B672", "B6731", "B6732", "B6739", "B674", "B675", "B6761", "B6769", "B677", "B678", "B6790", "B6799", "B680", "B681", "B689", "B690", "B691", "B6981", "B6989", "B699", "B700", "B701", "B710", "B711", "B718", "B719", "B72", "B7300", "B7301", "B7302", "B7309", "B731", "B740", "B741", "B742", "B743", "B744", "B748", "B749", "B75", "B760", "B761", "B768", "B769", "B770", "B7789", "B779", "B780", "B781", "B787", "B789", "B79", "B80", "B810", "B811", "B812", "B813", "B814", "B818", "B820", "B829", "B830", "B831", "B832", "B833", "B834", "B838", "B839", "B850", "B851", "B852", "B853", "B854", "B86", "B870", "B871", "B872", "B873", "B874", "B8781", "B8782", "B8789", "B879", "B880", "B881", "B882", "B883", "B888", "B889", "B89", "B900", "B901", "B902", "B908", "B909", "B91", "B92", "B940", "B941", "B942", "B948", "B949", "B950", "B951", "B952", "B953", "B954", "B955", "B9561", "B9562", "B957", "B958", "B960", "B961", "B9620", "B9621", "B9622", "B9623", "B9629", "B963", "B964", "B965", "B966", "B967", "B9681", "B9682", "B9689", "B970", "B9710", "B9711", "B9712", "B9719", "B9721", "B9729", "B9730", "B9731", "B9732", "B9733", "B9734", "B9735", "B9739", "B974", "B975", "B976", "B977", "B9781", "B9789", "B998", "B999", "D5931", "D8681", "G000", "G001", "G002", "G003", "G008", "G009", "G01", "G02", "G030", "G031", "G032", "G038", "G039", "G0400", "G0401", "G0402", "G042", "G0430", "G0431", "G0432", "G0439", "G0481", "G0482", "G0489", "G0490", "G0491", "G053", "G054", "G14", "H05011", "H05012", "H05013", "H05019", "H05021", "H05022", "H05023", "H05029", "I00", "I029", "I76", "K652", "K7010", "K7011", "L00", "L0100", "L0101", "L0102", "L0103", "L0109", "L011", "L0201", "L0202", "L0203", "L0211", "L0212", "L0213", "L02211", "L02212", "L02213", "L02214", "L02215", "L02216", "L02219", "L02221", "L02222", "L02223", "L02224", "L02225", "L02226", "L02229", "L02231", "L02232", "L02233", "L02234", "L02235", "L02236", "L02239", "L0231", "L0232", "L0233", "L02411", "L02412", "L02413", "L02414", "L02415", "L02416", "L02419", "L02421", "L02422", "L02423", "L02424", "L02425", "L02426", "L02429", "L02431", "L02432", "L02433", "L02434", "L02435", "L02436", "L02439", "L02511", "L02512", "L02519", "L02521", "L02522", "L02529", "L02531", "L02532", "L02539", "L02611", "L02612", "L02619", "L02621", "L02622", "L02629", "L02631", "L02632", "L02639", "L02811", "L02818", "L02821", "L02828", "L02831", "L02838", "L0291", "L0292", "L0293", "L03011", "L03012", "L03019", "L03021", "L03022", "L03029", "L03031", "L03032", "L03039", "L03041", "L03042", "L03049", "L03111", "L03112", "L03113", "L03114", "L03115", "L03116", "L03119", "L03121", "L03122", "L03123", "L03124", "L03125", "L03126", "L03129", "L03211", "L03212", "L03213", "L03221", "L03222", "L03311", "L03312", "L03313", "L03314", "L03315", "L03316", "L03317", "L03319", "L03321", "L03322", "L03323", "L03324", "L03325", "L03326", "L03327", "L03329", "L03811", "L03818", "L03891", "L03898", "L0390", "L0391", "L040", "L041", "L042", "L043", "L048", "L049", "L0501", "L0502", "L0591", "L0592", "L080", "L081", "L0881", "L0882", "L0889", "L089", "L303", "M0000", "M00011", "M00012", "M00019", "M00021", "M00022", "M00029", "M00031", "M00032", "M00039", "M00041", "M00042", "M00049", "M00051", "M00052", "M00059", "M00061", "M00062", "M00069", "M00071", "M00072", "M00079", "M0008", "M0009", "M0010", "M00111", "M00112", "M00119", "M00121", "M00122", "M00129", "M00131", "M00132", "M00139", "M00141", "M00142", "M00149", "M00151", "M00152", "M00159", "M00161", "M00162", "M00169", "M00171", "M00172", "M00179", "M0018", "M0019", "M0020", "M00211", "M00212", "M00219", "M00221", "M00222", "M00229", "M00231", "M00232", "M00239", "M00241", "M00242", "M00249", "M00251", "M00252", "M00259", "M00261", "M00262", "M00269", "M00271", "M00272", "M00279", "M0028", "M0029", "M0080", "M00811", "M00812", "M00819", "M00821", "M00822", "M00829", "M00831", "M00832", "M00839", "M00841", "M00842", "M00849", "M00851", "M00852", "M00859", "M00861", "M00862", "M00869", "M00871", "M00872", "M00879", "M0088", "M0089", "M009", "M01X0", "M01X11", "M01X12", "M01X19", "M01X21", "M01X22", "M01X29", "M01X31", "M01X32", "M01X39", "M01X41", "M01X42", "M01X49", "M01X51", "M01X52", "M01X59", "M01X61", "M01X62", "M01X69", "M01X71", "M01X72", "M01X79", "M01X8", "M01X9", "M4620", "M4621", "M4622", "M4623", "M4624", "M4625", "M4626", "M4627", "M4628", "M6500", "M65011", "M65012", "M65019", "M65021", "M65022", "M65029", "M65031", "M65032", "M65039", "M65041", "M65042", "M65049", "M65051", "M65052", "M65059", "M65061", "M65062", "M65069", "M65071", "M65072", "M65079", "M6508", "M7100", "M71011", "M71012", "M71019", "M71021", "M71022", "M71029", "M71031", "M71032", "M71039", "M71041", "M71042", "M71049", "M71051", "M71052", "M71059", "M71061", "M71062", "M71069", "M71071", "M71072", "M71079", "M7108", "M7109", "M8600", "M86011", "M86012", "M86019", "M86021", "M86022", "M86029", "M86031", "M86032", "M86039", "M86041", "M86042", "M86049", "M86051", "M86052", "M86059", "M86061", "M86062", "M86069", "M86071", "M86072", "M86079", "M8608", "M8609", "M8610", "M86111", "M86112", "M86119", "M86121", "M86122", "M86129", "M86131", "M86132", "M86139", "M86141", "M86142", "M86149", "M86151", "M86152", "M86159", "M86161", "M86162", "M86169", "M86171", "M86172", "M86179", "M8618", "M8619", "M8620", "M86211", "M86212", "M86219", "M86221", "M86222", "M86229", "M86231", "M86232", "M86239", "M86241", "M86242", "M86249", "M86251", "M86252", "M86259", "M86261", "M86262", "M86269", "M86271", "M86272", "M86279", "M8628", "M8629", "M8630", "M86311", "M86312", "M86319", "M86321", "M86322", "M86329", "M86331", "M86332", "M86339", "M86341", "M86342", "M86349", "M86351", "M86352", "M86359", "M86361", "M86362", "M86369", "M86371", "M86372", "M86379", "M8638", "M8639", "M8640", "M86411", "M86412", "M86419", "M86421", "M86422", "M86429", "M86431", "M86432", "M86439", "M86441", "M86442", "M86449", "M86451", "M86452", "M86459", "M86461", "M86462", "M86469", "M86471", "M86472", "M86479", "M8648", "M8649", "M8650", "M86511", "M86512", "M86519", "M86521", "M86522", "M86529", "M86531", "M86532", "M86539", "M86541", "M86542", "M86549", "M86551", "M86552", "M86559", "M86561", "M86562", "M86569", "M86571", "M86572", "M86579", "M8658", "M8659", "M8660", "M86611", "M86612", "M86619", "M86621", "M86622", "M86629", "M86631", "M86632", "M86639", "M86641", "M86642", "M86649", "M86651", "M86652", "M86659", "M86661", "M86662", "M86669", "M86671", "M86672", "M86679", "M8668", "M8669", "M868X0", "M868X1", "M868X2", "M868X3", "M868X4", "M868X5", "M868X6", "M868X7", "M868X8", "M868X9", "M869", "N10", "N110", "N111", "N118", "N119", "N12", "N136", "N151", "N3000", "N3001", "N3010", "N3011", "N3020", "N3021", "N3030", "N3031", "N3040", "N3041", "N3080", "N3081", "N3090", "N3091", "N340", "N341", "N342", "N343", "N390", "O0337", "O0387", "O0487", "O0737", "O0882", "O2300", "O2301", "O2302", "O2303", "O2310", "O2311", "O2312", "O2313", "O2320", "O2321", "O2322", "O2323", "O2330", "O2331", "O2332", "O2333", "O2340", "O2341", "O2342", "O2343", "O2640", "O2641", "O2642", "O2643", "O85", "O8604", "O8620", "O8621", "O8622", "O8629", "O98111", "O98112", "O98113", "O98119", "O9812", "O9813", "O98211", "O98212", "O98213", "O98219", "O9822", "O9823", "O98311", "O98312", "O98313", "O98319", "O9832", "O9833", "O98411", "O98412", "O98413", "O98419", "O9842", "O9843", "O98611", "O98612", "O98613", "O98619", "O9862", "O9863", "O98711", "O98712", "O98713", "O98719", "O9872", "O9873", "P0082", "P230", "P231", "P232", "P233", "P234", "P235", "P236", "P238", "P350", "P351", "P352", "P353", "P354", "P358", "P359", "P360", "P3610", "P3619", "P362", "P3630", "P3639", "P364", "P365", "P368", "P369", "P371", "P372", "P373", "P374", "P375", "P378", "P379", "R6520", "R6521", "T8112XA", "T8144XA", "Z21"]
-  note: "ICD-9 codes not printed; source: official list: HCUP CCS 2015. ICD-10 codes not printed; source: official list: HCUP CCSR v2023.1. Flag: typo corrected: the paper prints CCSR GEN001 for urinary tract infection, read as GEN004, since GEN001 is nephritis."
+  note: "Typo corrected: 10_1038_s41467_024_45776_0 prints CCSR GEN001, read as CCSR GEN004 (decision 6)."
 
 cns_infection_ccs:
   long_name: "Central nervous system infections, CCS groups 76-78 and CCSR NVS001-NVS003"
@@ -953,7 +878,6 @@ cns_infection_ccs:
   treatment: ["air_pollution", "long_term"]
   icd9: ["00321", "0360", "0361", "04500", "04501", "04502", "04503", "04510", "04511", "04512", "04513", "04520", "04521", "04522", "04523", "04590", "04591", "04592", "04593", "0460", "0461", "04611", "04619", "0462", "0463", "04671", "04672", "04679", "0468", "0469", "0470", "0471", "0478", "0479", "048", "0490", "0491", "0498", "0499", "0520", "0530", "0543", "05472", "0550", "05601", "05821", "05829", "0620", "0621", "0622", "0623", "0624", "0625", "0628", "0629", "0630", "0631", "0632", "0638", "0639", "064", "0662", "06641", "0721", "0722", "10081", "11283", "1142", "11501", "11511", "11591", "1300", "138", "1390", "3200", "3201", "3202", "3203", "3207", "3208", "32081", "32082", "32089", "3209", "3210", "3211", "3212", "3213", "3214", "3218", "3220", "3221", "3222", "3229", "3230", "32301", "32302", "3231", "3232", "3234", "32341", "32342", "3235", "32351", "32352", "3236", "32361", "32362", "32363", "3237", "32371", "32372", "3238", "32381", "32382", "3239", "3240", "3241", "3249", "326", "34120", "34121", "34122", "V1202"]
   icd10: ["A0101", "A0221", "A170", "A171", "A1782", "A203", "A2781", "A3211", "A3212", "A390", "A3981", "A4281", "A4282", "A5041", "A5042", "A5141", "A5210", "A5211", "A5212", "A5213", "A5214", "A5217", "A5219", "A522", "A523", "A5481", "A6921", "A800", "A801", "A802", "A8030", "A8039", "A804", "A809", "A8100", "A8101", "A8109", "A811", "A812", "A8181", "A8182", "A8183", "A8189", "A819", "A820", "A821", "A829", "A830", "A831", "A832", "A833", "A834", "A835", "A836", "A838", "A839", "A840", "A841", "A848", "A8481", "A8489", "A849", "A850", "A851", "A852", "A858", "A86", "A870", "A871", "A872", "A878", "A879", "A880", "A881", "A888", "A89", "A922", "A9231", "B003", "B004", "B010", "B0111", "B020", "B021", "B050", "B051", "B0601", "B0602", "B1001", "B1009", "B261", "B262", "B2702", "B2712", "B2782", "B2792", "B375", "B384", "B4081", "B4281", "B451", "B5741", "B5742", "B582", "B6011", "D8681", "G000", "G001", "G002", "G003", "G008", "G009", "G01", "G02", "G030", "G031", "G032", "G038", "G039", "G0400", "G0401", "G0402", "G042", "G0430", "G0431", "G0432", "G0439", "G0481", "G0482", "G0489", "G0490", "G0491", "G053", "G054", "G14"]
-  note: "ICD-9 codes not printed; source: official list: HCUP CCS 2015. ICD-10 codes not printed; source: official list: HCUP CCSR v2023.1."
 
 intestinal_infection_ccs:
   long_name: "Intestinal infections, CCS group 135 and CCSR DIG001"
@@ -965,4 +889,71 @@ intestinal_infection_ccs:
   treatment: ["air_pollution", "long_term"]
   icd9: ["0010", "0011", "0019", "0020", "0021", "0022", "0023", "0029", "0030", "00320", "00329", "0038", "0039", "0040", "0041", "0042", "0043", "0048", "0049", "0050", "0051", "0052", "0053", "0054", "0058", "00581", "00589", "0059", "0060", "0061", "0062", "0063", "0064", "0065", "0066", "0068", "0069", "0070", "0071", "0072", "0073", "0074", "0075", "0078", "0079", "0080", "00800", "00801", "00802", "00803", "00804", "00809", "0081", "0082", "0083", "00841", "00842", "00843", "00844", "00845", "00846", "00847", "00849", "0085", "0086", "00861", "00862", "00863", "00864", "00865", "00866", "00867", "00869", "0088", "0090", "0091", "0092", "0093", "0211", "0222"]
   icd10: ["A000", "A001", "A009", "A0100", "A0109", "A011", "A012", "A013", "A014", "A020", "A0229", "A029", "A030", "A031", "A032", "A033", "A038", "A039", "A040", "A041", "A042", "A043", "A044", "A045", "A046", "A047", "A0471", "A0472", "A048", "A049", "A060", "A061", "A062", "A063", "A064", "A069", "A070", "A071", "A072", "A073", "A074", "A078", "A079", "A080", "A0811", "A0819", "A082", "A0831", "A0832", "A0839", "A084", "A088", "A09", "A1832", "A213", "A222", "B3782"]
-  note: "ICD-9 codes not printed; source: official list: HCUP CCS 2015. ICD-10 codes not printed; source: official list: HCUP CCSR v2023.1."
+
+resp_infection_copd_asthma__icd10:
+  long_name: "Respiratory disease as infections, COPD and asthma, as printed in ICD-10"
+  criteria: "principal diagnosis"
+  outcome_criteria: "first_n"
+  first_n: 1
+  paper_id:
+    - "10_1038_s41467_023_37675_7"
+  treatment: ["extreme_weather", "short_term"]
+  icd9: ["4658", "4659", "4660", "486", "490", "4910", "4911", "49120", "49121", "49122", "4918", "4919", "4920", "4928", "49320", "49321", "49322", "4940", "4941", "4950", "4951", "4952", "4953", "4954", "4955", "4956", "4957", "4958", "4959", "496"]
+  icd10: ["J069", "J189", "J209", "J40", "J410", "J411", "J418", "J42", "J439", "J440", "J441", "J449", "J471", "J479", "J670-J679"]
+  note: "Split for low coverage: overlap 12 of 70 (17%) from ICD-9 to ICD-10, and 17 of 30 (57%) from ICD-10 to ICD-9. The paper's ICD-10 list is much shorter than its ICD-9 ranges. Criteria not stated by 1 paper(s), assigned here."
+
+parkinson_332__icd9:
+  long_name: "Parkinson's disease, ICD-9 332, as printed in ICD-9"
+  criteria: "any of the first 10 diagnosis fields"
+  outcome_criteria: "first_n"
+  first_n: 10
+  paper_id:
+    - "10_1038_s41531_024_00815_x"
+  treatment: ["air_pollution", "long_term"]
+  icd9: ["332"]
+  icd10: ["G20", "G2111", "G2119", "G218"]
+  note: "Split for low coverage: overlap 1 of 4 (25%) from ICD-9 to ICD-10. 332 also includes secondary parkinsonism (332.1), and G20 does not. The two parts match existing definitions."
+
+heat_illness__icd9:
+  long_name: "Heat-related illness, as printed in ICD-9"
+  criteria: "any diagnosis"
+  outcome_criteria: "all"
+  paper_id:
+    - "10_1097_ee9_0000000000000395"
+  treatment: ["extreme_weather", "short_term"]
+  icd9: ["9920-9929"]
+  icd10: ["T670XXA", "T671XXA", "T672XXA", "T673XXA", "T674XXA", "T675XXA", "T676XXA", "T677XXA", "T678XXA", "T679XXA"]
+  note: "Split for low coverage: overlap 3 of 10 (30%) from ICD-9 to ICD-10. 992.0-992.9 maps to all of T67.0-T67.9, and the paper prints T67.3-T67.5. In the ICD-10 part, the GEM ICD-9 list includes 909.4 (late effect of heat) and V58.89 (other aftercare), from the follow-up and sequela versions of the T67 codes."
+
+heat_illness__icd10:
+  long_name: "Heat-related illness, as printed in ICD-10"
+  criteria: "any diagnosis"
+  outcome_criteria: "all"
+  paper_id:
+    - "10_1097_ee9_0000000000000395"
+  treatment: ["extreme_weather", "short_term"]
+  icd9: ["9094", "9923", "9924", "9925", "V5889"]
+  icd10: ["T673-T675"]
+  note: "Split for low coverage: overlap 3 of 10 (30%) from ICD-9 to ICD-10. 992.0-992.9 maps to all of T67.0-T67.9, and the paper prints T67.3-T67.5. In the ICD-10 part, the GEM ICD-9 list includes 909.4 (late effect of heat) and V58.89 (other aftercare), from the follow-up and sequela versions of the T67 codes."
+
+adrd_shi__icd9:
+  long_name: "Alzheimer's disease and related dementias, short definition, as printed in ICD-9"
+  criteria: "any diagnosis"
+  outcome_criteria: "all"
+  paper_id:
+    - "10_1016_s2542_5196_20_30227_8"
+  treatment: ["air_pollution", "long_term"]
+  icd9: ["290", "3310"]
+  icd10: ["F0150", "F0151", "F0390", "F05", "G309"]
+  note: "Split for low coverage: overlap 2 of 5 (40%) from ICD-9 to ICD-10, and 1 of 3 (33%) from ICD-10 to ICD-9. In the ICD-10 part, F05 (delirium) maps to 293.0 and 293.1."
+
+adrd_shi__icd10:
+  long_name: "Alzheimer's disease and related dementias, short definition, as printed in ICD-10"
+  criteria: "any diagnosis"
+  outcome_criteria: "all"
+  paper_id:
+    - "10_1016_s2542_5196_20_30227_8"
+  treatment: ["air_pollution", "long_term"]
+  icd9: ["2930", "2931", "3310"]
+  icd10: ["F05", "G309"]
+  note: "Split for low coverage: overlap 2 of 5 (40%) from ICD-9 to ICD-10, and 1 of 3 (33%) from ICD-10 to ICD-9. In the ICD-10 part, F05 (delirium) maps to 293.0 and 293.1."

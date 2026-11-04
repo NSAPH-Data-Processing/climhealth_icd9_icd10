@@ -35,12 +35,15 @@
   "icd9_source": "printed",
   "icd10_source": "printed",
   "from_codesets": [
+   "cvd_390_495",
    "cvd_all_icd9_not_stated",
    "cvd_all_icd9_principal",
    "cvd_all_not_stated",
    "cvd_all_principal"
   ],
-  "flags": [],
+  "flags": [
+   "10_1097_ede_0000000000001265 prints 390-495, read as 390-459 (decision 7)"
+  ],
   "coverage": {
    "icd9_to_icd10": 0.95,
    "icd10_to_icd9": 0.95
@@ -49,7 +52,8 @@
    "cvd_all_principal",
    "cvd_all_not_stated",
    "cvd_all_icd9_principal",
-   "cvd_all_icd9_not_stated"
+   "cvd_all_icd9_not_stated",
+   "cvd_390_495"
   ],
   "criteria_assigned_for": [
    "10_1038_s41467_023_37675_7",
@@ -61,7 +65,11 @@
   "icd10_sources": [
    "paper pairing: cvd_all_principal, cvd_all_not_stated",
    "printed"
-  ]
+  ],
+  "typo_fixes": [
+   "10_1097_ede_0000000000001265 prints 390-495, read as 390-459 (decision 7)"
+  ],
+  "decision_notes": []
  },
  "cvd_circulatory_groups": {
   "long_name": "Circulatory disease as a sum of ICD-9 groups, without 399-400, 406-409, 419, 439, 449-450",
@@ -112,7 +120,9 @@
   "icd10_sources": [
    "paper pairing: cvd_circulatory_groups",
    "printed"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "cvd_five_causes": {
   "long_name": "Cardiovascular disease as five causes: heart failure, heart rhythm, cerebrovascular, ischemic heart, peripheral vascular",
@@ -436,7 +446,9 @@
   ],
   "icd10_sources": [
    "GEM 2018"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "cvd_390_429": {
   "long_name": "Cardiovascular conditions printed as ICD-9 390-429, without cerebrovascular or vascular codes",
@@ -670,6 +682,10 @@
   ],
   "icd9_source": "printed",
   "icd10_source": "GEM 2018",
+  "decision_notes": [
+   "Kept as printed. Printed as all CVD, but 390-429 covers heart conditions and excludes stroke (430-438) and blood vessel disease (440-459). (decision 8)",
+   "Kept as printed. Printed as all CVD, but 390-429 covers heart conditions and excludes stroke (430-438) and blood vessel disease (440-459). (decision 9)"
+  ],
   "from_codesets": [
    "cvd_390_429_not_stated",
    "cvd_390_429_principal",
@@ -699,7 +715,8 @@
   ],
   "icd10_sources": [
    "GEM 2018"
-  ]
+  ],
+  "typo_fixes": []
  },
  "cvd_composite_seven": {
   "long_name": "Composite of seven cardiovascular subtypes",
@@ -760,6 +777,9 @@
   ],
   "icd9_source": "printed",
   "icd10_source": "printed",
+  "decision_notes": [
+   "Kept as printed. The cerebrovascular part lists I64.x, which is not in the US ICD-10-CM, so it matches no US claims and changes no count. (decision 12)"
+  ],
   "from_codesets": [
    "cvd_composite_seven"
   ],
@@ -777,7 +797,8 @@
   ],
   "icd10_sources": [
    "printed"
-  ]
+  ],
+  "typo_fixes": []
  },
  "ischemic_heart": {
   "long_name": "Ischemic or coronary heart disease",
@@ -828,7 +849,9 @@
   "icd10_sources": [
    "paper pairing: ischemic_heart",
    "printed"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "ischemic_heart_429": {
   "long_name": "Ischemic heart disease including ICD-9 429",
@@ -925,7 +948,9 @@
   ],
   "icd10_sources": [
    "GEM 2018"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "mi_acute": {
   "long_name": "Acute myocardial infarction, initial episode or unspecified (410.x0, 410.x1)",
@@ -995,7 +1020,9 @@
   "icd10_sources": [
    "paper pairing: mi_acute",
    "printed"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "mi_410": {
   "long_name": "Myocardial infarction, all of ICD-9 410",
@@ -1050,7 +1077,9 @@
   ],
   "icd10_sources": [
    "GEM 2018"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "mi_4109": {
   "long_name": "Acute myocardial infarction, unspecified site (ICD-9 410.9)",
@@ -1100,7 +1129,9 @@
   ],
   "icd10_sources": [
    "GEM 2018"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "chf": {
   "long_name": "Heart failure",
@@ -1152,7 +1183,9 @@
   "icd10_sources": [
    "paper pairing: chf",
    "printed"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "chf_hypertensive": {
   "long_name": "Heart failure including hypertensive and rheumatic heart failure codes",
@@ -1203,7 +1236,9 @@
   ],
   "icd10_sources": [
    "printed"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "arrhythmia": {
   "long_name": "Heart rhythm disturbances",
@@ -1289,7 +1324,9 @@
   ],
   "icd10_sources": [
    "GEM 2018"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "arrhythmia_broad": {
   "long_name": "Arrhythmia, including abnormal heartbeat and cardiac device codes",
@@ -1349,7 +1386,9 @@
   ],
   "icd10_sources": [
    "printed"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "atrial_fib": {
   "long_name": "Atrial fibrillation and flutter",
@@ -1391,7 +1430,9 @@
   ],
   "icd10_sources": [
    "printed"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "valvular": {
   "long_name": "Valvular heart disease",
@@ -1432,7 +1473,9 @@
   ],
   "icd10_sources": [
    "printed"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "cardiomyopathy": {
   "long_name": "Cardiomyopathy",
@@ -1473,7 +1516,9 @@
   ],
   "icd10_sources": [
    "printed"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "cerebrovascular": {
   "long_name": "Cerebrovascular disease",
@@ -1507,6 +1552,9 @@
   ],
   "icd9_source": "printed",
   "icd10_source": "printed",
+  "decision_notes": [
+   "Kept as printed. 10_1136_bmj_2023_076939 lists I64.x within I60-I69. I64 is not in the US ICD-10-CM, so it matches no US claims and changes no count. (decision 11)"
+  ],
   "from_codesets": [
    "cerebrovascular",
    "cerebrovascular_icd9"
@@ -1527,7 +1575,8 @@
   "icd10_sources": [
    "paper pairing: cerebrovascular",
    "printed"
-  ]
+  ],
+  "typo_fixes": []
  },
  "stroke_ischemic": {
   "long_name": "Ischemic stroke",
@@ -1565,15 +1614,19 @@
   "icd9_source": "printed",
   "icd10_source": "printed",
   "from_codesets": [
-   "stroke_ischemic"
+   "stroke_ischemic",
+   "stroke_ischemic_i163"
   ],
-  "flags": [],
+  "flags": [
+   "10_1016_j_envint_2025_109617, 10_1016_j_envres_2025_122779 prints I163, read as I63 (decision 3)"
+  ],
   "coverage": {
    "icd9_to_icd10": 0.92,
    "icd10_to_icd9": 1.0
   },
   "merged_keys": [
-   "stroke_ischemic"
+   "stroke_ischemic",
+   "stroke_ischemic_i163"
   ],
   "criteria_assigned_for": [],
   "icd9_sources": [
@@ -1581,7 +1634,11 @@
   ],
   "icd10_sources": [
    "printed"
-  ]
+  ],
+  "typo_fixes": [
+   "10_1016_j_envint_2025_109617, 10_1016_j_envres_2025_122779 prints I163, read as I63 (decision 3)"
+  ],
+  "decision_notes": []
  },
  "stroke_43491": {
   "long_name": "Ischemic stroke, cerebral artery occlusion unspecified (ICD-9 434.91)",
@@ -1628,7 +1685,9 @@
   ],
   "icd10_sources": [
    "GEM 2018"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "peripheral_vascular": {
   "long_name": "Peripheral vascular disease",
@@ -1766,7 +1825,9 @@
   ],
   "icd10_sources": [
    "GEM 2018"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "aortic_aneurysm": {
   "long_name": "Thoracic and abdominal aortic aneurysms",
@@ -1807,7 +1868,9 @@
   ],
   "icd10_sources": [
    "printed"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "resp_all": {
   "long_name": "All respiratory disease",
@@ -1855,7 +1918,9 @@
   "icd10_sources": [
    "paper pairing: resp_all",
    "printed"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "resp_infection_copd": {
   "long_name": "Respiratory disease as respiratory tract infections plus COPD",
@@ -1949,9 +2014,12 @@
   "icd9_source": "printed",
   "icd10_source": "GEM 2018",
   "from_codesets": [
-   "resp_infection_copd"
+   "resp_infection_copd",
+   "resp_printed_490_448"
   ],
   "flags": [
+   "10_1038_jes_2013_39 prints 480-497, read as 480-487 (decision 2)",
+   "10_1038_jes_2013_39 prints 490-448, read as 490-492 (decision 1)",
    "review GEM mapping: 72 source codes, 31 approximate, 4 one-to-many, 7 with no map"
   ],
   "gem": {
@@ -1963,7 +2031,8 @@
    "n_target_codes": 61
   },
   "merged_keys": [
-   "resp_infection_copd"
+   "resp_infection_copd",
+   "resp_printed_490_448"
   ],
   "criteria_assigned_for": [],
   "icd9_sources": [
@@ -1971,7 +2040,12 @@
   ],
   "icd10_sources": [
    "GEM 2018"
-  ]
+  ],
+  "typo_fixes": [
+   "10_1038_jes_2013_39 prints 480-497, read as 480-487 (decision 2)",
+   "10_1038_jes_2013_39 prints 490-448, read as 490-492 (decision 1)"
+  ],
+  "decision_notes": []
  },
  "resp_infection_copd_494": {
   "long_name": "Respiratory disease as infections plus COPD, with ICD-9 494-496",
@@ -2006,12 +2080,13 @@
   ],
   "icd9_source": "printed",
   "icd10_source": "printed",
+  "decision_notes": [
+   "Kept as printed, as an exception to the coverage cutoff: overlap 24 of 73 (33%) from ICD-9 to ICD-10, but the authors evaluated this ICD-9 to ICD-10 conversion and deemed it acceptable. (decision 18)"
+  ],
   "from_codesets": [
    "resp_infection_copd_494"
   ],
-  "flags": [
-   "ICD-9 and ICD-10 may not cover the same conditions: GEM overlap icd9_to_icd10 0.33"
-  ],
+  "flags": [],
   "coverage": {
    "icd9_to_icd10": 0.33,
    "icd10_to_icd9": 0.9
@@ -2025,7 +2100,8 @@
   ],
   "icd10_sources": [
    "printed"
-  ]
+  ],
+  "typo_fixes": []
  },
  "resp_infection_copd_asthma": {
   "long_name": "Respiratory disease as infections, COPD and asthma",
@@ -2048,9 +2124,58 @@
    "490-493"
   ],
   "icd10": [
+   "A221",
+   "A3791",
+   "A481",
+   "B250",
+   "B440",
+   "J040",
+   "J0410",
+   "J0411",
+   "J042",
+   "J0430",
+   "J0431",
+   "J050",
+   "J0510",
+   "J0511",
+   "J060",
    "J069",
+   "J101",
+   "J1100",
+   "J111",
+   "J112",
+   "J1181",
+   "J1189",
+   "J120",
+   "J121",
+   "J122",
+   "J1281",
+   "J1289",
+   "J129",
+   "J13",
+   "J14",
+   "J150",
+   "J151",
+   "J1520",
+   "J15211",
+   "J15212",
+   "J1529",
+   "J153",
+   "J154",
+   "J155",
+   "J156",
+   "J157",
+   "J158",
+   "J159",
+   "J160",
+   "J168",
+   "J17",
+   "J180",
+   "J181",
    "J189",
    "J209",
+   "J210",
+   "J218",
    "J40",
    "J410",
    "J411",
@@ -2060,26 +2185,36 @@
    "J440",
    "J441",
    "J449",
-   "J471",
-   "J479",
-   "J670-J679"
+   "J4520",
+   "J4521",
+   "J4522",
+   "J45901",
+   "J45902",
+   "J45909",
+   "J45990",
+   "J45991",
+   "J45998"
   ],
   "icd9_source": "printed",
-  "icd10_source": "printed",
+  "icd10_source": "GEM 2018",
   "from_codesets": [
-   "resp_infection_copd_asthma",
+   "resp_infection_copd_asthma__icd9",
    "resp_infection_copd_asthma_icd9"
   ],
   "flags": [
-   "ICD-9 and ICD-10 may not cover the same conditions: GEM overlap icd9_to_icd10 0.17, icd10_to_icd9 0.57"
+   "review GEM mapping: 86 source codes, 41 approximate, 5 one-to-many, 7 with no map"
   ],
-  "coverage": {
-   "icd9_to_icd10": 0.17,
-   "icd10_to_icd9": 0.57
+  "gem": {
+   "n_source_codes": 86,
+   "n_approximate": 41,
+   "n_one_to_many": 5,
+   "n_no_map": 7,
+   "n_combination": 0,
+   "n_target_codes": 70
   },
   "merged_keys": [
-   "resp_infection_copd_asthma",
-   "resp_infection_copd_asthma_icd9"
+   "resp_infection_copd_asthma_icd9",
+   "resp_infection_copd_asthma__icd9"
   ],
   "criteria_assigned_for": [
    "10_1038_s41467_023_37675_7",
@@ -2089,8 +2224,11 @@
    "printed"
   ],
   "icd10_sources": [
-   "paper pairing: resp_infection_copd_asthma",
-   "printed"
+   "GEM 2018"
+  ],
+  "typo_fixes": [],
+  "decision_notes": [
+   "Split for low coverage: overlap 12 of 70 (17%) from ICD-9 to ICD-10, and 17 of 30 (57%) from ICD-10 to ICD-9. The paper's ICD-10 list is much shorter than its ICD-9 ranges. (decision 13)"
   ]
  },
  "resp_infection": {
@@ -2193,7 +2331,9 @@
   ],
   "icd10_sources": [
    "GEM 2018"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "pneumonia": {
   "long_name": "Pneumonia and influenza",
@@ -2277,7 +2417,9 @@
   ],
   "icd10_sources": [
    "GEM 2018"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "pneumonia_486": {
   "long_name": "Pneumonia, organism unspecified (ICD-9 486)",
@@ -2326,7 +2468,9 @@
   ],
   "icd10_sources": [
    "GEM 2018"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "pneumonia_broad": {
   "long_name": "Pneumonia, including pneumonia codes from infectious disease chapters",
@@ -2400,9 +2544,7 @@
   "from_codesets": [
    "pneumonia_broad"
   ],
-  "flags": [
-   "ICD-9 and ICD-10 may not cover the same conditions: GEM overlap icd10_to_icd9 0.62"
-  ],
+  "flags": [],
   "coverage": {
    "icd9_to_icd10": 0.71,
    "icd10_to_icd9": 0.62
@@ -2416,7 +2558,9 @@
   ],
   "icd10_sources": [
    "printed"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "copd": {
   "long_name": "Chronic obstructive pulmonary disease, ICD-9 490-492",
@@ -2474,7 +2618,9 @@
   ],
   "icd10_sources": [
    "GEM 2018"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "copd_494": {
   "long_name": "Chronic obstructive pulmonary disease, ICD-9 490-492 and 494-496",
@@ -2542,7 +2688,9 @@
   ],
   "icd10_sources": [
    "GEM 2018"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "ards": {
   "long_name": "Acute respiratory distress syndrome",
@@ -2601,96 +2749,12 @@
   ],
   "icd10_sources": [
    "GEM 2018"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
- "parkinson_332_first10": {
+ "parkinson_332": {
   "long_name": "Parkinson's disease, ICD-9 332",
-  "criteria_in_step5": "any of the first 10 diagnosis fields",
-  "criteria": "any of the first 10 diagnosis fields",
-  "criteria_assigned": false,
-  "outcome_criteria": "first_n",
-  "first_n": 10,
-  "paper_id": [
-   "10_1038_s41531_024_00815_x"
-  ],
-  "treatment": [
-   "air_pollution",
-   "long_term"
-  ],
-  "icd9": [
-   "332"
-  ],
-  "icd10": [
-   "G20"
-  ],
-  "icd9_source": "printed",
-  "icd10_source": "printed",
-  "from_codesets": [
-   "parkinson_332"
-  ],
-  "flags": [
-   "ICD-9 and ICD-10 may not cover the same conditions: GEM overlap icd9_to_icd10 0.25"
-  ],
-  "coverage": {
-   "icd9_to_icd10": 0.25,
-   "icd10_to_icd9": 1.0
-  },
-  "merged_keys": [
-   "parkinson_332"
-  ],
-  "criteria_assigned_for": [],
-  "icd9_sources": [
-   "printed"
-  ],
-  "icd10_sources": [
-   "printed"
-  ]
- },
- "parkinson_332_principal": {
-  "long_name": "Parkinson's disease, ICD-9 332",
-  "criteria_in_step5": "principal diagnosis",
-  "criteria": "principal diagnosis",
-  "criteria_assigned": false,
-  "outcome_criteria": "first_n",
-  "first_n": 1,
-  "paper_id": [
-   "10_1186_1476_069x_13_38"
-  ],
-  "treatment": [
-   "air_pollution",
-   "short_term"
-  ],
-  "icd9": [
-   "332"
-  ],
-  "icd10": [
-   "G20"
-  ],
-  "icd9_source": "printed",
-  "icd10_source": "paper pairing: parkinson_332",
-  "from_codesets": [
-   "parkinson_332_icd9"
-  ],
-  "flags": [
-   "ICD-9 and ICD-10 may not cover the same conditions: GEM overlap icd9_to_icd10 0.25"
-  ],
-  "coverage": {
-   "icd9_to_icd10": 0.25,
-   "icd10_to_icd9": 1.0
-  },
-  "merged_keys": [
-   "parkinson_332_icd9__pair1"
-  ],
-  "criteria_assigned_for": [],
-  "icd9_sources": [
-   "printed"
-  ],
-  "icd10_sources": [
-   "paper pairing: parkinson_332"
-  ]
- },
- "parkinson_332_g21_principal": {
-  "long_name": "Parkinson's disease, ICD-9 332, with ICD-10 G21 secondary parkinsonism codes",
   "criteria_in_step5": "principal diagnosis",
   "criteria": "principal diagnosis",
   "criteria_assigned": false,
@@ -2723,7 +2787,7 @@
    "icd10_to_icd9": 1.0
   },
   "merged_keys": [
-   "parkinson_332_icd9__pair2"
+   "parkinson_332_icd9"
   ],
   "criteria_assigned_for": [],
   "icd9_sources": [
@@ -2731,7 +2795,9 @@
   ],
   "icd10_sources": [
    "paper pairing: parkinson_332_g21"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "parkinson_332_g21": {
   "long_name": "Parkinson's disease, ICD-9 332, with ICD-10 G21 secondary parkinsonism codes",
@@ -2781,7 +2847,9 @@
   ],
   "icd10_sources": [
    "printed"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "parkinson_3320": {
   "long_name": "Parkinson's disease, ICD-9 332.0",
@@ -2792,6 +2860,7 @@
   "first_n": 10,
   "paper_id": [
    "10_1038_s41370_026_00882_7",
+   "10_1038_s41531_024_00815_x",
    "10_1097_ee9_0000000000000519"
   ],
   "treatment": [
@@ -2809,22 +2878,34 @@
   "icd9_source": "printed",
   "icd10_source": "printed",
   "from_codesets": [
-   "parkinson_3320"
+   "parkinson_3320",
+   "parkinson_332__icd10",
+   "parkinson_332_or_3320"
   ],
-  "flags": [],
+  "flags": [
+   "review GEM mapping: 1 source codes, 1 approximate, 0 one-to-many, 0 with no map"
+  ],
   "coverage": {
    "icd9_to_icd10": 1.0,
    "icd10_to_icd9": 1.0
   },
   "merged_keys": [
-   "parkinson_3320"
+   "parkinson_3320",
+   "parkinson_332_or_3320",
+   "parkinson_332__icd10"
   ],
   "criteria_assigned_for": [],
   "icd9_sources": [
+   "GEM 2018",
    "printed"
   ],
   "icd10_sources": [
    "printed"
+  ],
+  "typo_fixes": [],
+  "decision_notes": [
+   "Ambiguous, not a clear typo: the paper prints 332/332.0, and it is not clear which it used. Read as 332.0, which means the same condition as its ICD-10 code G20. The other reading, 332, would also include secondary parkinsonism (332.1). (decision 10)",
+   "Split for low coverage: overlap 1 of 4 (25%) from ICD-9 to ICD-10. 332 also includes secondary parkinsonism (332.1), and G20 does not. The two parts match existing definitions. (decision 14)"
   ]
  },
  "adrd_ccw_any": {
@@ -2917,7 +2998,9 @@
   "icd10_sources": [
    "official list: 27 CCW Chronic Conditions, revised 02/2022",
    "printed"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "adrd_ccw_first10": {
   "long_name": "Alzheimer's disease and related dementias, CMS Chronic Conditions Warehouse list",
@@ -3008,7 +3091,9 @@
   "icd10_sources": [
    "official list: 27 CCW Chronic Conditions, revised 02/2022",
    "printed"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "dementia_ccw": {
   "long_name": "Dementia, CMS Chronic Conditions Warehouse list",
@@ -3087,7 +3172,9 @@
   ],
   "icd10_sources": [
    "GEM 2018"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "dementia_290": {
   "long_name": "Dementia, ICD-9 290",
@@ -3137,7 +3224,9 @@
   ],
   "icd10_sources": [
    "GEM 2018"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "alzheimers_principal": {
   "long_name": "Alzheimer's disease, ICD-9 331.0",
@@ -3184,7 +3273,9 @@
   ],
   "icd10_sources": [
    "GEM 2018"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "alzheimers_any": {
   "long_name": "Alzheimer's disease",
@@ -3231,52 +3322,9 @@
   ],
   "icd10_sources": [
    "printed"
-  ]
- },
- "adrd_shi": {
-  "long_name": "Alzheimer's disease and related dementias, short definition",
-  "criteria_in_step5": "principal or secondary diagnosis",
-  "criteria": "any diagnosis",
-  "criteria_assigned": false,
-  "outcome_criteria": "all",
-  "first_n": null,
-  "paper_id": [
-   "10_1016_s2542_5196_20_30227_8"
   ],
-  "treatment": [
-   "air_pollution",
-   "long_term"
-  ],
-  "icd9": [
-   "290",
-   "3310"
-  ],
-  "icd10": [
-   "F05",
-   "G309"
-  ],
-  "icd9_source": "printed",
-  "icd10_source": "printed",
-  "from_codesets": [
-   "adrd_shi"
-  ],
-  "flags": [
-   "ICD-9 and ICD-10 may not cover the same conditions: GEM overlap icd9_to_icd10 0.40, icd10_to_icd9 0.33"
-  ],
-  "coverage": {
-   "icd9_to_icd10": 0.4,
-   "icd10_to_icd9": 0.33
-  },
-  "merged_keys": [
-   "adrd_shi"
-  ],
-  "criteria_assigned_for": [],
-  "icd9_sources": [
-   "printed"
-  ],
-  "icd10_sources": [
-   "printed"
-  ]
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "dementia_vascular": {
   "long_name": "Vascular dementia",
@@ -3322,7 +3370,9 @@
   ],
   "icd10_sources": [
    "printed"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "dementia_nonspecific": {
   "long_name": "Non-specific dementia",
@@ -3388,7 +3438,9 @@
   ],
   "icd10_sources": [
    "printed"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "dementia_picks": {
   "long_name": "Pick's disease",
@@ -3430,7 +3482,9 @@
   ],
   "icd10_sources": [
    "printed"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "neurocognitive": {
   "long_name": "Neurocognitive disorder",
@@ -3474,7 +3528,9 @@
   ],
   "icd10_sources": [
    "printed"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "cerebral_degenerations": {
   "long_name": "Cerebral degenerations, ICD-9 331",
@@ -3536,7 +3592,9 @@
   ],
   "icd10_sources": [
    "GEM 2018"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "multiple_sclerosis": {
   "long_name": "Multiple sclerosis",
@@ -3581,7 +3639,9 @@
   ],
   "icd10_sources": [
    "GEM 2018"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "depression": {
   "long_name": "Depression",
@@ -3631,7 +3691,9 @@
   ],
   "icd10_sources": [
    "printed"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "schizophrenia": {
   "long_name": "Schizophrenia",
@@ -3675,7 +3737,9 @@
   ],
   "icd10_sources": [
    "printed"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "bipolar": {
   "long_name": "Bipolar disorder",
@@ -3726,7 +3790,9 @@
   ],
   "icd10_sources": [
    "printed"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "kidney_urinary": {
   "long_name": "Diseases of the kidney and urinary system",
@@ -3768,7 +3834,9 @@
   ],
   "icd10_sources": [
    "printed"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "aki_first10": {
   "long_name": "Acute kidney injury",
@@ -3809,7 +3877,9 @@
   ],
   "icd10_sources": [
    "printed"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "aki_any": {
   "long_name": "Acute kidney injury",
@@ -3847,7 +3917,9 @@
   ],
   "icd10_sources": [
    "printed"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "ckd": {
   "long_name": "Chronic kidney disease",
@@ -3889,7 +3961,9 @@
   ],
   "icd10_sources": [
    "printed"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "uti": {
   "long_name": "Urinary tract infection (ICD-9 599.0)",
@@ -3913,10 +3987,15 @@
   ],
   "icd9_source": "printed",
   "icd10_source": "GEM 2018",
-  "from_codesets": [
-   "uti"
+  "typo_fixes": [
+   "10_1016_j_scitotenv_2020_142524 prints 559, read as 5990 (decision 4)"
   ],
-  "flags": [],
+  "from_codesets": [
+   "uti_559"
+  ],
+  "flags": [
+   "10_1016_j_scitotenv_2020_142524 prints 559, read as 5990 (decision 4)"
+  ],
   "gem": {
    "n_source_codes": 1,
    "n_approximate": 0,
@@ -3926,7 +4005,7 @@
    "n_target_codes": 1
   },
   "merged_keys": [
-   "uti"
+   "uti_559"
   ],
   "criteria_assigned_for": [
    "10_1016_j_scitotenv_2020_142524"
@@ -3936,7 +4015,8 @@
   ],
   "icd10_sources": [
    "GEM 2018"
-  ]
+  ],
+  "decision_notes": []
  },
  "dehydration": {
   "long_name": "Dehydration",
@@ -3977,7 +4057,9 @@
   ],
   "icd10_sources": [
    "printed"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "diabetes": {
   "long_name": "Diabetes",
@@ -4076,7 +4158,9 @@
   ],
   "icd10_sources": [
    "GEM 2018"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "heat_stroke": {
   "long_name": "Heat stroke and sunstroke",
@@ -4124,50 +4208,9 @@
   ],
   "icd10_sources": [
    "GEM 2018"
-  ]
- },
- "heat_illness": {
-  "long_name": "Heat-related illness",
-  "criteria_in_step5": "principal or secondary diagnosis",
-  "criteria": "any diagnosis",
-  "criteria_assigned": false,
-  "outcome_criteria": "all",
-  "first_n": null,
-  "paper_id": [
-   "10_1097_ee9_0000000000000395"
   ],
-  "treatment": [
-   "extreme_weather",
-   "short_term"
-  ],
-  "icd9": [
-   "9920-9929"
-  ],
-  "icd10": [
-   "T673-T675"
-  ],
-  "icd9_source": "printed",
-  "icd10_source": "printed",
-  "from_codesets": [
-   "heat_illness"
-  ],
-  "flags": [
-   "ICD-9 and ICD-10 may not cover the same conditions: GEM overlap icd9_to_icd10 0.30, icd10_to_icd9 0.60"
-  ],
-  "coverage": {
-   "icd9_to_icd10": 0.3,
-   "icd10_to_icd9": 0.6
-  },
-  "merged_keys": [
-   "heat_illness"
-  ],
-  "criteria_assigned_for": [],
-  "icd9_sources": [
-   "printed"
-  ],
-  "icd10_sources": [
-   "printed"
-  ]
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "excessive_natural_heat": {
   "long_name": "Exposure to excessive natural heat",
@@ -4191,12 +4234,13 @@
   ],
   "icd9_source": "printed",
   "icd10_source": "printed",
+  "decision_notes": [
+   "Kept as printed, as an exception to the coverage cutoff: overlap 1 of 2 (50%) in each direction rests on too few codes. A split would add side effects of the mapping, W92 (man-made heat) and E929.5 (late effect of natural heat). (decision 17)"
+  ],
   "from_codesets": [
    "excessive_natural_heat"
   ],
-  "flags": [
-   "ICD-9 and ICD-10 may not cover the same conditions: GEM overlap icd9_to_icd10 0.50, icd10_to_icd9 0.50"
-  ],
+  "flags": [],
   "coverage": {
    "icd9_to_icd10": 0.5,
    "icd10_to_icd9": 0.5
@@ -4210,7 +4254,8 @@
   ],
   "icd10_sources": [
    "printed"
-  ]
+  ],
+  "typo_fixes": []
  },
  "hip_fracture": {
   "long_name": "Hip fractures",
@@ -4300,7 +4345,9 @@
   ],
   "icd10_sources": [
    "GEM 2018"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "pancreatic_cancer": {
   "long_name": "Pancreatic cancer",
@@ -4351,7 +4398,9 @@
   ],
   "icd10_sources": [
    "GEM 2018"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "septicemia_ccs": {
   "long_name": "Septicemia, CCS group 2",
@@ -4462,9 +4511,7 @@
    "septicemia_ccs",
    "septicemia_ccs_ccsr"
   ],
-  "flags": [
-   "ICD-9 and ICD-10 may not cover the same conditions: GEM overlap icd10_to_icd9 0.63"
-  ],
+  "flags": [],
   "coverage": {
    "icd9_to_icd10": 0.96,
    "icd10_to_icd9": 0.63
@@ -4480,7 +4527,9 @@
   "icd10_sources": [
    "official list: HCUP CCSR v2023.1",
    "paper pairing: septicemia_ccs_ccsr"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "diabetes_complications_ccs": {
   "long_name": "Diabetes mellitus with complications, CCS group 50",
@@ -4719,7 +4768,9 @@
   ],
   "icd10_sources": [
    "GEM 2018"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "fluid_electrolyte_ccs": {
   "long_name": "Fluid and electrolyte disorders, CCS group 55",
@@ -4797,7 +4848,9 @@
   ],
   "icd10_sources": [
    "GEM 2018"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "peripheral_vascular_ccs": {
   "long_name": "Peripheral and visceral atherosclerosis, CCS group 114",
@@ -4897,7 +4950,9 @@
   ],
   "icd10_sources": [
    "GEM 2018"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "kidney_failure_ccs": {
   "long_name": "Acute and unspecified renal failure, CCS group 157",
@@ -4957,7 +5012,9 @@
   ],
   "icd10_sources": [
    "GEM 2018"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "uti_ccs": {
   "long_name": "Urinary tract infections, CCS group 159",
@@ -5077,8 +5134,7 @@
    "uti_ccs_ccsr"
   ],
   "flags": [
-   "ICD-9 and ICD-10 may not cover the same conditions: GEM overlap icd10_to_icd9 0.57",
-   "typo corrected: the paper prints CCSR GEN001 for urinary tract infection, read as GEN004, since GEN001 is nephritis"
+   "10_1038_s41467_024_45776_0 prints CCSR GEN001, read as CCSR GEN004 (decision 5)"
   ],
   "coverage": {
    "icd9_to_icd10": 0.78,
@@ -5095,7 +5151,11 @@
   "icd10_sources": [
    "official list: HCUP CCSR v2023.1",
    "paper pairing: uti_ccs_ccsr"
-  ]
+  ],
+  "typo_fixes": [
+   "10_1038_s41467_024_45776_0 prints CCSR GEN001, read as CCSR GEN004 (decision 5)"
+  ],
+  "decision_notes": []
  },
  "heat_external_ccs": {
   "long_name": "Heat and other injuries and conditions due to external causes, CCS group 244",
@@ -5702,7 +5762,9 @@
   ],
   "icd10_sources": [
    "GEM 2018"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "heat_composite_ccs": {
   "long_name": "Heat-related hospitalizations, composite of 7 CCS groups",
@@ -6710,7 +6772,9 @@
   ],
   "icd10_sources": [
    "GEM 2018"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "nonresp_infection_ccs": {
   "long_name": "Non-respiratory infections, CCS and CCSR groups; the CCSR list excludes RSP002-RSP006",
@@ -9710,12 +9774,9 @@
    "CCS 248"
   ],
   "icd10_source": "official list: HCUP CCSR v2023.1",
-  "typo_fixes": [
-   "typo corrected: the paper prints CCSR GEN001 for urinary tract infection, read as GEN004, since GEN001 is nephritis"
-  ],
   "icd10_marker": [
    "CCSR DIG001",
-   "CCSR GEN001",
+   "CCSR GEN004",
    "CCSR INF002-INF004",
    "CCSR INF006-INF011",
    "CCSR MUS001-MUS002",
@@ -9723,11 +9784,14 @@
    "CCSR NVS001-NVS003",
    "CCSR SKN001"
   ],
+  "typo_fixes": [
+   "10_1038_s41467_024_45776_0 prints CCSR GEN001, read as CCSR GEN004 (decision 6)"
+  ],
   "from_codesets": [
    "nonresp_infection_ccs"
   ],
   "flags": [
-   "typo corrected: the paper prints CCSR GEN001 for urinary tract infection, read as GEN004, since GEN001 is nephritis"
+   "10_1038_s41467_024_45776_0 prints CCSR GEN001, read as CCSR GEN004 (decision 6)"
   ],
   "coverage": {
    "icd9_to_icd10": 0.79,
@@ -9742,7 +9806,8 @@
   ],
   "icd10_sources": [
    "official list: HCUP CCSR v2023.1"
-  ]
+  ],
+  "decision_notes": []
  },
  "cns_infection_ccs": {
   "long_name": "Central nervous system infections, CCS groups 76-78 and CCSR NVS001-NVS003",
@@ -10046,7 +10111,9 @@
   ],
   "icd10_sources": [
    "official list: HCUP CCSR v2023.1"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
  },
  "intestinal_infection_ccs": {
   "long_name": "Intestinal infections, CCS group 135 and CCSR DIG001",
@@ -10228,6 +10295,389 @@
   ],
   "icd10_sources": [
    "official list: HCUP CCSR v2023.1"
-  ]
+  ],
+  "typo_fixes": [],
+  "decision_notes": []
+ },
+ "resp_infection_copd_asthma__icd10": {
+  "long_name": "Respiratory disease as infections, COPD and asthma, as printed in ICD-10",
+  "criteria_in_step5": "not stated",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": true,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1038_s41467_023_37675_7"
+  ],
+  "treatment": [
+   "extreme_weather",
+   "short_term"
+  ],
+  "icd9": [
+   "4658",
+   "4659",
+   "4660",
+   "486",
+   "490",
+   "4910",
+   "4911",
+   "49120",
+   "49121",
+   "49122",
+   "4918",
+   "4919",
+   "4920",
+   "4928",
+   "49320",
+   "49321",
+   "49322",
+   "4940",
+   "4941",
+   "4950",
+   "4951",
+   "4952",
+   "4953",
+   "4954",
+   "4955",
+   "4956",
+   "4957",
+   "4958",
+   "4959",
+   "496"
+  ],
+  "icd10": [
+   "J069",
+   "J189",
+   "J209",
+   "J40",
+   "J410",
+   "J411",
+   "J418",
+   "J42",
+   "J439",
+   "J440",
+   "J441",
+   "J449",
+   "J471",
+   "J479",
+   "J670-J679"
+  ],
+  "icd9_source": "GEM 2018",
+  "icd10_source": "printed",
+  "split_from": "resp_infection_copd_asthma",
+  "decision_notes": [
+   "Split for low coverage: overlap 12 of 70 (17%) from ICD-9 to ICD-10, and 17 of 30 (57%) from ICD-10 to ICD-9. The paper's ICD-10 list is much shorter than its ICD-9 ranges. (decision 13)"
+  ],
+  "from_codesets": [
+   "resp_infection_copd_asthma__icd10"
+  ],
+  "flags": [
+   "review GEM mapping: 24 source codes, 9 approximate, 5 one-to-many, 0 with no map"
+  ],
+  "gem": {
+   "n_source_codes": 24,
+   "n_approximate": 9,
+   "n_one_to_many": 5,
+   "n_no_map": 0,
+   "n_combination": 0,
+   "n_target_codes": 30
+  },
+  "merged_keys": [
+   "resp_infection_copd_asthma__icd10"
+  ],
+  "criteria_assigned_for": [
+   "10_1038_s41467_023_37675_7"
+  ],
+  "icd9_sources": [
+   "GEM 2018"
+  ],
+  "icd10_sources": [
+   "printed"
+  ],
+  "typo_fixes": []
+ },
+ "parkinson_332__icd9": {
+  "long_name": "Parkinson's disease, ICD-9 332, as printed in ICD-9",
+  "criteria_in_step5": "any of the first 10 diagnosis fields",
+  "criteria": "any of the first 10 diagnosis fields",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 10,
+  "paper_id": [
+   "10_1038_s41531_024_00815_x"
+  ],
+  "treatment": [
+   "air_pollution",
+   "long_term"
+  ],
+  "icd9": [
+   "332"
+  ],
+  "icd10": [
+   "G20",
+   "G2111",
+   "G2119",
+   "G218"
+  ],
+  "icd9_source": "printed",
+  "icd10_source": "GEM 2018",
+  "split_from": "parkinson_332",
+  "decision_notes": [
+   "Split for low coverage: overlap 1 of 4 (25%) from ICD-9 to ICD-10. 332 also includes secondary parkinsonism (332.1), and G20 does not. The two parts match existing definitions. (decision 14)"
+  ],
+  "from_codesets": [
+   "parkinson_332__icd9"
+  ],
+  "flags": [
+   "review GEM mapping: 2 source codes, 2 approximate, 1 one-to-many, 0 with no map"
+  ],
+  "gem": {
+   "n_source_codes": 2,
+   "n_approximate": 2,
+   "n_one_to_many": 1,
+   "n_no_map": 0,
+   "n_combination": 0,
+   "n_target_codes": 4
+  },
+  "merged_keys": [
+   "parkinson_332__icd9"
+  ],
+  "criteria_assigned_for": [],
+  "icd9_sources": [
+   "printed"
+  ],
+  "icd10_sources": [
+   "GEM 2018"
+  ],
+  "typo_fixes": []
+ },
+ "heat_illness__icd9": {
+  "long_name": "Heat-related illness, as printed in ICD-9",
+  "criteria_in_step5": "principal or secondary diagnosis",
+  "criteria": "any diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "all",
+  "first_n": null,
+  "paper_id": [
+   "10_1097_ee9_0000000000000395"
+  ],
+  "treatment": [
+   "extreme_weather",
+   "short_term"
+  ],
+  "icd9": [
+   "9920-9929"
+  ],
+  "icd10": [
+   "T670XXA",
+   "T671XXA",
+   "T672XXA",
+   "T673XXA",
+   "T674XXA",
+   "T675XXA",
+   "T676XXA",
+   "T677XXA",
+   "T678XXA",
+   "T679XXA"
+  ],
+  "icd9_source": "printed",
+  "icd10_source": "GEM 2018",
+  "split_from": "heat_illness",
+  "decision_notes": [
+   "Split for low coverage: overlap 3 of 10 (30%) from ICD-9 to ICD-10. 992.0-992.9 maps to all of T67.0-T67.9, and the paper prints T67.3-T67.5. In the ICD-10 part, the GEM ICD-9 list includes 909.4 (late effect of heat) and V58.89 (other aftercare), from the follow-up and sequela versions of the T67 codes. (decision 15)"
+  ],
+  "from_codesets": [
+   "heat_illness__icd9"
+  ],
+  "flags": [
+   "review GEM mapping: 10 source codes, 10 approximate, 0 one-to-many, 0 with no map"
+  ],
+  "gem": {
+   "n_source_codes": 10,
+   "n_approximate": 10,
+   "n_one_to_many": 0,
+   "n_no_map": 0,
+   "n_combination": 0,
+   "n_target_codes": 10
+  },
+  "merged_keys": [
+   "heat_illness__icd9"
+  ],
+  "criteria_assigned_for": [],
+  "icd9_sources": [
+   "printed"
+  ],
+  "icd10_sources": [
+   "GEM 2018"
+  ],
+  "typo_fixes": []
+ },
+ "heat_illness__icd10": {
+  "long_name": "Heat-related illness, as printed in ICD-10",
+  "criteria_in_step5": "principal or secondary diagnosis",
+  "criteria": "any diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "all",
+  "first_n": null,
+  "paper_id": [
+   "10_1097_ee9_0000000000000395"
+  ],
+  "treatment": [
+   "extreme_weather",
+   "short_term"
+  ],
+  "icd9": [
+   "9094",
+   "9923",
+   "9924",
+   "9925",
+   "V5889"
+  ],
+  "icd10": [
+   "T673-T675"
+  ],
+  "icd9_source": "GEM 2018",
+  "icd10_source": "printed",
+  "split_from": "heat_illness",
+  "decision_notes": [
+   "Split for low coverage: overlap 3 of 10 (30%) from ICD-9 to ICD-10. 992.0-992.9 maps to all of T67.0-T67.9, and the paper prints T67.3-T67.5. In the ICD-10 part, the GEM ICD-9 list includes 909.4 (late effect of heat) and V58.89 (other aftercare), from the follow-up and sequela versions of the T67 codes. (decision 15)"
+  ],
+  "from_codesets": [
+   "heat_illness__icd10"
+  ],
+  "flags": [
+   "review GEM mapping: 9 source codes, 9 approximate, 0 one-to-many, 0 with no map"
+  ],
+  "gem": {
+   "n_source_codes": 9,
+   "n_approximate": 9,
+   "n_one_to_many": 0,
+   "n_no_map": 0,
+   "n_combination": 0,
+   "n_target_codes": 5
+  },
+  "merged_keys": [
+   "heat_illness__icd10"
+  ],
+  "criteria_assigned_for": [],
+  "icd9_sources": [
+   "GEM 2018"
+  ],
+  "icd10_sources": [
+   "printed"
+  ],
+  "typo_fixes": []
+ },
+ "adrd_shi__icd9": {
+  "long_name": "Alzheimer's disease and related dementias, short definition, as printed in ICD-9",
+  "criteria_in_step5": "principal or secondary diagnosis",
+  "criteria": "any diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "all",
+  "first_n": null,
+  "paper_id": [
+   "10_1016_s2542_5196_20_30227_8"
+  ],
+  "treatment": [
+   "air_pollution",
+   "long_term"
+  ],
+  "icd9": [
+   "290",
+   "3310"
+  ],
+  "icd10": [
+   "F0150",
+   "F0151",
+   "F0390",
+   "F05",
+   "G309"
+  ],
+  "icd9_source": "printed",
+  "icd10_source": "GEM 2018",
+  "split_from": "adrd_shi",
+  "decision_notes": [
+   "Split for low coverage: overlap 2 of 5 (40%) from ICD-9 to ICD-10, and 1 of 3 (33%) from ICD-10 to ICD-9. In the ICD-10 part, F05 (delirium) maps to 293.0 and 293.1. (decision 16)"
+  ],
+  "from_codesets": [
+   "adrd_shi__icd9"
+  ],
+  "flags": [
+   "review GEM mapping: 15 source codes, 15 approximate, 3 one-to-many, 0 with no map"
+  ],
+  "gem": {
+   "n_source_codes": 15,
+   "n_approximate": 15,
+   "n_one_to_many": 3,
+   "n_no_map": 0,
+   "n_combination": 3,
+   "n_target_codes": 5
+  },
+  "merged_keys": [
+   "adrd_shi__icd9"
+  ],
+  "criteria_assigned_for": [],
+  "icd9_sources": [
+   "printed"
+  ],
+  "icd10_sources": [
+   "GEM 2018"
+  ],
+  "typo_fixes": []
+ },
+ "adrd_shi__icd10": {
+  "long_name": "Alzheimer's disease and related dementias, short definition, as printed in ICD-10",
+  "criteria_in_step5": "principal or secondary diagnosis",
+  "criteria": "any diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "all",
+  "first_n": null,
+  "paper_id": [
+   "10_1016_s2542_5196_20_30227_8"
+  ],
+  "treatment": [
+   "air_pollution",
+   "long_term"
+  ],
+  "icd9": [
+   "2930",
+   "2931",
+   "3310"
+  ],
+  "icd10": [
+   "F05",
+   "G309"
+  ],
+  "icd9_source": "GEM 2018",
+  "icd10_source": "printed",
+  "split_from": "adrd_shi",
+  "decision_notes": [
+   "Split for low coverage: overlap 2 of 5 (40%) from ICD-9 to ICD-10, and 1 of 3 (33%) from ICD-10 to ICD-9. In the ICD-10 part, F05 (delirium) maps to 293.0 and 293.1. (decision 16)"
+  ],
+  "from_codesets": [
+   "adrd_shi__icd10"
+  ],
+  "flags": [
+   "review GEM mapping: 2 source codes, 2 approximate, 1 one-to-many, 0 with no map"
+  ],
+  "gem": {
+   "n_source_codes": 2,
+   "n_approximate": 2,
+   "n_one_to_many": 1,
+   "n_no_map": 0,
+   "n_combination": 0,
+   "n_target_codes": 3
+  },
+  "merged_keys": [
+   "adrd_shi__icd10"
+  ],
+  "criteria_assigned_for": [],
+  "icd9_sources": [
+   "GEM 2018"
+  ],
+  "icd10_sources": [
+   "printed"
+  ],
+  "typo_fixes": []
  }
 }

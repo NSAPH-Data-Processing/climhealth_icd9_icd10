@@ -16,9 +16,6 @@ OUT_LEFT = "052_left_out.json"
 CCW = json.load(open("official_lists/ccw_adrd_27cc_2022.json", encoding="utf-8"))
 # the paper's non-respiratory infection list excludes these CCSR categories
 CCSR_EXCLUDE = {"nonresp_infection_ccs": {"RSP002", "RSP003", "RSP004", "RSP005", "RSP006"}}
-# the paper prints GEN001 (nephritis) for urinary tract infection, which is GEN004 in the CCSR table
-CCSR_TYPOS = {"uti_ccs_ccsr": {"CCSR GEN001": "CCSR GEN004"}, "nonresp_infection_ccs": {"CCSR GEN001": "CCSR GEN004"}}
-TYPO_NOTE = "typo corrected: the paper prints CCSR GEN001 for urinary tract infection, read as GEN004, since GEN001 is nephritis"
 
 
 def load_tables():
@@ -63,11 +60,8 @@ def main():
                 continue
             assert all(is_marker(c) for c in codes), (key, codes)
             found, label = [], None
-            fixes = CCSR_TYPOS.get(key, {})
-            if version == "icd10" and fixes:
-                s["typo_fixes"] = [TYPO_NOTE]
             for m in codes:
-                got, label = resolve(fixes.get(m, m), version, ccs, ccsr)
+                got, label = resolve(m, version, ccs, ccsr)
                 assert got, (key, m)
                 found += got
             if version == "icd10" and key in CCSR_EXCLUDE:

@@ -1,12 +1,12 @@
 """Step 5.4: give every outcome ICD-9 and ICD-10 codes for the whole period.
 
-Input: 052_outcomes.json, official_lists/.
-For a set with one ICD version, in this order:
+Input: 053_outcomes.json, official_lists/.
+For a set with one ICD version, in this order (a set split in Step 5.3 goes straight to the GEMs):
   1. Pairing: the other version from every set whose codes in the available version are identical, whatever its criteria.
      Different pairings each give an entry. The set keeps its own criteria.
   2. GEMs: the CMS 2018 General Equivalence Mappings, with counts of approximate, one-to-many and unmapped codes.
-Flags a set when its two versions do not cover the same conditions: expanded to codes and passed through the GEMs, less than
-COVERAGE of the mapped codes fall inside the other version. Filled by GEMs sets are not checked, since they agree by construction.
+Records coverage for sets not filled by GEMs: expanded to codes and passed through the GEMs, the share of mapped codes that fall
+inside the other version, in each direction. It adds no flag, because sets at or below COVERAGE were decided in Step 5.3.
 
 Output: 054_outcomes.json
 Run: .venv/bin/python 054_icd_coverage.py
@@ -14,9 +14,9 @@ Run: .venv/bin/python 054_icd_coverage.py
 import csv
 import json
 
-IN = "052_outcomes.json"
+IN = "053_outcomes.json"
 OUT = "054_outcomes.json"
-COVERAGE = 0.7
+COVERAGE = 0.5  # the review cutoff of Step 5.3, for reference
 
 
 def load_gem(fn, src, dst):
@@ -85,7 +85,7 @@ def main():
         have, need = ("icd9", "icd10") if s["icd9"] else ("icd10", "icd9")
         pairs = {}
         for k, b in both.items():
-            if b[have] == s[have]:
+            if b[have] == s[have] and not s.get("split_from"):  # a set split in Step 5.3 uses the GEMs
                 pairs.setdefault(tuple(b[need]), []).append(k)
         if pairs:
             n_pair += 1
@@ -106,11 +106,7 @@ def main():
     for key, s in out.items():
         if s.get("gem"):
             continue
-        cov = coverage(s)
-        s["coverage"] = cov
-        low = [k for k, v in cov.items() if v is not None and v < COVERAGE]
-        if low:
-            s["flags"].append("ICD-9 and ICD-10 may not cover the same conditions: GEM overlap %s" % ", ".join("%s %.2f" % (k, cov[k]) for k in low))
+        s["coverage"] = coverage(s)  # numbers only: sets at or below COVERAGE were decided one by one in Step 5.3
     with open(OUT, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
         f.write("\n")

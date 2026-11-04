@@ -1,0 +1,266 @@
+{
+ "description": "Step 5.3 decisions, made one by one by the user. Applied by 053_apply_decisions.py.",
+ "format_choices_approved_by_user": [
+  "Trailing wildcards are removed (428.xx is 428, meaning every code under 428), and wildcards in the middle of a code become the valid codes (410.X0 is 41000, 41010 ... 41090).",
+  "Ranges side by side are joined (410-414 and 415-417 are 410-417).",
+  "Codes described in words are written as a range (codes beginning with \"I\" is I00-I99).",
+  "BMJ 2024's composite, described as the union of seven subtypes, takes the combined codes of those seven subtypes.",
+  "Markers use the 2022 CCW (the cited document), CCS 2015 (the last ICD-9 edition) and CCSR v2023.1 (a recent version).",
+  "Where a paper does not state the diagnosis position, Step 5.1 assigns principal diagnosis, or the first 10 fields for conditions often recorded as secondary, and notes it."
+ ],
+ "coverage_cutoff": "Very low coverage means 50% or below, including 50%, in either direction. Set by the user.",
+ "decisions": [
+  {
+   "id": 1,
+   "date": "2026-11-03",
+   "decided_by": "user",
+   "type": "typo",
+   "code_set": "resp_printed_490_448",
+   "paper_id": "10_1038_jes_2013_39",
+   "version": "icd9",
+   "printed": "490-448",
+   "used": "490-492",
+   "evidence": [
+    {"source": "10_1038_jes_2013_39, PMC3805672.1.xml, section 2 Data", "quote": "chronic obstructive pulmonary disease (490-448) and respiratory tract infections (464-466, 480-497)", "note": "The range runs backwards. The paper presents this as a direct quotation of its reference 21 (Peng, Chang, Bell, McDermott and colleagues)."},
+    {"source": "10_1001_jama_299_18_2172 (Peng 2008), article.pdf, page 2", "quote": "Respiratory admissions included chronic obstructive pulmonary disease (490-492) and respiratory tract infections (464-466, 480-487)", "note": "The source prints 490-492."}
+   ]
+  },
+  {
+   "id": 2,
+   "date": "2026-11-03",
+   "decided_by": "user",
+   "type": "typo",
+   "code_set": "resp_printed_490_448",
+   "paper_id": "10_1038_jes_2013_39",
+   "version": "icd9",
+   "printed": "480-497",
+   "used": "480-487",
+   "evidence": [
+    {"source": "10_1038_jes_2013_39, PMC3805672.1.xml, section 2 Data", "quote": "chronic obstructive pulmonary disease (490-448) and respiratory tract infections (464-466, 480-497)", "note": "A valid range, but the paper presents this as a direct quotation of its reference 21 (Peng, Chang, Bell, McDermott and colleagues)."},
+    {"source": "10_1001_jama_299_18_2172 (Peng 2008), article.pdf, page 2", "quote": "Respiratory admissions included chronic obstructive pulmonary disease (490-492) and respiratory tract infections (464-466, 480-487)", "note": "The source prints 480-487."}
+   ]
+  },
+  {
+   "id": 3,
+   "date": "2026-11-03",
+   "decided_by": "user",
+   "type": "typo",
+   "code_set": "stroke_ischemic_i163",
+   "paper_id": "10_1016_j_envint_2025_109617, 10_1016_j_envres_2025_122779",
+   "version": "icd10",
+   "printed": "I163",
+   "used": "I63",
+   "evidence": [
+    {"source": "10_1016_j_envint_2025_109617, PMC12810584.1.pdf, page 4", "quote": "We defined ischemic stroke as primary ICD-9 codes 433.X1, 434.X1, 436 and ICD-10 code I163", "note": "I163 is not in CCSR v2023.1, whose only I16 codes are I16.0, I16.1 and I16.9."},
+    {"source": "10_1016_j_envres_2025_122779, PMC12746473.1.pdf, page 5", "quote": "Ischemic stroke was defined as ICD-9 codes 433.X1, 434.X1, 436 and ICD-10 code I163", "note": "Same printed code."},
+    {"source": "10_1161_circulationaha_120_050252, PMC8055197.1.pdf, page 3", "quote": "Primary discharge codes for ischemic stroke were defined as ICD-9 codes 433.X1, 434.X1, and 436, and ICD-10 code I63", "note": "Identical ICD-9 list, with I63."},
+    {"source": "10_1016_j_scitotenv_2022_156855, PMC10007814.1.xml, Materials and Methods > Outcome Definition", "quote": "Ischemic stroke was defined as ICD-9 codes: 433.X1, 434.X1, 436, and ICD-10 code: I63", "note": "Identical ICD-9 list, with I63."}
+   ]
+  },
+  {
+   "id": 4,
+   "date": "2026-11-03",
+   "decided_by": "user",
+   "type": "typo",
+   "code_set": "uti_559",
+   "paper_id": "10_1016_j_scitotenv_2020_142524",
+   "version": "icd9",
+   "printed": "559",
+   "used": "5990",
+   "evidence": [
+    {"source": "10_1016_j_scitotenv_2020_142524, PMC7749824.1.xml, Materials and Methods > Outcomes", "quote": "urinary tract infection–UTI (ICD 9: 559)", "note": "559 has no codes in the official tables, which have 558 and 560 codes. No source prints the corrected code."},
+    {"source": "official_lists/ccs_icd9_2015.csv", "quote": "5990,159,UTI", "note": "599.0 is urinary tract infection, site not specified, in CCS 159. Chosen over 599, which also covers other urinary tract disorders, because the paper names UTI."}
+   ]
+  },
+  {
+   "id": 5,
+   "date": "2026-11-03",
+   "decided_by": "user, on Claude's recommendation",
+   "type": "marker_typo",
+   "code_set": "uti_ccs_ccsr",
+   "paper_id": "10_1038_s41467_024_45776_0",
+   "version": "icd10",
+   "printed": "CCSR GEN001",
+   "used": "CCSR GEN004",
+   "evidence": [
+    {"source": "10_1038_s41467_024_45776_0, PMC10876532.1.xml, methods", "quote": "urinary tract infection was defined as diagnosis code being in group GEN001", "note": "The paper pairs it with CCS 159 (UTI). Only 6% of the mapped codes overlap between CCS 159 and GEN001, in each direction."},
+    {"source": "official_lists/raw/ccsr_2023/DXCCSR_v2023-1.csv", "quote": "'N390',\"Urinary tract infection, site not specified\",'GEN004',Urinary tract infections", "note": "In CCSR v2023.1, GEN004 is urinary tract infections and GEN001 is nephritis; nephrosis; renal sclerosis. The paper does not print GEN004, and only v2023.1 was checked."}
+   ]
+  },
+  {
+   "id": 6,
+   "date": "2026-11-03",
+   "decided_by": "user, on Claude's recommendation",
+   "type": "marker_typo",
+   "code_set": "nonresp_infection_ccs",
+   "paper_id": "10_1038_s41467_024_45776_0",
+   "version": "icd10",
+   "printed": "CCSR GEN001",
+   "used": "CCSR GEN004",
+   "evidence": [
+    {"source": "10_1038_s41467_024_45776_0, PMC10876532.1.xml, methods", "quote": "non-respiratory infection was defined as being in group INF002-004, INF006-011, MUS001-002, MUS027, NVS001-NVS003, GEN001, SKN001 and DIG001 but not in group RSP002-006", "note": "Same category as decision 5, inside the composite."},
+    {"source": "official_lists/raw/ccsr_2023/DXCCSR_v2023-1.csv", "quote": "'N000',Acute nephritic syndrome with minor glomerular abnormality,'GEN001',Nephritis; nephrosis; renal sclerosis", "note": "GEN001 is not an infection category in CCSR v2023.1. Only v2023.1 was checked."}
+   ]
+  },
+  {
+   "id": 7,
+   "date": "2026-11-03",
+   "decided_by": "user",
+   "type": "typo",
+   "code_set": "cvd_390_495",
+   "paper_id": "10_1097_ede_0000000000001265",
+   "version": "icd9",
+   "printed": "390-495",
+   "used": "390-459",
+   "evidence": [
+    {"source": "10_1097_ede_0000000000001265, PMC7896354.1.xml, Methods > Outcome Assessment", "quote": "We defined CVD-related hospitalizations as events with a primary diagnosis (the condition chiefly responsible for the individual’s hospitalization) corresponding to an International Classification of Diseases, 9th Revision (ICD-9) codes from 390 to 495", "note": "A valid range, but 460-495 is respiratory, and the paper calls the outcome CVD. Its other outcomes (IHD, heart failure, AMI, stroke) are all cardiovascular. The paper does not print 459."},
+    {"source": "053_scan.json", "quote": "more common with this start: 390-459 (11 entries, this one 1)", "note": "390-459 is the ICD-9 circulatory chapter, and 495 is a one-digit swap from 459."}
+   ]
+  },
+  {
+   "id": 8,
+   "date": "2026-11-03",
+   "decided_by": "user",
+   "type": "keep",
+   "code_set": "cvd_390_429_principal",
+   "paper_id": "10_1186_1476_069x_12_68",
+   "version": "icd9",
+   "printed": "390-429",
+   "used": "390-429",
+   "note": "Kept as printed. Printed as all CVD, but 390-429 covers heart conditions and excludes stroke (430-438) and blood vessel disease (440-459).",
+   "evidence": [
+    {"source": "10_1186_1476_069x_12_68, PMC3765898.1.pdf, page 2", "quote": "we considered hospital admissions for all CVD conditions (codes 390–429)", "note": "A valid range, narrower than the ICD-9 circulatory chapter. It leaves conditions out and does not pull in another condition."},
+    {"source": "10_1038_jes_2014_7, PMC4063325.1.pdf, page 2", "quote": "we considered hospital admissions for all CVD conditions (codes 390–429)", "note": "The same words. The papers may share authors or text, so this is not two independent confirmations."}
+   ]
+  },
+  {
+   "id": 9,
+   "date": "2026-11-03",
+   "decided_by": "user",
+   "type": "keep",
+   "code_set": "cvd_390_429_not_stated",
+   "paper_id": "10_1038_jes_2014_7",
+   "version": "icd9",
+   "printed": "390-429",
+   "used": "390-429",
+   "note": "Kept as printed. Printed as all CVD, but 390-429 covers heart conditions and excludes stroke (430-438) and blood vessel disease (440-459).",
+   "evidence": [
+    {"source": "10_1038_jes_2014_7, PMC4063325.1.pdf, page 2", "quote": "we considered hospital admissions for all CVD conditions (codes 390–429)", "note": "Same decision as 8, for the other paper. It is a separate code set because this paper does not state its diagnosis position."}
+   ]
+  },
+  {
+   "id": 10,
+   "date": "2026-11-03",
+   "decided_by": "user",
+   "type": "ambiguous",
+   "code_set": "parkinson_332_or_3320",
+   "paper_id": "10_1097_ee9_0000000000000519",
+   "version": "icd9",
+   "printed": "332/3320",
+   "used": "3320",
+   "note": "Ambiguous, not a clear typo: the paper prints 332/332.0, and it is not clear which it used. Read as 332.0, which means the same condition as its ICD-10 code G20. The other reading, 332, would also include secondary parkinsonism (332.1).",
+   "evidence": [
+    {"source": "10_1097_ee9_0000000000000519, PMC13461014.1.pdf, page 2", "quote": "first hospitalization claim including a PD-related International Classification of Diseases (ICD)-9 (332/332.0) or ICD-10 (G20) code within the first ten billing diagnosis code inputs", "note": "Printed as 332/332.0. Either reading is a real definition. The paper's ICD-10 code is G20."},
+    {"source": "10_1038_s41370_026_00882_7 (Dinehart 2026), PMC13335889.2.pdf, page 2", "quote": "if its resulting claim included a PD-related ICD-9 (332.0) or ICD-10 (G20) code within the first ten billing diagnosis codes", "note": "Pairs 332.0 with G20. This is the reading chosen."},
+    {"source": "10_1038_s41531_024_00815_x (Wang 2024), PMC11502743.1.pdf, page 5", "quote": "PD diagnosis was determined based on International Classification of Diseases codes (ICD-9 332; ICD-10 G20)", "note": "The other reading, not chosen."}
+   ]
+  },
+  {
+   "id": 11,
+   "date": "2026-11-03",
+   "decided_by": "user",
+   "type": "keep",
+   "code_set": "cerebrovascular",
+   "paper_id": "10_1136_bmj_2023_076939",
+   "version": "icd10",
+   "printed": "I60-I69",
+   "used": "I60-I69",
+   "note": "Kept as printed. 10_1136_bmj_2023_076939 lists I64.x within I60-I69. I64 is not in the US ICD-10-CM, so it matches no US claims and changes no count.",
+   "evidence": [
+    {"source": "10_1136_bmj_2023_076939, weiy076939.ww.pdf, page 3, Supplementary Table S1", "quote": "Supplementary Table S1. ICD codes used for the identification of CVD subtypes", "note": "Lists I60.x to I69.x for cerebrovascular disease, including I64.x."},
+    {"source": "official_lists/ccsr_icd10_v2023_1.csv", "quote": "", "note": "No I64 codes. The other nine categories have valid codes: I60 21, I61 9, I62 6, I63 92, I65 11, I66 15, I67 17, I68 3, I69 246."}
+   ]
+  },
+  {
+   "id": 12,
+   "date": "2026-11-03",
+   "decided_by": "user",
+   "type": "keep",
+   "code_set": "cvd_composite_seven",
+   "paper_id": "10_1136_bmj_2023_076939",
+   "version": "icd10",
+   "printed": "I60-I69",
+   "used": "I60-I69",
+   "note": "Kept as printed. The cerebrovascular part lists I64.x, which is not in the US ICD-10-CM, so it matches no US claims and changes no count.",
+   "evidence": [
+    {"source": "10_1136_bmj_2023_076939, weiy076939.ww.pdf, page 3, Supplementary Table S1", "quote": "Supplementary Table S1. ICD codes used for the identification of CVD subtypes", "note": "Same decision as 11. This composite includes the paper's cerebrovascular codes."}
+   ]
+  },
+  {
+   "id": 13,
+   "date": "2026-11-03",
+   "decided_by": "user, on Claude's recommendation",
+   "type": "split",
+   "code_set": "resp_infection_copd_asthma",
+   "paper_id": "10_1038_s41467_023_37675_7",
+   "note": "Split for low coverage: overlap 12 of 70 (17%) from ICD-9 to ICD-10, and 17 of 30 (57%) from ICD-10 to ICD-9. The paper's ICD-10 list is much shorter than its ICD-9 ranges.",
+   "evidence": [{"source": "053_scan.json", "quote": "", "note": "ICD-9 464-466, 480-487, 490-493 with a short J list."}]
+  },
+  {
+   "id": 14,
+   "date": "2026-11-03",
+   "decided_by": "user, on Claude's recommendation",
+   "type": "split",
+   "code_set": "parkinson_332",
+   "paper_id": "10_1038_s41531_024_00815_x",
+   "note": "Split for low coverage: overlap 1 of 4 (25%) from ICD-9 to ICD-10. 332 also includes secondary parkinsonism (332.1), and G20 does not. The two parts match existing definitions.",
+   "evidence": [{"source": "10_1038_s41531_024_00815_x, PMC11502743.1.pdf, page 5", "quote": "PD diagnosis was determined based on International Classification of Diseases codes (ICD-9 332; ICD-10 G20)", "note": "The percentage rests on only 4 codes."}]
+  },
+  {
+   "id": 15,
+   "date": "2026-11-03",
+   "decided_by": "user, on Claude's recommendation",
+   "type": "split",
+   "code_set": "heat_illness",
+   "paper_id": "10_1097_ee9_0000000000000395",
+   "note": "Split for low coverage: overlap 3 of 10 (30%) from ICD-9 to ICD-10. 992.0-992.9 maps to all of T67.0-T67.9, and the paper prints T67.3-T67.5. In the ICD-10 part, the GEM ICD-9 list includes 909.4 (late effect of heat) and V58.89 (other aftercare), from the follow-up and sequela versions of the T67 codes.",
+   "evidence": [{"source": "10_1097_ee9_0000000000000395, PMC12058651.1.pdf", "quote": "heat-related illness (ICD-9-CM: 992.0-992.9; ICD-10-CM: T67.3-67.5)", "note": "Without a split, heat stroke (T67.0) would count in the ICD-9 years only."}]
+  },
+  {
+   "id": 16,
+   "date": "2026-11-03",
+   "decided_by": "user, on Claude's recommendation",
+   "type": "split",
+   "code_set": "adrd_shi",
+   "paper_id": "10_1016_s2542_5196_20_30227_8",
+   "note": "Split for low coverage: overlap 2 of 5 (40%) from ICD-9 to ICD-10, and 1 of 3 (33%) from ICD-10 to ICD-9. In the ICD-10 part, F05 (delirium) maps to 293.0 and 293.1.",
+   "evidence": [{"source": "10_1016_s2542_5196_20_30227_8, PMC7720425.1.pdf", "quote": "Alzheimer’s disease and related dementias (ICD-9: 331·0, 290; ICD-10: G30·9, and F05)", "note": "The appendix says codes beginning with 331.0 and 290."}]
+  },
+  {
+   "id": 17,
+   "date": "2026-11-03",
+   "decided_by": "user, on Claude's recommendation",
+   "type": "keep",
+   "code_set": "excessive_natural_heat",
+   "paper_id": "10_1097_ee9_0000000000000395",
+   "version": "icd9",
+   "printed": "E900",
+   "used": "E900",
+   "note": "Kept as printed, as an exception to the coverage cutoff: overlap 1 of 2 (50%) in each direction rests on too few codes. A split would add side effects of the mapping, W92 (man-made heat) and E929.5 (late effect of natural heat).",
+   "evidence": [{"source": "10_1097_ee9_0000000000000395, PMC12058651.1.pdf", "quote": "exposure to excessive natural heat (ICD-9-CM: E900; ICD-10-CM: X30)", "note": "Both versions name the same exposure."}]
+  },
+  {
+   "id": 18,
+   "date": "2026-11-03",
+   "decided_by": "user, on Claude's recommendation",
+   "type": "keep",
+   "code_set": "resp_infection_copd_494",
+   "paper_id": "10_1016_s2542_5196_21_00168_6",
+   "version": "icd9",
+   "printed": "494-496",
+   "used": "494-496",
+   "note": "Kept as printed, as an exception to the coverage cutoff: overlap 24 of 73 (33%) from ICD-9 to ICD-10, but the authors evaluated this ICD-9 to ICD-10 conversion and deemed it acceptable.",
+   "evidence": [{"source": "10_1016_s2542_5196_21_00168_6, supplement_mmc1.pdf, eMethod 1", "quote": "We deemed the conversion between ICD-9-CM codes and ICD-10-CM codes acceptable for this study", "note": "The appendix compares incidence rates across the switch to ICD-10."}]
+  }
+ ]
+}

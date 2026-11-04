@@ -233,8 +233,9 @@ Markers mean the paper names a definition without printing its codes. Replace th
 ### Step 5.3 Clean icd codes.
 - note potential typos, support with some evidence.
 - for the author defined icd9 and icd10 mappings, measure ICD-9 and ICD-10 map coverage in both directions. Determine a percentage measure. 
-- when coverage is very low (e.g. `heat_illness`), split the set in two, one ICD-9 only and one ICD-10 only, each filled with the GEM mapping in Step 5.4.
-- let's fix one by one manually together (like we did with manual downloads), record the decisions.
+- review sets with coverage of 50% or below, in either direction. For each one, decide together whether to split the set in two, one ICD-9 only and one ICD-10 only, each filled with the GEM mapping in Step 5.4, or to keep it as printed with a note. The cutoff selects what to review, it does not decide the outcome.
+- let's fix one by one manually together (like we did with manual downloads), record the decisions and their evidence.
+- do not make any decision that changes an ICD code list without the user's authorization, in this or any other step.
 
 ### Step 5.4: ICD-10 and ICD-9 coverage
 Every outcome must have codes for the whole period, because ICD-10 replaced ICD-9 in October 2015.

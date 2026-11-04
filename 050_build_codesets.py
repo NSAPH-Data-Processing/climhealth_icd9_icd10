@@ -9,7 +9,7 @@ Rules (CLAUDE.md)
   Kept: role 'outcome', not group_based. Left out (listed in 050_left_out.json): Parks 2021, papers that fit the same model
   over a CCS pool, and scans of CCS groups. CCW sets that print their codes are kept. Chosen CCS or CCW outcomes without
   printed codes are kept with a marker in the code lists ('markers' in 050_names.json), for example "CCW" or "CCS 157".
-  Codes are normalized, then typos in FIXES are corrected. Two entries are one code set when ICD-9, ICD-10 and criteria all match.
+  Codes are normalized in format only, and typos stay as printed until Step 5.3. Two entries are one code set when ICD-9, ICD-10 and criteria all match.
   treatment is the union over the set's papers. Papers with no air pollution, heat or weather exposure add nothing.
 
 Output: 050_codesets.yaml, 050_left_out.json, 050_treatment_by_paper.csv
@@ -36,13 +36,6 @@ LEFT_OUT_PAPERS = {"10_1016_j_ypmed_2018_02_001": "same model over each diagnosi
 LEFT_OUT_HAND = {("10_1161_circheartfailure_118_005407", "heart failure or cardiomyopathy (component)"): "component of the amyloidosis definition",
                  ("10_1093_aje_kwag087", "hospitalization without ADRD"): "every other hospitalization, not a code set",
                  ("10_1609_aaai_v39i27_35009", "not-obviously heat-related (NOHR) hospitalizations: septicemia, peripheral vascular disease, urinary tract infections, diabetes mellitus with complications"): "CCS groups, taken from Bobb 2014"}
-# (slug or None for any paper, printed code) -> corrected codes
-FIXES = {("10_1038_jes_2013_39", "490-448"): ["490-492"],  # cites Peng 2008, which prints 490-492
-         ("10_1038_jes_2013_39", "480-497"): ["480-487"],  # cites Peng 2008, which prints 480-487
-         ("10_1097_ede_0000000000001265", "390 to 495"): ["390-459"],  # the CVD range; 460-495 is respiratory
-         ("10_1016_j_scitotenv_2020_142524", "559"): ["5990"],  # 559 is not an ICD-9 category; UTI is 599.0
-         (None, "I163"): ["I63"],  # I63 in the group's other papers
-         ("10_1097_ee9_0000000000000519", "332/332.0"): ["3320"]}
 # X stands for a digit; only the valid codes are listed
 WILDCARDS = {"410X0": ["410%d0" % d for d in range(10)],
              "410X1": ["410%d1" % d for d in range(10)],
@@ -102,7 +95,8 @@ def merge(codes):
         if out:
             pa, pb = split_range(out[-1])
             same = len(pa) == len(pb) == len(a) == len(b) == 3 and pa[0].isalpha() == a[0].isalpha() and (not a[0].isalpha() or pa[0] == a[0])
-            if same and (a <= pb or next_code(pb) == a):
+            forward = pa <= pb and a <= b  # a printed backwards range such as 490-448 is left as it is
+            if same and forward and (a <= pb or next_code(pb) == a):
                 hi = max(pb, b)
                 out[-1] = pa if pa == hi else "%s-%s" % (pa, hi)
                 continue
@@ -111,11 +105,7 @@ def merge(codes):
 
 
 def canon(slug, codes):
-    out = []
-    for c in codes:
-        fixed = FIXES.get((slug, c)) or FIXES.get((None, c))
-        out += fixed if fixed else normalize(c)
-    return merge(out)
+    return merge([c for x in codes for c in normalize(x)])
 
 
 def criteria(o, paper):

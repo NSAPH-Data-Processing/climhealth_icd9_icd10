@@ -57,7 +57,6 @@
   "paper_id": [
    "10_1080_01621459_2020_1722134",
    "10_1097_ede_0000000000000556",
-   "10_1097_ede_0000000000001265",
    "10_1289_ehp257"
   ],
   "treatment": [
@@ -161,6 +160,25 @@
    "410-414",
    "426-438",
    "440-448"
+  ],
+  "icd10": []
+ },
+ "cvd_390_495": {
+  "long_name": "Cardiovascular disease, printed as ICD-9 390 to 495",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1097_ede_0000000000001265"
+  ],
+  "treatment": [
+   "air_pollution",
+   "short_term"
+  ],
+  "icd9": [
+   "390-495"
   ],
   "icd10": []
  },
@@ -782,8 +800,6 @@
   "outcome_criteria": "first_n",
   "first_n": 1,
   "paper_id": [
-   "10_1016_j_envint_2025_109617",
-   "10_1016_j_envres_2025_122779",
    "10_1016_j_scitotenv_2022_156855",
    "10_1161_circulationaha_120_050252"
   ],
@@ -806,6 +822,38 @@
   ],
   "icd10": [
    "I63"
+  ]
+ },
+ "stroke_ischemic_i163": {
+  "long_name": "Ischemic stroke, ICD-10 printed as I163",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1016_j_envint_2025_109617",
+   "10_1016_j_envres_2025_122779"
+  ],
+  "treatment": [
+   "air_pollution",
+   "extreme_weather",
+   "long_term"
+  ],
+  "icd9": [
+   "43301",
+   "43311",
+   "43321",
+   "43331",
+   "43381",
+   "43391",
+   "43401",
+   "43411",
+   "43491",
+   "436"
+  ],
+  "icd10": [
+   "I163"
   ]
  },
  "stroke_43491": {
@@ -924,7 +972,6 @@
   "paper_id": [
    "10_1001_jama_299_18_2172",
    "10_1016_s2542_5196_17_30002_5",
-   "10_1038_jes_2013_39",
    "10_1097_ede_0000000000000556",
    "10_1289_ehp257",
    "10_1289_ehp_0800185",
@@ -939,6 +986,27 @@
    "464-466",
    "480-487",
    "490-492"
+  ],
+  "icd10": []
+ },
+ "resp_printed_490_448": {
+  "long_name": "Respiratory disease, ICD-9 printed as 464-466, 480-497, 490-448",
+  "criteria_in_step5": "principal diagnosis",
+  "criteria": "principal diagnosis",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 1,
+  "paper_id": [
+   "10_1038_jes_2013_39"
+  ],
+  "treatment": [
+   "air_pollution",
+   "short_term"
+  ],
+  "icd9": [
+   "464-466",
+   "480-497",
+   "490-448"
   ],
   "icd10": []
  },
@@ -1290,6 +1358,27 @@
    "G218"
   ]
  },
+ "parkinson_332_or_3320": {
+  "long_name": "Parkinson's disease, ICD-9 printed as 332/332.0",
+  "criteria_in_step5": "any of the first 10 diagnosis fields",
+  "criteria": "any of the first 10 diagnosis fields",
+  "criteria_assigned": false,
+  "outcome_criteria": "first_n",
+  "first_n": 10,
+  "paper_id": [
+   "10_1097_ee9_0000000000000519"
+  ],
+  "treatment": [
+   "air_pollution",
+   "long_term"
+  ],
+  "icd9": [
+   "332/3320"
+  ],
+  "icd10": [
+   "G20"
+  ]
+ },
  "parkinson_3320": {
   "long_name": "Parkinson's disease, ICD-9 332.0",
   "criteria_in_step5": "any of the first 10 diagnosis fields",
@@ -1298,13 +1387,10 @@
   "outcome_criteria": "first_n",
   "first_n": 10,
   "paper_id": [
-   "10_1038_s41370_026_00882_7",
-   "10_1097_ee9_0000000000000519"
+   "10_1038_s41370_026_00882_7"
   ],
   "treatment": [
-   "air_pollution",
    "extreme_weather",
-   "long_term",
    "short_term"
   ],
   "icd9": [
@@ -2017,8 +2103,8 @@
    "N18"
   ]
  },
- "uti": {
-  "long_name": "Urinary tract infection (ICD-9 599.0)",
+ "uti_559": {
+  "long_name": "Urinary tract infection, printed as ICD-9 559",
   "criteria_in_step5": "not stated",
   "criteria": "principal diagnosis",
   "criteria_assigned": true,
@@ -2032,7 +2118,7 @@
    "short_term"
   ],
   "icd9": [
-   "5990"
+   "559"
   ],
   "icd10": []
  },
